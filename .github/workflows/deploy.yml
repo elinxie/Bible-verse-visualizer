@@ -1,0 +1,60 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main, claude/bible-passage-map-viz-r17fur]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # Snapshot ESV text for priority books (currently 1 & 2 Samuel) so the
+      # deployed site has an offline fallback if the live API is unreachable.
+      # Extend BOOKS below as coverage grows (bolls.life ids: Gen=1 … Rev=66).
+      - name: Snapshot scripture text for offline fallback
+        run: |
+          mkdir -p data/embedded
+          snapshot() {  # snapshot <bookId> <chapterCount>
+            for ch in $(seq 1 "$2"); do
+              f="data/embedded/$1-$ch.json"
+              if curl -sSf --max-time 20 "https://bolls.life/get-text/ESV/$1/$ch/" -o "$f"; then
+                # sanity: must be a JSON array with verses
+                head -c 1 "$f" | grep -q '\[' || rm -f "$f"
+              else
+                rm -f "$f"
+              fi
+              sleep 0.3
+            done
+          }
+          snapshot 9 31    # 1 Samuel
+          snapshot 10 24   # 2 Samuel
+          echo "Embedded chapters: $(ls data/embedded | wc -l)"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
