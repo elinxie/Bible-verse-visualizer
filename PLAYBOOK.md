@@ -111,4 +111,7 @@ Session checklist:
 - Live URL: **https://elinxie.github.io/Bible-verse-visualizer/**
 - Deploy branch: `claude/bible-passage-map-viz-r17fur` (also `main` after merge).
 - Pipeline: `.github/workflows/deploy.yml` — snapshots ESV for listed books,
-  then publishes the repo root to GitHub Pages. Rollback = revert commit + push.
+  then force-pushes the site to the `gh-pages` branch (GitHub Pages serves that
+  branch; the `verify` job polls the live URL until it answers 200).
+  Never develop on `gh-pages` — it's a generated artifact, overwritten every
+  deploy. Rollback = revert commit on the dev branch + push.

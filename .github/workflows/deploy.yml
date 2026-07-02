@@ -6,9 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -17,9 +15,6 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -45,16 +40,31 @@ jobs:
           snapshot 10 24   # 2 Samuel
           echo "Embedded chapters: $(ls data/embedded | wc -l)"
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
+      # Publish the site (repo root + snapshots) to the gh-pages branch.
+      # GitHub auto-enables Pages for public repos when gh-pages exists.
+      - name: Publish to gh-pages branch
+        run: |
+          rm -f .gitignore            # keep data/embedded in the published tree
+          touch .nojekyll
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan gh-pages
+          git add -A
+          git commit -m "Deploy site from ${GITHUB_SHA::7}"
+          git push -f origin gh-pages
 
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+  verify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for the live site to respond
+        run: |
+          url="https://elinxie.github.io/Bible-verse-visualizer/"
+          for i in $(seq 1 30); do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$url")
+            echo "attempt $i: HTTP $code"
+            if [ "$code" = "200" ]; then echo "Site is live: $url"; exit 0; fi
+            sleep 20
+          done
+          echo "::error::Site not reachable yet. If this is the first deploy, enable Pages once: Settings → Pages → Source: 'Deploy from a branch' → gh-pages / root."
+          exit 1
