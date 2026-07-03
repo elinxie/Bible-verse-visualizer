@@ -134,6 +134,181 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   1 SAMUEL 17 — David and Goliath
+   ============================================================ */
+"9:17": {
+  era: {
+    title: "ca. 1025–1020 BC — David fells the Philistine champion",
+    sub: "Iron Age I · Valley of Elah · Saul's reign, ongoing Philistine wars",
+    badges: ["Iron Age I", "United monarchy", "Philistine wars", "≈3,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Twice a day for forty days a nine-foot champion has dared any Israelite to single combat, and the whole army has flinched. A shepherd boy sent from Bethlehem with bread and cheeses for his brothers hears the taunt, refuses Saul's armor as unfamiliar weight, and goes down to the brook for five smooth stones instead — 'the battle is the LORD's' (v. 47), and one sling stone ends it.",
+  focusPlace: "elah",
+  places: [
+    { id:"elah",      role:"The battle line and killing ground (vv. 2-3, 49)" },
+    { id:"socoh",     role:"Southern anchor of the Philistine camp (v. 1)" },
+    { id:"azekah",    role:"Northern anchor of the Philistine camp (v. 1)" },
+    { id:"gath",      role:"Goliath's home city — and one terminus of the rout (vv. 4, 52)" },
+    { id:"ekron",     role:"The rout's other terminus, where the wounded fell (v. 52)" },
+    { id:"bethlehem", role:"David's home — sent with provisions for his brothers (vv. 12-15)" },
+    { id:"philistia", role:"The massed army's homeland, drawn up for war (v. 1)" },
+    { id:"jerusalem", role:"Where David later brought Goliath's head (v. 54) — still Jebusite-held at this date; see Analyses (c)" }
+  ],
+  journey: [
+    { from:"bethlehem", to:"elah",
+      label:"David's supply run", km:20,
+      note:"About 20 km on foot carrying bread, roasted grain and ten cheeses for his brothers' captain (vv. 17-20) — an errand that put a shepherd boy on a battlefield at exactly the right hour." },
+    { from:"elah", to:"gath",
+      label:"The rout, west toward Gath", km:15,
+      note:"Once the champion fell, Israel's line surged forward; the fleeing Philistines scattered along the Shaaraim road, with wounded falling as far as Gath (v. 52)." },
+    { from:"elah", to:"ekron",
+      label:"The rout, north toward Ekron", km:16,
+      note:"A second stream of the rout ran toward Ekron, the Philistine city nearest the valley's mouth (v. 52)." },
+    { from:"elah", to:"jerusalem",
+      label:"Goliath's head", km:35, dashed:true,
+      note:"David 'brought the head... to Jerusalem' (v. 54) — read by most commentators as a proleptic note, since the city was still held by the Jebusites until David's later conquest (2 Sam 5:6-9); see Analyses (c)." }
+  ],
+  hotspots: [
+    { x:0.14, type:"person", label:"David — sling and shepherd's staff", av:"shepherd",
+      desc:"Ruddy, youngest of eight, unused to Saul's armor and sword ('I cannot go in these, for I am not used to them,' v. 39). He carries only his staff, his sling, and a shepherd's bag — the tools that already killed a lion and a bear (vv. 34-36)." },
+    { x:0.34, type:"person", label:"Goliath of Gath, in scale armor", av:"warrior",
+      desc:"A champion (ish habbenayim, 'man of the between-space') fronting the whole army for forty straight days (vv. 8-16). Bronze helmet, coat of scale armor, greaves, and a javelin slung on his back, with a shield-bearer walking ahead of him (v. 7)." },
+    { x:0.52, type:"person", label:"Saul, in the camp", av:"king",
+      desc:"The king who is himself a head taller than any Israelite (9:2) has not answered the challenge in forty days. He offers David his own armor and bronze helmet (v. 38) — a gift David politely sets aside." },
+    { x:0.68, type:"person", label:"Eliab, the angry eldest brother", av:"warrior",
+      desc:"Serving in Saul's line (v. 13), Eliab turns on David for merely asking about the challenge: 'I know your presumption and the evil of your heart' (v. 28) — sibling friction that echoes 1 Sam 16:6-7, where the LORD had already passed over this same eldest brother." },
+    { x:0.80, type:"object", label:"Five smooth stones from the brook",
+      desc:"David chooses five water-rounded stones from the wadi bed (v. 40) — likely limestone or flint, naturally shaped by the winter torrent, the kind a trained slinger could place with rifle-shot accuracy." },
+    { x:0.90, type:"object", label:"Goliath's sword",
+      desc:"David has no sword of his own, so he draws Goliath's to finish him (v. 51) — the same sword that resurfaces years later, wrapped in cloth behind the ephod at Nob, when David asks the priest Ahimelech for a weapon (1 Sam 21:9)." }
+  ],
+  environment: {
+    chips: ["Broad daylight, forty-day standoff", "Iron Age I · Shephelah buffer zone", "Two camps on facing ridges", "A wadi of water-rounded stones", "Barley/wheat terraces", "Bronze vs. sling-and-staff"],
+    text: "The Elah Valley is a broad wadi cutting through the Shephelah, the low hill country that buffers the Philistine coastal plain from the Judean highlands — contested ground for centuries because whoever holds it controls the roads inland. The Philistines camped on the ridge near Socoh and Azekah; Israel held the opposite slope, with 'a valley between them' (v. 3) — likely only a few hundred meters of open ground, floored with the smooth, fist-sized stones a winter torrent leaves behind. Surveys of the valley and the neighboring tells (Azekah, Socoh, Gath at Tell es-Safi) match the text's geography closely: this is a real, mappable battlefield, not a symbolic backdrop."
+  },
+  objectsExtra: ["sling","spear","sword","armor"],
+  peopleExtra: ["david","goliath","saul"],
+  culture: [
+    { title:"Single combat in the ancient world", icon:"🤺",
+      text:"Champions fighting to decide (or open) a battle appear across the ancient Near East and beyond — from Egyptian and Hittite accounts to the Iliad's dueling heroes. Goliath's proposal (v. 8-9) follows the pattern exactly: 'choose a man... let him fight me... whichever wins, that side rules.' What's unusual in this story is the outcome — the underdog with no armor beats the professional in front of two watching armies." },
+    { title:"The sling: a real ancient weapon, not a toy", icon:"🪨",
+      text:"Slings were standard military kit — Judges 20:16 describes 700 left-handed Benjaminite slingers who 'could sling a stone at a hair and not miss.' Experimental archaeology and excavated lead/stone sling bullets suggest release speeds in the range of roughly 30-35 m/s, with skilled slingers effective well past 100 meters — closing the 'unarmed boy vs. armored giant' gap considerably more than popular retellings suggest." },
+    { title:"Goliath's panoply, itemized", icon:"🛡️",
+      text:"The text lists gear like an inventory: bronze helmet, scale-armor coat weighing '5,000 shekels of bronze' (roughly 57 kg / 125 lb by common shekel-weight estimates), bronze greaves, a bronze javelin slung on his back, and a spear 'like a weaver's beam,' its iron head alone about 600 shekels (some 6-7 kg). Scholars have long noted Aegean-style parallels — greaves and a slung javelin are better attested in Mycenaean/early Greek than in standard Canaanite equipment — consistent with the Philistines' Aegean origins as one of the Sea Peoples groups." },
+    { title:"'Six cubits and a span' — a height variant", icon:"📏",
+      text:"The Hebrew (Masoretic) text gives Goliath's height as six cubits and a span, about 2.9 m (9'9\"). The Septuagint's oldest manuscripts and the Dead Sea Scroll fragment 4QSamuel-a instead read four cubits and a span, about 2.0 m (6'9\") — still a giant, but a more ordinary one. Many modern text critics judge the shorter reading original, suggesting the '6' crept in from '600' two verses later (an easy copying slip); others defend the Masoretic number. Either figure leaves Goliath extraordinary for the period; the manuscripts differ on degree, not on the basic claim." },
+    { title:"Why five stones?", icon:"🔢",
+      text:"David gathers five stones though he only needs one (v. 40, 49). Guesses range from simple prudence — a trained slinger keeps spares in case of a miss or a second challenger — to a later tradition (echoed by some readers of 2 Sam 21:15-22, where four more Philistine giants 'descended from the giants' at Gath) that David anticipated Goliath's kin joining the fight. Scripture doesn't say which; both are presented as views, not settled fact." },
+    { title:"'The battle is the LORD's'", icon:"⚔️",
+      text:"The chapter's own center of gravity, by its own telling, isn't marksmanship: David's speech to Goliath (vv. 45-47) explicitly reframes the duel as a demonstration 'that all the earth may know that there is a God in Israel' and 'that the LORD saves not with sword and spear.' Commentators across traditions treat this covenant claim, not the sling's mechanics, as the passage's theological point." }
+  ],
+  crossRefs: [
+    { group:"Backstory", refs:[
+      { r:"1 Samuel 16:1-13", note:"Samuel anoints David at Bethlehem, passing over his older brothers" },
+      { r:"1 Samuel 16:14-23", note:"David already serves Saul as court harpist — how the two men may have already met" } ]},
+    { group:"The champion's line", refs:[
+      { r:"2 Samuel 21:15-22", note:"four more Philistine giants 'descended from the giants' at Gath, killed by David's men" },
+      { r:"1 Chronicles 20:5", note:"parallel account naming Elhanan's kill as Goliath's brother Lahmi — see Analyses (b)" } ]},
+    { group:"David remembers", refs:[
+      { r:"Psalm 144:1", note:"'Blessed be the LORD, my rock, who trains my hands for war' — widely linked to this fight" },
+      { r:"Psalm 151 (LXX/Dead Sea Scrolls tradition)", note:"an extra-canonical psalm explicitly retelling the Goliath duel in David's voice; not in the Hebrew or Protestant canon" } ]},
+    { group:"Faith echoes", refs:[
+      { r:"Hebrews 11:32-34", note:"the roll call of faith that 'became mighty in war, put foreign armies to flight'" } ]},
+    { group:"Aftermath", refs:[
+      { r:"1 Samuel 18:6-9", note:"the women's song — 'Saul has struck down his thousands, David his ten thousands' — the jealousy that follows" },
+      { r:"1 Samuel 21:9", note:"Goliath's sword, kept behind the ephod at Nob, given to the fugitive David" } ]}
+  ],
+  analyses: {
+    intro: "How this visualization's reading compares with widely used ESV-based commentary and analysis of 1 Samuel 17:",
+    consensus: [
+      "The Elah Valley's geography is treated as historical and mappable: surveys and excavations at Tel Azekah, Socoh, and Gath (Tell es-Safi) line up with the chapter's 'camp between Socoh and Azekah' and the stream in the valley floor.",
+      "The champion-combat setup (vv. 8-10) is read against a well-attested ancient Near Eastern and Homeric backdrop of representative single combat deciding or opening a battle.",
+      "Commentators consistently locate the chapter's theological center in David's own words (vv. 45-47) — the LORD's deliverance, not David's skill — rather than in the mechanics of the sling.",
+      "The Masoretic/Septuagint height discrepancy (six cubits vs. four cubits and a span) is acknowledged in most modern study-Bible and commentary treatments as a genuine textual variant, not a modern skeptical invention."
+    ],
+    debated: [
+      { tag:"a", title:"How tall was Goliath?", text:"The Hebrew (Masoretic) text reads six cubits and a span (~2.9 m); the oldest Septuagint manuscripts and the Qumran fragment 4QSam-a read four cubits and a span (~2.0 m). Many textual critics favor the shorter figure as original, proposing the '6' was drawn in from the '600 shekels' two verses later; others defend the traditional Hebrew number as original and see the Greek/Qumran reading as a later 'toning down.' Both readings describe a man far larger than his opponents; this site follows the traditional six-cubit figure in its era note while flagging the variant here." },
+      { tag:"b", title:"Who killed Goliath — David or Elhanan?", text:"2 Samuel 21:19 (Hebrew text) reads 'Elhanan... struck down Goliath the Gittite,' while 1 Chronicles 20:5 names Elhanan's victim as 'Lahmi the brother of Goliath.' The standard harmonization, held across a wide range of conservative and critical scholarship alike, treats 2 Samuel 21:19 as containing an early copying slip (a dropped 'brother of,' with 'Bethlehemite' and 'the shaft of his spear was like a weaver's beam' both plausibly duplicated from the David narrative) and 1 Chronicles as preserving the more original wording. A minority view treats 'Goliath' as a recurring champion's title rather than one man's unique name. This site follows 1 Samuel 17: David killed Goliath." },
+      { tag:"c", title:"Why does verse 54 send the head to Jerusalem?", text:"At this point in the story Jerusalem was still a Jebusite stronghold — David does not capture it until years later, as king (2 Sam 5:6-9). Most commentators read v. 54 as a proleptic, editorial notice (the narrator writing from a later vantage point when Jerusalem was David's city), while a few suggest a temporary or symbolic 'bringing' rather than deposit in an already-Israelite city. The verse is not treated as evidence against an early conquest date for Jerusalem either way." }
+    ],
+    sources: [
+      { name:"Enduring Word (David Guzik), 1 Samuel 17", url:"https://enduringword.com/bible-commentary/1-samuel-17/" },
+      { name:"Precept Austin — 1 Samuel 17 commentary collection", url:"https://www.preceptaustin.org/1-samuel-17-commentary" },
+      { name:"BibleRef — What does 1 Samuel 17 mean?", url:"https://www.bibleref.com/1-Samuel/17/1-Samuel-chapter-17.html" }
+    ]
+  }
+},
+
+/* ============================================================
+   1 SAMUEL 31 — The death of Saul on Mount Gilboa
+   ============================================================ */
+"9:31": {
+  era: {
+    title: "ca. 1010 BC — the death of Saul on Mount Gilboa",
+    sub: "Late Iron Age I · Jezreel Valley · the day after the séance at En-dor",
+    badges: ["Iron Age I", "United monarchy (ending)", "Philistine wars", "≈3,000 years ago"]
+  },
+  timeOfDay: "dusk",
+  summary: "Samuel's word from the night before comes due. Israel's line breaks on the slopes of Gilboa, three of Saul's sons fall including Jonathan, and the wounded king — rather than be captured and mocked by the Philistines — falls on his own sword. By the next day his body hangs on the wall of Beth-shan and his armor is dedicated in a Philistine temple, until the men of Jabesh-gilead, remembering an old debt, march all night to bring him home.",
+  focusPlace: "gilboa",
+  places: [
+    { id:"gilboa",         role:"Israel's line breaks on the mountain's slopes (v. 1)" },
+    { id:"jezreel-spring", role:"The overrun Israelite camp at the mountain's foot" },
+    { id:"bethshan",       role:"Saul's body displayed on the city wall; his armor sent to the temple (vv. 9-10)" },
+    { id:"jabesh",         role:"Jabesh-gilead's valiant men march by night to recover the bodies (vv. 11-13)" },
+    { id:"philistia",      role:"The victorious army, stripping the Israelite dead (v. 8)" }
+  ],
+  journey: [
+    { from:"gilboa", to:"bethshan",
+      label:"The Philistines' trophy procession", km:13,
+      note:"Saul's armor to the temple, his body to the city wall — the victors parade their prize through their own towns, 'to carry the good news to their idols and to the people' (v. 9), before fastening what remains to Beth-shan." },
+    { from:"jabesh", to:"bethshan",
+      label:"Jabesh-gilead's night march", km:15, dashed:true,
+      note:"'All the valiant men arose and walked all night' (v. 12) across the Jordan to strip the bodies from the wall — repaying Saul for the relief he brought them as a brand-new king, decades earlier (1 Sam 11)." }
+  ],
+  hotspots: [
+    { x:0.22, type:"person", label:"Saul falls on his sword", av:"king",
+      desc:"Badly wounded by archers (v. 3), Saul orders his armor-bearer to finish him rather than let 'these uncircumcised' abuse him. When the armor-bearer refuses, Saul falls on his own sword — and the terrified armor-bearer follows him in death (vv. 4-6)." },
+    { x:0.42, type:"person", label:"Jonathan's fall", av:"warrior",
+      desc:"Saul's heir dies alongside two brothers, Abinadab and Malchi-shua, before his father does (v. 2) — the friend who once gave David his own robe and armor (18:4), gone in the same rout that ends the dynasty's first line." },
+    { x:0.66, type:"person", label:"The men of Jabesh-gilead, by night", av:"traveler",
+      desc:"A generation earlier, Saul's first act as king was force-marching relief to a besieged Jabesh-gilead (1 Sam 11:1-11). Now its men repay him — a night raid across the Jordan to take his body off a pagan wall." },
+    { x:0.82, type:"object", label:"Saul's armor, sent to the temple of Ashtaroth",
+      desc:"1 Samuel 31:10 places the armor in 'the temple of Ashtaroth'; the parallel account in 1 Chronicles 10:10 has the armor in 'the temple of their gods' and the head fastened in 'the temple of Dagon' — trophies of a defeated king's god dedicated to the victors' own." }
+  ],
+  environment: {
+    chips: ["Dusk, the day after En-dor", "Rout flows uphill off the valley floor", "Chariot country giving way to slopes", "Vultures over the stripped dead (v. 8)", "Late Iron Age I material culture", "Philistine victory rites"],
+    text: "The battle plays out exactly where 1 Samuel 28 and 29 staged it: Philistine chariotry needed the flat floor of the Jezreel Valley, so Israel had taken the high ground of Gilboa — a defensible ridge, but one with no room left to retreat once the line broke. As dusk falls the rout runs the wrong way for Israel, uphill and inward, penning the wounded against the mountain rather than opening an escape route to the Jordan. 'The next day' (v. 8) the victors return to strip the dead — standard ancient battlefield practice — and find the king's own body among them."
+  },
+  objectsExtra: ["sword","armor"],
+  peopleExtra: ["saul","jonathan","abner"],
+  culture: [
+    { title:"Trophy display and temple dedication", icon:"🏛️",
+      text:"Displaying a defeated enemy's body and dedicating his armor in a god's temple was standard ancient Near Eastern victory ritual — a way of crediting the win to the god, not just the army. 1 Samuel 31:10 names Ashtaroth's temple for the armor; 1 Chronicles 10:10 has the head go to Dagon's temple — the two accounts may simply record different trophies going to different shrines rather than truly conflicting." },
+    { title:"Why Jabesh-gilead owed Saul", icon:"🤝",
+      text:"1 Samuel 11 tells how Nahash the Ammonite besieged Jabesh-gilead and offered terms only by gouging out every right eye; Saul's forced march and relief of the town was his very first act as king, the victory that confirmed his kingship at Gilgal. Three decades on, that debt is why Jabesh's men risk a night raid for his corpse." },
+    { title:"Burial by fire — an unusual step", icon:"🔥",
+      text:"Verse 12 has the men of Jabesh burn the bodies before burying the bones under the tamarisk tree there — cremation is otherwise rare to absent in normal Israelite burial practice. Commentators generally read it as an emergency measure on already-mutilated, decomposing remains rather than standard funerary custom; the bones are later moved and properly reburied by David in the family tomb (2 Sam 21:12-14)." },
+    { title:"David's lament — the chapter's canonical answer", icon:"🎶",
+      text:"2 Samuel 1:19-27, David's dirge 'How the mighty have fallen,' functions as Scripture's own commentary on this scene — cursing the very mountains of Gilboa ('let there be no dew or rain upon you') and praising both Saul and Jonathan without triumphalism, even though Saul had hunted David for years." }
+  ],
+  crossRefs: [
+    { group:"Foretold", refs:[
+      { r:"1 Samuel 28:16-19", note:"Samuel's word at En-dor the night before: 'tomorrow you and your sons shall be with me'" },
+      { r:"1 Samuel 15:26-28", note:"the rejection that set this end in motion" } ]},
+    { group:"Parallel account", refs:[
+      { r:"1 Chronicles 10:1-14", note:"the Chronicler's retelling, closing with the inspired verdict on why Saul died" } ]},
+    { group:"Aftermath", refs:[
+      { r:"2 Samuel 1", note:"the Amalekite's report and David's lament, 'How the mighty have fallen'" },
+      { r:"2 Samuel 21:12-14", note:"David retrieves the bones and gives Saul and Jonathan proper burial" },
+      { r:"2 Samuel 2:4-7", note:"David sends thanks to Jabesh-gilead for their loyalty to Saul" } ]},
+    { group:"First loyalty", refs:[
+      { r:"1 Samuel 11:1-11", note:"Saul's rescue of Jabesh-gilead — the debt being repaid here" } ]}
+  ]
+},
+
+/* ============================================================
    LUKE 2 — The Nativity & the boy in the temple
    ============================================================ */
 "42:2": {
