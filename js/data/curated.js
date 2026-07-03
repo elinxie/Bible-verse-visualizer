@@ -518,6 +518,195 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   1 SAMUEL 4 — The ark captured; Ichabod
+   ============================================================ */
+"9:4": {
+  era: {
+    title: "ca. 1104 BC — the ark lost at Aphek",
+    sub: "Iron Age I · the closing years of the judges · Eli's house falls",
+    badges: ["Iron Age I", "Period of the judges", "Philistine wars", "≈3,130 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Israel loses a first skirmish at Aphek and sends for the ark itself, hoping the box will win the war for them. It doesn't. The Philistines rally, Israel's line breaks, the ark is captured, Hophni and Phinehas die as Eli's judgment foretold, and a runner carries the news south with his clothes torn and dust on his head. Old Eli, waiting by the road with his heart trembling for the ark rather than his sons, falls backward off his seat and dies. His daughter-in-law, going into labor at the news, names her son Ichabod — 'the glory has departed' — and dies without ever looking at him.",
+  focusPlace: "ebenezer",
+  places: [
+    { id:"ebenezer", role:"Israel's camp facing the Philistines (v. 1)" },
+    { id:"aphek",     role:"The Philistine muster point across the valley (v. 1)" },
+    { id:"shiloh",    role:"The sanctuary awaiting news — and doom (vv. 12-22)" }
+  ],
+  journey: [
+    { from:"aphek", to:"ebenezer",
+      label:"The battle lines", km:3,
+      note:"The two camps face each other across a short valley where the coast road bends inland; the first day's fighting alone costs Israel about four thousand men (v. 2)." },
+    { from:"ebenezer", to:"shiloh", dashed:true,
+      label:"The runner with torn clothes", km:35,
+      note:"A Benjaminite runs roughly 35 km south with his clothes torn and earth on his head; when he reports the ark taken, Eli — 98 years old — falls backward off his seat by the gate and breaks his neck. 'The glory has departed from Israel, for the ark of God was captured' (v. 22)." }
+  ],
+  hotspots: [
+    { x:0.28, type:"object", label:"The ark carried into camp with a great shout",
+      desc:"After the first defeat Israel sends to Shiloh for the ark itself, reasoning 'it may save us from the power of our enemies' (v. 3). When it enters the camp, 'all Israel gave a mighty shout, so that the earth resounded' — loud enough that the Philistines hear it and are afraid, remembering the God 'who struck the Egyptians with every sort of plague' (vv. 5-8)." },
+    { x:0.4, type:"person", label:"Hophni and Phinehas beside it", av:"priest",
+      desc:"Eli's corrupt sons (2:12-17, 22-25) accompany the ark to the field, exactly as the man of God had warned: 'both of them shall die on the same day' (2:34). Both fall in the rout (v. 11)." },
+    { x:0.6, type:"person", label:"Old Eli on his seat by the road", av:"priest",
+      desc:"Ninety-eight years old and blind, Eli waits by the roadside, 'for his heart trembled for the ark of God' — not for his sons. At the word 'the ark of God is captured' he falls backward, breaks his neck, and dies (vv. 13-18)." },
+    { x:0.78, type:"person", label:"The dying wife of Phinehas naming Ichabod", av:"woman",
+      desc:"Already in labor, she hears her husband and father-in-law are dead and the ark taken, gives birth, and names the boy Ichabod, 'no glory' — 'she said, \"The glory has departed from Israel!\" because the ark of God had been captured' — then dies (vv. 19-22)." }
+  ],
+  environment: {
+    chips: ["Two defeats near the coast-road corridor", "The ark treated as a war-talisman", "A great shout that reaches the enemy camp", "Shiloh's fall implied (Jer 7:12)", "A runner with torn clothes and dust on his head", "Iron Age I sanctuary town in shock"],
+    text: "The fighting plays out along the corridor where the coastal plain narrows and the hill country begins — Philistine chariotry needs the flat ground, and Aphek's springs make it a natural muster point they use again a generation later (1 Sam 29). Israel's camp faces them from a low ridge that later tradition ties to Samuel's memorial stone (7:12). The chapter's grimmest implication is left for the reader: Jeremiah and the Psalms later treat Shiloh's own destruction as following from this disaster (Jer 7:12-14; Ps 78:60), even though 1 Samuel itself never narrates the sanctuary's fall directly."
+  },
+  objectsExtra: ["ark-covenant"],
+  peopleExtra: ["eli"],
+  culture: [
+    { title:"Gods carried to war", icon:"⚔️",
+      text:"Bringing a divine image or palladium onto the battlefield to guarantee victory was common ancient Near Eastern practice — armies fought convinced their god's physical presence fought with them. Israel's version here is diagnosed by the narrative itself as the same magic-thinking: the ark is summoned as a talisman ('it may save us,' v. 3) with no accompanying repentance or inquiry of the LORD, and it fails to save them — the text pointedly does not let the ark function as a lucky charm." },
+    { title:"Ichabod and the departed glory", icon:"🕯️",
+      text:"Kavod ('glory,' also 'weightiness' or 'honor') names the LORD's manifest presence, elsewhere resting visibly over the tabernacle (Ex 40:34-38). Naming the newborn 'no glory' turns a family tragedy into a theological verdict: what Israel has lost is not just a battle or a box, but God's own manifest presence from among them." },
+    { title:"Shiloh's fall in archaeology", icon:"🏺",
+      text:"Excavations at Khirbet Seilun (biblical Shiloh) have found a destruction layer generally dated to around the mid-11th century BC, consistent with — though not narrated by — the disaster this chapter sets in motion. Prophetic memory treats Shiloh's ruin as the paradigm warning of what unfaithfulness brings on a sanctuary (Jer 7:12-14; Ps 78:60)." }
+  ],
+  crossRefs: [
+    { group:"The warning fulfilled", refs:[
+      { r:"1 Samuel 2:27-36", note:"the man of God's judgment on Eli's house" },
+      { r:"1 Samuel 3:11-14", note:"Samuel's own night vision confirms the same verdict" } ]},
+    { group:"Shiloh remembered", refs:[
+      { r:"Jeremiah 7:12-14", note:"'go now to my place that was in Shiloh... see what I did to it'" },
+      { r:"Psalm 78:56-64", note:"the psalm's retelling of the ark's capture and Shiloh's abandonment" } ]},
+    { group:"The ark is not a charm", refs:[
+      { r:"Numbers 10:35-36", note:"the ark's proper role — going before Israel at the LORD's own command" },
+      { r:"Joshua 6", note:"contrast: the ark at Jericho, carried in obedience, not as a talisman" },
+      { r:"Jeremiah 3:16", note:"a day coming when the ark itself will not even be missed" } ]},
+    { group:"What glory means", refs:[
+      { r:"Exodus 40:34-38", note:"the glory filling the tabernacle" },
+      { r:"Ezekiel 10:18", note:"the glory departing the temple centuries later, echoing this scene" } ]}
+  ]
+},
+
+/* ============================================================
+   1 SAMUEL 5 — The ark in Dagon's temple
+   ============================================================ */
+"9:5": {
+  era: {
+    title: "ca. 1104 BC — the ark among the Philistines",
+    sub: "Iron Age I · the Philistine pentapolis · a captive God takes the temple",
+    badges: ["Iron Age I", "Period of the judges", "Philistine wars", "≈3,130 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "The Philistines bring their trophy to Ashdod and set it beside Dagon in his temple. Twice the god is found fallen on his face before it; the second time his head and hands lie broken off on the threshold. Tumors and panic break out across the city, so the ark is passed to Gath, and then, as the plague follows it, on to Ekron — whose people refuse it outright, crying that it has come 'to kill us and our people.' What was meant as a captured god's humiliation turns into an untamed captive no city wants to keep.",
+  focusPlace: "ashdod",
+  places: [
+    { id:"ashdod", role:"Dagon's temple; the idol falls twice (vv. 1-7)" },
+    { id:"gath",   role:"The ark's second stop, and the plague follows it (v. 8)" },
+    { id:"ekron",  role:"Panic and outright refusal — 'they have brought around to us the ark' (v. 10)" }
+  ],
+  journey: [
+    { from:"ashdod", to:"gath",
+      label:"Pass the problem along", km:19,
+      note:"After Dagon falls and Ashdod is struck with tumors, the city's lords decide to move the ark rather than send it home." },
+    { from:"gath", to:"ekron",
+      label:"The hot potato", km:16,
+      note:"Each city that receives the ark breaks out in tumors and panic; by the time it reaches Ekron the people refuse it outright before it even enters, forcing the lords back to the field to decide what to do (vv. 8-10)." }
+  ],
+  hotspots: [
+    { x:0.25, type:"object", label:"Dagon fallen on his face before the ark",
+      desc:"Set up beside the ark overnight, Dagon is found the next morning face-down before it 'like one prostrate before a superior' — restored to his place, he is found the same way a second morning, but this time with his head and both hands broken off, lying on the threshold (vv. 3-4)." },
+    { x:0.45, type:"object", label:"The ark alone in the holy place",
+      desc:"By the second fall only Dagon's torso remains standing; the ark occupies the temple as if it, not the Philistine grain god, is the one true resident — a captured deity that refuses to be a trophy." },
+    { x:0.65, type:"person", label:"Ashdodite priests who thereafter skip the threshold", av:"priest",
+      desc:"The narrator adds an eyewitness detail of enduring local custom: 'that is why the priests of Dagon and all who enter Dagon's house do not tread on the threshold of Dagon in Ashdod to this day' (v. 5)." }
+  ],
+  environment: {
+    chips: ["Philistine pentapolis under plague", "Tumors (opalim) and panic", "Dead in the streets", "A trophy that will not stay tame", "Dagon's toppled cult statue", "'The hand of the LORD was heavy'"],
+    text: "Ashdod, Gath, and Ekron were three of the five Philistine 'royal cities' governing the coastal plain, each with its own lord and temple. The narrative moves the ark city to city as a plague moves — each stop struck with tumors ('opalim,' v. 6) and a death toll severe enough that 'the cry of the city went up to heaven' (v. 12) — turning what began as a war trophy into a hazard no city will host for long."
+  },
+  objectsExtra: ["ark-covenant"],
+  peopleExtra: [],
+  culture: [
+    { title:"Dagon — grain god, not fish god", icon:"🌾",
+      text:"Dagon (from dagan, 'grain') was a well-attested West Semitic and Philistine deity associated with grain and fertility, worshiped across the region long before the Philistines arrived; the popular idea that 'Dagon' means a fish-god rests on a medieval misreading of the Hebrew and is not supported by the ancient evidence. Temples associated with Philistine cult practice have been excavated in the Ashdod region, consistent with the city's biblical role as a Dagon cult center." },
+    { title:"Trophy gods in the ancient Near East", icon:"🏛️",
+      text:"Carrying a defeated enemy's divine image to the victor's own temple was standard ANE practice, crediting a battlefield win to one's own god (compare the Philistines later doing exactly this with Saul's armor, 1 Sam 31:10). The irony here is total reversal: the 'captured' ark does not sit passively as a trophy — it topples the very god it was set beside, and effectively takes the temple instead." },
+    { title:"The plague — a common but uncertain identification", icon:"🐭",
+      text:"Chapter 6 later pairs the tumors with an outbreak of mice/rats (6:4-5), which has led some interpreters to suggest a bubonic-type plague spread by rodents. This is often proposed but not established with certainty — the text itself is more interested in the plague as the LORD's 'heavy hand' than in a clinical diagnosis, and readers should hold the rodent-plague theory as a plausible guess rather than a settled fact." }
+  ],
+  crossRefs: [
+    { group:"The LORD among the gods", refs:[
+      { r:"Exodus 12:12", note:"'on all the gods of Egypt I will execute judgments'" },
+      { r:"Isaiah 19:1", note:"the idols of Egypt tremble at the LORD's presence" },
+      { r:"Isaiah 46:1-2", note:"Bel bows down, Nebo stoops — captured idols carted off, unable to save themselves" } ]},
+    { group:"Thresholds and superstitions", refs:[
+      { r:"Zephaniah 1:9", note:"a later oracle against 'all who leap over the threshold'" } ]},
+    { group:"The hand of the LORD", refs:[
+      { r:"Exodus 9:3", note:"'the hand of the LORD' against Egypt's livestock, the same phrase used here" },
+      { r:"1 Samuel 5:6,9,11", note:"the phrase repeated as the plague spreads city to city" },
+      { r:"Acts 13:11", note:"the same divine 'hand' strikes a sorcerer blind in the New Testament" } ]}
+  ]
+},
+
+/* ============================================================
+   1 SAMUEL 6 — The ark returns on a cart
+   ============================================================ */
+"9:6": {
+  era: {
+    title: "ca. 1104 BC — the ark's road home",
+    sub: "Iron Age I · wheat harvest in the Sorek valley · a diviners' test the LORD passes",
+    badges: ["Iron Age I", "Period of the judges", "Philistine wars", "≈3,130 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Seven months on, Philistine priests and diviners design a test: hitch two milk cows, still nursing calves, to a new cart carrying the ark and a guilt offering of golden tumors and mice, and see which way the untrained animals go. Against every instinct, the cows walk straight up the road to Beth-shemesh, lowing for the calves penned up behind them, and the diviners have their answer. Israelite reapers look up from the wheat harvest to see the ark coming home — joy that turns to disaster when some of the men look inside it and are struck down, and the ark moves on again, this time to a twenty-year rest at Kiriath-jearim.",
+  focusPlace: "bethshemesh",
+  places: [
+    { id:"ekron",         role:"The ark's departure point after seven months among the Philistines (v. 1)" },
+    { id:"bethshemesh",   role:"The cows' destination; harvest joy and disaster (vv. 12-20)" },
+    { id:"kiriathjearim", role:"The ark's twenty-year rest begins here (v. 21–7:2)" }
+  ],
+  journey: [
+    { from:"ekron", to:"bethshemesh",
+      label:"The lowing cows", km:12,
+      note:"Two milk cows, their calves penned up at home, are hitched to a new cart and set loose with no driver. They 'went straight in the direction of Beth-shemesh... lowing as they went, and turned neither to the right nor to the left' — a test the Philistine diviners designed and the LORD passed (vv. 7-12)." },
+    { from:"bethshemesh", to:"kiriathjearim",
+      label:"Up to the hill town", km:10,
+      note:"After the deadly incident at Beth-shemesh, the townspeople send word to Kiriath-jearim to come take the ark, and it rests there twenty years rather than returning to a ruined Shiloh (v. 21–7:2)." }
+  ],
+  hotspots: [
+    { x:0.22, type:"object", label:"The cart with the ark and the golden offering",
+      desc:"Alongside the ark rides a chest holding five golden tumors and five golden mice — one for each Philistine lord — a 'guilt offering' meant to acknowledge the LORD and turn the plague away (vv. 4-8, 11)." },
+    { x:0.4, type:"object", label:"The two milk cows",
+      desc:"Deliberately untrained animals with nursing calves shut away — every natural instinct should pull them home, not away. Their straight, unguided walk to Israelite territory, lowing the whole way, is the diviners' own chosen proof of the LORD's hand (vv. 7-12)." },
+    { x:0.6, type:"person", label:"Levites splitting the cart for the burnt offering", av:"priest",
+      desc:"At the great stone in Joshua's field, the Levites take the cows down and offer them as a burnt offering, breaking up the wood of the cart for fuel — the wagon itself consumed on the spot (vv. 14-15)." },
+    { x:0.78, type:"person", label:"Reapers looking up from the wheat harvest", av:"shepherd",
+      desc:"'The people of Beth-shemesh were reaping their wheat harvest in the valley' when they look up and see the ark; the season (May-June) sets the scene's warmth and ordinariness right before it turns fatal (v. 13)." }
+  ],
+  environment: {
+    chips: ["Wheat-harvest season, May-June", "The Sorek valley road", "The great stone of Abel as witness", "Deadly holiness even in the ark's return", "Golden tumors and mice as guilt offering", "A cart with no driver"],
+    text: "Beth-shemesh sits where the Sorek valley opens from Philistine territory into the Judean hill country — the natural road the cart takes. The 'great stone,' later called Abel, stands in a field belonging to Joshua of Beth-shemesh and becomes both altar and witness marker. The chapter's sharp turn — celebration curdling into judgment when some of the men look into the ark (v. 19) — reads as the same lesson Uzzah's death later drives home in 2 Samuel 6: proximity to the ark does not neutralize its holiness, even when its return is itself an answered prayer."
+  },
+  objectsExtra: ["ark-covenant"],
+  peopleExtra: [],
+  culture: [
+    { title:"Golden tumors and mice as guilt offering", icon:"🐭",
+      text:"Making small images of an affliction and offering them to placate the offended deity was known sympathetic-magic practice in the ancient Near East — the Philistine priests explicitly frame the gold tumors and mice as an 'offering for guilt' (asham) meant to lift the plague, and instruct that it be sent along with the ark rather than withheld (vv. 3-5)." },
+    { title:"A genuinely clever, falsifiable test", icon:"🐄",
+      text:"The diviners' experiment is notable for its rigor by ancient standards: milk cows, never yoked before, with calves deliberately shut away as a pull toward home — if the cows wandered, grazed, or turned back for their calves, the plague would be judged coincidence; only a stubborn, lowing, undeviating walk straight into Israelite territory would count as proof. The text presents the diviners themselves as convinced by the result (vv. 9, 12)." },
+    { title:"Why Kiriath-jearim, not Shiloh", icon:"🏔️",
+      text:"The ark never returns to Shiloh in this account — consistent with the sanctuary's destruction implied elsewhere (Jer 7:12) — and even Beth-shemesh does not keep it, asking 'who is able to stand before the LORD, this holy God?' after the deaths there (6:20). Kiriath-jearim, a hill town on the Judah–Benjamin border, becomes its resting place for the next twenty years, until David brings it up to Jerusalem." }
+  ],
+  crossRefs: [
+    { group:"The rules the joy forgot", refs:[
+      { r:"Numbers 4:5-6,15,20", note:"why looking at or touching the uncovered ark brings death — the Kohathites' strict handling rules" },
+      { r:"2 Samuel 6:6-7", note:"Uzzah struck down for touching the ark decades later — the same principle" } ]},
+    { group:"The ark's road onward", refs:[
+      { r:"1 Samuel 7:1-2", note:"Kiriath-jearim keeps the ark twenty years" },
+      { r:"2 Samuel 6", note:"David finally brings the ark up to Jerusalem" },
+      { r:"Psalm 132:6", note:"'we found it in the fields of Jaar' — a poetic memory of this very town" } ]},
+    { group:"Guilt offerings", refs:[
+      { r:"Leviticus 5:14-19", note:"the guilt/reparation offering the Philistine ritual echoes" } ]}
+  ]
+},
+
+/* ============================================================
    LUKE 2 — The Nativity & the boy in the temple
    ============================================================ */
 "42:2": {
