@@ -155,23 +155,30 @@ function check(name, cond, extra) {
   check("auto-detects Michmash", s.options.some(o => /Michmash/.test(o)), s.options);
   check("auto scene renders", s.sceneSvg);
 
-  console.log("== curated pipeline: 1 Samuel 31 (if curated) ==");
-  await page.fill("#passage-input", "1 Samuel 31");
-  await page.click("#go-btn");
-  await page.waitForFunction(() => document.getElementById("text-title").textContent.trim() === "1 Samuel 31", null, { timeout: 30000 });
-  await page.waitForTimeout(600);
-  s = await page.evaluate(() => ({
-    curated: !!(window.BVV.CURATED && window.BVV.CURATED["9:31"]),
-    markers: document.querySelectorAll(".map-marker").length,
-    legs: document.querySelectorAll(".journey-leg").length,
-    sceneSvg: !!document.querySelector("#scene-viewport svg")
-  }));
-  if (s.curated) {
-    check("1 Sam 31: map markers ≥ 4", s.markers >= 4, s.markers);
-    check("1 Sam 31: journey legs ≥ 2", s.legs >= 2, s.legs);
-    check("1 Sam 31: scene renders", s.sceneSvg);
-  } else {
-    check("1 Sam 31 renders via auto pipeline", s.sceneSvg && s.markers >= 2, s);
+  // Generic sweep of curated chapters that have offline fixtures.
+  // Add "<ref>|<curatedKey>" here as coverage grows.
+  const CURATED_SWEEP = ["1 Samuel 31|9:31", "1 Samuel 3|9:3", "1 Samuel 15|9:15", "1 Samuel 16|9:16"];
+  for (const entry of CURATED_SWEEP) {
+    const [ref, key] = entry.split("|");
+    console.log(`== curated pipeline: ${ref} ==`);
+    await page.fill("#passage-input", ref);
+    await page.click("#go-btn");
+    await page.waitForFunction(t => document.getElementById("text-title").textContent.trim() === t, ref, { timeout: 30000 });
+    await page.waitForTimeout(500);
+    s = await page.evaluate(k => ({
+      curated: !!(window.BVV.CURATED && window.BVV.CURATED[k]),
+      markers: document.querySelectorAll(".map-marker").length,
+      legs: document.querySelectorAll(".journey-leg").length,
+      sceneSvg: !!document.querySelector("#scene-viewport svg"),
+      culture: document.querySelectorAll("#tab-culture .info-card").length,
+      xrefs: document.querySelectorAll("#tab-crossrefs .xref").length
+    }), key);
+    check(`${ref}: curated entry present`, s.curated);
+    check(`${ref}: map markers ≥ 2`, s.markers >= 2, s.markers);
+    check(`${ref}: journey legs ≥ 1`, s.legs >= 1, s.legs);
+    check(`${ref}: scene renders`, s.sceneSvg);
+    check(`${ref}: culture cards ≥ 3`, s.culture >= 3, s.culture);
+    check(`${ref}: cross-refs ≥ 6`, s.xrefs >= 6, s.xrefs);
   }
 
   console.log("== verse ranges ==");
