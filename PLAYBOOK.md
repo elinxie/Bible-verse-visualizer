@@ -24,6 +24,68 @@ update the **Ledger** after shipping.
 Done = Tiers 1–3 complete. Work proceeds loop-iteration by loop-iteration
 until then (or until the user says stop — obey immediately).
 
+## ⚠️ Incident post-mortem (2026-07-03) — READ BEFORE ANY WORK
+
+**What happened:** during loop iteration 4 the account hit its **monthly
+spend limit**; the curation agent for 1 Sam 8–10 was killed mid-run and the
+loop had to be stopped by the user.
+
+**Why the spend limit was hit (ranked by cost):**
+1. **One giant session.** The app build, deploy debugging, and all loop
+   iterations ran in a single conversation. Every wake-up re-billed the
+   entire (huge) context, and because gaps between turns exceeded the
+   ~5-minute prompt-cache window, most re-reads were billed **uncached**.
+   Cost compounded every iteration.
+2. **Polling and babysitting.** Dozens of timer wake-ups watching CI and
+   retrying the flaky GitHub Pages backend, each one re-billing the full
+   context; several GitHub API responses added 30–60KB each of permanent
+   context.
+3. **Premium orchestrator model** multiplying (1) and (2). The Sonnet worker
+   agents were cheap (~70–100K tokens each); they were NOT the problem.
+4. **Cap-type mismatch:** back-off logic assumed rolling 5-hour/weekly limits
+   that refresh on their own. A monthly cap does not — waiting cannot fix it.
+
+**Why jobs failed along the way (for the record):**
+- `configure-pages` enablement → workflow tokens cannot create a Pages site
+  (fixed: gh-pages publish + user enabled Pages once in Settings).
+- "pages build and deployment" → known GitHub backend flake
+  (actions/deploy-pages#406/#418); fresh deployments succeed where retries of
+  the same run often don't. A failed rotation never breaks the live site —
+  it keeps serving the previous version.
+- Iteration-4 agent → killed by the monthly spend cap, not by a bug.
+
+## 🛑 Hard spend guardrails (aggressive — these override everything below)
+
+1. **One iteration per session, then STOP.** Ship one batch, update the
+   Ledger, tell the user to start a fresh session with the per-session
+   prompt. Never chain iterations inside one conversation — fresh sessions
+   carry ~2% of a long session's context cost.
+2. **Chat-freshness reminders are mandatory.** At session start and roughly
+   every 45 minutes of active work: if the conversation has grown long
+   (many tool results, several timers fired, or work has pivoted), SAY SO —
+   "this chat is now burning budget on context; switch to a new session with
+   the PLAYBOOK prompt" — and wind down.
+3. **Short-circuit on the first limit signal.** Any rate/spend-limit error
+   anywhere (orchestrator call, agent failure message, API 429): immediately
+   (a) stop spawning agents, (b) commit + push whatever is green, (c) write
+   the Ledger row, (d) STOP the loop with a clear note to the user. Do NOT
+   schedule wake-ups against a monthly cap — only the user can lift it
+   (claude.ai/settings/usage). Losing an unfinished batch is fine; work is
+   designed to be resumable.
+4. **No babysitting, no polling.** One CI status check per ship, maximum.
+   Never sleep-poll CI or the Pages backend. Pages flake → at most ONE
+   retry, then leave it: the next merge rotates it, and the site never goes
+   down. Use `minimal_output`/pagination on GitHub API calls.
+5. **≤1 agent per iteration, sonnet only,** unless the user explicitly asks
+   for more. Before every spawn ask: "can the orchestrator do this with
+   fewer total tokens than briefing an agent?" If yes, don't spawn.
+6. **Prefer a cheaper orchestrator.** When the user starts a resume session,
+   suggest running it on a mid-tier model; curation quality lives in the
+   data-file specs, not the orchestrator's model class.
+7. **Budget sanity-check at iteration start.** Estimate: context size ×
+   expected turns + one agent. If the session already feels heavy, do a
+   smaller batch or just ship what exists.
+
 ## Budget model (rate limits = payroll)
 
 The orchestrator + agents share the user's Claude usage limits (5-hour
@@ -116,7 +178,9 @@ rolling window + weekly cap). Treat every agent spawn as paid labor:
 | 0 | 2026-07-02/03 | Core app, 1 Sam 28 (L), Luke 2/Acts 27/John 4/Exod 14 (M), deploy pipeline, site LIVE | none (orchestrator only) | ✅ merged PR #1, site serving |
 | 1 | 2026-07-03 | Loop bootstrap: this doc rewritten for agent team; tests/smoke.js (32 offline assertions, PASS); curated 1 Sam 17 (L) + 31 (M); places +socoh +azekah | 1× sonnet ENG (curation) | ✅ shipped, deploy verified |
 | 2 | 2026-07-03 | Curated 1 Sam 3, 15, 16 (M); place +amalek; test sweep generalized (47 assertions, PASS); fixtures 9-3/15/16 | 1× sonnet ENG (curation) | ✅ merged (#3); Pages rotation flaked 3× — superseded by iter 3's deploy |
-| 3 | 2026-07-03 | Curated 1 Sam 4, 5, 6 (M, ark narrative); place +ebenezer; fixtures 9-4/5/6 (65 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped |
+| 3 | 2026-07-03 | Curated 1 Sam 4, 5, 6 (M, ark narrative); place +ebenezer; fixtures 9-4/5/6 (65 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped, deploy verified live |
+| 4 | 2026-07-03 | 1 Sam 8–10 batch ABORTED — monthly spend limit hit mid-agent; fixtures 9-8/9/10 committed as prep; post-mortem + spend guardrails written | 1× sonnet ENG (killed) | 🛑 loop stopped by user; resume here |
+| — | NEXT SESSION | Curate 1 Sam 8, 9, 10 (M) — fixtures exist; add sweep entries `"1 Samuel 8\|9:8"` etc. to tests/smoke.js; obey Hard spend guardrails | ≤1 sonnet | pending |
 
 ### Curation roadmap (tick as shipped; M = medium depth, L = deep)
 **1 Samuel:** [x] 28(L) · [x] 3(M) · [x] 4–6(M) · [ ] 8–10 · [x] 15(M) · [x] 16(M) · [x] 17(L) · [ ] 24 · [ ] 25 · [x] 31(M)
