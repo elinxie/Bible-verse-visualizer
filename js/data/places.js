@@ -491,7 +491,11 @@ BVV.PLACES = [
   { id:"philistia", name:"Philistia", al:["Philistines","Philistine"], modern:"S coastal plain, Israel", lat:31.700, lon:34.700, type:"region",
     blurb:"Coastal pentapolis of the Philistines — Gaza, Ashkelon, Ashdod, Ekron, Gath — Israel's Iron Age I rival.",
     ancient:"Aegean-descended 'Sea Peoples': feathered-crest warriors, iron-working monopoly, Dagon temples, five allied lords (seranim).",
-    scene:{ terrain:"plain", settlement:"city", water:"well", veg:"sparse" } }
+    scene:{ terrain:"plain", settlement:"city", water:"well", veg:"sparse" } },
+  { id:"amalek", name:"Amalek (Negev steppe)", al:["Amalek","Amalekites"], modern:"N Sinai / Negev steppe (region)", lat:30.600, lon:34.600, type:"region",
+    blurb:"Nomadic raider confederation ranging the Negev and Sinai steppe 'from Havilah to Shur' — Israel's ambush-attackers at the Exodus (Ex 17) and the confederation whose judgment Saul was commanded to execute (1 Sam 15).",
+    ancient:"Black-tent camps and camel herds following seasonal grazing; a raiding culture that struck settled and traveling peoples alike after harvest, when there was plunder to take.",
+    scene:{ terrain:"desert", settlement:"camp", water:"well", veg:"sparse" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };

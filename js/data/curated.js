@@ -309,6 +309,215 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   1 SAMUEL 3 — The call of Samuel
+   ============================================================ */
+"9:3": {
+  era: {
+    title: "ca. 1100 BC — the boy Samuel at the Shiloh sanctuary",
+    sub: "Iron Age I · the closing years of the judges · Eli's failing house",
+    badges: ["Iron Age I", "Period of the judges", "Shiloh sanctuary", "≈3,100 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Word from the LORD is rare in Israel; visions are not widespread. In the dark hours before the lamp of God has gone out, a voice calls the sleeping boy Samuel by name — three times he runs to Eli thinking it is the old priest, until Eli understands and tells him how to answer. What Samuel hears is the hard confirmation of judgment already spoken over Eli's house. By morning he must repeat it to the man who raised him, and Israel from Dan to Beersheba comes to know that a prophet has been raised up.",
+  focusPlace: "shiloh",
+  places: [
+    { id:"shiloh", role:"The sanctuary where the boy sleeps near the ark (vv. 1-3)" },
+    { id:"dan",    role:"Northern end of the land in the recognition formula, 'from Dan to Beersheba' (v. 20)" },
+    { id:"beersheba", role:"Southern end of the same formula — the whole land comes to know Samuel is a prophet (v. 20)" }
+  ],
+  journey: [
+    { from:"dan", to:"beersheba", dashed:true,
+      label:"'From Dan to Beersheba' (v. 20)", km:230,
+      note:"Not a literal trip taken in the chapter but the idiom for the whole land, north to south — roughly 230 km — coming to recognize that a prophet has been raised up in Israel." }
+  ],
+  hotspots: [
+    { x:0.3, type:"person", label:"Samuel, lying down near the ark", av:"youth",
+      desc:"A boy ministering before the LORD under Eli, wearing a linen ephod; he sleeps in the temple precinct, near enough the ark to hear a voice call his name three times before he understands who is speaking (vv. 1-8)." },
+    { x:0.55, type:"person", label:"Eli, his eyes grown dim", av:"priest",
+      desc:"Old and nearly blind, Eli takes three interruptions to realize the LORD is calling the boy, then tells him how to answer: 'Speak, LORD, for your servant hears' (vv. 2, 8-9). In the morning he presses Samuel for the whole hard word, and receives it without protest (vv. 17-18)." },
+    { x:0.72, type:"object", label:"The lamp of God, not yet gone out",
+      desc:"The tamid lamp (Ex 27:20-21) burned through the night and was tended out toward dawn — v. 3's detail places the call in the pre-dawn hours, and doubles as a quiet image: the light in Eli's house is guttering, but has not gone out yet." },
+    { x:0.45, type:"object", label:"The ark of God",
+      desc:"Housed at Shiloh in these years, the ark anchors the whole scene — and its capture one chapter later (1 Sam 4) is the disaster this night's word already announces." }
+  ],
+  environment: {
+    chips: ["Pre-dawn darkness", "Tent-shrine complex at Shiloh", "Word of the LORD rare (v. 1)", "No widespread vision", "Lamp of God still burning", "Iron Age I sanctuary town"],
+    text: "Shiloh in this period is Israel's central sanctuary, housing the ark inside a tent-and-structure complex Scripture calls both 'tent' and 'temple' (1 Sam 1:9; 3:3). The narrator's opening note — 'the word of the LORD was rare in those days; there was no frequent vision' — sets the drought that this night breaks. Samuel is not seeking a vision or incubating a dream in the manner of surrounding cultures' temple-sleep practices; the word interrupts him unbidden, three times, until Eli — himself losing his sight as his house loses its future — recognizes what is happening and steps aside."
+  },
+  objectsExtra: ["lamp", "ark-covenant"],
+  peopleExtra: ["samuel", "eli", "hannah"],
+  culture: [
+    { title:"Not temple incubation", icon:"🛌",
+      text:"Sleeping in a temple precinct to receive a divine dream was a known ancient Near Eastern practice ('incubation'). This scene pointedly is not that: Samuel is asleep, not seeking anything, when the word interrupts him — three times, until Eli has to explain what is happening. The initiative is entirely the LORD's." },
+    { title:"The lamp of God as clock and sign", icon:"🪔",
+      text:"The tamid lamp (Ex 27:20-21; Lev 24:2-4) was to burn from evening to morning. Verse 3's note that it 'had not yet gone out' functions as a time-stamp — this is the last watch of the night — and, read alongside Eli's dimming eyes and fading house, as a quiet image of a light still burning but soon to gutter." },
+    { title:"A hard word for his own mentor", icon:"⚖️",
+      text:"The message Samuel receives confirms the judgment a 'man of God' already pronounced over Eli's house (2:27-36) for the corruption of his sons and Eli's failure to restrain them. That a child must deliver this verdict to the priest who raised him — and that Eli receives it without excuse ('it is the LORD; let him do what seems good to him,' v. 18) — sets the pattern for Samuel's later willingness to speak hard words to Saul as well." }
+  ],
+  crossRefs: [
+    { group:"The setting", refs:[
+      { r:"1 Samuel 1:9-28", note:"Hannah's vow and how she lends Samuel to the LORD at Shiloh" },
+      { r:"1 Samuel 2:12-17,22-25", note:"Eli's sons' corruption at the sanctuary" },
+      { r:"1 Samuel 2:27-36", note:"the unnamed man of God's warning to Eli's house" } ]},
+    { group:"Fulfillment", refs:[
+      { r:"1 Samuel 4", note:"the ark lost in battle and Eli dies at the news" },
+      { r:"1 Kings 2:27", note:"Abiathar, Eli's descendant, removed from the priesthood — the word 'established'" } ]},
+    { group:"The pattern of call", refs:[
+      { r:"Exodus 3:4", note:"'Moses, Moses' — the doubled name at a call" },
+      { r:"Genesis 22:11", note:"'Abraham, Abraham' at the angel's intervention" },
+      { r:"Acts 9:4", note:"'Saul, Saul' at Paul's call on the Damascus road" } ]},
+    { group:"The word established", refs:[
+      { r:"1 Samuel 3:19-21", note:"the LORD lets none of Samuel's words fall to the ground; all Israel knows he is a prophet" },
+      { r:"Deuteronomy 18:21-22", note:"the test of a true prophet: does the word come to pass" } ]}
+  ]
+},
+
+/* ============================================================
+   1 SAMUEL 15 — Saul rejected over Amalek
+   ============================================================ */
+"9:15": {
+  era: {
+    title: "ca. 1028 BC — Saul's campaign against Amalek",
+    sub: "Iron Age I · early United Monarchy · the command Saul only partly kept",
+    badges: ["Iron Age I", "United monarchy", "Reign of Saul", "≈3,050 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Samuel relays a command with a long memory: judgment on Amalek for ambushing Israel at the Exodus. Saul strikes the Amalekite camps from Havilah to Shur but spares king Agag and the best of the plunder, then rides north to set up a monument to his own victory. Samuel meets him at Gilgal, the very place his kingship was confirmed, and delivers a verdict that ends it: 'to obey is better than sacrifice.' Saul grabs at Samuel's robe as he turns to go, and it tears — an omen Samuel reads aloud on the spot.",
+  focusPlace: "gilgal",
+  places: [
+    { id:"amalek",       role:"The campaign against the Amalekite camps, spared plunder and King Agag (vv. 4-9)" },
+    { id:"carmel-judah", role:"Saul sets up a monument to himself on the way home (v. 12)" },
+    { id:"gilgal",       role:"Samuel confronts Saul; the robe tears; the verdict is delivered (vv. 12-33)" },
+    { id:"ramah",        role:"Samuel goes home grieving; he and Saul do not meet again (v. 34-35)" },
+    { id:"gibeah",       role:"Saul goes home to Gibeah of Saul (v. 34)" }
+  ],
+  journey: [
+    { from:"amalek", to:"carmel-judah",
+      label:"Victory lap", km:110,
+      note:"Saul returns north from the campaign and sets up a monument (literally a 'hand' or 'yad') to himself at Carmel — before he has even reported to Samuel." },
+    { from:"carmel-judah", to:"gilgal",
+      label:"To the confrontation", km:35,
+      note:"From the victory monument down to Gilgal, where Samuel is waiting with the word Saul does not want to hear." },
+    { from:"gilgal", to:"ramah", dashed:true,
+      label:"Samuel and Saul part", km:30,
+      note:"'Samuel did not see Saul again until the day of his death, but Samuel grieved over Saul. And the LORD regretted that he had made Saul king' (v. 35) — they meet once more only at En-dor, and Samuel is already dead." }
+  ],
+  hotspots: [
+    { x:0.28, type:"person", label:"Saul, with the spared plunder", av:"king",
+      desc:"'The best of the sheep and oxen' come back alive despite the command — Saul insists it was for sacrifice to the LORD, but Samuel hears the bleating and lowing as evidence, not excuse (vv. 9, 14-15, 21)." },
+    { x:0.5, type:"person", label:"Samuel delivers the verdict", av:"prophet",
+      desc:"'Has the LORD as great delight in burnt offerings and sacrifices, as in obeying the voice of the LORD? Behold, to obey is better than sacrifice... for rebellion is as the sin of divination' (vv. 22-23). The kingdom is torn from Saul in the same breath as his robe." },
+    { x:0.68, type:"person", label:"Agag, walking cheerfully", av:"king",
+      desc:"The Amalekite king Saul spared arrives before Samuel 'cheerfully,' apparently believing his life is secure — 'surely the bitterness of death is past' (v. 32). Samuel himself carries out the sentence Saul would not: 'Samuel hacked Agag to pieces before the LORD at Gilgal' (v. 33)." },
+    { x:0.42, type:"object", label:"The torn hem of the robe",
+      desc:"As Samuel turns to leave, Saul seizes the hem of his robe and it tears. Samuel reads it as a sign on the spot: 'The LORD has torn the kingdom of Israel from you this day' (vv. 27-28) — a piece of cloth becomes an acted-out verdict." }
+  ],
+  environment: {
+    chips: ["Gilgal by the Jordan", "Where Saul's kingship was confirmed (11:14-15)", "Now where he loses it", "Amalekite raider camps", "A victory monument at Carmel", "Torn robe as omen"],
+    text: "Gilgal carries a bitter irony in this chapter: it is the same place where Israel confirmed Saul as king after his relief of Jabesh-gilead (1 Sam 11:14-15), and now it is where Samuel pronounces that the kingdom has been torn from him. The campaign itself ranges south into Amalekite steppe country — nomadic raider territory Israel had clashed with since the Exodus (Ex 17:8-16) — before Saul turns the return march into a victory lap, erecting a monument to himself at Carmel before he ever reports to Samuel."
+  },
+  objectsExtra: ["robe", "sword", "altar"],
+  peopleExtra: ["samuel", "saul"],
+  culture: [
+    { title:"Ḥerem — 'devoted to destruction'", icon:"⚔️",
+      text:"Ḥerem was the ancient Israelite practice of setting apart a defeated enemy and its goods entirely to the LORD, forbidding any of it — plunder, livestock, or captives — from being kept for personal gain. In this chapter's own terms, the command follows Amalek's history of preying on Israel at its most vulnerable, ambushing the stragglers 'faint and weary' after the Exodus (Deut 25:17-19) — a memory the text treats as the specific grievance behind the command. Saul's failure is framed in the text not as excessive severity but as partial obedience: keeping the best of the plunder 'to sacrifice to the LORD' while claiming full compliance. It is a difficult and much-debated passage, and readers across the centuries have wrestled with it seriously rather than either explaining it away or reading past its weight." },
+    { title:"Victory monuments and royal self-commemoration", icon:"🗿",
+      text:"Saul's monument at Carmel (v. 12, a 'yad' — literally 'hand' or 'monument') fits an ancient Near Eastern pattern of kings commemorating their own victories in stone. The text's placement — before Saul has reported to Samuel or the LORD — reads as an indictment of priorities. Compare Absalom's later pillar, built because he had no son to carry his name (2 Sam 18:18)." },
+    { title:"'Rebellion is as the sin of divination' (v. 23)", icon:"🔮",
+      text:"Samuel's rebuke names Saul's disobedience in the same breath as divination and idolatry — and the line boomerangs: thirteen chapters later, the rejected king seeks out a medium at En-dor (1 Sam 28), the very sin his own disobedience was compared to." },
+    { title:"A regretting God, a God who does not lie", icon:"↔️",
+      text:"The chapter holds two statements in tension without resolving them for the reader: 'the Glory of Israel will not lie or change his mind, for he is not a man, that he should change his mind' (v. 29) sits between two uses of the same Hebrew root to say 'the LORD regretted that he had made Saul king' (vv. 11, 35). Commentators generally read v. 29 as speaking to God's unchanging character and the certainty of this particular verdict, while vv. 11 and 35 describe God's relational response to Saul's choices — the text itself seems comfortable holding both without treating them as contradictory." }
+  ],
+  crossRefs: [
+    { group:"The command's background", refs:[
+      { r:"Exodus 17:8-16", note:"Amalek's ambush of Israel at Rephidim, just after the Exodus" },
+      { r:"Deuteronomy 25:17-19", note:"the standing charge to blot out Amalek's memory for attacking the weak and weary" } ]},
+    { group:"The torn robe thread", refs:[
+      { r:"1 Samuel 15:27-28", note:"Samuel's robe tears; the kingdom is 'torn' from Saul" },
+      { r:"1 Samuel 24:4-5", note:"David later cuts Saul's robe in the cave and is conscience-stricken even for that" },
+      { r:"1 Samuel 28:14,17", note:"Samuel's own robe identifies him to Saul at En-dor, delivering this chapter's verdict again" } ]},
+    { group:"Obedience over sacrifice", refs:[
+      { r:"Psalm 51:16-17", note:"David: 'you will not delight in sacrifice... a broken and contrite heart'" },
+      { r:"Hosea 6:6", note:"'I desire steadfast love and not sacrifice'" },
+      { r:"Micah 6:6-8", note:"what the LORD actually requires" },
+      { r:"Mark 12:33", note:"a scribe echoes the same priority to Jesus" } ]},
+    { group:"Aftermath", refs:[
+      { r:"1 Samuel 16:1", note:"the LORD sends Samuel to anoint Saul's replacement" },
+      { r:"1 Samuel 28:18", note:"Samuel's ghost cites this very disobedience as the reason for Saul's coming death" },
+      { r:"Esther 3:1", note:"Haman 'the Agagite,' a long shadow of the spared king's line, centuries later" } ]}
+  ]
+},
+
+/* ============================================================
+   1 SAMUEL 16 — David anointed; the Spirit and the lyre
+   ============================================================ */
+"9:16": {
+  era: {
+    title: "ca. 1025 BC — a shepherd anointed in Bethlehem",
+    sub: "Iron Age I · United Monarchy · Saul's decline, David's rise begins in secret",
+    badges: ["Iron Age I", "United monarchy", "Reign of Saul", "≈3,050 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Grieving over Saul, Samuel is sent south to Bethlehem with a horn of oil and a cover story — a heifer for sacrifice, to keep Saul from hearing what he's really doing. Jesse parades seven sons; the LORD passes over every one, 'for the LORD looks on the heart.' The youngest is out with the sheep. David is anointed in a quiet, almost secret ceremony, and the Spirit of the LORD rushes on him from that day forward — even as it departs from Saul, who is left to a tormenting spirit only music can soothe. The newly anointed shepherd is summoned to the old king's court to play the lyre.",
+  focusPlace: "bethlehem",
+  places: [
+    { id:"ramah",     role:"Samuel's starting point, mourning for Saul (v. 1)" },
+    { id:"bethlehem", role:"Jesse's house — the sons paraded, David anointed (vv. 4-13)" },
+    { id:"gibeah",    role:"Saul's court, where the harpist is summoned to soothe the king (vv. 14-23)" }
+  ],
+  journey: [
+    { from:"ramah", to:"bethlehem",
+      label:"The horn of oil", km:18,
+      note:"About 18 km south, Samuel travels with a heifer as cover for the visit — he tells the LORD plainly, 'How can I go? If Saul hears it, he will kill me' (v. 2)." },
+    { from:"bethlehem", to:"gibeah",
+      label:"The harpist to court", km:12,
+      note:"The newly anointed shepherd is summoned into the old king's service, sent for by name as a skillful lyre player (vv. 18-19) — long before the two ever meet as rivals." }
+  ],
+  hotspots: [
+    { x:0.3, type:"person", label:"Samuel pours the horn of oil", av:"prophet",
+      desc:"Having grieved for Saul, Samuel is sent to Jesse's house with a horn of oil and instructed not to look on appearance or height, 'for the LORD sees not as man sees... the LORD looks on the heart' (vv. 1, 7)." },
+    { x:0.55, type:"person", label:"David, ruddy, back from the sheep", av:"shepherd",
+      desc:"The youngest son isn't even brought in until Samuel insists there must be one more — he is out keeping the flock. Described as 'ruddy, with beautiful eyes and handsome,' he is anointed in the presence of his brothers, and 'the Spirit of the LORD rushed upon David from that day forward' (vv. 11-13)." },
+    { x:0.42, type:"person", label:"Jesse and the seven passed-over sons", av:"elder",
+      desc:"Jesse presents seven sons in turn — Eliab first, tall and impressive — and the LORD rejects every one before David is even sent for (vv. 6-10)." },
+    { x:0.68, type:"object", label:"The lyre that soothes the tormented king",
+      desc:"When a harmful spirit troubles Saul, his servants recommend a skillful lyre player; David is sent for and 'whenever the harmful spirit... was upon Saul, David took the lyre and played... and the harmful spirit departed from him' (vv. 14-23) — the Spirit-empowered successor tending the Spirit-abandoned king." }
+  ],
+  environment: {
+    chips: ["Bethlehem's terraced fields", "Sheepfolds outside town", "A quiet, almost secret ceremony", "'The LORD looks on the heart'", "Saul's court at Gibeah", "A tormenting spirit soothed by music"],
+    text: "Bethlehem in this period is a small hill-country town of terraced barley and wheat fields with pasture running down toward the wilderness — unremarkable enough that the town elders 'come trembling' to meet Samuel, unsure whether his visit means trouble (v. 4). The anointing itself is private, witnessed only by Jesse's household, in deliberate contrast to Saul's public coronation — a hidden beginning for the king who will not sit on the throne for years yet."
+  },
+  objectsExtra: ["anoint-oil", "lyre"],
+  peopleExtra: ["samuel", "saul", "david"],
+  culture: [
+    { title:"Anointing — oil, horn, and 'messiah'", icon:"🫗",
+      text:"Pouring oil from an animal horn over the head marked out a person as set apart for God's service — kings, priests, and prophets in Israel could all be anointed. The Hebrew mashiach ('anointed one') is the root of 'messiah'; David's anointing here, private and years before his enthronement, becomes the template Israel's later hope for 'the LORD's anointed' looks back to." },
+    { title:"Primogeniture upended", icon:"👦",
+      text:"Ancient inheritance and status customarily favored the firstborn son, yet Scripture repeatedly passes over him — Isaac over Ishmael, Jacob over Esau (Gen 25:23), Joseph elevated above his older brothers, Gideon the least in his family chosen as judge. David, the eighth and youngest, not even called in from the fields at first, fits a deliberate pattern: 'the LORD looks on the heart.'" },
+    { title:"Music, the kinnor, and an old king's torment", icon:"🎵",
+      text:"The kinnor (lyre or harp) was a common stringed instrument in ancient Israel, used in worship, celebration, and here as therapy. That the very music soothing Saul's torment is played by the shepherd already anointed to replace him is one of the chapter's sharper ironies — the future king serving, unknowingly to Saul, in the house he will one day succeed." }
+  ],
+  crossRefs: [
+    { group:"The seeing God", refs:[
+      { r:"1 Samuel 16:7", note:"'man looks on the outward appearance, but the LORD looks on the heart'" },
+      { r:"Psalm 139:1-4", note:"a prayer on being fully known" },
+      { r:"Luke 16:15", note:"'God knows your hearts'" } ]},
+    { group:"Anointings of David", refs:[
+      { r:"1 Samuel 16:13", note:"anointed privately by Samuel at Bethlehem" },
+      { r:"2 Samuel 2:4", note:"anointed king over Judah at Hebron" },
+      { r:"2 Samuel 5:3", note:"anointed king over all Israel — the third and final stage" } ]},
+    { group:"The Spirit given and withdrawn", refs:[
+      { r:"1 Samuel 10:6,10", note:"the Spirit rushes on Saul at his own anointing" },
+      { r:"1 Samuel 16:13-14", note:"the Spirit comes upon David as it departs from Saul" },
+      { r:"Psalm 51:11", note:"David's own later prayer, 'take not your Holy Spirit from me'" } ]},
+    { group:"Bethlehem's line", refs:[
+      { r:"Ruth 4:17-22", note:"the genealogy from Boaz and Ruth to David, rooted in this same town" },
+      { r:"Micah 5:2", note:"Bethlehem Ephrathah, 'too little to be among the clans of Judah,' named for the future ruler" },
+      { r:"Luke 2:4-11", note:"Joseph and Mary travel to 'the city of David' for the second, greater anointed one's birth" } ]}
+  ]
+},
+
+/* ============================================================
    LUKE 2 — The Nativity & the boy in the temple
    ============================================================ */
 "42:2": {
