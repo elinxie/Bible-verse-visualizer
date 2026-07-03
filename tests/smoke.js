@@ -193,6 +193,36 @@ function check(name, cond, extra) {
   check("9 in-range verses", s.bright === 9, s.bright);
   check("16 dimmed context verses", s.dim === 16, s.dim);
 
+  console.log("== coverage panel ==");
+  await page.click("#coverage-btn");
+  await page.waitForTimeout(300);
+  s = await page.evaluate(() => {
+    const curatedKeys = Object.keys(window.BVV.CURATED).length;
+    const deepKeys = Object.keys(window.BVV.CURATED).filter(k => window.BVV.CURATED[k].analyses).length;
+    return {
+      visible: !document.getElementById("coverage").classList.contains("hidden"),
+      books: document.querySelectorAll("#coverage .cov-book").length,
+      cells: document.querySelectorAll("#coverage .cov-ch[data-ref]").length,
+      curatedCells: document.querySelectorAll("#coverage .cov-ch.cov-curated[data-ref], #coverage .cov-ch.cov-deep[data-ref]").length,
+      deepCells: document.querySelectorAll("#coverage .cov-ch.cov-deep[data-ref]").length,
+      stats: document.querySelectorAll("#coverage .cov-stat").length,
+      curatedKeys, deepKeys,
+      totalChapters: window.BVV.BOOKS.reduce((n, b) => n + b.ch, 0)
+    };
+  });
+  check("coverage panel opens", s.visible);
+  check("66 book rows", s.books === 66, s.books);
+  check("one cell per chapter (1,189)", s.cells === s.totalChapters && s.cells === 1189, s.cells);
+  check("curated cells match BVV.CURATED", s.curatedCells === s.curatedKeys, { cells: s.curatedCells, keys: s.curatedKeys });
+  check("deep cells match analyses entries", s.deepCells === s.deepKeys, { cells: s.deepCells, keys: s.deepKeys });
+  check("4 stat cards", s.stats === 4, s.stats);
+  // clicking a curated square loads that chapter and closes the panel
+  await page.click('#coverage .cov-ch[data-ref="1 Samuel 31"]');
+  await page.waitForFunction(() => document.getElementById("text-title").textContent.trim() === "1 Samuel 31", null, { timeout: 30000 });
+  check("clicking a square loads the chapter", true);
+  check("panel closes after navigation", await page.evaluate(() =>
+    document.getElementById("coverage").classList.contains("hidden")));
+
   console.log("== bad input ==");
   await page.fill("#passage-input", "Nonexistent 99");
   await page.click("#go-btn");

@@ -180,6 +180,7 @@ rolling window + weekly cap). Treat every agent spawn as paid labor:
 | 2 | 2026-07-03 | Curated 1 Sam 3, 15, 16 (M); place +amalek; test sweep generalized (47 assertions, PASS); fixtures 9-3/15/16 | 1× sonnet ENG (curation) | ✅ merged (#3); Pages rotation flaked 3× — superseded by iter 3's deploy |
 | 3 | 2026-07-03 | Curated 1 Sam 4, 5, 6 (M, ark narrative); place +ebenezer; fixtures 9-4/5/6 (65 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped, deploy verified live |
 | 4 | 2026-07-03 | 1 Sam 8–10 batch ABORTED — monthly spend limit hit mid-agent; fixtures 9-8/9/10 committed as prep; post-mortem + spend guardrails written | 1× sonnet ENG (killed) | 🛑 loop stopped by user; resume here |
+| 5 | 2026-07-03 | On-page coverage panel (`js/coverage.js` + 📊 buttons): per-book/per-chapter grid computed live from `BVV.CURATED`/datasets, stat cards vs Tier 1–2 targets; +8 smoke assertions (PASS) | none (orchestrator only) | ✅ shipped |
 | — | NEXT SESSION | Curate 1 Sam 8, 9, 10 (M) — fixtures exist; add sweep entries `"1 Samuel 8\|9:8"` etc. to tests/smoke.js; obey Hard spend guardrails | ≤1 sonnet | pending |
 
 ### Curation roadmap (tick as shipped; M = medium depth, L = deep)
