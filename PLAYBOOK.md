@@ -115,11 +115,12 @@ rolling window + weekly cap). Treat every agent spawn as paid labor:
 |---|------------|-------|--------|---------|
 | 0 | 2026-07-02/03 | Core app, 1 Sam 28 (L), Luke 2/Acts 27/John 4/Exod 14 (M), deploy pipeline, site LIVE | none (orchestrator only) | ✅ merged PR #1, site serving |
 | 1 | 2026-07-03 | Loop bootstrap: this doc rewritten for agent team; tests/smoke.js (32 offline assertions, PASS); curated 1 Sam 17 (L) + 31 (M); places +socoh +azekah | 1× sonnet ENG (curation) | ✅ shipped, deploy verified |
-| 2 | 2026-07-03 | Curated 1 Sam 3, 15, 16 (M); place +amalek; test sweep generalized (47 assertions, PASS); fixtures 9-3/15/16 | 1× sonnet ENG (curation) | ✅ shipped |
+| 2 | 2026-07-03 | Curated 1 Sam 3, 15, 16 (M); place +amalek; test sweep generalized (47 assertions, PASS); fixtures 9-3/15/16 | 1× sonnet ENG (curation) | ✅ merged (#3); Pages rotation flaked 3× — superseded by iter 3's deploy |
+| 3 | 2026-07-03 | Curated 1 Sam 4, 5, 6 (M, ark narrative); place +ebenezer; fixtures 9-4/5/6 (65 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped |
 
 ### Curation roadmap (tick as shipped; M = medium depth, L = deep)
-**1 Samuel:** [x] 28(L) · [x] 3(M) · [ ] 4–6 · [ ] 8–10 · [x] 15(M) · [x] 16(M) · [x] 17(L) · [ ] 24 · [ ] 25 · [x] 31(M)
+**1 Samuel:** [x] 28(L) · [x] 3(M) · [x] 4–6(M) · [ ] 8–10 · [x] 15(M) · [x] 16(M) · [x] 17(L) · [ ] 24 · [ ] 25 · [x] 31(M)
 **2 Samuel:** [ ] 1 · [ ] 5 · [ ] 6 · [ ] 7 · [ ] 11–12 · [ ] 15 · [ ] 18 · [ ] 24
 **Then (order):** Genesis 1–3, 6–9, 12, 22, 28, 37, 41, 45 · Exodus 3, 12, [x] 14(M), 19–20, 32 · Joshua 2, 6 · Judges 4, 7, 16 · Ruth 1–4 · 1 Kgs 3, 8, 17–19 · 2 Kgs 5, 18–19, 25 · Ezra 3 · Neh 2, 8 · Esther 4 · Job 1–2, 38 · Pss 22, 23, 51, 137 · Isa 6, 40, 53 · Jer 1, 29, 31 · Ezek 1, 37 · Dan 1–6 · Jonah 1–4 · Mic 5 · Hag 1 ·
 **NT:** Matt 2, 5–7, 26–28 · Mark 4–5 · Luke [x] 2(M), 10, 15, 24 · John 1, 3, [x] 4(M), 9, 11, 19–21 · Acts 1–2, 8–9, 16–17, [x] 27(M), 28 · Rom 8 · 1 Cor 15 · Rev 1–3, 21–22
-**Datasets:** places 117/200 · people 75/120 · objects 45/60
+**Datasets:** places 118/200 · people 75/120 · objects 45/60
