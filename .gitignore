@@ -1,1 +1,4 @@
 data/embedded/
+node_modules/
+package.json
+package-lock.json
