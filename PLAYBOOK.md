@@ -114,7 +114,9 @@ rolling window + weekly cap). Treat every agent spawn as paid labor:
 1. `git fetch origin main && git checkout -B claude/bible-passage-map-viz-r17fur origin/main`
    (the working branch always restarts from main; PRs merge back to main).
 2. Pick the next unchecked batch from the Ledger roadmap (2–4 chapters, or
-   one feature+tests). Small enough to finish in one iteration.
+   one feature+tests), checking the **Feature backlog** table for any open
+   GitHub issue slotted ahead of the next curation batch. Small enough to
+   finish in one iteration.
 3. Spawn ≤2 agents (see Budget). Typical split:
    - **ENG (sonnet):** write the curated entries / dataset additions,
      following the `9:28` entry in `js/data/curated.js` as schema reference.
@@ -181,6 +183,7 @@ rolling window + weekly cap). Treat every agent spawn as paid labor:
 | 3 | 2026-07-03 | Curated 1 Sam 4, 5, 6 (M, ark narrative); place +ebenezer; fixtures 9-4/5/6 (65 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped, deploy verified live |
 | 4 | 2026-07-03 | 1 Sam 8–10 batch ABORTED — monthly spend limit hit mid-agent; fixtures 9-8/9/10 committed as prep; post-mortem + spend guardrails written | 1× sonnet ENG (killed) | 🛑 loop stopped by user; resume here |
 | — | NEXT SESSION | Curate 1 Sam 8, 9, 10 (M) — fixtures exist; add sweep entries `"1 Samuel 8\|9:8"` etc. to tests/smoke.js; obey Hard spend guardrails | ≤1 sonnet | pending |
+| — | THEN | GitHub issue #7 — add `meaning` (name-translation) field to `BVV.PLACES` + surface in place UI + test; own feature+tests iteration (see Feature backlog below) | ≤1 sonnet | pending |
 
 ### Curation roadmap (tick as shipped; M = medium depth, L = deep)
 **1 Samuel:** [x] 28(L) · [x] 3(M) · [x] 4–6(M) · [ ] 8–10 · [x] 15(M) · [x] 16(M) · [x] 17(L) · [ ] 24 · [ ] 25 · [x] 31(M)
@@ -188,3 +191,16 @@ rolling window + weekly cap). Treat every agent spawn as paid labor:
 **Then (order):** Genesis 1–3, 6–9, 12, 22, 28, 37, 41, 45 · Exodus 3, 12, [x] 14(M), 19–20, 32 · Joshua 2, 6 · Judges 4, 7, 16 · Ruth 1–4 · 1 Kgs 3, 8, 17–19 · 2 Kgs 5, 18–19, 25 · Ezra 3 · Neh 2, 8 · Esther 4 · Job 1–2, 38 · Pss 22, 23, 51, 137 · Isa 6, 40, 53 · Jer 1, 29, 31 · Ezek 1, 37 · Dan 1–6 · Jonah 1–4 · Mic 5 · Hag 1 ·
 **NT:** Matt 2, 5–7, 26–28 · Mark 4–5 · Luke [x] 2(M), 10, 15, 24 · John 1, 3, [x] 4(M), 9, 11, 19–21 · Acts 1–2, 8–9, 16–17, [x] 27(M), 28 · Rom 8 · 1 Cor 15 · Rev 1–3, 21–22
 **Datasets:** places 118/200 · people 75/120 · objects 45/60
+
+### Feature backlog (GitHub issues — check this before picking the next batch)
+Re-scan open issues each session start (`list_issues` state=OPEN) and re-slot
+new ones here by size/risk, cheapest-and-safest first.
+
+| # | Issue | Scope | Slot |
+|---|-------|-------|------|
+| [#7](https://github.com/elinxie/Bible-verse-visualizer/issues/7) | Add translations to city names (names are meaningful, e.g. Bethlehem = "house of bread", En-dor = "spring of the dwelling") | Additive schema field: add `meaning:"<Hebrew/Greek> — '<English gloss>'"` to `BVV.PLACES` entries in `js/data/places.js` (start with the ~30 curated-chapter places, since the `ancient` blurb already carries the etymology for several — e.g. `endor`); surface it in the place-detail UI (hotspot popup / place tab, wherever `blurb`/`ancient` render); add one Playwright assertion that a known place (e.g. `bethlehem`) shows its meaning. | **Own iteration** (feature+tests, per Iteration recipe step 3), run *after* the 1 Sam 8–10 curation batch below since that one is already prepped (fixtures exist) and is a same-shape continuation of the current curation streak — don't interleave a schema/UI change into a curation batch. Slot immediately after 1 Sam 8–10 and before resuming 1 Sam 24/25, so translations exist before the roadmap adds ~80 more untranslated places. |
+
+Rule of thumb for future issues: pure data additions (new places/people/objects,
+more curated chapters) can ride along with a curation batch; anything that
+touches a schema field or the UI (like #7) gets its own feature+tests
+iteration so a regression is easy to bisect and revert.
