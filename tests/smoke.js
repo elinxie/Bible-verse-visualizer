@@ -158,7 +158,8 @@ function check(name, cond, extra) {
   // Generic sweep of curated chapters that have offline fixtures.
   // Add "<ref>|<curatedKey>" here as coverage grows.
   const CURATED_SWEEP = ["1 Samuel 31|9:31", "1 Samuel 3|9:3", "1 Samuel 15|9:15", "1 Samuel 16|9:16",
-    "1 Samuel 4|9:4", "1 Samuel 5|9:5", "1 Samuel 6|9:6"];
+    "1 Samuel 4|9:4", "1 Samuel 5|9:5", "1 Samuel 6|9:6",
+    "1 Samuel 8|9:8", "1 Samuel 9|9:9", "1 Samuel 10|9:10"];
   for (const entry of CURATED_SWEEP) {
     const [ref, key] = entry.split("|");
     console.log(`== curated pipeline: ${ref} ==`);
