@@ -182,8 +182,9 @@ rolling window + weekly cap). Treat every agent spawn as paid labor:
 | 2 | 2026-07-03 | Curated 1 Sam 3, 15, 16 (M); place +amalek; test sweep generalized (47 assertions, PASS); fixtures 9-3/15/16 | 1× sonnet ENG (curation) | ✅ merged (#3); Pages rotation flaked 3× — superseded by iter 3's deploy |
 | 3 | 2026-07-03 | Curated 1 Sam 4, 5, 6 (M, ark narrative); place +ebenezer; fixtures 9-4/5/6 (65 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped, deploy verified live |
 | 4 | 2026-07-03 | 1 Sam 8–10 batch ABORTED — monthly spend limit hit mid-agent; fixtures 9-8/9/10 committed as prep; post-mortem + spend guardrails written | 1× sonnet ENG (killed) | 🛑 loop stopped by user; resume here |
-| 5 | 2026-07-04 | Resumed: curated 1 Sam 8, 9, 10 (M — Israel demands a king / Saul's private anointing / confirmed king by lot at Mizpah), using the fixtures prepped in iter 4; people +kish; sweep entries `"1 Samuel 8\|9:8"`, `"1 Samuel 9\|9:9"`, `"1 Samuel 10\|9:10"` added to tests/smoke.js (87 assertions, PASS); no new places needed (Ramah/Gibeah/Bethel/Mizpah/Gilgal/Beersheba already in gazetteer) | 1× sonnet ENG (curation) | ✅ tests green locally, ready to ship |
+| 5 | 2026-07-04 | Curated 1 Sam 8, 9, 10 (M) using the prepped fixtures; sweep entries `"1 Samuel 8\|9:8"`, `"9\|9:9"`, `"10\|9:10"` added to tests/smoke.js (87 assertions, PASS); no new places/people/objects needed (fully reused beersheba/ramah/gibeah/bethel/gilgal/mizpah) | 1× sonnet ENG (curation) | ✅ shipped per Hard spend guardrails (one iteration, then stop) |
 | — | THEN | GitHub issue #7 — add `meaning` (name-translation) field to `BVV.PLACES` + surface in place UI + test; own feature+tests iteration (see Feature backlog below) | ≤1 sonnet | pending |
+| — | NEXT SESSION | Curate 1 Sam 24, 25 (M) to finish the 1 Samuel key-chapter list; obey Hard spend guardrails | ≤1 sonnet | pending |
 
 ### Curation roadmap (tick as shipped; M = medium depth, L = deep)
 **1 Samuel:** [x] 28(L) · [x] 3(M) · [x] 4–6(M) · [x] 8–10(M) · [x] 15(M) · [x] 16(M) · [x] 17(L) · [ ] 24 · [ ] 25 · [x] 31(M)

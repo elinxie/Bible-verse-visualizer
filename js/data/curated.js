@@ -518,6 +518,225 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   1 SAMUEL 8 — Israel demands a king
+   ============================================================ */
+"9:8": {
+  era: {
+    title: "ca. 1051 BC — Israel asks Samuel for a king",
+    sub: "Iron Age I · closing years of the judges · Samuel's sons fail at Beersheba",
+    badges: ["Iron Age I", "Period of the judges (closing)", "United monarchy (beginning)", "≈3,075 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Samuel is old, and the sons he set as judges over Israel — Joel and Abijah, presiding at Beersheba — take bribes and pervert justice, an eerie replay of Eli's corrupt sons a generation earlier. The elders of Israel don't simply grumble; they travel to Samuel at Ramah and ask him to appoint them a king 'to judge us like all the nations' (v. 5). Samuel takes the request personally and prays about it, but the LORD's answer cuts past his hurt feelings: 'they have not rejected you, but they have rejected me from being king over them' (v. 7) — the latest chapter in a pattern running back to the golden calf. Samuel is told to grant the request, but first to solemnly warn the people what a king will cost them: sons conscripted for chariots, cavalry, and the plow; daughters taken as perfumers, cooks, and bakers; the best fields, vineyards, and olive groves handed to courtiers; a tithe of grain and flocks; and, at the end of the list, servitude so total that 'you will be his slaves' (v. 17). The elders hear every word and refuse to be talked out of it — 'no, but there shall be a king over us' — so they can be 'like all the nations,' with a king to judge them and fight their battles (vv. 19-20). Samuel repeats their words to the LORD and is told simply to obey them and make them a king, then sends the men of Israel home to wait.",
+  focusPlace: "ramah",
+  places: [
+    { id:"beersheba", role:"Joel and Abijah preside as judges here, taking bribes and perverting justice (vv. 1-3)" },
+    { id:"ramah",      role:"The elders of Israel gather to Samuel and formally demand a king (vv. 4-22)" }
+  ],
+  journey: [
+    { from:"beersheba", to:"ramah", dashed:true,
+      label:"A complaint becomes a petition", km:85,
+      note:"Not one traveler's route but the arc of the whole chapter: word of corrupt judging at Israel's southern edge, Beersheba, becomes — some 85 km north at Ramah — a formal national demand for a king, the elders' answer to a failing succession." }
+  ],
+  hotspots: [
+    { x:0.18, type:"person", label:"Joel and Abijah, taking bribes", av:"elder",
+      desc:"Samuel's own sons, set as judges at Beersheba in his old age, 'turned aside after gain... took bribes and perverted justice' (vv. 1-3) — an unsettling replay of Eli's corrupt sons one generation earlier, and the immediate trigger for what follows." },
+    { x:0.36, type:"person", label:"The elders of Israel", av:"elder",
+      desc:"They come to Samuel at Ramah in a body and name the problem bluntly — 'you are old, and your sons do not walk in your ways' — before asking for what they actually want: 'appoint for us a king to judge us like all the nations' (vv. 4-5)." },
+    { x:0.54, type:"person", label:"Samuel, displeased, praying it over", av:"prophet",
+      desc:"The request stings personally, but the LORD redirects Samuel's hurt: 'they have not rejected you, but they have rejected me from being king over them... according to all the deeds that they have done to me, from the day I brought them up out of Egypt' (vv. 7-8)." },
+    { x:0.72, type:"object", label:"The king's due — chariots, conscription, tithe",
+      desc:"Samuel's warning reads like an itemized bill: sons for chariots, cavalry, and plowing; daughters for perfumers, cooks, and bakers; a tenth of grain, vineyards, and flocks; the best fields handed to servants and officials — ending, by his own words, in the people crying out against the very king they demanded (vv. 11-18)." },
+    { x:0.88, type:"person", label:"The people, refusing to be talked out of it", av:"elder",
+      desc:"'No! But there shall be a king over us, that we also may be like all the nations, and that our king may judge us and go out before us and fight our battles' (vv. 19-20) — Samuel takes it to the LORD, and is told simply: obey them, and make them a king (v. 22)." }
+  ],
+  environment: {
+    chips: ["Samuel's circuit courts (Ramah, Bethel, Gilgal, Mizpah)", "Beersheba — southern edge of settled Israel", "A national assembly, not a mob", "'Like all the nations'", "The itemized cost of kingship", "Iron Age I tribal confederation ending"],
+    text: "Ramah was Samuel's home base and the hub of a judicial circuit he rode every year (1 Sam 7:15-17), so the elders' journey there was the normal channel for a national grievance, not a confrontation out of nowhere. That the complaint originates at Beersheba — the traditional southern limit of Israelite settlement in the phrase 'from Dan to Beersheba' — signals this touches the whole confederation, not one town. What the elders ask for is a structural change: trading a loose tribal league under judges, raised up ad hoc in crisis, for a permanent royal house 'like all the nations' around them."
+  },
+  objectsExtra: ["chariot", "crown"],
+  peopleExtra: ["samuel"],
+  culture: [
+    { title:"Judges vs. kings — two very different offices", icon:"⚖️",
+      text:"Israel's judges (shophetim) were raised up ad hoc, usually for a military crisis, with no fixed succession, palace, or standing army — Gideon explicitly refused hereditary rule (Judg 8:22-23). A king brought exactly what the judges lacked: dynasty, court, conscription, and taxation. Samuel's warning in vv. 11-18 is not rhetorical exaggeration but a fair description of how ancient Near Eastern and later Israelite monarchies actually operated, down to the corvée labor and royal land grants 1 Kings later shows Solomon using." },
+    { title:"'Like all the nations' — the request's real target", icon:"🌍",
+      text:"The phrase (vv. 5, 20) recurs three times and is the chapter's own diagnosis: Israel's constitution under the judges made it, by design, unlike its neighbors — governed directly by the LORD as king, without a human dynasty (compare Deut 17:14-20, which anticipated and regulated this very request centuries earlier). Wanting a king 'like the nations' asks to trade a distinctive covenant identity for a conventional one." },
+    { title:"Deuteronomy already had a law for this", icon:"📜",
+      text:"Deuteronomy 17:14-20 foresaw Israel one day asking for a king and set rules in advance: he must be a native Israelite, not multiply horses, wives, or silver and gold, and keep a copy of the law to read all his days. The request in 1 Samuel 8 is not treated as inherently illegitimate — the law had already made room for kingship — but the motive ('like all the nations,' fear more than faith) and the timing (rejecting Samuel's God-given leadership rather than waiting on the LORD) are what draw the rebuke." },
+    { title:"Corrupt judges, a recurring wound", icon:"💰",
+      text:"Bribery and perverted justice among Israel's leaders is a standing prophetic complaint (Ex 23:8; Isa 1:23; Mic 7:3), and Joel and Abijah's failure at Beersheba echoes Eli's sons' corruption of the priesthood one generation earlier (1 Sam 2:12-17). The pattern is pointed: bad leadership at the top of Israel's institutions is what opens the door to a demand for a wholly different kind of leadership." }
+  ],
+  crossRefs: [
+    { group:"The law already anticipated this", refs:[
+      { r:"Deuteronomy 17:14-20", note:"Moses' advance rules for a future Israelite king" },
+      { r:"Judges 8:22-23", note:"Gideon refuses hereditary rule: 'the LORD will rule over you'" },
+      { r:"Judges 9:7-15", note:"Jotham's fable, warning against kingship sought for the wrong reasons" } ]},
+    { group:"Rejection, not novelty", refs:[
+      { r:"1 Samuel 10:19", note:"Samuel repeats the charge: 'you have rejected your God'" },
+      { r:"1 Samuel 12:12,17-19", note:"Samuel's farewell speech names the sin plainly and calls down thunder to prove it" },
+      { r:"Exodus 32", note:"the golden calf — the same underlying pattern of rejecting direct divine rule" } ]},
+    { group:"Eli's sons, echoed", refs:[
+      { r:"1 Samuel 2:12-17,22-25", note:"the earlier generation's corrupt leaders — Eli's sons at Shiloh" } ]},
+    { group:"What kingship becomes", refs:[
+      { r:"1 Kings 12:1-15", note:"Rehoboam repeats the very abuses Samuel warned of, and the kingdom splits" },
+      { r:"1 Samuel 8:18", note:"Samuel's own warning: 'you will cry out because of your king... but the LORD will not answer you in that day'" } ]}
+  ]
+},
+
+/* ============================================================
+   1 SAMUEL 9 — Saul goes looking for donkeys, finds a kingdom
+   ============================================================ */
+"9:9": {
+  era: {
+    title: "ca. 1051 BC — a Benjaminite's errand becomes a kingmaking",
+    sub: "Iron Age I · hill country of Ephraim and Benjamin · the day before the anointing",
+    badges: ["Iron Age I", "Period of the judges (closing)", "United monarchy (beginning)", "≈3,075 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Kish of Benjamin's donkeys have wandered off, so he sends his son Saul — a young man 'handsome' and 'taller than any of the people' (v. 2) — with a servant to find them. Days of fruitless searching take them through the hill country of Ephraim and the lands of Shalisha, Shaalim, and Benjamin, until Saul is ready to turn back rather than worry his father further (vv. 4-5). It's the servant who has the idea: there's a man of God in the next town, honored because 'all that he says comes true' — perhaps he can tell them which way to go (v. 6). With a quarter shekel of silver as a fee, they climb the hill into the city and ask some young women drawing water where to find 'the seer,' who, they're told, has come for a sacrifice at the high place that very day (vv. 11-13). What Saul doesn't know is that the LORD had told Samuel, the day before, to expect exactly this man from the land of Benjamin — the one who would 'save my people from the hand of the Philistines' (vv. 15-16). Samuel meets Saul at the gate before Saul can even ask his question, tells him the donkeys are already found, and puts to him a question that reframes everything: 'for whom is all that is desirable in Israel? Is it not for you?' (v. 20). Saul protests his own smallness — Benjamin's least clan, in Israel's smallest tribe (v. 21) — but is seated at the head of the guests and served the reserved portion of meat, kept for him since morning though he never knew an invitation had been extended (vv. 22-24). A donkey hunt has become a summons.",
+  focusPlace: "ramah",
+  places: [
+    { id:"gibeah", role:"Saul's home; his father Kish sends him with a servant to find the lost donkeys (vv. 1-3)" },
+    { id:"ramah",  role:"'The city' in the land of Zuph where Samuel the seer meets Saul at the gate and hosts him at the high place (vv. 6-27) — the text never names the town, but its role as Samuel's home base makes Ramah the standard identification" }
+  ],
+  journey: [
+    { from:"gibeah", to:"ramah",
+      label:"The donkey hunt", km:40,
+      note:"Not a straight line: Saul and his servant range through the hill country of Ephraim and the lands of Shalisha, Shaalim, and Benjamin before doubling into 'the land of Zuph,' near Ramah, on the point of giving up (vv. 4-5) — a wandering search that puts a farmer's son in exactly the right town on exactly the right day." },
+    { from:"ramah", to:"gibeah", dashed:true,
+      label:"An anxious father, waiting (implied)", km:40,
+      note:"Samuel's private word to Saul the next morning (10:2) will reveal that Kish has stopped worrying about the donkeys and started worrying about his missing son — a quiet measure of just how long this search had already stretched." }
+  ],
+  hotspots: [
+    { x:0.14, type:"person", label:"Saul, searching for his father's donkeys", av:"traveler",
+      desc:"Tall, handsome, and increasingly discouraged, Saul is ready to abandon the search rather than let his father's worry shift from donkeys to him (vv. 2-5) — unaware he is one town away from being told he will be prince over Israel." },
+    { x:0.3, type:"person", label:"The servant's idea", av:"traveler",
+      desc:"It's the unnamed servant who remembers the man of God nearby and offers his own quarter shekel of silver as a fee for guidance (vv. 6-8) — a servant's practical suggestion that, unknown to either of them, sets up the entire scene that follows." },
+    { x:0.46, type:"person", label:"Young women at the well", av:"woman",
+      desc:"Asked 'Is the seer here?' the women give precise, confident directions — Samuel has just arrived in town for a sacrifice at the high place, and if they hurry they'll catch him before he goes up to eat (vv. 11-13)." },
+    { x:0.62, type:"person", label:"Samuel, already told to expect him", av:"prophet",
+      desc:"'Tomorrow about this time I will send you a man from the land of Benjamin, and you shall anoint him to be prince over my people Israel' — the LORD had spoken this the day before Saul ever arrived (vv. 15-17). Samuel recognizes him on sight and needs no introduction." },
+    { x:0.78, type:"object", label:"The reserved portion of meat",
+      desc:"Samuel had told the cook to set aside a special cut in advance — 'set it before you, because it was kept for you until the appointed time, for I said I have invited the people' (v. 24-ish) — Saul is treated as guest of honor before he has any idea why." },
+    { x:0.9, type:"object", label:"A quarter shekel of silver",
+      desc:"The servant's small coin, offered as a seer's customary fee (v. 8), is the last ordinary transaction of Saul's private life — from the roof-top conversation that follows (v. 25), he leaves the next morning already the LORD's chosen, if not yet the people's king." }
+  ],
+  environment: {
+    chips: ["A multi-day search on foot", "Hill country of Ephraim and Benjamin", "'The land of Zuph' — Samuel's home district", "A high-place sacrifice and communal meal", "Seer's fee: a quarter shekel", "Iron Age I village life"],
+    text: "Saul's search plays out across the central hill country straddling Ephraim and Benjamin — rugged, terraced terrain where lost livestock could easily wander for days. 'The land of Zuph,' where the search finally succeeds, is identified by its association with Samuel's own family line (1 Sam 1:1, 'Zuph' as an ancestor) and points to Ramah as the unnamed city. The high place (bamah) where Samuel presides was a standard local worship site in this era, well before the Jerusalem temple centralized Israelite sacrifice — a communal meal followed the sacrifice itself, with the officiating seer blessing the food and the invited guests eating together, exactly the scene Saul stumbles into as an uninvited guest already reserved a seat."
+  },
+  objectsExtra: ["donkey", "highplace"],
+  peopleExtra: ["samuel", "saul"],
+  culture: [
+    { title:"'Seer' and 'prophet' — the narrator's own footnote", icon:"📖",
+      text:"Verse 9 pauses the story for an aside: 'he who is now called a prophet was formerly called a seer' — a rare moment where the text explains its own older vocabulary to a later audience. The term ro'eh ('seer') survived afterward mainly as an archaism (e.g., Amos 7:12), while navi ('prophet') became the standard term for the office Samuel himself would come to embody most fully." },
+    { title:"High places and the sacrificial meal", icon:"🛕",
+      text:"Before the Jerusalem temple centralized worship, sacrifice at local high places (bamot) was normal, sanctioned practice, not yet the corrupted rival worship later kings are condemned for tolerating. The meal structure implied here — blessing, then the host eating first, then the invited guests — matches known ancient Near Eastern hospitality customs, in which a reserved portion signaled honored status decided in advance by the host." },
+    { title:"Benjamin's low estate", icon:"🪶",
+      text:"Saul's protest — 'am I not a Benjaminite, from the smallest tribe of Israel, and my clan the humblest of the clans of Benjamin?' (v. 21) — carries real historical weight: Benjamin had been nearly annihilated in the civil war of Judges 19-21, reduced to a remnant granted wives only by extraordinary measures. A king 'raised up' from Israel's least tribe is itself a small reversal, the same pattern that later plucks the least-likely son of Jesse (1 Sam 16)." },
+    { title:"Donkeys, an ordinary but valuable loss", icon:"🫏",
+      text:"Donkeys were core working capital for a family of Kish's standing (v. 1, 'a man of wealth') — pack animals, plow assistance, and transport all at once — so a search lasting several days and covering multiple districts (vv. 4-5) reflects a real economic stake, not a trivial errand. That this ordinary chore becomes the occasion for Israel's first king to be identified is the chapter's own quiet argument for providence working through the mundane." }
+  ],
+  crossRefs: [
+    { group:"Benjamin's low estate", refs:[
+      { r:"Judges 19-21", note:"the civil war that nearly wiped out the tribe of Benjamin — the backdrop to Saul's protest" },
+      { r:"1 Samuel 9:21", note:"Saul's own words: 'am I not a Benjaminite... the humblest of the clans'" } ]},
+    { group:"Seer and prophet", refs:[
+      { r:"1 Samuel 9:9", note:"the narrator's own aside on changing terminology" },
+      { r:"Amos 7:12", note:"'seer' still used generations later as a title for a prophet" } ]},
+    { group:"The word about to be fulfilled", refs:[
+      { r:"1 Samuel 10:1", note:"the very next scene — Samuel pours the oil the LORD had promised" },
+      { r:"1 Samuel 15:17", note:"Samuel later reminds Saul: 'though you were little in your own eyes, were you not made head of the tribes?'" } ]},
+    { group:"Providence in small errands", refs:[
+      { r:"Genesis 37:12-17", note:"another young man sent on a simple errand that turns into something far larger" },
+      { r:"Ruth 2:3", note:"'she happened to come' to Boaz's field — an ordinary errand, divine timing" } ]}
+  ]
+},
+
+/* ============================================================
+   1 SAMUEL 10 — Saul anointed, then chosen by lot at Mizpah
+   ============================================================ */
+"9:10": {
+  era: {
+    title: "ca. 1051 BC — Saul anointed in private, crowned in public",
+    sub: "Iron Age I · from Ramah's edge to Mizpah · three signs and a national lottery",
+    badges: ["Iron Age I", "United monarchy (beginning)", "Reign of Saul begins", "≈3,075 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Alone with Saul outside the city, Samuel pours a flask of oil over his head, kisses him, and asks: 'Has not the LORD anointed you to be prince over his people Israel?' (v. 1). He then hands Saul three confirming signs for the road home — at Rachel's tomb, two men will report the donkeys found; at the oak of Tabor near Bethel, three pilgrims will hand him two loaves of bread; and at Gibeath-elohim, where a Philistine garrison sits, a band of ecstatic prophets will draw him into their prophesying as the Spirit of the LORD rushes upon him and turns him into 'another man' (vv. 2-7). Every sign lands exactly as promised, and those who knew Saul before are startled enough to coin a proverb: 'Is Saul also among the prophets?' (v. 11-12). Saul tells his uncle only about the donkeys, keeping Samuel's word about the kingdom to himself (vv. 14-16). Some time later, Samuel calls 'all Israel' to Mizpah, names their demand for a king as itself a rejection of the LORD (vv. 18-19), and narrows the choice by lot — tribe, then clan, then man — until Saul's name comes up and Saul himself cannot be found: he is hiding among the baggage (vv. 20-22). Dragged out, standing head and shoulders above the crowd, he is met with Israel's first royal acclamation: 'Long live the king!' (v. 24). Samuel writes the rights and duties of the kingship in a book laid up before the LORD, and Saul goes home to Gibeah — trailed by men of valor whose hearts God had touched, and by a few who despise him and bring no gift (vv. 25-27).",
+  focusPlace: "mizpah",
+  places: [
+    { id:"ramah",  role:"Samuel anoints Saul in private with a flask of oil just outside the city (v. 1)" },
+    { id:"bethel", role:"The oak of Tabor nearby — three pilgrims 'going up to God at Bethel' hand Saul two loaves of bread, the second confirming sign (vv. 3-4)" },
+    { id:"gibeah", role:"Gibeath-elohim ('the hill of God') — treated here as Saul's own town under its cultic name, where the Spirit of the LORD rushes on him among a band of prophets (vv. 5-6, 10-13)" },
+    { id:"gilgal", role:"Samuel's parting instruction: go down and wait seven days for him there (v. 8) — the appointment broken in 1 Sam 13:8-14" },
+    { id:"mizpah", role:"Samuel assembles all Israel, casts lots by tribe and clan, and Saul is found and publicly hailed king (vv. 17-25)" }
+  ],
+  journey: [
+    { from:"ramah", to:"bethel",
+      label:"Two confirming signs on the road", km:20,
+      note:"Leaving Samuel at Ramah, Saul's homeward road passes first by Rachel's tomb at Zelzah in Benjamite territory (v. 2) — notably a different location from the better-known tomb tradition near Bethlehem in Genesis 35:19, a discrepancy long discussed by commentators — then on to the oak of Tabor near Bethel, where three pilgrims hand him bread exactly as foretold (vv. 3-4)." },
+    { from:"bethel", to:"gibeah",
+      label:"The third sign — prophesying with prophets", km:18,
+      note:"At Gibeath-elohim, effectively Saul's own town of Gibeah under its cultic name, a Philistine garrison sits astride a company of ecstatic prophets; the Spirit of the LORD rushes on Saul among them and turns him 'into another man' (vv. 5-6, 9-13) — the scene behind the proverb 'Is Saul also among the prophets?'" },
+    { from:"gibeah", to:"gilgal", dashed:true,
+      label:"An instruction for later", km:33,
+      note:"Samuel's parting word points Saul on to Gilgal to wait seven days for him (v. 8) — an appointment Saul will break under pressure in 1 Sam 13:8-14, the second count against his reign." },
+    { from:"gibeah", to:"mizpah",
+      label:"Chosen by lot before all Israel", km:12,
+      note:"Some time later, Samuel summons 'all Israel' to Mizpah for a public casting of lots, tribe by tribe, clan by clan, man by man — narrowing at last to Saul, who is found hiding among the baggage and dragged out to stand head and shoulders above the crowd (vv. 17-24)." }
+  ],
+  hotspots: [
+    { x:0.1, type:"person", label:"Samuel pours the flask of oil", av:"prophet",
+      desc:"Private, outside the city, with a kiss and a question rather than a proclamation: 'Has not the LORD anointed you to be prince over his people Israel? ... you shall save them from the hand of their enemies around' (v. 1)." },
+    { x:0.26, type:"person", label:"Three pilgrims at the oak of Tabor", av:"traveler",
+      desc:"'Going up to God at Bethel,' carrying three young goats, three loaves of bread, and a skin of wine, they greet Saul and hand him two loaves — precisely the sign Samuel had described in advance (vv. 3-4)." },
+    { x:0.44, type:"person", label:"The prophets, coming down with harp, tambourine, flute, and lyre", av:"prophet",
+      desc:"A band of prophesying musicians descends from the high place at Gibeath-elohim; the Spirit of the LORD rushes on Saul among them, and 'God gave him another heart' (vv. 5-6, 9-10) — the third sign, and the strangest." },
+    { x:0.6, type:"person", label:"Saul, hiding among the baggage", av:"king",
+      desc:"When the lot finally narrows to his name at Mizpah, Saul cannot be found — he has hidden himself among the supply carts, and has to be sought out and dragged before the assembly (vv. 21-23), the newly chosen king's first public appearance an act of hiding rather than stepping forward." },
+    { x:0.76, type:"person", label:"'Long live the king!'", av:"elder",
+      desc:"Once Saul stands among them, 'taller than any of the people from his shoulders upward' (v. 23), Samuel asks the crowd, 'Do you see him whom the LORD has chosen? There is none like him among all the people' — and Israel's very first royal acclamation goes up (v. 24)." },
+    { x:0.9, type:"object", label:"The book of the rights of the kingdom",
+      desc:"Before sending everyone home, Samuel writes down the rights and duties of kingship 'in a book and laid it up before the LORD' (v. 25) — a written constitutional check laid alongside the crown from its very first day, echoed later when Joash is crowned 'with the testimony' (2 Kgs 11:12)." }
+  ],
+  environment: {
+    chips: ["Three signs on a single homeward road", "Rachel's tomb — a Benjamite tradition", "A Philistine garrison overlooking prophesying musicians", "A national lottery, tribe to clan to man", "Hiding among the baggage", "Iron Age I confederation becoming a monarchy"],
+    text: "The chapter moves Saul through a tight arc of familiar central hill-country sites — Ramah, Bethel, and Gibeah lie within a short day's travel of one another — before widening out to Mizpah, the traditional assembly point for 'all Israel' since the days of the judges (Judg 20:1; 1 Sam 7:5-6). Gibeah's cultic name, 'the hill of God,' alongside a standing Philistine garrison, is a reminder of how contested this hill country still was even as Israel prepared to crown its own king there. Mizpah's public, tribe-by-tribe lottery — almost certainly cast with the priestly Urim and Thummim (cf. Josh 7:14-18) — turns the choice of a king into a transparent national event rather than a private prophetic decision alone."
+  },
+  objectsExtra: ["anoint-oil", "highplace", "lyre"],
+  peopleExtra: ["samuel", "saul"],
+  culture: [
+    { title:"A flask, not a horn — a curious detail", icon:"🫗",
+      text:"Saul is anointed from a pak, a flask (v. 1), while David (1 Sam 16:13) and later Solomon (1 Kgs 1:39) are anointed from a keren, a horn. Some Jewish and Christian interpreters through history have read the different vessel as meaningful — a flask's contents pour out and are gone, while a horn's oil-life was proverbially thought to last, taken as a hint that Saul's dynasty would not endure where David's would. Others treat it as incidental vocabulary with no symbolic weight. The text itself does not explain the choice of word, so this remains an interesting but genuinely debated observation rather than a settled point." },
+    { title:"Ecstatic prophecy in the ancient Near East", icon:"🎵",
+      text:"Bands of prophets moving together with musical accompaniment, entering a trance-like ecstatic state, are attested outside Israel as well (compare the Mari letters' guild-prophets and the Egyptian Report of Wenamun's ecstatic seer). What marks Saul's episode as distinct is cause and effect: it is specifically 'the Spirit of the LORD' that rushes on him and changes his heart (vv. 6, 10), not a self-induced or trained ritual state — the same phrase used of Samson's empowerments (Judg 14:6) and later withdrawn from Saul entirely (1 Sam 16:14)." },
+    { title:"Choosing a king by lot", icon:"🎲",
+      text:"Casting lots to narrow tribe, then clan, then individual mirrors the method used to expose Achan after Ai (Josh 7:16-18) — a procedure Israel already trusted to reveal the LORD's own choice rather than chance (Prov 16:33), likely using the priestly Urim and Thummim. Doing this publicly at Mizpah, before 'all Israel,' makes Saul's kingship a matter of open, verifiable national process rather than Samuel's word alone — even though Samuel had already anointed him in private weeks earlier." },
+    { title:"A book of rights alongside the crown", icon:"📜",
+      text:"Verse 25's 'book of the rights and duties of the kingdom,' laid up before the LORD, is widely read as an application of Deuteronomy 17:14-20's advance law for kings — Israelite kingship was constituted, from its first hour, as a covenanted and limited office rather than the unchecked absolutism of surrounding monarchies. The gesture recurs generations later when the boy-king Joash is crowned 'with the testimony' in hand (2 Kgs 11:12)." }
+  ],
+  crossRefs: [
+    { group:"Confirming signs, fulfilled", refs:[
+      { r:"1 Samuel 10:9", note:"'God gave him another heart... all these signs came to pass that day'" },
+      { r:"Exodus 4:1-9", note:"multiple confirming signs given to another reluctant leader, Moses" } ]},
+    { group:"Rachel's tomb — two traditions", refs:[
+      { r:"Genesis 35:16-20", note:"the better-known tomb tradition, near Bethlehem/Ephrath in Judah" },
+      { r:"Jeremiah 31:15", note:"'Rachel weeping for her children' located 'in Ramah' — consistent with a northern, Benjamite tradition" } ]},
+    { group:"Prophetic ecstasy", refs:[
+      { r:"Numbers 11:24-29", note:"the Spirit rests on the seventy elders and they prophesy — a precedent for shared, temporary prophetic experience" },
+      { r:"1 Samuel 19:20-24", note:"the same proverb repeated later, when Saul's own messengers — and then Saul himself — fall into prophetic ecstasy trying to arrest David" } ]},
+    { group:"Chosen by lot", refs:[
+      { r:"Joshua 7:16-18", note:"the same tribe-clan-family-man narrowing method, used to expose Achan" },
+      { r:"Proverbs 16:33", note:"'the lot is cast into the lap, but its every decision is from the LORD'" },
+      { r:"Acts 1:26", note:"the apostles cast lots to choose Judas's replacement" } ]},
+    { group:"A king under the law", refs:[
+      { r:"Deuteronomy 17:14-20", note:"the law of kingship this new 'book' (v. 25) is presumably built on" },
+      { r:"1 Samuel 12:1-5", note:"Samuel's farewell review of his own record, delivered right after this kingship begins" } ]}
+  ]
+},
+
+/* ============================================================
    1 SAMUEL 4 — The ark captured; Ichabod
    ============================================================ */
 "9:4": {
@@ -703,212 +922,6 @@ BVV.CURATED = {
       { r:"Psalm 132:6", note:"'we found it in the fields of Jaar' — a poetic memory of this very town" } ]},
     { group:"Guilt offerings", refs:[
       { r:"Leviticus 5:14-19", note:"the guilt/reparation offering the Philistine ritual echoes" } ]}
-  ]
-},
-
-/* ============================================================
-   1 SAMUEL 8 — Israel demands a king
-   ============================================================ */
-"9:8": {
-  era: {
-    title: "ca. 1051 BC — Israel asks Samuel for a king",
-    sub: "Iron Age I · the end of the judges · Samuel's old age",
-    badges: ["Iron Age I", "Period of the judges (ending)", "Transition to monarchy", "≈3,075 years ago"]
-  },
-  timeOfDay: "day",
-  summary: "Samuel is old, and the sons he set as judges over Israel — Joel and Abijah, ruling from Beersheba — take bribes and turn aside after gain. The elders of Israel converge on Ramah with a request that lands on Samuel like a personal rejection: appoint us a king, 'to judge us like all the nations.' The LORD tells him plainly it is not Samuel they have rejected but God's own kingship over them — then has him spell out exactly what a king will cost: sons drafted for chariots and war, daughters for the palace kitchens, the best fields and vineyards handed to courtiers, a tenth of flocks and harvests taken as tax, and in the end a servitude the people will regret asking for and cry out against in vain. Israel refuses to listen. 'Obey their voice,' the LORD tells Samuel again, 'and make them a king.'",
-  focusPlace: "ramah",
-  places: [
-    { id:"beersheba", role:"Where Samuel's sons Joel and Abijah judge — and take bribes (vv. 1-3)" },
-    { id:"ramah", role:"Samuel's home; the elders gather to demand a king (v. 4)" }
-  ],
-  journey: [
-    { from:"beersheba", to:"ramah", dashed:true,
-      label:"The elders converge on Samuel", km:80,
-      note:"Not one man's errand but the whole nation's grievance: word of the corrupt courts Samuel set up at Beersheba, in the far south, reaches all the way to his home at Ramah in the Benjamite hills, and 'all the elders of Israel' arrive together to press him in person (v. 4)." }
-  ],
-  hotspots: [
-    { x:0.16, type:"person", label:"Samuel, old and stung", av:"prophet",
-      desc:"He has judged Israel his whole life, circuit-riding between Bethel, Gilgal, Mizpah and his home at Ramah (7:15-17). The request for a king lands on him personally — 'the thing displeased Samuel' — before the LORD tells him it was never really about him (vv. 6-7)." },
-    { x:0.36, type:"person", label:"Joel and Abijah, judges at Beersheba", av:"official",
-      desc:"Samuel's own sons, appointed judges in his old age, 'did not walk in his ways but turned aside after gain. They took bribes and perverted justice' (vv. 1-3) — the immediate spark for the elders' demand, echoing Eli's corrupt sons a generation earlier." },
-    { x:0.55, type:"person", label:"The elders of Israel, demanding a king", av:"elder",
-      desc:"'Appoint for us a king to judge us like all the nations' (v. 5, repeated v. 20) — the phrase itself is the diagnosis: Israel wants the ordinary security of a dynasty and an army, not the LORD's direct and sometimes unpredictable rule through judges." },
-    { x:0.78, type:"object", label:"'These will be the ways of the king' — Samuel's warning list",
-      desc:"Sons conscripted for chariots, cavalry and the royal fields; daughters taken for the palace kitchens; the best land, vineyards and flocks handed to officials; a tenth of everything as tax — and 'you shall be his slaves' (vv. 11-17). Every item reads like an inventory of exactly what later kings, starting with Solomon, actually did." }
-  ],
-  environment: {
-    chips: ["Samuel's circuit towns", "A generational, inherited judgeship failing", "'Like all the nations'", "A king's projected cost, itemized", "Iron Age I tribal confederacy under strain", "The LORD's kingship versus a human one"],
-    text: "Israel at this point has no capital, no standing army, no court and no taxation beyond tithes and offerings — a loose confederation of tribes under occasional charismatic judges and, since Samuel, a single respected circuit-prophet based at Ramah (7:15-17). The elders' request for a king 'like all the nations' asks Israel to trade that arrangement for exactly the kind of centralized, tax-and-conscript monarchy every neighboring power already ran — Egypt, Ammon, Moab, the Philistine city-lords. Samuel's warning in vv. 11-17 is less prophecy than plain civics: this is what kings, everywhere, do."
-  },
-  objectsExtra: ["chariot", "yoke", "shekel"],
-  peopleExtra: ["samuel"],
-  culture: [
-    { title:"Deuteronomy's law of the king — written centuries earlier", icon:"📜",
-      text:"Deuteronomy 17:14-20 anticipated this exact moment: Israel would one day say 'I will set a king over me, like all the nations,' and the law permits it — on conditions (native-born, no multiplying horses, wives or silver, a personal copy of the law read all his days). The request itself isn't the sin; the motive named in v. 7 — wanting a king instead of the LORD's own kingship — is what makes this scene a rejection rather than a request." },
-    { title:"Kingship in the ancient Near East", icon:"👑",
-      text:"Samuel's list in vv. 11-17 matches, almost item for item, how contemporary Egyptian, Ammonite and Canaanite monarchies actually functioned: royal chariot corps and standing armies raised by conscription, crown land worked by requisitioned labor, and a percentage tax (often a tenth) on produce and livestock. It is not a rhetorical exaggeration — it is a job description of the office Israel is asking for." },
-    { title:"A hereditary judgeship — the same failure as Eli's house", icon:"⚖️",
-      text:"Samuel appointing his own sons as judges (v. 1) treats an office that was never meant to be dynastic as a family inheritance — and it fails the same way Eli's priestly line failed a generation earlier (1 Sam 2:12-17, 22-25): sons who take the position without the character, twisting justice for profit." },
-    { title:"'They have not rejected you, but me'", icon:"🔍",
-      text:"The LORD's own diagnosis (v. 7) reframes the whole chapter: this isn't primarily a story about Samuel's wounded pride or Israel's ingratitude to one leader, but about Israel choosing a visible human king over the LORD's own direct rule — the same theological principle Gideon had voiced generations earlier, refusing a crown: 'the LORD shall rule over you' (Judg 8:23)." }
-  ],
-  crossRefs: [
-    { group:"The law already anticipated this", refs:[
-      { r:"Deuteronomy 17:14-20", note:"conditions set centuries earlier for the king Israel would one day ask for" },
-      { r:"Genesis 17:6,16", note:"kings promised in the covenant with Abraham long before Saul" } ]},
-    { group:"Better not to want to be 'like the nations'", refs:[
-      { r:"Judges 8:22-23", note:"Gideon refuses a crown: 'the LORD shall rule over you'" },
-      { r:"Judges 9", note:"Abimelech's disastrous, self-made kingship — an early warning" },
-      { r:"Hosea 13:11", note:"'I gave you a king in my anger, and I took him away in my wrath'" } ]},
-    { group:"The king Israel gets", refs:[
-      { r:"1 Samuel 9:15-17", note:"the LORD's private word to Samuel, the day before Saul arrives" },
-      { r:"1 Samuel 10:17-25", note:"Saul publicly chosen by lot at Mizpah" },
-      { r:"1 Samuel 12:1-25", note:"Samuel's farewell review of this whole request, years later" } ]},
-    { group:"The warning fulfilled", refs:[
-      { r:"1 Kings 12:1-19", note:"Rehoboam threatens exactly the heavier yoke Samuel warned of — and the kingdom splits" },
-      { r:"1 Samuel 8:18", note:"'you will cry out... but the LORD will not answer you in that day'" } ]}
-  ]
-},
-
-/* ============================================================
-   1 SAMUEL 9 — Saul's search for donkeys; the seer at Ramah
-   ============================================================ */
-"9:9": {
-  era: {
-    title: "ca. 1051 BC — a lost-donkey errand finds a king",
-    sub: "Iron Age I · hill country of Ephraim and Benjamin · the day before the anointing",
-    badges: ["Iron Age I", "Transition to monarchy", "Saul before the throne", "≈3,075 years ago"]
-  },
-  timeOfDay: "evening",
-  summary: "Kish of Gibeah, a wealthy Benjaminite, sends his son Saul and a servant after stray donkeys. Days of fruitless searching take them through the hill country of Ephraim, the land of Shalisha, Shaalim, and Benjamin, until Saul is ready to turn back rather than worry his father further. It's the servant who has the idea: there's a man of God in the next town, held in honor, whose every word comes true — perhaps he can tell them the way. Unknown to either of them, the LORD had told Samuel the day before that 'about this time tomorrow' he would send a man from Benjamin to anoint as prince over Israel. Saul and Samuel meet, of all places, at the town gate; Samuel seats him at the head of thirty invited guests, over a portion of meat kept aside since morning just for him, and drops a riddle into the small talk: the donkeys are found, so 'for whom is all that is desirable in Israel?' Saul, honestly baffled, has no idea he is the answer.",
-  focusPlace: "ramah",
-  places: [
-    { id:"gibeah", role:"Kish's home and Saul's starting point (v. 1)" },
-    { id:"ramah", role:"'The city' where the seer lives — Samuel's own town, in the land of Zuph (vv. 5-24)" }
-  ],
-  journey: [
-    { from:"gibeah", to:"ramah", dashed:true,
-      label:"Three days chasing donkeys", km:60,
-      note:"Saul and his servant zigzag through the hill country of Ephraim and the otherwise-unlocated 'land of Shalisha,' 'land of Shaalim,' and 'land of Benjamin' (vv. 4-5) before doubling back into the land of Zuph — generally identified with the country around Ramah — where the servant proposes asking the local seer for direction instead." }
-  ],
-  hotspots: [
-    { x:0.18, type:"person", label:"Saul, tall, handsome, and looking for donkeys", av:"traveler",
-      desc:"The narrator's introduction leads with looks and height — 'there was not a more handsome man... from his shoulders upward he was taller than any of the people' (v. 2) — a detail the book will later correct: 'the LORD looks on the heart' (16:7). For now Saul is simply an anxious son, worried his father will start worrying about him instead of the donkeys (v. 5)." },
-    { x:0.38, type:"person", label:"The unnamed servant with the idea", av:"traveler",
-      desc:"It's the servant, not Saul, who remembers the seer in the next town and offers the last quarter-shekel of silver in his pocket to pay the man's fee (vv. 6-8) — a minor character who quietly steers the entire plot toward the anointing." },
-    { x:0.6, type:"person", label:"Samuel, already expecting him", av:"prophet",
-      desc:"'About this time tomorrow I will send you a man from the land of Benjamin, and you shall anoint him to be prince over my people Israel' (v. 16) — the LORD's private tip-off, given the day before Saul ever asks directions to the seer's town." },
-    { x:0.82, type:"object", label:"The reserved portion at the high-place feast",
-      desc:"Samuel had told the cook that morning to set aside a special cut of meat 'until I say to you, Come up,' (v. 23-24) — the guest of honor's seat was arranged before the guest himself knew he was coming, one more quiet sign of a meeting staged well in advance." }
-  ],
-  environment: {
-    chips: ["Hill country of Ephraim and Benjamin", "A three-day search gone nowhere", "A seer consulted for a fee", "Guest of honor without knowing why", "Kish's wealth and standing (v. 1)", "Iron Age I hill towns"],
-    text: "The search wanders through territory Scripture itself treats as vague — 'the land of Shalisha,' 'the land of Shaalim' — small districts with no securely identified sites today, before settling on 'the land of Zuph,' generally tied to Ramah/Ramathaim, Samuel's own home (1 Sam 1:1). The chapter pointedly explains its own vocabulary in v. 9: 'he who is now called a prophet was formerly called a seer' — a rare moment where the text steps outside the story to gloss a changing term for the reader."
-  },
-  objectsExtra: ["donkey", "shekel", "highplace"],
-  peopleExtra: ["samuel", "saul", "kish"],
-  culture: [
-    { title:"Seer (ro'eh) and prophet (navi)", icon:"👁️",
-      text:"Verse 9's aside — that 'seer' was the older term for what Israel now calls a 'prophet' — is echoed in 1 Chronicles 29:29, which lists 'Samuel the seer,' 'Nathan the prophet,' and 'Gad the seer' side by side, and in Amos 7:12, where a hostile priest still uses 'seer' generations later. The terms overlap rather than naming two different offices." },
-    { title:"A fee for the man of God", icon:"🪙",
-      text:"The servant's quarter-shekel (v. 8) reflects normal ancient practice: consulting a diviner, priest, or holy man commonly came with a gift or fee (compare Balaam's fee in Numbers 22:7, or the reversal when Elisha refuses Naaman's payment in 2 Kings 5:15-16). Nothing in the text treats the payment as improper — it's simply what one brought to ask a favor of a man held in honor." },
-    { title:"An introduction built on appearance", icon:"📏",
-      text:"Saul's build and looks (v. 2) are the first thing Israel — and the reader — learns about him, and they will matter again at his public unveiling ('a head taller than any of the people,' 10:23-24). The book eventually corrects the emphasis at 16:7, when the next king is chosen by a standard that has nothing to do with height." },
-    { title:"An ordinary errand, an extraordinary appointment", icon:"🐴",
-      text:"Nothing about chasing runaway donkeys reads as remarkable — until the reader is let in on what Saul doesn't know: Samuel has already been told, by tribe if not yet by name, exactly who is coming and why (vv. 15-17). The chapter's quiet claim is that ordinary errands can be providence in disguise." }
-  ],
-  crossRefs: [
-    { group:"The LORD's private word", refs:[
-      { r:"1 Samuel 9:15-17", note:"the revelation to Samuel, a day ahead of Saul's arrival" },
-      { r:"1 Samuel 10:1", note:"the private anointing that follows this meeting" } ]},
-    { group:"Seers and prophets elsewhere", refs:[
-      { r:"1 Chronicles 29:29", note:"Samuel the seer, Nathan the prophet, Gad the seer, named together" },
-      { r:"2 Samuel 24:11", note:"Gad called 'the seer' decades later" },
-      { r:"Amos 7:12", note:"a priest still uses the older term, generations on" } ]},
-    { group:"Appearance and the heart", refs:[
-      { r:"1 Samuel 10:23-24", note:"the people cheer Saul's height at his public unveiling" },
-      { r:"1 Samuel 16:6-7", note:"the corrective, when David is chosen: 'the LORD looks on the heart'" } ]},
-    { group:"Saul's family", refs:[
-      { r:"1 Samuel 14:50-51", note:"Kish's genealogy and Saul's household" },
-      { r:"Acts 13:21", note:"Paul recalls Saul simply as 'of the tribe of Benjamin'" } ]}
-  ]
-},
-
-/* ============================================================
-   1 SAMUEL 10 — Saul anointed; confirmed king by lot at Mizpah
-   ============================================================ */
-"9:10": {
-  era: {
-    title: "ca. 1050 BC — Saul anointed, then confirmed king by lot",
-    sub: "Iron Age I · Benjamin's hill country · the birth of the united monarchy",
-    badges: ["Iron Age I", "United monarchy (beginning)", "Reign of Saul begins", "≈3,075 years ago"]
-  },
-  timeOfDay: "day",
-  summary: "Samuel pours a flask of oil over Saul's head, kisses him, and asks the question that changes everything: 'Has not the LORD anointed you to be prince over his people Israel?' Then he hands Saul three signs to test it on the walk home — men at Rachel's tomb reporting the donkeys found, three pilgrims at the oak near Bethel who hand over bread unasked, and, past a Philistine garrison at Gibeath-elohim, a band of ecstatic prophets whose Spirit falls on Saul too, turning a search party's son into, in the town's own astonished words, one of the prophets. All three signs land exactly as promised. Weeks later Samuel calls the whole nation to Mizpah and narrows the choice by sacred lot — tribe, then clan, then family, then man — until it comes down to Saul, who is found hiding among the baggage. Pulled out a head taller than everyone in the crowd, he is greeted with a shout: 'Long live the king!' Samuel writes the rights and duties of the kingship in a book laid up before the LORD, and Saul goes home to Gibeah — trailed by loyal volunteers, and by scorn from a few who ask, 'How can this man save us?'",
-  focusPlace: "mizpah",
-  places: [
-    { id:"ramah",  role:"Where Samuel anoints Saul in private, before the signs (10:1)" },
-    { id:"bethel", role:"Near the oak of Tabor — the second confirming sign, three pilgrims with bread and wine (vv. 3-4)" },
-    { id:"gibeah", role:"Gibeath-elohim, 'the hill of God' by a Philistine garrison — the third sign, and Saul's home (vv. 5-13, 26)" },
-    { id:"mizpah", role:"The nation's assembly; Saul chosen by lot, then acclaimed king (vv. 17-25)" },
-    { id:"gilgal", role:"Where Samuel tells Saul to wait seven days — not kept until ch. 13 (v. 8)" }
-  ],
-  journey: [
-    { from:"ramah", to:"bethel",
-      label:"Sign one, then sign two", km:10,
-      note:"Leaving Samuel, Saul first passes Rachel's tomb on the border of Benjamin, where two men confirm the donkeys are found (v. 2), then continues toward the oak of Tabor near Bethel, where three pilgrims bound for worship hand him two loaves of bread unasked (vv. 3-4)." },
-    { from:"bethel", to:"gibeah",
-      label:"Sign three, at the garrison hill", km:12,
-      note:"At Gibeath-elohim — 'the hill of God' — where a Philistine garrison sits deep in Benjaminite territory, Saul meets a band of prophets coming down from the high place with harp, tambourine, flute and lyre; the Spirit of God rushes on him and he prophesies with them (vv. 5-13)." },
-    { from:"gibeah", to:"mizpah",
-      label:"Called to the nation's assembly", km:8,
-      note:"Weeks later Samuel summons all Israel to Mizpah, where the sacred lot narrows tribe to clan to family to one man — found, at the end, hiding among the baggage (vv. 17-23)." },
-    { from:"mizpah", to:"gilgal", dashed:true,
-      label:"The rendezvous Samuel names", km:30,
-      note:"Samuel's instruction in v. 8 — go to Gilgal, wait seven days for me to come and sacrifice — points forward to a test Saul will fail more than two years later, when his nerve breaks before the seven days are up (13:8-14)." }
-  ],
-  hotspots: [
-    { x:0.1, type:"person", label:"Samuel pours the flask of oil", av:"prophet",
-      desc:"'Is it not because the LORD has anointed you to be prince over his people Israel?' (v. 1) — a private ceremony witnessed by no one else, using the Hebrew nagid, 'leader' or 'prince-designate,' rather than melek, 'king.' The public office still waits for Mizpah." },
-    { x:0.32, type:"person", label:"Saul among the prophets", av:"traveler",
-      desc:"At Gibeath-elohim the Spirit of God rushes on Saul and he prophesies alongside a band of ecstatic prophets descending from the high place — startling enough that it becomes a standing proverb, repeated again at 19:24: 'Is Saul also among the prophets?' (vv. 11-12)." },
-    { x:0.55, type:"person", label:"Saul hiding among the baggage", av:"king",
-      desc:"When the sacred lot finally names him at Mizpah, Saul is nowhere to be found — 'he has hidden himself among the baggage' (v. 22). Pulled out, he stands 'a head taller than any of the people' (v. 23), the same physical stature that opened chapter 9 now put on public display." },
-    { x:0.72, type:"person", label:"'Long live the king!'", av:"king",
-      desc:"Samuel puts the question to the crowd — 'Do you see him whom the LORD has chosen? There is none like him among all the people' — and 'all the people shouted, Long live the king!' (v. 24), the first coronation acclamation in Israel's history." },
-    { x:0.88, type:"object", label:"The book of the rights and duties of the kingship",
-      desc:"Before the assembly disperses, Samuel writes down the kingship's rights and duties in a scroll and lays it up 'before the LORD' (v. 25) — an early constitutional check on the new office, echoing Deuteronomy 17:18-20's command that a king keep his own copy of the law." }
-  ],
-  environment: {
-    chips: ["Three staged confirmations on the road home", "A Philistine garrison already inside the highlands", "Ecstatic prophets with harp and lyre", "Sacred lot, tribe by tribe", "A king found hiding among the baggage", "'Long live the king!'"],
-    text: "The chapter tracks a route through the heart of Benjamin — Rachel's tomb, the oak near Bethel, Gibeath-elohim, then home to Gibeah — closing at Mizpah, the same hill-town assembly site where Samuel had earlier judged Israel and won a battle (1 Sam 7). That a Philistine garrison already sits at Gibeath-elohim, well inside Israelite hill country and near Saul's own hometown, is a quiet warning shot: the crisis of chapters 13-14, where Israel has almost no iron weapons and Philistine posts control the passes, has already begun before Saul's reign does."
-  },
-  objectsExtra: ["anoint-oil", "lyre"],
-  peopleExtra: ["samuel", "saul"],
-  culture: [
-    { title:"Nagid before melek — a staged installation", icon:"🫗",
-      text:"Saul's private anointing uses nagid ('leader,' 'prince-designate') rather than melek ('king') — the office becomes public only at Mizpah's acclamation, and is renewed a third time after Saul's first military win, at Gilgal (11:14-15). David's own rise later follows the identical three-stage pattern: private anointing at Bethlehem (16:13), public kingship over Judah at Hebron (2 Sam 2:4), then over all Israel (2 Sam 5:3)." },
-    { title:"Ecstatic prophecy and prophetic bands", icon:"🎵",
-      text:"Groups of prophets moving together with instruments and falling into inspired, trance-like states recur through the historical books — again around Saul himself at 1 Samuel 19:20-24, and later as organized communities, the 'sons of the prophets,' under Elisha (2 Kings 2:3-7, 15). What makes this instance startling isn't the phenomenon but the participant: of all people, the tall young man who set out looking for donkeys." },
-    { title:"A Philistine garrison inside Benjamin", icon:"🛡️",
-      text:"That Philistines already garrison a hill (netsib, 'post' or 'garrison') deep in Israel's central highlands, near Gibeah itself, shows how thoroughly Philistine power had penetrated the hill country before Saul ever fights a battle — the situation his entire early reign (chs. 13-14) will be spent trying to reverse." },
-    { title:"Casting lots for God's choice", icon:"🎲",
-      text:"Narrowing tribe, then clan, then family, then individual by lot (vv. 20-21) parallels Joshua 7's exposure of Achan by the same method, and reflects the conviction behind Proverbs 16:33 — 'the lot is cast into the lap, but its every decision is from the LORD.' The mechanism itself (very likely the priestly Urim and Thummim) isn't named here, only its result." }
-  ],
-  crossRefs: [
-    { group:"A three-stage installation", refs:[
-      { r:"1 Samuel 9:15-17", note:"the LORD's private tip-off to Samuel" },
-      { r:"1 Samuel 11:14-15", note:"Saul's kingship publicly renewed at Gilgal, after Jabesh-gilead" },
-      { r:"2 Samuel 5:3", note:"David's own final, national anointing, the same three-stage path" } ]},
-    { group:"Ecstatic prophecy, again", refs:[
-      { r:"1 Samuel 19:18-24", note:"Saul prophesies a second time — the proverb repeated" },
-      { r:"2 Kings 2:3-7,15", note:"the 'sons of the prophets' as an organized community" } ]},
-    { group:"The Gilgal rendezvous kept and broken", refs:[
-      { r:"1 Samuel 13:8-14", note:"Saul's nerve fails before the seven days are up — his first recorded misstep" } ]},
-    { group:"Kingship recorded and reviewed", refs:[
-      { r:"Deuteronomy 17:14-20", note:"the law's own conditions for a king, including his personal copy of the law" },
-      { r:"1 Samuel 12:1-25", note:"Samuel's farewell review of the whole covenant, years later" } ]}
   ]
 },
 
