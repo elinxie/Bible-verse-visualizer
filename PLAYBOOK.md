@@ -183,6 +183,7 @@ rolling window + weekly cap). Treat every agent spawn as paid labor:
 | 3 | 2026-07-03 | Curated 1 Sam 4, 5, 6 (M, ark narrative); place +ebenezer; fixtures 9-4/5/6 (65 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped, deploy verified live |
 | 4 | 2026-07-03 | 1 Sam 8–10 batch ABORTED — monthly spend limit hit mid-agent; fixtures 9-8/9/10 committed as prep; post-mortem + spend guardrails written | 1× sonnet ENG (killed) | 🛑 loop stopped by user; resume here |
 | 5 | 2026-07-04 | Curated 1 Sam 8, 9, 10 (M) using the prepped fixtures; sweep entries `"1 Samuel 8\|9:8"`, `"9\|9:9"`, `"10\|9:10"` added to tests/smoke.js (87 assertions, PASS); no new places/people/objects needed (fully reused beersheba/ramah/gibeah/bethel/gilgal/mizpah) | 1× sonnet ENG (curation) | ✅ shipped per Hard spend guardrails (one iteration, then stop) |
+| 6 | 2026-07-03 | On-page coverage panel (`js/coverage.js` + 📊 buttons): per-book/per-chapter grid computed live from `BVV.CURATED`/datasets, stat cards vs Tier 1–2 targets; +8 smoke assertions (PASS) | none (orchestrator only) | ✅ shipped |
 | — | THEN | GitHub issue #7 — add `meaning` (name-translation) field to `BVV.PLACES` + surface in place UI + test; own feature+tests iteration (see Feature backlog below) | ≤1 sonnet | pending |
 | — | NEXT SESSION | Curate 1 Sam 24, 25 (M) to finish the 1 Samuel key-chapter list; obey Hard spend guardrails | ≤1 sonnet | pending |
 

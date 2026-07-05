@@ -9,6 +9,7 @@ A visual study Bible: type any passage and explore —
 - 🏺 **Cultural & Archaeological Context** — curated cards (ancient Near Eastern background, customs, digs).
 - 🔗 **Related Verses** — grouped, clickable cross-references.
 - ⚖️ **Analyses Compared** — for curated chapters, how this visualization lines up with published commentary (fully built out for **1 Samuel 28**).
+- 📊 **Coverage** — the header's Coverage button opens a live per-book, per-chapter progress grid showing which chapters have hand-curated depth (deep / medium) versus the automatic pipeline, plus dataset progress toward the PLAYBOOK targets. Computed at runtime from `js/data/curated.js`, so it's always current.
 
 **Live site:** https://elinxie.github.io/Bible-verse-visualizer/
 
@@ -35,6 +36,7 @@ js/data/places.js     gazetteer (coords, "as it was then", scene recipe)
 js/data/people.js     major figures
 js/data/objects.js    material culture
 js/data/curated.js    deep per-chapter study data
+js/coverage.js        on-page coverage/progress panel (📊)
 .github/workflows/deploy.yml   Pages deploy + ESV snapshotting
 PLAYBOOK.md           how to keep expanding coverage session by session
 ```
