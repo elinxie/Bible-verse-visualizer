@@ -198,6 +198,8 @@ body {
 .map-popup h3 { margin: 0 0 .2rem; font-size: .95rem; color: var(--accent-dark); }
 .map-popup .ancient-note { font-style: italic; font-size: .8rem; color: var(--place); margin: .1rem 0; }
 .map-popup p { margin: .25rem 0; font-size: .82rem; }
+.place-meaning { font-size: .78rem; color: var(--accent-dark); opacity: .85; }
+.place-meaning::before { content: "✎ "; }
 .map-popup button {
   font: inherit; font-size: .78rem;
   background: var(--accent); color: #fff;
