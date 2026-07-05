@@ -180,11 +180,12 @@ rolling window + weekly cap). Treat every agent spawn as paid labor:
 | 2 | 2026-07-03 | Curated 1 Sam 3, 15, 16 (M); place +amalek; test sweep generalized (47 assertions, PASS); fixtures 9-3/15/16 | 1× sonnet ENG (curation) | ✅ merged (#3); Pages rotation flaked 3× — superseded by iter 3's deploy |
 | 3 | 2026-07-03 | Curated 1 Sam 4, 5, 6 (M, ark narrative); place +ebenezer; fixtures 9-4/5/6 (65 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped, deploy verified live |
 | 4 | 2026-07-03 | 1 Sam 8–10 batch ABORTED — monthly spend limit hit mid-agent; fixtures 9-8/9/10 committed as prep; post-mortem + spend guardrails written | 1× sonnet ENG (killed) | 🛑 loop stopped by user; resume here |
-| 5 | 2026-07-03 | On-page coverage panel (`js/coverage.js` + 📊 buttons): per-book/per-chapter grid computed live from `BVV.CURATED`/datasets, stat cards vs Tier 1–2 targets; +8 smoke assertions (PASS) | none (orchestrator only) | ✅ shipped |
-| — | NEXT SESSION | Curate 1 Sam 8, 9, 10 (M) — fixtures exist; add sweep entries `"1 Samuel 8\|9:8"` etc. to tests/smoke.js; obey Hard spend guardrails | ≤1 sonnet | pending |
+| 5 | 2026-07-04 | Curated 1 Sam 8, 9, 10 (M) using the prepped fixtures; sweep entries `"1 Samuel 8\|9:8"`, `"9\|9:9"`, `"10\|9:10"` added to tests/smoke.js (87 assertions, PASS); no new places/people/objects needed (fully reused beersheba/ramah/gibeah/bethel/gilgal/mizpah) | 1× sonnet ENG (curation) | ✅ shipped per Hard spend guardrails (one iteration, then stop) |
+| 6 | 2026-07-03 | On-page coverage panel (`js/coverage.js` + 📊 buttons): per-book/per-chapter grid computed live from `BVV.CURATED`/datasets, stat cards vs Tier 1–2 targets; +8 smoke assertions (PASS) | none (orchestrator only) | ✅ shipped |
+| — | NEXT SESSION | Curate 1 Sam 24, 25 (M) to finish the 1 Samuel key-chapter list; obey Hard spend guardrails | ≤1 sonnet | pending |
 
 ### Curation roadmap (tick as shipped; M = medium depth, L = deep)
-**1 Samuel:** [x] 28(L) · [x] 3(M) · [x] 4–6(M) · [ ] 8–10 · [x] 15(M) · [x] 16(M) · [x] 17(L) · [ ] 24 · [ ] 25 · [x] 31(M)
+**1 Samuel:** [x] 28(L) · [x] 3(M) · [x] 4–6(M) · [x] 8–10(M) · [x] 15(M) · [x] 16(M) · [x] 17(L) · [ ] 24 · [ ] 25 · [x] 31(M)
 **2 Samuel:** [ ] 1 · [ ] 5 · [ ] 6 · [ ] 7 · [ ] 11–12 · [ ] 15 · [ ] 18 · [ ] 24
 **Then (order):** Genesis 1–3, 6–9, 12, 22, 28, 37, 41, 45 · Exodus 3, 12, [x] 14(M), 19–20, 32 · Joshua 2, 6 · Judges 4, 7, 16 · Ruth 1–4 · 1 Kgs 3, 8, 17–19 · 2 Kgs 5, 18–19, 25 · Ezra 3 · Neh 2, 8 · Esther 4 · Job 1–2, 38 · Pss 22, 23, 51, 137 · Isa 6, 40, 53 · Jer 1, 29, 31 · Ezek 1, 37 · Dan 1–6 · Jonah 1–4 · Mic 5 · Hag 1 ·
 **NT:** Matt 2, 5–7, 26–28 · Mark 4–5 · Luke [x] 2(M), 10, 15, 24 · John 1, 3, [x] 4(M), 9, 11, 19–21 · Acts 1–2, 8–9, 16–17, [x] 27(M), 28 · Rom 8 · 1 Cor 15 · Rev 1–3, 21–22
