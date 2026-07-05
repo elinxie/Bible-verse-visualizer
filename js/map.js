@@ -54,6 +54,7 @@ BVV.map = (function () {
         ${pi.role ? `<p><b>${pi.role}</b></p>` : ""}
         <p class="ancient-note">${p.ancient}</p>
         <p>${p.blurb}</p>
+        ${p.meaning ? `<p class="place-meaning">${p.meaning}</p>` : ""}
         <p style="opacity:.7">Today: ${p.modern}</p>
         <button data-view="${p.id}">👁 Open ancient view</button>`;
       el.querySelector("button").addEventListener("click", () => onViewScene(p.id));

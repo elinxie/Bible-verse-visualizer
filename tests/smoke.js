@@ -130,7 +130,8 @@ function check(name, cond, extra) {
     options: Array.from(document.querySelectorAll("#scene-place-select option")).map(o => o.textContent),
     sceneSvg: !!document.querySelector("#scene-viewport svg"),
     legs: document.querySelectorAll(".journey-leg").length,
-    analyses: document.querySelectorAll("#tab-analyses li").length
+    analyses: document.querySelectorAll("#tab-analyses li").length,
+    placeMeanings: Array.from(document.querySelectorAll("#tab-setting .place-meaning")).map(e => e.textContent)
   }));
   check("1 Sam 17 is curated", s.curated);
   check("detects David & Goliath", s.people.some(p => /David/.test(p)) && s.people.some(p => /Goliath/.test(p)), s.people);
@@ -138,6 +139,7 @@ function check(name, cond, extra) {
   check("scene renders", s.sceneSvg);
   check("1 Sam 17: journey legs ≥ 2", s.legs >= 2, s.legs);
   check("1 Sam 17: analyses present (L depth)", s.analyses >= 5, s.analyses);
+  check("Bethlehem's name meaning shows in place card", s.placeMeanings.some(m => /house of bread/i.test(m)), s.placeMeanings);
 
   console.log("== automatic pipeline: 1 Samuel 14 (no curated entry) ==");
   await page.fill("#passage-input", "1 Samuel 14");

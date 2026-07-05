@@ -23,6 +23,7 @@ BVV.panels = (function () {
       html += `<div class="info-card"><h4>${esc(pi.place.name)}</h4>
         <div class="sub">${esc(pi.role || pi.place.type)}</div>
         <p>${esc(pi.place.ancient)}</p>
+        ${pi.place.meaning ? `<p class="place-meaning">${esc(pi.place.meaning)}</p>` : ""}
         <p style="opacity:.65;font-size:.78rem">Today: ${esc(pi.place.modern)}</p></div>`;
     });
     html += `</div>`;
