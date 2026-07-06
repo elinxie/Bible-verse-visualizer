@@ -1115,5 +1115,131 @@ BVV.CURATED = {
       { r:"Isaiah 51:9-11", note:"the crossing as promise of a new exodus" },
       { r:"1 Corinthians 10:1-2", note:"'baptized into Moses in the cloud and in the sea'" } ]}
   ]
+},
+
+/* ============================================================
+   1 SAMUEL 24 — David spares Saul in the cave at En-gedi
+   ============================================================ */
+"9:24": {
+  era: {
+    title: "ca. 1015 BC — David spares the king in a cave at En-gedi",
+    sub: "Iron Age I · En-gedi oasis · David's fugitive years",
+    badges: ["Iron Age I", "United monarchy (transition)", "Saul's pursuit of David", "≈3,040 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Saul breaks off chasing Philistines to hunt David again, this time among the cliffs above En-gedi with three thousand chosen men. He steps alone into a cave to relieve himself — the very cave where David and his men are hiding in the dark recesses. David's men urge him to strike; instead he creeps forward and cuts off a corner of Saul's robe, then is conscience-stricken even for that. Outside, he calls after the king, robe-corner in hand, and Saul weeps: 'you are more righteous than I... I know that you shall surely be king.'",
+  focusPlace: "engedi",
+  places: [
+    { id:"maon",      role:"Saul had nearly cornered David here before doubling back for the Philistines (23:24-28)" },
+    { id:"ziph",       role:"The wilderness Saul combed first, tipped off by Ziphite informants (23:14-24)" },
+    { id:"engedi",     role:"The cave among the wild goats' rocks where Saul enters alone (vv. 1-4)" },
+    { id:"gibeah",     role:"Saul returns home once the confrontation ends (implied, v. 22)" }
+  ],
+  journey: [
+    { from:"maon", to:"engedi", label:"Saul's pursuit shifts east", km:25,
+      note:"From the Rock of Escape at Maon, word reaches Saul that David has moved to the cliffs above En-gedi — he redirects three thousand picked men east toward the Dead Sea." },
+    { from:"engedi", to:"gibeah", dashed:true, label:"Saul goes home; David stays out", km:60,
+      note:"Saul returns to his own town still without David in hand — the oath he swears here (v. 21) is why David later spares Saul's line even after becoming king." }
+  ],
+  hotspots: [
+    { x:0.2, type:"person", label:"Saul enters the cave, unaware", av:"king",
+      desc:"'To relieve himself' (v. 3) — the ordinary, undignified reason a king with three thousand soldiers ends up alone and exposed, deep inside the very cave sheltering the men hunting him." },
+    { x:0.38, type:"person", label:"David's men, urging the kill", av:"warrior",
+      desc:"'Here is the day of which the LORD said to you, Behold, I will give your enemy into your hand' (v. 4) — a plausible-sounding theology David refuses to accept as license." },
+    { x:0.55, type:"object", label:"The severed corner of the robe",
+      desc:"David creeps up and cuts off a corner of Saul's robe (me'il) rather than his life — and is conscience-stricken even for that small act against 'the LORD's anointed' (vv. 4-6)." },
+    { x:0.72, type:"person", label:"David's public appeal", av:"shepherd",
+      desc:"Once Saul is safely outside, David follows and calls out, bowing with his face to the ground, holding up the cut cloth as proof he could have killed the king and didn't (vv. 8-11)." },
+    { x:0.88, type:"person", label:"Saul weeps", av:"king",
+      desc:"'Is this your voice, my son David?... you are more righteous than I' (vv. 16-17). Saul concedes the kingdom is David's future and asks an oath: spare his name and descendants (vv. 20-21) — the same oath that later saves Mephibosheth." }
+  ],
+  environment: {
+    chips: ["Daytime desert cliffs", "Wild-goat country (En-gedi = 'spring of the kid')", "Limestone caves on the Dead Sea escarpment", "3,000 picked troops vs. a fugitive band", "Iron Age I hill-country warfare"],
+    text: "En-gedi's cliffs drop nearly 400 m to the Dead Sea, cut by spring-fed ravines (Nahal David, Nahal Arugot) whose waterfalls sustain ibex and hyrax even in a rain-shadow desert — hence the name, 'spring of the young goat.' The limestone bluffs are honeycombed with caves large enough to hide a company of men in total darkness a few meters from the entrance light, exactly the setup the narrative assumes: Saul can walk in and not see David's men at the back, while they can see him clearly against the daylight behind him."
+  },
+  objectsExtra: ["robe"],
+  peopleExtra: ["saul","david"],
+  culture: [
+    { title:"'The LORD's anointed' — why David held back", icon:"🫗",
+      text:"David refuses twice in as many chapters (24, 26) to kill Saul, calling him 'the LORD's anointed' — the same anointing oil that once marked Saul (1 Sam 10:1) and that Samuel has already poured on David himself (16:13). To strike Saul would be to treat kingship as a prize seized by force rather than a gift given by God; David lets that conviction govern him even when his own men supply a ready-made justification." },
+    { title:"Robes, again", icon:"🥻",
+      text:"A torn or cut robe keeps recurring around Saul's kingship: Samuel's robe tears in his hand at Gilgal and the kingdom is pronounced 'torn' from Saul (15:27-28); here it is Saul's own robe that is cut, a smaller, symbolic echo — proof of proximity and restraint rather than a verdict. Samuel's robe reappears once more at En-dor (28:14), closing the same image a third time across Saul's story." },
+    { title:"David's oath and Mephibosheth", icon:"🤝",
+      text:"Saul's request — 'do not cut off my offspring after me, and do not destroy my name' (v. 21) — is the exact oath David keeps decades later when, as king, he could legally erase Saul's line but instead brings Jonathan's crippled son Mephibosheth to eat permanently at the king's own table (2 Sam 9)." }
+  ],
+  crossRefs: [
+    { group:"Same restraint, a later chapter", refs:[
+      { r:"1 Samuel 26:7-11", note:"the near-identical scene repeated: Saul asleep in camp, David again refuses to strike 'the LORD's anointed'" } ]},
+    { group:"The oath kept", refs:[
+      { r:"2 Samuel 9:1-13", note:"David honors this chapter's oath, restoring Mephibosheth rather than erasing Saul's house" } ]},
+    { group:"Robe as recurring sign", refs:[
+      { r:"1 Samuel 15:27-28", note:"Samuel's robe tears; the kingdom is pronounced torn from Saul" },
+      { r:"1 Samuel 28:14", note:"Samuel's robe identifies him one last time, at En-dor" } ]},
+    { group:"Kingship as the LORD's to give, not seize", refs:[
+      { r:"Psalm 75:6-7", note:"'it is God who executes judgment, putting down one and lifting up another'" },
+      { r:"2 Samuel 5:3", note:"the anointing David refuses to force here finally comes, years later, at Hebron" } ]}
+  ]
+},
+
+/* ============================================================
+   1 SAMUEL 25 — Nabal, Abigail, and David's restrained anger
+   ============================================================ */
+"9:25": {
+  era: {
+    title: "ca. 1015 BC — Nabal's insult and Abigail's peace offering",
+    sub: "Iron Age I · Carmel of Judah, Maon district · shortly after Samuel's death",
+    badges: ["Iron Age I", "United monarchy (transition)", "David's fugitive years", "≈3,040 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Samuel dies, and all Israel mourns; David moves his band into the wilderness near Maon. At shearing time he sends young men to greet the wealthy Nabal and ask, by custom, for provisions in return for having protected his flocks unpaid. Nabal answers with contempt — 'who is David?' — and David arms two hundred men to wipe out his household by morning. Nabal's wife Abigail intercepts the column with a loaded gift train and a speech that talks David out of bloodguilt; ten days later, hearing what he nearly did, Nabal's heart fails and the LORD strikes him dead. David marries the widow who saved him from himself.",
+  focusPlace: "carmel-judah",
+  places: [
+    { id:"ramah",       role:"Samuel dies; all Israel gathers to mourn and bury him (v. 1)" },
+    { id:"maon",        role:"Nabal's home district — 3,000 sheep and 1,000 goats on the wilderness rim (v. 2)" },
+    { id:"carmel-judah",role:"Nabal's shearing-feast estate, where the request is refused and Abigail intercepts David (vv. 2-35)" }
+  ],
+  journey: [
+    { from:"ramah", to:"carmel-judah", dashed:true, label:"Samuel's death opens the chapter", km:40,
+      note:"Israel gathers at Ramah to bury the prophet who anointed both kings, then the narrative shifts south to David, now camped in the wilderness near Maon and Carmel." },
+    { from:"maon", to:"carmel-judah", label:"Nabal's flocks come down for shearing", km:5,
+      note:"A short move from summer pasture to the home estate for the shearing feast — a customary time of open-handed feasting the text expects and Nabal refuses." }
+  ],
+  hotspots: [
+    { x:0.18, type:"person", label:"Nabal at his shearing feast", av:"elder",
+      desc:"'Harsh and badly behaved,' a wealthy Calebite living like a king for a night (v. 36) — and blind to the debt his shepherds owed David's men for months of unpaid protection (vv. 15-16, 21)." },
+    { x:0.36, type:"person", label:"David's ten young men, turned away", av:"warrior",
+      desc:"A polite, customary request — 'give whatever you have at hand' (v. 8) — met with contempt: 'Who is David?... shall I take my bread and my water... and give it to men who come from I do not know where?' (vv. 10-11)." },
+    { x:0.55, type:"person", label:"Abigail's swift ride", av:"woman",
+      desc:"Told what her husband did, she loads donkeys without a word to him and rides out to meet David's armed column before it reaches the estate — 'discerning and beautiful,' the text says, married to a fool (v. 3)." },
+    { x:0.72, type:"object", label:"The loaded gift train",
+      desc:"Two hundred loaves, two skins of wine, five dressed sheep, roasted grain, a hundred raisin cakes, two hundred fig cakes (v. 18) — enough to feed David's whole company and defuse a massacre with abundance." },
+    { x:0.88, type:"person", label:"Nabal's collapse; David's marriage", av:"elder",
+      desc:"Told the next morning what he escaped, 'his heart died within him, and he became as a stone'; ten days later 'the LORD struck Nabal, and he died' (vv. 37-38). David, hearing it, sends for the widow who had stopped him from avenging himself (vv. 39-42)." }
+  ],
+  environment: {
+    chips: ["Shearing-feast season", "Wilderness rim sheep country", "3,000 sheep, 1,000 goats", "Loaded donkey caravan", "Iron Age I hospitality customs", "A widow's swift diplomacy"],
+    text: "Maon and Carmel sit at the seam between Judah's cultivated hill country and open wilderness — exactly the kind of marginal grazing land where a large flock needed informal protection from raiders, the very service David's men had quietly provided (vv. 7, 15-16). Shearing time was a recognized festival across the ancient Near East, a season of open-handed feasting (compare Absalom's shearing feast at Baal-hazor, 2 Sam 13:23-27) — which is exactly why Nabal's refusal reads as such a glaring breach of custom, not just personal rudeness."
+  },
+  objectsExtra: ["donkey","wineskin"],
+  peopleExtra: ["david","abigail","nabal","saul"],
+  culture: [
+    { title:"Nabal's name is the insult", icon:"🪨",
+      text:"'Nabal' (naval) means 'fool' in Hebrew, and Abigail says so outright: 'as his name is, so is he... Nabal is his name, and folly is with him' (v. 25) — a wordplay the narrator clearly intends as verdict, not coincidence." },
+    { title:"Shepherd protection money — an ancient custom", icon:"🐑",
+      text:"David's men had been an unpaid perimeter guard for Nabal's shepherds 'all the while they were in Carmel,' never stealing so much as one animal (vv. 7, 15-16, 21) — a real service in raider country. His request for provisions in return, at a feast season built for generosity, follows a recognized customary exchange; Nabal's refusal is a calculated public insult, not mere stinginess." },
+    { title:"Abigail as a wisdom figure", icon:"📖",
+      text:"Abigail's speech (vv. 24-31) reads like wisdom literature in miniature — she reasons David out of bloodguilt by appealing to his future as the LORD's anointed king, not merely his temper, and the text treats her intervention as the LORD's own restraint of David: 'the LORD has restrained you from bloodguilt and from working salvation with your own hand' (v. 26)." }
+  ],
+  crossRefs: [
+    { group:"Restraint from private vengeance, again", refs:[
+      { r:"1 Samuel 24:4-7", note:"the same restraint toward Saul, just one chapter earlier" },
+      { r:"1 Samuel 26:9-11", note:"and repeated again toward the sleeping Saul" } ]},
+    { group:"What became of Nabal's household", refs:[
+      { r:"2 Samuel 3:3", note:"Abigail as David's wife bears Chileab (called Daniel in 1 Chron 3:1) at Hebron" },
+      { r:"1 Samuel 25:44", note:"meanwhile Saul gives Michal, David's first wife, to Palti — reversed only in 2 Sam 3:13-16" } ]},
+    { group:"A fool in wisdom literature", refs:[
+      { r:"Proverbs 12:4", note:"'an excellent wife is the crown of her husband' — the inverse of Nabal and Abigail" },
+      { r:"Proverbs 31:10-11", note:"the capable wife whose husband trusts her — Abigail's opposite is Nabal's blindness to what he had" } ]}
+  ]
 }
 };
