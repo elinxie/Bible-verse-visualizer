@@ -94,5 +94,7 @@ BVV.OBJECTS = [
   { id:"fattened-calf", name:"Fattened calf", al:["fattened calf","fatted calf"], icon:"🐄",
     desc:"A stall-fed animal kept for a great occasion — meat was festival food, not daily fare. Killing it meant honoring a guest at real cost: the medium for Saul (1 Sam 28:24), the father for the prodigal (Luke 15:23)." },
   { id:"divination", name:"Divination & necromancy", al:["divination","necromancer","spirits","familiar spirit","wizard","wizards","soothsayer"], icon:"🔮",
-    desc:"The ancient Near East's technologies for reading the divine will: omens, livers, arrows, astrology — and the 'ôb, the ghost-pit of the necromancer who claimed to raise the dead to speak. All banned to Israel (Deut 18:9-14), which was given the prophetic word instead." }
+    desc:"The ancient Near East's technologies for reading the divine will: omens, livers, arrows, astrology — and the 'ôb, the ghost-pit of the necromancer who claimed to raise the dead to speak. All banned to Israel (Deut 18:9-14), which was given the prophetic word instead." },
+  { id:"wineskin", name:"Wineskin", al:["wineskin","wineskins","skin of wine","skins of wine","bottle of wine","wine bottle"], icon:"🍶",
+    desc:"Wine was carried and aged in whole animal hides sewn tight, not jars, since a sealed skin could stretch as fermentation built pressure — Abigail brings David 'two skins of wine' among her gifts (1 Sam 25:18), and Jesus later warns that new wine bursts an old, brittle skin (Matt 9:17)." }
 ];
