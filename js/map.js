@@ -22,6 +22,8 @@ BVV.map = (function () {
     return map;
   }
 
+  function esc(s) { return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+
   function haversine(a, b) {
     const R = 6371, dLat = (b.lat - a.lat) * Math.PI / 180, dLon = (b.lon - a.lon) * Math.PI / 180;
     const q = Math.sin(dLat/2)**2 + Math.cos(a.lat*Math.PI/180) * Math.cos(b.lat*Math.PI/180) * Math.sin(dLon/2)**2;
@@ -50,12 +52,20 @@ BVV.map = (function () {
       const mk = L.marker([p.lat, p.lon], { icon }).addTo(layerGroup);
       const el = document.createElement("div");
       el.className = "map-popup";
-      el.innerHTML = `<h3>${p.name}</h3>
-        ${pi.role ? `<p><b>${pi.role}</b></p>` : ""}
-        <p class="ancient-note">${p.ancient}</p>
-        <p>${p.blurb}</p>
-        ${p.meaning ? `<p class="place-meaning">${p.meaning}</p>` : ""}
-        <p style="opacity:.7">Today: ${p.modern}</p>
+      const panoLink = BVV.streetview && BVV.streetview.standalonePanoLink
+        ? BVV.streetview.standalonePanoLink(p.lat, p.lon)
+        : `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${p.lat},${p.lon}`;
+      const mapsLink = BVV.streetview && BVV.streetview.mapsLink
+        ? BVV.streetview.mapsLink(p.lat, p.lon, p.name)
+        : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${p.name} ${p.lat},${p.lon}`)}`;
+      el.innerHTML = `<h3>${esc(p.name)}</h3>
+        ${pi.role ? `<p><b>${esc(pi.role)}</b></p>` : ""}
+        <p class="ancient-note">${esc(p.ancient)}</p>
+        <p>${esc(p.blurb)}</p>
+        ${p.meaning ? `<p class="place-meaning">${esc(p.meaning)}</p>` : ""}
+        <p style="opacity:.7">Today: ${esc(p.modern)}</p>
+        <p class="map-popup-links"><a href="${panoLink}" target="_blank" rel="noopener">Open nearest Street View ↗</a><br>
+          <a href="${mapsLink}" target="_blank" rel="noopener">Google Maps ↗</a></p>
         <button data-view="${p.id}">👁 Open ancient view</button>`;
       el.querySelector("button").addEventListener("click", () => onViewScene(p.id));
       mk.bindPopup(el, { maxWidth: 300 });
