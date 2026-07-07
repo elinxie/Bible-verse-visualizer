@@ -1241,5 +1241,134 @@ BVV.CURATED = {
       { r:"Proverbs 12:4", note:"'an excellent wife is the crown of her husband' — the inverse of Nabal and Abigail" },
       { r:"Proverbs 31:10-11", note:"the capable wife whose husband trusts her — Abigail's opposite is Nabal's blindness to what he had" } ]}
   ]
+},
+
+/* ============================================================
+   2 SAMUEL 1 — news of Saul and Jonathan's death; the Song of the Bow
+   ============================================================ */
+"10:1": {
+  era: {
+    title: "ca. 1010 BC — news of Saul and Jonathan's deaths reaches David at Ziklag",
+    sub: "Iron Age I · Ziklag · the last days of David's fugitive years",
+    badges: ["Iron Age I", "End of Saul's reign", "David's fugitive years end", "≈3,036 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Two days after David returns to a burned Ziklag from routing an Amalekite raid, a man arrives from the north with clothes torn and dust on his head — the marks of a messenger carrying disaster. He is an Amalekite sojourner who claims he found Saul mortally wounded on Gilboa and, at the king's own request, finished him off; as proof he lays down Saul's crown and armlet. David and his men tear their clothes and mourn Saul, Jonathan, and Israel's fallen 'until evening,' then David has the messenger executed for daring to lift a hand against 'the LORD's anointed,' even by his own confession. The chapter closes with David's formal lament over Saul and Jonathan, the Song of the Bow — 'How the mighty have fallen' — ordered taught to the sons of Judah.",
+  focusPlace: "ziklag",
+  places: [
+    { id:"gilboa",  role:"Where Saul and Jonathan actually died in battle the day before (1 Sam 31), the scene the Amalekite claims to have witnessed" },
+    { id:"ziklag",  role:"David's base, still smoldering from the Amalekite raid two chapters earlier, where the messenger finds him (v. 1)" },
+    { id:"hebron",  role:"Where David moves within days of this chapter to be anointed king over Judah (2 Sam 2:1-4) — the very kingship this lament refuses to celebrate" }
+  ],
+  journey: [
+    { from:"gilboa", to:"ziklag", label:"The messenger's three-day run south", km:140,
+      note:"News of the defeat traveled fast: 'on the third day' a runner reaches Ziklag, roughly 140 km south of Gilboa, with torn clothes and dust on his head — the recognized signs of a bearer of disaster (v. 2)." },
+    { from:"ziklag", to:"hebron", dashed:true, label:"David's next move, just after this chapter", km:44,
+      note:"Once the mourning ends, David inquires of the LORD and moves his household to Hebron, where the men of Judah anoint him king over their own tribe (2 Sam 2:1-4) — seven and a half years before the events of chapter 5." }
+  ],
+  hotspots: [
+    { x:0.14, type:"person", label:"The Amalekite arrives in mourning dress", av:"traveler",
+      desc:"'With his clothes torn and dirt on his head' (v. 2) — the conventional signs of catastrophe, the same body language David and his men will adopt in earnest a few verses later." },
+    { x:0.32, type:"person", label:"His story: a mercy killing on Gilboa", av:"traveler",
+      desc:"'Saul was leaning on his spear... he said to me, Stand beside me and kill me... So I stood beside him and killed him' (vv. 6-10) — a tale built to flatter David, since 1 Samuel 31:4-5 already shows Saul falling on his own sword with only his armor-bearer as witness." },
+    { x:0.5, type:"object", label:"Saul's crown and armlet, laid before David",
+      desc:"The messenger's proof: 'the crown that was on his head and the armlet that was on his arm' (v. 10), scavenged from the battlefield dead — royal regalia offered as a bid for reward, not evidence of loyalty." },
+    { x:0.68, type:"person", label:"David's verdict", av:"king",
+      desc:"'How is it you were not afraid to put out your hand to destroy the LORD's anointed?' (v. 14) — even a self-incriminating boast against Saul draws a death sentence, the same principle that stayed David's own hand in the cave at En-gedi." },
+    { x:0.86, type:"person", label:"The Song of the Bow", av:"king",
+      desc:"'How the mighty have fallen!' (vv. 19, 25, 27) — David's formal lament for Saul and Jonathan, ordered written into the Book of Jashar and taught to the sons of Judah; it praises Jonathan's bow and Saul's sword and never once mentions David's own claim to the throne." }
+  ],
+  environment: {
+    chips: ["Torn clothes & dust — mourning signs", "Negev border town", "Royal regalia as battlefield loot", "Formal qinah-meter lament", "Iron Age I succession crisis"],
+    text: "Ziklag sits on the arid southern frontier where Judah's hill country gives way to Philistine and Amalekite grazing land — a plausible three-day run from the Gilboa battlefield in the north. The 'crown' (nezer) and armlet the messenger carries were recognizable royal insignia, easy plunder from a fallen king's body on an abandoned battlefield. David's lament, by contrast, is a formal literary composition in the same qinah ('limping') meter later used for funeral dirges throughout the prophets, drawn from a now-lost anthology, the Book of Jashar (also cited at Joshua 10:13)."
+  },
+  objectsExtra: ["spear","crown"],
+  peopleExtra: ["david","saul","jonathan","amalekite-messenger"],
+  culture: [
+    { title:"'The LORD's anointed' — a principle David keeps even now", icon:"🫗",
+      text:"David refused to kill Saul himself in chapters 24 and 26, calling him 'the LORD's anointed'; here he applies the identical principle against a stranger who merely claims the deed — proof the conviction was never just personal restraint toward a man he knew, but a fixed rule about how kingship may and may not change hands." },
+    { title:"An Amalekite, of all people", icon:"⚔️",
+      text:"The messenger identifies himself as 'the son of a sojourner, an Amalekite' (v. 13) — the very people Saul was commanded to annihilate in 1 Samuel 15 and failed to finish, and the same raiders whose attack on Ziklag David had just avenged in the previous chapter (1 Sam 30). Whether or not his story is true, an Amalekite claiming Saul's death closes a loop the reader has watched since Saul spared Agag." },
+    { title:"The Song of the Bow", icon:"🏹",
+      text:"David's lament (vv. 19-27) is a genuine work of ancient Hebrew poetry, not a summary of one — refrain, parallelism, and the qinah meter later used for funeral dirges (e.g. Amos 5:2). It orders Judah's daughters to weep for Saul's gifts of scarlet and gold (v. 24) and praises Jonathan's bow and Saul's sword 'not returning empty' (v. 22) without a word of triumph for David's own rising fortunes." }
+  ],
+  crossRefs: [
+    { group:"Same restraint toward 'the LORD's anointed'", refs:[
+      { r:"1 Samuel 24:6-7", note:"David refuses to kill Saul himself in the cave at En-gedi" },
+      { r:"1 Samuel 26:9-11", note:"and again refuses to strike the sleeping king at Hachilah" } ]},
+    { group:"What really happened on Gilboa", refs:[
+      { r:"1 Samuel 31:3-6", note:"Saul actually dies by falling on his own sword, with only his armor-bearer present — contradicting the Amalekite's story" } ]},
+    { group:"Amalek's long shadow over Saul's house", refs:[
+      { r:"1 Samuel 15:7-9", note:"Saul's incomplete destruction of Amalek, the failure that cost him the kingdom" },
+      { r:"1 Samuel 30:1-20", note:"David had just finished punishing an Amalekite raid on Ziklag two chapters earlier" } ]},
+    { group:"David becomes king", refs:[
+      { r:"2 Samuel 2:1-4", note:"days later, David is anointed king over Judah alone at Hebron" },
+      { r:"2 Samuel 5:1-3", note:"seven and a half years after that, all Israel's elders anoint him king at Hebron" } ]}
+  ]
+},
+
+/* ============================================================
+   2 SAMUEL 5 — king over all Israel; the capture of Jerusalem
+   ============================================================ */
+"10:5": {
+  era: {
+    title: "ca. 1003 BC — David becomes king over all Israel and captures Jerusalem",
+    sub: "Iron Age IIA · Hebron to Jerusalem · founding of the united-monarchy capital",
+    badges: ["Iron Age IIA", "United monarchy", "New capital: Jerusalem", "≈3,029 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "After seven and a half years reigning over Judah alone from Hebron, elders from every tribe travel south to make a covenant with David and anoint him king over all Israel. David immediately marches north and takes the one stronghold still holding out inside his new kingdom: Jebusite Jerusalem, whose defenders taunt that 'the blind and the lame' could keep him out — until Joab's men find a way up the water shaft and David makes 'the City of David' his new capital, building it inward from the Millo with cedar and craftsmen sent by King Hiram of Tyre. Hearing that Israel finally has a king uniting the tribes, the Philistines march up twice to crush him before he consolidates power; both times David inquires of the LORD before engaging, and both times he routs them — first at Baal-perazim ('the LORD breaks through'), then again in the Valley of Rephaim by circling behind them to wait for the sound of marching in the balsam treetops.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"hebron",        role:"Where the elders of all Israel anoint David king over the whole nation (vv. 1-5)" },
+    { id:"jerusalem",     role:"The Jebusite stronghold David captures by the water shaft and makes his new capital, the City of David (vv. 6-10)" },
+    { id:"baal-perazim",  role:"The valley below Jerusalem where the Philistines mass and David defeats them twice (vv. 17-25)" }
+  ],
+  journey: [
+    { from:"hebron", to:"jerusalem", label:"David marches on the Jebusite stronghold", km:30,
+      note:"With the covenant at Hebron sealed, David and his men march north to take the one fortified city still outside his control — a ridge-top stronghold the Jebusites considered unconquerable (v. 6)." },
+    { from:"jerusalem", to:"baal-perazim", label:"The Philistines advance on the new capital", km:5,
+      note:"Word that David rules a united Israel brings the Philistines up 'in full force' to strike before he can consolidate power; David meets them in the valley immediately southwest of his new city (vv. 17-18)." }
+  ],
+  hotspots: [
+    { x:0.12, type:"person", label:"The elders anoint David at Hebron", av:"elder",
+      desc:"'All the elders of Israel came to the king at Hebron... and they anointed David king over Israel' (vv. 1-3) — the formal covenant that ends seven and a half years of a divided kingdom (v. 5)." },
+    { x:0.3, type:"person", label:"Joab's men climb the water shaft", av:"warrior",
+      desc:"The Jebusites boast 'the blind and the lame will turn you back' (v. 6); David's men reach the fortress anyway 'through the water shaft' (tsinnor, v. 8), the same kind of rock-cut vertical passage archaeologists have since found beneath the City of David feeding it from the Gihon spring." },
+    { x:0.5, type:"object", label:"Cedar and craftsmen from Hiram of Tyre",
+      desc:"'Hiram king of Tyre sent messengers to David, and cedar trees, also carpenters and masons, and they built David a house' (v. 11) — the new capital's first palace, raised with Phoenician timber and skilled labor David's own hill country lacked." },
+    { x:0.7, type:"person", label:"Victory at Baal-perazim", av:"king",
+      desc:"David inquires of the LORD before engaging — 'Shall I go up against the Philistines?... I will surely give the Philistines into your hand' (v. 19) — and names the battlefield 'the LORD has broken through my enemies before me like a breaking flood' (v. 20)." },
+    { x:0.88, type:"person", label:"Second victory, by ambush from the balsam trees", av:"king",
+      desc:"This time the LORD tells David not to attack head-on but to circle behind the Philistines and wait: 'when you hear the sound of marching in the tops of the balsam trees, then rouse yourself' (vv. 23-24) — a signal for a coordinated flank attack that routs the enemy 'from Geba to Gezer.'" }
+  ],
+  environment: {
+    chips: ["Coronation covenant at Hebron", "Jebusite ridge fortress", "Rock-cut water shaft (tsinnor)", "Phoenician cedar & craftsmen", "Two Philistine counter-attacks", "Iron Age IIA united monarchy"],
+    text: "Jerusalem's Jebusite stronghold occupied a narrow, steep-sided ridge (the later 'City of David') defensible on three sides, with its one weakness being the rock-cut shaft that carried water up from the Gihon spring outside the walls — precisely the route 2 Samuel 5:8 implies Joab's men used to get inside undetected. The Rephaim valley immediately southwest of the ridge was open, level farmland, good ground for Philistine chariots and the obvious staging point for an army trying to strangle the new capital before David could fortify it — which is why the Philistines chose it twice."
+  },
+  objectsExtra: ["anoint-oil","crown","sword"],
+  peopleExtra: ["david","jebusites"],
+  culture: [
+    { title:"Seven years a divided kingdom", icon:"👑",
+      text:"For seven and a half years after Saul's death, Israel had two kings: David over Judah at Hebron, and Ish-bosheth (Saul's surviving son) over the northern tribes, propped up by Abner (2 Sam 2-4). Chapter 5 opens only after Abner and Ish-bosheth are both dead, clearing the way for the tribes to unite behind David 'in the past, even while Saul was king... it was you who led out and brought in Israel' (v. 2)." },
+    { title:"Why Jerusalem", icon:"🏰",
+      text:"Jerusalem straddled the border between Judah and Benjamin and had belonged to neither tribe outright (Josh 15:63; Judg 1:21) — a religiously and militarily neutral capital, unlike Hebron (deep in Judah) or any northern town, that let David rule as king of a united nation rather than a Judahite over reluctant northern tribes." },
+    { title:"The Millo and the City of David", icon:"🧱",
+      text:"'David built the city all around from the Millo inward' (v. 9) — the Millo (Hebrew 'filling') was a terraced stepped-stone structure supporting the city's expansion up the steep eastern slope, a monumental engineering project archaeologists have identified in the City of David excavations, later expanded again by Solomon (1 Kgs 9:15) and Hezekiah (2 Chr 32:5)." }
+  ],
+  crossRefs: [
+    { group:"The long road from Hebron to all-Israel's king", refs:[
+      { r:"2 Samuel 2:1-4", note:"David first anointed king over Judah alone, seven and a half years earlier" },
+      { r:"1 Samuel 16:12-13", note:"Samuel's private anointing of David as a boy, decades before it is publicly confirmed here" } ]},
+    { group:"Jerusalem before David", refs:[
+      { r:"Joshua 15:63", note:"Judah could not drive out the Jebusites of Jerusalem at the conquest" },
+      { r:"Judges 1:21", note:"neither could Benjamin — the Jebusites 'dwell with the people of Benjamin ... to this day'" } ]},
+    { group:"The City of David afterward", refs:[
+      { r:"1 Kings 9:15", note:"Solomon later extends the Millo David began" },
+      { r:"2 Chronicles 32:5", note:"Hezekiah reinforces the Millo generations later against Assyria" } ]},
+    { group:"The LORD who 'breaks through'", refs:[
+      { r:"1 Chronicles 14:8-16", note:"the Chronicler's parallel account of both Philistine battles" },
+      { r:"Isaiah 28:21", note:"the prophet later recalls 'Mount Perazim' as the pattern for the LORD's surprising, disruptive acts" } ]}
+  ]
 }
 };
