@@ -114,6 +114,7 @@ body {
   grid-template-areas:
     "text map"
     "text scene"
+    "text streetview"
     "tabs tabs";
   gap: 1rem;
   padding: 1rem 1.2rem 2rem;
@@ -123,12 +124,13 @@ body {
 .text-panel  { grid-area: text; }
 .map-panel   { grid-area: map; }
 .scene-panel { grid-area: scene; }
+.streetview-panel { grid-area: streetview; }
 .tabs-panel  { grid-area: tabs; }
 
 @media (max-width: 980px) {
   .main-grid {
     grid-template-columns: 1fr;
-    grid-template-areas: "map" "scene" "text" "tabs";
+    grid-template-areas: "map" "scene" "streetview" "text" "tabs";
   }
 }
 
@@ -268,6 +270,16 @@ body {
   cursor: pointer; color: var(--ink-soft); font-weight: bold;
 }
 .scene-panel { position: relative; }
+
+/* ---------- present-day street view ---------- */
+.streetview-wrap { position: relative; background: #10141a; }
+.streetview-frame { width: 100%; height: 330px; border: 0; display: block; }
+.streetview-fallback {
+  margin: 0; padding: .4rem 1rem; font-size: .78rem;
+  color: var(--ink-soft); background: var(--parchment-dark);
+  border-top: 1px solid var(--border);
+}
+.streetview-fallback a { color: var(--accent-dark); }
 
 .svg-hotspot { cursor: pointer; }
 .svg-hotspot circle.pulse { animation: pulse 2s infinite; }
