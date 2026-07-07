@@ -165,6 +165,13 @@
     sel.onchange = () => showScene(sel.value, false);
     showScene(ctx.curated?.focusPlace || (ctx.places[0] && ctx.places[0].place.id), false);
 
+    // present-day street view selector
+    const svSel = $("streetview-place-select");
+    svSel.innerHTML = ctx.places.map(pi => `<option value="${pi.place.id}">${pi.place.name}</option>`).join("") ||
+      `<option value="">—</option>`;
+    svSel.onchange = () => showStreetView(svSel.value);
+    showStreetView(ctx.curated?.focusPlace || (ctx.places[0] && ctx.places[0].place.id));
+
     // tabs
     BVV.panels.renderAll(ctx, r => { $("passage-input").value = r; load(r); });
   }
@@ -192,6 +199,12 @@
       <span style="opacity:.6"> · illustrative reconstruction${hotspots.length ? " · click the labeled figures" : ""}</span>`;
     hideHotspotCard();
     if (focusMap) document.querySelector(".scene-panel").scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  function showStreetView(placeId) {
+    const pi = ctx.places.find(x => x.place.id === placeId);
+    $("streetview-place-select").value = pi ? pi.place.id : "";
+    BVV.streetview.render($("streetview-wrap"), pi && pi.place);
   }
 
   function showHotspotCard(i, e) {
