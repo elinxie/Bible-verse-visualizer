@@ -232,6 +232,7 @@
       source: ctx.source,
       note: ctx.note || "",
       verses: selectedVerses,
+      chapterVerses: ctx.verses.map(v => ({ verse: v.verse, text: v.text })),
       book: { name: ctx.book.name, testament: ctx.book.t, era: ctx.book.era },
       period: ctx.period,
       places: ctx.places.map(pi => ({ name: pi.place.name, role: pi.role || pi.place.type, ancient: pi.place.ancient, modern: pi.place.modern })),

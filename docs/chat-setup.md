@@ -6,10 +6,11 @@ The chat UI is already built into the app. To make it answer live questions, dep
 
 ![Chat architecture](images/chat-architecture.svg)
 
-1. The browser gathers only the passage currently shown on the page.
+1. The browser gathers the selected verses, the rest of the loaded chapter, and metadata already shown in the study panels.
 2. The browser posts that context and the user question to your Worker.
-3. The Worker calls Gemini with your secret API key.
-4. Gemini returns JSON; the Worker sends the answer back to the chat panel.
+3. The Worker augments the prompt with already gathered cross-reference text where available.
+4. The Worker calls Gemini with your secret API key and enables Google Search grounding for trusted-source web context by default.
+5. Gemini returns JSON; the Worker sends the answer and source hints back to the chat panel.
 
 ## Step-by-step checklist
 
@@ -136,6 +137,7 @@ npx wrangler deploy
 - **`You need to register a workers.dev subdomain before publishing to workers.dev`**: the deploy uploaded successfully, but your Cloudflare account has not completed Workers onboarding. Open <https://dash.cloudflare.com/?to=/:account/workers/onboarding>, register a `workers.dev` account subdomain, then rerun the GitHub Action.
 - **The Domains tab shows `<worker>.<subdomain>.workers.dev`, but the Production toggle is off or disabled**: the account subdomain exists, so onboarding is complete. Rerun the GitHub Action from the latest `main` branch so Wrangler redeploys with `workers_dev = true`. Do not add a custom domain unless you want one; the Worker URL is enough for `window.BVV_CHAT_ENDPOINT`.
 - **"Chat API key is not configured"**: run `npx wrangler secret put GEMINI_API_KEY`, then deploy again.
+- **Disable web grounding for testing**: set the Worker variable `ENABLE_WEB_GROUNDING=false` if you need the chat to rely only on supplied passage/chapter/cross-reference context during local debugging.
 - **CORS or network error**: make sure `window.BVV_CHAT_ENDPOINT` exactly matches the Worker URL and uses `https://`.
 - **404 from GitHub Pages `/api/chat`**: this is expected until you set `window.BVV_CHAT_ENDPOINT` to the Worker URL or route `/api/chat` through Cloudflare.
 - **Provider rejected the request**: confirm the key is valid and `GEMINI_MODEL` names an available model.
