@@ -174,6 +174,7 @@
 
     // tabs
     BVV.panels.renderAll(ctx, r => { $("passage-input").value = r; load(r); });
+    if (BVV.chat) BVV.chat.resetForPassage(BVV.getChatContext());
   }
 
   function showScene(placeId, focusMap) {
@@ -221,6 +222,30 @@
   }
   function hideHotspotCard() { $("scene-hotspot-card").classList.add("hidden"); }
 
+  BVV.getChatContext = function () {
+    if (!ctx) return null;
+    const selectedVerses = ctx.verses
+      .filter(v => !ctx.ref.v1 || (v.verse >= ctx.ref.v1 && v.verse <= ctx.ref.v2))
+      .map(v => ({ verse: v.verse, text: v.text }));
+    return {
+      reference: ctx.ref.display,
+      source: ctx.source,
+      note: ctx.note || "",
+      verses: selectedVerses,
+      book: { name: ctx.book.name, testament: ctx.book.t, era: ctx.book.era },
+      period: ctx.period,
+      places: ctx.places.map(pi => ({ name: pi.place.name, role: pi.role || pi.place.type, ancient: pi.place.ancient, modern: pi.place.modern })),
+      people: ctx.people.map(p => ({ name: p.name, desc: p.desc })),
+      objects: ctx.objects.map(o => ({ name: o.name, desc: o.desc })),
+      curated: ctx.curated ? {
+        summary: ctx.curated.summary || "",
+        culture: ctx.curated.culture || [],
+        crossRefs: ctx.curated.crossRefs || [],
+        analyses: ctx.curated.analyses || null
+      } : null
+    };
+  };
+
   function activateTab(name) {
     document.querySelectorAll(".tab").forEach(t => t.classList.toggle("active", t.getAttribute("data-tab") === name));
     document.querySelectorAll(".tab-body").forEach(b => b.classList.toggle("active", b.id === "tab-" + name));
@@ -228,6 +253,7 @@
   }
 
   /* ---------- wiring ---------- */
+  if (BVV.chat) BVV.chat.init();
   $("passage-form").addEventListener("submit", e => { e.preventDefault(); load($("passage-input").value); });
   $("quick-links").addEventListener("click", e => {
     const b = e.target.closest("button[data-ref]");
