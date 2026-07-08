@@ -32,11 +32,20 @@ BVV.chat = (function () {
     if (btn) btn.textContent = busy ? "Checking…" : "Ask";
   }
 
+  function formatSources(sources) {
+    if (!Array.isArray(sources) || !sources.length) return "";
+    return "Sources: " + sources
+      .filter(s => s && s.url)
+      .slice(0, 4)
+      .map(s => s.title ? `${s.title} (${s.url})` : s.url)
+      .join(" · ");
+  }
+
   function resetForPassage(ctx) {
     const log = $("chat-log");
     if (!log || !ctx) return;
     log.innerHTML = "";
-    addMessage("assistant", `Ask me about ${ctx.reference}. I will answer from the passage shown and check the answer before sending it.`, ctx.source ? `Text source: ${ctx.source}` : "");
+    addMessage("assistant", `Ask me about ${ctx.reference}. I can use the selected verses, the rest of this chapter, gathered Bible cross-references, and trusted web context when needed.`, ctx.source ? `Text source: ${ctx.source}` : "");
   }
 
   async function ask(question) {
@@ -55,7 +64,8 @@ BVV.chat = (function () {
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(data.error || `Chat service error (${res.status})`);
-      addMessage("assistant", data.answer || "I could not produce an answer from this passage.", data.checked ? "Checked against the supplied passage context." : "");
+      const meta = formatSources(data.sources) || (data.checked ? "Checked against passage, Bible context, and trusted-source guidance." : "");
+      addMessage("assistant", data.answer || "I could not produce an answer from this passage.", meta);
     } catch (e) {
       addMessage("assistant", `The study chat is not available yet: ${e.message}. The site owner needs to deploy the serverless chat proxy and set its API key.`);
     } finally {
