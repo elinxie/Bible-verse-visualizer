@@ -98,6 +98,20 @@
   </section>
 
   <!-- BOTTOM: study tabs -->
+  <section class="panel chat-panel" aria-label="Ask questions about this passage">
+    <div class="panel-head">
+      <h2>💬 Ask About This Passage</h2>
+      <span class="panel-note">passage-grounded AI</span>
+    </div>
+    <div id="chat-log" class="chat-log" aria-live="polite"></div>
+    <form id="chat-form" class="chat-form" autocomplete="off">
+      <label class="sr-only" for="chat-question">Ask a question about this passage</label>
+      <textarea id="chat-question" rows="3" placeholder="What is happening here? Why is this place important?"></textarea>
+      <button id="chat-send" type="submit">Ask</button>
+    </form>
+    <p class="chat-disclaimer">Answers are generated study aids, checked against the supplied passage context before display. Always compare with the scripture text shown.</p>
+  </section>
+
   <section class="panel tabs-panel">
     <nav class="tabs" id="tabs" role="tablist">
       <button class="tab active" data-tab="setting" role="tab">🏞️ Setting &amp; Environment</button>
@@ -140,6 +154,7 @@
 <script src="js/map.js"></script>
 <script src="js/panels.js"></script>
 <script src="js/coverage.js"></script>
+<script src="js/chat.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
