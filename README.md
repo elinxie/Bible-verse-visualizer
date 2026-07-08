@@ -59,6 +59,8 @@ Recommended low-cost setup:
 
 The Worker prompt requires the model to answer from the supplied passage first, cite verse numbers when possible, and perform a verification pass before returning JSON to the UI. If the proxy is not deployed, the chat panel remains visible but explains that the study chat service still needs to be configured.
 
+For a picture-led deployment walkthrough, including a GitHub Actions path that does not require installing Wrangler on your laptop, see [`docs/chat-setup.md`](docs/chat-setup.md).
+
 ## Local development
 
 Any static server works:
