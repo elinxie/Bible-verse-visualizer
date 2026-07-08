@@ -34,17 +34,23 @@ export default {
       })
     });
 
-    const data = await upstream.json();
+    let data;
+    try {
+      data = await upstream.json();
+    } catch (e) {
+      return cors(json({ error: "Model provider returned an unreadable response." }, 502));
+    }
     if (!upstream.ok) return cors(json({ error: "Model provider rejected the request." }, upstream.status));
 
-    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || "{}";
+    const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
+    if (!text) return cors(json({ error: "Model provider returned no answer." }, 502));
     let parsed;
     try {
       parsed = JSON.parse(text);
     } catch (e) {
       parsed = { answer: text, checked: false };
     }
-    return cors(json({ answer: String(parsed.answer || "I could not answer from this passage."), checked: parsed.checked !== false }));
+    return cors(json({ answer: String(parsed.answer || "I could not answer from this passage.").slice(0, 4000), checked: parsed.checked !== false }));
   }
 };
 
