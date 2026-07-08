@@ -1,6 +1,7 @@
 name = "bible-verse-visualizer-chat"
 main = "api/chat-worker.js"
 compatibility_date = "2026-07-08"
+workers_dev = true
 
 # Optional: uncomment after adding your own domain/route in Cloudflare.
 # routes = [

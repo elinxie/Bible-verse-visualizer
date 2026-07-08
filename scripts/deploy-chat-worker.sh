@@ -15,4 +15,4 @@ if [[ -z "${CLOUDFLARE_ACCOUNT_ID:-}" ]]; then
 fi
 
 printf '%s' "$GEMINI_API_KEY" | npx wrangler@latest secret put GEMINI_API_KEY
-npx wrangler@latest deploy
+npx wrangler@latest deploy --no-interactive

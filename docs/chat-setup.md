@@ -20,8 +20,21 @@ The chat UI is already built into the app. To make it answer live questions, dep
 Add these repository secrets in **GitHub → Settings → Secrets and variables → Actions**:
 
 - `GEMINI_API_KEY`: your Google AI Studio key.
-- `CLOUDFLARE_API_TOKEN`: a Cloudflare API token with Worker edit permissions.
+- `CLOUDFLARE_API_TOKEN`: a Cloudflare API token for the Worker deploy.
 - `CLOUDFLARE_ACCOUNT_ID`: your Cloudflare account ID.
+
+For `CLOUDFLARE_API_TOKEN`, the simplest option is Cloudflare's **Edit Cloudflare Workers** API-token template. If you create a custom token instead, use these permissions for this repo:
+
+| Scope | Permission | Access | Needed for |
+|---|---|---:|---|
+| Account | Workers Scripts | Edit | `wrangler deploy` and `wrangler secret put` |
+| Account | Account Settings | Read | Allows Wrangler to read account-level Worker settings |
+
+If Cloudflare shows **User** permissions in your token UI, you may also add **User Details: Read** and **Memberships: Read**. Some Cloudflare dashboards do not expose those user-scope rows while creating an account-scoped token; that is okay. Start with the two account permissions above or use the **Edit Cloudflare Workers** template.
+
+Only add **Zone → Workers Routes → Edit** if you later uncomment a custom route in `wrangler.toml`, such as `your-domain.com/api/chat`. The current `workers.dev` deployment path does not need a zone permission.
+
+> **One-time Cloudflare setup:** before the first automated deploy, your Cloudflare account must have a `workers.dev` subdomain registered. If the workflow uploads the Worker but fails with `You need to register a workers.dev subdomain before publishing to workers.dev`, open <https://dash.cloudflare.com/?to=/:account/workers/onboarding>, choose any available account subdomain, then rerun the workflow. Cloudflare creates Worker URLs in the form `<worker-name>.<your-subdomain>.workers.dev`.
 
 Then open **Actions → Deploy chat Worker → Run workflow**. The workflow installs Wrangler on GitHub’s runner, stores the Gemini key as a Worker secret, and deploys the Worker.
 
@@ -120,6 +133,8 @@ npx wrangler deploy
 
 ## Troubleshooting
 
+- **`You need to register a workers.dev subdomain before publishing to workers.dev`**: the deploy uploaded successfully, but your Cloudflare account has not completed Workers onboarding. Open <https://dash.cloudflare.com/?to=/:account/workers/onboarding>, register a `workers.dev` account subdomain, then rerun the GitHub Action.
+- **The Domains tab shows `<worker>.<subdomain>.workers.dev`, but the Production toggle is off or disabled**: the account subdomain exists, so onboarding is complete. Rerun the GitHub Action from the latest `main` branch so Wrangler redeploys with `workers_dev = true`. Do not add a custom domain unless you want one; the Worker URL is enough for `window.BVV_CHAT_ENDPOINT`.
 - **"Chat API key is not configured"**: run `npx wrangler secret put GEMINI_API_KEY`, then deploy again.
 - **CORS or network error**: make sure `window.BVV_CHAT_ENDPOINT` exactly matches the Worker URL and uses `https://`.
 - **404 from GitHub Pages `/api/chat`**: this is expected until you set `window.BVV_CHAT_ENDPOINT` to the Worker URL or route `/api/chat` through Cloudflare.
