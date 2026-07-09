@@ -305,7 +305,28 @@ BVV.CURATED = {
       { r:"2 Samuel 2:4-7", note:"David sends thanks to Jabesh-gilead for their loyalty to Saul" } ]},
     { group:"First loyalty", refs:[
       { r:"1 Samuel 11:1-11", note:"Saul's rescue of Jabesh-gilead — the debt being repaid here" } ]}
-  ]
+  ],
+  analyses: {
+    intro: "How this visualization's reading compares with widely used ESV-based commentary and analysis of 1 Samuel 31:",
+    consensus: [
+      "The chapter is read as the direct fulfillment of Samuel's word at En-dor the night before ('tomorrow you and your sons shall be with me,' 28:19) and, further back, of the judgment pronounced in chapter 15 — commentators (Enduring Word/Guzik, Precept Austin, BibleRef) treat the battle's outcome as long-settled, not a fresh disaster.",
+      "Saul's request that his armor-bearer kill him, and his own fall on the sword when refused, is almost universally read as a moral failure rather than a noble last stand: he dies as he lived his final years, acting alone and afraid of men (the Philistines' mockery) rather than turning to God even in extremity. The armor-bearer's refusal — he will not raise a hand against 'the LORD's anointed' — is noted as the same principle David held to twice when he had Saul at his mercy (24:6; 26:9).",
+      "Displaying the body and dedicating the armor in a temple is treated as standard ancient Near Eastern victory ritual, crediting a god with the win — commentators read 1 Samuel 31:9's 'to carry the good news to their idols' as the narrator's own ironic gloss on the practice.",
+      "The men of Jabesh-gilead's night raid is consistently tied back to 1 Samuel 11: F. B. Meyer and others frame it as the town returning, thirty-some years later, the kindness of the king who saved them in his very first act as ruler — the chapter's one note of loyalty and honor in an otherwise bleak scene.",
+      "1 Chronicles 10:1-14 is read as the narrative's own closing verdict, standing in for commentary the Samuel text itself withholds: Saul died 'because he was unfaithful to the LORD... and did not seek guidance from the LORD... He also consulted a medium.'"
+    ],
+    debated: [
+      { tag:"a", title:"How exactly did Saul die — his own sword, or the Amalekite's hand?", text:"1 Samuel 31:4-5 has Saul fall on his own sword after his armor-bearer refuses to kill him. 2 Samuel 1:6-10 then has an Amalekite tell David he found Saul still alive, leaning on his spear, and killed him at Saul's own request. The dominant harmonization across commentary traditions (Enduring Word, GotQuestions, Evidence Unseen, most ESV-tradition notes) is that the Amalekite's account is a self-serving fabrication invented to win a reward from David — which is exactly the outcome he expected and did not get (2 Sam 1:14-16). A minority reading takes both accounts as compatible in sequence (Saul's self-inflicted wound left him still breathing, and the Amalekite — who may genuinely have been scavenging the field — finished him off, then embellished his own role); a few older commentators simply flag the tension without resolving it. This site follows 1 Samuel 31's own narration: Saul died by his own hand." },
+      { tag:"b", title:"Whose temple got the armor, and whose got the head?", text:"1 Samuel 31:10 places Saul's armor in 'the temple of Ashtaroth' and his body on Beth-shan's wall. The parallel in 1 Chronicles 10:10 has the armor go to 'the temple of their gods' and the head specifically fastened in 'the temple of Dagon.' Most harmonizations (Precept Austin, BibleRef) treat this as complementary rather than contradictory — different trophies distributed to different shrines in a multi-city Philistine victory rite, with Chronicles preserving a detail (the head, to Dagon) that Samuel simply doesn't mention. A few source-critical readings see the two verses as independent traditions about the spoils. This site cites both temples in the culture notes without treating the difference as a real conflict." },
+      { tag:"c", title:"Why cremate the bodies before burial?", text:"Verse 12 has the men of Jabesh-gilead burn the bodies before burying the bones under the tamarisk tree — cremation otherwise being rare to absent in normal Israelite practice, which strongly favored burial. Most commentators (Guzik, Precept Austin) read it as an emergency, practical response to remains that had already hung exposed and begun to decompose, not a normal funerary rite or a statement about the afterlife; a smaller number suggest it may reflect purification concerns after the bodies' desecration. Either way the men later give the bones a proper, honored burial, which David completes by moving them to the family tomb (2 Sam 21:12-14)." }
+    ],
+    sources: [
+      { name:"Enduring Word (David Guzik), 1 Samuel 31", url:"https://enduringword.com/bible-commentary/1-samuel-31/" },
+      { name:"Precept Austin — 1 Samuel 31 commentary collection", url:"https://www.preceptaustin.org/1-samuel-31-commentary" },
+      { name:"BibleRef — What does 1 Samuel 31 mean?", url:"https://www.bibleref.com/1-Samuel/31/1-Samuel-chapter-31.html" },
+      { name:"GotQuestions — Why are there contradictory accounts regarding the death of Saul in 1 and 2 Samuel?", url:"https://www.gotquestions.org/death-of-Saul.html" }
+    ]
+  }
 },
 
 /* ============================================================
