@@ -1391,5 +1391,133 @@ BVV.CURATED = {
       { r:"1 Chronicles 14:8-16", note:"the Chronicler's parallel account of both Philistine battles" },
       { r:"Isaiah 28:21", note:"the prophet later recalls 'Mount Perazim' as the pattern for the LORD's surprising, disruptive acts" } ]}
   ]
+},
+
+/* ============================================================
+   2 SAMUEL 6 — the ark comes up to Jerusalem; Uzzah; David's dance
+   ============================================================ */
+"10:6": {
+  era: {
+    title: "ca. 1000 BC — the ark comes up to Jerusalem",
+    sub: "Iron Age IIA · Kiriath-jearim to Jerusalem · Uzzah's death and David's dance",
+    badges: ["Iron Age IIA", "United monarchy", "Ark installed in Jerusalem", "≈3,026 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "With Jerusalem newly secured and the Philistines routed, David turns to the ark of God, which has sat quietly in Abinadab's house on the hill at Kiriath-jearim for decades since its return from Philistine captivity (1 Sam 7:1-2). Thirty thousand chosen men escort it out on a new cart, Abinadab's sons Uzzah and Ahio driving, amid singing and every kind of instrument — until the oxen stumble at Nacon's threshing floor, Uzzah reaches out to steady the ark, and the LORD strikes him dead on the spot for touching what only Levites carrying it by its poles were ever permitted to touch (Num 4:15). Angry and afraid, David diverts the ark to the nearby house of Obed-edom the Gittite, where it stays three months and Obed-edom's household visibly prospers. Reassured, David brings it up to Jerusalem correctly this time, sacrificing every six steps and dancing before the LORD 'with all his might' in a linen ephod — a spectacle his wife Michal, watching from a window, despises as beneath a king's dignity. She confronts him when he returns to bless his household; David rebukes her without apology, and she is left childless the rest of her life.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"kiriath-jearim", role:"Abinadab's house on the hill where the ark had rested for decades; the starting point of both attempts to bring it to Jerusalem (vv. 2-4)" },
+    { id:"jerusalem",      role:"The City of David, where the ark is finally installed in the tent David pitched for it, and where Michal watches David dance from a window (vv. 12-23)" }
+  ],
+  journey: [
+    { from:"kiriath-jearim", to:"jerusalem", dashed:true, label:"First attempt: new cart, aborted at Nacon's threshing floor", km:14,
+      note:"The ark travels only partway from Kiriath-jearim toward Jerusalem before the oxen stumble at Nacon's threshing floor; Uzzah reaches out to steady it and is struck dead on the spot, and David diverts it off the road entirely into the house of Obed-edom the Gittite, where it remains three months (vv. 3-11)." },
+    { from:"kiriath-jearim", to:"jerusalem", label:"Second attempt, three months later: carried correctly, with dancing", km:14,
+      note:"Reassured by Obed-edom's blessing, David brings the ark the rest of the way up to Jerusalem — this time, per 1 Chronicles 15:2,13-15, carried on the shoulders of Levites as the law required, with sacrifices every six steps and David dancing before it 'with all his might' (vv. 12-15)." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Loading the ark at Kiriath-jearim", av:"warrior",
+      desc:"'They carried the ark of God on a new cart and brought it out of the house of Abinadab, which was on the hill; and Uzzah and Ahio, the sons of Abinadab, were driving the new cart' (vv. 3-4) — the ark's first move in perhaps twenty years, since it returned from Philistine territory (1 Sam 7:1-2)." },
+    { x:0.24, type:"person", label:"Uzzah struck down at Nacon's threshing floor", av:"warrior",
+      desc:"'When they came to the threshing floor of Nacon, Uzzah put out his hand to the ark of God and took hold of it, for the oxen stumbled... God struck him down there' (vv. 6-7) — the ark was never to be touched or carted, only carried on poles by Levites of Kohath, veiled from sight (Num 4:15)." },
+    { x:0.4, type:"object", label:"Diverted to the house of Obed-edom",
+      desc:"'David was afraid of the LORD that day... David was not willing to take the ark of the LORD into the city of David... The ark remained in the house of Obed-edom the Gittite three months, and the LORD blessed Obed-edom and all his household' (vv. 9-11)." },
+    { x:0.56, type:"person", label:"David dances before the LORD 'with all his might'", av:"king",
+      desc:"Sacrificing an ox and a fattened animal every six steps, 'David danced before the LORD with all his might. And David was wearing a linen ephod' (vv. 13-14) — a king stripped of royal formality, worshiping like a priest." },
+    { x:0.72, type:"person", label:"Michal watches from a window, and despises him", av:"woman",
+      desc:"'As the ark of the LORD came into the city of David, Michal the daughter of Saul looked out of the window and saw King David leaping and dancing before the LORD, and she despised him in her heart' (v. 16)." },
+    { x:0.9, type:"person", label:"Michal's confrontation, and David's rebuke", av:"king",
+      desc:"'How the king of Israel honored himself today, uncovering himself... as one of the vulgar fellows shamelessly uncovers himself!' David answers that it was 'before the LORD, who chose me... rather than your father' — and Michal has no child to the day of her death (vv. 20-23)." }
+  ],
+  environment: {
+    chips: ["New cart vs. Levitical poles", "Nacon's threshing floor", "Three months at Obed-edom's house", "Linen ephod, not royal robes", "Sacrifices every six steps", "Iron Age IIA Jerusalem"],
+    text: "The ark's first, failed journey follows Philistine practice, not the Law's: a new ox-cart, the very method the Philistines themselves used to send the ark home in 1 Samuel 6:7-8, rather than the poles-on-shoulders prescribed for the Kohathite Levites in Numbers 4:15 and 7:9. Uzzah's death at Nacon's threshing floor — an exposed, public place for the disaster to strike — reads as enforcement of that older law, the same principle behind the seventy men of Beth-shemesh struck down for looking into the ark a generation earlier (1 Sam 6:19). The second attempt corrects the method (1 Chr 15:2, 13-15) and adds the very public, very undignified worship — bare-armed dancing in a priestly linen ephod rather than royal robes — that offends Michal, Saul's daughter, watching from a palace window above the procession."
+  },
+  objectsExtra: ["ark-covenant","ephod"],
+  peopleExtra: ["david","uzzah","michal"],
+  culture: [
+    { title:"Why Uzzah died — the Kohathite carrying law", icon:"⚖️",
+      text:"Numbers 4:15 and 7:9 are explicit: the ark and other holy furniture are to be carried on poles, on the shoulders of Kohathite Levites, never touched or carted. David's new cart copied the method the Philistines themselves used to send the ark home a generation earlier (1 Sam 6:7-8) — good enough for pagans returning stolen property, but a direct violation of the Law for Israel's own worship. Uzzah's death enforces the same principle that struck down the men of Beth-shemesh for merely looking into the ark (1 Sam 6:19)." },
+    { title:"Dancing in a linen ephod", icon:"💃",
+      text:"The ephod (vv. 14) was priestly, not royal, dress — plain linen rather than the purple and gold of a king's robes. David 'leaping and dancing before the LORD' (v. 16) strips away every marker of status the office of king normally demanded, worshiping as a layman among the crowd rather than presiding over it — precisely what Michal, raised in Saul's more conventional court, finds humiliating to watch." },
+    { title:"Michal's last word", icon:"🪟",
+      text:"Michal loved David once, enough to risk her father's anger to save his life (1 Sam 18:20-28; 19:11-17). This chapter is the last time she speaks in Scripture: a cutting rebuke, David's unapologetic answer, and a closing note that she had no child to the day she died — a quiet, deliberate end to any hope of Saul's and David's bloodlines merging in an heir." }
+  ],
+  crossRefs: [
+    { group:"The ark's earlier ordeal", refs:[
+      { r:"1 Samuel 4:10-11", note:"the ark captured by the Philistines at Aphek, the disaster this whole recovery undoes" },
+      { r:"1 Samuel 6:19", note:"seventy men of Beth-shemesh struck down for looking into the ark — the same principle Uzzah's death enforces" } ]},
+    { group:"The law Uzzah's death enforces", refs:[
+      { r:"Numbers 4:15", note:"only the Kohathite Levites may carry the veiled ark, by its poles, on their shoulders — never touching it directly" } ]},
+    { group:"The Chronicler's parallel — and its correction", refs:[
+      { r:"1 Chronicles 13:1-14", note:"the first attempt and Uzzah's death, retold" },
+      { r:"1 Chronicles 15:2,13-15", note:"David's own diagnosis of the failure — 'we did not seek it in the way that is appropriate' — and the second attempt done by the book, Levites carrying it on their shoulders with poles" },
+      { r:"1 Chronicles 16:1-3", note:"the ark installed in the tent David pitched, and the people sent home with bread, meat, and a cake of raisins" } ]},
+    { group:"Michal, once in love with David", refs:[
+      { r:"1 Samuel 18:20-28", note:"Michal's earlier love for David and the bride-price Saul set hoping to get him killed" } ]}
+  ]
+},
+
+/* ============================================================
+   2 SAMUEL 7 — Nathan's oracle; the Davidic covenant
+   ============================================================ */
+"10:7": {
+  era: {
+    title: "ca. 995 BC — Nathan's oracle: the LORD will build David a house",
+    sub: "Iron Age IIA · Jerusalem, at rest from David's enemies · the Davidic covenant",
+    badges: ["Iron Age IIA", "United monarchy", "Davidic covenant", "≈3,021 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Settled in his cedar palace and finally at rest from his enemies, David tells the prophet Nathan that it troubles him to live in a permanent house while the ark of God still dwells in a tent; Nathan's first instinct is to bless the plan. That same night the LORD corrects him: David will not build God a house — God will build David one. The oracle recasts 'house' as dynasty: the LORD took David from tending sheep to lead Israel, will give the nation a settled home free from oppression, and after David's death will raise up his own offspring (Solomon) to build the actual temple. That heir will be God's son in a father-son covenant relationship; unlike Saul, his discipline for sin will never include the loss of God's steadfast love, and David's house, kingdom and throne will be established forever. Nathan reports the vision word for word. David goes in and sits before the LORD — an unusual, humble posture — and prays in wonder at how far he has been brought, asking God to make good on the promise forever.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem",  role:"David's new capital and cedar palace, where Nathan receives and delivers the oracle, and where David prays before the LORD (vv. 1-29)" },
+    { id:"bethlehem",  role:"David's hometown among the sheepfolds — the origin point of the LORD's own summary of his rise, 'I took you from the pasture... to be prince over my people Israel' (v. 8)" }
+  ],
+  journey: [
+    { from:"bethlehem", to:"jerusalem", dashed:true, label:"'I took you from the pasture... to be prince' (v. 8)", km:9,
+      note:"Not a literal trip narrated in this chapter but the LORD's own capsule biography of David inside the oracle — from a shepherd boy following sheep around Bethlehem to king enthroned in Jerusalem, roughly 9 km north." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"David's idea: a cedar house for the ark", av:"king",
+      desc:"'See now, I dwell in a house of cedar, but the ark of God dwells in a tent' (v. 2) — David, settled at last in his own palace, is uneasy that the ark still sits behind curtains." },
+    { x:0.22, type:"person", label:"Nathan's first answer — and its overnight reversal", av:"prophet",
+      desc:"'Go, do all that is in your heart, for the LORD is with you' (v. 3) — a reasonable guess from a faithful prophet, corrected that same night: 'the word of the LORD came to Nathan' with a very different message (v. 4)." },
+    { x:0.38, type:"object", label:"'Would you build me a house?'",
+      desc:"The LORD reminds Nathan he has moved about in a tent and tabernacle since the Exodus and never once asked for cedar (vv. 5-7) — the plan is turned down on God's own terms, not as a rebuke of David's motive." },
+    { x:0.54, type:"person", label:"The reversal: God will build David a house", av:"king",
+      desc:"'The LORD declares to you that the LORD will make you a house... I will raise up your offspring after you... and I will establish his kingdom. He shall build a house for my name, and I will establish the throne of his kingdom forever' (vv. 11-13) — Solomon named without being named." },
+    { x:0.7, type:"object", label:"Father and son, and mercy unlike Saul's",
+      desc:"'I will be to him a father, and he shall be to me a son. When he commits iniquity, I will discipline him... but my steadfast love will not depart from him, as I took it from Saul' (vv. 14-15) — discipline without abandonment." },
+    { x:0.88, type:"person", label:"David sits before the LORD and prays", av:"king",
+      desc:"'Who am I, O Lord GOD, and what is my house, that you have brought me thus far?' (v. 18) — an unusual sitting posture, likely before the ark in its tent, for a prayer of astonished gratitude asking God to confirm the promise forever (vv. 25-29)." }
+  ],
+  environment: {
+    chips: ["Cedar palace vs. tent shrine", "Prophetic word overturned overnight", "Davidic covenant (berit)", "Father-son royal-adoption formula", "'House' = both palace and dynasty", "Root of messianic hope"],
+    text: "The scene turns on a pun the English can't quite carry: David wants to build God a bayit (house/temple); God answers by promising to build David a bayit (house/dynasty) instead, one that will in turn produce the son who builds the literal temple. The 'father and son' language of verse 14 borrows the vocabulary Near Eastern treaties used for royal adoption — a human king declared a god's son at coronation — but Israel's version binds discipline to an unbreakable covenant loyalty (chesed) rather than a favor a ruler could simply lose, unlike Saul, whose own dynasty God had already ended. David's odd posture in verse 18, 'sitting before the LORD,' most likely means seated in front of the tent shrine housing the ark inside Jerusalem — a rare, humble stance for a king making no requests of his own, only wonder and thanks."
+  },
+  objectsExtra: ["tabernacle"],
+  peopleExtra: ["david","nathan"],
+  culture: [
+    { title:"A 'house' with two meanings", icon:"🏠",
+      text:"David proposes to build God a bayit — a house, meaning a temple. The LORD answers with the same word turned around: he will build David a bayit — a house, meaning a dynasty. The wordplay is the whole chapter's argument in miniature, and it resolves in verse 13, where David's own offspring gets to build the literal building after all." },
+    { title:"Father and son — royal adoption language", icon:"👑",
+      text:"'I will be to him a father, and he shall be to me a son' (v. 14) echoes the language ancient Near Eastern treaties used when a great king adopted a vassal king as 'son.' Psalm 2:7 and Psalm 89:26-27 pick up the same formula for David's line, and Hebrews 1:5 later applies it directly to Jesus." },
+    { title:"Nathan corrected, and still trusted", icon:"🔄",
+      text:"Nathan's first answer — 'go, do all that is in your heart' — turns out to be wrong within the same chapter, overturned by a direct word from the LORD that same night. Scripture lets a true prophet's own good judgment be mistaken without undermining his office: the very next word he brings, unedited, becomes one of the most quoted covenant promises in the Old Testament." }
+  ],
+  crossRefs: [
+    { group:"Solomon fulfills the building promise", refs:[
+      { r:"1 Kings 5:3-5", note:"Solomon explains David could not build the temple because of his wars, and that he will build it instead" },
+      { r:"1 Kings 8:15-21", note:"Solomon's dedication speech explicitly quotes this chapter's promise as now fulfilled" } ]},
+    { group:"The Chronicler's parallel", refs:[
+      { r:"1 Chronicles 17:1-15", note:"the same oracle, retold with small but meaningful differences" } ]},
+    { group:"Poetic retelling of the covenant", refs:[
+      { r:"Psalm 89:3-4", note:"'I will establish your offspring forever, and build your throne for all generations'" },
+      { r:"Psalm 89:19-37", note:"an extended meditation on the same promise, wrestling with its apparent failure" } ]},
+    { group:"Messianic hope rooted here", refs:[
+      { r:"Isaiah 9:6-7", note:"the throne of David given to a coming child, 'to establish it... forevermore'" },
+      { r:"Luke 1:32-33", note:"Gabriel tells Mary God will give her son 'the throne of his father David,' whose kingdom 'will have no end'" } ]}
+  ]
 }
 };
