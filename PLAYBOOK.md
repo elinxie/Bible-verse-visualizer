@@ -188,14 +188,15 @@ rolling window + weekly cap). Treat every agent spawn as paid labor:
 | 8 | 2026-07-06 | Re-scanned all GitHub issues (only #7 exists; already closed/shipped in iteration 7 — nothing new to slot). Curated 1 Sam 24 (En-gedi cave, M) + 1 Sam 25 (Nabal/Abigail, M) — finishes the 1 Samuel key-chapter list; new person `nabal`, new object `wineskin`, `meaning` field top-up on `engedi`/`ziph`/`maon` (rode along per the issue #7 rule of thumb); fixtures 9-24/9-25; sweep entries added (100 assertions, PASS) | none (orchestrator only) | ✅ shipped |
 | 9 | 2026-07-07 | Re-scanned all GitHub issues (only #7 exists, still closed/already shipped — nothing new to slot). Curated 2 Sam 1 (Amalekite messenger / Song of the Bow, M) + 2 Sam 5 (anointed king over all Israel, capture of Jerusalem, Baal-perazim, M); new place `baal-perazim`, new people `amalekite-messenger`/`jebusites`, `meaning` top-up on `hebron`; fixtures 10-1/10-5; sweep entries added (120 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped |
 | 10 | 2026-07-09 | Completed 1 Samuel 31: promoted M→L depth by adding the `analyses` block (consensus/debated/sources) to `js/data/curated.js` "9:31", matching the 28/17 schema — covers Saul's suicide vs. the Amalekite's account (2 Sam 1), the Ashtaroth/Dagon temple discrepancy (1 Chr 10:10), and the cremation-before-burial question (v. 12); also completed the offline test fixture `tests/fixtures/9-31.json`, which was missing verses 5–7 (10/13 → 13/13). Smoke suite green (120 assertions incl. "deep cells match analyses entries") | none (orchestrator only) | ✅ shipped |
-| — | NEXT SESSION | Continue 2 Samuel key chapters (6, 7 — M depth); re-scan GitHub issues first | ≤1 sonnet | pending |
+| 11 | 2026-07-09 | Re-scanned all GitHub issues (only #7 exists, still closed/already shipped — nothing new to slot). Curated 2 Sam 6 (ark to Jerusalem: Uzzah's death, Obed-edom, David's dance, Michal's contempt, M) + 2 Sam 7 (Nathan's oracle / Davidic covenant, M); new place `kiriath-jearim`; new people `uzzah`, `michal`, `nathan`; reused existing `ark-covenant`/`ephod`/`tabernacle` objects; fixtures 10-6/10-7; sweep entries added (132 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped |
+| — | NEXT SESSION | Continue 2 Samuel key chapters (11–12 — M depth); re-scan GitHub issues first | ≤1 sonnet | pending |
 
 ### Curation roadmap (tick as shipped; M = medium depth, L = deep)
 **1 Samuel:** [x] 28(L) · [x] 3(M) · [x] 4–6(M) · [x] 8–10(M) · [x] 15(M) · [x] 16(M) · [x] 17(L) · [x] 24(M) · [x] 25(M) · [x] 31(L) — 1 Samuel key-chapter list COMPLETE
-**2 Samuel:** [x] 1(M) · [x] 5(M) · [ ] 6 · [ ] 7 · [ ] 11–12 · [ ] 15 · [ ] 18 · [ ] 24
+**2 Samuel:** [x] 1(M) · [x] 5(M) · [x] 6(M) · [x] 7(M) · [ ] 11–12 · [ ] 15 · [ ] 18 · [ ] 24
 **Then (order):** Genesis 1–3, 6–9, 12, 22, 28, 37, 41, 45 · Exodus 3, 12, [x] 14(M), 19–20, 32 · Joshua 2, 6 · Judges 4, 7, 16 · Ruth 1–4 · 1 Kgs 3, 8, 17–19 · 2 Kgs 5, 18–19, 25 · Ezra 3 · Neh 2, 8 · Esther 4 · Job 1–2, 38 · Pss 22, 23, 51, 137 · Isa 6, 40, 53 · Jer 1, 29, 31 · Ezek 1, 37 · Dan 1–6 · Jonah 1–4 · Mic 5 · Hag 1 ·
 **NT:** Matt 2, 5–7, 26–28 · Mark 4–5 · Luke [x] 2(M), 10, 15, 24 · John 1, 3, [x] 4(M), 9, 11, 19–21 · Acts 1–2, 8–9, 16–17, [x] 27(M), 28 · Rom 8 · 1 Cor 15 · Rev 1–3, 21–22
-**Datasets:** places 119/200 (+1 new: baal-perazim; hebron gained `meaning` top-up) · people 78/120 (+2 new: amalekite-messenger, jebusites) · objects 46/60
+**Datasets:** places 120/200 (+1 new: kiriath-jearim) · people 84/120 (+3 new: uzzah, michal, nathan) · objects 46/60
 
 ### Feature backlog (GitHub issues — check this before picking the next batch)
 Re-scan open issues each session start (`list_issues` state=OPEN) and re-slot
@@ -203,7 +204,7 @@ new ones here by size/risk, cheapest-and-safest first.
 
 | # | Issue | Scope | Slot |
 |---|-------|-------|------|
-| [#7](https://github.com/elinxie/Bible-verse-visualizer/issues/7) | Add translations to city names | ✅ **Shipped in iteration 7** (see Ledger); 3 more places (engedi/ziph/maon) topped up with `meaning` in iteration 8. Remaining ~65 non-curated places (jerusalem-adjacent minor sites, all Isa/Jer/Ezek/Rev-era towns, etc.) still lack `meaning` — a pure data top-up, safe to ride along with a future curation batch rather than needing its own iteration. | Repo re-scanned 2026-07-07: still the only issue ever filed, already closed — no open issues exist. |
+| [#7](https://github.com/elinxie/Bible-verse-visualizer/issues/7) | Add translations to city names | ✅ **Shipped in iteration 7** (see Ledger); 3 more places (engedi/ziph/maon) topped up with `meaning` in iteration 8. Remaining ~65 non-curated places (jerusalem-adjacent minor sites, all Isa/Jer/Ezek/Rev-era towns, etc.) still lack `meaning` — a pure data top-up, safe to ride along with a future curation batch rather than needing its own iteration. | Repo re-scanned 2026-07-09: still the only issue ever filed, already closed — no open issues exist. |
 
 Rule of thumb for future issues: pure data additions (new places/people/objects,
 more curated chapters) can ride along with a curation batch; anything that
