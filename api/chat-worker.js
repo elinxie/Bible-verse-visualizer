@@ -27,11 +27,16 @@ export default {
     const model = env.GEMINI_MODEL || "gemini-2.5-flash-lite";
     const prompt = buildPrompt(question, context, scriptureContext);
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${env.GEMINI_API_KEY}`;
+    const useGrounding = env.ENABLE_WEB_GROUNDING !== "false";
     const requestBody = {
       contents: [{ role: "user", parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.2, responseMimeType: "application/json" }
+      // Gemini rejects requests that combine responseMimeType "application/json"
+      // with the google_search tool, so only force JSON mode when grounding is off.
+      generationConfig: useGrounding
+        ? { temperature: 0.2 }
+        : { temperature: 0.2, responseMimeType: "application/json" }
     };
-    if (env.ENABLE_WEB_GROUNDING !== "false") {
+    if (useGrounding) {
       requestBody.tools = [{ google_search: {} }];
     }
 
@@ -47,7 +52,10 @@ export default {
     } catch (e) {
       return cors(json({ error: "Model provider returned an unreadable response." }, 502));
     }
-    if (!upstream.ok) return cors(json({ error: "Model provider rejected the request." }, upstream.status));
+    if (!upstream.ok) {
+      const detail = data?.error?.message ? `: ${data.error.message}` : "";
+      return cors(json({ error: `Model provider rejected the request${detail}` }, upstream.status));
+    }
 
     const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
     if (!text) return cors(json({ error: "Model provider returned no answer." }, 502));
