@@ -96,5 +96,7 @@ BVV.OBJECTS = [
   { id:"divination", name:"Divination & necromancy", al:["divination","necromancer","spirits","familiar spirit","wizard","wizards","soothsayer"], icon:"🔮",
     desc:"The ancient Near East's technologies for reading the divine will: omens, livers, arrows, astrology — and the 'ôb, the ghost-pit of the necromancer who claimed to raise the dead to speak. All banned to Israel (Deut 18:9-14), which was given the prophetic word instead." },
   { id:"wineskin", name:"Wineskin", al:["wineskin","wineskins","skin of wine","skins of wine","bottle of wine","wine bottle"], icon:"🍶",
-    desc:"Wine was carried and aged in whole animal hides sewn tight, not jars, since a sealed skin could stretch as fermentation built pressure — Abigail brings David 'two skins of wine' among her gifts (1 Sam 25:18), and Jesus later warns that new wine bursts an old, brittle skin (Matt 9:17)." }
+    desc:"Wine was carried and aged in whole animal hides sewn tight, not jars, since a sealed skin could stretch as fermentation built pressure — Abigail brings David 'two skins of wine' among her gifts (1 Sam 25:18), and Jesus later warns that new wine bursts an old, brittle skin (Matt 9:17)." },
+  { id:"ewe-lamb", name:"Ewe lamb (Nathan's parable)", al:["ewe lamb","little ewe lamb","one little ewe lamb"], icon:"🐑",
+    desc:"The poor man's single treasured animal in Nathan's parable to David — bought and raised by hand, fed from his own plate, cupped in his arms like a daughter, then slaughtered by a rich neighbor too stingy to touch his own flocks (2 Sam 12:1-4). A single lamb, not a temple sacrifice, was enough to make David condemn himself before Nathan ever said 'you are the man.'" }
 ];

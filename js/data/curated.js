@@ -1519,5 +1519,148 @@ BVV.CURATED = {
       { r:"Isaiah 9:6-7", note:"the throne of David given to a coming child, 'to establish it... forevermore'" },
       { r:"Luke 1:32-33", note:"Gabriel tells Mary God will give her son 'the throne of his father David,' whose kingdom 'will have no end'" } ]}
   ]
+},
+
+/* ============================================================
+   2 SAMUEL 11 — David, Bathsheba, and the death of Uriah
+   ============================================================ */
+"10:11": {
+  era: {
+    title: "ca. 993 BC — the siege of Rabbah: David, Bathsheba, and Uriah's death",
+    sub: "Iron Age IIA · Jerusalem and the walls of Rabbah · adultery, and a murder disguised as a battle loss",
+    badges: ["Iron Age IIA", "United monarchy", "Siege of Rabbah", "≈3,019 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "In the spring, when kings traditionally led their armies to war, David sends Joab and 'all Israel' out to finish off the Ammonites and lay siege to their capital, Rabbah — but stays behind in Jerusalem himself. One evening, walking his palace roof, he sees a woman bathing on a rooftop below; she is Bathsheba, wife of Uriah the Hittite, one of his own Thirty mighty men, currently at the front with the army. David sends for her, sleeps with her, and sends her home; when she conceives, he tries to cover it by recalling Uriah from the siege lines, hoping he will go home to his wife and let the pregnancy pass as his own. Uriah refuses twice — sober and then deliberately made drunk — on principle: with the ark and his comrades camped in the open field, he will not enjoy his own house while they cannot. Failing to manufacture a cover story, David writes Joab a letter, hand-carried by Uriah himself, ordering him exposed at the fiercest point of the fighting and then abandoned; Joab complies, and Uriah dies alongside other soldiers at the wall of Rabbah. Joab's messenger is coached in advance on how to defuse David's expected anger over the tactics, then instructed to add, almost as an afterthought, that Uriah is dead too — news David receives with chilling calm ('the sword devours now one and now another'). After a formal mourning period, David marries the widow, and she bears him a son. The chapter's last sentence undoes every appearance of a tidy ending: 'the thing that David had done displeased the LORD.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"David's palace, where he stays back from the war, sees Bathsheba bathing, sends for her, and later recalls and questions Uriah (vv. 1-13, 26-27)" },
+    { id:"rabbah", role:"The besieged Ammonite capital where Joab commands the army and where Uriah is deliberately exposed and killed at the wall (vv. 1, 16-17, 24)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"rabbah", label:"Joab and 'all Israel' march out to besiege Rabbah while David stays behind", km:69,
+      note:"'In the spring, the time when kings go out to battle... David sent Joab, and his servants with him, and all Israel... and they besieged Rabbah. But David remained at Jerusalem' (v. 1) — the one-line detail that starts the whole chapter's tragedy: the king out of place." },
+    { from:"jerusalem", to:"rabbah", dashed:true, label:"Uriah summoned home, then sent back carrying his own death sentence", km:69,
+      note:"David recalls Uriah from the siege lines hoping he'll go home to his wife and cover the pregnancy; when Uriah won't, David sends him back to Joab carrying a sealed letter ordering his own death at the front of the fighting (vv. 6-15)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"David stays home while Joab besieges Rabbah", av:"king",
+      desc:"'In the spring... David sent Joab, and his servants with him, and all Israel... and they besieged Rabbah. But David remained at Jerusalem' (v. 1) — the king out of place, away from where a king of that era was expected to be." },
+    { x:0.18, type:"person", label:"David sees Bathsheba bathing from the roof", av:"king",
+      desc:"'It happened, late one afternoon, when David arose from his couch and was walking on the roof of the king's house, that he saw from the roof a woman bathing; and the woman was very beautiful' (vv. 2-3) — he learns at once that she is Bathsheba, wife of Uriah the Hittite, one of his own soldiers at the front." },
+    { x:0.32, type:"person", label:"Sent for, taken, and pregnant", av:"woman",
+      desc:"'David sent messengers and took her, and she came to him, and he lay with her... Then she returned to her house. And the woman conceived. And she sent and told David, \"I am pregnant\"' (vv. 4-5) — the aside in v. 4, that she had just purified herself from her period, forecloses any claim the child could be Uriah's." },
+    { x:0.46, type:"person", label:"Uriah's refusal, sober and drunk alike", av:"warrior",
+      desc:"Summoned home from the siege, Uriah sleeps at the palace door with the guard instead: 'The ark and Israel and Judah dwell in booths, and my lord Joab and the servants of my lord are camping in the open field. Shall I then go to my house, to eat and drink and lie with my wife?' (v. 11) — he holds the line even after David gets him drunk (v. 13)." },
+    { x:0.6, type:"object", label:"The letter Uriah carries to his own death",
+      desc:"Having failed to arrange a cover story, David 'wrote a letter to Joab and sent it by the hand of Uriah,' ordering: 'Set Uriah in the forefront of the hardest fighting, and then draw back from him, that he may be struck down, and die' (vv. 14-15) — the condemned man personally delivers his own sentence." },
+    { x:0.75, type:"person", label:"Uriah falls at the wall of Rabbah", av:"warrior",
+      desc:"Joab positions Uriah 'in the place where he knew there were valiant men'; the defenders sortie out, and 'some of the servants of David among the people fell. Uriah the Hittite also died' (vv. 16-17)." },
+    { x:0.9, type:"object", label:"A scripted report, and David's chilling reply",
+      desc:"Joab coaches his messenger to preempt David's anger over risky tactics by invoking Abimelech's death at Thebez (vv. 20-21; cf. Judg 9:50-55), then to add Uriah's death almost as an afterthought (v. 21). David's answer needs no more than: 'the sword devours now one and now another' (v. 25)." }
+  ],
+  environment: {
+    chips: ["Rooftop bathing in view of the palace", "Ritual purification (v. 4)", "Spring campaign season", "Siege warfare at a city wall", "The king's letter as death warrant", "Adultery, murder, and cover-up"],
+    text: "Israelite houses used flat roofs for sleeping, drying produce and washing; a palace built into the City of David's steep ridge stood higher than the rooftops around it, which is exactly why David — walking his own roof in the evening — could see into a courtyard or roof below that its owner had every reason to expect was private. Verse 4's aside, 'now she was purifying herself from her uncleanness,' reads like a throwaway ritual detail (Lev 15:19-24) but functions as the narrator's alibi-closer: Bathsheba had just completed her monthly purification, meaning she could not already have been carrying a child by Uriah when David sent for her — the text quietly forecloses any doubt about paternity. The siege tactics behind Uriah's death were common knowledge to soldiers of the day: a besieging force that pressed too close to a fortified wall risked exactly the kind of loss Abimelech suffered at Thebez, struck by a millstone dropped from above (Judg 9:50-55) — which is why Joab expects David's anger and coaches his messenger's answer for it in advance."
+  },
+  objectsExtra: ["sword"],
+  peopleExtra: ["david","bathsheba","uriah","joab"],
+  culture: [
+    { title:"Flat rooftops and royal sightlines", icon:"🏠",
+      text:"Israelite houses used flat roofs for sleeping, storage, drying produce and washing; a king's palace stood higher than the surrounding rooftops of the City of David's steep ridge, which is exactly why David — walking his own roof in the cool of evening — could see into a courtyard or roof below that its owner had every reason to expect was private." },
+    { title:"Ritual purification and paternity", icon:"💧",
+      text:"Verse 4's aside — 'now she was purifying herself from her uncleanness' — reads like a throwaway ritual detail (Lev 15:19-24) but functions as the narrator's alibi-closer: Bathsheba had just completed her monthly purification, meaning she could not already have been carrying a child by Uriah when David sent for her. The text quietly forecloses any doubt about whose child this is." },
+    { title:"A death warrant carried by the condemned man's own hand", icon:"✉️",
+      text:"Uriah personally delivers the sealed letter ordering his own death at the front — a detail later literary tradition would echo as the 'letter of Bellerophon' motif, a messenger unknowingly carrying his own death sentence. Nothing in the text suggests Uriah suspected anything; his loyalty to David is total, which is precisely what makes the betrayal complete." },
+    { title:"Joab's scripted answer, and David's closing line", icon:"🗡️",
+      text:"Joab anticipates David's anger at losing men so close to a city wall and coaches the messenger with a ready answer — invoking Abimelech's death at Thebez (Judg 9:50-55), killed when a woman dropped a millstone from the wall onto his head, exactly the kind of loss a competent general should have avoided. David's reply cuts the conversation off rather than opening it: 'the sword devours now one and now another' (v. 25) — an old soldier's proverb doing the work of ending an uncomfortable line of questioning." }
+  ],
+  crossRefs: [
+    { group:"Uriah among David's mighty men", refs:[
+      { r:"2 Samuel 23:39", note:"Uriah the Hittite listed among David's Thirty mighty men — loyalty of that caliber is exactly what makes his death here so damning" } ]},
+    { group:"The precedent everyone in the story already knows", refs:[
+      { r:"Judges 9:50-55", note:"Abimelech's death at Thebez, killed by a millstone dropped from a wall — the very story Joab expects David to bring up in anger, and coaches the messenger's answer for in advance" } ]},
+    { group:"What follows immediately", refs:[
+      { r:"2 Samuel 12:1-14", note:"the very next chapter — Nathan's parable and rebuke that answers this one directly" },
+      { r:"Psalm 51 (title)", note:"David's psalm 'when Nathan the prophet went to him, after he had gone in to Bathsheba' — the fullest biblical statement of the repentance this chapter sets up" } ]},
+    { group:"Kept in Jesus' genealogy, not smoothed over", refs:[
+      { r:"Matthew 1:6", note:"'David was the father of Solomon by the wife of Uriah' — the genealogy of Jesus names this exact scandal rather than passing over it" } ]},
+    { group:"The war this siege continues", refs:[
+      { r:"2 Samuel 10:1-14", note:"the war against Ammon and its Aramean allies that this siege of Rabbah carries on" } ]},
+    { group:"The Chronicler's silence", refs:[
+      { r:"1 Chronicles 20:1-3", note:"the Chronicler's parallel account of the same Rabbah campaign, which omits the Bathsheba-Uriah affair entirely" } ]},
+    { group:"Bathsheba's family — a possible thread into Absalom's revolt", refs:[
+      { r:"2 Samuel 23:34", note:"Eliam, Bathsheba's father, is very possibly the same Eliam listed among David's mighty men as 'son of Ahithophel the Gilonite' — if so, Ahithophel was Bathsheba's grandfather, which may help explain why David's own trusted counselor defects to Absalom's rebellion in 2 Sam 15-17" } ]}
+  ]
+},
+
+/* ============================================================
+   2 SAMUEL 12 — Nathan's rebuke; the child's death; Solomon's birth; Rabbah falls
+   ============================================================ */
+"10:12": {
+  era: {
+    title: "ca. 992 BC — Nathan's rebuke, the child's death, Solomon's birth, and Rabbah's fall",
+    sub: "Iron Age IIA · Jerusalem and Rabbah · confrontation, grief, and the end of the Ammonite war",
+    badges: ["Iron Age IIA", "United monarchy", "Rabbah captured", "≈3,018 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "The LORD sends Nathan back to the palace, this time not with a covenant promise but a story: a rich man with vast flocks who, rather than touch his own animals for a visiting traveler, takes and slaughters the one treasured ewe lamb of a poor neighbor — an animal raised like a daughter in his house. David, hearing it as a legal case brought before the king, is outraged and pronounces sentence: the man deserves to die, and must repay fourfold for showing no pity. Nathan's answer is four words that turn the king's own verdict against him: 'You are the man.' What follows is the sharpest prophetic indictment any reigning king of Israel receives face to face — David is reminded everything he has came from the LORD's own hand, is charged with despising God's word by killing Uriah with the Ammonites' sword and taking his wife, and is told the sword will never leave his household and that the very evil he did in secret will be repeated against him in broad daylight, by someone close to him. David's response is immediate and unadorned: 'I have sinned against the LORD.' Nathan answers just as immediately: the LORD has put away the sin — David will not die — but the child conceived in it will. The infant sickens; David fasts and lies on the ground all night pleading for its life, refusing his own household's attempts to raise him, and when the child dies on the seventh day his servants are afraid to tell him, unsure how far his grief will go. Instead David surprises them: he rises, washes, worships, and eats, explaining that fasting made sense while there was still something to plead for, but not now — 'I shall go to him, he will not return to me.' He then comforts Bathsheba, and their next son is Solomon, whom the LORD loves and names, through Nathan, Jedidiah ('beloved of the LORD'). The chapter closes by finishing the war interrupted a chapter earlier: Joab, having captured Rabbah's water supply, calls David up so the king — not his general — gets credit for the city's fall; David takes the Ammonite king's crown for his own head, puts the population to forced labor, and returns to Jerusalem.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"Where Nathan confronts David, where the sick child dies and David returns to worship, and where Solomon is later born (vv. 1-25)" },
+    { id:"rabbah", role:"The Ammonite capital Joab has besieged since the previous chapter, finally captured when David arrives to take personal command (vv. 26-31)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"rabbah", label:"Joab captures the city's water supply and calls David up to finish it", km:69,
+      note:"Some months after the affair began, Joab reports he has taken 'the city of waters' and urges David to bring up the rest of the army himself, 'lest I take the city, and it be called by my name' (vv. 26-28) — a rare moment of a general deliberately not claiming a conquest." },
+    { from:"jerusalem", to:"rabbah", dashed:true, label:"David marches to take the city and its crown", km:69,
+      note:"David gathers the people, marches to Rabbah, fights against it and captures it, taking the Ammonite king's gold crown for his own head before returning to Jerusalem with the city's plunder and population (vv. 29-31)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"Nathan's story: the rich man and the poor man's one ewe lamb", av:"prophet",
+      desc:"A rich man with 'very many flocks and herds' takes and slaughters a poor neighbor's only lamb — an animal that 'used to eat of his morsel and drink from his cup and lie in his arms, and was like a daughter to him' — to feed a visiting traveler rather than touch his own flock (vv. 1-4)." },
+    { x:0.18, type:"person", label:"David condemns the man — and himself", av:"king",
+      desc:"'David's anger was greatly kindled against the man... \"the man who has done this deserves to die... he shall restore the lamb fourfold, because he did this thing, and because he had no pity\"' (vv. 5-6) — a legal verdict pronounced before David knows it is about him." },
+    { x:0.32, type:"person", label:"'You are the man!'", av:"prophet",
+      desc:"Nathan turns the parable on the king directly, cataloguing everything the LORD had given him and charging him: 'you have struck down Uriah the Hittite with the sword and have taken his wife to be your wife' (vv. 7-9) — the sharpest face-to-face prophetic indictment of a reigning king in the Old Testament." },
+    { x:0.46, type:"person", label:"Confession, forgiveness, and consequence", av:"king",
+      desc:"'David said to Nathan, \"I have sinned against the LORD.\" And Nathan said to David, \"The LORD also has put away your sin; you shall not die. Nevertheless...the child who is born to you shall die\"' (vv. 13-14) — mercy and consequence arrive in the same breath." },
+    { x:0.58, type:"object", label:"The child's illness, David's fast, and the seventh day",
+      desc:"The LORD strikes the child 'and it became sick.' David pleads all night, fasting and lying on the ground, refusing to rise even for his own elders — 'on the seventh day the child died,' and his servants are afraid to tell him (vv. 15-18)." },
+    { x:0.72, type:"person", label:"David rises, worships, and comforts Bathsheba", av:"king",
+      desc:"Perceiving the truth before anyone speaks it, David 'arose from the earth and washed and anointed himself... and went into the house of the LORD and worshiped' before eating again (vv. 19-20); he explains, 'I shall go to him, but he will not return to me' (v. 23) — then Bathsheba bears Solomon, whom the LORD loves and names Jedidiah through Nathan (vv. 24-25)." },
+    { x:0.9, type:"person", label:"Joab calls David to finish Rabbah; the crown changes heads", av:"king",
+      desc:"Having taken 'the city of waters,' Joab summons David so the king gets the credit: 'lest I take the city, and it be called by my name' (v. 28). David takes the Ammonite king's crown — 'its weight was a talent of gold, with a precious stone' — for his own head, and the army returns to Jerusalem (vv. 29-31)." }
+  ],
+  environment: {
+    chips: ["Legal-case parable as a rhetorical trap", "Fourfold restitution (Ex 22:1)", "Seven days of fasting for the sick child", "Mourning customs inverted", "Talent-weight gold crown", "Forced labor after conquest"],
+    text: "Nathan's approach follows a device Scripture uses more than once — a wise woman of Tekoa runs the identical trick on David a few chapters later (2 Sam 14:1-20) — presenting a hypothetical legal case designed to secure a ruling before the accused realizes he is the defendant. David's own sentence, fourfold restitution for the stolen lamb, echoes almost exactly the penalty Exodus 22:1 prescribes for a stolen sheep, and reads eerily in hindsight: four of David's own sons die in the narrative that follows this chapter (the unnamed infant, Amnon, Absalom, Adonijah). Israelite mourning customs expected escalating grief after a death — torn clothes, ashes, extended fasting — which is why David's servants are baffled when he does the reverse, rising to eat once the child is gone rather than after; his explanation, 'I shall go to him, he will not return to me' (v. 23), is one of the Old Testament's few glimpses of hope for an infant's fate beyond death. The Ammonite king's crown taken in verse 30 — 'a talent of gold, with a precious stone' — would weigh roughly 34 kg by the standard reckoning of a talent, almost certainly too heavy to be worn as an ordinary crown, and more likely a gem-set golden image or civic ornament reset as a trophy on David's head; the forced labor imposed on Rabbah's population in verse 31 (saws, iron picks, axes, brickwork) was harsh but standard ancient Near Eastern practice toward a defeated capital, not an exceptional cruelty singled out by the text."
+  },
+  objectsExtra: ["ewe-lamb","crown"],
+  peopleExtra: ["david","nathan","bathsheba","solomon","joab"],
+  culture: [
+    { title:"A parable built to trap the king", icon:"⚖️",
+      text:"Nathan doesn't open with an accusation but a legal case — poor man, rich man, a stolen lamb — precisely because a king's job was to render judgment on cases like it. David condemns the fictional rich man before he has any idea the story is about him; the wise woman of Tekoa uses the same device on David again in 2 Samuel 14:1-20, this time at Joab's instigation." },
+    { title:"Fourfold restitution, self-applied", icon:"🐑",
+      text:"David's sentence — 'he shall restore the lamb fourfold' — quotes Exodus 22:1's penalty for a stolen sheep almost verbatim. Read against what follows in 2 Samuel, the number becomes unbearable: four of David's own sons die in the chapters after this one (the unnamed infant, Amnon, Absalom, Adonijah)." },
+    { title:"Mourning in reverse", icon:"🙏",
+      text:"Ancient mourning ran one direction — deepen the fast, the grief, the ashes, as death confirms itself. David inverts it: fasting and lying on the ground while the child might still live, then rising to wash, worship and eat the moment hope is gone. His explanation to his startled servants, 'I shall go to him, he will not return to me,' is a rare Old Testament word of comfort about where an infant goes." },
+    { title:"Two names for one child", icon:"👶",
+      text:"Solomon is the throne name; Jedidiah ('beloved of the LORD'), given through Nathan, is the name of grace — the same prophet who announced God's judgment on this union also carries God's blessing on its second son, a small but pointed sign that the forgiveness in verse 13 was real, not merely spoken." }
+  ],
+  crossRefs: [
+    { group:"The affair this rebuke answers", refs:[
+      { r:"2 Samuel 11:1-27", note:"the affair, cover-up, and murder this chapter directly confronts" } ]},
+    { group:"David's own response, in his own words", refs:[
+      { r:"Psalm 51 (title, vv. 1-17)", note:"'Have mercy on me, O God' — David's fullest response to this rebuke, matching its confession almost point for point" },
+      { r:"Psalm 32:3-5", note:"a companion psalm on the misery of unconfessed sin and the relief of confession" } ]},
+    { group:"'The sword shall never depart from your house'", refs:[
+      { r:"2 Samuel 13:1-14", note:"Amnon's rape of Tamar — the first of the household consequences Nathan pronounces here" },
+      { r:"2 Samuel 16:20-22", note:"Absalom takes David's concubines 'in the sight of all Israel,' fulfilling verse 11's 'in the sight of this sun' almost to the letter" } ]},
+    { group:"Solomon named twice", refs:[
+      { r:"1 Chronicles 22:9-10", note:"David's own later account: God promised the child of peace who would build the temple, and that his name would be Solomon" } ]},
+    { group:"The Chronicler's version of Rabbah's fall", refs:[
+      { r:"1 Chronicles 20:1-3", note:"the same capture of Rabbah and the king's crown, again without any mention of Bathsheba or Uriah" } ]}
+  ]
 }
 };
