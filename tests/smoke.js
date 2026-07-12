@@ -164,7 +164,8 @@ function check(name, cond, extra) {
     "1 Samuel 8|9:8", "1 Samuel 9|9:9", "1 Samuel 10|9:10",
     "1 Samuel 24|9:24", "1 Samuel 25|9:25",
     "2 Samuel 1|10:1", "2 Samuel 5|10:5", "2 Samuel 6|10:6", "2 Samuel 7|10:7",
-    "2 Samuel 11|10:11", "2 Samuel 12|10:12"];
+    "2 Samuel 11|10:11", "2 Samuel 12|10:12",
+    "2 Samuel 15|10:15", "2 Samuel 18|10:18"];
   for (const entry of CURATED_SWEEP) {
     const [ref, key] = entry.split("|");
     console.log(`== curated pipeline: ${ref} ==`);
