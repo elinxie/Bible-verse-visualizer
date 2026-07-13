@@ -1662,5 +1662,161 @@ BVV.CURATED = {
     { group:"The Chronicler's version of Rabbah's fall", refs:[
       { r:"1 Chronicles 20:1-3", note:"the same capture of Rabbah and the king's crown, again without any mention of Bathsheba or Uriah" } ]}
   ]
+},
+
+/* ============================================================
+   2 SAMUEL 15 — Absalom's rebellion; David flees Jerusalem
+   ============================================================ */
+"10:15": {
+  era: {
+    title: "ca. 979 BC — Absalom's rebellion; David flees Jerusalem",
+    sub: "Iron Age IIA · Jerusalem, Hebron, and the road to the Jordan · a four-year conspiracy comes to a head",
+    badges: ["Iron Age IIA", "United monarchy", "Absalom's rebellion", "≈3,005 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "For years Absalom has positioned himself at Jerusalem's gate, intercepting petitioners with sympathy and a complaint the king supposedly won't hear, until — as the narrator puts it flatly — he has stolen the hearts of the men of Israel. When the moment is ripe, he asks David's leave to pay a vow at Hebron, his own birthplace and David's first capital, and uses the trip to declare himself king, sending secret couriers through every tribe to await a trumpet signal. Two hundred invited guests from Jerusalem go with him in complete innocence, and David's own trusted counselor Ahithophel joins the conspiracy from nearby Giloh. Word reaches David that all Israel has swung behind his son, and rather than fortify his own capital he chooses immediate flight, evacuating the city with his household, his guard, and six hundred loyal Gittites under Ittai — who refuses David's offer to stay behind and sit this one out. The whole column crosses the brook Kidron and climbs the Mount of Olives in full mourning dress, weeping and barefoot. David sends the ark, and the priests Zadok and Abiathar who carry it, back into the city rather than risk it or presume on it, turning their two sons into a courier relay instead. At the summit, he prays one focused prayer against Ahithophel's counsel — and immediately answers it himself by sending his friend Hushai back into Jerusalem as a planted double agent, just as Absalom is arriving to take the throne his father has vacated.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The city gate where Absalom courts Israel's favor for years, and the capital David abandons rather than fight for it (vv. 2-6, 13-17)" },
+    { id:"hebron", role:"Where Absalom, under cover of paying a vow, declares himself king and launches the coup (vv. 7-12)" },
+    { id:"geshur", role:"Backstory: the Aramean court where the exiled Absalom made the vow he now claims to be paying (v. 8)" },
+    { id:"olives", role:"David's barefoot, weeping ascent out of the city, crossing the Kidron on the way (vv. 23, 30)" },
+    { id:"mahanaim", role:"David's eventual refuge across the Jordan — not yet reached in this chapter, but already the flight's real destination" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"hebron", label:"Absalom's cover story becomes a coup", km:30,
+      note:"Absalom asks leave to pay a vow at Hebron — the city of his own birth and of David's first throne — then uses the trip to declare himself king, sending secret word through all the tribes to await a trumpet signal (vv. 7-10)." },
+    { from:"jerusalem", to:"olives", label:"David's flight: out the city, over the Kidron, up the ridge", km:1,
+      note:"With Absalom's support snowballing, David chooses flight over a siege of his own capital: out through the last house, across the brook Kidron, and up the ascent of the Mount of Olives, weeping, barefoot, head covered (vv. 14-17, 23, 30)." },
+    { from:"jerusalem", to:"mahanaim", dashed:true, label:"The road that ends, eventually, across the Jordan", km:65,
+      note:"Not yet completed in this chapter, but already the flight's real destination: David and his household will not stop until they reach Mahanaim in Gilead (2 Sam 17:24), out of Absalom's immediate reach." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Absalom at the gate, stealing the hearts of Israel", av:"warrior",
+      desc:"Rising early to stand beside the road into the gate, Absalom intercepts every petitioner with sympathy and a complaint of his own — 'see, your claims are good, but the king has appointed no one to hear you... oh that I were judge in the land!' — then seals it with an unroyal kiss on the hand offered to bow to him (vv. 2-6)." },
+    { x:0.22, type:"person", label:"The vow at Hebron, and Ahithophel's defection", av:"elder",
+      desc:"Granted leave to 'pay a vow' at Hebron, Absalom instead declares himself king there, sending secret couriers through every tribe to await a trumpet signal. He calls for Ahithophel, David's own counselor, from nearby Giloh — 'the conspiracy grew strong, and the people with Absalom kept increasing' (vv. 7-12)." },
+    { x:0.36, type:"person", label:"David chooses flight over a siege of his own city", av:"king",
+      desc:"On word that 'the hearts of the men of Israel have gone after Absalom,' David does not fortify Jerusalem — he orders an immediate evacuation: 'arise, and let us flee, or there will be no escape for us... lest he overtake us quickly and bring down ruin on us' (vv. 13-14)." },
+    { x:0.5, type:"person", label:"Ittai the Gittite's oath", av:"warrior",
+      desc:"David tries to send the newly arrived foreign captain and his 600 men back to spare them an exile's risk; Ittai refuses outright: 'as the LORD lives, and as my lord the king lives, wherever my lord the king shall be, whether for death or for life, there also will your servant be' (vv. 19-22)." },
+    { x:0.64, type:"object", label:"The ark turned back with Zadok and Abiathar",
+      desc:"When the priests bring the ark out of the city to go with him, David sends it back: 'if I find favor in the eyes of the LORD, he will bring me again... but if not, here I am, let him do to me what seems good to him' (vv. 24-26) — and turns the two priests' sons into a courier relay for intelligence out of the city (vv. 27-29, 36)." },
+    { x:0.78, type:"person", label:"Weeping, barefoot, up the Mount of Olives", av:"king",
+      desc:"'David went up the ascent of the Mount of Olives, weeping as he went, barefoot and with his head covered. And all the people who were with him covered their heads, and they went up, weeping as they went' (v. 30) — a king in full mourning dress for the loss of his own kingdom." },
+    { x:0.92, type:"person", label:"Hushai sent back to counter Ahithophel", av:"elder",
+      desc:"At the summit, David prays one specific prayer — 'O LORD, please turn the counsel of Ahithophel into foolishness' — then answers it himself by sending his friend Hushai back into the city as a planted double agent, tasked with defeating Ahithophel's counsel and relaying everything through Zadok and Abiathar's sons (vv. 31-37)." }
+  ],
+  environment: {
+    chips: ["Four years of quiet politicking at the gate", "A vow used as political cover", "A capital abandoned rather than besieged", "Crossing the Kidron, up Olivet", "Mourning dress: barefoot, head covered, weeping", "A double agent planted mid-flight"],
+    text: "The chapter's geography traces a coup, not a battle: Absalom builds his base for years at Jerusalem's own gate — the normal seat of legal judgment — before relocating to Hebron, his birthplace and David's own first capital, to launch the actual declaration under cover of a religious vow. David's response reverses the expected script: rather than fortify a walled hill-capital with a water supply and Cherethite-Pelethite guard already inside it, he leads a column of loyalists, foreign mercenaries, priests and household straight out through the gate, across the exposed floor of the Kidron valley, and up the steep, twisting path over the Mount of Olives — the same ridge, and very nearly the same brook crossing, a fugitive king's greater son will make a thousand years later on the way to his own arrest (John 18:1)."
+  },
+  objectsExtra: ["citygate","chariot","ark-covenant"],
+  peopleExtra: ["david","absalom","ahithophel","hushai","ittai","zadok","abiathar"],
+  culture: [
+    { title:"Justice at the gate — and how to steal it", icon:"🚪",
+      text:"City gates were the ancient Israelite courtroom — elders sat there to hear disputes and render judgment (cf. Ruth 4:1-2; Deut 21:19). Absalom's maneuver works precisely because it exploits a real grievance: if David's court had in fact grown too slow or remote to hear every case, a prince who intercepted petitioners with sympathy, and no power yet to decide anything, could build genuine loyalty for free — one flattered petitioner, and one royal kiss, at a time (2 Sam 15:2-6)." },
+    { title:"A vow as a coup's cover story", icon:"🤫",
+      text:"Asking leave to fulfill a vow at a shrine city was an unremarkable, pious request no king would refuse — which is exactly why Absalom chooses it. Hebron adds a second layer: it was David's own first capital and Absalom's birthplace, a city with royal memory to draw on and, evidently, a citizenry ready to be recruited (vv. 7-10)." },
+    { title:"Ahithophel's grievance, if there was one", icon:"🧠",
+      text:"2 Samuel 23:34 names Eliam, Bathsheba's father, as 'the son of Ahithophel the Gilonite' — if this is the same Eliam as 2 Sam 11:3, Ahithophel was Bathsheba's grandfather, and his defection to Absalom takes on a personal edge many commentators connect to Uriah's death. Scripture never states the motive outright; it lets the genealogy do the suggesting." },
+    { title:"Cherethites, Pelethites, and a foreign captain's oath", icon:"🤝",
+      text:"David's standing bodyguard — Cherethites and Pelethites, likely Aegean/Philistine-descended mercenaries — and Ittai's freshly arrived 600 Gittites are exactly the kind of hired loyalty a usurper's rhetoric can't easily buy: their allegiance runs to the man who pays and commands them, not to native tribal politics, which is precisely what makes Ittai's unconditional oath (vv. 19-22) land as more than duty." },
+    { title:"Mourning dress on the move", icon:"👣",
+      text:"Bare feet, a covered head, and open weeping were standard ancient Israelite mourning signals (cf. Isa 20:2-4; Ezek 24:17) — David and his whole column perform them while still walking, turning the retreat itself into a funeral procession for the kingdom's unity, before a single battle has been fought." }
+  ],
+  crossRefs: [
+    { group:"The sword Nathan promised", refs:[
+      { r:"2 Samuel 12:10-11", note:"Nathan's word to David after Bathsheba and Uriah: 'the sword shall never depart from your house... I will raise up evil against you out of your own house'" } ]},
+    { group:"How the household got here", refs:[
+      { r:"2 Samuel 13:1-22", note:"Amnon's rape of Tamar and Absalom's silent rage" },
+      { r:"2 Samuel 13:23-39", note:"Absalom murders Amnon and flees to Geshur for three years" },
+      { r:"2 Samuel 14:1-33", note:"the wise woman of Tekoa's parable secures Absalom's recall — but David withholds his face for two more years" } ]},
+    { group:"Ahithophel's grievance, and his end", refs:[
+      { r:"2 Samuel 11:3", note:"Eliam, Bathsheba's father — possibly Ahithophel's own son" },
+      { r:"2 Samuel 23:34", note:"'Eliam the son of Ahithophel the Gilonite' among David's mighty men" },
+      { r:"2 Samuel 17:23", note:"Ahithophel hangs himself once Absalom follows Hushai's counsel instead of his own" } ]},
+    { group:"David's own words in flight", refs:[
+      { r:"Psalm 3 (title)", note:"'A Psalm of David, when he fled from Absalom his son' — composed, by its own heading, from exactly this crisis" } ]},
+    { group:"The same ridge, a greater son", refs:[
+      { r:"John 18:1", note:"Jesus crosses the brook Kidron on the way to Gethsemane on the Mount of Olives — the same geography, centuries later, at the start of a very different kind of surrender" },
+      { r:"Zechariah 14:4", note:"a later prophetic vision of the LORD's own feet standing on this same Mount of Olives" } ]},
+    { group:"What follows", refs:[
+      { r:"2 Samuel 16:15-23", note:"Absalom enters Jerusalem, takes Ahithophel's counsel seriously, and takes the concubines David left behind" },
+      { r:"2 Samuel 17:1-23", note:"Hushai's counter-counsel wins out over Ahithophel's, buying David the time to cross the Jordan" },
+      { r:"2 Samuel 18:1-33", note:"the battle in the forest of Ephraim and Absalom's death" } ]}
+  ]
+},
+
+/* ============================================================
+   2 SAMUEL 18 — the forest of Ephraim; the death of Absalom
+   ============================================================ */
+"10:18": {
+  era: {
+    title: "ca. 979 BC — the forest of Ephraim; the death of Absalom",
+    sub: "Iron Age IIA · a wooded battlefield east of the Jordan · Absalom's rebellion crushed",
+    badges: ["Iron Age IIA", "United monarchy", "Absalom's rebellion crushed", "≈3,005 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Talked out of leading the army himself — his men insist he is worth ten thousand of them and safer helping from the city — David takes up a watch at the gate of Mahanaim while Joab, Abishai, and Ittai march the army out in three divisions, carrying one explicit royal order that the whole camp hears: deal gently, for David's sake, with the young man Absalom. The two forces meet in the forest of Ephraim, and Israel's rebel army breaks; the broken, wooded terrain claims more men that day than the actual fighting does. Absalom himself, fleeing on his mule, rides under the thick branches of a great oak and is left hanging by his head — his famously heavy hair snagging where a low branch and a bolting animal meet — suspended between heaven and earth while his mount runs on without him. A soldier who finds him refuses to strike a hand against the king's son, citing David's order in front of everyone; Joab has no such scruple, and personally drives three javelins into Absalom while he still hangs there, finished off by ten of Joab's own armor-bearers. The trumpet sounds recall, and Absalom's body goes into an unmarked forest pit under a heap of stones — pointedly contrasted, in the same breath, with the memorial pillar he had built for himself years earlier for want of a son to carry his name. Joab refuses to let Ahimaaz carry the news, sending an unnamed Cushite instead, but Ahimaaz runs anyway by a different road and arrives first, unable to answer David's one real question. When the Cushite finally says it plainly, David's grief eclipses the victory entirely: 'O my son Absalom, my son, my son!'",
+  focusPlace: "ephraim-forest",
+  places: [
+    { id:"mahanaim", role:"David's base; he stays at the gate while his army marches out in three divisions, and where the runners bring him the news (vv. 2-4, 24-33)" },
+    { id:"ephraim-forest", role:"The battlefield; Israel's rebel army breaks here, and the forest itself claims more lives than the fighting (vv. 6-9)" }
+  ],
+  journey: [
+    { from:"mahanaim", to:"ephraim-forest", label:"Three divisions march out under Joab, Abishai, and Ittai", km:9,
+      note:"David, talked out of leading the army himself, stands at the gate as his forces — divided in thirds under Joab, Abishai, and Ittai the Gittite — march out with one explicit royal order ringing in everyone's ears: 'deal gently for my sake with the young man Absalom' (vv. 2-5)." },
+    { from:"ephraim-forest", to:"mahanaim", label:"Two runners race the same road back with the news", km:9,
+      note:"After Joab halts the pursuit, Ahimaaz and then the Cushite carry word of the victory back to Mahanaim along the same corridor — Ahimaaz taking a different, faster route and arriving first, though neither man can quite bring himself to be the one who plainly says Absalom is dead (vv. 19-32)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"David stays behind at the gate of Mahanaim", av:"king",
+      desc:"Talked out of leading the army in person by his own men — 'you are worth ten thousand of us; it is better that you send us help from the city' — David yields and takes up a watching post at the gate instead, sending his commanders out with the troops (vv. 2-4)." },
+    { x:0.18, type:"person", label:"'Deal gently... with the young man Absalom'", av:"king",
+      desc:"In front of the whole army, David gives Joab, Abishai, and Ittai a single explicit order regarding his rebel son — mercy, not victory, is what he asks for, and 'all the people heard when the king gave orders' to his commanders (v. 5)." },
+    { x:0.34, type:"object", label:"The forest that devoured more than the sword",
+      desc:"Israel's rebel army breaks before David's veterans, and the fighting spills into wooded, broken terrain where 'the forest devoured more people that day than the sword' (vv. 6-8) — twenty thousand men lost, most of them not to a blade at all." },
+    { x:0.48, type:"person", label:"Absalom caught by his hair in the great oak", av:"warrior",
+      desc:"Riding his mule into the thick branches of a great oak, Absalom's head is caught fast in the tree; the mule keeps going out from under him, and he is left hanging, 'suspended between heaven and earth' (v. 9) — his famous hair (2 Sam 14:26) becoming, in the story's own irony, the instrument of his capture." },
+    { x:0.6, type:"person", label:"Joab's three javelins", av:"warrior",
+      desc:"Told of Absalom hanging alive in the tree, Joab refuses to let the moment pass — he brushes off the soldier's own reasoning (the king's order, heard by everyone) and personally drives three javelins into Absalom's heart while he still hangs there, and ten of Joab's armor-bearers finish the job (vv. 10-15)." },
+    { x:0.74, type:"person", label:"The Cushite and Ahimaaz's race to Mahanaim", av:"traveler",
+      desc:"Joab sends an unnamed Cushite courier with the plain report; Ahimaaz begs to run too, though Joab warns him he 'will have no reward for the news' — Ahimaaz takes a different, faster road and outruns the Cushite, arriving first but unable to answer David's real question when he gets there (vv. 19-30)." },
+    { x:0.9, type:"person", label:"'O Absalom, my son, my son!'", av:"king",
+      desc:"When the Cushite finally states it plainly, David does not celebrate the victory at all: he goes up to the chamber over the gate weeping, crying out one of Scripture's rawest laments — 'O my son Absalom, my son, my son Absalom! Would I had died instead of you' (vv. 31-33)." }
+  ],
+  environment: {
+    chips: ["Three divisions marching out from a gate", "A king held back by his own men", "A forest more lethal than the fighting", "A mule bolting under low branches", "Two runners on the same homeward road", "Grief that outweighs a won war"],
+    text: "The chapter deliberately keeps David off the battlefield, watching from Mahanaim's gate much as he once watched Bathsheba's rooftop from his own — this time by his advisors' design rather than his own choice, so the king who cannot be trusted to fight is at least trusted to wait. The forest itself becomes almost a character: broken, wooded ground east of the Jordan swallowing fleeing men in ravines and thickets faster than the pursuing army could kill them (v. 8), the kind of terrain where a mule carrying a rider too rushed to duck could sweep him straight under a low, spreading oak. The two-runner relay back to Mahanaim — one man taking a longer but faster route to outrun a more direct one — plays out along the same corridor the army had marched out on hours before, collapsing victory and grief onto a single stretch of road."
+  },
+  objectsExtra: ["mule","absalom-pillar","trumpet","spear"],
+  peopleExtra: ["david","joab","absalom","ittai","ahimaaz","cushite-messenger"],
+  culture: [
+    { title:"Why 'the forest of Ephraim' east of the Jordan?", icon:"🌳",
+      text:"The battle's name is a genuine puzzle: Ephraim's own tribal territory lay west of the Jordan, yet the fighting described here happens in Transjordan near Mahanaim. Proposed answers include a colony of Ephraimites settled east of the river, a memorial name tied to the earlier Ephraimite disaster at the Jordan fords (Judg 12:1-6), or simply a wooded district that carried the name for reasons no longer recoverable. The text itself does not explain it, so this remains an open geographical question rather than a settled one." },
+    { title:"A mule, not a warhorse", icon:"🐴",
+      text:"Israelite princes and kings customarily rode mules rather than horses (David has Solomon paraded on his own mule at the coronation, 1 Kgs 1:33) — a detail that matters enormously here: a mule moving at speed under low branches, with a rider who (per 2 Sam 14:26) had famously heavy, long hair, produced exactly the freak entanglement the narrative describes." },
+    { title:"Joab's calculation", icon:"⚔️",
+      text:"The soldier who finds Absalom hanging refuses to strike him, citing David's order 'in our hearing' and pointing out that Joab himself would disown him if he did (vv. 12-13) — a telling detail, since it means Joab acts knowing exactly what he is defying. Joab's three javelins are not panic or accident; they read as a general's cold judgment that a live, rescued, re-captured Absalom would cost Israel a second civil war David's mercy could not afford." },
+    { title:"A monument for a man with no grave of honor", icon:"🪦",
+      text:"Verse 18's aside — that Absalom had already built himself a memorial pillar because he had no son to keep his name alive — lands with heavy irony right after his body is dumped in a forest pit under a stone heap (v. 17): the vain monument survives; the man does not, and the son he lacked is exactly what a functioning family and throne would have given him." },
+    { title:"Two messengers, one bad job", icon:"🏃",
+      text:"Ahimaaz's determination to run even after Joab twice discourages him, and his evasive answer once he arrives ('I saw a great commotion, but I do not know what it was,' v. 29), read most naturally as a man wanting credit for good news but unwilling to be the one who delivers bad news to a father about his son — leaving the plain report to the Cushite, who has less standing with David to lose." }
+  ],
+  crossRefs: [
+    { group:"Absalom's introduction", refs:[
+      { r:"2 Samuel 14:25-27", note:"Absalom's famous good looks and his heavy hair, weighed once a year — the very hair that catches in the oak here" } ]},
+    { group:"The order given, and defied", refs:[
+      { r:"2 Samuel 18:5", note:"David's explicit command to deal gently with Absalom, heard by the whole army" },
+      { r:"2 Samuel 3:22-27", note:"Joab's earlier killing of Abner under a truce — the same general, the same willingness to act against the king's stated wishes" } ]},
+    { group:"The counsel that made this battle happen", refs:[
+      { r:"2 Samuel 17:1-14", note:"Hushai's counter-counsel to Ahithophel, which shapes the timing and manner of this very battle" } ]},
+    { group:"David's grief, and what follows", refs:[
+      { r:"2 Samuel 19:1-8", note:"Joab rebukes David for grieving so publicly that it demoralizes the very army that just saved him" },
+      { r:"2 Samuel 18:33-19:4", note:"'O my son Absalom' repeated, and David's withdrawal into mourning" } ]},
+    { group:"Nathan's word, fulfilled again", refs:[
+      { r:"2 Samuel 12:10-11", note:"'the sword shall never depart from your house' — a third son now lost to violence within David's own family" } ]}
+  ]
 }
 };
