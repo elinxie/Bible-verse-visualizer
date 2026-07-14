@@ -1818,5 +1818,82 @@ BVV.CURATED = {
     { group:"Nathan's word, fulfilled again", refs:[
       { r:"2 Samuel 12:10-11", note:"'the sword shall never depart from your house' — a third son now lost to violence within David's own family" } ]}
   ]
+},
+
+/* ============================================================
+   2 SAMUEL 24 — the census, the plague, and Araunah's threshing floor
+   ============================================================ */
+"10:24": {
+  era: {
+    title: "ca. 970 BC — David's census, the plague, and Araunah's threshing floor",
+    sub: "Iron Age IIA · Jerusalem, and the length of the land from Dan to Beersheba · the book's closing appendix names the future Temple site",
+    badges: ["Iron Age IIA", "United monarchy", "Census and plague", "≈2,996 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "With the LORD's anger against Israel kindled for reasons the text never states, David orders Joab to number the fighting men of Israel and Judah; Joab objects — 'why does my lord the king delight in this thing?' — but complies anyway, and his officers spend nine months and twenty days combing the land from Dan in the far north to Beersheba in the south before reporting back eight hundred thousand swordsmen in Israel and five hundred thousand in Judah. The moment the count is in David's hands, his own conscience convicts him: 'I have sinned greatly in what I have done... I have done very foolishly.' The next morning the seer Gad — David's own prophet since his fugitive days — arrives with a judgment framed as a choice: seven years of famine, three months fleeing before pursuing enemies, or three days of plague. David will not choose between armies and famine at all; he throws the decision at God directly — 'let us fall into the hand of the LORD, for his mercies are great, but let me not fall into the hand of man' — and the plague comes, killing seventy thousand from Dan to Beersheba in a single stroke. As the angel of the LORD reaches out toward Jerusalem itself, the LORD relents, 'it is enough; now stay your hand,' and the destruction stops at the threshing floor of Araunah the Jebusite, on the hill north of the city. David, seeing the angel there, pleads that the guilt is his alone — 'I have sinned... but these sheep, what have they done?' — and Gad instructs him to build an altar on that very spot. Araunah, recognizing the king, offers the threshing floor, the oxen, and the wooden threshing sledges for the fire and sacrifice at no cost at all; David refuses outright — 'I will not offer burnt offerings to the LORD my God that cost me nothing' — and buys the site and the oxen for fifty shekels of silver. He builds the altar, offers burnt offerings and peace offerings, the LORD answers his prayer for the land, and the plague is stopped — on the exact hilltop that will become, in Solomon's generation, the floor of the Temple itself.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"Where the plague's advance is finally stayed, at Araunah's threshing floor on the hill north of the city — the site David buys and turns into an altar, and which later tradition (2 Chron 3:1) identifies with Mount Moriah, the future Temple platform (vv. 16-25)" },
+    { id:"dan", role:"The census takers' northernmost point, marking one end of 'the length of the land' Joab's officers cover on foot (v. 6)" },
+    { id:"beersheba", role:"The southern terminus of the same nine-month circuit, closing the phrase 'from Dan to Beersheba' that frames the whole count (v. 7)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"dan", label:"Joab's officers begin the census in the north", km:165,
+      note:"David's order sends Joab and the army commanders out from Jerusalem to canvass every tribe; the text lingers over the route — Aroer, the cities of Gilead, Kadesh in Hittite country, Dan-jaan, and around toward Sidon and Tyre — before the tally even reaches its southern leg (vv. 4-7)." },
+    { from:"dan", to:"beersheba", label:"Nine months and twenty days — 'the length of the land'", km:235,
+      note:"The full circuit, tribe by tribe, takes the better part of a year on foot before the officers turn back toward the capital with a final count of 800,000 swordsmen in Israel and 500,000 in Judah (vv. 8-9)." },
+    { from:"beersheba", to:"jerusalem", label:"The tally is brought back to the king", km:70,
+      note:"The moment the number is actually in his hands, not while it was merely being gathered, is when David's own heart strikes him — the sin, on this reading, lies less in counting itself than in what completing the count reveals about why he wanted it (v. 10)." }
+  ],
+  hotspots: [
+    { x:0.03, type:"person", label:"David orders the census; Joab objects", av:"king",
+      desc:"'Go, number Israel and Judah,' David tells Joab — who pushes back hard, asking why the king would 'delight in this thing,' but carries out the order anyway with the other army commanders (vv. 1-4)." },
+    { x:0.18, type:"object", label:"Nine months, twenty days — Dan to Beersheba",
+      desc:"The census takers cover the whole land, naming a route through Gilead, Hittite Kadesh, Dan-jaan, and toward Sidon and Tyre before turning south, and return with a count of 800,000 swordsmen in Israel and 500,000 in Judah (vv. 5-9)." },
+    { x:0.32, type:"person", label:"'I have sinned greatly in what I have done'", av:"king",
+      desc:"The instant the finished tally is in his hands, David's own heart convicts him, unprompted by any prophet yet: 'I have sinned greatly... I have done very foolishly' (v. 10)." },
+    { x:0.46, type:"person", label:"Gad's three-option judgment", av:"prophet",
+      desc:"David's seer since his fugitive years (1 Sam 22:5) arrives the next morning with the LORD's terms: seven years of famine, three months fleeing before pursuing enemies, or three days of plague across the land — David is told to choose (vv. 11-13)." },
+    { x:0.58, type:"person", label:"'Let us fall into the hand of the LORD'", av:"king",
+      desc:"Refusing to choose between armies and starvation, David throws the decision back to God directly: 'let us fall into the hand of the LORD, for his mercies are great, but let me not fall into the hand of man' (v. 14)." },
+    { x:0.7, type:"object", label:"The plague, and the angel stayed at Araunah's floor",
+      desc:"Seventy thousand die from Dan to Beersheba before the angel of the LORD, reaching toward Jerusalem itself, is stopped — 'it is enough; now stay your hand' — at the threshing floor of Araunah the Jebusite on the hill above the city (vv. 15-17)." },
+    { x:0.84, type:"person", label:"Araunah offers it free; David insists on paying", av:"elder",
+      desc:"Araunah offers the threshing floor, his oxen for the burnt offering, and the wooden threshing sledges for fuel at no cost at all; David refuses — 'I will not offer burnt offerings to the LORD my God that cost me nothing' — and pays fifty shekels of silver for the floor and the oxen (vv. 18-24)." },
+    { x:0.95, type:"object", label:"The altar built, the plague stopped",
+      desc:"David builds an altar on the site, offers burnt offerings and peace offerings, and the LORD answers his prayer for the land — the plague ends on the exact spot that later becomes the Temple's own hilltop (v. 25)." }
+  ],
+  environment: {
+    chips: ["A census nobody explains the cause of", "Nine months on foot, Dan to Beersheba", "Conviction before any prophet speaks", "A choice with no good option", "An angel's hand stayed mid-stroke", "Full price for holy ground"],
+    text: "The chapter closes 2 Samuel by tracing one straight line from a private royal decision to a public national altar: David's order sends census-takers the entire length of settled Israelite territory, 'from Dan to Beersheba,' a stock phrase for the whole land's span from its northernmost sanctuary town to its southern desert edge — and the resulting numbers, gathered over the better part of a year, are what trigger David's own sudden remorse before any word from Gad reaches him. The plague that follows sweeps the same length of land the census had just measured, only to be arrested at a single, specific hilltop just outside Jerusalem's walls: a working Jebusite threshing floor, chosen for grain-processing because hilltops catch the evening wind needed to winnow chaff from wheat. David's insistence on paying full market price for that floor and its oxen, rather than accepting Araunah's offer of a free gift, turns an emergency sacrifice into a permanent, legally undisputed land purchase — the same site 2 Chronicles 3:1 will identify by name with Mount Moriah, tying Solomon's future Temple to both Abraham's binding of Isaac (Gen 22:2) and this plague's abrupt, mid-stroke end."
+  },
+  objectsExtra: ["altar","threshing","yoke"],
+  peopleExtra: ["david","joab","gad","araunah"],
+  culture: [
+    { title:"Why was numbering the people a sin?", icon:"🔢",
+      text:"The text never states the census's exact offense, and the ambiguity is compounded by its own opening line: 'the anger of the LORD was kindled against Israel, and he incited David against them, saying, Go, number Israel' (v. 1) — where 1 Chronicles 21:1, retelling the same event, has 'Satan stood up against Israel and incited David.' Read together, the two accounts model a real biblical pattern of double causation (cf. Job 1-2), while the sin itself is usually located in the census's implied purpose: a king counting his own military manpower as a private asset, rather than trusting the LORD who had always fought Israel's battles for them." },
+    { title:"Fifty shekels, or six hundred?", icon:"💰",
+      text:"2 Samuel 24:24 has David paying fifty shekels of silver for 'the threshing floor and the oxen'; 1 Chronicles 21:25 has him paying six hundred shekels of gold 'for the site' alone. The most common harmonization is that Samuel records only the price of the immediate altar plot and animals needed that day, while Chronicles records a larger, later purchase of the whole hilltop precinct that would eventually hold Solomon's Temple and courts — two real transactions, on two different scales, rather than a contradiction." },
+    { title:"A threshing floor becomes the Temple Mount", icon:"🏛️",
+      text:"2 Chronicles 3:1 states plainly that Solomon built the Temple 'on Mount Moriah... at the threshing floor of Ornan the Jebusite' (Araunah's name in Chronicles) — meaning the very ground where the plague stopped is, in the biblical narrative's own reckoning, the same hill where Abraham had once bound Isaac (Gen 22:2) and where the Temple's Holy of Holies would eventually stand." },
+    { title:"Gad, the seer who bookends David's life", icon:"👁️",
+      text:"Gad's first appearance comes decades earlier and could not be more different in tone: as an unnamed fugitive's prophet, he simply tells David to leave the stronghold and go into Judah (1 Sam 22:5). Here, as an old man himself, he delivers the hardest message of David's reign — a three-way judgment with no comfortable option — showing the same seer serving the same king across the full arc from outlaw to aging monarch." },
+    { title:"A mercy that has a stopping point", icon:"⚖️",
+      text:"'It is enough; now stay your hand' (v. 16) is one of the Old Testament's clearest pictures of judgment interrupted mid-motion rather than completed or withheld from the start — the plague is real and its cost (seventy thousand dead) is not minimized, but the narrative insists the LORD's anger has a limit David's own choice ('for his mercies are great,' v. 14) had gambled on correctly." }
+  ],
+  crossRefs: [
+    { group:"Gad across David's whole life", refs:[
+      { r:"1 Samuel 22:5", note:"Gad's first appearance — telling the fugitive David to leave the stronghold and go into the land of Judah" } ]},
+    { group:"The parallel account", refs:[
+      { r:"1 Chronicles 21:1-30", note:"Chronicles' retelling — 'Satan stood up against Israel,' an angel with a drawn sword over Jerusalem, and six hundred shekels of gold for the site" } ]},
+    { group:"The threshing floor becomes the Temple", refs:[
+      { r:"2 Chronicles 3:1", note:"identifies the site by name with Mount Moriah, where Solomon builds the Temple" },
+      { r:"Genesis 22:2", note:"Abraham's binding of Isaac, traditionally located on the same Moriah hill" },
+      { r:"1 Kings 6:1", note:"Solomon begins building the Temple, a generation after David buys the ground it stands on" } ]},
+    { group:"Census law and precedent", refs:[
+      { r:"Exodus 30:11-16", note:"the earlier law requiring an atonement 'ransom' payment whenever Israel's men were numbered, 'that there be no plague among them when you number them'" } ]},
+    { group:"The end of the book David's story is told in", refs:[
+      { r:"2 Samuel 7:12-16", note:"Nathan's earlier promise of an everlasting house for David — the dynasty this final chapter's altar site will one day house" } ]}
+  ]
 }
 };
