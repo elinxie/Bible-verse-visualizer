@@ -1895,5 +1895,240 @@ BVV.CURATED = {
     { group:"The end of the book David's story is told in", refs:[
       { r:"2 Samuel 7:12-16", note:"Nathan's earlier promise of an everlasting house for David — the dynasty this final chapter's altar site will one day house" } ]}
   ]
+},
+
+/* ============================================================
+   GENESIS 1 — Six days, and a world that is "very good"
+   ============================================================ */
+"1:1": {
+  era: {
+    title: "Traditional dating (Ussher): 4004 BC — the six days of creation",
+    sub: "Primeval history · no single site to plot — the whole cosmos is the setting · one of several traditional reckonings of 'the beginning'",
+    badges: ["Primeval history", "Before any nation existed", "Six days, one pattern", "≈6,030 years ago (traditional reckoning)"]
+  },
+  timeOfDay: "day",
+  summary: "'In the beginning God created the heavens and the earth' — and what he starts with is formless, empty, and dark, a deep covered in water with God's own Spirit hovering over its surface (vv. 1-2). From there the chapter unfolds in a deliberate, repeating rhythm: God speaks, and it is so; God names or blesses what he has made; God sees that it is good; evening and morning mark off one more day. Day one separates light from darkness. Day two lifts an expanse between the waters below and the waters above, calling it Sky. Day three gathers the waters below into Seas and lets dry Land appear, then covers that land with vegetation, every plant and tree yielding seed and fruit 'according to its kind.' Day four sets lights in the expanse — not named as gods but simply 'the greater light' and 'the lesser light,' with the stars added almost as an afterthought — to mark seasons, days, and years. Day five fills the waters with swarming life and 'great sea creatures' and fills the sky with every winged bird, each blessed to be fruitful and multiply. Day six brings livestock, creeping things, and beasts of the earth — and then, in the chapter's own turning point, God says 'Let us make man in our image, after our likeness,' and creates humankind, male and female, blessing them, telling them to multiply and fill the earth, and giving them dominion over every living thing and every green plant for food. The refrain that has repeated 'God saw that it was good' six times now expands: 'God saw everything that he had made, and behold, it was very good.' The sixth day ends, and with it, the work — the seventh day's rest belongs to the very next chapter (Gen 2:1-3).",
+  focusPlace: "eden",
+  places: [
+    { id:"eden", role:"Not yet named in this chapter, but the specific garden the text is already building toward — the plot of ground where the newly-made humankind of v. 26-27 will be placed as its keepers (Gen 2:8, 15)" },
+    { id:"babylon", role:"Plotted here not as a location in this chapter's own narrative, but as the center of the rival Mesopotamian creation epic (the Enuma Elish) that Genesis 1's ordered, unopposed account appears to answer point by point" }
+  ],
+  journey: [
+    { from:"eden", to:"babylon", dashed:true,
+      label:"Not a route walked, but a line drawn between two creation stories", km:368,
+      note:"Genesis 1 has no in-text journey of its own — this line instead plots the conceptual distance between Eden, the garden this account is quietly building toward, and Babylon, home of the Mesopotamian epic that Genesis 1 seems to be answering: no divine combat, no goddess's slain corpse split into sky and sea, no sun or moon worshiped by name, only 'lights' set in place by a single unopposed word." }
+  ],
+  hotspots: [
+    { x:0.04, type:"object", label:"Formless, empty, dark — and the Spirit hovering",
+      desc:"'The earth was without form and void, and darkness was over the face of the deep. And the Spirit of God was hovering over the face of the waters' (vv. 1-2) — creation begins from raw, unshaped material, not nothing and not order." },
+    { x:0.16, type:"object", label:"Day 1 — 'Let there be light'",
+      desc:"God speaks light into being, separates it from darkness, and names them Day and Night; 'and there was evening and there was morning, the first day' (vv. 3-5), the refrain that will structure the whole chapter." },
+    { x:0.28, type:"object", label:"Day 2 — the expanse called Sky",
+      desc:"An expanse divides the waters below from the waters above; God calls the expanse Heaven — the second day, with no 'it was good' yet attached to it, an absence commentators have long noticed (vv. 6-8)." },
+    { x:0.40, type:"object", label:"Day 3 — dry land, seas, and every seed-bearing plant",
+      desc:"The waters gather into Seas, dry Land appears, and the land brings forth vegetation, 'each according to its kind' — a phrase repeated ten times in the chapter — twice pronounced good (vv. 9-13)." },
+    { x:0.52, type:"object", label:"Day 4 — lights for signs, seasons, days, and years",
+      desc:"The 'greater light' and 'lesser light' are never called sun and moon by name, and the stars are almost an aside — a quiet demotion of bodies other ancient peoples worshiped as gods in their own right (vv. 14-19)." },
+    { x:0.64, type:"object", label:"Day 5 — sea creatures, swarming life, and every bird",
+      desc:"God creates 'the great sea creatures' (tanninim) — the same word elsewhere applied to sea monsters and Leviathan — as ordinary creatures he simply made, not primeval rivals he had to defeat; every living thing is blessed to 'be fruitful and multiply' (vv. 20-23)." },
+    { x:0.76, type:"object", label:"Day 6a — livestock, creeping things, beasts of the earth",
+      desc:"The land fills out with every kind of animal, 'and God saw that it was good' — the sixth day's first half, before the chapter's turn to its real climax (vv. 24-25)." },
+    { x:0.92, type:"person", label:"'Let us make man in our image' — Day 6b", av:"elder",
+      desc:"Humankind is made 'in the image of God... male and female he created them,' blessed, given dominion over every living thing, and handed every plant and tree for food; 'God saw everything that he had made, and behold, it was very good' (vv. 26-31)." }
+  ],
+  environment: {
+    chips: ["No map, no nation, no history yet", "A six-fold rhythm: speak, separate, name, bless, see, evening-morning", "Sun and moon left unnamed", "'Great sea creatures' demythologized", "Humankind alone made 'in the image'", "'Very good' replaces six 'goods'"],
+    text: "Genesis 1 sets no scene a map can hold — there is no city, no travel, no named nation, because the chapter's subject is the world those things will later occupy. Its structure is the real geography: three days of forming empty spaces (light/dark, sky/sea, land/plants) answered by three days of filling them (sun/moon/stars, sea/sky creatures, land creatures and humankind), so that day four fills day one's spaces, day five fills day two's, and day six fills day three's. Ancient Near Eastern readers would have recognized — and felt the force of — everything the chapter declines to do: it does not depict creation as the leftover byproduct of a war between gods, does not need humankind as slave labor for exhausted deities (as in Mesopotamian myth), and does not dignify the sun, moon, or sea monsters with names or divine status. It ends instead with a single species given a status no other ancient cosmology extended so broadly: every man and woman alike, address as bearing the very image of God."
+  },
+  objectsExtra: [],
+  peopleExtra: ["adam", "eve"],
+  culture: [
+    { title:"One creation account, or two?", icon:"📖",
+      text:"Genesis 1:1-2:3 and Genesis 2:4-25 tell of the same creation from two different vantages: chapter 1 is cosmic and ordered, using the transcendent name Elohim ('God') and moving from the largest scale down to humankind as its climax; chapter 2 is intimate and human-centered, using the personal name combination YHWH Elohim ('the LORD God') and narrating the same events from ground level, with the man formed before the plants and animals of that account. Source-critical scholarship has long read this as two originally separate traditions stitched together; many readers instead take it as one deliberate literary strategy — establish the cosmic order first, then zoom the camera in on the humans who are the reason the rest of the chapter exists — a 'panorama, then close-up' structure with real ancient Near Eastern precedent." },
+    { title:"How should 'the six days' be read?", icon:"🕰️",
+      text:"Serious readers who share the same high view of Scripture's authority still disagree here: a straightforward 24-hour-day reading (paired with young-earth chronology like Ussher's), a day-age view treating each 'day' as a long era, a 'framework' or literary reading of the two triads of days as a topical arrangement rather than a strict sequence, and an 'analogical days' view where God's work-week is patterned for humans rather than measured in human hours. The chapter itself does not settle the debate; it is presented here as a live, respectfully held disagreement, not a solved question." },
+    { title:"A quiet argument against rival gods", icon:"⚔️",
+      text:"Read against its Mesopotamian and Egyptian background, Genesis 1 reads as a deliberate polemic: no divine combat produces the world (contrast the Babylonian Enuma Elish, where Marduk splits the slain goddess Tiamat's corpse into sky and sea); the sun and moon, worshiped elsewhere as Shamash and Sin, are simply 'the greater light' and 'the lesser light'; and the 'great sea creatures' of v. 21 — elsewhere in Scripture and in surrounding mythology, chaos monsters to be subdued — are just one more thing God 'created,' with no fight required." },
+    { title:"'Let us make man' — who is 'us'?", icon:"❓",
+      text:"The plural in v. 26 ('Let us make man in our image, after our likeness') has drawn several readings: a 'plural of majesty' common to royal speech, God addressing a heavenly council of angels (as in 1 Kings 22:19-22 or Job 1:6), or — the reading Christian tradition has generally favored in hindsight — an early, undeveloped hint of a plurality within God himself, later unfolded as Trinitarian doctrine. The text does not explain itself; each option has serious defenders." },
+    { title:"The image of God, given to everyone", icon:"👥",
+      text:"In the surrounding ancient world, being the 'image' of a god was typically a king's exclusive claim — a statue of the deity's chosen representative, set up to assert the king's right to rule in the god's place. Genesis 1:27 extends the same status to all humankind, explicitly 'male and female,' with no royal qualifier attached — a democratizing claim about human dignity that later grounds the Bible's strongest prohibitions against harming other people (Gen 9:6; James 3:9)." }
+  ],
+  crossRefs: [
+    { group:"The seventh day, still one chapter ahead", refs:[
+      { r:"Genesis 2:1-3", note:"the rest this chapter's sixth day is building toward — God 'blessed the seventh day and made it holy'" },
+      { r:"Exodus 20:8-11", note:"the Sabbath command grounds itself explicitly in this creation week" },
+      { r:"Hebrews 4:3-11", note:"God's creation-rest reinterpreted as a future rest still open to God's people" } ]},
+    { group:"Made in God's image, applied", refs:[
+      { r:"Genesis 9:6", note:"murder is forbidden precisely because man is made in God's image" },
+      { r:"Psalm 8:3-8", note:"humankind 'crowned with glory,' given dominion — a direct echo of Gen 1:26-28" },
+      { r:"James 3:9", note:"cursing another person means cursing 'those who are made in the likeness of God'" } ]},
+    { group:"The New Testament's own commentary on creation", refs:[
+      { r:"John 1:1-3", note:"'In the beginning' reused deliberately, with the Word present at and active in creation" },
+      { r:"2 Corinthians 4:6", note:"'God, who said, Let light shine out of darkness,' reapplied to the light of the gospel" },
+      { r:"Colossians 1:16", note:"'all things were created through him and for him' — creation attributed to Christ" },
+      { r:"Revelation 21:1-22:5", note:"the new creation answers this chapter, undoing the fall still two chapters away" } ]}
+  ]
+},
+
+/* ============================================================
+   GENESIS 2 — The garden, its rivers, and the first marriage
+   ============================================================ */
+"1:2": {
+  era: {
+    title: "Primeval history — the garden planted 'eastward, in Eden'",
+    sub: "The second creation account, told from ground level · the four rivers of Eden · the forming of the man, and then the woman",
+    badges: ["Primeval history", "Before any city or nation", "A garden, not yet a fallen world", "Humanity's first home"]
+  },
+  timeOfDay: "day",
+  summary: "The chapter opens by finishing what Genesis 1 started: 'the heavens and the earth were finished, and all the host of them,' and on the seventh day God rests, blessing that day and setting it apart — the first thing in Scripture ever called holy (vv. 1-3). The narrative then re-tells creation from ground level: before any plant of the field had sprung up, because the LORD God had not yet sent rain and there was no man to work the ground, a mist watered the whole surface (vv. 4-6). The LORD God forms the man ('adam') from the dust of the ground ('adamah') and breathes into his nostrils the breath of life, and the man becomes a living being (v. 7). He plants a garden eastward in Eden and puts the man there, making every tree grow that is pleasant to see and good to eat, with the tree of life and the tree of the knowledge of good and evil standing in its midst (vv. 8-9). A river flows out of Eden to water the garden and divides into four heads — the Pishon, winding through Havilah's gold; the Gihon, encircling Cush; the Hiddekel (Tigris), flowing east of Assyria; and the Euphrates, named without further comment (vv. 10-14). The man is placed in the garden 'to work it and keep it,' and given a single restriction: he may eat freely from every tree but the tree of the knowledge of good and evil, 'for in the day that you eat of it you shall surely die' (vv. 15-17). Then, for the first time, God declares something 'not good' — 'It is not good that the man should be alone; I will make him a helper fit for him' — and brings every animal and bird to the man to be named, but among them no helper fit for him is found (vv. 18-20). The LORD God causes a deep sleep to fall on the man, takes one of his ribs, and builds it into a woman, bringing her to him; the man's response is the Bible's first poem — 'This at last is bone of my bones and flesh of my flesh; she shall be called Woman, because she was taken out of Man' (vv. 21-23). The chapter closes with the narrator's own aside establishing marriage itself: 'Therefore a man shall leave his father and his mother and hold fast to his wife, and they shall become one flesh.' The man and his wife were both naked, and were not ashamed (vv. 24-25).",
+  focusPlace: "eden",
+  places: [
+    { id:"eden", role:"The garden the LORD God plants 'eastward, in Eden,' where the man is placed, the woman is formed, and the whole chapter's action takes place (vv. 8-25)" },
+    { id:"babylon", role:"Downstream on the same Euphrates named as the fourth river out of Eden (v. 14) — the city that will one day rise on its banks" },
+    { id:"nineveh", role:"Standing on the Tigris (the Hiddekel of v. 14), which the text says flows 'east of Assyria' — Nineveh being Assyria's own great city" }
+  ],
+  journey: [
+    { from:"eden", to:"babylon",
+      label:"The Euphrates, named without comment", km:368,
+      note:"The fourth river out of Eden needs no explanation in the text — unlike the Pishon and Gihon, it was evidently well known to the original audience, the same river that will later run past the great city of Babylon (v. 14)." },
+    { from:"eden", to:"nineveh",
+      label:"The Hiddekel, east of Assyria", km:744,
+      note:"The third river, Hiddekel, is identified by the text itself as the Tigris, 'which flows east of Assyria' (v. 14) — the same river on which Assyria's capital Nineveh would later stand." }
+  ],
+  hotspots: [
+    { x:0.03, type:"object", label:"The seventh day: rest, blessed, made holy",
+      desc:"'On the seventh day God finished his work... and he rested... So God blessed the seventh day and made it holy' — the first time anything in Scripture is called holy (Gen 2:1-3)." },
+    { x:0.14, type:"object", label:"No rain, no man, only a mist",
+      desc:"Before any plant of the field existed, the text notes there was no rain and no man to work the ground — only a mist rising to water the whole face of the ground (vv. 4-6), setting up exactly what verse 7 and verse 15 will supply." },
+    { x:0.26, type:"person", label:"Formed from dust, given breath", av:"elder",
+      desc:"'The LORD God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature' (v. 7) — a wordplay in Hebrew between adam (man) and adamah (ground) that runs through the rest of Genesis." },
+    { x:0.38, type:"object", label:"A garden planted eastward, two trees in its midst",
+      desc:"The LORD God plants a garden in Eden and puts the man there, filling it with every tree pleasant to see and good for food, but placing the tree of life and the tree of the knowledge of good and evil at its center (vv. 8-9)." },
+    { x:0.48, type:"object", label:"One river, then four: Pishon, Gihon, Hiddekel, Euphrates",
+      desc:"A single river out of Eden divides into four heads — the gold-country Pishon, the Cush-encircling Gihon, the Hiddekel flowing east of Assyria, and the Euphrates, named last and without comment (vv. 10-14)." },
+    { x:0.60, type:"person", label:"To work it and keep it — and one tree forbidden", av:"elder",
+      desc:"The man is set in the garden 'to work it and keep it' and told he may eat freely of every tree but one: 'of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die' (vv. 15-17)." },
+    { x:0.71, type:"person", label:"'Not good for man to be alone' — naming the animals", av:"elder",
+      desc:"For the first time something is called 'not good'; God resolves to make 'a helper fit for him,' then brings every beast and bird to the man, who names each one — yet none is found to be his match (vv. 18-20)." },
+    { x:0.84, type:"person", label:"Deep sleep, a rib, and the first poem", av:"woman",
+      desc:"The LORD God causes a deep sleep to fall on the man, takes a rib, and builds a woman from it; waking, the man exclaims, 'This at last is bone of my bones and flesh of my flesh; she shall be called Woman, because she was taken out of Man' (vv. 21-23)." },
+    { x:0.95, type:"object", label:"One flesh — and no shame",
+      desc:"The narrator steps forward to state marriage as a pattern for every generation after: 'a man shall leave his father and his mother and hold fast to his wife, and they shall become one flesh.' Both were naked, and unashamed (vv. 24-25)." }
+  ],
+  environment: {
+    chips: ["A mist before the rain", "Adam (man) from adamah (ground)", "One river, four heads", "'Work it and keep it' — priestly language", "Naming as dominion", "One flesh: the first marriage"],
+    text: "This chapter's geography is deliberately specific in a way Genesis 1's is not: a named garden ('eastward, in Eden'), a named river system with two branches (Hiddekel/Tigris, Euphrates) still on any modern map and two more (Pishon, Gihon) long debated, and named lands (Havilah, Cush, Assyria) that orient the garden within the world its first readers actually knew. Eden itself sat, on the most common reconstruction, near the ancient confluence of the Tigris and Euphrates at the head of the Persian Gulf — a lush, well-watered plain against an otherwise arid backdrop, exactly the kind of place Mesopotamian literature elsewhere imagined as a garden of the gods. The commission to 'work it and keep it' (v. 15) uses the same Hebrew verb pair ('abad and shamar) later applied to the Levites' service and guard duty in the tabernacle (Num 3:7-8), suggesting Eden functions in the text as a sanctuary and the man as its priest-guardian well before there is a tabernacle to guard."
+  },
+  objectsExtra: ["tree-of-life", "tree-of-knowledge", "eden-rivers"],
+  peopleExtra: ["adam", "eve"],
+  culture: [
+    { title:"Two creation accounts, one story", icon:"📖",
+      text:"Genesis 2 does not contradict Genesis 1 so much as change lenses: chapter 1 narrates all six days from a cosmic vantage; chapter 2 slows down to retell day six from ground level, focused entirely on the man, the garden, and the woman. Read as complementary 'panorama, then close-up' rather than as two competing timelines, the apparent differences in order (plants and animals named after the man in ch. 2, unlike ch. 1) resolve as a difference of narrative focus, not sequence — chapter 2 is not claiming to re-run the six days in a different order, but zooming in on one part of day six." },
+    { title:"Adam and adamah — a wordplay with a future", icon:"🔤",
+      text:"The Hebrew pun between 'adam' (man) and 'adamah' (ground) frames humanity's identity around the earth from its first mention — formed from it, set to work it, and, after the fall, sentenced to return to it (Gen 3:19). The wordplay is not decorative; it is doing theology, tying human life and human mortality to the soil in the same verse that gives humanity its name." },
+    { title:"'Work it and keep it' — priestly language in the garden", icon:"🌿",
+      text:"The verb pair in v. 15 ('abad, 'to work/serve,' and shamar, 'to keep/guard') reappears together elsewhere in the Pentateuch specifically for the Levites' duties around the tabernacle (Num 3:7-8; 8:26) — not the generic vocabulary of farm labor. Many scholars take this as a deliberate signal that Eden functions as an archetypal sanctuary, and the man as a priest-like guardian of sacred space, well before Israel has a tabernacle or priesthood of its own." },
+    { title:"Naming the animals — dominion in action", icon:"🐾",
+      text:"In the ancient world, the authority to name something was the authority to define and rule it. The man's naming of every beast and bird (v. 19-20) both enacts the dominion mandate already given in Gen 1:28 and quietly builds the case for the chapter's next line — that despite naming an entire animal kingdom, none of them answers his aloneness." },
+    { title:"Where were Pishon and Gihon?", icon:"🗺️",
+      text:"The Hiddekel (Tigris) and Euphrates are geographically secure; the Pishon (winding through gold-rich Havilah) and Gihon (encircling Cush) are not, and have been proposed as anything from Arabian wadis to a now-submerged river system once flowing through what is today the floor of the Persian Gulf. The uncertainty is real and openly acknowledged by conservative and critical scholars alike, rather than resolved by any single confident identification." },
+    { title:"One flesh — an institution, not just a moment", icon:"💍",
+      text:"Verse 24 shifts from narrating a single event to a general statement — 'Therefore a man shall leave...' — establishing marriage as a pattern for every future generation, not a detail specific to Adam and Eve alone. Both Jesus (Matt 19:4-6) and Paul (Eph 5:31) later quote this verse as foundational, treating it as the Bible's own definition of marriage rather than a merely descriptive aside." }
+  ],
+  crossRefs: [
+    { group:"The Sabbath rest, later commanded", refs:[
+      { r:"Exodus 20:8-11", note:"the fourth commandment roots weekly Sabbath directly in this chapter's seventh day" },
+      { r:"Exodus 31:16-17", note:"the Sabbath as 'a sign forever' between the LORD and Israel" },
+      { r:"Hebrews 4:3-11", note:"God's own rest reinterpreted as a future rest still open to believers" } ]},
+    { group:"The rivers, and later Mesopotamian geography", refs:[
+      { r:"Genesis 15:18", note:"the Euphrates named again as the far border of the land promised to Abraham's offspring" },
+      { r:"2 Kings 24:7", note:"the king of Babylon's empire measured 'from the Brook of Egypt to the river Euphrates'" },
+      { r:"Revelation 16:12", note:"the Euphrates drained dry at the end of the age — the same river named without comment here" } ]},
+    { group:"One flesh, cited forward", refs:[
+      { r:"Matthew 19:4-6", note:"Jesus quotes Gen 2:24 directly against the legality of casual divorce" },
+      { r:"Ephesians 5:31-32", note:"Paul quotes the same verse and calls the union 'a profound mystery' pointing to Christ and the church" },
+      { r:"Malachi 2:14-15", note:"marriage as covenant, tracing back to God making the couple 'one'" } ]},
+    { group:"Formed from dust, returning to dust", refs:[
+      { r:"Genesis 3:19", note:"the sentence that answers this chapter's formation — 'for dust you are, and to dust you shall return'" },
+      { r:"Psalm 103:14", note:"'he knows our frame; he remembers that we are dust'" },
+      { r:"1 Corinthians 15:47", note:"'the first man was from the earth, a man of dust' set against the second man from heaven" } ]}
+  ]
+},
+
+/* ============================================================
+   GENESIS 3 — The serpent, the fall, and the first promise
+   ============================================================ */
+"1:3": {
+  era: {
+    title: "Primeval history — the fall, and the first promise of a Deliverer",
+    sub: "The garden's one law broken · curses on serpent, woman, man, and ground · Genesis 3:15, the protoevangelium · expulsion east of Eden",
+    badges: ["Primeval history", "The garden's only law, broken", "Genesis 3:15 — the first gospel promise", "Expulsion, and a guarded way back"]
+  },
+  timeOfDay: "dusk",
+  summary: "The serpent, 'more crafty than any other beast of the field that the LORD God had made,' opens with a question that subtly misquotes God's command: 'Did God actually say, You shall not eat of any tree in the garden?' Eve corrects him but overstates the restriction herself, adding 'neither shall you touch it' (vv. 1-3). The serpent answers with flat denial and a counter-promise: 'You will not surely die. For God knows that when you eat of it your eyes will be opened, and you will be like God, knowing good and evil' (vv. 4-5). Seeing that the fruit is good for food, a delight to the eyes, and desirable for gaining wisdom, Eve takes and eats, and gives some to her husband, 'who was with her,' and he eats as well (v. 6). Their eyes are opened at once — not to divine wisdom, but to their own nakedness, which they cover with sewn fig leaves (v. 7). Hearing the sound of the LORD God walking in the garden in the cool of the day, they hide among the trees; God calls out, 'Where are you?' and 'Who told you that you were naked? Have you eaten of the tree...?' (vv. 8-11). The man blames the woman — and, in the same breath, God himself: 'The woman whom you gave to be with me, she gave me fruit.' The woman blames the serpent: 'The serpent deceived me, and I ate' (vv. 12-13). The LORD pronounces judgment on all three, moving outward from the source: the serpent is cursed above every animal, sentenced to crawl on its belly and eat dust, and told of a coming enmity between its offspring and the woman's — 'he shall bruise your head, and you shall bruise his heel' (vv. 14-15). The woman is told her pain in childbirth will be greatly multiplied, and her desire will be for her husband, who will rule over her (v. 16). Because the man listened to his wife and ate what he was told not to, the ground itself is cursed on his account: thorns and thistles, sweat for bread, 'until you return to the ground, for out of it you were taken; for you are dust, and to dust you shall return' (vv. 17-19). The man names his wife Eve, 'because she was the mother of all living,' and the LORD God makes garments of skin for the couple and clothes them (vv. 20-21). Then, saying 'the man has become like one of us, knowing good and evil,' God sends the man out from the garden to work the very ground he was taken from, lest he also eat of the tree of life and live forever — driving him out and stationing cherubim and a flaming sword that turns every way, east of Eden, to guard the way back (vv. 22-24).",
+  focusPlace: "eden",
+  places: [
+    { id:"eden", role:"The whole chapter's setting — the temptation, the eating, the hiding, the confrontation, the curses, and the expulsion east of the garden's gate (vv. 1-24)" },
+    { id:"babylon", role:"Not a location in this chapter, but the place later prophetic and apocalyptic writing reaches for when giving the serpent's rebellion a political body — Isaiah's taunt against the fallen 'Day Star' (Isa 14:12-15) and Revelation's 'ancient serpent' bound up with 'Babylon the great' (Rev 12:9; 17-18)" }
+  ],
+  journey: [
+    { from:"eden", to:"babylon", dashed:true,
+      label:"The serpent's shadow, cast forward onto an empire", km:368,
+      note:"No one travels in this chapter — the couple only moves as far as 'east of Eden' when they are driven out (v. 24). This line instead traces a much later, purely typological connection: prophetic and apocalyptic literature repeatedly reach for Babylon as the serpent's political embodiment, from Isaiah's taunt against the king of Babylon as a fallen heavenly being to Revelation's dragon-and-Babylon imagery." }
+  ],
+  hotspots: [
+    { x:0.04, type:"object", label:"'Did God actually say...?'",
+      desc:"The serpent opens with a question that quietly reshapes God's actual command into something more restrictive than it was; Eve's reply adds a restriction of her own ('neither shall you touch it') that God never gave (vv. 1-3)." },
+    { x:0.17, type:"object", label:"'You will not surely die... you will be like God'",
+      desc:"The serpent answers Eve's correction with outright denial, then a counter-promise: eating will open her eyes and make her 'like God, knowing good and evil' (vv. 4-5) — the first recorded lie about God's own words." },
+    { x:0.30, type:"person", label:"Eve eats, and gives to her husband 'who was with her'", av:"woman",
+      desc:"Seeing the fruit as good for food, pleasing to the eye, and desirable for wisdom, Eve takes and eats — and hands it to Adam, present the whole time, who eats without a word of objection recorded (v. 6)." },
+    { x:0.42, type:"object", label:"Eyes opened — to their own nakedness",
+      desc:"The promised enlightenment arrives, but not as expected: their eyes are opened only to their own exposure, and they sew fig leaves together for makeshift coverings (v. 7)." },
+    { x:0.54, type:"person", label:"Hiding from the sound of the LORD, in the cool of the day", av:"elder",
+      desc:"Hearing God walking in the garden 'in the cool of the day,' the man and his wife hide among the trees; God's first words are a question that already knows the answer — 'Where are you?' (vv. 8-10)." },
+    { x:0.64, type:"person", label:"The blame chain: man, then woman, then serpent", av:"elder",
+      desc:"Adam blames Eve — and, in the same breath, God ('the woman whom YOU gave me'); Eve in turn blames the serpent: 'The serpent deceived me, and I ate' (vv. 11-13)." },
+    { x:0.75, type:"object", label:"The serpent cursed — and the first promise (Gen 3:15)",
+      desc:"Cursed above every animal, sentenced to crawl and eat dust, the serpent is also told of a coming enmity between its offspring and the woman's: 'he shall bruise your head, and you shall bruise his heel' — the protoevangelium, the Bible's first announced hope of victory over evil (vv. 14-15)." },
+    { x:0.85, type:"person", label:"The woman and the man, sentenced in turn", av:"woman",
+      desc:"The woman is told her pain in childbirth will greatly increase, alongside a new tension in her marriage; the ground itself is cursed because of the man, who will now eat bread only 'by the sweat of your face... till you return to the ground' (vv. 16-19)." },
+    { x:0.96, type:"object", label:"Eve named, skins given, and cherubim guard the way back",
+      desc:"Adam names his wife Eve, 'mother of all living'; God clothes them in garments of skin in place of their fig leaves; then, so they cannot also eat of the tree of life and live forever in their fallen state, he drives them out and posts cherubim with a whirling flaming sword east of Eden (vv. 20-24)." }
+  ],
+  environment: {
+    chips: ["A crafty serpent, and a misquoted command", "Fruit good for food, a delight to the eyes", "Hiding in the cool of the day", "Three curses, moving outward", "Genesis 3:15 — enmity, and a bruised head", "Cherubim east of Eden"],
+    text: "The chapter's geography stays entirely inside the garden until its final verse, when the couple is driven 'out of the garden of Eden' and cherubim are stationed 'at the east of the garden of Eden' to guard the way to the tree of life (v. 24) — the only movement in the whole account, and a permanent one. The curses that precede it fall in a deliberate order, moving outward from the point of deception to its widest consequence: the serpent nearest the source, the woman next, the man and then the ground itself last, so that even the earth under the couple's feet is drawn into the story's judgment. Read against Genesis 1-2, where every day ends 'good' and the ground needed only a mist to produce life, chapter 3 systematically undoes each blessing — fruitfulness becomes multiplied pain, dominion over the ground becomes labor against thorns and thistles, and unashamed nakedness becomes something to hide and then to cover."
+  },
+  objectsExtra: ["serpent", "tree-of-knowledge", "fig-leaves", "skins-garment", "cherub-flaming-sword"],
+  peopleExtra: ["adam", "eve"],
+  culture: [
+    { title:"Talking snake, or something more?", icon:"🐍",
+      text:"The text introduces the serpent simply as one of the animals God made, 'more crafty than any other beast of the field' (v. 1), and its punishment ('on your belly you shall go') has led many readers to picture it as originally upright or limbed. Only much later revelation identifies it explicitly with a personal evil power: 'that ancient serpent, who is called the devil and Satan' (Rev 12:9; 20:2). Genesis 3 itself never makes that identification outright, which is why the relationship between the literal creature and the deceiver working through it has been debated for as long as the text has been read seriously." },
+    { title:"What was 'the knowledge of good and evil'?", icon:"❓",
+      text:"Interpreters differ on what exactly was being reached for: moral autonomy, the ability to decide right and wrong for oneself rather than receiving it from God's word; comprehensive knowledge, with 'good and evil' functioning as a merism for 'everything' (compare 2 Sam 14:17, 'to discern good and evil' as a phrase for complete wisdom); or moral experience itself, the loss of innocence that comes only from having done wrong. The chapter's own vocabulary supports more than one of these readings at once." },
+    { title:"The first promise: Genesis 3:15", icon:"✝️",
+      text:"Read within its own chapter, the LORD's sentence on the serpent doubles as Scripture's first forward-looking hope: enmity is set between the serpent's offspring and the woman's, culminating in a blow to the head that outweighs a blow to the heel. Christian tradition since the earliest centuries has read this as a veiled promise of the ultimate defeat of evil through 'the seed of the woman,' fulfilled in Christ (Rom 16:20; Rev 12) — while also recognizing that its first hearers likely grasped it first as a real, if partial, hope that the conflict just introduced would not have the last word." },
+    { title:"Curse, or consequence?", icon:"⚖️",
+      text:"The text explicitly says 'cursed are you' to the serpent (v. 14) and 'cursed is the ground' because of the man (v. 17) — but never applies the word 'curse' directly to the woman or the man themselves, describing consequences to them instead. Many commentators find this distinction significant: humanity bears the weight of the fall without being cursed outright the way the serpent and the ground are." },
+    { title:"Why cherubim and a flaming sword?", icon:"🔥",
+      text:"The guard placed at Eden's east gate (v. 24) is framed by the preceding verse as much an act of mercy as of judgment — preventing the man from eating of the tree of life and being fixed forever in his fallen state, rather than simply punishing him further. The image is bookended at the very end of Scripture, where the tree of life reappears, now freely accessible again, its leaves for the healing of the nations (Rev 22:2, 14)." }
+  ],
+  crossRefs: [
+    { group:"The protoevangelium — the first promise", refs:[
+      { r:"Romans 16:20", note:"'the God of peace will soon crush Satan under your feet' — echoing the serpent's crushed head" },
+      { r:"Revelation 12:9, 17", note:"'that ancient serpent' at war with the woman's offspring" },
+      { r:"Galatians 4:4-5", note:"Christ 'born of woman,' the seed the promise pointed toward" },
+      { r:"1 John 3:8", note:"'the reason the Son of God appeared was to destroy the works of the devil'" } ]},
+    { group:"The blame chain, echoed", refs:[
+      { r:"Romans 5:12-19", note:"sin and death entering through one man, answered by grace through one man" },
+      { r:"1 Timothy 2:13-14", note:"Paul's own reading of the order of deception in the garden" },
+      { r:"1 Corinthians 15:21-22", note:"'as in Adam all die, so also in Christ shall all be made alive'" } ]},
+    { group:"The consequences, carried into the rest of Scripture", refs:[
+      { r:"Genesis 4:7", note:"sin 'crouching at the door' — the same predatory imagery turned toward Cain" },
+      { r:"Isaiah 65:25", note:"a future peace where 'dust shall be the serpent's food' — Eden's curse still in view" },
+      { r:"Revelation 22:2-3", note:"the curse reversed at last, and the tree of life restored" } ]}
+  ]
 }
 };
