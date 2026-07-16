@@ -1329,6 +1329,150 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   2 SAMUEL 2 — David king at Hebron; the standoff at Gibeon's pool
+   ============================================================ */
+"10:2": {
+  era: {
+    title: "ca. 1010 BC — David anointed king over Judah; Abner sets up Ish-bosheth; war begins at Gibeon's pool",
+    sub: "Iron Age I/IIA · Hebron and Mahanaim to Gibeon · the opening skirmish of Israel's civil war",
+    badges: ["Iron Age I/IIA", "Divided kingdom begins", "Twelve-on-twelve duel", "≈3,036 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "With Saul dead and his own lament for him just sung, David inquires of the LORD and moves from Ziklag up to Hebron with his two wives, Ahinoam and Abigail, and all his men and their households; the men of Judah come and anoint him king over the house of Judah alone. His first act as king is a diplomatic one — commending the men of Jabesh-gilead for the loyalty that risked their lives to bury Saul's body (1 Sam 31:11-13) and quietly inviting their allegiance. But Abner, Saul's army commander, has already taken Saul's one surviving son, Ish-bosheth, across the Jordan to Mahanaim and made him king over Gilead, the Ashurites, Jezreel, Ephraim, Benjamin, and 'all Israel' — a rival throne propped up by Saul's general rather than Saul's own house. War between the two camps becomes inevitable when Abner marches his men to the pool of Gibeon and meets Joab's men there; Abner proposes 'let the young men arise and compete before us,' and twelve men from each side draw swords and kill each other in a single exchange, giving the place its name, Helkath-hazzurim, 'the field of blades.' A fierce battle follows and Abner's men are routed. In the retreat, Joab's youngest brother Asahel, 'as swift of foot as a wild gazelle,' fixes on Abner alone and will not turn aside despite two direct warnings; Abner finally kills him with a reverse thrust of his spear butt through the stomach. Joab and the third brother, Abishai, press the pursuit until Abner rallies the Benjaminites atop a hill and calls out, 'shall the sword devour forever? Do you not know that the end will be bitter?' — Joab agrees to stop, and both armies withdraw through the night, Abner's men to Mahanaim, Joab's to Hebron, having lost nineteen men and Asahel against three hundred and sixty of Abner's.",
+  focusPlace: "gibeon",
+  places: [
+    { id:"hebron",   role:"Where David and his men settle and the men of Judah anoint him king over Judah alone — the seat of the rival kingdom Abner's move at Mahanaim is meant to counter (vv. 1-4, 11)" },
+    { id:"mahanaim", role:"East of the Jordan in Gilead, where Abner installs Ish-bosheth as king over the northern tribes, safely out of David's immediate reach (vv. 8-9)" },
+    { id:"gibeon",   role:"Where Joab's men and Abner's men meet at 'the pool' and the twelve-on-twelve duel triggers the battle that opens the civil war (vv. 12-17)" }
+  ],
+  journey: [
+    { from:"hebron", to:"gibeon", label:"Joab leads David's men out to meet Abner", km:38,
+      note:"Joab and 'the servants of David' march north from Hebron into Benjaminite territory and find Abner's men waiting at the pool of Gibeon, roughly the midpoint between the two rival capitals (v. 13)." },
+    { from:"mahanaim", to:"gibeon", label:"Abner leads Ish-bosheth's men west across the Jordan", km:60,
+      note:"Abner's column comes down from Mahanaim in Gilead, crosses the Jordan, and reaches Gibeon from the east — the two armies converging on ground roughly equidistant from Hebron and from Abner's own new capital (v. 12)." },
+    { from:"gibeon", to:"mahanaim", dashed:true, label:"Abner's retreat, marching all night", km:60,
+      note:"After Joab calls off the pursuit at Abner's appeal, Abner's surviving men march the whole night back through the Arabah, cross the Jordan, and pass through Bithron to reach Mahanaim by daybreak (vv. 29, 32)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"David anointed king over Judah at Hebron", av:"king",
+      desc:"Inquiring of the LORD first — 'shall I go up... where shall I go up?' — David moves his household and men to Hebron, and the men of Judah anoint him king over the house of Judah alone (vv. 1-4)." },
+    { x:0.17, type:"person", label:"David honors Jabesh-gilead's loyalty to Saul", av:"king",
+      desc:"His first royal act is a message to the men who recovered and buried Saul's and Jonathan's bodies at great risk: 'may the LORD show steadfast love and faithfulness to you' — a quiet bid for their loyalty too (vv. 5-7)." },
+    { x:0.3, type:"person", label:"Abner crowns Ish-bosheth at Mahanaim", av:"warrior",
+      desc:"'Abner the son of Ner, commander of Saul's army, took Ish-bosheth the son of Saul... and made him king' over Gilead, the Ashurites, Jezreel, Ephraim, Benjamin, and all Israel — a rival throne built entirely on Abner's own authority, not Ish-bosheth's (vv. 8-10)." },
+    { x:0.45, type:"person", label:"Twelve against twelve at the pool of Gibeon", av:"warrior",
+      desc:"'Let the young men arise and compete before us' — twelve of Joab's men and twelve of Abner's each seize an opponent's head and drive a sword into his side, and all twenty-four fall together, naming the spot Helkath-hazzurim, 'the field of blades' (vv. 14-16)." },
+    { x:0.6, type:"person", label:"Asahel refuses to turn aside", av:"warrior",
+      desc:"'As swift of foot as a wild gazelle,' Asahel chases Abner alone through the rout; Abner warns him twice — 'turn aside... why should I strike you to the ground?' — and when Asahel will not stop, kills him with a backward thrust of his spear butt through the stomach (vv. 18-23)." },
+    { x:0.75, type:"person", label:"Abner's appeal on the hill: 'shall the sword devour forever?'", av:"warrior",
+      desc:"With Joab and Abishai closing in and the Benjaminites rallied around him on a hilltop, Abner calls out that continued killing between kinsmen will only turn bitter; Joab agrees, blows the trumpet, and the pursuit ends (vv. 24-28)." },
+    { x:0.92, type:"object", label:"The night march home, and the count of the dead",
+      desc:"Abner's column marches through the Arabah all night to Mahanaim; Joab's men march all night back to Hebron, arriving at daybreak having lost Asahel and nineteen others against three hundred and sixty of Abner's men (vv. 29-32)." }
+  ],
+  environment: {
+    chips: ["Two rival kings, two rival capitals", "A 'competition' that becomes a massacre", "Helkath-hazzurim — 'field of blades'", "Spear-butt through the stomach", "A hilltop rally and a trumpet recall", "Iron Age I/IIA civil war"],
+    text: "Gibeon's pool was a real, substantial rock-cut water installation — a stepped shaft cut deep into the hill to reach the water table, later excavated by archaeologists and matching the setting the text implies for two armies to face off across open ground beside it. The armies meet almost exactly between the two new capitals: Hebron roughly 38 km south, Mahanaim across the Jordan to the east, putting Gibeon on the practical boundary between David's Judah and Ish-bosheth's northern coalition. Abner's proposed 'competition' (a sanctioned combat contest, not unlike duels attested elsewhere in the ancient Near East) was meant to settle or at least test the standoff without full battle, but the mutual killing of all twenty-four men instead ignites the very war it was staged to avoid or postpone."
+  },
+  objectsExtra: ["sword","spear"],
+  peopleExtra: ["david","joab","abner","ishbosheth","asahel","abishai"],
+  culture: [
+    { title:"Two capitals, two kings", icon:"👑",
+      text:"For the first time since Saul's coronation, Israel has two competing kings at once: David at Hebron, crowned by Judah's own elders, and Ish-bosheth at Mahanaim, installed entirely by Abner's initiative rather than any popular acclaim (v. 8-10) — a fault line (Judah vs. the northern tribes) that will resurface generations later when the kingdom splits permanently after Solomon (1 Kgs 12)." },
+    { title:"'Let the young men arise and compete'", icon:"⚔️",
+      text:"Abner's proposal (v. 14) most plausibly describes a sanctioned trial of champions, meant to settle the standoff with limited bloodshed rather than a full engagement — but the symmetrical outcome, all twenty-four combatants dying together, functions instead as an omen the narrative lets speak for itself: neither side has actually won anything, and the larger battle that follows immediately proves it." },
+    { title:"Why Abner didn't just kill Asahel sooner", icon:"🏃",
+      text:"Abner's two warnings before he finally strikes (vv. 21-22) read as a commander trying to avoid killing Joab's own brother and the blood feud it would guarantee — 'how then could I lift up my face to your brother Joab?' — a fear that proves exactly justified when Joab murders him under a truce one chapter later (2 Sam 3:27)." }
+  ],
+  crossRefs: [
+    { group:"What led here", refs:[
+      { r:"1 Samuel 31:1-13", note:"Saul and Jonathan's deaths on Gilboa, and Jabesh-gilead's recovery of their bodies" },
+      { r:"2 Samuel 1:1-27", note:"David's lament over Saul and Jonathan, sung just before he moves to Hebron" } ]},
+    { group:"Where this feud leads", refs:[
+      { r:"2 Samuel 3:22-30", note:"Joab murders Abner at Hebron's gate in revenge for Asahel" },
+      { r:"2 Samuel 20:8-10", note:"Joab later kills Amasa the same way — a blade to the stomach while pretending peace" } ]},
+    { group:"The kingdom's later north/south fault line", refs:[
+      { r:"1 Kings 12:16-20", note:"generations later, the same Judah/northern-tribes split becomes permanent after Solomon's death" } ]},
+    { group:"David's own kingship confirmed at Hebron", refs:[
+      { r:"1 Samuel 16:1, 12-13", note:"Samuel's private anointing of David as a boy in Bethlehem, years before Judah's own public one here" },
+      { r:"2 Samuel 5:1-5", note:"seven and a half years later, all Israel's elders anoint David king at the same city" } ]}
+  ]
+},
+
+/* ============================================================
+   2 SAMUEL 3 — Abner defects; murdered at Hebron's gate
+   ============================================================ */
+"10:3": {
+  era: {
+    title: "ca. 1004 BC — Abner breaks with Ish-bosheth, defects to David, and is murdered at Hebron's gate",
+    sub: "Iron Age IIA · Mahanaim to Hebron · the end of the house of Saul's resistance",
+    badges: ["Iron Age IIA", "Civil war's final year", "Abner's assassination", "≈3,030 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "The war between the two houses drags on, David steadily gaining strength while Saul's house grows weaker; the chapter opens with a formal list of six sons born to David at Hebron by six different wives, each a small mark of the dynasty consolidating even mid-war. The turning point comes from an unlikely direction: Ish-bosheth accuses Abner of taking Rizpah, his father Saul's concubine — a claim to royal prerogative in the ancient Near East that only a would-be king would dare make — and Abner explodes in fury at being challenged by the very figurehead he installed: 'am I a dog's head of Judah? ... and you charge me today with a fault concerning this woman?' He vows on the spot to transfer the whole kingdom to David, and Ish-bosheth, stripped of his only real power, cannot answer a word. Abner sends messengers to David — 'make your covenant with me, and my hand shall be with you to bring over all Israel to you' — and David agrees on one condition: the return of Michal, Saul's daughter, his first wife, taken from him during his fugitive years. Abner delivers her himself, prying her from her second husband Paltiel, who follows weeping as far as Bahurim before Abner sends him back. Abner then works Israel's elders and the tribe of Benjamin directly, persuading them 'as one man' to turn to David, and comes to Hebron with twenty men for a feast and a formal covenant, leaving 'in peace' to gather all Israel behind the new king. But Joab, returning from a raid just after Abner departs, is furious that David let him go unharmed — 'you know that Abner... came to deceive you' — and without David's knowledge sends messengers to recall Abner, meets him privately at the gate as if to speak peaceably, and stabs him in the stomach, killing him in revenge for Asahel. David publicly disowns the murder: he orders Joab and all the people into mourning clothes, walks behind Abner's bier himself, weeps aloud at the grave, and refuses to eat all day despite the people's urging, so that 'all the people took notice of it, and it pleased them' — proof, the text insists, that the killing was not done at the king's command. David closes the chapter both cursing Joab's house and confessing his own weakness: 'I am this day weak, though anointed king, and these men, the sons of Zeruiah, are too fierce for me.'",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron",   role:"Where David's six sons are born during the war, where Abner comes to seal his covenant with David, and where Joab murders him at the city gate (vv. 2-5, 20-27)" },
+    { id:"mahanaim", role:"Abner's base with Ish-bosheth, and the source of the quarrel over Rizpah that finally breaks their alliance apart (vv. 7-11)" },
+    { id:"gibeon",   role:"Where Joab is returning from a raid when he learns Abner had been at Hebron and was allowed to leave in peace — the news that sends him after Abner (vv. 22-25)" }
+  ],
+  journey: [
+    { from:"mahanaim", to:"hebron", label:"Abner travels south to seal his covenant with David", km:98,
+      note:"Having broken publicly with Ish-bosheth, Abner and twenty men make the long journey from Mahanaim in Gilead down to Hebron, where David receives him with a feast to formalize the defection (v. 20)." },
+    { from:"hebron", to:"hebron", dashed:true, label:"Michal brought back from Bahurim en route", km:0,
+      note:"Before Abner's own trip, David's men fetch Michal from her second husband Paltiel; Paltiel follows her weeping as far as Bahurim, northeast of Jerusalem, before Abner orders him to turn back (vv. 14-16)." },
+    { from:"gibeon", to:"hebron", dashed:true, label:"Joab's messengers recall Abner to the gate", km:38,
+      note:"Learning too late that Abner had already left in peace, Joab sends riders after him and has him brought back to Hebron's gate under the pretense of a private word — where he kills him (vv. 26-27)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"Six sons born to David at Hebron",
+      desc:"Amnon by Ahinoam, Chileab by Abigail, Absalom by Maacah (daughter of Talmai, king of Geshur), Adonijah by Haggith, Shephatiah by Abital, and Ithream by Eglah — a formal dynastic record laid down even while the civil war continues (vv. 2-5)." },
+    { x:0.2, type:"person", label:"Ish-bosheth accuses Abner over Rizpah", av:"king",
+      desc:"'Why have you gone in to my father's concubine?' — taking a dead king's concubine was itself understood as a claim on the throne (cf. Absalom and David's concubines, 2 Sam 16:21-22), and the accusation exposes just how little real authority the figurehead king actually holds over his own general (v. 7)." },
+    { x:0.34, type:"person", label:"Abner's fury and his vow to David", av:"warrior",
+      desc:"'Am I a dog's head of Judah?... may God do so to Abner and more also, if I do not do for David as the LORD has sworn to him' — Abner turns his loyalty on a dime, and Ish-bosheth 'could not answer Abner another word, because he feared him' (vv. 8-11)." },
+    { x:0.48, type:"person", label:"David's one condition: bring back Michal", av:"king",
+      desc:"David agrees to Abner's covenant on a single term — the return of Saul's daughter, his first wife, given to Paltiel during his fugitive years; Abner personally delivers her, and her second husband follows weeping until sent home at Bahurim (vv. 13-16)." },
+    { x:0.62, type:"person", label:"Abner secures Israel's elders and comes to Hebron", av:"warrior",
+      desc:"Abner persuades the elders of Israel and Benjamin directly — 'you have sought David as king over you' — then comes to Hebron with twenty men; David makes them a feast, and Abner leaves 'in peace' to bring all Israel over (vv. 17-21)." },
+    { x:0.78, type:"person", label:"Joab's accusation: 'he came to deceive you'", av:"warrior",
+      desc:"Returning from a raid, Joab confronts David for letting Abner go unharmed, convinced the whole defection is a ruse to spy out the kingdom — then acts without David's knowledge (vv. 22-25)." },
+    { x:0.9, type:"person", label:"Murdered at the gate, in revenge for Asahel", av:"warrior",
+      desc:"Joab recalls Abner to Hebron's gate 'to speak with him privately' and stabs him in the stomach, killing him — vengeance for Asahel's death at Gibeon's pool, dressed up as a private word between commanders (vv. 26-27)." },
+    { x:0.97, type:"person", label:"David's public mourning and self-indictment", av:"king",
+      desc:"David curses Joab's house, orders the whole court into mourning, walks behind the bier, and will not eat — 'know that a prince and a great man has fallen this day in Israel... I am weak, though anointed king, and these men, the sons of Zeruiah, are too fierce for me' (vv. 28-39)." }
+  ],
+  environment: {
+    chips: ["A dynastic list mid-civil-war", "Taking a king's concubine as a political claim", "A wife reclaimed from a weeping husband", "A covenant sealed with a feast", "A gate-side murder disguised as a private word", "Public mourning as political proof"],
+    text: "Hebron's city gate, where Joab kills Abner, was the customary place for judicial and diplomatic business in an Israelite town — exactly the kind of public, semi-official space where a private conversation between two army commanders would raise no immediate alarm, and exactly why Joab could pull Abner 'aside' there without anyone reading danger into it until it was too late. The list of six sons born at Hebron each names both mother and firstborn status, the ancient Near Eastern convention for establishing legitimate succession — a quiet signal, laid down mid-war, that David's household already functions as a royal court rather than a warlord's camp, well before any single throne is settled."
+  },
+  objectsExtra: ["sword"],
+  peopleExtra: ["david","joab","abner","ishbosheth","michal","absalom"],
+  culture: [
+    { title:"Taking a concubine as a claim on the throne", icon:"👑",
+      text:"Ish-bosheth's accusation only makes sense against an ancient Near Eastern convention also visible later in this same book: Absalom publicly takes David's concubines on the palace roof precisely to broadcast that he has replaced his father as king (2 Sam 16:21-22), and Adonijah's request for Abishag after David's death is read by Solomon as exactly the same kind of coup attempt (1 Kgs 2:13-25). Whether or not Abner actually intended a claim on Ish-bosheth's throne, the act itself was legible as one — which is exactly why the young king could not let it pass, and exactly why challenging Abner over it cost him what little power he had." },
+    { title:"Michal, reclaimed as a political term", icon:"💍",
+      text:"David's demand for Michal's return (vv. 13-16) is framed as personal — she was his wife, given for a hundred Philistine foreskins (1 Sam 18:25-27) — but it functions politically too, re-linking David's kingship to Saul's own bloodline in the public eye right as Abner is about to deliver the northern tribes. Her second husband Paltiel's weeping walk to Bahurim is one of Scripture's briefer, sadder character notes: a man who loses a wife to a king's command with no say in the matter at all." },
+    { title:"The sons of Zeruiah — too fierce for the king himself", icon:"⚔️",
+      text:"David's closing complaint — 'these men, the sons of Zeruiah, are too fierce for me' (v. 39) — is the first of several moments across his reign where he openly admits he cannot fully control his own nephews; Joab will go on to kill Absalom against direct orders (2 Sam 18:14) and Amasa the same way he killed Abner (2 Sam 20:9-10), and David's dying instructions to Solomon finally settle the debt Abner's blood left unpaid (1 Kgs 2:5-6, 28-34)." }
+  ],
+  crossRefs: [
+    { group:"Blood owed for Abner", refs:[
+      { r:"2 Samuel 2:18-23", note:"Asahel's death at Gibeon's pool, the killing Joab avenges here" },
+      { r:"1 Kings 2:5-6, 28-34", note:"David's dying charge to Solomon finally settles the debt, decades later" } ]},
+    { group:"Taking a king's concubine as a claim on his throne", refs:[
+      { r:"2 Samuel 16:21-22", note:"Absalom publicly takes David's concubines to broadcast his own claim to the crown" },
+      { r:"1 Kings 2:13-25", note:"Solomon reads Adonijah's request for Abishag the same way, and has him executed for it" } ]},
+    { group:"Michal's story elsewhere", refs:[
+      { r:"1 Samuel 18:20-28", note:"Michal given to David as a wife, for the bride-price of a hundred Philistine foreskins" },
+      { r:"1 Samuel 25:44", note:"given to Paltiel during David's fugitive years" },
+      { r:"2 Samuel 6:16-23", note:"despises David's dancing before the ark and is left childless" } ]},
+    { group:"Joab's pattern repeats", refs:[
+      { r:"2 Samuel 20:8-10", note:"Joab kills Amasa the same way — a private word, a blade to the stomach" },
+      { r:"2 Samuel 18:9-15", note:"and later kills Absalom against David's explicit order" } ]}
+  ]
+},
+
+/* ============================================================
    2 SAMUEL 5 — king over all Israel; the capture of Jerusalem
    ============================================================ */
 "10:5": {
