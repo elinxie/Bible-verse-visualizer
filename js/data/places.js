@@ -571,7 +571,12 @@ BVV.PLACES = [
     blurb:"Nomadic raider confederation ranging the Negev and Sinai steppe 'from Havilah to Shur' — Israel's ambush-attackers at the Exodus (Ex 17) and the confederation whose judgment Saul was commanded to execute (1 Sam 15).",
     meaning:"Hebrew name of uncertain etymology — meaning unknown",
     ancient:"Black-tent camps and camel herds following seasonal grazing; a raiding culture that struck settled and traveling peoples alike after harvest, when there was plunder to take.",
-    scene:{ terrain:"desert", settlement:"camp", water:"well", veg:"sparse" } }
+    scene:{ terrain:"desert", settlement:"camp", water:"well", veg:"sparse" } },
+  { id:"eden", name:"Eden", al:["Eden","garden of Eden","Garden of Eden"], modern:"N head of the Persian Gulf / S Mesopotamia (approx., disputed), Iraq/Kuwait border region", lat:30.900, lon:47.800, type:"garden",
+    blurb:"The garden God planted 'eastward, in Eden,' watered by a river that divided into four, where the first man and woman were placed, tested, and from which they were finally driven out (Gen 2-3).",
+    meaning:"Hebrew 'ʿEden' — 'delight/pleasure'",
+    ancient:"The exact site is disputed and may be more symbolic than a single recoverable spot; the traditional and most common scholarly guess sets it near the ancient confluence of the Tigris and Euphrates at the northern head of the Persian Gulf, a lush, well-watered alluvial garden landscape standing out against the surrounding arid steppe.",
+    scene:{ terrain:"oasis", settlement:"none", water:"river", veg:"mixed" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };
