@@ -1473,6 +1473,80 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   2 SAMUEL 4 — Ish-bosheth's assassination
+   ============================================================ */
+"10:4": {
+  era: {
+    title: "ca. 1003 BC — Ish-bosheth murdered in his bed; the house of Saul's last claimant falls",
+    sub: "Iron Age IIA · Beeroth to Mahanaim to Hebron · the civil war's final casualty",
+    badges: ["Iron Age IIA", "Civil war ends", "Regicide for reward, refused", "≈3,029 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "News that Abner is dead reaches Mahanaim, and Ish-bosheth's 'hands became feeble, and all Israel was dismayed' — the one man who had propped up his throne is gone, and he has no army and no allies left of his own. Two captains of his raiding bands, brothers named Rechab and Baanah, sons of Rimmon of Beeroth, see their opening. The text pauses over Beeroth itself: though reckoned to Benjamin, its own people had already fled north to Gittaim and 'sojourned there... to this day' — a town emptying out even as the men it produced move to finish off a king. A second aside follows, seemingly unrelated: Jonathan had left a son, five years old when the news of Gilboa reached Jezreel; his nurse snatched him up to flee and, in her hurry, dropped him, leaving him lame in both feet for life. His name is Mephibosheth, and nothing more is said of him here — a detail planted with no bearing on this chapter's plot, waiting for 2 Samuel 9. Back at Mahanaim, Rechab and Baanah enter Ish-bosheth's house at the heat of noon, as though to collect wheat, find him resting on his bed, strike him in the stomach, kill him, and cut off his head. They carry it all night by way of the Arabah down to Hebron and lay it before David: 'here is the head of Ish-bosheth the son of Saul, your enemy, who sought your life; the LORD has avenged my lord the king this day on Saul and on his offspring.' They expect a reward. David answers instead with a precedent of his own making: he had already executed the Amalekite who merely claimed to have killed Saul at the dying king's own request (2 Sam 1) — 'how much more, when wicked men have killed a righteous man in his own house on his bed, shall I not now require his blood at your hand and destroy you from the earth?' He orders the two men killed on the spot; their hands and feet are cut off and their bodies hung by the pool at Hebron. Ish-bosheth's own head is taken and buried in Abner's tomb at Hebron — the house of Saul's last claimant to the throne laid to rest beside the general whose own death, one chapter earlier, had made this final murder possible.",
+  focusPlace: "mahanaim",
+  places: [
+    { id:"mahanaim", role:"Ish-bosheth's capital across the Jordan, where he loses heart at news of Abner's death and is murdered in his own bed at noon by two of his own captains (vv. 1, 5-7)" },
+    { id:"beeroth",  role:"Hometown of Rechab and Baanah, one of the Gibeonite league towns whose own people had already fled to Gittaim by David's day (vv. 2-3)" },
+    { id:"hebron",   role:"Where the assassins bring Ish-bosheth's head expecting a reward, where David has them executed instead, and where Ish-bosheth's head is buried in Abner's own tomb (vv. 8-12)" }
+  ],
+  journey: [
+    { from:"beeroth", to:"mahanaim", label:"Rechab and Baanah reach Ish-bosheth's house at noon", km:78,
+      note:"The two captains cross from their home territory in Benjamin, over the Jordan, to Mahanaim in Gilead, timing their arrival for the noon rest when a king's house would least expect an armed visit (vv. 5-7)." },
+    { from:"mahanaim", to:"hebron", dashed:true, label:"The head carried south all night, by way of the Arabah", km:98,
+      note:"Rechab and Baanah travel through the night down the Jordan valley to Hebron, expecting David to reward the regicide as the fulfillment of his own long-declared claim to the throne (vv. 7-8)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"Ish-bosheth loses heart at Mahanaim", av:"king",
+      desc:"News that Abner — his own general and only real support — is dead reaches Mahanaim, and 'his hands became feeble, and all Israel was dismayed' (v. 1)." },
+    { x:0.18, type:"person", label:"Two captains from Beeroth: Rechab and Baanah", av:"warrior",
+      desc:"Sons of Rimmon the Beerothite, of Benjamin, captains over Ish-bosheth's raiding bands — the text pauses to note that Beeroth's own people had already fled north to Gittaim and 'sojourn there to this day' (vv. 2-3)." },
+    { x:0.3, type:"person", label:"An aside: Mephibosheth, dropped and lamed", av:"youth",
+      desc:"Jonathan had a five-year-old son; when news of Gilboa reached Jezreel his nurse fled carrying him and, in her hurry, he fell and became lame in both feet — a detail with no bearing on this chapter's plot, planted here for 2 Samuel 9 (v. 4)." },
+    { x:0.45, type:"person", label:"Murdered in his own bed, at noon", av:"warrior",
+      desc:"Rechab and Baanah enter the house as though to get wheat, find Ish-bosheth resting through the heat of the day, strike him in the stomach, kill him, and cut off his head (vv. 5-7)." },
+    { x:0.58, type:"object", label:"The head carried to Hebron overnight",
+      desc:"The two brothers travel all night by way of the Arabah and present Ish-bosheth's head to David: 'the LORD has avenged my lord the king this day on Saul and on his offspring' (vv. 7-8)." },
+    { x:0.7, type:"person", label:"David recalls the Amalekite he executed", av:"king",
+      desc:"Rather than a reward, David answers with the precedent of 2 Samuel 1: if he put a man to death merely for claiming he killed Saul, 'how much more, when wicked men have killed a righteous man in his own house on his bed'? (vv. 9-11)." },
+    { x:0.83, type:"object", label:"Rechab and Baanah executed and displayed",
+      desc:"David's young men kill them, cut off their hands and feet, and hang the bodies by the pool at Hebron (v. 12a)." },
+    { x:0.95, type:"object", label:"Ish-bosheth's head buried in Abner's tomb",
+      desc:"They take Ish-bosheth's own head and bury it in Abner's tomb at Hebron — the house of Saul's last claimant laid to rest beside the general whose death made this murder possible (v. 12b)." }
+  ],
+  environment: {
+    chips: ["Noon, the safest hour to strike", "A head carried through the night", "Beeroth's people already gone", "Mephibosheth's accident, planted early", "Executed for what the Amalekite only claimed", "The house of Saul's last claimant"],
+    text: "Mahanaim's exact location is still debated among several Transjordan mounds, but every candidate sits on defensible high ground above the Jabbok gorge — precisely the kind of refuge capital Abner would have chosen for a puppet king he needed kept safe and out of reach, which is exactly why its fall from the inside, rather than by siege, is so abrupt. The 'heat of the day' when Rechab and Baanah strike (v. 5) names the customary hour for a Near Eastern noon rest, when a house's master and guards would least expect an armed visit; entering 'as though to get wheat' let the assassins reach the inner room without raising an alarm. Beeroth's own displacement, still true 'to this day' when this chapter was written, quietly closes out a loose thread from Joshua's conquest-era treaty with the Gibeonite league (Josh 9) even as it opens this chapter's violence."
+  },
+  objectsExtra: ["sword"],
+  peopleExtra: ["david","ishbosheth","rechab","baanah","mephibosheth"],
+  culture: [
+    { title:"Executed for the very crime the Amalekite only claimed", icon:"⚖️",
+      text:"David's logic here explicitly reaches back to 2 Samuel 1: he had already put a foreigner to death for merely claiming he mercy-killed the wounded Saul at Saul's own request. Rechab and Baanah have actually murdered a sleeping, defenseless king in cold blood expecting payment for it — David's argument from the lesser case to the greater ('how much more') leaves them no room to expect anything but the same fate, only worse." },
+    { title:"A head brought for reward — a pattern the era keeps repeating", icon:"🗡️",
+      text:"Carrying an enemy's head to a king as proof and expecting reward for it recurs across this stretch of Scripture: David himself once brought Goliath's head to Jerusalem (1 Sam 17:54), and the Philistines will later fasten Saul's own head in the temple of Dagon (1 Chron 10:10). Trophy heads function as political currency throughout the period — which is exactly why David has to publicly refuse to pay this one, or every ambitious captain in his own ranks would take the hint." },
+    { title:"Mephibosheth's accident, five years before it matters", icon:"🦶",
+      text:"Verse 4's aside about Jonathan's crippled son is Scripture's own Chekhov's gun — introduced with no narrative function in this chapter at all, it exists purely so that David's mercy toward him in 2 Samuel 9 lands as the fulfillment of a specific, earlier oath: Jonathan's own plea that David not cut off his kindness from his house 'forever, not even when the LORD cuts off every one of the enemies of David from the face of the earth' (1 Sam 20:14-17, 42)." },
+    { title:"Beeroth's strange, permanent exile", icon:"🏘️",
+      text:"Beeroth was one of the four towns of the Gibeonite league that tricked Israel into a covenant of protection during the conquest (Josh 9:3-17). Its people's flight to Gittaim, still true 'to this day' when this verse was written, is never explained here — but Saul's own later slaughter of Gibeonites, judged and atoned for only after a three-year famine in David's reign (2 Sam 21:1-9), suggests the same royal house whose last heir dies in this chapter had already made Beeroth an unsafe place for its own residents to stay." }
+  ],
+  crossRefs: [
+    { group:"The precedent David cites", refs:[
+      { r:"2 Samuel 1:1-16", note:"David executes the Amalekite for merely claiming to have killed Saul — the lesser case this chapter's argument builds from" } ]},
+    { group:"The payoff of Mephibosheth's aside", refs:[
+      { r:"1 Samuel 20:14-17, 42", note:"Jonathan's oath that David preserve his house's kindness forever, which this chapter's detail sets up" },
+      { r:"2 Samuel 9:1-13", note:"David finds Mephibosheth and restores him, keeping that oath five chapters later" } ]},
+    { group:"Beeroth and the Gibeonite league", refs:[
+      { r:"Joshua 9:3-17", note:"Israel's treaty with the Gibeonite league, including Beeroth, secured by trickery during the conquest" },
+      { r:"2 Samuel 21:1-9", note:"Saul's later guilt against the Gibeonites, judged by a three-year famine in David's reign" } ]},
+    { group:"Trophy heads elsewhere in this era", refs:[
+      { r:"1 Samuel 17:54", note:"David himself once carried Goliath's head to Jerusalem" },
+      { r:"1 Chronicles 10:8-10", note:"the Philistines display Saul's own head in the temple of Dagon" } ]},
+    { group:"What follows", refs:[
+      { r:"2 Samuel 5:1-5", note:"with Saul's house finally left with no claimant, all Israel's elders come to David at Hebron" } ]}
+  ]
+},
+
+/* ============================================================
    2 SAMUEL 5 — king over all Israel; the capture of Jerusalem
    ============================================================ */
 "10:5": {
@@ -1662,6 +1736,91 @@ BVV.CURATED = {
     { group:"Messianic hope rooted here", refs:[
       { r:"Isaiah 9:6-7", note:"the throne of David given to a coming child, 'to establish it... forevermore'" },
       { r:"Luke 1:32-33", note:"Gabriel tells Mary God will give her son 'the throne of his father David,' whose kingdom 'will have no end'" } ]}
+  ]
+},
+
+/* ============================================================
+   2 SAMUEL 8 — David's wars of conquest; the cabinet
+   ============================================================ */
+"10:8": {
+  era: {
+    title: "ca. 994 BC — David's wars of conquest, tribute dedicated to the LORD, and the royal cabinet",
+    sub: "Iron Age IIA · Philistia, Moab, Zobah, Aram-Damascus, Edom — and Jerusalem · the united monarchy's high-water mark",
+    badges: ["Iron Age IIA", "United monarchy", "Empire at its widest reach", "≈3,020 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "With the ark installed in Jerusalem and Nathan's covenant promise fresh, this chapter surveys David's wars in a single sweep, front after front. He defeats the Philistines and subdues them, taking from their hand 'Metheg-ammah' — likely Gath's own overlordship of its satellite towns. He defeats Moab and, in a scene the text records without comment, makes the survivors lie down on the ground and measures them off with a cord: two lengths are put to death, one full length spared, and the remnant becomes David's tribute-paying servants — a strikingly harsh turn against the nation of his own great-grandmother Ruth (Ruth 4:13-17), and the same Moab that had once sheltered his own parents from Saul (1 Sam 22:3-4). Farther north he defeats Hadadezer son of Rehob, king of Zobah, as Hadadezer marches to restore his power at the Euphrates, capturing 1,700 horsemen and 20,000 foot soldiers and hamstringing all the chariot horses but a hundred; when the Arameans of Damascus march to Hadadezer's rescue, David strikes down twenty-two thousand of them too and garrisons Aram-Damascus outright, 'and the LORD gave victory to David wherever he went.' He brings Hadadezer's officers' gold shields to Jerusalem and strips his cities of Betah and Berothai of a great store of bronze. Watching a rival humbled, Toi king of Hamath sends his own son Joram with vessels of silver, gold, and bronze to bless David for defeating Hadadezer, Toi's own enemy; David dedicates all of it to the LORD, together with tribute from every nation he has subdued — Edom, Moab, Ammon, Philistia, Amalek, and Zobah. In the south he strikes down eighteen thousand Edomites in the Valley of Salt and garrisons all of Edom, so that 'all the Edomites became David's servants.' The chapter that opened with battle closes with government: 'David administered justice and equity to all his people,' followed by a formal cabinet list — Joab over the army, Jehoshaphat son of Ahilud as recorder, Zadok and Ahimelech the priests, Seraiah as scribe, Benaiah son of Jehoiada over the foreign guard of Cherethites and Pelethites, and David's own sons serving as priests alongside them.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"David's capital, where Hadadezer's gold shields and every subdued nation's tribute are brought and dedicated to the LORD, and where the chapter's closing cabinet list is seated (vv. 7, 11-12, 15-18)" },
+    { id:"philistia", role:"Subdued at the chapter's opening; David takes 'Metheg-ammah' — probably Gath's own overlordship of its satellite towns — out of Philistine hands (v. 1)" },
+    { id:"moab-plains", role:"Marks Moab, defeated and measured off with a cord — two of every three survivors killed, one spared, the remnant made tribute-paying servants (v. 2)" },
+    { id:"zobah",   role:"Hadadezer's Aramean kingdom to the north, defeated as he marches to restore his power at the Euphrates — the single toughest campaign of the chapter (vv. 3-8)" },
+    { id:"damascus", role:"Aram-Damascus, whose army marches to Hadadezer's rescue and is struck down in turn; David garrisons the city outright (vv. 5-6)" },
+    { id:"edom",    role:"Struck down in the Valley of Salt and garrisoned throughout, its people made David's servants (vv. 13-14)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"philistia", label:"The Philistines subdued", km:38,
+      note:"David defeats the Philistines on the coastal plain and takes 'Metheg-ammah' out of their hand, closing out a threat that shadowed Israel since before Saul's reign (v. 1)." },
+    { from:"jerusalem", to:"moab-plains", label:"Moab defeated and measured with a cord", km:37,
+      note:"The campaign against Moab reaches south along the Transjordan plateau well beyond this marker, but the survivors are made to lie down and are measured off in lines — two killed, one spared (v. 2)." },
+    { from:"jerusalem", to:"zobah", label:"Hadadezer struck down reaching for the Euphrates", km:263,
+      note:"David's longest campaign in the chapter, north into Aramean Syria to meet Hadadezer of Zobah as he tries to extend his own power all the way to the great river (vv. 3-4)." },
+    { from:"zobah", to:"damascus", label:"Aram-Damascus comes to the rescue, and loses 22,000", km:56,
+      note:"Damascus marches up to reinforce Hadadezer; David strikes them down too and plants garrisons in Aram-Damascus, making it, like Moab, a tribute-paying vassal (vv. 5-6)." },
+    { from:"jerusalem", to:"edom", label:"Edom struck down in the Valley of Salt", km:133,
+      note:"South through the Arabah, David's forces kill eighteen thousand Edomites and garrison the whole territory (vv. 13-14)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Philistines subdued", av:"king",
+      desc:"David defeats the Philistines and takes 'Metheg-ammah' — probably Gath's own overlordship of its satellite towns — out of Philistine hands (v. 1)." },
+    { x:0.16, type:"object", label:"Moab measured with a cord",
+      desc:"David defeats Moab, makes the survivors lie down, and measures them off with a cord — two lengths put to death, one spared; the remnant becomes his tribute-paying servants (v. 2)." },
+    { x:0.28, type:"person", label:"Hadadezer struck down reaching for the Euphrates", av:"king",
+      desc:"David defeats Hadadezer son of Rehob, king of Zobah, as he marches to restore his power at the river; 1,700 horsemen and 20,000 foot soldiers are taken, and David hamstrings the chariot horses but a hundred (vv. 3-4)." },
+    { x:0.4, type:"person", label:"Aram-Damascus comes to the rescue, and loses 22,000", av:"warrior",
+      desc:"The Arameans of Damascus march to Hadadezer's aid; David strikes down twenty-two thousand of them and garrisons Aram-Damascus outright — a tribute-paying servant nation like Moab (vv. 5-6)." },
+    { x:0.52, type:"object", label:"Golden shields and Hadadezer's bronze, brought to Jerusalem",
+      desc:"David takes the gold shields carried by Hadadezer's officers and a great store of bronze from his cities Betah and Berothai (vv. 7-8)." },
+    { x:0.64, type:"person", label:"Toi of Hamath's tribute, all of it dedicated to the LORD", av:"king",
+      desc:"Toi, king of Hamath and Hadadezer's own rival, sends his son Joram with vessels of silver, gold, and bronze; David dedicates these together with tribute from every subdued nation — Edom, Moab, Ammon, Philistia, Amalek, Zobah (vv. 9-12)." },
+    { x:0.78, type:"object", label:"Edom struck down in the Valley of Salt",
+      desc:"Eighteen thousand Edomites fall and Edom is garrisoned throughout, 'and all the Edomites became David's servants'; the LORD gives David victory wherever he goes (vv. 13-14)." },
+    { x:0.92, type:"object", label:"David's cabinet: the government behind the wars",
+      desc:"Joab commands the army, Jehoshaphat records, Zadok and Ahimelech serve as priests, Seraiah is scribe, Benaiah commands the Cherethites and Pelethites, and David's own sons serve as priests — the administration built to run what these campaigns won (vv. 15-18)." }
+  ],
+  environment: {
+    chips: ["A cord instead of a sword", "Metal that becomes a temple", "Two armies, two different counts", "Tribute from a rival king", "Garrisons instead of governors", "The wars end in a cabinet list"],
+    text: "The chapter's geography is genuinely imperial for the first time in Israel's story: Philistia on the coastal plain, Moab across the Dead Sea, Zobah and Damascus deep in Aramean Syria toward the Euphrates, and Edom down through the Arabah — a reach no judge or earlier king of Israel had ever approached. Zobah's exact center is still debated among historians (candidates range from the Beqaa Valley to sites farther east toward Hamath), but every reconstruction agrees it was the single most powerful Aramean state of the age, wealthy enough to field thousands of horses and chariots and to draw Damascus itself into the fight on Hadadezer's behalf. The bronze David strips from Hadadezer's cities of Betah and Berothai does not simply vanish into a royal treasury — 1 Chronicles 18:8 traces it forward a generation to Solomon's temple, where tradition holds it became the great bronze Sea and its supporting oxen (1 Kgs 7:23-26), tying this chapter's battlefields directly to the sanctuary's own furnishings."
+  },
+  objectsExtra: ["measuring-cord","armor","shekel"],
+  peopleExtra: ["david","joab","hadadezer","jehoshaphat-recorder","zadok","abiathar","seraiah-scribe","benaiah","cherethites-pelethites"],
+  culture: [
+    { title:"Measuring Moab with a cord", icon:"📏",
+      text:"The practice of lining up defeated soldiers and killing a fixed proportion by measured lines has no other clear parallel in the biblical text, and its harshness reads especially sharply set against David's own history with Moab: his great-grandmother Ruth was a Moabite (Ruth 4:13-17), and it was Moab's own king who sheltered David's parents 'until I know what God will do for me' during his fugitive years (1 Sam 22:3-4). Whatever provoked this campaign is left unstated — the text records the fact of it without a word of comment either way." },
+    { title:"Two armies, two different counts", icon:"🔢",
+      text:"2 Samuel 8:4 gives Hadadezer's captured forces as 1,700 horsemen and 20,000 foot soldiers; the parallel account in 1 Chronicles 18:4 has 1,000 chariots, 7,000 horsemen, and 20,000 foot soldiers. As with the census chapter's differing prices for Araunah's threshing floor (2 Sam 24:24 vs. 1 Chron 21:25), the most common explanation is scribal transmission variance in the numerals rather than two contradictory events — the overall shape of the victory (a large, decisive rout) is identical in both accounts." },
+    { title:"Who actually struck down the 18,000 Edomites?", icon:"⚔️",
+      text:"Verse 13 credits the victory in the Valley of Salt to David personally, but 1 Chronicles 18:12 names Abishai son of Zeruiah as the commander who struck down the Edomites (giving a total of 18,000 there too), while the title of Psalm 60 credits Joab with a further engagement against 12,000 Edomites in the same valley. Ancient royal annals routinely credit the king for victories his generals actually carried out on the field — a convention this chapter's own cabinet list (vv. 16-18) makes explicit by naming Joab as 'over the army' in the first place." },
+    { title:"David's sons — priests?", icon:"🤔",
+      text:"Verse 18's closing line that 'David's sons were priests' (kohanim in the Hebrew) has puzzled translators for centuries, since only Aaron's Levitical line could serve as priests in the technical, sacrificial sense — which is exactly why English versions split on it: the ESV keeps 'priests' as a puzzle for the reader, while others (following an old rabbinic reading) render it 'chief officials' or 'royal advisers' instead, treating the term as an honorary court title rather than a claim that David's own sons offered sacrifices." }
+  ],
+  crossRefs: [
+    { group:"David and Moab elsewhere", refs:[
+      { r:"Ruth 4:13-17", note:"David's own great-grandmother Ruth was a Moabite" },
+      { r:"1 Samuel 22:3-4", note:"Moab's king shelters David's parents during his fugitive years — a sharp contrast with this chapter's brutality" } ]},
+    { group:"The parallel account, and its different numbers", refs:[
+      { r:"1 Chronicles 18:1-13", note:"the same wars retold with different troop and casualty totals, and Abishai credited with the Edom victory" },
+      { r:"Psalm 60 (title)", note:"references this very war, crediting Joab with a further strike against Edom in the Valley of Salt" } ]},
+    { group:"Where Hadadezer's bronze ends up", refs:[
+      { r:"1 Chronicles 18:8", note:"names this same bronze as the source Solomon later casts into the temple's furnishings" },
+      { r:"1 Kings 7:23-26", note:"the great bronze Sea and its supporting oxen in Solomon's temple" } ]},
+    { group:"The cabinet, later and elsewhere", refs:[
+      { r:"2 Samuel 20:23-26", note:"a near-identical cabinet list after Absalom's revolt, with Adoram newly added over forced labor" },
+      { r:"1 Kings 4:1-6", note:"Solomon's own expanded cabinet, carrying several of these same offices forward" } ]},
+    { group:"The Cherethites and Pelethites' loyalty", refs:[
+      { r:"2 Samuel 15:18", note:"stay with David through Absalom's revolt, marching past him as he flees Jerusalem" },
+      { r:"1 Kings 1:38-40", note:"secure Solomon's coronation over Adonijah's rival claim to the throne" } ]}
   ]
 },
 

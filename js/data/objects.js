@@ -75,6 +75,8 @@ BVV.OBJECTS = [
     desc:"Roman silver coin — one day's field wage (Matt 20:2), bearing Caesar's image and inscription: 'Whose likeness is this?'" },
   { id:"shekel", name:"Shekel", al:["shekel","shekels","pieces of silver"], icon:"⚖️",
     desc:"A weight (~11.4 g) before it was a coin — silver was weighed out on scales; inscribed stone shekel-weights are common finds in Judah." },
+  { id:"measuring-cord", name:"Measuring cord (line)", al:["measuring line","measuring cord"], icon:"📏",
+    desc:"A length of cord stretched taut to measure ground — or, in one grim instance, rows of captives: David made defeated Moab's soldiers lie down and measured them off in lines, killing two lines out of every three and sparing the third (2 Sam 8:2). The same Hebrew word (qav) elsewhere measures fields and buildings, and even, metaphorically, a city's coming judgment (2 Kgs 21:13)." },
   { id:"fishing-net", name:"Fishing nets & boats", al:["net","nets","boat","boats"], icon:"🛶",
     desc:"Cast-nets, dragnets and night-set trammel nets worked from 8-m wooden boats — one such 1st-century boat was recovered from the Galilee mud in 1986." },
   { id:"yoke", name:"Yoke & plow", al:["yoke","plow","plough"], icon:"🐂",

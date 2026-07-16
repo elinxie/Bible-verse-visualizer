@@ -190,6 +190,11 @@ BVV.PLACES = [
     meaning:"Hebrew 'Giv'on', from 'giv'ah' — 'hill town'",
     ancient:"Famous for its rock-cut water system spiraling down to a spring.",
     scene:{ terrain:"hills", settlement:"city", water:"well", veg:"olive" } },
+  { id:"beeroth", name:"Beeroth", al:["Beeroth"], modern:"el-Bireh (candidate), West Bank", lat:31.908, lon:35.213, type:"town",
+    blurb:"Benjaminite town of the Gibeonite league (Josh 9:17), hometown of Rechab and Baanah, the two captains who assassinated Ish-bosheth (2 Sam 4:2-3).",
+    meaning:"Hebrew 'Be'erot' — 'wells' (plural of be'er, 'well')",
+    ancient:"One of the four Hivite/Gibeonite league towns spared by Israel's mistaken treaty (Josh 9); by David's day its people had fled north to Gittaim and 'sojourned there' rather than remain — a displacement the text notes was still true 'to this day' when it was written.",
+    scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } },
   { id:"ai", name:"Ai", al:["Ai"], modern:"et-Tell (traditional), West Bank", lat:31.917, lon:35.261, type:"town",
     blurb:"Second city attacked in the conquest; Israel failed, then prevailed after Achan's sin was exposed.",
     ancient:"A ruin-heap ('Ai' = 'the ruin') refortified as a small town.",
@@ -343,6 +348,11 @@ BVV.PLACES = [
     blurb:"Great oasis city, capital of Aram; on its approach road Saul of Tarsus met the risen Christ.",
     ancient:"Caravan wealth in a river-fed oasis; in the NT, a walled city with a 'street called Straight.'",
     scene:{ terrain:"oasis", settlement:"city", water:"river", veg:"palm" } },
+  { id:"zobah", name:"Aram-Zobah", al:["Zobah","Aram-zobah"], modern:"Beqaa Valley, Lebanon (candidate)", lat:34.006, lon:36.204, type:"region",
+    blurb:"Aramean kingdom under Hadadezer, David's most formidable northern rival, defeated as it reached for power at the Euphrates (2 Sam 8:3-8).",
+    meaning:"Hebrew 'Tsovah', meaning debated — possibly related to a root for 'station/garrison', though the name may predate Hebrew etymology entirely",
+    ancient:"A powerful Aramean state controlling a fertile inland corridor between the coastal ranges and the Syrian interior, wealthy enough to field thousands of chariots and horsemen and to draw Damascus itself into its wars — the single toughest opponent David's united monarchy ever fought.",
+    scene:{ terrain:"valley", settlement:"none", water:"river", veg:"mixed" } },
 
   // ---- Jordan valley, Dead Sea, Transjordan ----
   { id:"jordan", name:"Jordan River", al:["Jordan"], modern:"Jordan River", lat:32.100, lon:35.554, type:"river",
