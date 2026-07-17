@@ -1825,6 +1825,161 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   2 SAMUEL 9 — David restores Mephibosheth
+   ============================================================ */
+"10:9": {
+  era: {
+    title: "ca. 993 BC — David restores Mephibosheth, keeping his oath to Jonathan",
+    sub: "Iron Age IIA · Jerusalem and Lo-debar in Gilead · covenant loyalty (hesed) kept a generation later",
+    badges: ["Iron Age IIA", "United monarchy", "Covenant loyalty (hesed)", "≈3,019 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "With his wars settled and his own house established, David asks a question the narrative has been waiting a generation to answer: 'Is there still anyone left of the house of Saul, that I may show him kindness for Jonathan's sake?' Word reaches him of Ziba, a former servant of Saul's household, who is summoned and confirms it — Jonathan has a surviving son, crippled in both feet since childhood (a fall during his nurse's panicked flight after Gilboa, 2 Sam 4:4), living far from any royal notice in the house of Machir son of Ammiel at Lo-debar in Gilead. David sends for him. Mephibosheth arrives, falls on his face, and braces for the fate that usually meets a defeated dynasty's heir: 'What is your servant, that you should look on a dead dog such as I?' Instead David restores to him all the land that had belonged to Saul, and — the greater gift — seats him permanently at the king's own table, 'like one of the king's sons,' for the rest of his life. Ziba, with his fifteen sons and twenty servants, is appointed to farm that land and bring in its produce so that Mephibosheth's household is provided for, while Mephibosheth himself, lame in both feet, eats always at David's table in Jerusalem — the chapter closing on the exact image its opening question was reaching for: mercy instead of the usual purge.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"David's court, where Ziba is questioned and Mephibosheth is brought to eat permanently at the king's table (vv. 2-13)" },
+    { id:"lodebar",   role:"The obscure Gileadite town where Mephibosheth has been hidden away in Machir son of Ammiel's house since Saul's dynasty fell (vv. 4-5)" },
+    { id:"mahanaim",  role:"Nearby former seat of Ish-bosheth's rival throne — the political shadow that made Lo-debar's obscurity Mephibosheth's safety for years (contextual backdrop)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"lodebar", label:"David's men fetch Mephibosheth from hiding", km:75,
+      note:"Having learned from Ziba exactly where Jonathan's son is living, David sends to bring him from Machir's house at Lo-debar in Gilead — a message that could just as easily have been an execution order, and Mephibosheth clearly expects it might be (vv. 4-6)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"'Is there still anyone left of the house of Saul?'", av:"king",
+      desc:"David's opening question looks back to his oath with Jonathan — 'you shall not cut off your steadfast love from my house forever' (1 Sam 20:14-15) — and forward to a court custom no ancient Near Eastern king was expected to keep: hunting down a rival dynasty's heir usually meant eliminating him, not asking after him (v. 1)." },
+    { x:0.2, type:"person", label:"Ziba is summoned and names Jonathan's son", av:"official",
+      desc:"Ziba, a former servant of Saul's household with fifteen sons and twenty servants of his own (v. 10), is brought before David and answers the question no one else could: 'There is still a son of Jonathan; he is crippled in his feet' (v. 3)." },
+    { x:0.35, type:"person", label:"Found hiding at Lo-debar, in Machir's house", av:"youth",
+      desc:"Ziba names the place precisely — the house of Machir son of Ammiel at Lo-debar, a Gileadite town obscure enough that a fallen dynasty's last male heir could vanish into it for years (v. 4)." },
+    { x:0.5, type:"person", label:"'A dead dog such as I'", av:"youth",
+      desc:"Summoned to Jerusalem and falling on his face before the king, Mephibosheth braces for the fate that meets defeated royal lines: 'What is your servant, that you should look on a dead dog such as I?' (v. 8) — the same self-description Abishai later uses for a live enemy (2 Sam 16:9), making Mephibosheth's fear of David entirely reasonable by the era's normal rules." },
+    { x:0.65, type:"person", label:"David restores Saul's land and seats him at the table", av:"king",
+      desc:"'I will restore to you all the land of Saul your father, and you shall eat at my table always' (v. 7) — David's kindness is not a pension but a permanent, visible place in the royal household, 'like one of the king's sons' (v. 11)." },
+    { x:0.8, type:"person", label:"Ziba appointed to farm the land", av:"official",
+      desc:"'You and your sons and your servants shall till the land for him and shall bring in the produce, that your master's grandson may have bread to eat' — Ziba's fifteen sons and twenty servants become the labor force securing an income Mephibosheth, lame in both feet, could never work himself (vv. 9-10)." },
+    { x:0.93, type:"object", label:"The king's table, kept for life",
+      desc:"The chapter's closing note repeats itself twice for emphasis (vv. 11, 13): Mephibosheth eats always at David's table in Jerusalem, like one of the king's own sons — and 'was lame in both his feet,' the narrator's last word tying the mercy directly back to the disability that has defined him since chapter 4." }
+  ],
+  environment: {
+    chips: ["A king who asks instead of purges", "Hesed — covenant loyalty kept a generation later", "Transjordan obscurity as survival", "A rival heir seated, not eliminated", "Farmland worked by another's hands", "'Like one of the king's own sons'"],
+    text: "Ancient Near Eastern successions were rarely this gentle: a new dynasty typically hunted down every surviving male of the old one, and a crippled grandson of the previous king posed exactly the kind of quiet rallying-point a suspicious ruler would remove rather than feed. David's choice instead — public land restored, a permanent seat at his own table — reads against that background as a deliberate, visible act of hesed, the covenant loyalty he swore to Jonathan while both were still young men at Saul's court (1 Sam 20:14-17, 42). Lo-debar itself was obscure enough that its exact site is still unlocated by archaeologists; it lay somewhere in Gilead near Mahanaim, the same hill country where Ish-bosheth's rival throne had stood a few years earlier (2 Sam 2:8-9) — precisely the kind of overlooked corner where a nurse fleeing with an injured five-year-old could disappear from a new king's notice for years. Eating permanently 'at the king's table' was itself a recognizable court institution across the ancient world, both an honor and a leash: the honored guest was fed, housed, and watched, all at once."
+  },
+  objectsExtra: [],
+  peopleExtra: ["david","mephibosheth","ziba","machir","jonathan"],
+  culture: [
+    { title:"Hesed — the covenant word behind the whole chapter", icon:"🤝",
+      text:"'Kindness' (vv. 1, 3, 7) translates hesed, covenant loyalty that outlasts the person who first earned it — the same word underlying Ruth's devotion to Naomi and God's own covenant faithfulness to Israel. David's search for 'anyone left of the house of Saul' is framed explicitly as keeping an old oath (1 Sam 20:14-17), not political calculation after the fact — though the political effect (a watched, provided-for rival heir rather than a hidden, resentful one) is real all the same." },
+    { title:"'A dead dog such as I' — reading the fear correctly", icon:"🐕",
+      text:"Mephibosheth's self-description (v. 8) is not false modesty; it is the accurate assessment of a man who has spent his whole adult life expecting exactly what ancient successions usually delivered. The same idiom appears on the lips of David's own men describing a live threat worth killing (2 Sam 16:9; 1 Sam 24:14) — Mephibosheth is naming himself as someone it would cost David nothing to eliminate, which is precisely what makes David's answer remarkable." },
+    { title:"Eating at the king's table — honor and surveillance in one gesture", icon:"🍽️",
+      text:"Permanent table-fellowship with a monarch was a recognized ancient Near Eastern institution for managing exactly this situation: a rival claimant kept visibly fed and housed at court, rather than left to build a following in exile. The chapter states the arrangement twice (vv. 11, 13) as if underlining it — Mephibosheth's own farmland, worked by Ziba's household, funds an income he never has to touch himself; his actual daily bread comes from David's own table in Jerusalem." },
+    { title:"Lame in both feet — the detail the chapter keeps returning to", icon:"🦵",
+      text:"2 Samuel 4:4 already told readers how it happened: Jonathan's death at Gilboa sent his nurse fleeing with the five-year-old boy, and in her hurry she dropped him, lame ever after. Chapter 9 repeats the detail three times (vv. 3, 6, 13), never letting the reader forget that this is not a story about restoring a capable prince to influence, but about a king keeping faith with someone who could offer him nothing back." }
+  ],
+  crossRefs: [
+    { group:"The oath this chapter keeps", refs:[
+      { r:"1 Samuel 20:14-17", note:"Jonathan's dying request: 'do not cut off your steadfast love from my house forever'" },
+      { r:"1 Samuel 20:42", note:"David and Jonathan's parting oath, sworn 'in the name of the LORD'" } ]},
+    { group:"Mephibosheth's story before and after", refs:[
+      { r:"2 Samuel 4:4", note:"how Mephibosheth became lame — the nurse's flight after Gilboa" },
+      { r:"2 Samuel 16:1-4", note:"Ziba slanders Mephibosheth to David during Absalom's revolt, and is given the land instead" },
+      { r:"2 Samuel 19:24-30", note:"Mephibosheth's own account of the slander, and David's half-measure of splitting the land between the two" },
+      { r:"2 Samuel 21:7", note:"David spares Mephibosheth alone when handing over Saul's other descendants to the Gibeonites, 'because of the oath of the LORD... between David and Jonathan'" } ]},
+    { group:"The same self-description elsewhere", refs:[
+      { r:"1 Samuel 24:14", note:"David himself once used 'dead dog' language of his own worth, before Saul" },
+      { r:"2 Samuel 16:9", note:"Abishai calls a live, cursing enemy 'this dead dog' — the ordinary use of the phrase" } ]},
+    { group:"Hesed elsewhere in David's story", refs:[
+      { r:"Ruth 1:8", note:"the same covenant-loyalty word (hesed) describing Ruth and Orpah's devotion" },
+      { r:"2 Samuel 2:5-6", note:"David commends the men of Jabesh-gilead's hesed toward Saul's body in almost identical language" } ]}
+  ]
+},
+
+/* ============================================================
+   2 SAMUEL 10 — Humiliated envoys and the Ammonite-Aramean war
+   ============================================================ */
+"10:10": {
+  era: {
+    title: "ca. 993 BC — humiliated envoys, hired Arameans, and David's victory at Helam",
+    sub: "Iron Age IIA · Rabbah, Jericho, Helam and the Aramean north · the war that opens into the siege of Rabbah",
+    badges: ["Iron Age IIA", "United monarchy", "Ammonite-Aramean coalition war", "≈3,019 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "When Nahash king of the Ammonites dies, David sends servants to console his son Hanun, 'as his father showed kindness to me' — but Hanun's princes convince him the envoys are spies sent to scout the city before an invasion, and Hanun shaves off half of each man's beard and cuts their garments off at the hip, sending them home in public disgrace. David, told of the shame before the men reach Jerusalem, sends word for them to remain at Jericho until their beards grow back rather than parade the humiliation through his own capital. Realizing they have made themselves 'a stench' to David, the Ammonites hire a coalition purely with silver: twenty thousand Aramean foot soldiers from Beth-rehob and Zobah, a thousand men from the king of Maacah, and twelve thousand from the land of Tob. Joab leads Israel out to meet them, and finding Arameans in the open field and Ammonites drawn up at the entrance of Rabbah's own gate, splits his forces — he takes the choice troops against the Arameans himself, and gives the rest to his brother Abishai against Ammon, each brother swearing to reinforce the other if either line breaks. 'Be of good courage, and let us be courageous for our people... and may the LORD do what seems good to him,' Joab tells his men before the advance; the Arameans flee before him, and seeing it, the Ammonites flee before Abishai back inside the city, ending the engagement. Joab returns to Jerusalem, but Hadadezer will not accept the loss: he summons Arameans 'from beyond the Euphrates' and musters them at Helam under Shobach, the commander of his army. This time David does not delegate the campaign — he gathers all Israel, crosses the Jordan himself, and defeats them at Helam, killing Shobach and seven hundred charioteers and forty thousand horsemen. Every king who had served Hadadezer makes peace with Israel and becomes subject to it, and the Arameans, thoroughly beaten, are 'afraid to save the Ammonites anymore' — leaving Ammon alone to face the siege that follows in the next chapter.",
+  focusPlace: "rabbah",
+  places: [
+    { id:"jerusalem", role:"Where David sends his condolence envoys to Hanun and where Joab returns after routing the Ammonite-Aramean coalition (vv. 1-2, 14)" },
+    { id:"rabbah",    role:"The Ammonite capital where Hanun's court humiliates David's envoys and where the Ammonites make their stand at the city gate against Abishai (vv. 4, 8)" },
+    { id:"jericho",   role:"Where David tells the humiliated envoys to stay, out of public shame, until their beards grow back (v. 5)" },
+    { id:"zobah",     role:"Hadadezer's Aramean kingdom, source of the hired mercenaries and, later, of the regrouped army David meets at Helam (vv. 6, 16)" },
+    { id:"bethrehob", role:"Aramean city-state hired by Ammon along with Zobah for 20,000 foot soldiers (v. 6)" },
+    { id:"maacah",    role:"Small Aramean kingdom whose king contributes 1,000 hired men to Ammon's coalition (v. 6)" },
+    { id:"tob",       role:"Aramean territory east of Gilead supplying 12,000 of the hired troops (vv. 6, 8)" },
+    { id:"helam",     role:"Where David personally crosses the Jordan and defeats Hadadezer's regrouped Arameans, killing their commander Shobach (vv. 16-18)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"rabbah", label:"David's condolence envoys sent to Hanun, and humiliated", km:69,
+      note:"David sends servants to console Hanun on his father Nahash's death, 'as his father showed kindness to me' — Hanun's princes convince him they are spies, and he shaves off half each man's beard and cuts their garments off at the hip before sending them away (vv. 1-4)." },
+    { from:"rabbah", to:"jericho", dashed:true, label:"The humiliated envoys sent to wait at Jericho", km:48,
+      note:"Told of the men's shame, David sends word for them to stay at Jericho until their beards grow back rather than return to Jerusalem in humiliation (v. 5)." },
+    { from:"jerusalem", to:"rabbah", dashed:true, label:"Joab and Abishai march out to meet the hired coalition", km:69,
+      note:"Realizing they have made themselves 'a stench' to David, the Ammonites hire 33,000 Aramean and allied troops; Joab leads Israel out, splitting his forces so he faces the Arameans in the open field while Abishai faces the Ammonites drawn up at Rabbah's gate (vv. 6-9)." },
+    { from:"jerusalem", to:"helam", label:"David crosses the Jordan himself to finish Hadadezer's regrouped army", km:120,
+      note:"When Hadadezer summons Arameans 'from beyond the Euphrates' under his commander Shobach, David crosses the Jordan personally and defeats them at Helam, killing Shobach — after which the Arameans make peace and refuse to help Ammon again (vv. 15-19)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Hanun's condolence embassy humiliated", av:"king",
+      desc:"David's servants come only to console Hanun over his father Nahash's death, 'as his father showed kindness to me' (v. 2); Hanun's princes convince him otherwise — 'has David not sent his servants to search the city and spy it out?' — and Hanun shaves half of each envoy's beard and cuts their garments off at the hip before sending them away in public shame (vv. 1-4)." },
+    { x:0.16, type:"person", label:"David shelters the humiliated men at Jericho", av:"king",
+      desc:"'The men were greatly ashamed. When it was told David... the king said, Remain at Jericho until your beards have grown, and then return' (v. 5) — a small mercy that also keeps the insult out of the capital's sight." },
+    { x:0.3, type:"person", label:"Ammon hires a 33,000-man Aramean coalition", av:"warrior",
+      desc:"'When the Ammonites saw that they had become a stench to David, [they] sent and hired the Arameans of Beth-rehob and the Arameans of Zobah, twenty thousand foot soldiers, and the king of Maacah with a thousand men, and the men of Tob, twelve thousand men' (v. 6) — a coalition assembled purely with silver, not alliance." },
+    { x:0.44, type:"person", label:"Joab splits his army: Abishai against Ammon, himself against Aram", av:"warrior",
+      desc:"Seeing enemies on two fronts — Arameans in the open field, Ammonites drawn up at the entrance of Rabbah's gate — Joab picks the best of Israel's troops for himself against the Arameans and gives the rest to his brother Abishai against Ammon, with a pact to reinforce whichever line breaks first (vv. 8-10)." },
+    { x:0.58, type:"person", label:"'May the LORD do what seems good to him'", av:"warrior",
+      desc:"Joab's charge before the battle — 'let us be courageous for our people, and for the cities of our God, and may the LORD do what seems good to him' (v. 12) — precedes a rout on both fronts: the Arameans flee before Joab, and seeing it, the Ammonites flee before Abishai back inside the city, ending the day's fighting (vv. 13-14)." },
+    { x:0.72, type:"person", label:"Hadadezer regroups Arameans from beyond the Euphrates", av:"king",
+      desc:"Refusing to accept the defeat, Hadadezer sends for Arameans 'beyond the Euphrates' and musters them at Helam under Shobach, the commander of his army (v. 16) — turning a single lost battle into a second, larger campaign." },
+    { x:0.86, type:"person", label:"David crosses the Jordan himself and kills Shobach at Helam", av:"king",
+      desc:"This time David does not send Joab alone: 'David gathered all Israel together and crossed the Jordan and came to Helam' — Israel kills seven hundred of the Arameans' charioteers and forty thousand horsemen, and strikes down Shobach, the commander of their army, who dies there (vv. 17-18)." },
+    { x:0.96, type:"object", label:"Aram makes peace and abandons Ammon",
+      desc:"'When all the kings who were servants of Hadadezer saw that they had been defeated by Israel, they made peace with Israel and became subject to them. So the Arameans were afraid to save the Ammonites anymore' (v. 19) — the coalition that started the chapter dissolves, leaving Ammon to face the siege of Rabbah alone in the next chapter." }
+  ],
+  environment: {
+    chips: ["Diplomatic kindness misread as espionage", "Public humiliation as a declaration of war", "An army bought with silver, not loyalty", "Two fronts, one mutual-aid pact", "'May the LORD do what seems good to him'", "A hired coalition that dissolves after one defeat"],
+    text: "Beards carried enormous social weight across the ancient Near East — a mark of adult male dignity so serious that shaving another man's beard by force was itself recognized almost as an act of war, and cutting a man's robe off at the hip left him publicly indecent on top of it; David's response, sending the envoys to wait at Jericho rather than parade their shame through Jerusalem, is a small but telling act of care folded into a chapter that is mostly about consequences. The coalition Ammon assembles is geographically wide but thin: Beth-rehob and Zobah in the far north near the Jordan's headwaters, Maacah in the Hermon foothills, and Tob east of Gilead — a patchwork of hired Aramean states rather than a single unified kingdom, which is exactly why Joab's simple two-front tactic, each brother reinforcing the other, is enough to unravel it in a single engagement. Hadadezer's second attempt, mustering reinforcements 'from beyond the Euphrates,' shows how seriously Zobah took the loss — and how far David now had to march to finish it, crossing the Jordan personally rather than delegating the whole campaign to his general, exactly as 2 Samuel 8 already summarized this same war's final outcome in miniature."
+  },
+  objectsExtra: ["sword","spear"],
+  peopleExtra: ["david","joab","abishai","hadadezer","hanun","nahash","shobach"],
+  culture: [
+    { title:"A shaved beard as an act of war", icon:"🪒",
+      text:"In the ancient Near East a man's beard signified adult dignity and standing; forcibly shaving it — as Hanun does to half of each envoy's face — was a calculated public insult, not casual mockery, and ancient readers would have understood immediately why David treated it as grounds for war rather than a diplomatic embarrassment to shrug off. Isaiah later uses forced shaving as an image of total degradation for a conquered people (Isa 7:20), the same cultural weight this chapter assumes from the start." },
+    { title:"Garments cut off at the hip", icon:"👖",
+      text:"Cutting the envoys' robes off at the hip (v. 4) left them exposed in public — a second, compounding humiliation on top of the beard, calculated to make the ambassadors an object of ridicule for the whole journey home. Together the two acts turn a diplomatic mission into a walking insult against David's entire court, which is exactly how both Hanun's princes and David himself read it." },
+    { title:"An army built on silver, not loyalty", icon:"💰",
+      text:"Unlike Hadadezer's earlier campaign in 2 Samuel 8, where Aram-Damascus came to his aid out of alliance, the coalition here is explicitly hired (v. 6) — paid mercenaries from four separate Aramean territories with no stake in Ammon's cause beyond payment. It is one likely reason the coalition collapses so completely once the battle turns: soldiers paid to show up have far less reason to die holding a line than soldiers defending their own land." },
+    { title:"Two brothers, one battle plan", icon:"⚔️",
+      text:"Joab's tactical solution — split the army, take the tougher Aramean front himself, give Abishai the Ammonites, and swear mutual reinforcement if either line breaks (vv. 9-11) — reflects the same trusted partnership visible throughout their careers (2 Sam 2:24; 3:30; 18:2), even as Joab's harder edges elsewhere (the murders of Abner and Absalom) sit uneasily beside moments like this one, where his instincts are sound and his brother's life is genuinely at stake alongside his own." }
+  ],
+  crossRefs: [
+    { group:"What led here", refs:[
+      { r:"2 Samuel 8:3-8", note:"Hadadezer of Zobah's earlier defeat by David — the grudge this chapter's second campaign settles" },
+      { r:"1 Samuel 11:1-11", note:"Nahash's earlier siege of Jabesh-gilead — the same Ammonite king whose death opens this chapter" } ]},
+    { group:"Where this war leads", refs:[
+      { r:"2 Samuel 11:1", note:"'in the spring... David sent Joab... and they besieged Rabbah' — this chapter's war becomes next chapter's siege" },
+      { r:"2 Samuel 12:26-31", note:"Rabbah finally falls and the war closes a chapter later" } ]},
+    { group:"Beards and public shame elsewhere", refs:[
+      { r:"Isaiah 7:20", note:"forced shaving as a prophetic image of a nation's total humiliation" },
+      { r:"Leviticus 19:27", note:"Israel's own priestly law against cutting the edges of the beard, in a different context" } ]},
+    { group:"Joab and Abishai's partnership", refs:[
+      { r:"2 Samuel 2:18-24", note:"the brothers' first joint campaign, against Abner at Gibeon's pool" },
+      { r:"2 Samuel 21:15-17", note:"Abishai rescues David himself from a Philistine giant at Gob" } ]},
+    { group:"1 Chronicles' parallel account", refs:[
+      { r:"1 Chronicles 19:1-19", note:"the Chronicler's retelling of this same war, with troop totals matching closely and Shobach spelled 'Shophach'" } ]}
+  ]
+},
+
+/* ============================================================
    2 SAMUEL 11 — David, Bathsheba, and the death of Uriah
    ============================================================ */
 "10:11": {
