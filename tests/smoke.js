@@ -164,7 +164,7 @@ function check(name, cond, extra) {
     "1 Samuel 8|9:8", "1 Samuel 9|9:9", "1 Samuel 10|9:10",
     "1 Samuel 24|9:24", "1 Samuel 25|9:25",
     "2 Samuel 1|10:1", "2 Samuel 2|10:2", "2 Samuel 3|10:3", "2 Samuel 4|10:4", "2 Samuel 5|10:5", "2 Samuel 6|10:6", "2 Samuel 7|10:7",
-    "2 Samuel 8|10:8", "2 Samuel 11|10:11", "2 Samuel 12|10:12", "2 Samuel 15|10:15", "2 Samuel 18|10:18",
+    "2 Samuel 8|10:8", "2 Samuel 9|10:9", "2 Samuel 10|10:10", "2 Samuel 11|10:11", "2 Samuel 12|10:12", "2 Samuel 15|10:15", "2 Samuel 18|10:18",
     "2 Samuel 24|10:24",
     "Genesis 1|1:1", "Genesis 2|1:2", "Genesis 3|1:3"];
   for (const entry of CURATED_SWEEP) {
