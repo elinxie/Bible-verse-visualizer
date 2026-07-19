@@ -2129,6 +2129,159 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   2 SAMUEL 13 — Amnon's rape of Tamar; Absalom's revenge
+   ============================================================ */
+"10:13": {
+  era: {
+    title: "ca. 991-989 BC — Amnon's rape of Tamar; Absalom's silent hatred, revenge, and flight to Geshur",
+    sub: "Iron Age IIA · Jerusalem and Baal-hazor · the household violence Nathan's rebuke already foretold",
+    badges: ["Iron Age IIA", "United monarchy", "Nathan's word fulfilled", "≈3,017 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Amnon, David's firstborn son by Ahinoam of Jezreel, falls so obsessively in love with his own half-sister Tamar — Absalom's full sister, David's daughter by Maacah of Geshur — that he makes himself ill over her, certain nothing can come of loving a virgin daughter of the king. His cousin Jonadab, 'a very crafty man,' supplies the plan: feign sickness, and ask David to send Tamar to prepare food by hand at his bedside. David, deceived, sends her. Once alone with her, Amnon seizes her; Tamar's plea — 'do not violate me, for such a thing is not done in Israel... speak to the king, for he will not keep me from you' — goes unheard, and he overpowers her by force. The instant it is over, love curdles into something worse: 'Amnon hated her with a very great hatred, so that the hatred with which he hated her was greater than the love with which he had loved her,' and he has her thrown out and the door bolted, compounding the assault with public disgrace. Tamar, wearing the ornamented, long-sleeved robe that marked the king's virgin daughters, tears it, puts ashes on her head, and goes away crying aloud. Her brother Absalom finds her, tells her to be quiet since Amnon is her own brother, and takes her into his own house, where she lives on 'a desolate woman.' David hears everything and is furious — but punishes no one. Absalom says nothing to Amnon either way, 'for Absalom hated Amnon, because he had violated his sister Tamar' — and waits, in total silence, for two full years. Then he hosts a sheep-shearing feast at Baal-hazor near Ephraim and, after pressing his reluctant father twice, secures Amnon's attendance along with all the king's other sons. Absalom has already briefed his own servants: watch for the moment Amnon's heart is merry with wine, then strike him down on command. They do exactly that. In the panic that follows, a garbled report reaches David that Absalom has slaughtered every one of his sons; the king tears his clothes and collapses to the ground in grief, before Jonadab — the same man who engineered the original scheme — coolly corrects the record: only Amnon is dead, and Absalom has been planning this since the day of the rape. Absalom flees north across the border to Geshur, to his own maternal grandfather King Talmai, and stays three years while David mourns his dead son daily — until, the chapter's last line notes, the king's grief finally cools into something else: 'the spirit of the king longed to go out to Absalom, for he was comforted about Amnon, since he was dead.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"David's court, Amnon's house where the rape takes place, and Absalom's house where Tamar lives afterward as 'a desolate woman' (vv. 1-22)" },
+    { id:"baal-hazor", role:"The hill-country sheep-shearing site near Ephraim where Absalom hosts all the king's sons and has his men murder Amnon (vv. 23-29)" },
+    { id:"geshur", role:"Absalom's refuge for three years after the murder, in the court of his own maternal grandfather King Talmai (vv. 37-38)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"baal-hazor", label:"All the king's sons ride out to Absalom's sheep-shearing feast", km:23,
+      note:"After pressing David twice, Absalom secures leave for Amnon and 'all the king's sons' to attend — the gathering he has spent two silent years planning (vv. 23-27)." },
+    { from:"baal-hazor", to:"jerusalem", dashed:true, label:"The surviving sons flee home on a false report that all of them are dead", km:23,
+      note:"'Each mounted his mule and fled' the moment Amnon falls; a garbled first report reaches David that Absalom has killed every one of his sons before Jonadab corrects it (vv. 29-33)." },
+    { from:"baal-hazor", to:"geshur", dashed:true, label:"Absalom flees to his grandfather Talmai's court at Geshur", km:107,
+      note:"'Absalom fled and went to Talmai the son of Ammihud, king of Geshur'; he remains there three years while David mourns his dead son daily (vv. 37-38)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Amnon's obsession with Tamar", av:"warrior",
+      desc:"David's firstborn son 'made himself ill because of his sister Tamar,' certain that nothing could come of loving a virgin daughter of the king — the desire that sets the whole chapter in motion (vv. 1-2)." },
+    { x:0.15, type:"person", label:"Jonadab's 'very crafty' plan", av:"official",
+      desc:"Amnon's cousin Jonadab, 'a very crafty man,' supplies the ruse: feign sickness, and ask that Tamar be sent to prepare food by hand at his bedside (vv. 3-5)." },
+    { x:0.26, type:"person", label:"David unwittingly sends Tamar into the trap", av:"king",
+      desc:"Deceived by the staged illness, David sends his own daughter to Amnon's house to bake cakes in his sight — the very access the scheme was built to secure (vv. 6-9)." },
+    { x:0.37, type:"person", label:"'Do not do this outrageous thing'", av:"woman",
+      desc:"Tamar's plea as Amnon seizes her — 'such a thing is not done in Israel... speak to the king, for he will not keep me from you' — goes unheard; he overpowers her by force (vv. 11-14)." },
+    { x:0.48, type:"person", label:"Hatred greater than the love had been", av:"warrior",
+      desc:"'Amnon hated her with a very great hatred... Get up, go!' — the assault is compounded at once by a second cruelty, casting her out and bolting the door behind her (vv. 15-17)." },
+    { x:0.58, type:"object", label:"Tamar's torn robe and ashes",
+      desc:"Wearing the long, ornamented robe that marked the king's virgin daughters, Tamar tears it, puts ashes on her head, and goes away crying aloud — the visible sign of an assault everyone will now see (vv. 18-19)." },
+    { x:0.68, type:"person", label:"Absalom's silence: 'neither good nor bad'", av:"warrior",
+      desc:"Absalom takes his desolate sister into his own house and says nothing to Amnon at all, 'for Absalom hated Amnon, because he had violated his sister Tamar' — a grievance he nurses in total silence for two full years (vv. 20-22)." },
+    { x:0.8, type:"person", label:"The sheep-shearing feast at Baal-hazor", av:"warrior",
+      desc:"Absalom hosts all the king's sons at a sheep-shearing feast and briefs his own servants in advance: 'when Amnon's heart is merry with wine... strike Amnon, then kill him... have I not commanded you? Be courageous and valiant' (vv. 23-28)." },
+    { x:0.92, type:"person", label:"Absalom flees; David mourns; the king's heart longs for him", av:"king",
+      desc:"After the panic and Jonadab's correction, Absalom escapes to Geshur for three years while David grieves daily — until 'the spirit of the king longed to go out to Absalom, for he was comforted about Amnon, since he was dead' (vv. 34-39)." }
+  ],
+  environment: {
+    chips: ["A robe reserved for the king's virgin daughters", "Two years of engineered silence", "A sheep-shearing feast as cover for murder", "Mules as royal children's mounts", "Baal-hazor, on Ephraim's border", "Refuge across a foreign border"],
+    text: "The 'long robe with sleeves' Tamar wears and tears (v. 18) uses the identical Hebrew phrase — ketonet passim — as Joseph's coat centuries earlier (Gen 37:3), marking her as royalty even in the act of being violated and disgraced. Sheep-shearing time was traditionally a season of large, loud, wine-heavy gatherings — the same setting nearly turns violent in 1 Samuel 25's feast at Nabal's house — which is exactly the cover Absalom needs: a crowd, plenty of drink, and a house full of armed servants who won't be questioned for one abrupt order given at the right moment. Baal-hazor sits in the hill country on Ephraim's southern border, roughly a day's ride north of Jerusalem; Geshur lies far further north and east, across the Jordan in the Golan highlands — close enough for Absalom's own mother's family to shelter him, far enough that David's arm could not easily reach him there."
+  },
+  objectsExtra: ["coat-of-many-colors", "mule"],
+  peopleExtra: ["david", "absalom", "amnon", "tamar-david", "jonadab", "talmai"],
+  culture: [
+    { title:"The 'ketonet passim' — a royal virgin daughter's robe", icon:"👗",
+      text:"Tamar's torn garment (v. 18) is described with the same rare Hebrew phrase used for Joseph's famous coat (Gen 37:3, 23) — a long, sleeved robe marking privileged, unmarried status rather than manual labor. Its tearing here functions exactly as Joseph's bloodied coat once did: visible, undeniable proof brought before others of a violence that happened where no one else could see it." },
+    { title:"A sheep-shearing feast's violent precedent", icon:"🐑",
+      text:"Shearing season drew large households together for days of wine, feasting, and loosened discipline — precisely the setting where 1 Samuel 25 shows David himself nearly massacring Nabal's entire household in anger before Abigail intervenes. Absalom exploits the same conditions deliberately: a boisterous, drink-heavy crowd is the ideal environment for a single scripted order to pass unnoticed until it is already done." },
+    { title:"Two years of silence, and what it cost", icon:"🤐",
+      text:"Absalom's patience is not restraint but calculation — Jonadab's aside in verse 32 reveals that Absalom's intent to kill Amnon was fixed 'from the day he violated his sister Tamar,' meaning two full years of ordinary court life masked a settled plan the whole time. David's own inaction (he is 'very angry,' v. 21, but disciplines no one) leaves the wrong entirely unaddressed by the throne, which is exactly the vacuum Absalom's private justice fills." },
+    { title:"Geshur — a refuge with family standing on both sides", icon:"🏔️",
+      text:"Absalom's flight is not into a hostile foreign court but into his own mother's household: Maacah, David's wife and Absalom's mother, was herself the daughter of Talmai, king of Geshur (2 Sam 3:3) — making the fugitive prince's grandfather also his protector. The same border kingdom later supplies the vow Absalom claims as cover when he actually launches his coup from Hebron (2 Sam 15:8)." }
+  ],
+  crossRefs: [
+    { group:"The sword Nathan already promised", refs:[
+      { r:"2 Samuel 12:10-11", note:"Nathan's word after Bathsheba and Uriah: 'the sword shall never depart from your house... I will raise up evil against you out of your own house' — this chapter is its first fulfillment" } ]},
+    { group:"The family this tears apart", refs:[
+      { r:"2 Samuel 3:2-3", note:"Amnon (by Ahinoam) and Absalom (by Maacah, Talmai's daughter) listed among David's sons born at Hebron — half-siblings by different mothers, the fault line this chapter runs along" } ]},
+    { group:"The same royal robe elsewhere", refs:[
+      { r:"Genesis 37:3, 23", note:"Joseph's 'coat of many colors' — the identical Hebrew phrase (ketonet passim) used for Tamar's torn robe" } ]},
+    { group:"A shearing feast's earlier near-violence", refs:[
+      { r:"1 Samuel 25:2-11, 36-38", note:"Nabal's own sheep-shearing feast, where David is barely talked out of a massacre by Abigail — the same wine-heavy setting Absalom later weaponizes" } ]},
+    { group:"Where this leads", refs:[
+      { r:"2 Samuel 14:1-33", note:"Joab's scheme with the wise woman of Tekoa secures David's leave for Absalom's return from Geshur" },
+      { r:"2 Samuel 15:7-12", note:"years later, the reconciled Absalom launches his own coup from Hebron" } ]}
+  ]
+},
+
+/* ============================================================
+   2 SAMUEL 14 — the wise woman of Tekoa; Absalom's return
+   ============================================================ */
+"10:14": {
+  era: {
+    title: "ca. 986-984 BC — the wise woman of Tekoa's parable secures Absalom's return; reconciled after two more years of silence",
+    sub: "Iron Age IIA · Tekoa, Geshur, and Jerusalem · a scripted parable, a famous prince's beauty, and a father's kiss",
+    badges: ["Iron Age IIA", "United monarchy", "Absalom recalled from exile", "≈3,010 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Joab, reading correctly that David's grief over Amnon has curdled into a suppressed longing for the exiled Absalom, engineers a way to give the king moral cover for recalling him. He sends to Tekoa for a wise woman, dresses her as a long-time mourner, and scripts her performance down to the words. Before David she plays a widow whose two sons fought in a field with no one to part them; one killed the other, and now her whole clan demands she hand over the surviving son to be executed for his brother's blood — which would extinguish her last ember and leave her dead husband no name or heir at all. David promises to intervene and swears an oath that not one hair of the son's head will fall to the ground. Only then does the woman turn the parable on the king himself, exactly as Nathan's ewe-lamb story once did over Bathsheba and Uriah: 'why then have you planned such a thing against the people of God?... we must all die; we are like water spilled on the ground, which cannot be gathered up again' — and by refusing to bring his own banished son home, the king who has just sworn to spare a stranger's son has convicted himself out of his own mouth. David sees Joab's hand behind the whole performance at once and grants exactly what the parable was built to extract: Absalom may return. Joab himself travels to Geshur and brings him back to Jerusalem — but David's order stops well short of full restoration: 'let him dwell apart in his own house; he is not to come into my presence.' Absalom lives two more full years in the capital, physically home yet formally barred from his own father's sight, while the narrator pauses to describe him: no man in Israel was praised for his looks the way Absalom was, without blemish from the sole of his foot to the crown of his head, his famously heavy hair cut once a year and weighed at two hundred shekels by the king's own weight; three sons and a daughter — this Tamar named for his own ravaged sister — are born to him across these same years. When Joab twice ignores his summons, Absalom forces the issue the only way that reliably works on a busy general: he orders his servants to set Joab's neighboring barley field on fire. Furious, Joab finally comes in person, and Absalom tells him plainly to arrange an audience with the king or, if there is guilt in him, to let David put him to death outright rather than leave him in this half-status forever. Joab relays the demand; David summons his son, and the long estrangement ends in a single physical gesture — Absalom bows to the ground before the king, 'and the king kissed Absalom.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"tekoa", role:"Home of the wise woman Joab recruits and coaches to perform a scripted legal parable before David (vv. 1-3)" },
+    { id:"geshur", role:"Where Absalom has lived in exile under his grandfather Talmai for three years; Joab travels here to fetch him once David grants leave (v. 23)" },
+    { id:"jerusalem", role:"Where the parable is staged before David, where Absalom lives two more years barred from the king's presence, and where father and son finally reconcile (vv. 4-22, 24-33)" }
+  ],
+  journey: [
+    { from:"tekoa", to:"jerusalem", label:"Joab fetches a wise woman from Tekoa to perform his scripted parable", km:16,
+      note:"'Joab sent to Tekoa and brought from there a wise woman' and 'put the words in her mouth' before sending her in to the king (vv. 2-3)." },
+    { from:"jerusalem", to:"geshur", label:"Once David grants leave, Joab goes himself to bring Absalom home", km:126,
+      note:"'The king said to Joab, \"Behold now, I grant this; go, bring back the young man Absalom.\" And Joab arose and went to Geshur and brought Absalom to Jerusalem' (vv. 21, 23)." },
+    { from:"geshur", to:"jerusalem", dashed:true, label:"Absalom brought back — but barred from his father's presence for two more years", km:126,
+      note:"'Let him dwell apart in his own house; he is not to come into my presence' — Absalom returns to the capital physically, but not to reconciliation, for two full years (v. 24, 28)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Joab reads the king's heart", av:"official",
+      desc:"'Joab... perceived that the king's heart went out to Absalom' — the observation that sets Joab's whole scheme in motion, three years into Absalom's exile at Geshur (v. 1)." },
+    { x:0.14, type:"person", label:"A wise woman recruited from Tekoa, coached in her lines", av:"woman",
+      desc:"Joab dresses her as a woman who has mourned for many days and 'put the words in her mouth' before she ever approaches the king (vv. 2-3)." },
+    { x:0.25, type:"person", label:"The parable: a widow's one surviving son", av:"woman",
+      desc:"'Your servant had two sons, and they quarreled... and there was no one to separate them' — her fictional case of a clan demanding a surviving son's death threatens to 'quench my coal that is left' entirely (vv. 5-7)." },
+    { x:0.36, type:"person", label:"David's oath, and the trap it sets", av:"king",
+      desc:"'As the LORD lives, not one hair of your son shall fall to the ground' — David swears protection for a stranger's son moments before the parable turns and asks why he withholds the same mercy from his own (vv. 8-11)." },
+    { x:0.47, type:"person", label:"'We are like water spilled on the ground'", av:"woman",
+      desc:"'Why then have you planned such a thing against the people of God?... in giving this decision the king convicts himself' — the same trap-the-ruler-with-a-story device Nathan used over Bathsheba, now aimed at Absalom's exile (vv. 13-14)." },
+    { x:0.58, type:"person", label:"'Is the hand of Joab with you in all this?'", av:"king",
+      desc:"David sees through the performance at once and names its author; the woman confirms it outright — 'it was your servant Joab who commanded me' (vv. 18-20)." },
+    { x:0.68, type:"person", label:"Absalom recalled — but not received", av:"warrior",
+      desc:"Joab brings Absalom back from Geshur to Jerusalem, yet David's order draws a hard line: 'let him dwell apart in his own house; he is not to come into my presence' (vv. 23-24)." },
+    { x:0.78, type:"object", label:"Absalom's famous beauty and his yearly-cut hair",
+      desc:"'In all Israel there was no one so much to be praised for his handsome appearance as Absalom... his hair was heavy on him, so that he cut it... two hundred shekels by the king's weight' — a description that will matter again in the forest of Ephraim (vv. 25-26)." },
+    { x:0.9, type:"person", label:"A field set on fire, and a father's kiss", av:"warrior",
+      desc:"After two ignored summonses, Absalom has his servants torch Joab's neighboring barley field to force a meeting; Joab relays his demand for an audience, David summons him, and 'the king kissed Absalom' (vv. 29-33)." }
+  ],
+  environment: {
+    chips: ["A parable engineered to trap a king", "'Water spilled on the ground'", "Physically home, formally unseen", "Beauty measured head to foot", "Two hundred royal shekels of hair", "Arson as a forced audience"],
+    text: "Tekoa sits at the edge of the Judean wilderness south of Bethlehem, a sheep-and-shepherd town later also the home of the prophet Amos — a plausible source for a woman whose fictional legal case turns on shepherding's own hazards, sons quarreling 'in the field' with no one to separate them. Being formally excluded from 'seeing the king's face' while still living in the king's own city was a recognized diminished status in the ancient Near East, distinct from exile but far short of restoration — Absalom is home, and yet not home, for two full years. His hair, cut once a year and weighed at two hundred shekels by the royal standard (roughly 2.3 kg by common reckonings of that weight), functions as hyperbolic praise of a famously vain man's appearance, and sets up the grim irony of 2 Samuel 18:9, where that same hair is what finally traps him, defenseless, in the forest of Ephraim. Setting a neighbor's barley field on fire was a serious, legally recognized offense (cf. Exod 22:6) — Absalom's choice to commit it against Joab specifically, the second most powerful man in the kingdom, is less impulsive vandalism than a calculated, almost reckless escalation aimed at forcing exactly the audience it gets him."
+  },
+  objectsExtra: [],
+  peopleExtra: ["david", "joab", "absalom", "wise-woman-tekoa"],
+  culture: [
+    { title:"A parable within a parable — echoing Nathan's ewe lamb", icon:"⚖️",
+      text:"Joab's scheme deliberately reuses the device Nathan ran on David himself just two chapters earlier (2 Sam 12:1-7): present a fictional legal case, secure the king's own ruling on it, then reveal that the ruling condemns the king's own conduct. That David falls for the same trick twice says less about his discernment than about how effective the device is — and how easily a ruler's sense of justice for others can be turned back on his own household." },
+    { title:"'Not to come into my presence' — banishment without exile", icon:"👑",
+      text:"Barring someone from 'the king's face' while letting them live in the capital was a recognized diminished status across the ancient Near East — a formal demotion short of imprisonment or exile, but a public signal that full favor had not been restored. Its opposite, a summons back into the king's presence, functioned as an unmistakable act of restoration — which is exactly what Absalom finally forces in verse 33." },
+    { title:"Absalom's hair — beauty, vanity, and foreshadowing", icon:"💇",
+      text:"The narrator's aside about Absalom's unmatched looks and his hair's yearly weight (200 shekels) reads at first as simple praise, but the detail is planted for later use: the very hair that makes him legendary is what catches in the branches of an oak and leaves him hanging, helpless, in the forest of Ephraim when Joab finds him (2 Sam 18:9-15). Vanity and downfall share the same physical detail." },
+    { title:"Burning a field to force an audience", icon:"🔥",
+      text:"Arson against a neighbor's standing grain was a serious, legally recognized wrong in Israelite law (Exod 22:6 requires full restitution from whoever kindles such a fire) — which makes Absalom's tactic against Joab's own field less an impulsive tantrum than a calculated act of coercion, gambling that the offense would force a meeting rather than provoke retaliation. It works exactly as intended." }
+  ],
+  crossRefs: [
+    { group:"The parable device, reused", refs:[
+      { r:"2 Samuel 12:1-7", note:"Nathan's ewe-lamb parable over Bathsheba and Uriah — the same trap-the-king-with-a-story structure Joab's wise woman repeats here" },
+      { r:"1 Kings 20:38-42", note:"a prophet disguises himself and tells a fictional battlefield story to trap King Ahab into pronouncing his own sentence — the same device used on a different king" },
+      { r:"Judges 9:7-15", note:"Jotham's fable of the trees choosing a king, shouted at Shechem's citizens — an earlier use of story-as-indictment aimed at a ruling power" } ]},
+    { group:"Absalom's hair and his death", refs:[
+      { r:"2 Samuel 18:9-15", note:"caught by his own famous hair in the forest of Ephraim's branches, the detail planted here becomes the means of his death" } ]},
+    { group:"How Absalom got to Geshur in the first place", refs:[
+      { r:"2 Samuel 13:37-39", note:"Amnon's murder at Baal-hazor and the three-year flight to Talmai's court that this chapter's recall reverses" } ]},
+    { group:"What this reconciliation makes possible", refs:[
+      { r:"2 Samuel 15:1-12", note:"years later, the fully restored Absalom spends years courting Israel's loyalty at the gate before launching his own coup from Hebron" } ]},
+    { group:"Being barred from the king's presence, elsewhere", refs:[
+      { r:"2 Kings 25:27-30", note:"the exiled king Jehoiachin eventually granted a lifelong seat at the Babylonian king's own table — restoration to a ruler's presence as a recognizable act of favor in a very different setting" } ]}
+  ]
+},
+
+/* ============================================================
    2 SAMUEL 15 — Absalom's rebellion; David flees Jerusalem
    ============================================================ */
 "10:15": {
