@@ -3427,5 +3427,464 @@ BVV.CURATED = {
       { r:"Ruth 1:4, 22", note:"Ruth the Moabitess, ancestress of David, brought into Israel's story" },
       { r:"Judges 3:12-14; 10:7-9", note:"Moab and Ammon's later oppression of Israel" } ]}
   ]
+},
+
+/* ===== GENESIS 20 — Abraham, Sarah, and Abimelech of Gerar ===== */
+"1:20": {
+  era: {
+    title: "ca. 2066 BC — Abraham sojourns at Gerar",
+    sub: "Middle Bronze Age · Philistine border town · the sister-lie repeated · God warns a pagan king in a dream",
+    badges: ["Middle Bronze Age", "Sister-lie, second time", "A king rebuked in a dream", "Sarah spared again"]
+  },
+  timeOfDay: "day",
+  summary: "Abraham moves south to Gerar and again calls Sarah his sister, so King Abimelech takes her into his household (vv. 1-2). God warns Abimelech in a dream that he is a dead man for taking another man's wife; Abimelech, who has not touched her, protests his innocence and God confirms he acted in integrity, having kept him from sinning (vv. 3-6). Abimelech is told to restore Sarah and have Abraham pray for him, or die (v. 7). He confronts Abraham the next morning, terrified, and Abraham explains he feared for his life and that Sarah is in fact his half-sister as well as his wife (vv. 8-13). Abimelech gives Abraham sheep, oxen, servants, silver, and open land, and Abraham prays for him; God heals Abimelech's household, which had been struck barren over the matter (vv. 14-18).",
+  focusPlace: "gerar",
+  places: [
+    { id:"gerar", role:"Where Abraham sojourns and Abimelech rules — the whole chapter's setting (v. 1)" },
+    { id:"hebron", role:"The Mamre encampment Abraham has just left, moving south toward Gerar and Egypt's border region (v. 1)" }
+  ],
+  journey: [
+    { from:"hebron", to:"gerar", label:"South toward the Negev border", km:70,
+      note:"Abraham shifts his flocks south from Mamre toward Philistine territory on the edge of the Negev (v. 1)." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"'She is my sister' — again", av:"elder",
+      desc:"Abraham repeats the half-truth he used in Egypt (Gen 12), and Abimelech takes Sarah into his house (vv. 1-2)." },
+    { x:0.30, type:"person", label:"God warns Abimelech in a dream", av:"king",
+      desc:"'You are a dead man' — but God credits Abimelech's innocence and says he kept him from touching her (vv. 3-6)." },
+    { x:0.50, type:"person", label:"Abraham confronted, and explains", av:"elder",
+      desc:"Abimelech rebukes Abraham for the deception; Abraham admits fear for his life and that Sarah is his father's daughter, not his mother's (vv. 8-13)." },
+    { x:0.72, type:"object", label:"Restitution: flocks, silver, land",
+      desc:"Abimelech gives Abraham sheep, oxen, servants and a thousand pieces of silver, and invites him to settle anywhere in the land (vv. 14-16)." },
+    { x:0.90, type:"person", label:"Abraham prays, the household is healed", av:"elder",
+      desc:"Abraham prays for Abimelech, and God heals the king's wife and slave women, who had been made barren because of Sarah (vv. 17-18)." }
+  ],
+  environment: {
+    chips: ["A repeated deception", "A dream-warning to a pagan king", "Innocence acknowledged, not excused", "Restitution in livestock and silver", "Barrenness lifted by prayer"],
+    text: "Gerar sat on the desert fringe south of Gaza, a Philistine-ruled border town whose economy turned on contested wells — the same friction that will resurface with Isaac in chapter 26. The episode strikingly has God defend a Gentile king's conscience against the patriarch's own half-truth, a pattern that recurs (Gen 12, 26) and quietly undercuts any assumption that being chosen makes one automatically righteous."
+  },
+  objectsExtra: [],
+  peopleExtra: ["abimelech"],
+  culture: [
+    { title:"A recurring sister-lie", icon:"🔁",
+      text:"This is the second of three near-identical episodes (Gen 12 with Pharaoh, this chapter, and Gen 26 with Isaac and Abimelech) where a patriarch calls his wife 'sister' out of fear. Genesis repeats the pattern without flattering its heroes, letting the same flaw resurface across a generation." },
+    { title:"A dream-warning to an outsider", icon:"💭",
+      text:"God speaking directly to Abimelech, a Philistine king outside the covenant line, shows divine moral accountability extending beyond Abraham's own family — a theme also present in Pharaoh's earlier plagues (Gen 12:17)." },
+    { title:"Half-sister, whole deception", icon:"⚖️",
+      text:"Abraham's defense — that Sarah is his father's daughter by another mother — was likely true and legally acceptable in the ancient Near East, but does not excuse the deliberate omission that endangered both Sarah and Abimelech." }
+  ],
+  crossRefs: [
+    { group:"The same lie, told before and after", refs:[
+      { r:"Genesis 12:10-20", note:"Abraham's earlier sister-lie, to Pharaoh in Egypt" },
+      { r:"Genesis 26:6-11", note:"Isaac repeats his father's exact deception at the same Gerar" },
+      { r:"Proverbs 29:25", note:"'the fear of man lays a snare' — the lie's root cause" } ]},
+    { group:"Abimelech's integrity acknowledged", refs:[
+      { r:"Genesis 20:6", note:"God credits Abimelech's 'integrity of heart'" },
+      { r:"Psalm 105:14-15", note:"'he suffered no one to do them wrong... touch not mine anointed'" },
+      { r:"1 Chronicles 16:21-22", note:"the same episode recalled as God's protection of the patriarchs" } ]}
+  ]
+},
+
+/* ===== GENESIS 21 — Isaac's birth, Hagar's exile, and a covenant at Beersheba ===== */
+"1:21": {
+  era: {
+    title: "ca. 2066-2050 BC — Isaac born; Hagar and Ishmael sent away",
+    sub: "Middle Bronze Age · the promised laughter finally arrives · a household torn in two · a well-covenant with Abimelech",
+    badges: ["Middle Bronze Age", "The promise fulfilled", "A hard exile", "Beersheba named"]
+  },
+  timeOfDay: "day",
+  summary: "The LORD does exactly as promised: Sarah conceives and bears Isaac in Abraham's old age, and Abraham circumcises him at eight days as commanded (vv. 1-7). At the weaning feast, Sarah sees Ishmael mocking and demands Hagar and her son be cast out; Abraham is distressed, but God tells him to listen to Sarah, since Isaac carries the covenant line, while Ishmael too will become a nation (vv. 8-13). Abraham sends Hagar and Ishmael away with bread and water; when the water runs out in the wilderness of Beersheba, Hagar despairs, but God opens her eyes to a well and Ishmael grows up in the wilderness of Paran (vv. 14-21). Abimelech and Phicol, his army commander, come to Abraham seeking a treaty of mutual honesty, and after a dispute over a well Abraham has dug, the two swear an oath; Abraham gives seven ewe lambs as witness, and the place is named Beersheba (vv. 22-34).",
+  focusPlace: "beersheba",
+  places: [
+    { id:"beersheba", role:"Where Hagar's despair is answered with a well, and where Abraham and Abimelech swear their covenant, giving the place its name (vv. 14-31)" },
+    { id:"beerlahairoi", role:"Near where Hagar had earlier fled and named God 'the God who sees me' — recalled by her return to the wilderness here (Gen 16:14)" },
+    { id:"gerar", role:"Abimelech's home base, from which he and Phicol travel to meet Abraham (v. 22)" }
+  ],
+  journey: [
+    { from:"beersheba", to:"gerar", label:"Abimelech and Phicol's approach", km:35,
+      note:"The Philistine king and his army commander come from Gerar to strike a treaty with Abraham (v. 22)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Isaac is born, and circumcised at eight days", av:"youth",
+      desc:"'The LORD visited Sarah as he had said,' and Isaac ('he laughs') is born and circumcised as commanded (vv. 1-7)." },
+    { x:0.22, type:"person", label:"Ishmael mocks; Sarah demands exile", av:"woman",
+      desc:"At Isaac's weaning feast Sarah sees Ishmael mocking and tells Abraham to cast out 'this slave woman and her son' (vv. 8-10)." },
+    { x:0.40, type:"person", label:"God tells Abraham to listen to Sarah", av:"elder",
+      desc:"Distressed over Ishmael, Abraham is told Isaac alone carries the covenant, though Ishmael too will father a nation (vv. 11-13)." },
+    { x:0.58, type:"person", label:"Hagar and Ishmael in the wilderness", av:"woman",
+      desc:"Sent off with bread and water, Hagar despairs when it runs out — until God opens her eyes to a well (vv. 14-19)." },
+    { x:0.76, type:"person", label:"Abimelech's treaty and the seven ewe lambs", av:"king",
+      desc:"Abimelech and Phicol seek an oath of mutual fair dealing; Abraham sets aside seven ewe lambs as witness that he dug the disputed well (vv. 22-30)." },
+    { x:0.92, type:"object", label:"Beersheba named, a tamarisk planted",
+      desc:"The place is called Beersheba, 'well of the oath,' and Abraham plants a tamarisk tree there and calls on the LORD (vv. 31-33)." }
+  ],
+  environment: {
+    chips: ["Long-delayed laughter, finally born", "A weaning feast turns bitter", "Exile into desert thirst", "A well opens Hagar's eyes", "Seven lambs seal an oath", "A name that sticks: Beersheba"],
+    text: "Beersheba sat at the edge of cultivable land where the Negev turns to steppe, its deep well the whole reason anyone could live there at all — which is exactly why disputes over wells recur through Genesis. The chapter pairs Isaac's joyful arrival with Ishmael's hard departure, refusing to let either the promise or its cost go unnamed."
+  },
+  objectsExtra: ["ewe-lamb", "well"],
+  peopleExtra: ["phicol"],
+  culture: [
+    { title:"'Laughter' as a name", icon:"😂",
+      text:"Isaac's name (Hebrew Yitzchak, 'he laughs') recalls both Sarah's disbelieving laugh at the promise (Gen 18:12) and her later joyful laughter at his birth (v. 6) — the same word carrying doubt and delight." },
+    { title:"Hard covenant math", icon:"⚖️",
+      text:"God's instruction to send Ishmael away, while still promising him a nation, reflects the ancient reality that only one son could carry a father's primary inheritance and covenant line — a tension Genesis never smooths over emotionally." },
+    { title:"Seven lambs, one oath", icon:"🐑",
+      text:"The number seven (sheva) puns on Beersheba's name; setting aside seven lambs as a witness-gift was a customary way to formalize a treaty in the ancient Near East, fixing the memory of an agreement in a physical token." }
+  ],
+  crossRefs: [
+    { group:"Isaac, the promised son", refs:[
+      { r:"Genesis 17:19", note:"God had already named the coming son Isaac and promised an everlasting covenant through him" },
+      { r:"Romans 9:7-9", note:"Paul reads Isaac as the pattern for children of promise, not merely of flesh" },
+      { r:"Galatians 4:28-29", note:"Isaac and Ishmael reused as a picture of promise versus flesh" } ]},
+    { group:"Hagar and Ishmael's later story", refs:[
+      { r:"Genesis 16:7-14", note:"Hagar's earlier flight and her naming of 'the God who sees me'" },
+      { r:"Genesis 25:12-18", note:"Ishmael's twelve sons and the territory his descendants settle" },
+      { r:"Galatians 4:22-31", note:"Paul's allegorical reading of Hagar and Sarah as two covenants" } ]}
+  ]
+},
+
+/* ===== GENESIS 22 — The binding of Isaac on Moriah ===== */
+"1:22": {
+  era: {
+    title: "ca. 2050 BC — the Akedah: Abraham's test on Mount Moriah",
+    sub: "Middle Bronze Age · a three-day journey to sacrifice the promised son · a ram caught in a thicket · 'The LORD will provide'",
+    badges: ["Middle Bronze Age", "The ultimate test of faith", "Moriah, future site of the Temple", "A substitute provided"]
+  },
+  timeOfDay: "day",
+  summary: "God tests Abraham, telling him to take Isaac, 'your only son, whom you love,' to the land of Moriah and offer him there as a burnt offering (vv. 1-2). Abraham rises early, saddles his donkey, and travels three days with Isaac and two servants; leaving the servants behind, he and Isaac climb together, Isaac carrying the wood and asking where the lamb is — Abraham answers that God will provide it (vv. 3-8). At the place, Abraham builds the altar, binds Isaac, and raises the knife, but the angel of the LORD stops him, commending his fear of God for not withholding his only son (vv. 9-12). Abraham looks up and sees a ram caught by its horns in a thicket, and offers it instead, naming the place 'The LORD Will Provide' (vv. 13-14). The angel calls again, swearing by God's own self that because Abraham obeyed, his offspring will be blessed and multiplied like the stars and sand, and through them all nations will be blessed (vv. 15-19). The chapter closes with a short note on the sons born to Abraham's brother Nahor, including Bethuel, father of Rebekah (vv. 20-24).",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The land of Moriah where Abraham is told to offer Isaac — later identified as the Temple Mount (v. 2; 2 Chron 3:1)" },
+    { id:"beersheba", role:"Where Abraham is dwelling when God calls him to Moriah, the likely starting point of the three-day journey (Gen 21:33-22:1)" },
+    { id:"haran", role:"Home of Nahor's family, named in the chapter's closing genealogy that introduces Bethuel and, through him, Rebekah (vv. 20-23)" }
+  ],
+  journey: [
+    { from:"beersheba", to:"jerusalem", label:"Three days to Moriah", km:75,
+      note:"Abraham travels three days with Isaac, wood, fire, and a knife, not knowing until the last moment how God will provide (vv. 3-4)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"'Take your son... and offer him'", av:"elder",
+      desc:"God's command tests Abraham to the utmost: take Isaac, 'your only son, whom you love,' to Moriah for a burnt offering (vv. 1-2)." },
+    { x:0.24, type:"person", label:"'God will provide the lamb'", av:"youth",
+      desc:"Isaac, carrying the wood, asks where the sacrifice is; Abraham answers with faith he cannot yet explain (vv. 6-8)." },
+    { x:0.44, type:"object", label:"The altar, the binding, the raised knife",
+      desc:"Abraham builds the altar, binds Isaac on the wood, and stretches out his hand with the knife before the angel calls out to stop him (vv. 9-11)." },
+    { x:0.62, type:"person", label:"'Now I know that you fear God'", av:"elder",
+      desc:"The angel of the LORD commends Abraham for not withholding his only son, confirming the test is over (v. 12)." },
+    { x:0.78, type:"object", label:"A ram caught in the thicket",
+      desc:"Abraham looks up, sees a ram caught by its horns, and offers it in Isaac's place, naming the site 'The LORD Will Provide' (vv. 13-14)." },
+    { x:0.92, type:"person", label:"The covenant oath renewed", av:"elder",
+      desc:"The angel swears by God's own name that Abraham's offspring will multiply like stars and sand and bless all nations, because he obeyed (vv. 15-18)." }
+  ],
+  environment: {
+    chips: ["A three-day journey in silence", "Wood, fire, knife — no lamb yet", "'God will provide' spoken in faith", "A knife stayed at the last second", "A ram substituted", "An oath sworn by God's own name"],
+    text: "Moriah's later identification with Jerusalem's Temple Mount (2 Chron 3:1) makes this the same ridge where Solomon's temple, and centuries of sacrifice, would eventually stand — the chapter's substitution of a ram for Isaac anticipating the whole sacrificial system built on that hill. Ancient Near Eastern neighbors sometimes practiced child sacrifice; this account's God explicitly stops it."
+  },
+  objectsExtra: ["ram-caught-in-thicket", "altar"],
+  peopleExtra: [],
+  culture: [
+    { title:"The Akedah in Jewish tradition", icon:"📜",
+      text:"Jewish tradition calls this episode the Akedah ('the Binding') and reads it as the supreme test of Abraham's faith, later invoked in the Rosh Hashanah liturgy and remembered as merit for Israel's descendants." },
+    { title:"A polemic against child sacrifice", icon:"🚫",
+      text:"Unlike neighboring Canaanite and later practices of offering children to gods like Molech, the God of this narrative explicitly halts the sacrifice and provides a substitute — a decisive break embedded at the story's climax, not its footnote." },
+    { title:"A pattern later writers return to", icon:"✝️",
+      text:"Hebrews 11:17-19 reads Abraham as trusting God could even raise Isaac from the dead; many Christian readers have long seen the 'only son... whom you love' carried up a mountain to be offered as foreshadowing Christ." }
+  ],
+  crossRefs: [
+    { group:"Moriah and the Temple", refs:[
+      { r:"2 Chronicles 3:1", note:"Solomon builds the temple 'on Mount Moriah,' identifying it with this chapter's site" },
+      { r:"Hebrews 11:17-19", note:"Abraham's faith that God could raise Isaac even from death" },
+      { r:"James 2:21-23", note:"Abraham's offering of Isaac cited as faith proven by works" } ]},
+    { group:"The oath renewed, and its fulfillment", refs:[
+      { r:"Genesis 15:5", note:"the earlier promise of offspring 'like the stars of heaven'" },
+      { r:"Genesis 26:3-4", note:"the same oath repeated to Isaac" },
+      { r:"Galatians 3:16", note:"Paul reads 'your offspring' ultimately as Christ" } ]}
+  ]
+},
+
+/* ===== GENESIS 23 — Sarah's death and the purchase of Machpelah ===== */
+"1:23": {
+  era: {
+    title: "ca. 2029 BC — Sarah dies at Hebron; Abraham buys Machpelah",
+    sub: "Middle Bronze Age · Sarah's death at 127 · a formal land purchase from Ephron the Hittite · Abraham's first owned ground in Canaan",
+    badges: ["Middle Bronze Age", "Sarah's death mourned", "A cave bought, not given", "First patriarchal foothold in the land"]
+  },
+  timeOfDay: "day",
+  summary: "Sarah dies at Kiriath-arba, that is Hebron, at 127 years old, and Abraham comes to mourn and weep for her (vv. 1-2). He rises and asks the Hittites of the land for a burial site, insisting he will pay full price rather than accept it as a gift, though offered a free choice of tombs (vv. 3-6). Ephron the Hittite offers the cave of Machpelah at the edge of his field, and though he initially offers it freely, Abraham insists on paying, and Ephron names the price — four hundred shekels of silver, 'what is that between you and me?' (vv. 7-15). Abraham weighs out the silver before witnesses at the city gate, and the field, the cave, and every tree in it are formally deeded to Abraham as a possession (vv. 16-18). Abraham buries Sarah there in the cave of Machpelah, near Mamre — the first piece of the promised land Abraham actually owns (vv. 19-20).",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"Kiriath-arba, where Sarah dies and where Abraham negotiates and completes the purchase of Machpelah at the city gate (vv. 2, 10-18)" }
+  ],
+  journey: [],
+  hotspots: [
+    { x:0.10, type:"person", label:"Sarah dies at Hebron", av:"woman",
+      desc:"Sarah dies at 127 at Kiriath-arba; Abraham comes to mourn and weep for her (vv. 1-2)." },
+    { x:0.32, type:"person", label:"Abraham insists on paying full price", av:"elder",
+      desc:"Offered a free choice of tombs by the Hittites, Abraham insists on buying, not receiving a burial site as a gift (vv. 3-6, 9)." },
+    { x:0.55, type:"object", label:"Ephron names four hundred shekels",
+      desc:"Ephron the Hittite, after a show of generosity, names the price of the cave and field — 400 shekels of silver, 'current merchant's standard' (vv. 14-16)." },
+    { x:0.78, type:"object", label:"The deed formalized at the city gate",
+      desc:"The field, cave, and every tree in it pass legally to Abraham 'in the presence of all who went in at the gate of his city' (vv. 17-18)." },
+    { x:0.92, type:"person", label:"Sarah buried in Machpelah", av:"woman",
+      desc:"Abraham buries Sarah in the cave of Machpelah facing Mamre — Abraham's first owned ground in Canaan (vv. 19-20)." }
+  ],
+  environment: {
+    chips: ["Mourning at Kiriath-arba", "A formal ancient real-estate negotiation", "Full price insisted on, not a gift", "City-gate witnesses", "First land Abraham actually owns"],
+    text: "The negotiation follows real ancient Near Eastern legal convention — polite refusal, an inflated 'gift' offer, then a named price accepted before witnesses at the city gate, the customary place for binding public transactions. That the promise-holder Abraham owns not one acre of Canaan until this purchase of a burial cave is itself a quiet irony the text lets stand."
+  },
+  objectsExtra: ["machpelah-cave", "shekel", "citygate"],
+  peopleExtra: [],
+  culture: [
+    { title:"Ancient Near Eastern contract style", icon:"📝",
+      text:"The back-and-forth of refused gifts and named prices mirrors known Hittite and other ANE land-sale formulas, in which an initial 'free gift' offer was a customary opening move, not a real offer — Abraham's insistence on paying full price ensured an undisputed legal claim." },
+    { title:"The city gate as courthouse", icon:"🚪",
+      text:"City gates functioned as the public square where elders witnessed transactions, settled disputes, and confirmed contracts — 'in the presence of all who went in at the gate' (v. 18) is the ancient equivalent of a filed, witnessed deed." },
+    { title:"Machpelah's long afterlife", icon:"⚰️",
+      text:"The cave becomes the family tomb for Abraham, Sarah, Isaac, Rebekah, Jacob, and Leah (Gen 49:29-32; 50:13), still venerated today at Hebron's Cave of the Patriarchs — one of the few biblical sites with unbroken historical identification." }
+  ],
+  crossRefs: [
+    { group:"Machpelah as the family tomb", refs:[
+      { r:"Genesis 25:9-10", note:"Isaac and Ishmael together bury Abraham in the same cave" },
+      { r:"Genesis 49:29-32", note:"Jacob's dying instruction to be buried in Machpelah with his fathers" },
+      { r:"Genesis 50:13", note:"Jacob's body carried back from Egypt and buried there" } ]},
+    { group:"Sarah remembered", refs:[
+      { r:"Isaiah 51:2", note:"Israel told to 'look to Abraham... and Sarah who bore you'" },
+      { r:"Hebrews 11:11", note:"Sarah's faith to conceive celebrated in the roll call of the faithful" },
+      { r:"1 Peter 3:6", note:"Sarah held up as a model of a wife's respect" } ]}
+  ]
+},
+
+/* ===== GENESIS 24 — Eliezer's mission to find Rebekah ===== */
+"1:24": {
+  era: {
+    title: "ca. 2026 BC — a servant sent to Aram-naharaim for Isaac's bride",
+    sub: "Middle Bronze Age · an oath sworn on Abraham's thigh · a sign at the well · Rebekah's willing 'I will go'",
+    badges: ["Middle Bronze Age", "A providential sign requested", "A bride found at a well", "Rebekah's own consent sought"]
+  },
+  timeOfDay: "day",
+  summary: "Aged Abraham makes his chief servant swear not to take a wife for Isaac from the Canaanites, but to go to his own country and kindred, to Nahor's household (vv. 1-9). The servant travels to the city of Nahor and prays at the well for a specific sign: that the woman who offers to water his camels too will be the one God has chosen for Isaac (vv. 10-14). Before he finishes praying, Rebekah arrives, offers water to him and his camels exactly as asked, and is identified as Bethuel's daughter, granddaughter of Nahor (vv. 15-27). She runs to tell her household; her brother Laban, seeing the gifts, rushes out to welcome the servant, who explains his mission and asks for Rebekah for Isaac (vv. 28-49). Laban and Bethuel agree the matter is from the LORD, and after gifts are given, Rebekah herself is asked and agrees to go at once (vv. 50-61). The servant and Rebekah travel back; Isaac, out meditating in the field near Beerlahairoi, sees the camels coming, and Rebekah becomes his wife and comforts him after his mother's death (vv. 62-67).",
+  focusPlace: "haran",
+  places: [
+    { id:"haran", role:"The city of Nahor in Aram-naharaim where the servant finds Rebekah at the well (v. 10)" },
+    { id:"beerlahairoi", role:"Where Isaac is living and meditating in the field when Rebekah's caravan arrives (v. 62)" }
+  ],
+  journey: [
+    { from:"hebron", to:"haran", label:"The servant's outward journey", km:800,
+      note:"Abraham's servant travels north with ten camels and gifts to seek a wife for Isaac among his master's own kindred (vv. 4, 10)." },
+    { from:"haran", to:"beerlahairoi", label:"Rebekah's journey to Isaac", km:800,
+      note:"Rebekah, her nurse, and her attendants return with the servant to meet Isaac and become his wife (vv. 61, 67)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Abraham's oath: not a Canaanite wife", av:"elder",
+      desc:"Abraham binds his servant by oath to seek a wife for Isaac from his own kindred, not the Canaanites (vv. 1-9)." },
+    { x:0.24, type:"object", label:"A sign requested at the well",
+      desc:"The servant prays for a specific test: the woman who offers to water his ten camels will be God's chosen bride for Isaac (vv. 12-14)." },
+    { x:0.42, type:"person", label:"Rebekah waters the camels", av:"woman",
+      desc:"Before the prayer even ends, Rebekah arrives, draws water, and offers it to the camels unprompted, exactly as asked (vv. 15-20)." },
+    { x:0.58, type:"person", label:"Laban runs out to the gifts", av:"elder",
+      desc:"Seeing the servant's gold ring and bracelets, Laban rushes to welcome him and hear his mission (vv. 29-31)." },
+    { x:0.76, type:"person", label:"'I will go' — Rebekah's own consent", av:"woman",
+      desc:"Asked directly whether she will go with the servant, Rebekah answers, 'I will go,' and is sent off with blessing (vv. 57-60)." },
+    { x:0.92, type:"person", label:"Isaac meets Rebekah in the field", av:"shepherd",
+      desc:"Isaac, out meditating near Beerlahairoi, sees the camels approaching; Rebekah veils herself, and he takes her as his wife (vv. 62-67)." }
+  ],
+  environment: {
+    chips: ["An oath sworn on Abraham's thigh", "A providential sign at a well", "Camels laden with gifts", "A family's quick consent", "Rebekah's own 'I will go'", "Comfort after Sarah's death"],
+    text: "Wells functioned as the ancient world's social hub, the place where strangers, betrothals, and news all converged — this chapter, along with Jacob's own well-meeting of Rachel (Gen 29) and Moses' of Zipporah (Ex 2), makes the well-betrothal a recognizable type-scene. The servant's prayer for a specific, testable sign, and its immediate fulfillment, frames the whole journey as divinely guided rather than mere family arrangement."
+  },
+  objectsExtra: ["camel", "well", "bridal-veil"],
+  peopleExtra: ["rebekah", "bethuel", "laban", "milcah"],
+  culture: [
+    { title:"The well-betrothal type-scene", icon:"💧",
+      text:"A recurring biblical pattern — a foreign traveler meets his future bride at a well (Rebekah here, Rachel in Gen 29, Zipporah in Exodus 2) — uses shared conventions readers would recognize, making variations (who draws water for whom) narratively significant." },
+    { title:"Swearing on the thigh", icon:"🤝",
+      text:"Placing a hand 'under the thigh' (v. 2, near the reproductive organs) to swear an oath invoked one's descendants and household line as witness and stake — a solemn, family-line-binding gesture rather than a casual promise." },
+    { title:"Consent still sought", icon:"🙋",
+      text:"Even after the family agreed to the match, Rebekah herself is asked directly whether she will go (v. 58) — a notable moment of personal consent within an otherwise arranged, family-negotiated marriage." }
+  ],
+  crossRefs: [
+    { group:"Well-betrothal echoes later in Genesis and Exodus", refs:[
+      { r:"Genesis 29:9-12", note:"Jacob meets Rachel at a well in almost identical fashion" },
+      { r:"Exodus 2:15-21", note:"Moses meets Zipporah and her sisters at a well in Midian" },
+      { r:"John 4:5-7", note:"Jesus meets the Samaritan woman at Jacob's well" } ]},
+    { group:"Rebekah's family line", refs:[
+      { r:"Genesis 22:20-23", note:"Bethuel's birth already noted in Nahor's genealogy" },
+      { r:"Genesis 29:4-5", note:"Laban identified again as Rebekah's brother when Jacob arrives" },
+      { r:"Romans 9:10-12", note:"Rebekah's own later role in securing Jacob's line over Esau's" } ]}
+  ]
+},
+
+/* ===== GENESIS 25 — Abraham's death, Esau and Jacob, and the sold birthright ===== */
+"1:25": {
+  era: {
+    title: "ca. 2006-1966 BC — Abraham's death; Esau and Jacob born; the birthright sold",
+    sub: "Middle Bronze Age · Keturah's sons sent east · Ishmael's line recorded · rival twins from the womb onward",
+    badges: ["Middle Bronze Age", "Abraham's death and burial", "Twins struggling in the womb", "A birthright for stew"]
+  },
+  timeOfDay: "day",
+  summary: "Abraham takes another wife, Keturah, who bears him six more sons; he sends them east with gifts, keeping the inheritance for Isaac alone, and dies at 175, buried by Isaac and Ishmael together in Machpelah (vv. 1-11). Ishmael's twelve sons are listed as tribal princes, fulfilling God's earlier promise, and Ishmael dies at 137 (vv. 12-18). Isaac, married twenty years without children, prays for Rebekah, who conceives twins that struggle inside her; God tells her two nations are in her womb and the older will serve the younger (vv. 19-23). Esau is born first, red and hairy, followed by Jacob, gripping his brother's heel (vv. 24-26). Esau becomes a skilled hunter favored by Isaac; Jacob, a quieter man favored by Rebekah, one day trades a bowl of red stew to a famished Esau for his birthright, which Esau despises enough to sell (vv. 27-34).",
+  focusPlace: "beerlahairoi",
+  places: [
+    { id:"beerlahairoi", role:"Where Isaac is living when the twins are born and grow up (implied continuity from Gen 24:62; 25:11)" },
+    { id:"hebron", role:"Machpelah, where Isaac and Ishmael together bury Abraham beside Sarah (v. 9)" },
+    { id:"edom", role:"The territory Esau's descendants will settle, named here in advance through his own alternate name Edom, 'red' (v. 30)" }
+  ],
+  journey: [],
+  hotspots: [
+    { x:0.05, type:"person", label:"Keturah's sons sent east", av:"woman",
+      desc:"Abraham's wife Keturah bears him six sons, who are given gifts and sent away east, away from Isaac's inheritance (vv. 1-6)." },
+    { x:0.20, type:"person", label:"Abraham dies at 175", av:"elder",
+      desc:"Abraham dies 'old and full of years' and is buried by Isaac and Ishmael together in the cave of Machpelah beside Sarah (vv. 7-10)." },
+    { x:0.38, type:"object", label:"Ishmael's twelve princes listed",
+      desc:"Ishmael's twelve sons are recorded as tribal princes before his own death at 137, fulfilling God's earlier promise to Hagar (vv. 12-18)." },
+    { x:0.55, type:"person", label:"Twins struggle in Rebekah's womb", av:"woman",
+      desc:"Rebekah, pregnant after twenty barren years, is told 'two nations are in your womb... the older shall serve the younger' (vv. 21-23)." },
+    { x:0.72, type:"person", label:"Esau and Jacob born", av:"youth",
+      desc:"Esau comes out first, red and hairy; Jacob follows, gripping his brother's heel — the name Jacob meaning 'he grasps the heel' (vv. 24-26)." },
+    { x:0.92, type:"person", label:"A birthright sold for stew", av:"shepherd",
+      desc:"Famished from hunting, Esau trades his birthright to Jacob for bread and red lentil stew, and 'Esau despised his birthright' (vv. 29-34)." }
+  ],
+  environment: {
+    chips: ["A patriarch's long life ends", "Two half-brothers bury their father together", "A promise's second fulfillment (Ishmael)", "Rival twins from conception", "A birthright traded for a meal"],
+    text: "The chapter compresses an entire generation — Abraham's peaceful death, Ishmael's separate but blessed line, and the birth of rival twins whose struggle in the womb previews Israel and Edom's later national rivalry. Esau's contempt for his birthright, tossed away for a single meal, becomes a byword for trading lasting worth for momentary appetite (Heb 12:16)."
+  },
+  objectsExtra: ["birthright", "red-stew"],
+  peopleExtra: ["keturah", "esau", "ishmaels-sons"],
+  culture: [
+    { title:"The firstborn's birthright", icon:"👑",
+      text:"A firstborn son's birthright typically meant a double inheritance share and family leadership upon the father's death — a substantial, lasting legal privilege that made Esau's willingness to trade it for one meal proverbial for shortsightedness (Heb 12:16-17)." },
+    { title:"Two nations in one womb", icon:"🌍",
+      text:"God's oracle to Rebekah (v. 23) is read as founding not just a personal rivalry but the later national relationship between Israel (through Jacob) and Edom (through Esau), a tension threading through later prophetic literature (Obadiah, Malachi 1:2-3)." },
+    { title:"Two brothers, one burial", icon:"⚰️",
+      text:"Isaac and Ishmael burying Abraham together (v. 9), despite their family's earlier rupture, is a quiet note of reconciliation the text does not dwell on but does not omit either." }
+  ],
+  crossRefs: [
+    { group:"The rivalry Rebekah is told about", refs:[
+      { r:"Romans 9:10-13", note:"Paul cites 'the older will serve the younger' to argue God's purpose in election" },
+      { r:"Malachi 1:2-3", note:"'Jacob I loved, but Esau I hated' — the same rivalry read nationally" },
+      { r:"Obadiah 1:10-14", note:"Edom's later betrayal of Israel, rooted in this brotherly split" } ]},
+    { group:"The birthright's later weight", refs:[
+      { r:"Genesis 27:36", note:"Esau's own words: Jacob has taken both his birthright and his blessing" },
+      { r:"Hebrews 12:16-17", note:"Esau held up as a warning against trading lasting worth for momentary appetite" },
+      { r:"1 Chronicles 5:1-2", note:"the birthright later formally transferred away from Reuben to Joseph's sons" } ]}
+  ]
+},
+
+/* ===== GENESIS 26 — Isaac at Gerar: famine, deception, and a well-covenant ===== */
+"1:26": {
+  era: {
+    title: "ca. 2000 BC — Isaac in Gerar: a repeated deception, a repeated covenant",
+    sub: "Middle Bronze Age · famine drives Isaac to Gerar · his father's sister-lie repeated · wells re-dug, then a covenant sworn",
+    badges: ["Middle Bronze Age", "The promise reaffirmed to Isaac", "History nearly repeats itself", "Wells contested, then a peace"]
+  },
+  timeOfDay: "day",
+  summary: "A famine sends Isaac toward Gerar, where the LORD appears and tells him not to go down to Egypt but to stay in the land, renewing to him the same covenant sworn to Abraham (vv. 1-5). At Gerar, Isaac, echoing his father, calls Rebekah his sister, until Abimelech spots them together and rebukes him for the near-disastrous deception (vv. 6-11). Isaac sows crops and prospers greatly, growing so powerful that the Philistines envy him and Abimelech asks him to leave; the Philistines had stopped up all his father's wells (vv. 12-16). Isaac re-digs his father's wells and digs new ones, naming them after disputes with local herdsmen — Esek and Sitnah — until he digs Rehoboth without contention, and then moves to Beersheba where God again confirms the covenant (vv. 17-25). Abimelech, Ahuzzath, and Phicol come to Isaac seeking a treaty as they once did with Abraham; a covenant oath is sworn, a well is found that same day, and the place is again called Beersheba (vv. 26-33). The chapter closes noting Esau's marriages to two Hittite women, a grief to Isaac and Rebekah (vv. 34-35).",
+  focusPlace: "gerar",
+  places: [
+    { id:"gerar", role:"Where Isaac sojourns during the famine, repeats his father's sister-lie, and prospers until the Philistines envy him (vv. 1, 6, 12-16)" },
+    { id:"beersheba", role:"Where Isaac moves after the well disputes and where God again confirms the covenant and Abimelech's treaty is renewed (vv. 23-33)" }
+  ],
+  journey: [
+    { from:"gerar", to:"beersheba", label:"Isaac withdraws after well disputes", km:35,
+      note:"Pushed out by envious Philistines over well after well, Isaac moves on to Beersheba, where the covenant is renewed without conflict (vv. 22-23)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"God renews the covenant to Isaac", av:"shepherd",
+      desc:"Told not to go to Egypt during the famine, Isaac hears the same promise given to Abraham — land, offspring, and blessing to all nations — repeated to him directly (vv. 2-5)." },
+    { x:0.22, type:"person", label:"'She is my sister' — Isaac repeats it", av:"shepherd",
+      desc:"Isaac calls Rebekah his sister at Gerar just as Abraham once did, until Abimelech catches them together and rebukes him (vv. 7-11)." },
+    { x:0.40, type:"object", label:"Isaac sows, and reaps a hundredfold",
+      desc:"Isaac plants crops in famine-stricken land and reaps a hundredfold that year, growing so rich the Philistines envy and expel him (vv. 12-16)." },
+    { x:0.58, type:"object", label:"Wells re-dug: Esek and Sitnah",
+      desc:"Isaac re-opens his father's stopped-up wells and digs new ones, naming two after the disputes they caused — Esek ('contention') and Sitnah ('enmity') (vv. 18-21)." },
+    { x:0.74, type:"object", label:"Rehoboth — 'room at last'",
+      desc:"A third well brings no quarrel, and Isaac names it Rehoboth: 'the LORD has made room for us' (v. 22)." },
+    { x:0.90, type:"person", label:"A second covenant sworn at Beersheba", av:"king",
+      desc:"Abimelech, Ahuzzath, and Phicol come seeking peace with Isaac as they once did with Abraham; an oath is sworn and a well found that same day (vv. 26-33)." }
+  ],
+  environment: {
+    chips: ["Famine forces a move", "A father's lie, repeated by his son", "Prosperity that breeds envy", "Wells as the real currency of the land", "'Room at last' after contention", "A covenant echoing Abraham's own"],
+    text: "Water rights in the arid Negev fringe determined whether a herding family could survive at all, which is why Isaac's re-digging of his father's wells and the naming of each — Esek, Sitnah, Rehoboth — reads almost as a small chronicle of the era's real economic conflicts. The chapter deliberately mirrors chapter 20 point for point, letting readers watch Isaac step, almost helplessly, into his father's exact pattern before finding his own peace."
+  },
+  objectsExtra: ["well"],
+  peopleExtra: [],
+  culture: [
+    { title:"A son repeats his father's sin", icon:"🪞",
+      text:"Isaac's sister-lie at Gerar (vv. 7-11) deliberately echoes Abraham's own deceptions (Gen 12, 20), suggesting inherited patterns of fear passed down within a family rather than an isolated lapse." },
+    { title:"Well names as a small history", icon:"💧",
+      text:"Esek ('contention'), Sitnah ('enmity' or 'accusation'), and Rehoboth ('room' or 'broad places') function almost like a diary entry, marking the emotional cost of each dispute before finally naming relief when it came." },
+    { title:"Prosperity and displacement", icon:"🌾",
+      text:"Isaac's hundredfold harvest during a famine (v. 12) reads as an unmistakable sign of divine blessing, yet that same blessing is precisely what makes the Philistines anxious enough to expel him — blessing and conflict arriving together." }
+  ],
+  crossRefs: [
+    { group:"The covenant renewed generation to generation", refs:[
+      { r:"Genesis 12:1-3", note:"the original promise to Abraham, now repeated almost verbatim to Isaac" },
+      { r:"Genesis 22:16-18", note:"the oath sworn on Moriah, echoed again here (v. 3-5)" },
+      { r:"Genesis 28:13-15", note:"the same covenant renewed a third time, to Jacob at Bethel" } ]},
+    { group:"Like father, like son", refs:[
+      { r:"Genesis 12:10-20", note:"Abraham's first sister-lie, in Egypt" },
+      { r:"Genesis 20:1-18", note:"Abraham's second sister-lie, at this same Gerar" },
+      { r:"Galatians 6:7", note:"'whatever one sows, that will he also reap' — a principle this chapter's harvest and family patterns both illustrate" } ]}
+  ]
+},
+
+/* ===== GENESIS 27 — Jacob steals Isaac's blessing ===== */
+"1:27": {
+  era: {
+    title: "ca. 1930 BC — Jacob deceives blind Isaac and steals Esau's blessing",
+    sub: "Middle Bronze Age · Isaac's failing eyes · Rebekah's scheme · goatskins, savory food, and a blessing that cannot be recalled",
+    badges: ["Middle Bronze Age", "A father's blessing, once given, unbreakable", "Rebekah and Jacob's deception", "Esau's bitter cry"]
+  },
+  timeOfDay: "day",
+  summary: "Old and nearly blind, Isaac calls Esau, his favored son, to hunt game and prepare a savory meal so he can bless him before he dies (vv. 1-4). Rebekah overhears and instructs Jacob to bring two young goats so she can cook Isaac's favorite dish; Jacob worries his smooth skin will expose the trick, but Rebekah dresses him in Esau's clothes and covers his hands and neck with the goatskins (vv. 5-17). Jacob brings the food to Isaac, claiming to be Esau; Isaac, suspicious of the quick success but reassured by the clothes' smell and the skins' feel, blesses Jacob with the dew of heaven, the fatness of the earth, and rule over his brothers (vv. 18-29). Esau returns moments later with his own game, and both he and Isaac tremble violently on discovering the deception; Esau begs for a blessing too and receives a lesser one, promising he will serve his brother but eventually break free (vv. 30-40). Esau vows to kill Jacob once Isaac dies, so Rebekah sends Jacob away to her brother Laban in Haran, telling Isaac it is to find a proper wife (vv. 41-46).",
+  focusPlace: "beersheba",
+  places: [
+    { id:"beersheba", role:"The likely setting of Isaac's household in his old age, from which Jacob is sent north to Haran (implied continuity; cf. Gen 28:10)" },
+    { id:"haran", role:"Where Rebekah sends Jacob to escape Esau's fury and to find a wife from her own family (vv. 43-45)" }
+  ],
+  journey: [
+    { from:"beersheba", to:"haran", label:"Jacob flees north", km:800,
+      note:"Rebekah sends Jacob to her brother Laban in Haran, both to escape Esau's vow of vengeance and to secure a wife of the family's own line (vv. 43-45)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Isaac calls for Esau's savory food", av:"elder",
+      desc:"Blind and feeling near death, Isaac asks his favored son Esau to hunt game and prepare a meal so he can give his blessing (vv. 1-4)." },
+    { x:0.22, type:"person", label:"Rebekah's scheme, and Jacob's fear", av:"woman",
+      desc:"Overhearing, Rebekah tells Jacob to bring two goats for her to cook; Jacob fears being caught as 'a smooth man' among Esau's hairy skin (vv. 5-12)." },
+    { x:0.40, type:"object", label:"Goatskins and borrowed clothes",
+      desc:"Rebekah dresses Jacob in Esau's garments and covers his hands and neck with goatskins to fool Isaac's touch and smell (vv. 15-17)." },
+    { x:0.58, type:"person", label:"'The voice is Jacob's, but the hands are Esau's'", av:"elder",
+      desc:"Isaac, suspicious but persuaded by touch and smell, blesses Jacob with dew, grain, wine, and dominion over his brothers (vv. 21-29)." },
+    { x:0.76, type:"person", label:"Esau's bitter, exceedingly great cry", av:"shepherd",
+      desc:"Esau returns to find the blessing already given; he and Isaac tremble, and Esau cries out for a blessing of his own, receiving a lesser one (vv. 30-40)." },
+    { x:0.92, type:"person", label:"Jacob sent away to Haran", av:"shepherd",
+      desc:"Fearing Esau's vow to kill Jacob after Isaac's death, Rebekah arranges to send Jacob to her brother Laban, framing it as a marriage errand (vv. 41-46)." }
+  ],
+  environment: {
+    chips: ["A father's failing sight exploited", "A mother's favoritism in action", "Goatskins as disguise", "A blessing, once spoken, irreversible", "A brother's rage, barely restrained", "An escape disguised as an errand"],
+    text: "In the ancient world a spoken deathbed blessing carried binding legal and social weight roughly equivalent to a will, which is exactly why Isaac cannot simply take it back once he realizes the deception — the words themselves, not just the intention behind them, were understood to effect the outcome. The episode leaves every character morally compromised: Isaac's favoritism, Rebekah's scheming, Jacob's lie, and Esau's own earlier contempt for his birthright all converge in one irreversible afternoon."
+  },
+  objectsExtra: ["savory-food", "skins-garment"],
+  peopleExtra: [],
+  culture: [
+    { title:"A blessing as binding as a will", icon:"📜",
+      text:"Ancient deathbed blessings functioned as legally and socially binding declarations, not mere well-wishes — once spoken over the wrong son, Isaac treats it as irrevocable (v. 33), which is precisely why Esau's grief is so total." },
+    { title:"Parental favoritism repeating a pattern", icon:"👪",
+      text:"Isaac's preference for Esau and Rebekah's for Jacob (Gen 25:28) directly enables this chapter's deception, and the same family favoritism will resurface destructively in Jacob's own household toward Joseph (Gen 37:3-4)." },
+    { title:"Jacob's methods, and later reckoning", icon:"⚖️",
+      text:"Jacob's deception here is later mirrored back on him when Laban substitutes Leah for Rachel on his wedding night (Gen 29:23-25) — a literary and moral turn many readers see as deliberate poetic justice." }
+  ],
+  crossRefs: [
+    { group:"The blessing's later consequences", refs:[
+      { r:"Genesis 28:1-5", note:"Isaac blesses Jacob again openly before sending him to Laban" },
+      { r:"Hebrews 11:20", note:"Isaac's blessing of Jacob and Esau counted as an act of faith 'even regarding things to come'" },
+      { r:"Hebrews 12:16-17", note:"Esau's loss of blessing recalled as a warning against traded birthrights" } ]},
+    { group:"Deception repaid in kind", refs:[
+      { r:"Genesis 29:21-25", note:"Laban deceives Jacob on his wedding night, echoing Jacob's own trick here" },
+      { r:"Genesis 37:31-33", note:"Jacob's own sons later deceive him with Joseph's bloodied coat" },
+      { r:"Galatians 6:7", note:"'whatever a man sows, that he will also reap' — a principle the whole Jacob cycle illustrates" } ]}
+  ]
 }
+
 };
