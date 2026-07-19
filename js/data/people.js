@@ -166,7 +166,7 @@ BVV.PEOPLE = [
   { id:"judah", name:"Judah", al:["Judah"], t:"ot", av:"youth", desc:"Jacob and Leah's fourth son, ancestor of Israel's royal line and eventually the Messiah." },
   { id:"dan", name:"Dan", al:["Dan"], t:"ot", av:"youth", desc:"Jacob's fifth son, born to Rachel's maid Bilhah; his name ('he has judged') marks Rachel's answered plea." },
   { id:"naphtali", name:"Naphtali", al:["Naphtali"], t:"ot", av:"youth", desc:"Jacob's sixth son, Bilhah's second, born amid Rachel and Leah's rivalry over Jacob." },
-  { id:"gad", name:"Gad (son of Jacob)", al:["Gad"], t:"ot", av:"youth", desc:"Jacob's seventh son, born to Leah's maid Zilpah after Leah stopped bearing children herself." },
+  { id:"gad-son-jacob", name:"Gad (son of Jacob)", al:["Gad"], t:"ot", av:"youth", desc:"Jacob's seventh son, born to Leah's maid Zilpah after Leah stopped bearing children herself." },
   { id:"asher", name:"Asher", al:["Asher"], t:"ot", av:"youth", desc:"Jacob's eighth son, Zilpah's second, named for the happiness his birth brought Leah." },
   { id:"issachar", name:"Issachar", al:["Issachar"], t:"ot", av:"youth", desc:"Jacob's ninth son, born to Leah after she traded her son's mandrakes to Rachel for a night with Jacob." },
   { id:"zebulun", name:"Zebulun", al:["Zebulun"], t:"ot", av:"youth", desc:"Jacob and Leah's sixth and final son together, born after Leah declares Jacob will now honor her." },
