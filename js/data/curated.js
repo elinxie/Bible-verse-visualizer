@@ -4313,6 +4313,680 @@ BVV.CURATED = {
       { r:"1 Samuel 15:1-9", note:"Saul's commanded campaign against Amalek" },
       { r:"Esther 3:1", note:"Haman the Agagite, traditionally linked to Amalek's line" } ]}
   ]
+},
+
+/* ===== GENESIS 37 — Joseph's Dreams and His Sale into Slavery ===== */
+"1:37": {
+  era: { title: "Patriarchal age, c. 1900s BC — Joseph sold into Egypt", sub: "Jacob's favoritism, two dreams of rule, and a caravan road to Egypt",
+    badges: ["Patriarchal age", "Favored son, hated brothers", "Sold for twenty pieces of silver"] },
+  timeOfDay: "day",
+  summary: "Jacob's favoritism toward Joseph — visible in the ornamented robe he gives him — breeds deep resentment among his brothers, worsened when Joseph reports two dreams in which his family's sheaves and even sun, moon, and stars bow down to him (vv. 1-11). Sent to check on his brothers pasturing flocks near Shechem, Joseph is redirected to Dothan, where the brothers plot to kill him; Reuben persuades them to throw him into an empty cistern instead, hoping secretly to rescue him later (vv. 12-24). While Reuben is away, Judah proposes selling Joseph to a passing caravan of Ishmaelite/Midianite traders bound for Egypt, and the brothers do so for twenty pieces of silver (vv. 25-28). Reuben returns to find Joseph gone and is distraught; the brothers dip Joseph's robe in goat's blood and present it to Jacob, who concludes his son was torn apart by a wild animal and mourns inconsolably (vv. 29-35). Meanwhile the traders sell Joseph in Egypt to Potiphar, one of Pharaoh's officials (v. 36).",
+  focusPlace: "dothan",
+  places: [
+    { id:"dothan", role:"Where the brothers spot Joseph approaching and plot against him, and where he is sold and lowered into a cistern (vv. 17-28)" },
+    { id:"hebron", role:"Jacob's home, where Joseph is sent out from and where the false report of his death later arrives (vv. 13-14, 32-35)" },
+    { id:"egypt", role:"Where the traders take Joseph and sell him to Potiphar (v. 36)" }
+  ],
+  journey: [
+    { from:"hebron", to:"dothan", label:"Joseph sent to check on his brothers", km:100, note:"Jacob sends Joseph from Hebron to find his brothers, who have moved the flocks on from Shechem to Dothan." },
+    { from:"dothan", to:"egypt", label:"Sold south with the caravan", km:400, note:"Ishmaelite/Midianite traders carry Joseph down into Egypt to sell him as a slave to Potiphar." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"The ornamented robe", desc:"Jacob's gift marks Joseph as favored above his brothers, who 'could not speak peacefully to him' (vv. 3-4)." },
+    { x:0.20, type:"person", label:"Two dreams of rule", av:"youth", desc:"Joseph's dreams of sheaves and of sun, moon, and stars bowing to him provoke hatred from his brothers and a rebuke even from Jacob (vv. 5-11)." },
+    { x:0.42, type:"person", label:"The plot at Dothan", av:"youth", desc:"Seeing Joseph approach, the brothers plan to kill him; Reuben instead urges throwing him into a cistern, meaning to save him later (vv. 18-24)." },
+    { x:0.60, type:"person", label:"Judah's proposal and the sale", av:"youth", desc:"Judah suggests selling Joseph to the passing traders rather than killing him outright; he is sold for twenty pieces of silver (vv. 25-28)." },
+    { x:0.78, type:"object", label:"The blood-dipped robe", desc:"The brothers stage Joseph's death, dipping his robe in goat's blood to deceive Jacob (vv. 31-33)." },
+    { x:0.92, type:"person", label:"Jacob's inconsolable mourning", av:"elder", desc:"Jacob tears his clothes and mourns for many days, refusing comfort, while Joseph is sold again in Egypt to Potiphar (vv. 34-36)." }
+  ],
+  environment: {
+    chips: ["A favored son's robe", "Dreams of bowing sheaves and stars", "A dry cistern at Dothan", "Twenty pieces of silver", "A blood-stained deception", "Egypt, unknowingly, waits"],
+    text: "The chapter moves from the hill country around Hebron and Shechem to the caravan town of Dothan, a stop on the trade route running from Gilead down into Egypt — the very road that lets a family quarrel become an international sale. The brothers' jealousy, sharpened by Joseph's robe and dreams, finds its outlet exactly where trade caravans pass, turning a private grievance into slavery abroad."
+  },
+  objectsExtra: ["coat-of-many-colors"],
+  peopleExtra: ["reuben", "judah", "joseph-ot"],
+  culture: [
+    { title:"The ornamented robe", icon:"🧥",
+      text:"Whatever its exact style ('coat of many colors' or 'long robe with sleeves'), the garment marked Joseph as set apart from working brothers, likely exempting him from manual herding — a visible, provocative sign of Jacob's favoritism echoing his own father's preference for one son over another." },
+    { title:"Dream doublets", icon:"🌾",
+      text:"Joseph's two dreams, of sheaves and of heavenly bodies, both point the same direction and both come true by the story's end (Gen 42:6; 43-44) — a pattern of paired confirming dreams that recurs with Pharaoh's cattle and grain in chapter 41." },
+    { title:"Reuben and Judah's rival plans", icon:"⚖️",
+      text:"Reuben's plan to secretly rescue Joseph and Judah's plan to profit by selling him both avoid outright murder, but for very different reasons — a contrast that anticipates Judah's later moral growth in chapters 38 and 44." }
+  ],
+  crossRefs: [
+    { group:"Joseph's dreams and their fulfillment", refs:[
+      { r:"Genesis 42:6", note:"the brothers bow before Joseph in Egypt, fulfilling the sheaf dream" },
+      { r:"Genesis 43:26", note:"a second bowing, before Benjamin's presence" },
+      { r:"Psalm 105:17-19", note:"'he was sold as a slave... until what he had said came to pass'" } ]},
+    { group:"The sale recalled later", refs:[
+      { r:"Acts 7:9-10", note:"Stephen recounts the brothers selling Joseph out of jealousy" },
+      { r:"Genesis 45:4-5", note:"Joseph later reframes the sale as part of God's providence" },
+      { r:"Genesis 50:20", note:"'you meant evil against me, but God meant it for good'" } ]}
+  ]
+},
+
+/* ===== GENESIS 38 — Judah and Tamar ===== */
+"1:38": {
+  era: { title: "Patriarchal age — Judah's household apart from his brothers", sub: "Er, Onan, and Tamar's bold claim to an heir through the levirate custom",
+    badges: ["Patriarchal age", "A widow's disguised plea for justice", "Ancestor of David's line, Perez"] },
+  timeOfDay: "day",
+  summary: "Judah leaves his brothers and settles among Canaanites, marrying Shua's daughter and fathering Er, Onan, and Shelah; he arranges Tamar's marriage to Er, who dies for wickedness before fathering children (vv. 1-7). Onan is given to Tamar under the custom of raising up an heir for his dead brother, but he deliberately avoids giving her a child and is likewise struck dead; Judah, fearing for his last son, sends Tamar away to wait for Shelah to grow up, a promise he never keeps (vv. 8-11). Years later, learning Judah is traveling to Timnah, the widowed Tamar disguises herself as a prostitute, and Judah unknowingly sleeps with her, leaving his seal, cord, and staff as pledge for payment (vv. 12-23). When Tamar's pregnancy is reported, Judah orders her burned — until she produces his own pledge items, and he admits 'she is more righteous than I' (vv. 24-26). Tamar bears twins, Perez and Zerah, Perez becoming an ancestor of David and ultimately Jesus (vv. 27-30).",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"General region of Judah's settlement apart from his father's household in this chapter (v. 1, broadly)" },
+    { id:"edom", role:"Not directly named, but Timnah and Adullam lie in the Judahite hill country south of here where this narrative unfolds" }
+  ],
+  journey: [
+    { from:"hebron", to:"hebron", label:"Judah's separate household", km:0, dashed:true, note:"Judah moves away from his brothers to live among Canaanite neighbors, marrying locally and raising his family apart from Jacob's camp." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Judah's Canaanite marriage", av:"youth", desc:"Judah marries Shua's daughter and fathers Er, Onan, and Shelah (vv. 1-5)." },
+    { x:0.25, type:"person", label:"Er and Onan struck dead", av:"youth", desc:"Er is wicked and dies; Onan refuses to give Tamar an heir for his brother and is likewise struck down (vv. 6-10)." },
+    { x:0.40, type:"person", label:"Tamar sent away, waiting", av:"woman", desc:"Judah sends Tamar to her father's house to wait for Shelah, a promise he does not keep (v. 11)." },
+    { x:0.58, type:"person", label:"Tamar's disguise on the road to Timnah", av:"woman", desc:"Learning Judah is traveling to Timnah, Tamar disguises herself and Judah unknowingly sleeps with her, leaving his seal, cord, and staff as pledge (vv. 13-18)." },
+    { x:0.78, type:"object", label:"The pledge revealed", desc:"When Tamar is accused of prostitution, she produces Judah's own seal, cord, and staff; he confesses 'she is more righteous than I' (vv. 24-26)." },
+    { x:0.92, type:"person", label:"Perez and Zerah born", av:"youth", desc:"Tamar bears twins; Perez, whose hand yields at the last moment to his brother's, becomes an ancestor of David and Christ (vv. 27-30; Matt 1:3)." }
+  ],
+  environment: {
+    chips: ["A household apart from Jacob's camp", "Levirate duty refused", "A widow's bold disguise", "A seal, cord, and staff as pledge", "'More righteous than I'", "Twins, and a royal line begun"],
+    text: "The chapter interrupts the Joseph narrative to follow Judah into the Canaanite hill country, where he marries locally and loses two sons to their own wrongdoing. Tamar's determined, risky action to secure her rightful place in the family becomes, unexpectedly, the origin point of the line that leads to David and to Jesus — inserted here as a deliberate contrast to Joseph's story of integrity under pressure."
+  },
+  objectsExtra: ["signet"],
+  peopleExtra: ["tamar-judah", "er", "onan", "shelah", "judah"],
+  culture: [
+    { title:"The levirate custom", icon:"👪",
+      text:"Ancient Near Eastern custom (later codified in Deut 25:5-10) obligated a surviving brother to father a child with his dead brother's widow to preserve the deceased's name and inheritance; Onan's refusal to fulfill this duty, while enjoying its privileges, is what draws judgment (v. 9-10)." },
+    { title:"Why this chapter interrupts Joseph's story", icon:"📖",
+      text:"Placed right after Joseph is sold, Genesis 38 both delays and contrasts: Judah, who proposed profiting from his brother's sale, is shown failing his own family duties, while Tamar's bold, costly pursuit of justice foreshadows Judah's later growth into the man who offers himself for Benjamin (Gen 44:33)." },
+    { title:"Tamar in the genealogy of Christ", icon:"✝️",
+      text:"Tamar is one of only a few women named in Matthew's genealogy of Jesus (Matt 1:3), her irregular but resolute action treated by later tradition not as scandal alone but as securing the covenant line against Judah's own failures." }
+  ],
+  crossRefs: [
+    { group:"The levirate law and its later use", refs:[
+      { r:"Deuteronomy 25:5-10", note:"the formal law of levirate marriage" },
+      { r:"Ruth 4:1-12", note:"Boaz's levirate-style redemption of Ruth, echoing Tamar" },
+      { r:"Matthew 1:3", note:"Tamar named as an ancestor of Jesus" } ]},
+    { group:"Judah's arc, here and later", refs:[
+      { r:"Genesis 44:18-34", note:"Judah later offers himself in Benjamin's place" },
+      { r:"Genesis 49:8-10", note:"Jacob's blessing names Judah's line for kingship" },
+      { r:"Ruth 4:18-22", note:"Perez's line runs onward to David" } ]}
+  ]
+},
+
+/* ===== GENESIS 39 — Joseph in Potiphar's House ===== */
+"1:39": {
+  era: { title: "Egypt, patriarchal age — Joseph rises, then falls, in Potiphar's house", sub: "The LORD's blessing on a slave, a false accusation, and unjust imprisonment",
+    badges: ["Egypt, Middle Kingdom era", "Faithful under false accusation", "'The LORD was with Joseph'"] },
+  timeOfDay: "day",
+  summary: "Sold to Potiphar, an Egyptian official, Joseph prospers so visibly that Potiphar puts him in charge of his entire household, and the LORD blesses the Egyptian's house for Joseph's sake (vv. 1-6). Potiphar's wife repeatedly propositions Joseph, who refuses on grounds of trust and sin against God; when she grabs his garment and he flees, she uses it as false evidence, accusing him of assault before both the household and Potiphar (vv. 7-18). Potiphar, enraged, has Joseph thrown into prison — though notably not executed, suggesting some doubt about his wife's story (vv. 19-20). Even in prison the LORD is with Joseph, granting him favor with the warden, who puts him in charge of the other prisoners and everything done there (vv. 21-23).",
+  focusPlace: "egypt",
+  places: [
+    { id:"egypt", role:"The whole chapter's setting — Potiphar's house, then the royal prison, both places where 'the LORD was with Joseph' (vv. 2, 21)" }
+  ],
+  journey: [
+    { from:"dothan", to:"egypt", label:"Joseph's arrival as a slave", km:400, dashed:true, note:"Continuing from chapter 37, Joseph is now settled in Egypt, purchased by Potiphar from the traders who brought him down." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Joseph prospers in Potiphar's house", av:"official", desc:"'The LORD was with Joseph, and he became a successful man,' rising to oversee everything Potiphar owns (vv. 2-6)." },
+    { x:0.30, type:"person", label:"Potiphar's wife's repeated advances", av:"woman", desc:"Day after day she urges Joseph to sleep with her; he refuses, calling it 'a great wickedness and sin against God' (vv. 7-10)." },
+    { x:0.55, type:"object", label:"The garment left behind", desc:"When she grabs his garment, Joseph flees, leaving it in her hand — the very evidence she then twists against him (vv. 11-13)." },
+    { x:0.72, type:"person", label:"The false accusation", av:"woman", desc:"Potiphar's wife accuses Joseph before the household and her husband, using his own garment as proof (vv. 14-18)." },
+    { x:0.85, type:"person", label:"Imprisoned, not executed", av:"official", desc:"Potiphar's anger lands Joseph in prison rather than death, and even there 'the LORD was with Joseph' and gave him favor with the warden (vv. 19-23)." }
+  ],
+  environment: {
+    chips: ["A slave's rapid rise", "Repeated temptation, repeated refusal", "A garment as false witness", "Prison instead of execution", "'The LORD was with Joseph'", "Favor even behind bars"],
+    text: "Joseph's story alternates between two enclosed Egyptian settings, Potiphar's household and then the royal prison, both marked by the same refrain: whatever Joseph is given charge of prospers because 'the LORD was with him.' The chapter's real drama is moral rather than geographic — integrity maintained under both temptation and false accusation, in a foreign land with no family to vouch for him."
+  },
+  objectsExtra: [],
+  peopleExtra: ["potiphar", "potiphars-wife"],
+  culture: [
+    { title:"Egyptian household administration", icon:"🏛️",
+      text:"Potiphar's title, 'captain of the guard,' and his large household with servants and land reflect a genuine Egyptian office; foreign slaves rising to oversee such estates is attested elsewhere in Egyptian records, lending plausibility to Joseph's rapid advancement." },
+    { title:"Joseph's refusal, in his own words", icon:"🗣️",
+      text:"Joseph frames his refusal first as loyalty to Potiphar's trust and only then, climactically, as sin against God (v. 9) — an unusually explicit theological reasoning for resisting temptation in Genesis narrative." },
+    { title:"Why prison, not death?", icon:"⚖️",
+      text:"Potiphar's restrained punishment — imprisonment rather than execution, the normal penalty for such an offense against an official's household — has led many readers to suspect he doubted his wife's account even as he acted on it." }
+  ],
+  crossRefs: [
+    { group:"Joseph's integrity under pressure", refs:[
+      { r:"Genesis 41:38-40", note:"the same faithfulness later recognized by Pharaoh" },
+      { r:"Psalm 105:17-19", note:"'his feet were hurt with fetters' recalling this imprisonment" },
+      { r:"Hebrews 11:22", note:"Joseph remembered among the faithful" } ]},
+    { group:"'The LORD was with him'", refs:[
+      { r:"Genesis 39:2-3", note:"the refrain first stated in Potiphar's house" },
+      { r:"Genesis 39:21-23", note:"the same refrain repeated in prison" },
+      { r:"Acts 7:9-10", note:"Stephen's summary: 'God was with him'" } ]}
+  ]
+},
+
+/* ===== GENESIS 40 — The Cupbearer and the Baker's Dreams ===== */
+"1:40": {
+  era: { title: "Egypt, patriarchal age — dreams in Pharaoh's prison", sub: "Two officials' dreams interpreted, one promise kept, one forgotten",
+    badges: ["Egyptian royal prison", "God-given dream interpretation", "Two years still to wait"] },
+  timeOfDay: "night",
+  summary: "Pharaoh's cupbearer and baker offend him and are imprisoned in the same place as Joseph, who is assigned to attend them (vv. 1-4). Both men have troubling dreams on the same night; Joseph, noticing their dejection, insists that interpretations belong to God and asks to hear the dreams (vv. 5-8). The cupbearer dreams of a vine with three branches budding into grapes he presses into Pharaoh's cup; Joseph interprets this as restoration to his position within three days, asking to be remembered before Pharaoh when it happens (vv. 9-15). Encouraged by the favorable reading, the baker shares his dream of three baskets of bread on his head, birds eating from the top one; Joseph interprets this as the baker's execution within three days (vv. 16-19). Both interpretations come true exactly on Pharaoh's birthday three days later — the cupbearer restored, the baker hanged — but the cupbearer forgets Joseph entirely (vv. 20-23).",
+  focusPlace: "egypt",
+  places: [
+    { id:"egypt", role:"The royal prison where Joseph, the cupbearer, and the baker are held together (vv. 1-4)" }
+  ],
+  journey: [
+    { from:"egypt", to:"egypt", label:"Still imprisoned in Egypt", km:0, dashed:true, note:"No travel occurs in this chapter; it continues directly from Joseph's imprisonment in chapter 39, within the same Egyptian prison." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Two officials imprisoned", av:"official", desc:"Pharaoh's cupbearer and baker offend him and are placed in the same prison as Joseph, who is assigned to serve them (vv. 1-4)." },
+    { x:0.30, type:"person", label:"Two troubled dreams, one night", av:"official", desc:"Both men have dreams with no one to interpret them; Joseph insists interpretations belong to God alone (vv. 5-8)." },
+    { x:0.50, type:"object", label:"The cupbearer's vine dream", desc:"Three budding branches yield grapes pressed into Pharaoh's cup; Joseph reads this as restoration within three days (vv. 9-13)." },
+    { x:0.60, type:"person", label:"'Remember me when it is well with you'", av:"official", desc:"Joseph asks the cupbearer to mention him to Pharaoh and secure his release, protesting his innocence (vv. 14-15)." },
+    { x:0.75, type:"object", label:"The baker's basket dream", desc:"Three baskets of bread on his head, birds eating from the top one; Joseph interprets this as the baker's execution (vv. 16-19)." },
+    { x:0.92, type:"person", label:"Fulfillment, and forgetting", av:"official", desc:"On Pharaoh's birthday both interpretations come true exactly, but the restored cupbearer forgets Joseph (vv. 20-23)." }
+  ],
+  environment: {
+    chips: ["A shared prison cell", "Two dreams, one night", "Vine and grapes; baskets and birds", "'Interpretations belong to God'", "Exact fulfillment on Pharaoh's birthday", "A forgotten request"],
+    text: "Confined entirely within the Egyptian royal prison, this chapter turns Joseph's gift for dream interpretation — first shown, resentfully, with his own dreams in chapter 37 — into a tool that serves others rather than himself. The two-year delay the final verse quietly sets up (v. 23) becomes the hinge on which chapter 41 turns, as the cupbearer's forgetfulness leaves Joseph in prison until Pharaoh's own dreams create a need."
+  },
+  objectsExtra: [],
+  peopleExtra: ["cupbearer", "baker"],
+  culture: [
+    { title:"Dream interpretation in Egypt", icon:"💤",
+      text:"Egyptian culture took dreams seriously enough to maintain professional interpreters and dream manuals; Joseph's insistence that 'interpretations belong to God' (v. 8) deliberately sets his gift apart from Egypt's own divinatory professionals, crediting the true source directly." },
+    { title:"Symbolic dream pairs", icon:"🍇",
+      text:"The vine-and-grapes and basket-and-birds dreams both use the number three and everyday imagery from royal service, a pattern of paired, parallel dreams that recurs with Pharaoh's cattle and grain dreams in the very next chapter." },
+    { title:"The two-year wait", icon:"⏳",
+      text:"The chapter's closing note that the cupbearer 'did not remember Joseph, but forgot him' (v. 23) sets up a deliberately unresolved delay — two more years pass (Gen 41:1) before Joseph's circumstances change, underscoring that his rise depends entirely on God's timing, not human favor." }
+  ],
+  crossRefs: [
+    { group:"The cupbearer's forgetting, and its end", refs:[
+      { r:"Genesis 41:1, 9-13", note:"two years later, the cupbearer finally remembers Joseph" },
+      { r:"Psalm 105:19", note:"'until the time his word came to pass, the word of the LORD tested him'" },
+      { r:"Ecclesiastes 9:15-16", note:"a wise man's help forgotten, a familiar biblical pattern" } ]},
+    { group:"Interpretation belonging to God", refs:[
+      { r:"Genesis 41:16", note:"Joseph repeats the same claim before Pharaoh" },
+      { r:"Daniel 2:27-28", note:"Daniel makes an identical claim before Nebuchadnezzar" },
+      { r:"Daniel 5:11-14", note:"the same gift recognized generations later in Babylon" } ]}
+  ]
+},
+
+/* ===== GENESIS 41 — Pharaoh's Dreams and Joseph's Rise to Power ===== */
+"1:41": {
+  era: { title: "Egypt, c. 1885 BC (traditional dating) — Joseph made vizier", sub: "Seven years of plenty foreseen, then famine; Joseph elevated over all Egypt",
+    badges: ["Egyptian royal court", "Two years after the prison dreams", "Joseph, age thirty, made vizier"] },
+  timeOfDay: "day",
+  summary: "Two years later, Pharaoh dreams of seven fat cows devoured by seven gaunt ones, and seven plump heads of grain swallowed by seven withered ones; when none of Egypt's wise men can interpret them, the cupbearer finally remembers Joseph (vv. 1-13). Brought before Pharaoh, Joseph credits God alone for interpretation and explains both dreams mean the same thing: seven years of abundance will be followed by seven years of severe famine, and he advises appointing a wise administrator to store a fifth of the harvest during the good years (vv. 14-36). Impressed, Pharaoh appoints Joseph himself over all Egypt, second only to Pharaoh, giving him his signet ring, fine linen, a gold chain, a chariot, an Egyptian name, and Asenath as wife (vv. 37-45). During the seven good years Joseph gathers grain 'like the sand of the sea' and fathers Manasseh and Ephraim; when famine strikes as predicted, Egypt has bread while surrounding lands, including eventually Canaan, do not (vv. 46-57).",
+  focusPlace: "egypt",
+  places: [
+    { id:"egypt", role:"Pharaoh's court, where the dreams are interpreted and Joseph is elevated to vizier over the entire land (vv. 14-45)" }
+  ],
+  journey: [
+    { from:"egypt", to:"egypt", label:"From prison to the palace", km:0, dashed:true, note:"Joseph is brought directly from prison to stand before Pharaoh, and within the same day rises from prisoner to the second-highest office in Egypt." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Pharaoh's two dreams", av:"king", desc:"Seven gaunt cows devour seven fat ones, and seven withered heads of grain swallow seven plump ones; no Egyptian wise man can interpret them (vv. 1-8)." },
+    { x:0.20, type:"person", label:"The cupbearer remembers Joseph", av:"official", desc:"Prompted by Pharaoh's need, the cupbearer finally recalls Joseph's gift from prison two years earlier (vv. 9-13)." },
+    { x:0.38, type:"person", label:"Joseph's interpretation", av:"official", desc:"Joseph credits God alone, then explains both dreams as one message: seven years of plenty followed by seven years of famine (vv. 25-32)." },
+    { x:0.55, type:"person", label:"A plan, and its architect", av:"official", desc:"Joseph advises storing a fifth of the harvest during the good years and appointing an overseer — Pharaoh appoints Joseph himself (vv. 33-40)." },
+    { x:0.68, type:"object", label:"The signet ring and robes of office", desc:"Pharaoh invests Joseph with his own signet ring, fine linen, a gold chain, and a chariot, making him second in all Egypt (vv. 41-43)." },
+    { x:0.82, type:"person", label:"Asenath, and two sons", av:"woman", desc:"Joseph marries Asenath, daughter of Potiphera, priest of On, and fathers Manasseh and Ephraim before the famine begins (vv. 45, 50-52)." },
+    { x:0.95, type:"object", label:"Grain like the sand of the sea", desc:"During the seven good years Joseph stores such vast grain reserves that he stops measuring it; when famine strikes, Egypt alone has bread (vv. 47-49, 56-57)." }
+  ],
+  environment: {
+    chips: ["Two paired dreams of cattle and grain", "No wise man can interpret but Joseph", "A slave elevated to vizier in a day", "Signet ring, gold chain, chariot", "Seven years of plenty, stored", "Famine spreading beyond Egypt's borders"],
+    text: "Set entirely at Pharaoh's court and across Egypt's grain-growing years, this chapter turns on the same principle established in chapter 40 — that dream interpretation belongs to God, not Egypt's professional diviners. Joseph's administrative genius transforms a famine that could have devastated the region into the very means by which Egypt gains power and his own family will later be preserved."
+  },
+  objectsExtra: ["egyptian-signet-ring", "grain-storage"],
+  peopleExtra: ["pharaoh-joseph", "asenath", "potiphera", "manasseh", "ephraim"],
+  culture: [
+    { title:"Egyptian famine administration", icon:"🌾",
+      text:"Egyptian records describe officials responsible for grain storage and famine relief, and the Nile's flood cycles made multi-year agricultural planning a real concern; Joseph's proposed fifth-share storage plan reflects genuine ancient administrative practice rather than an implausible invention." },
+    { title:"An Egyptian name and identity", icon:"📛",
+      text:"Pharaoh gives Joseph the Egyptian name Zaphenath-paneah (v. 45), likely meaning something like 'God speaks and he lives' or 'the god has said he will live' — a formal act of naturalizing a foreigner into full Egyptian office and identity." },
+    { title:"Naming Manasseh and Ephraim", icon:"👶",
+      text:"Joseph names his sons to mark his own journey: Manasseh, 'making to forget' his hardship and father's house, and Ephraim, 'fruitful' in the land of his affliction (vv. 51-52) — both names later become tribal names within Israel." }
+  ],
+  crossRefs: [
+    { group:"Joseph's rise recognized as God's work", refs:[
+      { r:"Psalm 105:19-22", note:"'he made him lord of his house... to instruct the elders'" },
+      { r:"Acts 7:9-10", note:"Stephen: 'God gave him favor and wisdom before Pharaoh'" },
+      { r:"Genesis 45:8", note:"Joseph later calls himself 'father to Pharaoh' by God's design" } ]},
+    { group:"The famine that draws the family to Egypt", refs:[
+      { r:"Genesis 42:1-3", note:"the famine reaches Canaan, sending the brothers to buy grain" },
+      { r:"Genesis 47:13-26", note:"the famine's severity and Joseph's land policy across Egypt" },
+      { r:"Acts 7:11", note:"'a famine came over all Egypt and Canaan, and great affliction'" } ]}
+  ]
+},
+
+/* ===== GENESIS 42 — The Brothers' First Journey to Egypt ===== */
+"1:42": {
+  era: { title: "Patriarchal age — famine drives the brothers to Egypt", sub: "Ten brothers before the unrecognized Joseph; Simeon held as surety",
+    badges: ["Famine years", "Ten brothers, one held hostage", "Guilt over Joseph resurfaces"] },
+  timeOfDay: "day",
+  summary: "With famine gripping Canaan, Jacob sends ten sons to buy grain in Egypt, keeping only Benjamin back for fear of losing him too (vv. 1-4). The brothers bow before Joseph, now Egypt's vizier, fulfilling his childhood dream, though they do not recognize him; he speaks harshly, accuses them of being spies, and imprisons them for three days (vv. 5-17). He then demands one brother stay behind while the rest return with grain, insisting they bring Benjamin back to prove their honesty; overhearing this, the brothers admit to each other their guilt over Joseph, unaware Joseph understands their language and weeps privately (vv. 18-24). Joseph keeps Simeon as surety and secretly returns each brother's silver in his grain sack (vv. 24-25). On the journey home the returned money terrifies them, and when they report everything to Jacob, he refuses to let Benjamin go, grieving that he has already lost Joseph and now Simeon (vv. 26-38).",
+  focusPlace: "egypt",
+  places: [
+    { id:"hebron", role:"Jacob's home, where the brothers set out from and return to report Joseph's demands (vv. 1-5, 29-38)" },
+    { id:"egypt", role:"Where the unrecognized Joseph tests his brothers, accuses them of spying, and holds Simeon hostage (vv. 6-24)" }
+  ],
+  journey: [
+    { from:"hebron", to:"egypt", label:"Ten brothers sent for grain", km:400, note:"Jacob sends ten sons to buy grain in famine-stricken Egypt, withholding only Benjamin, and they return home with grain, hostage terms, and their returned silver." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Ten brothers sent, Benjamin held back", av:"elder", desc:"Jacob sends his sons for grain but keeps Benjamin home, fearing harm might befall him as it did Joseph (vv. 1-4)." },
+    { x:0.25, type:"person", label:"Bowing before the unrecognized Joseph", av:"official", desc:"The brothers bow low before Joseph, fulfilling his childhood dream exactly, though they do not know him (vv. 6-8)." },
+    { x:0.42, type:"person", label:"Accused as spies, imprisoned", av:"official", desc:"Joseph speaks harshly, accuses them of spying, and holds them for three days to test their story (vv. 9-17)." },
+    { x:0.58, type:"person", label:"Guilt over Joseph resurfaces", av:"youth", desc:"Overhearing Joseph's demand to bring Benjamin, the brothers admit to each other their guilt for Joseph's suffering years earlier; Joseph weeps unseen (vv. 18-24)." },
+    { x:0.72, type:"object", label:"Simeon held, silver secretly returned", desc:"Joseph keeps Simeon as surety and orders each brother's silver quietly returned in his grain sack (vv. 24-25)." },
+    { x:0.90, type:"person", label:"Jacob's refusal over Benjamin", av:"elder", desc:"Terrified by the returned money and Joseph's demand, Jacob refuses to let Benjamin go, grieving 'Joseph is no more, and Simeon is no more' (vv. 35-38)." }
+  ],
+  environment: {
+    chips: ["Famine forcing a journey south", "Ten brothers bowing, unknowingly, to Joseph", "A harsh test and three days' imprisonment", "Old guilt spoken aloud", "Silver mysteriously returned", "Jacob's fear for his last favored son"],
+    text: "The chapter shuttles between Hebron and Egypt as famine forces exactly the encounter Joseph's dreams once foretold, though neither side recognizes the other at first. Joseph's harsh testing and the brothers' overheard guilt turn a grain-buying trip into the quiet beginning of reconciliation, even as Jacob's fear for Benjamin threatens to unravel it before it starts."
+  },
+  objectsExtra: ["grain-storage"],
+  peopleExtra: [],
+  culture: [
+    { title:"Egyptian famine relief for foreigners", icon:"🌍",
+      text:"Egyptian texts describe grain sold or given to neighboring peoples during regional famines, since the Nile's floods made Egypt comparatively famine-resistant; the brothers' journey reflects a real ancient pattern of Canaanite and Semitic groups seeking Egyptian grain in hard years." },
+    { title:"Why Joseph tests his brothers", icon:"❓",
+      text:"Joseph's harsh accusations and hostage-taking are widely read not as cruelty but as a test of whether his brothers have changed — particularly whether they would abandon Benjamin, Rachel's other son, the way they once abandoned him." },
+    { title:"Jacob's grief compounding", icon:"😢",
+      text:"Jacob's lament that 'everything is against me' (v. 36) reads with dramatic irony for readers who know Joseph is alive and well; his refusal to risk Benjamin sets up the tension that drives the rest of the Joseph narrative." }
+  ],
+  crossRefs: [
+    { group:"Dreams fulfilled in the bowing brothers", refs:[
+      { r:"Genesis 37:7", note:"the sheaf dream, now literally fulfilled" },
+      { r:"Genesis 45:7-8", note:"Joseph's later explanation of God's purpose in it all" },
+      { r:"Psalm 105:16-17", note:"'he sent a man ahead of them, Joseph, sold as a slave'" } ]},
+    { group:"Guilt and conscience among the brothers", refs:[
+      { r:"Genesis 42:21-22", note:"the brothers' own words admitting their guilt" },
+      { r:"Genesis 44:16", note:"Judah later confesses 'God has found out the guilt of your servants'" },
+      { r:"Genesis 50:15-17", note:"the same guilt resurfacing after Jacob's death" } ]}
+  ]
+},
+
+/* ===== GENESIS 43 — The Second Journey, with Benjamin ===== */
+"1:43": {
+  era: { title: "Patriarchal age — Benjamin taken down to Egypt", sub: "Judah's guarantee persuades Jacob; a tense, then warm, reunion feast",
+    badges: ["Famine deepens", "Judah pledges himself for Benjamin", "A feast, and Joseph's hidden tears"] },
+  timeOfDay: "day",
+  summary: "With grain running out, Jacob presses his sons to return to Egypt, but Judah insists they cannot go without Benjamin, personally guaranteeing his safety to persuade their reluctant father (vv. 1-14). Arriving in Egypt with double silver, gifts, and Benjamin, the brothers are brought to Joseph's house, terrified about the previously returned money, but Joseph's steward reassures them and releases Simeon to them (vv. 15-25). When Joseph arrives, he inquires warmly after their father and is overcome with emotion at seeing Benjamin, his own mother's son, withdrawing to weep privately before composing himself (vv. 26-31). At the meal Joseph seats the brothers by exact birth order, astonishing them, and gives Benjamin five times the portion of the others, and they all feast and drink freely together (vv. 32-34).",
+  focusPlace: "egypt",
+  places: [
+    { id:"hebron", role:"Jacob's home, where Judah's guarantee finally persuades Jacob to let Benjamin go (vv. 1-14)" },
+    { id:"egypt", role:"Joseph's house, where the brothers are received, Simeon is restored, and the reunion feast takes place (vv. 15-34)" }
+  ],
+  journey: [
+    { from:"hebron", to:"egypt", label:"Benjamin taken down at last", km:400, note:"Jacob finally releases Benjamin on Judah's personal guarantee, and the brothers travel to Egypt with double silver and gifts for the still-unrecognized vizier." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Judah's personal guarantee", av:"youth", desc:"Judah pledges himself as surety for Benjamin's safety, finally persuading Jacob to let him go (vv. 8-10, 13-14)." },
+    { x:0.28, type:"person", label:"Fear over the returned silver", av:"youth", desc:"Arriving at Joseph's house, the brothers panic about the silver mysteriously returned earlier, but Joseph's steward reassures them (vv. 18-23)." },
+    { x:0.45, type:"person", label:"Simeon restored", av:"youth", desc:"Simeon is brought out and reunited with his brothers before the meal (v. 23)." },
+    { x:0.62, type:"person", label:"Joseph's hidden weeping over Benjamin", av:"official", desc:"Seeing his mother's son for the first time in over twenty years, Joseph is overcome and withdraws to weep privately (vv. 29-30)." },
+    { x:0.80, type:"person", label:"Seated by exact birth order", av:"official", desc:"The brothers are astonished to find themselves seated in precise order from oldest to youngest, an apparent impossibility to explain (v. 33)." },
+    { x:0.94, type:"object", label:"Benjamin's fivefold portion", desc:"Benjamin receives five times the food of his brothers, a pointed test of any lingering jealousy, and all feast and drink freely (v. 34)." }
+  ],
+  environment: {
+    chips: ["Grain running out again", "Judah's personal pledge for Benjamin", "Fear at Joseph's own house", "Simeon restored to his brothers", "Tears hidden behind closed doors", "A feast seated in impossible order"],
+    text: "The chapter moves from Hebron's hard bargaining over Benjamin's safety to a private, emotionally charged reunion feast inside Joseph's Egyptian house. Every detail — the returned silver, the birth-order seating, Benjamin's oversized portion — quietly tests the brothers even as Joseph struggles to contain his own feelings, setting the stage for the final test in chapter 44."
+  },
+  objectsExtra: [],
+  peopleExtra: [],
+  culture: [
+    { title:"Suretyship in patriarchal custom", icon:"🤝",
+      text:"Judah's personal guarantee for Benjamin — 'I will bear the blame forever' (v. 9) — reflects a real ancient practice of one family member pledging personal responsibility for another's safety, a custom that gives weight to his later plea in chapter 44." },
+    { title:"Egyptian dining customs and separation", icon:"🍽️",
+      text:"The note that Egyptians ate separately from Hebrews, 'for that is an abomination to the Egyptians' (v. 32), reflects genuine Egyptian dietary and ritual purity concerns regarding foreign herders, adding historical texture to the seating arrangement." },
+    { title:"Benjamin's portion as a pointed test", icon:"⚖️",
+      text:"Giving Benjamin five times the food of his brothers directly echoes the favoritism once shown Joseph, letting Joseph observe in real time whether the same jealousy that once led to his own sale would resurface against Rachel's other son." }
+  ],
+  crossRefs: [
+    { group:"Judah's growing responsibility", refs:[
+      { r:"Genesis 43:8-9", note:"Judah's guarantee, the turning point that persuades Jacob" },
+      { r:"Genesis 44:32-34", note:"Judah later makes good on this very pledge" },
+      { r:"Genesis 49:8-10", note:"Jacob's blessing rewards Judah's leadership with kingship" } ]},
+    { group:"Joseph's controlled emotion", refs:[
+      { r:"Genesis 42:24", note:"Joseph's earlier private weeping, unseen by his brothers" },
+      { r:"Genesis 45:1-2", note:"the emotion he can no longer contain in the next chapter" },
+      { r:"Genesis 45:14-15", note:"his open weeping once he reveals himself" } ]}
+  ]
+},
+
+/* ===== GENESIS 44 — The Silver Cup and Judah's Plea ===== */
+"1:44": {
+  era: { title: "Patriarchal age — the final test at the granary", sub: "A planted cup, a threatened enslavement, and Judah's offer of himself",
+    badges: ["The last and hardest test", "Judah's transformation complete", "A plea that moves Joseph to tears"] },
+  timeOfDay: "day",
+  summary: "As the brothers set out for home with grain, Joseph has his steward secretly plant his silver cup in Benjamin's sack and then pursue and accuse them of theft (vv. 1-6). Confident of their innocence, the brothers agree that whoever has the cup should die and the rest become slaves; when the cup is found in Benjamin's sack, they tear their clothes in anguish and return together to the city rather than abandon him (vv. 7-13). Before Joseph, Judah does not attempt to prove innocence but confesses their guilt is now God's doing and offers all the brothers as slaves; Joseph insists only Benjamin need stay (vv. 14-17). Judah then delivers an impassioned plea, recounting Jacob's love for Benjamin and his own personal guarantee, and offers himself as a slave in Benjamin's place rather than see his father die of grief (vv. 18-34).",
+  focusPlace: "egypt",
+  places: [
+    { id:"egypt", role:"Joseph's granary and city, where the cup is discovered and Judah delivers his plea before the still-unrecognized Joseph (vv. 1-34)" }
+  ],
+  journey: [
+    { from:"egypt", to:"egypt", label:"Overtaken on the road home", km:0, dashed:true, note:"The brothers set out from Joseph's city toward Canaan but are overtaken by Joseph's steward before they get far, and all return to face the accusation together." }
+  ],
+  hotspots: [
+    { x:0.08, type:"object", label:"The silver cup planted", desc:"Joseph has his steward secretly hide his own silver cup in Benjamin's grain sack before the brothers depart (vv. 1-2)." },
+    { x:0.25, type:"person", label:"Overtaken and accused", av:"official", desc:"The steward catches up to the brothers and accuses them of stealing Joseph's divining cup, an accusation they confidently deny (vv. 4-9)." },
+    { x:0.42, type:"object", label:"The cup found in Benjamin's sack", desc:"Searched from oldest to youngest, the cup turns up exactly in Benjamin's sack, and the brothers tear their clothes in grief (vv. 12-13)." },
+    { x:0.55, type:"person", label:"Judah's confession before Joseph", av:"youth", desc:"Rather than argue innocence, Judah confesses 'God has found out the guilt of your servants' and offers all the brothers as slaves (vv. 14-16)." },
+    { x:0.75, type:"person", label:"Judah's plea recounting Jacob's love", av:"youth", desc:"Judah retells the whole story of Jacob's grief over Joseph and his fear of losing Benjamin, and his own personal pledge for the boy's safety (vv. 18-32)." },
+    { x:0.95, type:"person", label:"Judah offers himself in Benjamin's place", av:"youth", desc:"Judah begs to remain as a slave instead of Benjamin, unwilling to see his father die of grief (vv. 33-34)." }
+  ],
+  environment: {
+    chips: ["A cup planted as the final test", "Torn clothes and shared anguish", "No brother abandons Benjamin", "Judah's full confession of guilt", "A father's grief retold in full", "One brother's offer to take another's place"],
+    text: "The whole chapter unfolds within Joseph's Egyptian household and its immediate surroundings, the tightest and most emotionally concentrated scene in the Joseph narrative. What began in chapter 37 with brothers willing to sell one sibling for silver ends here with one brother willing to become a slave himself rather than let another be taken — the transformation the entire cycle has been building toward."
+  },
+  objectsExtra: ["silver-cup"],
+  peopleExtra: [],
+  culture: [
+    { title:"Divination cups in Egypt", icon:"🥈",
+      text:"The steward calls Joseph's cup one he uses 'for divination' (v. 5), a genuine Egyptian practice of reading omens in liquid; whether Joseph himself actually practiced this or the line is part of the elaborate ruse is debated, but the detail fits authentic Egyptian court culture." },
+    { title:"Corporate responsibility and the brothers' unity", icon:"🤝",
+      text:"The brothers' insistence on all returning together rather than abandoning Benjamin (v. 13) marks a decisive reversal from chapter 37, where they abandoned Joseph without a second thought — the test Joseph designed succeeds completely." },
+    { title:"Judah's speech as the narrative's turning point", icon:"🗣️",
+      text:"Judah's plea (vv. 18-34) is widely regarded as one of the most moving speeches in Genesis, and its selfless offer to be enslaved in Benjamin's place is precisely what breaks Joseph's composure in the opening verses of chapter 45." }
+  ],
+  crossRefs: [
+    { group:"Judah's transformation completed", refs:[
+      { r:"Genesis 37:26-27", note:"Judah once proposed selling a brother for profit" },
+      { r:"Genesis 43:8-9", note:"Judah's earlier pledge, now fulfilled here" },
+      { r:"Genesis 49:8-10", note:"Jacob's blessing rewards this very character with kingship" } ]},
+    { group:"Substitution and self-sacrifice", refs:[
+      { r:"Genesis 45:1-3", note:"Joseph's composure finally breaks after Judah's plea" },
+      { r:"Romans 5:6-8", note:"a later, greater substitution — one dying for the guilty" },
+      { r:"Exodus 32:32", note:"Moses similarly offers himself in place of the people" } ]}
+  ]
+},
+
+/* ===== GENESIS 45 — Joseph Reveals Himself ===== */
+"1:45": {
+  era: { title: "Patriarchal age — the great reveal and reconciliation", sub: "'I am Joseph... God sent me before you to preserve life'",
+    badges: ["Twenty-plus years of separation ended", "Reconciliation, not revenge", "Jacob summoned to Egypt"] },
+  timeOfDay: "day",
+  summary: "Overcome after Judah's plea, Joseph clears the room of Egyptians and weeps so loudly that Pharaoh's household hears, then reveals his identity to his stunned brothers: 'I am Joseph; is my father still alive?' (vv. 1-3). Seeing their terror, he reassures them not to be distressed or angry with themselves, reframing the sale as God's providence to preserve life through the famine, sending him ahead of them (vv. 4-8). He urges them to hurry back and bring Jacob and the whole family down to settle in Goshen, where he will provide for them through five more years of famine, and he embraces Benjamin and all his brothers, weeping and finally talking freely with them (vv. 9-15). Pharaoh, hearing the news, joyfully invites the whole family to Egypt and provides wagons and provisions for the move; Joseph sends the brothers off richly supplied, urging them not to quarrel on the way, and Jacob, told Joseph is alive, is at first unable to believe it but then revives at the sight of the wagons (vv. 16-28).",
+  focusPlace: "egypt",
+  places: [
+    { id:"egypt", role:"Where Joseph reveals himself and Pharaoh invites the whole family to settle (vv. 1-20)" },
+    { id:"hebron", role:"Where the brothers return to tell Jacob his son is alive (vv. 25-28)" },
+    { id:"goshen", role:"The region Joseph designates for his family's future settlement (v. 10)" }
+  ],
+  journey: [
+    { from:"egypt", to:"hebron", label:"The brothers race home with the news", km:400, note:"Loaded with provisions and wagons from Pharaoh, the brothers hurry back to tell Jacob that Joseph is alive and ruling all Egypt." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"'I am Joseph'", av:"official", desc:"Unable to control himself any longer, Joseph clears the room and reveals his identity, his weeping heard even in Pharaoh's house (vv. 1-3)." },
+    { x:0.22, type:"person", label:"'God sent me before you'", av:"official", desc:"Joseph reassures his terrified brothers, reframing their sale of him as part of God's plan to preserve life through the famine (vv. 4-8)." },
+    { x:0.40, type:"object", label:"The invitation to Goshen", desc:"Joseph instructs the brothers to bring Jacob and the whole household to settle in Goshen, where he will sustain them for the remaining famine years (vv. 9-11)." },
+    { x:0.55, type:"person", label:"Embracing Benjamin and all his brothers", av:"official", desc:"Joseph weeps on Benjamin's neck and kisses all his brothers, finally able to talk freely with them (vv. 14-15)." },
+    { x:0.72, type:"person", label:"Pharaoh's joyful invitation", av:"king", desc:"Hearing the news, Pharaoh happily offers the best of Egypt's land and sends wagons for the move (vv. 16-20)." },
+    { x:0.90, type:"person", label:"Jacob revived at the sight of the wagons", av:"elder", desc:"Jacob cannot believe the report until he sees the wagons Joseph sent, and his spirit revives: 'It is enough; Joseph my son is still alive' (vv. 26-28)." }
+  ],
+  environment: {
+    chips: ["Twenty-plus years of separation ended", "'I am Joseph' — the reveal", "Reconciliation framed as providence", "An invitation to Goshen's good land", "Pharaoh's own joyful blessing", "A father's spirit revived"],
+    text: "The chapter's emotional center is Joseph's Egyptian chamber, cleared of onlookers for the reveal, before opening outward to Pharaoh's court and finally back to Hebron where Jacob receives the news. Joseph's insistence that God, not his brothers' malice, sent him ahead becomes the theological key to the entire Joseph narrative, turning betrayal into providence without minimizing the wrong done."
+  },
+  objectsExtra: [],
+  peopleExtra: ["pharaoh-joseph"],
+  culture: [
+    { title:"Clearing the room before revealing himself", icon:"🚪",
+      text:"Joseph's insistence that all Egyptians leave before he speaks (v. 1) protects his brothers from public humiliation before Egyptian officials, a deliberate act of mercy and discretion in how he manages the reveal." },
+    { title:"Providence, not merely coincidence", icon:"🙏",
+      text:"Joseph's threefold repetition that 'God sent me' (vv. 5, 7, 8) is theologically central to Genesis's larger argument that God works through, not merely around, human sin and suffering to accomplish preservation and blessing." },
+    { title:"Goshen as a strategic choice", icon:"🐑",
+      text:"Goshen's pastureland suited Jacob's family's livestock and, being somewhat separate from Egyptian population centers, allowed them to maintain their distinct identity — a detail that matters greatly by the time of Exodus." }
+  ],
+  crossRefs: [
+    { group:"Providence over betrayal", refs:[
+      { r:"Genesis 50:20", note:"Joseph's fullest statement of the same principle after Jacob's death" },
+      { r:"Psalm 105:16-22", note:"a psalm retelling of God's hand throughout Joseph's rise" },
+      { r:"Romans 8:28", note:"'all things work together for good' echoes this theology" } ]},
+    { group:"Jacob's family summoned to Egypt", refs:[
+      { r:"Genesis 46:1-4", note:"God confirms the move to Jacob directly at Beersheba" },
+      { r:"Genesis 47:5-6", note:"Pharaoh formally settles the family in Goshen" },
+      { r:"Acts 7:14-15", note:"Stephen recounts Jacob's household, seventy-five in all, going down to Egypt" } ]}
+  ]
+},
+
+/* ===== GENESIS 46 — Jacob's Family Moves to Egypt ===== */
+"1:46": {
+  era: { title: "Patriarchal age — Jacob's household of seventy goes down to Egypt", sub: "A divine word at Beersheba, a genealogy of seventy, and reunion with Joseph",
+    badges: ["Last stop in Canaan: Beersheba", "God's promise to go with Jacob", "Seventy souls entering Egypt"] },
+  timeOfDay: "day",
+  summary: "Traveling south, Jacob stops at Beersheba to offer sacrifices, where God speaks to him in a night vision, confirming that he should not fear going to Egypt since God will go with him, make him a great nation there, and one day bring his descendants back up (vv. 1-4). Jacob's sons carry him, their wives, and children to Egypt in Pharaoh's wagons along with all their livestock and possessions (vv. 5-7). The chapter then lists the genealogy of Jacob's household entering Egypt — sons, grandsons, and a few granddaughters through Leah, Zilpah, Rachel, and Bilhah — totaling seventy persons (vv. 8-27). Judah is sent ahead to meet Joseph and guide the family to Goshen, and Joseph rides out to meet his father, embracing him and weeping long on his neck (vv. 28-30). Joseph then coaches his brothers on how to answer Pharaoh, so that they will be granted the land of Goshen as shepherds, a trade Egyptians found detestable (vv. 31-34).",
+  focusPlace: "goshen",
+  places: [
+    { id:"beersheba", role:"Where Jacob offers sacrifices and receives God's confirming word before continuing to Egypt (vv. 1-4)" },
+    { id:"egypt", role:"Where Joseph rides out to meet his father and reunite the family (vv. 28-30)" },
+    { id:"goshen", role:"The region Joseph secures for his family to settle as shepherds, separate from Egyptian population centers (vv. 28, 34)" }
+  ],
+  journey: [
+    { from:"beersheba", to:"goshen", label:"Jacob's whole household enters Egypt", km:450, note:"After God's confirming word at Beersheba, Jacob's entire household of seventy travels down into Egypt in Pharaoh's wagons to settle in Goshen." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"God's word at Beersheba", av:"elder", desc:"At his last stop in Canaan, Jacob offers sacrifices and hears God confirm the journey: 'Do not be afraid to go down to Egypt... I will also bring you up again' (vv. 1-4)." },
+    { x:0.25, type:"object", label:"Pharaoh's wagons carry the family", desc:"Jacob's sons transport him, their wives, children, and all their goods to Egypt in the wagons Pharaoh provided (vv. 5-7)." },
+    { x:0.45, type:"person", label:"Seventy souls listed by name", av:"elder", desc:"A genealogy names Jacob's sons, grandsons, and a few granddaughters through each wife, totaling seventy persons entering Egypt (vv. 8-27)." },
+    { x:0.65, type:"person", label:"Judah sent ahead", av:"youth", desc:"Jacob sends Judah ahead to Joseph to guide the family's arrival in Goshen (v. 28)." },
+    { x:0.80, type:"person", label:"Joseph and Jacob reunited", av:"official", desc:"Joseph rides out in his chariot to meet his father, falls on his neck, and weeps a long while (vv. 29-30)." },
+    { x:0.92, type:"person", label:"Coached to claim Goshen", av:"official", desc:"Joseph instructs his brothers to tell Pharaoh they are shepherds, a trade Egyptians consider detestable, ensuring they are settled apart in Goshen (vv. 31-34)." }
+  ],
+  environment: {
+    chips: ["A last sacrifice at Beersheba", "God's own confirming word", "Seventy names entering Egypt", "Wagons loaded with a whole household", "A long-awaited embrace", "Goshen secured for shepherds"],
+    text: "The chapter traces the family's final leg from Beersheba, the southern edge of Canaan, down into Goshen in the Nile delta, framed at its start by God's direct promise and at its end by Joseph's practical wisdom in securing separate land for his family. The genealogy at its center, seventy names strong, marks the formal beginning of Israel's sojourn in Egypt that will eventually lead to the Exodus."
+  },
+  objectsExtra: [],
+  peopleExtra: [],
+  culture: [
+    { title:"Why stop at Beersheba", icon:"🙏",
+      text:"Beersheba, associated with Abraham's and Isaac's own worship (Gen 21:33; 26:23-25), is a fitting last stop in Canaan for Jacob to seek God's confirmation before leaving the promised land — echoing his grandfather's and father's own patterns of covenant renewal there." },
+    { title:"The genealogy of seventy", icon:"📜",
+      text:"The number seventy (sometimes seventy-five per Acts 7:14, following the Septuagint's additional descendants) represents the whole of Jacob's household as a symbolically complete number, marking the small seed from which the nation of Israel will grow in Egypt." },
+    { title:"Shepherds, 'an abomination to the Egyptians'", icon:"🐑",
+      text:"Joseph's coaching (v. 34) reflects genuine Egyptian cultural disdain for nomadic herders, a distaste that works in the family's favor, securing them Goshen's separate pastureland rather than assimilation into Egyptian cities." }
+  ],
+  crossRefs: [
+    { group:"God's covenant promises renewed", refs:[
+      { r:"Genesis 15:13-14", note:"God's earlier prediction to Abraham of Egyptian sojourn and eventual return" },
+      { r:"Genesis 28:15", note:"the same promise of divine presence given earlier to Jacob at Bethel" },
+      { r:"Exodus 1:7", note:"the seventy multiply into a great nation, as promised here" } ]},
+    { group:"The seventy counted again later", refs:[
+      { r:"Exodus 1:1-5", note:"the same genealogical count recalled at the start of Exodus" },
+      { r:"Deuteronomy 10:22", note:"'seventy persons' who went down to Egypt, now as numerous as the stars" },
+      { r:"Acts 7:14-15", note:"Stephen's speech recounts the same family history" } ]}
+  ]
+},
+
+/* ===== GENESIS 47 — Jacob before Pharaoh, and the Land-for-Grain Policy ===== */
+"1:47": {
+  era: { title: "Patriarchal age — Jacob settled in Goshen, Egypt reorganized", sub: "Jacob blesses Pharaoh; Joseph's famine policy reshapes Egyptian land tenure",
+    badges: ["Goshen formally granted", "Famine's harshest years", "Jacob's seventeen years in Egypt"] },
+  timeOfDay: "day",
+  summary: "Joseph presents five of his brothers and then Jacob himself to Pharaoh, who grants the family Goshen and even offers capable men positions over his own livestock (vv. 1-6). Jacob blesses Pharaoh and, asked his age, reflects that his 'few and evil' years number 130, less than his fathers' (vv. 7-10). Joseph settles his family in Goshen's best land and sustains them through the ongoing famine (vv. 11-12). As the famine deepens, Joseph systematically acquires all Egypt's money, then livestock, then land and the people themselves for Pharaoh in exchange for food, only sparing the priests' land; he then institutes a permanent fifth-share tax on the harvest, and the Egyptians gratefully accept becoming Pharaoh's servants in exchange for survival (vv. 13-26). Israel meanwhile prospers greatly in Goshen, multiplying for seventeen years until, sensing death approaching, Jacob makes Joseph swear to bury him not in Egypt but with his fathers in Canaan (vv. 27-31).",
+  focusPlace: "goshen",
+  places: [
+    { id:"goshen", role:"Where Jacob's family formally settles and prospers under Pharaoh's grant, multiplying over seventeen years (vv. 6, 11-12, 27)" },
+    { id:"egypt", role:"Where Joseph's famine policy reorganizes land ownership under Pharaoh across the wider country (vv. 13-26)" },
+    { id:"hebron", role:"Where Jacob's fathers are buried, and where he makes Joseph swear to bury him instead of in Egypt (v. 30)" }
+  ],
+  journey: [
+    { from:"goshen", to:"egypt", label:"Joseph presents his family to Pharaoh", km:100, note:"Joseph brings his brothers and then Jacob from Goshen to Pharaoh's court for formal presentation and the land grant, then returns them to settle permanently." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Brothers presented to Pharaoh", av:"king", desc:"Joseph presents five brothers, who are granted Goshen and offered charge of Pharaoh's own livestock (vv. 1-6)." },
+    { x:0.22, type:"person", label:"Jacob blesses Pharaoh", av:"elder", desc:"Jacob blesses Pharaoh and reflects that his 130 years have been 'few and evil' compared to his fathers' (vv. 7-10)." },
+    { x:0.38, type:"object", label:"Goshen settled and sustained", desc:"Joseph provides for his father's whole household in Goshen's best land throughout the ongoing famine (vv. 11-12)." },
+    { x:0.55, type:"object", label:"Money, livestock, then land acquired", desc:"As the famine worsens, Egyptians exchange first their money, then livestock, then land and themselves for grain, Joseph gathering it all for Pharaoh (vv. 13-21)." },
+    { x:0.72, type:"person", label:"The priests' land spared", av:"priest", desc:"Only the priests keep their land, since Pharaoh provides for them directly, and a permanent fifth-share tax is established across Egypt (vv. 22, 26)." },
+    { x:0.90, type:"person", label:"Jacob's oath for burial in Canaan", av:"elder", desc:"After seventeen years in Egypt, sensing death near, Jacob makes Joseph swear not to bury him in Egypt but with his fathers (vv. 29-31)." }
+  ],
+  environment: {
+    chips: ["Formal land grant in Goshen", "Jacob's blessing on Pharaoh", "Famine forcing Egypt to sell itself", "A permanent fifth-share tax", "Priests alone keeping their land", "Seventeen years, then a burial oath"],
+    text: "The chapter moves between Pharaoh's court, where Jacob's family receives formal royal favor, and the wider Egyptian countryside, where Joseph's famine administration permanently reshapes land ownership under Pharaoh. Against this backdrop of national upheaval, Jacob's family alone prospers securely in Goshen, and the chapter closes with Jacob's mind already turning toward his eventual burial back in the promised land."
+  },
+  objectsExtra: ["grain-storage"],
+  peopleExtra: [],
+  culture: [
+    { title:"Egyptian land tenure and the fifth-share tax", icon:"🏛️",
+      text:"Ancient Egyptian sources do attest to substantial crown ownership of agricultural land with tenant farmers paying a portion of produce, lending historical plausibility to Joseph's famine-driven reorganization, even if the story's specific scale is theologically emphasized." },
+    { title:"Priestly land exemption", icon:"⛩️",
+      text:"Egyptian temples and priesthoods historically held tax-exempt land grants directly from Pharaoh, matching the text's note that priests alone did not have to sell their land since they received a fixed allowance (v. 22)." },
+    { title:"'Few and evil' — Jacob's self-assessment", icon:"💭",
+      text:"Jacob's blunt reflection on his 130 hard years (v. 9) surveys a life marked by deception, exile, bereavement, and loss, offering a notably unsentimental patriarchal self-appraisal rather than a triumphant summary." }
+  ],
+  crossRefs: [
+    { group:"Israel's prosperity in Goshen", refs:[
+      { r:"Genesis 46:34", note:"Goshen secured earlier specifically for shepherds" },
+      { r:"Exodus 1:7", note:"the family's multiplication continues explosively after this" },
+      { r:"Psalm 105:23-24", note:"'Israel came into Egypt... and the LORD made his people very fruitful'" } ]},
+    { group:"Jacob's burial request", refs:[
+      { r:"Genesis 49:29-32", note:"Jacob repeats and expands the same burial instructions" },
+      { r:"Genesis 50:12-13", note:"the sons carry out the oath, burying him at Machpelah" },
+      { r:"Hebrews 11:21-22", note:"both Jacob's and Joseph's faith remembered regarding their burial wishes" } ]}
+  ]
+},
+
+/* ===== GENESIS 48 — Jacob Blesses Ephraim and Manasseh ===== */
+"1:48": {
+  era: { title: "Patriarchal age — Jacob's deathbed adoption and blessing", sub: "Crossed hands favor the younger son; Ephraim and Manasseh become tribes",
+    badges: ["Jacob near death in Goshen", "The younger blessed above the elder", "Two grandsons adopted as sons"] },
+  timeOfDay: "dusk",
+  summary: "Told his father is ill, Joseph brings his two sons, Manasseh and Ephraim, to Jacob's bedside; Jacob recalls God's promise to him at Luz (Bethel) and formally adopts the two boys as his own sons, equal in inheritance to Reuben and Simeon (vv. 1-7). Nearly blind, Jacob asks who the boys are, then blesses them, deliberately crossing his hands to lay his right hand on the younger Ephraim's head and his left on the firstborn Manasseh's, despite Joseph's attempt to correct him (vv. 8-14). Jacob blesses Joseph himself with a prayer invoking the God who had shepherded him all his life and the Angel who redeemed him from all harm, and insists to Joseph that he has acted knowingly, declaring that Ephraim's descendants will become greater than Manasseh's (vv. 15-20). Jacob then tells Joseph he will die soon, but that God will bring the family back to Canaan, giving Joseph an extra portion, a mountain slope he took from the Amorites (vv. 21-22).",
+  focusPlace: "goshen",
+  places: [
+    { id:"goshen", role:"Where the aged, near-blind Jacob blesses Joseph's two sons on his deathbed (vv. 1-22)" }
+  ],
+  journey: [
+    { from:"goshen", to:"goshen", label:"No travel — a deathbed scene", km:0, dashed:true, note:"The entire chapter takes place at Jacob's bedside in Goshen; the only movement is Joseph bringing his sons close for the blessing." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Manasseh and Ephraim adopted as sons", av:"elder", desc:"Recalling God's promise at Luz, Jacob formally adopts Joseph's two sons as his own, equal to Reuben and Simeon in inheritance (vv. 3-7)." },
+    { x:0.30, type:"person", label:"Nearly blind, Jacob asks who they are", av:"elder", desc:"His eyes dim with age, Jacob asks Joseph to identify the boys before blessing them (vv. 8-10)." },
+    { x:0.50, type:"person", label:"Hands deliberately crossed", av:"elder", desc:"Jacob crosses his hands to put his right hand on the younger Ephraim, despite Joseph's attempt to move it to Manasseh, the firstborn (vv. 13-14, 17-19)." },
+    { x:0.68, type:"person", label:"'The God who has been my shepherd'", av:"elder", desc:"Jacob blesses Joseph with a prayer recalling the God of Abraham and Isaac who shepherded him and the Angel who redeemed him from all harm (vv. 15-16)." },
+    { x:0.85, type:"person", label:"'He knew what he was doing'", av:"elder", desc:"Jacob insists to Joseph that crossing his hands was deliberate, prophesying that Ephraim's line will surpass Manasseh's (vv. 19-20)." },
+    { x:0.95, type:"object", label:"An extra portion promised", desc:"Jacob gives Joseph one mountain slope more than his brothers, taken from the Amorites, alongside the promise of return to Canaan (vv. 21-22)." }
+  ],
+  environment: {
+    chips: ["A deathbed blessing scene", "Two grandsons formally adopted", "Crossed hands, deliberately", "The younger favored again", "'The God who has been my shepherd'", "A promised return to Canaan"],
+    text: "Confined entirely to Jacob's bedside in Goshen, this quiet, intimate chapter carries enormous weight: the formal adoption of Manasseh and Ephraim gives Joseph a double portion among the tribes, and Jacob's deliberate crossing of his hands continues a pattern, stretching back through his own life, of God's blessing favoring the younger over the elder."
+  },
+  objectsExtra: [],
+  peopleExtra: ["manasseh", "ephraim"],
+  culture: [
+    { title:"Adoption granting a double portion", icon:"👨‍👩‍👦",
+      text:"By adopting Manasseh and Ephraim as his own sons rather than Joseph's grandsons, Jacob effectively gives Joseph's line a double share of the inheritance — two tribes instead of one — a customary way in the ancient world of honoring a favored son's descendants." },
+    { title:"The younger over the elder, again", icon:"🔄",
+      text:"Jacob's crossed-hands blessing of Ephraim over Manasseh repeats a recurring Genesis pattern — Isaac over Ishmael, Jacob over Esau — of God's chosen blessing bypassing simple birth order, this time enacted knowingly by Jacob himself." },
+    { title:"'The Angel who has redeemed me'", icon:"👼",
+      text:"Jacob's blessing (v. 16) uniquely names 'the Angel' alongside God as the one who redeemed him from harm, a phrase later read by many as an early hint of a divine figure distinct from yet identified with God, echoing Jacob's earlier encounters at Bethel and Peniel." }
+  ],
+  crossRefs: [
+    { group:"The younger blessed above the elder", refs:[
+      { r:"Genesis 25:23", note:"'the older shall serve the younger,' said of Esau and Jacob" },
+      { r:"Genesis 27:1-29", note:"Jacob's own blessing taken from his elder brother" },
+      { r:"Numbers 1:32-35", note:"Ephraim's tribe indeed grows larger than Manasseh's later" } ]},
+    { group:"Jacob's blessings recalled later", refs:[
+      { r:"Joshua 13:29-31; 17:1", note:"Manasseh and Ephraim receive tribal territories as promised here" },
+      { r:"Hebrews 11:21", note:"'by faith Jacob... blessed each of the sons of Joseph'" },
+      { r:"Genesis 49:22-26", note:"Joseph's own blessing continues this scene's themes" } ]}
+  ]
+},
+
+/* ===== GENESIS 49 — Jacob's Deathbed Blessings on the Twelve Sons ===== */
+"1:49": {
+  era: { title: "Patriarchal age — Jacob's final oracles over his twelve sons", sub: "A father's last words become tribal destinies, Judah's kingship foretold",
+    badges: ["Jacob's final words", "Twelve sons, twelve futures", "Judah's line marked for kingship"] },
+  timeOfDay: "dusk",
+  summary: "Gathering his twelve sons, Jacob delivers a series of poetic oracles describing what will befall each in 'days to come' (vv. 1-2). Reuben is rebuked and demoted for defiling his father's bed; Simeon and Levi are condemned together for their violence at Shechem, their descendants to be scattered in Israel (vv. 3-7). Judah is praised as a lion, destined to hold the scepter until 'Shiloh comes' and the nations obey him — the most extensive and messianically significant blessing (vv. 8-12). Zebulun, Issachar, Dan, Gad, Asher, and Naphtali each receive shorter oracles touching on geography, character, or fate, including Dan's image as a serpent that bites the horse's heels (vv. 13-21). Joseph receives an extensive blessing of fruitfulness and strength despite past hostility, and Benjamin is described as a ravenous wolf (vv. 22-27). The chapter closes with Jacob instructing his sons to bury him with his fathers in the cave of Machpelah at Hebron, then breathing his last (vv. 28-33).",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"The cave of Machpelah where Jacob instructs his sons to bury him, alongside Abraham, Sarah, Isaac, and Rebekah (vv. 29-32)" },
+    { id:"goshen", role:"Where Jacob gathers his sons and delivers his final blessings before dying (vv. 1-2, 33)" }
+  ],
+  journey: [
+    { from:"goshen", to:"hebron", dashed:true, label:"Jacob's burial instructions look homeward", km:450, note:"Jacob himself does not travel in this chapter, but his final words point his sons back toward Hebron, where he insists on being buried with his ancestors rather than in Egypt." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Reuben demoted", av:"youth", desc:"'Unstable as water, you shall not have preeminence' — Reuben's blessing recalls his defiling of Jacob's bed (Gen 35:22; 49:3-4)." },
+    { x:0.18, type:"person", label:"Simeon and Levi condemned together", av:"youth", desc:"Jacob curses their anger for the Shechem massacre, decreeing their descendants scattered within Israel (vv. 5-7)." },
+    { x:0.32, type:"person", label:"Judah, the lion and the scepter", av:"youth", desc:"Judah's brothers will praise him; the scepter will not depart from Judah 'until Shiloh comes,' the chapter's clearest messianic note (vv. 8-12)." },
+    { x:0.50, type:"person", label:"Dan, a serpent by the road", av:"youth", desc:"Dan will judge his people, pictured as a serpent that bites a horse's heels, unseating its rider (vv. 16-18)." },
+    { x:0.68, type:"person", label:"Joseph's fruitful bough", av:"official", desc:"Joseph is blessed as a fruitful bough by a spring, attacked yet unbroken by archers, blessed with 'blessings of heaven above' (vv. 22-26)." },
+    { x:0.85, type:"person", label:"Benjamin, a ravenous wolf", av:"youth", desc:"Benjamin's brief oracle pictures him devouring prey morning and evening (v. 27)." },
+    { x:0.95, type:"person", label:"Jacob's final instruction and death", av:"elder", desc:"Jacob commands burial at Machpelah with his fathers, then 'breathed his last and was gathered to his people' (vv. 29-33)." }
+  ],
+  environment: {
+    chips: ["Twelve sons, twelve futures foretold", "Reuben, Simeon, and Levi rebuked", "Judah's scepter and 'Shiloh'", "Animal imagery for character and fate", "Joseph's fruitful, unbroken bough", "A last command: bury me at Machpelah"],
+    text: "Spoken from Jacob's deathbed in Goshen, these oracles function as much as tribal prophecy as personal blessing, their poetic, often cryptic animal imagery (lion, serpent, wolf, deer, fruitful bough) foreshadowing each tribe's later territory and character. Judah's blessing towers over the rest in length and significance, planting the promise of an enduring royal line that later prophecy and the New Testament both trace toward the Messiah."
+  },
+  objectsExtra: ["machpelah-cave"],
+  peopleExtra: [],
+  culture: [
+    { title:"Poetic 'testament' blessings", icon:"📜",
+      text:"Jacob's oracles follow an ancient Near Eastern pattern of a dying patriarch's final testament, using terse poetic imagery rather than plain prose — a genre that appears again in Moses' blessing of the tribes in Deuteronomy 33." },
+    { title:"'Until Shiloh comes'", icon:"👑",
+      text:"The obscure phrase in Judah's blessing (v. 10) has been read variously as a place name, a title meaning 'the one to whom it belongs,' or a messianic reference; Jewish and Christian tradition alike has long connected it to a future ruler from Judah's line, ultimately fulfilled for Christians in Jesus." },
+    { title:"Blessings as tribal geography foretold", icon:"🗺️",
+      text:"Many of the oracles anticipate specific tribal territories and roles seen later in Joshua and Judges — Zebulun by the seacoast, Issachar's agricultural toil, Dan's mobile, serpent-like tactics — reading almost as a poetic preview of the tribes' settled national character." }
+  ],
+  crossRefs: [
+    { group:"Judah's scepter and the Messiah", refs:[
+      { r:"Numbers 24:17", note:"Balaam's oracle of a coming star and scepter from Jacob" },
+      { r:"2 Samuel 7:12-16", note:"David's line established as an everlasting kingship" },
+      { r:"Revelation 5:5", note:"Jesus called 'the Lion of the tribe of Judah'" } ]},
+    { group:"Jacob's burial completing his own oath", refs:[
+      { r:"Genesis 47:29-31", note:"Jacob's earlier oath to Joseph about his burial" },
+      { r:"Genesis 50:1-14", note:"the sons carry out the burial at Machpelah in the next chapter" },
+      { r:"Genesis 23:17-20", note:"Abraham's original purchase of the cave of Machpelah" } ]}
+  ]
+},
+
+/* ===== GENESIS 50 — Jacob's Burial and Joseph's Death ===== */
+"1:50": {
+  era: { title: "Patriarchal age — Jacob's burial at Machpelah, and Joseph's own death", sub: "Egyptian mourning rites, final reassurance to the brothers, and a coffin awaiting the Exodus",
+    badges: ["A great Egyptian mourning procession", "'You meant evil... God meant it for good'", "Joseph's bones await the Exodus"] },
+  timeOfDay: "day",
+  summary: "Joseph weeps over his father's body and orders him embalmed in the Egyptian manner, a process taking forty days, followed by seventy days of mourning (vv. 1-3). With Pharaoh's permission, a great procession of Egyptian officials and Jacob's household travels to Canaan, where they mourn seven days at the threshing floor of Atad before burying Jacob in the cave of Machpelah at Hebron, as he had instructed (vv. 4-14). After their father's death the brothers fear Joseph will now take revenge, and send word begging forgiveness; Joseph weeps at their fear and reassures them fully: 'you meant evil against me, but God meant it for good,' and he provides for them and their children (vv. 15-21). Joseph lives to see his own great-grandchildren through Ephraim's and Manasseh's lines, and before dying at 110 he makes his brothers swear that when God eventually brings Israel out of Egypt, they will carry his bones with them; he is then embalmed and placed in a coffin in Egypt (vv. 22-26).",
+  focusPlace: "hebron",
+  places: [
+    { id:"egypt", role:"Where Jacob's embalming, mourning, and Joseph's own later death and embalming take place (vv. 1-3, 22-26)" },
+    { id:"hebron", role:"The cave of Machpelah where the great funeral procession finally buries Jacob with his ancestors (vv. 7-14)" }
+  ],
+  journey: [
+    { from:"egypt", to:"hebron", label:"The great funeral procession", km:400, note:"A vast company of Egyptian officials and Jacob's family carries his embalmed body from Egypt to bury him in the cave of Machpelah, then returns to Egypt." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"Jacob embalmed, forty days", desc:"Joseph orders his father embalmed in the Egyptian manner, a process taking forty days, with seventy days of national mourning (vv. 1-3)." },
+    { x:0.22, type:"person", label:"A great procession to Canaan", av:"official", desc:"Pharaoh's officials and Jacob's household together carry the body to Canaan, mourning seven days at the threshing floor of Atad (vv. 7-11)." },
+    { x:0.38, type:"object", label:"Burial at Machpelah", desc:"Jacob is buried in the cave his grandfather Abraham purchased, alongside Abraham, Sarah, Isaac, and Rebekah (vv. 12-13)." },
+    { x:0.55, type:"person", label:"The brothers' fear and plea", av:"youth", desc:"After Jacob's death the brothers fear reprisal and beg Joseph's forgiveness, falling before him as servants (vv. 15-18)." },
+    { x:0.72, type:"person", label:"'You meant evil... God meant it for good'", av:"official", desc:"Joseph weeps at their fear and fully reassures them, framing the whole story as God's providence to save many lives (vv. 19-21)." },
+    { x:0.92, type:"object", label:"Joseph's death and coffin", desc:"Joseph lives to 110, sees his great-grandchildren, makes his brothers swear to carry his bones out of Egypt one day, and is embalmed and placed in a coffin (vv. 22-26)." }
+  ],
+  environment: {
+    chips: ["Forty days of embalming", "A vast Egyptian-Hebrew funeral procession", "Burial at Machpelah, as promised", "The brothers' lingering fear", "'God meant it for good'", "A coffin in Egypt, awaiting the Exodus"],
+    text: "The chapter closes the whole book of Genesis by moving from Egypt's mourning rites to Machpelah's ancestral cave and back again, framing Jacob's honored burial and Joseph's own peaceful death within the same land where Israel's story will soon turn to slavery. Joseph's dying instruction to carry his bones out one day (v. 25) leaves Genesis ending not in finality but in forward-looking hope, fulfilled centuries later at the Exodus (Ex 13:19)."
+  },
+  objectsExtra: ["embalming-coffin", "machpelah-cave"],
+  peopleExtra: [],
+  culture: [
+    { title:"Egyptian embalming practice", icon:"⚰️",
+      text:"The forty-day embalming period and seventy days of mourning (v. 3) closely match known Egyptian mummification and national mourning customs, lending historical texture to Jacob's honored treatment as the father of a high Egyptian official." },
+    { title:"A joint Egyptian-Hebrew funeral", icon:"🚶",
+      text:"The description of chariots, horsemen, and 'a very great company' (v. 9) accompanying the family to Canaan reflects the genuine honor Pharaoh's court extended to Joseph, and the mourning at the threshing floor of Atad was memorable enough that Canaanites renamed the site 'Abel-mizraim,' 'mourning of Egypt' (v. 11)." },
+    { title:"Joseph's bones and the Exodus", icon:"🦴",
+      text:"Joseph's dying oath (v. 25) is fulfilled centuries later when Moses carries his bones out of Egypt (Ex 13:19) and Joshua finally buries them at Shechem (Josh 24:32) — a small but deliberate thread tying Genesis's ending directly to Israel's national deliverance." }
+  ],
+  crossRefs: [
+    { group:"Providence over betrayal, restated", refs:[
+      { r:"Genesis 45:5-8", note:"Joseph's earlier statement of the same providential theme" },
+      { r:"Romans 8:28", note:"'all things work together for good' echoes Joseph's words" },
+      { r:"Acts 7:9-10", note:"Stephen's summary of God's hand throughout Joseph's life" } ]},
+    { group:"Joseph's bones and the Exodus fulfilled", refs:[
+      { r:"Exodus 13:19", note:"Moses carries Joseph's bones out of Egypt as sworn" },
+      { r:"Joshua 24:32", note:"Joseph's bones finally buried at Shechem in the promised land" },
+      { r:"Hebrews 11:22", note:"Joseph remembered for this very act of faith regarding his bones" } ]}
+  ]
 }
+
 
 };

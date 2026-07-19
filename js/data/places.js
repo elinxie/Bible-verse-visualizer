@@ -420,6 +420,11 @@ BVV.PLACES = [
     scene:{ terrain:"desert", settlement:"city", water:"spring", veg:"sparse" } },
 
   // ---- Egypt, Sinai, wilderness ----
+  { id:"dothan", name:"Dothan", al:["Dothan"], modern:"Tell Dothan, West Bank", lat:32.417, lon:35.267, type:"town",
+    blurb:"Hill town on a trade route north of Shechem where Joseph's brothers were pasturing flocks when they sold him to passing traders.",
+    meaning:"Hebrew 'Dothan', perhaps 'two wells'",
+    ancient:"A grazing hill astride the caravan road from Gilead to Egypt.",
+    scene:{ terrain:"hills", settlement:"village", water:"well", veg:"mixed" } },
   { id:"egypt", name:"Egypt", al:["Egypt"], modern:"Nile Valley, Egypt", lat:30.048, lon:31.234, type:"region",
     blurb:"The Nile empire — granary, refuge and house of bondage by turns throughout Scripture.",
     meaning:"Hebrew 'Mitzrayim' — 'the two lands' (a dual form); English 'Egypt' comes via Greek from an Egyptian name for Memphis, 'house of Ptah's spirit'",

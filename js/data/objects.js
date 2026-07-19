@@ -156,5 +156,15 @@ BVV.OBJECTS = [
   { id:"striped-rods", name:"Peeled rods (Jacob's flock scheme)", al:["peeled rods","streaked rods"], icon:"🌿",
     desc:"Poplar, almond, and plane branches Jacob peeled into stripes and set before Laban's flocks at the watering troughs, breeding strong, streaked, and spotted animals for his own growing herd (Gen 30:37-42)." },
   { id:"mizpah-heap", name:"Galeed / the Mizpah heap", al:["Galeed","heap of witness","Mizpah stones"], icon:"🗻",
-    desc:"A stone heap and pillar Jacob and Laban raised together in Gilead as witness to their parting covenant, each swearing not to cross it against the other — the source of the 'Mizpah' benediction (Gen 31:44-49)." }
+    desc:"A stone heap and pillar Jacob and Laban raised together in Gilead as witness to their parting covenant, each swearing not to cross it against the other — the source of the 'Mizpah' benediction (Gen 31:44-49)." },
+  { id:"coat-of-many-colors", name:"Joseph's ornamented robe", al:["coat of many colors","striped robe"], icon:"🧥",
+    desc:"The special robe Jacob made for his favorite son, a visible sign of favoritism that fueled his brothers' hatred; stripped off and dipped in goat's blood to fake Joseph's death (Gen 37:3, 23, 31-33)." },
+  { id:"silver-cup", name:"Joseph's silver cup", al:["silver cup","divining cup"], icon:"🥈",
+    desc:"Joseph's own cup, secretly planted in Benjamin's grain sack by his steward to force the brothers back and test their loyalty to Benjamin (Gen 44:1-13)." },
+  { id:"grain-storage", name:"Egypt's grain storehouses", al:["storehouses","grain silos"], icon:"🌾",
+    desc:"The vast reserves Joseph gathered during Egypt's seven good years, 'like the sand of the sea,' which fed Egypt and surrounding nations through the seven-year famine (Gen 41:48-49, 56-57)." },
+  { id:"egyptian-signet-ring", name:"Pharaoh's signet ring", al:["signet ring"], icon:"💍",
+    desc:"The ring Pharaoh placed on Joseph's hand to formally invest him with authority as vizier over all Egypt (Gen 41:42)." },
+  { id:"embalming-coffin", name:"Joseph's Egyptian coffin", al:["coffin","embalmed body"], icon:"⚰️",
+    desc:"Joseph was embalmed in the Egyptian manner and placed in a coffin in Egypt at his death, awaiting the eventual exodus he foretold (Gen 50:2-3, 26)." }
 ];
