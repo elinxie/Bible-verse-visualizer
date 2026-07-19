@@ -2594,5 +2594,2430 @@ BVV.CURATED = {
       { r:"Isaiah 65:25", note:"a future peace where 'dust shall be the serpent's food' — Eden's curse still in view" },
       { r:"Revelation 22:2-3", note:"the curse reversed at last, and the tree of life restored" } ]}
   ]
+},
+
+/* ===== GENESIS 4 — Cain, Abel, and the first murder ===== */
+"1:4": {
+  era: {
+    title: "Primeval history — the first family, the first murder",
+    sub: "Cain and Abel's offerings · the first murder · Cain's line · Seth and Enosh",
+    badges: ["Primeval history", "First worship, first murder", "The mark of Cain", "Calling on the LORD's name begins"]
+  },
+  timeOfDay: "day",
+  summary: "Eve bears Cain, then Abel; Cain farms, Abel shepherds. Both bring offerings, but the LORD favors Abel's firstborn flock over Cain's produce, and Cain grows furious. God warns him that sin is 'crouching at the door,' desiring him, but he must master it. Cain instead lures Abel into a field and kills him — history's first murder. When the LORD asks where Abel is, Cain deflects ('Am I my brother's keeper?'), and is sentenced to wander the earth, the ground no longer yielding its strength to him; yet God marks him so no one will kill him in vengeance. Cain settles in Nod, east of Eden, builds a city named for his son Enoch, and his line produces the first tent-dwellers, musicians, and metalworkers — alongside Lamech, whose boast of unrestrained vengeance escalates Cain's own violence. The chapter closes on a contrasting note: Adam and Eve have another son, Seth, 'in place of Abel,' and Seth's son Enosh's generation is when 'people began to call upon the name of the LORD' — worship reasserting itself after the family's collapse.",
+  focusPlace: "eden",
+  places: [
+    { id:"eden", role:"The point of reference — Cain settles 'east of Eden,' still oriented to the garden his parents lost" },
+    { id:"nod", role:"The land where Cain settles after his sentence, and where he builds the first named city" }
+  ],
+  journey: [
+    { from:"eden", to:"nod", label:"Cain's exile", km:150, note:"Driven from the ground he farmed, Cain moves east into Nod, permanently separated from Eden's presence of God." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Two offerings, one accepted", av:"elder", desc:"Cain brings crops, Abel brings the best of his flock; the LORD favors Abel's, and Cain's face falls (vv. 3-5)." },
+    { x:0.24, type:"object", label:"Sin crouching at the door", desc:"God warns Cain that sin desires to master him, but he can rule over it — the Bible's first warning about temptation (v. 7)." },
+    { x:0.40, type:"person", label:"The first murder", av:"elder", desc:"Cain kills Abel in the field; when asked where his brother is, he answers, 'Am I my brother's keeper?' (vv. 8-9)." },
+    { x:0.55, type:"object", label:"The mark of Cain", desc:"Sentenced to wander, Cain is nonetheless marked by God against vengeance, and sevenfold retribution is promised anyone who kills him (vv. 13-15)." },
+    { x:0.72, type:"person", label:"Lamech's escalating boast", av:"elder", desc:"Cain's descendant Lamech takes two wives and boasts of killing a man, claiming seventy-sevenfold vengeance — violence compounding down the line (vv. 19-24)." },
+    { x:0.92, type:"person", label:"Seth, and calling on the LORD's name", av:"elder", desc:"Seth is born 'in place of Abel'; his son Enosh's generation marks when people first 'began to call upon the name of the LORD' (vv. 25-26)." }
+  ],
+  environment: {
+    chips: ["Farmer vs. shepherd", "Sin crouching at the door", "The first city, named for a son", "Tents, harps, and bronze", "Lamech's escalating vengeance", "Worship begins again"],
+    text: "The chapter moves fast — from garden to farmland to the first city — tracing how quickly human community both builds culture (tents, music, metalwork) and multiplies violence (Lamech's boast dwarfing God's own mercy to Cain). Nod's exact location is never fixed; its name means 'wandering,' fitting a fugitive's homeland. The turn to Seth and Enosh closes the chapter on hope rather than despair."
+  },
+  objectsExtra: ["mark-of-cain", "altar"],
+  peopleExtra: ["cain", "abel", "seth", "enoch-son-cain", "lamech-cainite", "jabal", "jubal", "tubal-cain", "enosh"],
+  culture: [
+    { title:"Why was Abel's offering favored?", icon:"🐑",
+      text:"The text never says Cain's grain offering was wrong in kind — only that Abel brought 'the firstborn of his flock and their fat portions,' language of costly, first-quality giving, while Cain's is unspecified. Hebrews 11:4 credits Abel's faith, not his livestock, as the difference." },
+    { title:"The first city", icon:"🏙️",
+      text:"Cain, sentenced to wander, paradoxically becomes the first city-builder, naming it after his son Enoch. Ancient readers would have felt the irony: settled civilization begins with a fugitive under judgment, not with paradise regained." },
+    { title:"Lamech's song of vengeance", icon:"⚔️",
+      text:"Lamech's boast to his wives (vv. 23-24) is Hebrew poetry — the Bible's oldest recorded verse by some readings — turning God's mercy to Cain into personal bravado, escalating sevenfold vengeance to seventy-sevenfold." }
+  ],
+  crossRefs: [
+    { group:"Cain and Abel, remembered later", refs:[
+      { r:"Hebrews 11:4", note:"Abel's faith, still speaking after death" },
+      { r:"1 John 3:12", note:"Cain 'was of the evil one' and murdered his brother" },
+      { r:"Matthew 23:35", note:"'the blood of righteous Abel' invoked by Jesus" } ]},
+    { group:"Sin, mastery, and the fall's aftermath", refs:[
+      { r:"Genesis 3:16", note:"the same 'desire/rule' language used of the woman and the man" },
+      { r:"Romans 6:12-14", note:"sin no longer reigning over believers" },
+      { r:"James 1:14-15", note:"desire conceiving sin, sin bringing death" } ]}
+  ]
+},
+
+/* ===== GENESIS 5 — From Adam to Noah ===== */
+"1:5": {
+  era: {
+    title: "Primeval history — ten generations, Adam to Noah",
+    sub: "The genealogy of Seth's line · Enoch's walk with God · Methuselah's long years · Noah's birth",
+    badges: ["Primeval history", "Ten long-lived generations", "Enoch: 'God took him'", "Ends with Noah"]
+  },
+  timeOfDay: "day",
+  summary: "This chapter is a genealogy bridging Adam to Noah through Seth's line, each entry following a set formula: a man's age when he fathered his named heir, the years he lived afterward while fathering other sons and daughters, his total lifespan, and 'then he died.' Ages run into the many centuries — Methuselah reaches 969, the longest recorded life in Scripture. The pattern breaks only once: Enoch, at 365, does not die but 'walked with God, and he was not, for God took him,' a singular exception to the chapter's relentless refrain. The list closes with Lamech fathering Noah, naming him in hope that he would bring relief from the toil of the cursed ground, and Noah in turn fathering Shem, Ham, and Japheth. The genealogy functions as more than a record: it quietly tracks how the death sentence pronounced in Eden ('you shall surely die') plays out across a full ten generations, while also preserving the line through which the promise of Genesis 3:15 will be carried forward to Noah and beyond.",
+  focusPlace: "eden",
+  places: [
+    { id:"eden", role:"The genealogy's implicit starting point — Adam's line begins where Genesis 2-3 left off" },
+    { id:"babylon", role:"Plotted here as the wider Mesopotamian world these ten generations lived alongside, though the text names no city of its own" }
+  ],
+  journey: [
+    { from:"eden", to:"babylon", dashed:true, label:"A genealogy with no travel of its own", km:368,
+      note:"No one moves in this chapter; the line only marks the same conceptual distance used in Genesis 1 — Eden's fading legacy against Mesopotamia's rising cities, as an unnamed civilization forms around Seth's ten quietly aging generations." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Adam, 930 years", av:"elder", desc:"The chapter opens by restating Adam's creation 'in God's likeness' before recording his full 930-year lifespan (vv. 1-5)." },
+    { x:0.30, type:"person", label:"Seth to Kenan to Mahalalel", av:"elder", desc:"Three generations pass in the chapter's steady formula, each living upward of 900 years except where noted (vv. 6-17)." },
+    { x:0.50, type:"person", label:"Enoch: 'he walked with God'", av:"elder", desc:"Uniquely, Enoch does not die: 'Enoch walked with God, and he was not, for God took him' at 365 — far short of his ancestors' ages, yet uniquely spared death (vv. 21-24)." },
+    { x:0.68, type:"person", label:"Methuselah, 969 years", av:"elder", desc:"Enoch's son lives longer than anyone else recorded in Scripture, his death traditionally reckoned to fall the same year as the Flood (vv. 25-27)." },
+    { x:0.85, type:"person", label:"Lamech names Noah", av:"elder", desc:"Lamech fathers a son and names him Noah, hoping he will bring 'relief from our work and from the painful toil of our hands' (vv. 28-31)." },
+    { x:0.96, type:"person", label:"Noah fathers three sons", av:"elder", desc:"At 500, Noah fathers Shem, Ham, and Japheth, setting up the Flood narrative to follow (v. 32)." }
+  ],
+  environment: {
+    chips: ["A ten-generation bridge", "Death's steady refrain", "One exception: Enoch", "Methuselah's record lifespan", "Noah named in hope", "The promise carried forward"],
+    text: "Genesis 5 is structured, not narrated — a formal king-list-style genealogy common in the ancient Near East, though here tracking ordinary patriarchs rather than kings. The repeated 'and he died' underscores Eden's sentence taking hold generation after generation, broken only by Enoch's translation, a flicker of hope that death need not be final."
+  },
+  objectsExtra: [],
+  peopleExtra: ["seth", "enosh", "enoch-son-jared", "methuselah", "lamech-sethite", "noah", "shem", "ham", "japheth"],
+  culture: [
+    { title:"Why such long lifespans?", icon:"📜",
+      text:"Ancient Near Eastern king-lists (Sumerian ones especially) also record extraordinarily long reigns before a flood, dropping sharply after. Whether Genesis 5's numbers are literal, symbolic, or reflect a different counting convention is genuinely debated among conservative scholars." },
+    { title:"Enoch's translation", icon:"🌤️",
+      text:"Enoch is the first person Scripture says did not die; Hebrews 11:5 credits this to his faith, and Jude 14-15 quotes a prophecy attributed to him from later Jewish tradition (1 Enoch), though that book itself is not scriptural." },
+    { title:"A genealogy with a purpose", icon:"🔗",
+      text:"Unlike a bare list, this chapter deliberately links Adam's creation 'in the likeness of God' (v. 1) to Seth being fathered 'in his own likeness' (v. 3) — the image of God transmitted through ordinary human birth, not lost at the fall." }
+  ],
+  crossRefs: [
+    { group:"Enoch's walk with God", refs:[
+      { r:"Hebrews 11:5", note:"'by faith Enoch was taken up so that he should not see death'" },
+      { r:"Jude 1:14-15", note:"a prophecy attributed to Enoch about the LORD's coming judgment" },
+      { r:"2 Kings 2:11", note:"Elijah's later, similarly death-free departure" } ]},
+    { group:"Genealogy and the promised line", refs:[
+      { r:"Luke 3:36-38", note:"Luke's genealogy of Jesus traces back through this same line to Adam" },
+      { r:"1 Chronicles 1:1-4", note:"the Chronicler repeats this genealogy to open Israel's own history" },
+      { r:"Genesis 3:15", note:"the promised offspring this genealogy is quietly carrying forward" } ]}
+  ]
+},
+
+/* ===== GENESIS 6 — Corruption, and the ark commanded ===== */
+"1:6": {
+  era: {
+    title: "Primeval history — 'every inclination... only evil continually'",
+    sub: "The Nephilim · human wickedness grieves God · Noah found righteous · the ark's blueprint",
+    badges: ["Primeval history", "Widespread corruption", "Noah alone found righteous", "The ark's design given"]
+  },
+  timeOfDay: "day",
+  summary: "As humanity multiplies, the enigmatic 'sons of God' take wives from among human daughters, and Nephilim — 'the mighty men who were of old, the men of renown' — appear on the earth; God limits human lifespan to 120 years. The LORD sees that human wickedness is great and 'every intention of the thoughts of his heart was only evil continually,' and he regrets making mankind, resolving to blot out every living thing. But Noah finds favor in the LORD's eyes: he is righteous and blameless in his generation, walking with God. God tells Noah the earth is full of violence and corruption and he intends to destroy it, instructing Noah to build an ark of gopher wood, coated with pitch, with precise dimensions (300 by 50 by 30 cubits), three decks, and a door in the side. God promises to establish his covenant with Noah, who will enter the ark with his wife, sons, and their wives, along with two of every kind of creature to keep them alive, and enough food stored for all. Noah does everything exactly as God commands him — the chapter's closing note of quiet obedience against the surrounding chaos.",
+  focusPlace: "eden",
+  places: [
+    { id:"eden", role:"The backdrop against which the corruption is measured — humanity's decline from the garden continues" },
+    { id:"ararat", role:"Named only two chapters ahead as where the ark comes to rest — plotted here in advance as the ark's ultimate destination (Gen 8:4)" }
+  ],
+  journey: [
+    { from:"eden", to:"ararat", dashed:true, label:"Forward to the mountain the ark will find", km:930,
+      note:"No journey happens within this chapter itself; the line anticipates the flood narrative just beginning, tracing from humanity's lost garden to the mountain where Noah's ark will finally rest." }
+  ],
+  hotspots: [
+    { x:0.08, type:"object", label:"The 'sons of God' and the Nephilim", desc:"An enigmatic union produces the Nephilim, 'mighty men... of renown,' and God limits human lifespan to 120 years (vv. 1-4)." },
+    { x:0.24, type:"object", label:"God's grief over human evil", desc:"'Every intention of the thoughts of his heart was only evil continually'; the LORD regrets making mankind and resolves to destroy it (vv. 5-7)." },
+    { x:0.40, type:"person", label:"Noah finds favor", av:"elder", desc:"Alone among his generation, Noah is righteous, blameless, and walks with God — the reason the story continues at all (vv. 8-9)." },
+    { x:0.56, type:"object", label:"The earth 'corrupt' and 'full of violence'", desc:"God tells Noah the whole earth has become corrupt in his sight, and he intends to destroy it along with the earth itself (vv. 11-13)." },
+    { x:0.74, type:"object", label:"The ark's blueprint", desc:"Precise instructions: gopher wood, pitch inside and out, 300x50x30 cubits, three decks, a door in the side (vv. 14-16)." },
+    { x:0.92, type:"person", label:"'Noah did... according to all that God commanded him'", av:"elder", desc:"God promises his covenant and instructs Noah on who and what to bring aboard; Noah obeys without recorded objection (vv. 17-22)." }
+  ],
+  environment: {
+    chips: ["Nephilim, 'men of renown'", "120-year lifespan limit", "Total corruption, total grief", "Noah: righteous, blameless", "Gopher wood and pitch", "Exact obedience"],
+    text: "The chapter pivots the whole primeval history from cosmos-building to catastrophe: humanity's spread has produced not flourishing but violence so total that God's own language ('regretted,' 'grieved') mirrors the intimacy of Genesis 2's garden-forming. The ark's dimensions (roughly 135 x 22.5 x 13.5 m by a common cubit reckoning) describe a genuinely enormous vessel, built entirely on the strength of one man's obedience."
+  },
+  objectsExtra: ["noahs-ark"],
+  peopleExtra: ["noah", "shem", "ham", "japheth"],
+  culture: [
+    { title:"Who were the 'sons of God'?", icon:"❓",
+      text:"Three major readings persist: fallen angels intermarrying with humans (supported by parallels in Job and 2 Peter/Jude), the godly line of Seth intermarrying with Cain's line, or human rulers/despots taking wives by force. Serious, conservative scholars hold each view; the text itself does not resolve it." },
+    { title:"Flood traditions across the ancient world", icon:"🌊",
+      text:"Mesopotamian epics (Atrahasis, Gilgamesh's flood tablet) tell strikingly similar stories — a flood hero, a boat, birds sent to find land — but with capricious gods destroying humanity over noise, contrasted against Genesis's single righteous God judging real moral corruption." },
+    { title:"The ark's scale", icon:"🚢",
+      text:"At roughly 300 cubits long, the ark's proportions (6:1 length-to-width) are strikingly close to modern ship-design ratios for stability, noted by naval architects even among skeptical readers as a sound design for a vessel meant to float rather than sail." }
+  ],
+  crossRefs: [
+    { group:"The Nephilim and 'sons of God' elsewhere", refs:[
+      { r:"Job 1:6", note:"'sons of God' presenting themselves before the LORD" },
+      { r:"2 Peter 2:4-5", note:"angels who sinned, linked to the flood generation" },
+      { r:"Jude 1:6-7", note:"angels who left their proper dwelling, judged" } ]},
+    { group:"Noah's righteousness and the Flood's judgment", refs:[
+      { r:"Hebrews 11:7", note:"Noah's faith, 'condemning the world' by his obedience" },
+      { r:"1 Peter 3:20", note:"eight souls saved 'through water'" },
+      { r:"Matthew 24:37-39", note:"Jesus compares his coming to 'the days of Noah'" } ]}
+  ]
+},
+
+/* ===== GENESIS 7 — The Flood comes ===== */
+"1:7": {
+  era: {
+    title: "Primeval history — forty days, then a hundred fifty",
+    sub: "Entry into the ark · the fountains of the deep burst open · every living thing outside the ark perishes",
+    badges: ["Primeval history", "Seven pairs of clean animals", "The LORD shuts the door", "Total judgment by water"]
+  },
+  timeOfDay: "day",
+  summary: "The LORD tells Noah to enter the ark with his household, for he alone is found righteous in this generation; he is to take seven pairs of every clean animal and a pair of each unclean animal, plus seven pairs of birds, to keep offspring alive on the earth, since in seven days rain will fall for forty days and nights. Noah, 600 years old, enters with his wife, sons, and their wives as the animals come to him in pairs, 'as God had commanded him' — and then 'the LORD shut him in.' The flood begins: on the seventeenth day of the second month, 'all the fountains of the great deep burst forth, and the windows of the heavens were opened,' and rain falls forty days and nights. The waters increase, lifting the ark above the earth; they rise until they cover even the highest mountains by more than twenty feet. Every living thing on dry land perishes — 'only Noah was left, and those with him in the ark.' The waters prevail over the earth one hundred fifty days, a period of total, sustained judgment before any recession begins.",
+  focusPlace: "ararat",
+  places: [
+    { id:"ararat", role:"Not yet reached, but the destination this chapter's floodwaters are lifting the ark toward" },
+    { id:"eden", role:"The judgment reverses Eden's original 'very good' order, undoing creation back toward the primal waters" }
+  ],
+  journey: [
+    { from:"eden", to:"ararat", label:"The ark's floating ascent", km:900, note:"As waters rise, the ark is lifted off the ground and carried, eventually settling in the mountains of Ararat (recorded fully in ch. 8)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"The command to enter", av:"elder", desc:"The LORD tells Noah to bring his family and seven pairs of clean animals, a pair of unclean, aboard within seven days (vv. 1-4)." },
+    { x:0.22, type:"object", label:"Animals come to Noah", desc:"Pairs of every kind come to Noah 'as God had commanded him' — the animals' arrival itself a small sign of divine ordering amid coming chaos (vv. 8-9)." },
+    { x:0.38, type:"object", label:"'The LORD shut him in'", desc:"After the household and animals board, God himself closes the door — the last line of protection between Noah and the judgment outside (v. 16)." },
+    { x:0.52, type:"object", label:"Fountains of the deep, windows of heaven", desc:"On the flood's first day, both the subterranean waters and the sky's own reservoirs are opened at once — the reversal of Genesis 1's ordered separation of waters (v. 11)." },
+    { x:0.68, type:"object", label:"Waters cover the mountains", desc:"The flood rises more than twenty feet over the highest mountains, leaving nowhere for any creature to survive outside the ark (vv. 19-20)." },
+    { x:0.85, type:"object", label:"'Only Noah was left'", desc:"Every land creature and person outside the ark dies; the narrator's stark summary underscores how total the judgment is (vv. 21-23)." },
+    { x:0.96, type:"object", label:"One hundred fifty days", desc:"The waters prevail over the earth for a sustained 150 days before any recession begins (v. 24)." }
+  ],
+  environment: {
+    chips: ["Seven days' warning", "Seven pairs of clean animals", "'The LORD shut him in'", "Fountains and windows opened", "Mountains submerged", "150 days of judgment"],
+    text: "The chapter's language deliberately echoes and reverses Genesis 1: the ordered separation of waters above and below (Gen 1:6-8) collapses back into a single undifferentiated flood, undoing creation's structure. Only the ark — and the God who shuts its door — stands between total re-immersion in chaos and the small remnant of life preserved inside it."
+  },
+  objectsExtra: ["noahs-ark"],
+  peopleExtra: ["noah", "shem", "ham", "japheth"],
+  culture: [
+    { title:"Clean and unclean animals, before the Law", icon:"🐐",
+      text:"The clean/unclean distinction appears here centuries before Leviticus codifies it, implying Noah already possessed some working category for sacrifice-suitable animals — the extra clean pairs anticipate the burnt offerings of Genesis 8:20." },
+    { title:"'The fountains of the great deep'", icon:"🌊",
+      text:"This phrase pictures a cosmic-scale release of subterranean waters alongside torrential rain — language many read as poetic-cosmic rather than a claim about literal plate tectonics, though flood geology debates continue among readers who hold a high view of the text's historicity." },
+    { title:"A global or local flood?", icon:"🗺️",
+      text:"The chapter's totalizing language ('all the high mountains... were covered') has long been read literally by most interpreters, though some conservative scholars argue for a hyperbolic ancient idiom describing a regionally total but not globally total catastrophe. Both readings affirm the same theological point: total judgment on 'all flesh.'" }
+  ],
+  crossRefs: [
+    { group:"The Flood as judgment pattern", refs:[
+      { r:"2 Peter 3:5-7", note:"the world 'deluged with water and perished,' a pattern for final judgment by fire" },
+      { r:"Luke 17:26-27", note:"Jesus: 'as it was in the days of Noah,' unexpected judgment" },
+      { r:"1 Peter 3:20-21", note:"the Flood's water prefigures baptism" } ]},
+    { group:"Shutting the door, being kept safe", refs:[
+      { r:"Genesis 6:18", note:"the covenant promise that grounds this chapter's rescue" },
+      { r:"Matthew 25:10", note:"a later parable's shut door, too late for the unprepared" },
+      { r:"Hebrews 11:7", note:"Noah's faith 'condemned the world' by contrast" } ]}
+  ]
+},
+
+/* ===== GENESIS 8 — The waters recede ===== */
+"1:8": {
+  era: {
+    title: "Primeval history — 'God remembered Noah'",
+    sub: "The ark rests on Ararat · raven and dove · the altar and the LORD's resolve",
+    badges: ["Primeval history", "The ark comes to rest", "The dove and the olive leaf", "A new promise of stability"]
+  },
+  timeOfDay: "dawn",
+  summary: "'God remembered Noah' and sends a wind over the earth; the springs of the deep and windows of heaven are closed, and the waters steadily recede. On the seventeenth day of the seventh month the ark comes to rest on the mountains of Ararat, and by the tenth month mountaintops become visible. After forty days Noah opens a window and sends out a raven, which flies back and forth, then a dove, which finds no resting place and returns. Seven days later the dove returns with a freshly plucked olive leaf — proof the waters have receded — and, sent out again after another seven days, does not return at all. Noah removes the ark's covering and sees the ground is dry; by the following month it is fully dried. God tells Noah to bring out his family and every living creature to multiply again on the earth. Noah builds an altar and offers burnt offerings of every clean animal and bird; the LORD, pleased by the aroma, resolves in his heart never again to curse the ground or destroy every living creature as he has done, and promises that seedtime and harvest, cold and heat, summer and winter, day and night will not cease as long as the earth remains.",
+  focusPlace: "ararat",
+  places: [
+    { id:"ararat", role:"Where the ark comes to rest as the waters recede (Gen 8:4)" },
+    { id:"eden", role:"The garden this new post-flood beginning implicitly echoes, as creation is effectively restarted" }
+  ],
+  journey: [
+    { from:"eden", to:"ararat", dashed:true, label:"From lost garden to a new beginning", km:900, note:"Ararat becomes the new starting point for humanity, standing in the same typological role Eden once did." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"'God remembered Noah'", desc:"The turning point of the whole flood narrative — God acts, sending a wind, and the waters begin to recede (v. 1)." },
+    { x:0.20, type:"object", label:"The ark rests on Ararat", desc:"On the seventeenth day of the seventh month, the ark settles on the mountains of Ararat as the waters continue falling (v. 4)." },
+    { x:0.36, type:"object", label:"The raven, sent first", desc:"Noah sends out a raven, which simply flies back and forth rather than returning, unlike the dove that follows (v. 7)." },
+    { x:0.50, type:"object", label:"The dove and the olive leaf", desc:"After finding no resting place the first time, the dove returns a week later with a fresh olive leaf — visible proof the waters have receded far enough for plant life (vv. 8-11)." },
+    { x:0.64, type:"person", label:"Noah removes the covering", av:"elder", desc:"Noah looks out and sees the ground is dry, though God waits nearly two more months before commanding everyone out (vv. 13-14)." },
+    { x:0.80, type:"person", label:"The altar and burnt offering", av:"elder", desc:"Noah's first act on dry ground is worship — an altar and burnt offerings from every clean animal and bird (v. 20)." },
+    { x:0.94, type:"object", label:"A promise of stability", desc:"Pleased by the offering, the LORD resolves never again to curse the ground this way, promising the seasons' rhythm will not cease (vv. 21-22)." }
+  ],
+  environment: {
+    chips: ["'God remembered Noah'", "The ark rests on Ararat", "Raven, then dove", "An olive leaf, plucked fresh", "First act ashore: an altar", "Seasons promised to continue"],
+    text: "The chapter narrates a slow, careful un-flooding that mirrors creation's own patient order — wind over waters, dry ground emerging, life re-populating it. Noah's altar answers Genesis 4's failed and successful offerings with worship that this time meets full divine favor, and God's resolve toward the 'ground' quietly reverses the curse pronounced back in Genesis 3:17."
+  },
+  objectsExtra: ["noahs-ark", "altar"],
+  peopleExtra: ["noah", "shem", "ham", "japheth"],
+  culture: [
+    { title:"Why a raven, then a dove?", icon:"🐦",
+      text:"Ravens are scavengers, content to feed on floating carrion and in no hurry to return; doves need clean, dry footing and green food, making their return (or non-return) a more precise gauge of the earth's readiness — a detail ancient sailors and farmers would have recognized immediately." },
+    { title:"Ararat in ancient geography", icon:"⛰️",
+      text:"'The mountains of Ararat' names a region (ancient Urartu, in modern eastern Turkey/Armenia), not necessarily the single peak later tradition identified — the text itself is deliberately broader than the popular image of one specific mountain." },
+    { title:"The 'pleasing aroma' of sacrifice", icon:"🔥",
+      text:"The phrase describing God's response to Noah's offering (v. 21) becomes standard sacrificial vocabulary throughout the Law (e.g. Lev 1:9) — its first biblical use here, tied not to ritual instruction but to spontaneous worship after judgment and deliverance." }
+  ],
+  crossRefs: [
+    { group:"A new beginning, echoing creation", refs:[
+      { r:"Genesis 1:9-10", note:"dry land appearing again, as at the world's first creation" },
+      { r:"Genesis 9:1", note:"the 'be fruitful and multiply' blessing renewed for Noah's family" },
+      { r:"Isaiah 54:9", note:"God recalls 'the waters of Noah' as a pattern of covenant faithfulness" } ]},
+    { group:"The dove and the offering, remembered", refs:[
+      { r:"Matthew 3:16", note:"a dove descending at Jesus' baptism — a flood-echoing image of new creation" },
+      { r:"Leviticus 1:9", note:"'a pleasing aroma to the LORD,' language rooted in Noah's altar" },
+      { r:"Genesis 8:22", note:"seedtime and harvest promised without ceasing" } ]}
+  ]
+},
+
+/* ===== GENESIS 9 — The covenant, the rainbow, and Noah's vineyard ===== */
+"1:9": {
+  era: {
+    title: "Primeval history — the Noahic covenant and its sign",
+    sub: "Be fruitful and multiply · the prohibition of blood and murder · the rainbow · Noah's drunkenness and Canaan's curse",
+    badges: ["Primeval history", "Life for life: Gen 9:6", "The rainbow covenant", "Ham's disrespect, Canaan cursed"]
+  },
+  timeOfDay: "day",
+  summary: "God blesses Noah and his sons, renewing the command to be fruitful and multiply, and now placing the fear of humanity on every animal, given for food alongside every green plant — except blood, which they must not eat, since it is the creature's life. Human life carries special weight: whoever sheds human blood will have his own blood shed, 'for God made man in his own image' (v. 6). God establishes his covenant with Noah, his descendants, and every living creature, promising never again to destroy the earth by flood, and sets the rainbow in the clouds as the covenant's perpetual sign. The chapter then turns personal: Noah plants a vineyard, gets drunk, and lies naked in his tent. Ham sees his father's nakedness and tells his brothers outside; Shem and Japheth walk in backward and cover Noah without looking. On waking, Noah curses Canaan (Ham's son) to servitude, and blesses Shem and Japheth, foreshadowing later relations between their descendant peoples. The chapter closes with Noah's death at 950 years, the last of the primeval patriarchs to reach such an age.",
+  focusPlace: "ararat",
+  places: [
+    { id:"ararat", role:"Where the covenant and rainbow are given, and where Noah's household begins farming again" },
+    { id:"babylon", role:"The Mesopotamian plain Noah's descendants will eventually spread into and settle (foreshadowing ch. 10-11)" }
+  ],
+  journey: [
+    { from:"ararat", to:"babylon", dashed:true, label:"The line this chapter's blessing will follow", km:900, note:"Ham's son Canaan is cursed here; Noah's spreading descendants will settle the plains that later produce Babel and Babylon's civilizations (ch. 10-11)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"Be fruitful, and meat now permitted", desc:"God renews the fruitfulness blessing and now permits eating animals, though not their blood (vv. 1-4)." },
+    { x:0.20, type:"object", label:"'By man shall his blood be shed' (v. 6)", desc:"Human life is granted unique protection because mankind bears God's image — the Bible's foundational statement against murder (vv. 5-6)." },
+    { x:0.36, type:"object", label:"The rainbow, sign of the covenant", desc:"God sets his 'bow in the clouds' as a perpetual reminder never again to flood the whole earth (vv. 12-17)." },
+    { x:0.52, type:"person", label:"Noah's vineyard and drunkenness", av:"elder", desc:"Noah, now a farmer, plants a vineyard, drinks its wine, and lies uncovered and drunk in his tent (vv. 20-21)." },
+    { x:0.66, type:"person", label:"Ham sees, tells his brothers", av:"elder", desc:"Ham sees his father's nakedness and reports it to Shem and Japheth rather than covering him himself (v. 22)." },
+    { x:0.80, type:"person", label:"Shem and Japheth cover their father", av:"elder", desc:"Walking in backward with a garment, the two brothers cover Noah without looking at his exposure (v. 23)." },
+    { x:0.94, type:"person", label:"Canaan cursed, Shem and Japheth blessed", av:"elder", desc:"On waking, Noah curses Canaan to servitude and blesses Shem's God and Japheth's expansion — the chapter's closing pronouncement (vv. 24-27)." }
+  ],
+  environment: {
+    chips: ["Meat now permitted, blood forbidden", "Life for life — image of God", "The rainbow as covenant sign", "A vineyard, and drunkenness", "Seeing vs. covering", "A curse and two blessings"],
+    text: "This chapter completes the flood narrative's theological arc: humanity is re-commissioned, given clearer moral boundaries (especially around bloodshed), and given a visible, universal sign of God's restraint. The turn to Noah's vineyard shows the same pattern as Eden — blessing followed almost immediately by human failure — reminding readers that the Flood did not eliminate sin, only its previous scale."
+  },
+  objectsExtra: ["rainbow"],
+  peopleExtra: ["noah", "shem", "ham", "japheth", "canaan-person"],
+  culture: [
+    { title:"Why forbid eating blood?", icon:"🩸",
+      text:"The prohibition (v. 4) treats blood as uniquely tied to life itself, a principle later codified extensively in Levitical law (Lev 17:11) and echoed even in the Jerusalem council's guidance to Gentile believers (Acts 15:20) — one of the few Noahic laws explicitly carried into the New Testament era." },
+    { title:"The image of God and capital justice", icon:"⚖️",
+      text:"Genesis 9:6 grounds the death penalty for murder not in social utility but in theology: taking a human life defaces something bearing God's own image. This verse has anchored centuries of Jewish and Christian legal and ethical reflection on the value of human life." },
+    { title:"What was Ham's sin, exactly?", icon:"❓",
+      text:"Interpreters differ over whether Ham's offense was simply seeing his father naked and gossiping about it, or something more severe implied by ancient Near Eastern euphemism ('saw the nakedness of'). Either reading explains why the curse falls specifically on Ham's son Canaan rather than on Ham himself." }
+  ],
+  crossRefs: [
+    { group:"The rainbow and covenant faithfulness", refs:[
+      { r:"Isaiah 54:9-10", note:"God recalls this covenant as a pledge of unshakable love" },
+      { r:"Ezekiel 1:28", note:"a rainbow around God's glory-throne" },
+      { r:"Revelation 4:3", note:"a rainbow encircling the heavenly throne" } ]},
+    { group:"Bloodshed, image, and later law", refs:[
+      { r:"Exodus 20:13", note:"'You shall not murder' — the commandment this chapter anticipates" },
+      { r:"Acts 15:20", note:"the Jerusalem council still restricts Gentile believers from blood" },
+      { r:"James 3:9", note:"cursing people made 'in the likeness of God'" } ]}
+  ]
+},
+
+/* ===== GENESIS 10 — The Table of Nations ===== */
+"1:10": {
+  era: {
+    title: "Primeval history — the Table of Nations",
+    sub: "Japheth's, Ham's, and Shem's descendants · Nimrod's kingdom · nations spread and multiply",
+    badges: ["Primeval history", "Seventy nations, one family", "Nimrod: mighty hunter, empire-builder", "Sets up Babel's scattering"]
+  },
+  timeOfDay: "day",
+  summary: "This chapter maps the known world's nations back to Noah's three sons. Japheth's line produces the maritime and northern peoples — Gomer, Magog, Madai, Javan and others, scattering into 'their lands, each with his own language.' Ham's line includes Cush, Egypt, Put, and Canaan; Cush fathers Nimrod, 'a mighty hunter before the LORD,' whose kingdom begins with Babylon, Uruk, and Akkad in Shinar before he goes on to found Nineveh and other Assyrian cities. Canaan's descendants include the Jebusites, Amorites, Hivites, and other clans later dispossessed at Israel's conquest, their territory stretching toward Sodom and Gomorrah. Shem's line, given fullest attention as the ancestor of 'all the sons of Eber,' runs through Elam, Ashur, and Aram, down to Eber and his sons Peleg ('in his days the earth was divided') and Joktan, whose many sons settle the eastern hill country. The chapter closes by summarizing all these clans, languages, territories, and nations as descending 'from these... after the flood' — a genealogical bridge preparing for Babel's scattering (ch. 11) and, eventually, Abraham's call.",
+  focusPlace: "babylon",
+  places: [
+    { id:"babylon", role:"Nimrod's kingdom begins here in Shinar, with Babylon named first among his cities (v. 10)" },
+    { id:"nineveh", role:"Founded by Nimrod after he leaves Shinar for Assyria, called 'that great city' (vv. 11-12)" }
+  ],
+  journey: [
+    { from:"babylon", to:"nineveh", label:"Nimrod's expansion into Assyria", km:400, note:"From his base in Shinar, Nimrod extends his kingdom north to found Nineveh and other Assyrian cities (Gen 10:11-12)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"Japheth's maritime peoples", desc:"Gomer, Magog, Madai, Javan and others scatter into coastlands, 'each with his own language, by their clans, in their nations' (vv. 2-5)." },
+    { x:0.22, type:"person", label:"Nimrod, mighty hunter and empire-builder", av:"warrior", desc:"Cush's son becomes 'a mighty hunter before the LORD,' founding Babylon and other Shinar cities before expanding to Assyria (vv. 8-12)." },
+    { x:0.40, type:"object", label:"Canaan's clans", desc:"Canaan fathers Sidon, Heth, and the peoples later displaced at Israel's conquest — Jebusites, Amorites, Hivites among them (vv. 15-19)." },
+    { x:0.58, type:"person", label:"Shem, ancestor of Eber", av:"elder", desc:"Given fullest treatment as ancestor of 'all the children of Eber,' Shem's line runs through Elam, Ashur, Arphaxad, and Aram (vv. 21-23)." },
+    { x:0.75, type:"person", label:"Peleg — 'in his days the earth was divided'", av:"elder", desc:"Eber's son is named for an event the text does not fully explain here, traditionally linked to Babel's language division in the very next chapter (v. 25)." },
+    { x:0.90, type:"object", label:"Seventy nations, one family", desc:"The chapter's closing summary ties the whole known world's nations back to Noah's three sons 'after the flood' (v. 32)." }
+  ],
+  environment: {
+    chips: ["Three sons, seventy nations", "Nimrod: hunter, empire-builder", "Shinar to Assyria", "Canaan's clans, later dispossessed", "Eber, Peleg, and 'the earth divided'", "One family, many languages"],
+    text: "The Table of Nations reads almost like an ancient ethnographic map, situating every people group its Israelite audience would recognize within a single family tree descending from Noah. Its geography ranges from the Aegean coastlands (Javan) to Mesopotamia (Shinar, Asshur) to Canaan itself, deliberately preparing readers to recognize Canaan's later inhabitants, Assyria's rise, and Babylon's eventual empire as all branches of one traceable family."
+  },
+  objectsExtra: [],
+  peopleExtra: ["shem", "ham", "japheth", "nimrod", "canaan-person", "peleg"],
+  culture: [
+    { title:"A genealogy as ethnography", icon:"🗺️",
+      text:"Unlike Genesis 5's strict individual genealogy, chapter 10 mixes individuals with what are clearly nation- or people-group names (Mizraim = Egypt, Kittim = Cyprus) — a common ancient Near Eastern convention for expressing political and ethnic relationships as family ties." },
+    { title:"Nimrod's reputation", icon:"🏹",
+      text:"'Like Nimrod, a mighty hunter before the LORD' became proverbial (v. 9); later Jewish tradition often reads him more negatively, as a tyrant-founder of Babel's rebellion, reading his empire-building as domineering rather than merely impressive." },
+    { title:"Why does Shem get the most space?", icon:"📖",
+      text:"The extra detail on Shem's line (vv. 21-31), especially Eber and his sons, sets up the genealogy that will carry directly into Genesis 11's closing verses and ultimately to Abraham — the Table of Nations is universal in scope but narrows its camera toward the coming covenant line." }
+  ],
+  crossRefs: [
+    { group:"Nimrod, Babel, and Assyria's later shadow", refs:[
+      { r:"Genesis 11:1-9", note:"the tower and city Nimrod's Shinar kingdom sets the stage for" },
+      { r:"Micah 5:6", note:"'the land of Nimrod' used as a byword for Assyria" },
+      { r:"Jonah 1:2; 3:3", note:"Nineveh, Nimrod's city, later the target of Jonah's mission" } ]},
+    { group:"One family, all nations", refs:[
+      { r:"Acts 17:26", note:"Paul: God 'made from one man every nation of mankind'" },
+      { r:"Genesis 12:3", note:"Abraham's call promises blessing to 'all the families of the earth'" },
+      { r:"Revelation 7:9", note:"a multitude from every nation gathered before the throne" } ]}
+  ]
+},
+
+/* ===== GENESIS 11 — Babel, and Abraham's ancestors ===== */
+"1:11": {
+  era: {
+    title: "Primeval history — Babel's tower, and the road to Abraham",
+    sub: "One language, one rebellion · the LORD confuses speech and scatters the nations · Shem's genealogy to Terah",
+    badges: ["Primeval history", "Babel: 'confusion'", "Language scattered, not perfected", "Bridges to Abraham's call"]
+  },
+  timeOfDay: "day",
+  summary: "The whole earth still shares one language. Migrating people settle on a plain in Shinar and resolve to build a city and a tower 'with its top in the heavens,' explicitly to 'make a name for ourselves' and avoid being scattered. The LORD comes down to look at what they are building and observes that, united by one language, nothing they set out to do will be impossible for them — so he confuses their speech and scatters them across the earth, halting the project; the place is named Babel, because there the LORD 'confused' (balal) the language of the whole earth. The chapter then pivots to genealogy: from Shem down through Arphaxad, Shelah, Eber, Peleg, Reu, Serug, and Nahor to Terah, each generation's lifespan given in the same formula as chapter 5, though the numbers shrink steadily compared to the pre-flood patriarchs. Terah fathers Abram, Nahor, and Haran; Haran dies young in Ur, leaving his son Lot; Abram marries the childless Sarai. Terah sets out from Ur toward Canaan but settles instead in Haran, where he eventually dies — leaving the narrative poised for God's call to Abram in the next chapter.",
+  focusPlace: "babylon",
+  places: [
+    { id:"babylon", role:"The plain of Shinar where the city and tower are built, and where the LORD confuses the builders' language (vv. 1-9)" },
+    { id:"ur", role:"Where Terah's family originates and where Haran dies, before the family sets out (vv. 28, 31)" },
+    { id:"haran", role:"Where Terah's family settles instead of continuing to Canaan, and where Terah dies (v. 32)" }
+  ],
+  journey: [
+    { from:"ur", to:"haran", label:"Terah's incomplete journey toward Canaan", km:960, note:"Terah sets out from Ur of the Chaldeans intending to reach Canaan but stops and settles in Haran instead, dying there (v. 31-32)." },
+    { from:"babylon", to:"ur", dashed:true, label:"Shinar's civilization, and Abram's origin", km:200, note:"Babel's plain in Shinar and Ur of the Chaldeans both sit within the same Mesopotamian world the covenant story is about to leave behind." }
+  ],
+  hotspots: [
+    { x:0.05, type:"object", label:"One language, a plain in Shinar", desc:"Migrating settlers find a plain in Shinar and decide to build with brick and tar rather than stone and mortar (vv. 1-3)." },
+    { x:0.18, type:"object", label:"'A tower with its top in the heavens'", desc:"Their stated goal is to make a name for themselves and avoid being scattered — the very outcome that follows (v. 4)." },
+    { x:0.32, type:"object", label:"The LORD comes down to see", desc:"God observes that unified language gives the builders unlimited potential for whatever they resolve to do next (vv. 5-6)." },
+    { x:0.44, type:"object", label:"Language confused, the builders scattered", desc:"'Let us go down and there confuse their language' — the project halts as communication breaks down and people disperse (vv. 7-8)." },
+    { x:0.55, type:"object", label:"Babel: a name meaning 'confusion'", desc:"The text explains the name as wordplay on Hebrew balal, 'to confuse' — a deliberate irony against the city's own ambition to 'make a name' (v. 9)." },
+    { x:0.68, type:"person", label:"Shem to Eber to Peleg", av:"elder", desc:"The genealogy resumes chapter 10's line in fuller detail, tracking shrinking lifespans generation by generation (vv. 10-19)." },
+    { x:0.82, type:"person", label:"Terah's family, and Haran's early death", av:"elder", desc:"Terah fathers Abram, Nahor, and Haran; Haran dies in Ur, leaving his son Lot fatherless (vv. 26-28)." },
+    { x:0.95, type:"person", label:"Toward Canaan, but settling in Haran", av:"elder", desc:"Terah's family sets out from Ur for Canaan but stops in Haran, where Terah dies — poised for God's call to Abram (vv. 31-32)." }
+  ],
+  environment: {
+    chips: ["One language, one ambition", "Brick for stone, tar for mortar", "'The LORD came down to see'", "Babel = confusion, not blessing", "A genealogy shrinking in years", "Ur to Haran, not yet Canaan"],
+    text: "Babel closes the primeval history with humanity's collective ambition meeting swift divine correction, echoing Eden's 'you will be like God' temptation on a civic scale. The chapter's back half quietly resets the narrative's focus from all nations to one family, tracing Shem's line to Terah so the very next chapter can begin with God's specific call to a specific man in a specific place — a hinge from universal history into covenant history."
+  },
+  objectsExtra: ["tower-of-babel"],
+  peopleExtra: ["shem", "peleg", "terah"],
+  culture: [
+    { title:"Ziggurats and 'a tower to heaven'", icon:"🗼",
+      text:"Mesopotamian cities built stepped temple-towers (ziggurats) meant to bridge heaven and earth, often inscribed with claims that their tops reached the heavens — language Genesis 11:4 appears to echo and mock, portraying such ambition as futile self-exaltation rather than genuine access to God." },
+    { title:"Babel and Babylon — the same name", icon:"🏛️",
+      text:"'Babel' and 'Babylon' translate the same Hebrew word; this chapter's account of proud, God-defying ambition sets a pattern the rest of Scripture returns to whenever Babylon reappears as a symbol of human empire opposed to God (Isaiah, Daniel, Revelation)." },
+    { title:"Why does the genealogy's math shrink?", icon:"📉",
+      text:"Post-flood lifespans in this genealogy drop sharply compared to Genesis 5's antediluvian figures (from centuries near a millennium down toward a few hundred years), a trend scholars read either as literal decline in human longevity after the Flood or as a literary signal of the world's changed conditions." }
+  ],
+  crossRefs: [
+    { group:"Babel's pride, and later judgment on empire", refs:[
+      { r:"Isaiah 14:12-14", note:"a proud ruler's boast to 'ascend to the heavens,' echoing Babel's ambition" },
+      { r:"Daniel 4:30", note:"Nebuchadnezzar's boast over 'Babylon that I have built,' answered by judgment" },
+      { r:"Revelation 18:2", note:"'Babylon the great is fallen' — Babel's ambition finally undone for good" } ]},
+    { group:"Scattered languages, later reversed", refs:[
+      { r:"Acts 2:1-11", note:"Pentecost's many tongues understood as one message — often read as Babel's reversal" },
+      { r:"Zephaniah 3:9", note:"a future promise of 'pure speech' restored to the peoples" },
+      { r:"Genesis 12:1-3", note:"God's call to Abram immediately follows, narrowing from all nations to one covenant family" } ]}
+  ]
+},
+
+/* ===== GENESIS 12 — Abram's call, and a detour to Egypt ===== */
+"1:12": {
+  era: {
+    title: "ca. 2091 BC — Abram called out of Haran",
+    sub: "Middle Bronze Age · the covenant call · a famine detour into Egypt",
+    badges: ["Middle Bronze Age", "Abrahamic covenant begins", "First altar in Canaan", "Sarai in Pharaoh's house"]
+  },
+  timeOfDay: "day",
+  summary: "The LORD tells Abram, seventy-five, to leave his country, kin, and father's house for a land he will only be shown, promising to make him a great nation and bless 'all the families of the earth' through him. Abram obeys, taking Sarai, Lot, and their household from Haran into Canaan, stopping first at Shechem, where God appears and promises the land to his offspring, then at Bethel, where he builds an altar and calls on the LORD's name. A famine drives him on to Egypt, where — fearing Sarai's beauty will get him killed — Abram has her pose as his sister. Pharaoh takes her into his house and enriches Abram with livestock and servants, until the LORD strikes Pharaoh's household with plagues. Learning the truth, Pharaoh angrily returns Sarai and expels them both from Egypt.",
+  focusPlace: "shechem",
+  places: [
+    { id:"haran", role:"Where Abram receives God's call and sets out (vv. 1, 4)" },
+    { id:"shechem", role:"First stop in Canaan, where God first promises the land (vv. 6-7)" },
+    { id:"bethel", role:"Where Abram pitches his tent and builds an altar (vv. 8)" },
+    { id:"egypt", role:"Famine refuge where Sarai is taken into Pharaoh's house (vv. 10-20)" }
+  ],
+  journey: [
+    { from:"haran", to:"shechem", label:"Abram's call to Canaan", km:640, note:"Abram leaves Haran at 75 with Sarai, Lot, and all their household, arriving at Shechem's oak of Moreh (vv. 4-6)." },
+    { from:"bethel", to:"egypt", label:"Famine drives Abram south", km:400, note:"A severe famine sends Abram down into Egypt, where the deception over Sarai unfolds (vv. 10-20)." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"'Go from your country' — the call", av:"elder",
+      desc:"God's command comes with no destination named yet, only a promise: a great nation, a great name, and blessing flowing outward to 'all the families of the earth' (vv. 1-3)." },
+    { x:0.28, type:"object", label:"An altar at Shechem, another at Bethel",
+      desc:"At Shechem the LORD promises the land to Abram's offspring; at Bethel, between Bethel and Ai, Abram builds again and calls on the LORD's name (vv. 7-8)." },
+    { x:0.50, type:"person", label:"'Say you are my sister'", av:"woman",
+      desc:"Fearing for his life over Sarai's beauty, Abram asks her to pose as his sister — a half-truth (she is his half-sister) that nearly costs Pharaoh his household (vv. 11-13)." },
+    { x:0.68, type:"person", label:"Sarai taken into Pharaoh's house", av:"king",
+      desc:"Pharaoh's officials praise Sarai to him; she is taken in, and Abram is paid in sheep, oxen, donkeys, servants, and camels (vv. 14-16)." },
+    { x:0.85, type:"object", label:"Plagues, and an expulsion",
+      desc:"The LORD afflicts Pharaoh's house; confronting Abram, Pharaoh returns Sarai and has them escorted out of Egypt with all they own (vv. 17-20)." }
+  ],
+  environment: {
+    chips: ["A call with no map", "Oak of Moreh, Shechem", "Altar between Bethel and Ai", "Famine drives migration south", "Nile-valley wealth: flocks, camels, servants", "A half-truth, and its cost"],
+    text: "Abram's route follows the classic north-south ridge road through Canaan's hill country, the same corridor caravans and armies used for centuries, before a Negev famine — an ordinary hazard of this semi-arid land — pushes him further south into Egypt's more reliable Nile-fed agriculture. Wife-sister ruses, and the wealth foreign potentates paid for a beautiful woman, appear elsewhere in patriarchal narrative and in comparable ancient Near Eastern custom, though Genesis frames this one as endangering the very promise just given."
+  },
+  objectsExtra: ["altar", "camel"],
+  peopleExtra: ["lot"],
+  culture: [
+    { title:"Leaving Ur and Haran — why it mattered", icon:"🏛️",
+      text:"Both Ur and Haran were centers of moon-god worship in the ancient Near East; Abram's call meant abandoning not just geography and family but an entire religious world for an unseen God and an unnamed destination — a test of trust the text underlines by delaying the land's name until Abram is already moving." },
+    { title:"The wife-sister motif", icon:"👰",
+      text:"This is the first of three similar episodes (again in Gen 20 and 26), where a patriarch's wife is passed off as a sister before a foreign ruler. Whatever the precise customary background, Genesis consistently shows God protecting the promise despite the patriarchs' fear-driven scheming, not because of it." },
+    { title:"Altars as claim-markers", icon:"⛰️",
+      text:"Building an altar at each stop was more than worship — in the ancient world it functioned as a public claim on the land and a permanent memorial of divine encounter, planting Abram's presence at Shechem and Bethel long before he owned a single field there." }
+  ],
+  crossRefs: [
+    { group:"The call, echoed forward", refs:[
+      { r:"Hebrews 11:8", note:"'by faith Abraham obeyed... not knowing where he was going'" },
+      { r:"Acts 7:2-4", note:"Stephen retells the call as beginning even earlier, in Mesopotamia" },
+      { r:"Galatians 3:8", note:"Paul reads v. 3's blessing as the gospel preached in advance to Abraham" } ]},
+    { group:"The wife-sister pattern repeated", refs:[
+      { r:"Genesis 20:1-18", note:"the same ruse played on Abimelech of Gerar" },
+      { r:"Genesis 26:6-11", note:"Isaac repeats his father's exact deception with Rebekah" },
+      { r:"Psalm 105:12-15", note:"'he allowed no one to oppress them... touch not my anointed'" } ]}
+  ]
+},
+
+/* ===== GENESIS 13 — Abram and Lot separate ===== */
+"1:13": {
+  era: {
+    title: "ca. 2090 BC — Abram and Lot part ways",
+    sub: "Middle Bronze Age · the two households outgrow the land · Lot chooses the Jordan plain",
+    badges: ["Middle Bronze Age", "Peaceable separation", "Land promise renewed", "Sodom's wickedness introduced"]
+  },
+  timeOfDay: "day",
+  summary: "Abram returns from Egypt to the Negev and then back to Bethel, rich now in livestock, silver, and gold, retracing his steps to the altar he first built there. His herdsmen and Lot's quarrel over grazing land, since both households have grown too large to share the range, so Abram proposes they separate and generously lets Lot choose first. Lot looks out over the well-watered Jordan plain, 'like the garden of the LORD,' and pitches his tents toward Sodom — whose men, the narrator notes, 'were wicked, great sinners against the LORD.' After Lot departs, God tells Abram to look in every direction: all the land he sees will belong to his offspring, who will be as countless as the dust of the earth. Abram moves his tents to the oaks of Mamre at Hebron and builds another altar there.",
+  focusPlace: "hebron",
+  places: [
+    { id:"bethel", role:"Abram's return stop, back to his first altar (vv. 3-4)" },
+    { id:"sodom", role:"The plain city Lot chooses and moves toward (vv. 10-12)" },
+    { id:"hebron", role:"Where Abram settles at Mamre's oaks after the separation (v. 18)" }
+  ],
+  journey: [
+    { from:"bethel", to:"hebron", label:"Abram settles at Mamre", km:35, note:"After Lot departs for the plain, Abram moves his tents south to the oaks of Mamre near Hebron and builds an altar (v. 18)." },
+    { from:"bethel", to:"sodom", dashed:true, label:"Lot's choice", km:50, note:"Lot chooses the fertile Jordan plain and pitches his tents 'as far as Sodom,' drawn by its lush appeal despite the city's reputation (vv. 10-12)." }
+  ],
+  hotspots: [
+    { x:0.10, type:"object", label:"Rich out of Egypt", desc:"Abram returns from Egypt heavy with livestock, silver, and gold, retracing his path to Bethel's altar (vv. 1-4)." },
+    { x:0.28, type:"person", label:"Strife between the herdsmen", av:"shepherd", desc:"Abram's and Lot's flocks have both grown too large for the land to support them together, and their herdsmen quarrel over grazing and water (vv. 5-7)." },
+    { x:0.46, type:"person", label:"'Let there be no strife between us'", av:"elder", desc:"Abram, the elder party, generously offers Lot first choice of the land, refusing to let kinship curdle into conflict (vv. 8-9)." },
+    { x:0.62, type:"person", label:"Lot chooses the plain", av:"elder", desc:"Lot surveys the well-watered Jordan valley 'like the garden of the LORD, like the land of Egypt,' and moves his tents toward wicked Sodom (vv. 10-13)." },
+    { x:0.82, type:"object", label:"'Look... all the land you see'", desc:"After Lot leaves, God renews the covenant promise to Abram in full: land in every direction and offspring 'like the dust of the earth' (vv. 14-17)." }
+  ],
+  environment: {
+    chips: ["Negev famine behind them", "Herds too large to share range", "Jordan plain, lush before judgment", "Sodom's reputation precedes it", "Oaks of Mamre, Hebron", "Land promise renewed in full"],
+    text: "The central hill country simply could not support two large pastoral operations sharing wells and pasture, a practical pressure familiar throughout the patriarchal narratives. Lot's choice trades long-term security for immediate fertility, settling near a city plain later remembered chiefly for its destruction, while Abram's move to Hebron's oaks at Mamre — one of the region's most reliable water and grazing zones — becomes his most enduring base for the rest of the story."
+  },
+  objectsExtra: ["altar"],
+  peopleExtra: ["lot"],
+  culture: [
+    { title:"Why herdsmen quarrel", icon:"🐑",
+      text:"Pastoral economies in the ancient hill country depended on limited wells and seasonal grazing; two households of Abram's and Lot's scale (v. 6 says the land 'could not support both') routinely produced exactly this kind of conflict, which is why peaceful separation, rather than combat, was the wiser and rarer choice." },
+    { title:"'Like the garden of the LORD'", icon:"🌿",
+      text:"Before the Jordan region's destruction, the text explicitly compares it to Eden and to Egypt's irrigated fertility (v. 10) — establishing just how much beauty and abundance Lot's choice represents, which makes the later judgment on Sodom read as a genuine loss, not an obvious trap avoided." },
+    { title:"Hebron and the oaks of Mamre", icon:"🌳",
+      text:"Mamre, near Hebron, becomes Abraham's most frequent dwelling place across Genesis — the site of the three visitors (ch. 18) and near the cave of Machpelah he later buys as a family tomb (ch. 23), anchoring the promise in a specific, remembered patch of ground." }
+  ],
+  crossRefs: [
+    { group:"The land promise, expanding", refs:[
+      { r:"Genesis 12:7", note:"the first, narrower promise at Shechem, now widened to every direction" },
+      { r:"Genesis 15:18-21", note:"the promise given fixed borders in the covenant of the pieces" },
+      { r:"Genesis 28:13-14", note:"the same promise repeated to Jacob at Bethel" } ]},
+    { group:"Sodom's wickedness, foreshadowed", refs:[
+      { r:"Genesis 18:20-21", note:"the LORD's own verdict on the outcry against Sodom" },
+      { r:"Genesis 19:4-9", note:"the wickedness this chapter names in advance plays out at Lot's door" },
+      { r:"Ezekiel 16:49-50", note:"Sodom's sin defined as pride, excess, and neglect of the poor" } ]}
+  ]
+},
+
+/* ===== GENESIS 14 — The war of the kings, and Melchizedek ===== */
+"1:14": {
+  era: {
+    title: "ca. 2089 BC — Abram's rescue of Lot, and Melchizedek's blessing",
+    sub: "Middle Bronze Age · a coalition war among Canaanite and Mesopotamian kings · Abram's only recorded battle",
+    badges: ["Middle Bronze Age", "Four kings vs. five", "Abram the rescuer-warrior", "Melchizedek: king and priest"]
+  },
+  timeOfDay: "day",
+  summary: "Four eastern kings led by Chedorlaomer of Elam crush a rebellion by five Jordan-plain kings, including Sodom and Gomorrah, plundering the cities and carrying off captives and goods — among them Lot, now living in Sodom. Hearing this, Abram arms 318 trained men born in his household, pursues the coalition north past Dan, and routs them by night near Damascus, recovering Lot, the women, and all the goods. Returning victorious, Abram is met by two kings: the king of Sodom, offering him the plunder while keeping the people, and Melchizedek, king of Salem and priest of God Most High, who brings out bread and wine and blesses Abram. Abram gives Melchizedek a tenth of everything, then refuses any reward from the king of Sodom beyond his men's shares, so that no one could say Sodom's king had made Abram rich.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"sodom", role:"Home city of Lot, plundered by the eastern coalition (vv. 11-12)" },
+    { id:"dan", role:"Northern point of Abram's pursuit of the captors (v. 14)" },
+    { id:"jerusalem", role:"Salem, where king-priest Melchizedek meets and blesses Abram (vv. 18-20)" },
+    { id:"hebron", role:"Abram's base at Mamre before the campaign begins (v. 13)" }
+  ],
+  journey: [
+    { from:"hebron", to:"dan", label:"Abram's rescue pursuit", km:190, note:"Abram leads 318 trained men north in pursuit of the four kings, catching and routing them near Dan and pursuing further to Hobah near Damascus (vv. 14-15)." },
+    { from:"dan", to:"jerusalem", label:"Return, and Melchizedek's blessing", km:170, note:"On his way back with the recovered captives and goods, Abram is met in the King's Valley by the kings of Sodom and Salem (vv. 17-20)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Chedorlaomer's coalition crushes the rebels", av:"king",
+      desc:"Four kings led by Chedorlaomer defeat five Canaanite kings who had rebelled after twelve years of vassalage, plundering Sodom and Gomorrah (vv. 1-11)." },
+    { x:0.22, type:"person", label:"Lot taken captive", av:"elder",
+      desc:"Living in Sodom, Lot and his goods are swept up in the plunder — the news that reaches Abram by a fugitive (vv. 12-13)." },
+    { x:0.42, type:"person", label:"318 men, and a night raid", av:"warrior",
+      desc:"Abram arms his household-born fighting men, allies with local chiefs, and divides his force for a night attack that routs the coalition (vv. 14-16)." },
+    { x:0.62, type:"person", label:"Melchizedek's bread, wine, and blessing", av:"priest",
+      desc:"King of Salem and priest of God Most High, Melchizedek blesses Abram in God's name; Abram in turn gives him a tenth of all the recovered goods (vv. 18-20)." },
+    { x:0.80, type:"person", label:"The king of Sodom's offer, refused", av:"king",
+      desc:"Sodom's king asks only for his people back, offering Abram the goods; Abram swears he will take nothing, 'lest you should say, I have made Abram rich'' (vv. 21-24)." }
+  ],
+  environment: {
+    chips: ["A coalition war of vassal kings", "Household-born fighters, not mercenaries", "A night raid near Damascus", "King's Valley meeting", "Bread, wine, and a tithe", "No reward taken from Sodom"],
+    text: "This chapter's geography spans from the Dead Sea plain to Dan in the far north and on toward Damascus — an unusually long-range campaign for a single pastoral family chief, underlining how seriously Abram treated his covenant obligation to family. The meeting afterward, in the King's Valley near later Jerusalem, sets two very different rulers side by side: one offering wealth for compliance, the other offering blessing for nothing at all."
+  },
+  objectsExtra: ["sword", "armor"],
+  peopleExtra: ["lot", "melchizedek", "chedorlaomer"],
+  culture: [
+    { title:"A four-king, five-king world", icon:"⚔️",
+      text:"The chapter reflects the real political texture of Middle Bronze Age Canaan and Mesopotamia: small city-kings under larger regional overlords, prone to periodic rebellion and punitive campaigns exactly like the one described, long before Israel existed as a nation." },
+    { title:"Melchizedek: priest before Levi", icon:"👑",
+      text:"Melchizedek appears with no genealogy, predating the Aaronic priesthood by centuries; Psalm 110:4 and Hebrews 5-7 later single out this 'priesthood after the order of Melchizedek' — kingly and priestly together, without recorded beginning or end — as a type of Christ's own priesthood." },
+    { title:"The first tithe", icon:"💰",
+      text:"Abram's tenth to Melchizedek (v. 20) is the Bible's first recorded tithe, given voluntarily to a priest-king rather than commanded by law — a detail Hebrews later leans on to argue Melchizedek's priesthood outranks Levi's, since Levi himself was, in a sense, still in Abraham's loins." }
+  ],
+  crossRefs: [
+    { group:"Melchizedek's priesthood, later magnified", refs:[
+      { r:"Psalm 110:4", note:"'You are a priest forever after the order of Melchizedek'" },
+      { r:"Hebrews 7:1-3", note:"Melchizedek as a type of the Son of God, priest without beginning or end of days" },
+      { r:"Hebrews 7:4-10", note:"the tithe's argument: Levi 'paid tithes' through Abraham" } ]},
+    { group:"Abram the warrior, and Sodom's fate to come", refs:[
+      { r:"Genesis 15:1", note:"'Fear not, Abram, I am your shield' — God's word right after this battle" },
+      { r:"Genesis 18:20-21", note:"the same Sodom whose king Abram just refused, soon judged" },
+      { r:"Hebrews 11:33-34", note:"faith that 'became mighty in war' listed among the patriarchs' deeds" } ]}
+  ]
+},
+
+/* ===== GENESIS 15 — The covenant of the pieces ===== */
+"1:15": {
+  era: {
+    title: "ca. 2088 BC — the covenant of the pieces",
+    sub: "Middle Bronze Age · a childless man promised uncountable offspring · a self-maledictory oath, and a 400-year prophecy",
+    badges: ["Middle Bronze Age", "Faith counted as righteousness", "A covenant God alone walks through", "Land borders fixed: Egypt to Euphrates"]
+  },
+  timeOfDay: "night",
+  summary: "After the battle, the LORD comes to Abram in a vision: 'Fear not, Abram, I am your shield; your reward shall be very great.' Abram objects that he remains childless, his heir only a servant, Eliezer of Damascus — so God takes him outside and tells him to count the stars, if he can, promising offspring just as numerous. Abram believes the LORD, 'and he counted it to him as righteousness.' Asked how he can know he will possess the land, Abram is told to bring specific animals, cut them in half, and lay the halves opposite each other. As the sun sets, a deep, dreadful darkness falls on Abram, and God foretells four hundred years of slavery and affliction for his offspring in a foreign land, followed by judgment on their oppressors and a return with great possessions. Then, after dark, a smoking fire pot and flaming torch pass alone between the pieces, and the LORD cuts a covenant naming the land's exact borders, from Egypt's river to the Euphrates.",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"Where Abram receives the vision and the covenant is cut (implied setting near Mamre)" },
+    { id:"egypt", role:"Named as both the covenant's southern border and the land of 400 years' future bondage (vv. 13, 18)" }
+  ],
+  journey: [
+    { from:"hebron", to:"egypt", dashed:true, label:"A 400-year prophecy, cast forward", km:400, note:"No one travels in this chapter; the line marks God's forecast that Abram's offspring will be sojourners and slaves in a foreign land for four centuries before returning (vv. 13-16)." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"'I am your shield; your reward shall be very great'", av:"elder", desc:"God reassures the victorious but childless Abram, prompting his honest complaint that Eliezer of Damascus, a servant, remains his only heir (vv. 1-3)." },
+    { x:0.24, type:"object", label:"'Count the stars, if you are able'", desc:"God promises offspring as numerous as the stars; Abram believes, and it is counted to him as righteousness — the Bible's classic statement of faith reckoned as righteousness (vv. 4-6)." },
+    { x:0.42, type:"object", label:"Halved animals, laid opposite each other", desc:"At God's instruction Abram cuts a heifer, goat, and ram in half and arranges the pieces in two rows, keeping the birds whole (vv. 9-11)." },
+    { x:0.58, type:"person", label:"A deep, dreadful darkness", av:"elder", desc:"As the sun sets, a terrifying darkness falls on Abram, and God foretells 400 years of affliction for his offspring in a foreign land, then judgment on their oppressors (vv. 12-16)." },
+    { x:0.78, type:"object", label:"Smoking pot and flaming torch pass through alone", desc:"After dark, a smoking fire pot and blazing torch — symbols of God's own presence — pass between the halved pieces without Abram, sealing a covenant he takes no active part in cutting (v. 17)." },
+    { x:0.92, type:"object", label:"Borders fixed: Egypt's river to the Euphrates", desc:"The LORD names the covenant's territory outright, listing ten peoples whose land will become Abram's offspring's own (vv. 18-21)." }
+  ],
+  environment: {
+    chips: ["A vision at night", "Stars as a measure of descendants", "Halved animals, a covenant ritual", "A 400-year prophecy given in advance", "God alone passes between the pieces", "Egypt to Euphrates: borders fixed"],
+    text: "The ritual of walking between halved animals was a known ancient Near Eastern practice for sealing solemn treaties, in which both parties would normally pass through together, invoking a curse of being cut apart like the animals if they broke the oath. Here only the smoking pot and torch — representing God — pass through, making this one-sidedly binding: God obligates only himself to keep the promise, regardless of Abram's future faithfulness."
+  },
+  objectsExtra: ["covenant-pieces"],
+  peopleExtra: [],
+  culture: [
+    { title:"Faith counted as righteousness", icon:"⭐",
+      text:"Verse 6 becomes one of Scripture's most quoted lines: Paul (Rom 4:3, 9; Gal 3:6) and James (Jas 2:23) both build major arguments on it, agreeing that Abram was declared righteous by trusting God's promise, before circumcision (ch. 17) or any law existed to obey." },
+    { title:"Cutting a covenant, ancient Near Eastern style", icon:"🐐",
+      text:"Treaty rituals across the ancient Near East, attested in Mari and later Assyrian texts, sometimes involved halving animals as a self-curse: 'may this happen to whoever breaks this oath.' Genesis 15 uses the same form but inverts the normal risk, since only God — not Abram — walks through." },
+    { title:"Why 400 years?", icon:"⏳",
+      text:"The prophecy's number is echoed almost exactly in Exodus 12:40-41's count of the sojourn in Egypt and in Paul's own arithmetic in Galatians 3:17, tying this chapter directly forward to the Exodus and to the giving of the law centuries later." }
+  ],
+  crossRefs: [
+    { group:"Faith reckoned as righteousness, cited forward", refs:[
+      { r:"Romans 4:3, 9-11", note:"Paul's central proof-text for justification by faith apart from works" },
+      { r:"Galatians 3:6-9", note:"Abraham's faith as the pattern for all who believe" },
+      { r:"James 2:21-23", note:"faith and works read together through the same verse" } ]},
+    { group:"The 400 years, fulfilled", refs:[
+      { r:"Exodus 12:40-41", note:"the sojourn in Egypt, ending 'on that very day'" },
+      { r:"Acts 7:6-7", note:"Stephen retells the prophecy before the Sanhedrin" },
+      { r:"Galatians 3:16-17", note:"Paul counts 430 years from this promise to the law at Sinai" } ]}
+  ]
+},
+
+/* ===== GENESIS 16 — Hagar and Ishmael ===== */
+"1:16": {
+  era: {
+    title: "ca. 2081 BC — Hagar's flight, and Ishmael's birth",
+    sub: "Middle Bronze Age · a plan to force the promise · the first person in Scripture to name God",
+    badges: ["Middle Bronze Age", "A human shortcut to the promise", "Hagar names God", "Ishmael born, not yet the heir"]
+  },
+  timeOfDay: "day",
+  summary: "Ten years into the promise, still childless, Sarai gives Abram her Egyptian servant Hagar as a surrogate wife — a customary but ultimately faithless shortcut to the heir God had promised. Hagar conceives and begins to despise her mistress; Sarai, blaming Abram, mistreats her so harshly that Hagar flees into the wilderness toward Shur. There, by a spring on the road, the angel of the LORD finds her, tells her to return and submit to Sarai, and promises that her son — to be named Ishmael, 'God hears' — will father a multitude too numerous to count, though he will be 'a wild donkey of a man' at odds with everyone. Hagar responds by naming the LORD 'El Roi,' the God who sees her, and calls the well Beer-lahai-roi. She returns and bears Ishmael; Abram is eighty-six years old.",
+  focusPlace: "beerlahairoi",
+  places: [
+    { id:"hebron", role:"Abram and Sarai's household, where the surrogacy plan begins (vv. 1-3)" },
+    { id:"beerlahairoi", role:"The desert well where the angel finds the fleeing Hagar (vv. 7, 14)" }
+  ],
+  journey: [
+    { from:"hebron", to:"beerlahairoi", label:"Hagar's flight into the wilderness", km:80, note:"Mistreated by Sarai, the pregnant Hagar flees south toward Shur and is found by a spring on the road (vv. 6-7)." },
+    { from:"beerlahairoi", to:"hebron", dashed:true, label:"Hagar's return", km:80, note:"On the angel's instruction, Hagar returns to Sarai's household to bear her son there (v. 9)." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Sarai's plan: a servant as surrogate", av:"woman", desc:"After ten fruitless years in Canaan, Sarai gives Hagar to Abram to build a family through her — a customary practice of the time, but not God's stated promise (vv. 1-3)." },
+    { x:0.28, type:"person", label:"Contempt, then harsh treatment", av:"woman", desc:"Once pregnant, Hagar despises Sarai; Sarai blames Abram and deals with Hagar so harshly that she flees (vv. 4-6)." },
+    { x:0.48, type:"person", label:"The angel of the LORD finds her", av:"woman", desc:"By a spring on the way to Shur, the angel meets the fleeing Hagar, telling her to return and submit, and promising her son countless descendants (vv. 7-10)." },
+    { x:0.66, type:"object", label:"Ishmael: 'God hears'", desc:"The angel names the unborn child Ishmael, 'because the LORD has listened to your affliction,' and describes him as a free, contentious 'wild donkey of a man' (vv. 11-12)." },
+    { x:0.84, type:"object", label:"'You are a God of seeing' — Beer-lahai-roi", desc:"Hagar becomes the first person in Scripture to name God directly — El Roi — and the well is remembered as Beer-lahai-roi, 'well of the Living One who sees me' (vv. 13-14)." }
+  ],
+  environment: {
+    chips: ["Ten years of waiting", "A customary surrogacy, humanly reasoned", "Flight toward Shur", "A wilderness spring", "Hagar names God first", "Ishmael: 'God hears'"],
+    text: "The road to Shur ran through the arid Negev/Sinai borderland toward Egypt — Hagar's likely homeward direction, since she was Egyptian by birth. Wells in this landscape were rare, vital landmarks, which is exactly why one becomes the site of both her rescue and its own lasting name. The episode's ancient Near Eastern surrogacy custom (a barren wife providing a servant to bear an heir) is attested in Nuzi and Mesopotamian legal texts, showing Sarai's plan was culturally unremarkable even as Genesis frames it as a detour from faith."
+  },
+  objectsExtra: ["well"],
+  peopleExtra: ["hagar", "ishmael"],
+  culture: [
+    { title:"Surrogacy as ancient custom, not divine command", icon:"📜",
+      text:"Ancient Near Eastern marriage contracts (notably from Nuzi) explicitly allow a barren wife to give her servant to her husband to produce an heir credited to the wife — exactly Sarai's plan. Genesis records the custom accurately while quietly showing its human cost." },
+    { title:"El Roi — the God who sees", icon:"👁️",
+      text:"Hagar, a foreign servant with no status, becomes the first person in the Bible to give God a name, based purely on personal experience of being seen in her distress — a strikingly intimate theological moment attributed to the story's most marginalized character." },
+    { title:"Ishmael's future, described in advance", icon:"🏹",
+      text:"The angel's description of Ishmael as free-roaming and often 'at odds with' his kin is later read by many as anticipating the fiercely independent desert-tribal culture historically associated with his Arab descendants, rather than as a moral verdict on the boy himself." }
+  ],
+  crossRefs: [
+    { group:"Hagar and Ishmael, later theology", refs:[
+      { r:"Galatians 4:22-26", note:"Paul allegorizes Hagar and Sarah as two covenants, slavery and freedom" },
+      { r:"Genesis 21:9-21", note:"Hagar and Ishmael's later expulsion after Isaac's birth" },
+      { r:"Genesis 25:12-18", note:"Ishmael's twelve sons, fulfilling the promise of multiplied offspring" } ]},
+    { group:"God who sees and hears the afflicted", refs:[
+      { r:"Exodus 3:7", note:"'I have surely seen the affliction of my people' — the same divine attentiveness" },
+      { r:"Psalm 34:15", note:"'the eyes of the LORD are toward the righteous... his ears toward their cry'" },
+      { r:"1 Peter 3:12", note:"'the eyes of the Lord are on the righteous, and his ears are open to their prayer'" } ]}
+  ]
+},
+
+/* ===== GENESIS 17 — The covenant of circumcision ===== */
+"1:17": {
+  era: {
+    title: "ca. 2067 BC — new names, and the sign of circumcision",
+    sub: "Middle Bronze Age · Abram becomes Abraham, Sarai becomes Sarah · circumcision as covenant sign · Isaac promised by name",
+    badges: ["Middle Bronze Age", "Names changed: father of nations", "Everlasting covenant", "Circumcision instituted"]
+  },
+  timeOfDay: "day",
+  summary: "When Abram is ninety-nine, God appears as 'God Almighty' (El Shaddai) and calls him to walk blamelessly, establishing an everlasting covenant to multiply him greatly and give Canaan to his offspring as a permanent possession. He renames Abram 'Abraham,' father of a multitude of nations, and Sarai 'Sarah,' promising that she herself — not a servant — will bear the covenant son. Abraham laughs at the thought of a child born to a hundred-year-old man and his ninety-year-old wife, and pleads for Ishmael's blessing instead; God blesses Ishmael with twelve princely descendants but insists the covenant will run through a son named Isaac, to be born within the year. As the covenant's perpetual sign, every male in Abraham's household is to be circumcised on the eighth day, under penalty of being cut off from the people; Abraham circumcises himself, Ishmael, and every male in his household that same day.",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"Where God appears to Abraham and the covenant of circumcision is instituted (implied setting)" },
+    { id:"jerusalem", role:"Named implicitly through the everlasting land grant of v. 8, whose promise later centers on this city" }
+  ],
+  journey: [
+    { from:"hebron", to:"jerusalem", dashed:true, label:"An everlasting possession, still future", km:35, note:"No travel occurs in this chapter; the line marks the everlasting covenant's promise of 'all the land of Canaan' as a permanent possession, land that later centers on Jerusalem (vv. 8)." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"'I am God Almighty; walk before me'", av:"elder", desc:"El Shaddai appears to the ninety-nine-year-old Abram, establishing an everlasting covenant and calling him to blameless obedience (vv. 1-2)." },
+    { x:0.24, type:"object", label:"New names: Abraham and Sarah", desc:"Abram ('exalted father') becomes Abraham ('father of a multitude'); Sarai becomes Sarah — both renamed to match the scope of the promise now clarified (vv. 5, 15)." },
+    { x:0.42, type:"person", label:"Abraham laughs, and pleads for Ishmael", av:"elder", desc:"Abraham falls on his face laughing at the idea of a hundred-year-old father and ninety-year-old mother, and asks that Ishmael might simply 'live before' God (vv. 17-18)." },
+    { x:0.58, type:"person", label:"Isaac named in advance", av:"elder", desc:"God insists the covenant runs specifically through a son named Isaac ('he laughs'), to be born to Sarah within the year, while also blessing Ishmael richly (vv. 19-21)." },
+    { x:0.78, type:"object", label:"Circumcision: the covenant's sign", desc:"Every male, including servants and foreigners in the household, is to be circumcised on the eighth day forever, or be 'cut off' for breaking the covenant (vv. 10-14)." },
+    { x:0.94, type:"person", label:"Obedience the same day", av:"elder", desc:"Abraham circumcises himself at ninety-nine and Ishmael at thirteen, along with every male in his household, that very day (vv. 23-27)." }
+  ],
+  environment: {
+    chips: ["El Shaddai — 'God Almighty'", "Names changed to match the promise", "Laughter at an impossible birth", "Isaac named before he's conceived", "Circumcision on the eighth day", "Obedience carried out immediately"],
+    text: "Renaming in the ancient world signified a genuine change of identity and destiny, not mere relabeling — Abram's and Sarai's new names publicly commit them to a promise still entirely unfulfilled. Circumcision, while practiced by some neighboring cultures for other reasons, becomes here a specifically covenantal mark cut into the body itself, distinguishing Abraham's household as a permanent, physical sign carried by every generation after."
+  },
+  objectsExtra: ["circumcision"],
+  peopleExtra: ["ishmael"],
+  culture: [
+    { title:"El Shaddai — 'God Almighty'", icon:"⛰️",
+      text:"This divine name, of debated etymology (possibly linked to 'mountain' or simply 'sufficient/powerful'), recurs at pivotal covenant moments across Genesis and signals God's power to accomplish exactly what human biology says is impossible — a hundred-year-old father, a ninety-year-old mother." },
+    { title:"Circumcision in the ancient world", icon:"🔪",
+      text:"Circumcision was practiced by various ancient peoples, often at puberty as a rite of passage; Genesis 17 redefines it entirely as an infant covenant sign tied to lineage and faith rather than adult initiation, making the eighth-day timing itself a marker of Israel's distinct theology." },
+    { title:"Two sons, two destinies foretold", icon:"👶",
+      text:"God's blessing of Ishmael (twelve princes, a great nation) alongside his insistence that the covenant runs through the not-yet-conceived Isaac sets up the entire Abraham-Ishmael-Isaac dynamic that plays out through the rest of Genesis and beyond, without denying Ishmael real blessing of his own." }
+  ],
+  crossRefs: [
+    { group:"Names and destiny", refs:[
+      { r:"Genesis 32:28", note:"Jacob renamed Israel — the pattern of a new name marking a new covenant identity" },
+      { r:"Isaiah 62:2", note:"Israel promised 'a new name that the mouth of the LORD will give'" },
+      { r:"Revelation 2:17", note:"a new name given to the one who conquers" } ]},
+    { group:"Circumcision, spiritualized later", refs:[
+      { r:"Deuteronomy 10:16", note:"'circumcise the foreskin of your heart' — the sign pointing past itself" },
+      { r:"Romans 4:11", note:"circumcision as 'a seal of the righteousness' Abraham already had by faith" },
+      { r:"Colossians 2:11-12", note:"Paul reads Christian baptism as a 'circumcision made without hands'" } ]}
+  ]
+},
+
+/* ===== GENESIS 18 — Three visitors, and intercession for Sodom ===== */
+"1:18": {
+  era: {
+    title: "ca. 2067 BC — three visitors at Mamre, and Abraham's plea for Sodom",
+    sub: "Middle Bronze Age · Isaac's birth announced directly to Sarah · Abraham bargains for the righteous",
+    badges: ["Middle Bronze Age", "The LORD dines under Abraham's tree", "Sarah laughs, then denies it", "Abraham's boldest intercession"]
+  },
+  timeOfDay: "day",
+  summary: "Three men appear before Abraham's tent at Mamre in the heat of the day; he runs to greet them, washes their feet, and rushes Sarah and a servant to prepare a lavish meal. One of the visitors, revealed as the LORD himself, promises that Sarah will have a son within the year. Sarah, listening at the tent door, laughs to herself at the impossibility, given her and Abraham's age; confronted, she denies laughing out of fear, and the LORD replies simply, 'Is anything too hard for the LORD?' As the men set out toward Sodom, the LORD deliberates whether to hide his plan from Abraham, then reveals that the outcry against Sodom and Gomorrah is so great he is going down to see for himself. Abraham intercedes boldly, bargaining the LORD down from fifty righteous people to ten before the LORD departs and Abraham returns home.",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"Mamre, where the three visitors meet Abraham and Sarah (vv. 1-15)" },
+    { id:"sodom", role:"The city whose outcry the LORD investigates, and for which Abraham intercedes (vv. 16-33)" }
+  ],
+  journey: [
+    { from:"hebron", to:"sodom", dashed:true, label:"'I will go down and see'", km:50, note:"The LORD's messengers head toward Sodom to investigate its outcry firsthand, while Abraham remains at Mamre pleading on the city's behalf (vv. 16, 22)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Three visitors at the tent door", av:"traveler", desc:"Abraham spots three men near Mamre's oaks, runs to meet them, bows, and insists on washing their feet and feeding them (vv. 1-8)." },
+    { x:0.24, type:"person", label:"'Sarah your wife shall have a son'", av:"elder", desc:"One visitor, speaking as the LORD, promises Isaac's birth within the year — news Sarah overhears from inside the tent (vv. 9-10)." },
+    { x:0.40, type:"person", label:"Sarah laughs, then denies it", av:"woman", desc:"Sarah laughs privately at the idea of bearing a child at her age; caught, she denies it out of fear, met with the LORD's reply, 'Is anything too hard for the LORD?' (vv. 11-15)." },
+    { x:0.58, type:"object", label:"'Shall I hide from Abraham what I am about to do?'", desc:"The LORD deliberates aloud whether to conceal his plan, then discloses that Sodom and Gomorrah's outcry has reached him and he is going to investigate (vv. 17-21)." },
+    { x:0.78, type:"person", label:"Abraham bargains for the righteous", av:"elder", desc:"Standing before the LORD, Abraham pleads for the city, repeatedly lowering the number of righteous needed to spare it — from fifty down to ten (vv. 22-32)." },
+    { x:0.94, type:"object", label:"The LORD departs; Abraham returns home", desc:"Having agreed to spare the city for ten righteous, the LORD goes his way and Abraham returns to his place at Mamre (v. 33)." }
+  ],
+  environment: {
+    chips: ["Noon heat, tent-flap hospitality", "Bread, curds, and a calf prepared fast", "A promise Sarah overhears", "'Is anything too hard for the LORD?'", "An outcry investigated in person", "Bargaining from fifty down to ten"],
+    text: "Middle-Eastern hospitality customs required exactly this kind of urgent, lavish welcome for unknown travelers — fresh-baked bread, a tender calf slaughtered on the spot, curds and milk — all prepared within roughly an hour, signaling both genuine honor and the household's real means. The scene's shift from domestic meal to cosmic courtroom, as Abraham negotiates directly with the LORD over a doomed city's fate, is one of the boldest instances of human intercession recorded anywhere in Scripture."
+  },
+  objectsExtra: ["waterjar"],
+  peopleExtra: [],
+  culture: [
+    { title:"Hospitality as sacred duty", icon:"🍞",
+      text:"In the ancient Near East, offering food and shelter to travelers was a moral obligation bound up with honor and divine favor; Abraham's exaggerated urgency ('quickly,' 'run') reflects genuine cultural expectation, not mere politeness, and sets up a deliberate contrast with Sodom's treatment of visitors in the next chapter." },
+    { title:"Who are the 'three men'?", icon:"👥",
+      text:"The narrative identifies one visitor directly with the LORD (v. 1, 13) while the other two are later called angels heading to Sodom (19:1); readers across traditions have long debated whether this is a theophany, an appearance of the pre-incarnate Son, or simply the LORD speaking through commissioned messengers." },
+    { title:"Abraham's intercession as a model", icon:"🙏",
+      text:"Abraham's respectful, persistent bargaining ('far be it from you... shall not the Judge of all the earth do right?') is often read as an early template for intercessory prayer — boldly appealing to God's own justice and character rather than mere pleading, without ever presuming on it." }
+  ],
+  crossRefs: [
+    { group:"Sarah's laughter, and Isaac's name", refs:[
+      { r:"Genesis 21:1-6", note:"Isaac's birth fulfills this promise exactly 'at the appointed time'" },
+      { r:"Hebrews 11:11-12", note:"Sarah's faith to conceive, celebrated despite her doubt here" },
+      { r:"Luke 1:34-37", note:"Gabriel's near-identical answer to Mary — 'nothing will be impossible with God'" } ]},
+    { group:"Intercession for the righteous few", refs:[
+      { r:"Genesis 19:29", note:"God 'remembered Abraham' and rescued Lot when Sodom fell" },
+      { r:"Ezekiel 22:30", note:"God seeking someone to 'stand in the gap' for the land, and finding none" },
+      { r:"1 Timothy 2:1", note:"intercession commanded 'for all people'" } ]}
+  ]
+},
+
+/* ===== GENESIS 19 — The destruction of Sodom and Gomorrah ===== */
+"1:19": {
+  era: {
+    title: "ca. 2067 BC — the destruction of Sodom and Gomorrah",
+    sub: "Middle Bronze Age · two angels rescue Lot · fire and sulfur on the plain · a pillar of salt, and Moab and Ammon's origin",
+    badges: ["Middle Bronze Age", "Lot's rescue, barely in time", "Judgment on the plain cities", "Lot's wife, and his daughters' scheme"]
+  },
+  timeOfDay: "night",
+  summary: "Two angels arrive at Sodom in the evening; Lot insists on hosting them, but the city's men surround his house demanding to abuse the visitors, and Lot's offer of his daughters instead is refused and the mob struck blind. The angels reveal they have come to destroy the city and urge Lot to gather his family; his sons-in-law-to-be dismiss the warning as a joke. At dawn the angels physically drag the hesitating Lot, his wife, and two daughters out of the city, warning them not to look back or stop anywhere on the plain; Lot pleads to flee instead to the small town of Zoar, and is granted it. As the sun rises, the LORD rains fire and sulfur on Sodom and Gomorrah, overturning the cities and the whole plain; Lot's wife looks back and becomes a pillar of salt. Lot and his daughters end up in a cave, where the daughters, fearing no husbands remain, get their father drunk and conceive sons who become the ancestors of Moab and Ammon.",
+  focusPlace: "sodom",
+  places: [
+    { id:"sodom", role:"The city where the angels arrive and the mob gathers at Lot's door (vv. 1-11)" },
+    { id:"gomorrah", role:"Destroyed alongside Sodom in the judgment (v. 24)" },
+    { id:"zoar", role:"The small city Lot begs to flee to instead of the hills (vv. 18-23)" }
+  ],
+  journey: [
+    { from:"sodom", to:"zoar", label:"Lot's escape from the burning plain", km:15, note:"Dragged out by the angels at dawn, Lot pleads to flee to nearby Zoar rather than the distant hills, and is granted refuge there just before the destruction falls (vv. 15-23)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Two angels at Lot's door", av:"traveler", desc:"Lot meets the two visitors at Sodom's gate and insists they lodge with him rather than in the square (vv. 1-3)." },
+    { x:0.20, type:"person", label:"The mob demands the visitors", av:"elder", desc:"Men of the city, young and old, surround the house demanding to abuse the guests; Lot's offer of his daughters instead is refused, and the mob is struck blind (vv. 4-11)." },
+    { x:0.38, type:"person", label:"Sons-in-law dismiss the warning", av:"youth", desc:"Lot warns his daughters' intended husbands to flee the coming destruction, but they think he is joking (v. 14)." },
+    { x:0.54, type:"person", label:"Dragged out at dawn", av:"elder", desc:"As Lot hesitates, the angels seize his hand, his wife's, and his daughters' and pull them out of the city, urging them not to look back (vv. 15-17)." },
+    { x:0.70, type:"object", label:"Fire and sulfur rain down", desc:"The LORD overturns Sodom, Gomorrah, and the whole plain with fire and sulfur out of the heavens as the sun rises over the land (vv. 24-25)." },
+    { x:0.82, type:"person", label:"Lot's wife looks back", av:"woman", desc:"Against the explicit warning, Lot's wife looks back toward the city and becomes a pillar of salt (v. 26)." },
+    { x:0.94, type:"person", label:"The cave, and Lot's daughters' scheme", av:"woman", desc:"Fearing no husbands remain anywhere, Lot's daughters get him drunk on consecutive nights and conceive sons — Moab and Ben-ammi, ancestors of Moab and Ammon (vv. 30-38)." }
+  ],
+  environment: {
+    chips: ["Evening arrival, urgent hospitality", "A violent mob at the door", "Angels who strike blindness", "Dawn drag-out, no time to spare", "Fire and sulfur over the whole plain", "A pillar of salt, and a cave's aftermath"],
+    text: "The Jordan plain's cities sat on or near valuable bitumen and mineral deposits around the Dead Sea basin, a region later archaeology associates with sudden, catastrophic destruction layers at several Bronze Age sites. The chapter's swift collapse from hospitality drama to cosmic judgment to family tragedy in a cave mirrors the surrounding narrative's repeated theme: rescue that is real but never undoes every consequence of the world it rescues someone from."
+  },
+  objectsExtra: ["sulfur-fire", "pillar-of-salt"],
+  peopleExtra: ["lots-wife", "lots-daughters"],
+  culture: [
+    { title:"Sodom's sin, defined by Scripture itself", icon:"⚖️",
+      text:"Ezekiel 16:49-50 names Sodom's core sins as pride, gluttonous excess, and refusal to help the poor and needy, alongside 'abomination' before God — this chapter's attempted mob assault on the visitors is the narrative's climactic illustration of a city's total breakdown of hospitality and justice, not its only offense." },
+    { title:"Why looking back mattered", icon:"🧂",
+      text:"The angels' warning not to look back (v. 17) functioned as a test of trust and urgency rather than an arbitrary rule; Lot's wife's fatal glance is remembered by Jesus himself as a warning against clinging to a doomed old life when called to leave it decisively (Luke 17:32)." },
+    { title:"Moab and Ammon's uncomfortable origin", icon:"🏺",
+      text:"The chapter's closing genealogy explains, without excusing, the ancestry of two nations Israel would repeatedly clash with and sometimes intermarry with; Genesis is characteristically candid about the moral compromise behind their origin rather than glossing over it." }
+  ],
+  crossRefs: [
+    { group:"Sodom as a lasting warning", refs:[
+      { r:"Ezekiel 16:49-50", note:"Sodom's sins defined: pride, excess, and neglect of the poor" },
+      { r:"Luke 17:28-32", note:"Jesus cites Sodom's sudden judgment, and warns, 'remember Lot's wife'" },
+      { r:"2 Peter 2:6-9", note:"Sodom and Gomorrah as an example of judgment, and Lot as 'righteous' despite it all" } ]},
+    { group:"Moab and Ammon in Israel's later story", refs:[
+      { r:"Deuteronomy 2:9, 19", note:"Israel forbidden to dispossess Moab or Ammon — 'sons of Lot'" },
+      { r:"Ruth 1:4, 22", note:"Ruth the Moabitess, ancestress of David, brought into Israel's story" },
+      { r:"Judges 3:12-14; 10:7-9", note:"Moab and Ammon's later oppression of Israel" } ]}
+  ]
+},
+
+/* ===== GENESIS 20 — Abraham, Sarah, and Abimelech of Gerar ===== */
+"1:20": {
+  era: {
+    title: "ca. 2066 BC — Abraham sojourns at Gerar",
+    sub: "Middle Bronze Age · Philistine border town · the sister-lie repeated · God warns a pagan king in a dream",
+    badges: ["Middle Bronze Age", "Sister-lie, second time", "A king rebuked in a dream", "Sarah spared again"]
+  },
+  timeOfDay: "day",
+  summary: "Abraham moves south to Gerar and again calls Sarah his sister, so King Abimelech takes her into his household (vv. 1-2). God warns Abimelech in a dream that he is a dead man for taking another man's wife; Abimelech, who has not touched her, protests his innocence and God confirms he acted in integrity, having kept him from sinning (vv. 3-6). Abimelech is told to restore Sarah and have Abraham pray for him, or die (v. 7). He confronts Abraham the next morning, terrified, and Abraham explains he feared for his life and that Sarah is in fact his half-sister as well as his wife (vv. 8-13). Abimelech gives Abraham sheep, oxen, servants, silver, and open land, and Abraham prays for him; God heals Abimelech's household, which had been struck barren over the matter (vv. 14-18).",
+  focusPlace: "gerar",
+  places: [
+    { id:"gerar", role:"Where Abraham sojourns and Abimelech rules — the whole chapter's setting (v. 1)" },
+    { id:"hebron", role:"The Mamre encampment Abraham has just left, moving south toward Gerar and Egypt's border region (v. 1)" }
+  ],
+  journey: [
+    { from:"hebron", to:"gerar", label:"South toward the Negev border", km:70,
+      note:"Abraham shifts his flocks south from Mamre toward Philistine territory on the edge of the Negev (v. 1)." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"'She is my sister' — again", av:"elder",
+      desc:"Abraham repeats the half-truth he used in Egypt (Gen 12), and Abimelech takes Sarah into his house (vv. 1-2)." },
+    { x:0.30, type:"person", label:"God warns Abimelech in a dream", av:"king",
+      desc:"'You are a dead man' — but God credits Abimelech's innocence and says he kept him from touching her (vv. 3-6)." },
+    { x:0.50, type:"person", label:"Abraham confronted, and explains", av:"elder",
+      desc:"Abimelech rebukes Abraham for the deception; Abraham admits fear for his life and that Sarah is his father's daughter, not his mother's (vv. 8-13)." },
+    { x:0.72, type:"object", label:"Restitution: flocks, silver, land",
+      desc:"Abimelech gives Abraham sheep, oxen, servants and a thousand pieces of silver, and invites him to settle anywhere in the land (vv. 14-16)." },
+    { x:0.90, type:"person", label:"Abraham prays, the household is healed", av:"elder",
+      desc:"Abraham prays for Abimelech, and God heals the king's wife and slave women, who had been made barren because of Sarah (vv. 17-18)." }
+  ],
+  environment: {
+    chips: ["A repeated deception", "A dream-warning to a pagan king", "Innocence acknowledged, not excused", "Restitution in livestock and silver", "Barrenness lifted by prayer"],
+    text: "Gerar sat on the desert fringe south of Gaza, a Philistine-ruled border town whose economy turned on contested wells — the same friction that will resurface with Isaac in chapter 26. The episode strikingly has God defend a Gentile king's conscience against the patriarch's own half-truth, a pattern that recurs (Gen 12, 26) and quietly undercuts any assumption that being chosen makes one automatically righteous."
+  },
+  objectsExtra: [],
+  peopleExtra: ["abimelech"],
+  culture: [
+    { title:"A recurring sister-lie", icon:"🔁",
+      text:"This is the second of three near-identical episodes (Gen 12 with Pharaoh, this chapter, and Gen 26 with Isaac and Abimelech) where a patriarch calls his wife 'sister' out of fear. Genesis repeats the pattern without flattering its heroes, letting the same flaw resurface across a generation." },
+    { title:"A dream-warning to an outsider", icon:"💭",
+      text:"God speaking directly to Abimelech, a Philistine king outside the covenant line, shows divine moral accountability extending beyond Abraham's own family — a theme also present in Pharaoh's earlier plagues (Gen 12:17)." },
+    { title:"Half-sister, whole deception", icon:"⚖️",
+      text:"Abraham's defense — that Sarah is his father's daughter by another mother — was likely true and legally acceptable in the ancient Near East, but does not excuse the deliberate omission that endangered both Sarah and Abimelech." }
+  ],
+  crossRefs: [
+    { group:"The same lie, told before and after", refs:[
+      { r:"Genesis 12:10-20", note:"Abraham's earlier sister-lie, to Pharaoh in Egypt" },
+      { r:"Genesis 26:6-11", note:"Isaac repeats his father's exact deception at the same Gerar" },
+      { r:"Proverbs 29:25", note:"'the fear of man lays a snare' — the lie's root cause" } ]},
+    { group:"Abimelech's integrity acknowledged", refs:[
+      { r:"Genesis 20:6", note:"God credits Abimelech's 'integrity of heart'" },
+      { r:"Psalm 105:14-15", note:"'he suffered no one to do them wrong... touch not mine anointed'" },
+      { r:"1 Chronicles 16:21-22", note:"the same episode recalled as God's protection of the patriarchs" } ]}
+  ]
+},
+
+/* ===== GENESIS 21 — Isaac's birth, Hagar's exile, and a covenant at Beersheba ===== */
+"1:21": {
+  era: {
+    title: "ca. 2066-2050 BC — Isaac born; Hagar and Ishmael sent away",
+    sub: "Middle Bronze Age · the promised laughter finally arrives · a household torn in two · a well-covenant with Abimelech",
+    badges: ["Middle Bronze Age", "The promise fulfilled", "A hard exile", "Beersheba named"]
+  },
+  timeOfDay: "day",
+  summary: "The LORD does exactly as promised: Sarah conceives and bears Isaac in Abraham's old age, and Abraham circumcises him at eight days as commanded (vv. 1-7). At the weaning feast, Sarah sees Ishmael mocking and demands Hagar and her son be cast out; Abraham is distressed, but God tells him to listen to Sarah, since Isaac carries the covenant line, while Ishmael too will become a nation (vv. 8-13). Abraham sends Hagar and Ishmael away with bread and water; when the water runs out in the wilderness of Beersheba, Hagar despairs, but God opens her eyes to a well and Ishmael grows up in the wilderness of Paran (vv. 14-21). Abimelech and Phicol, his army commander, come to Abraham seeking a treaty of mutual honesty, and after a dispute over a well Abraham has dug, the two swear an oath; Abraham gives seven ewe lambs as witness, and the place is named Beersheba (vv. 22-34).",
+  focusPlace: "beersheba",
+  places: [
+    { id:"beersheba", role:"Where Hagar's despair is answered with a well, and where Abraham and Abimelech swear their covenant, giving the place its name (vv. 14-31)" },
+    { id:"beerlahairoi", role:"Near where Hagar had earlier fled and named God 'the God who sees me' — recalled by her return to the wilderness here (Gen 16:14)" },
+    { id:"gerar", role:"Abimelech's home base, from which he and Phicol travel to meet Abraham (v. 22)" }
+  ],
+  journey: [
+    { from:"beersheba", to:"gerar", label:"Abimelech and Phicol's approach", km:35,
+      note:"The Philistine king and his army commander come from Gerar to strike a treaty with Abraham (v. 22)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Isaac is born, and circumcised at eight days", av:"youth",
+      desc:"'The LORD visited Sarah as he had said,' and Isaac ('he laughs') is born and circumcised as commanded (vv. 1-7)." },
+    { x:0.22, type:"person", label:"Ishmael mocks; Sarah demands exile", av:"woman",
+      desc:"At Isaac's weaning feast Sarah sees Ishmael mocking and tells Abraham to cast out 'this slave woman and her son' (vv. 8-10)." },
+    { x:0.40, type:"person", label:"God tells Abraham to listen to Sarah", av:"elder",
+      desc:"Distressed over Ishmael, Abraham is told Isaac alone carries the covenant, though Ishmael too will father a nation (vv. 11-13)." },
+    { x:0.58, type:"person", label:"Hagar and Ishmael in the wilderness", av:"woman",
+      desc:"Sent off with bread and water, Hagar despairs when it runs out — until God opens her eyes to a well (vv. 14-19)." },
+    { x:0.76, type:"person", label:"Abimelech's treaty and the seven ewe lambs", av:"king",
+      desc:"Abimelech and Phicol seek an oath of mutual fair dealing; Abraham sets aside seven ewe lambs as witness that he dug the disputed well (vv. 22-30)." },
+    { x:0.92, type:"object", label:"Beersheba named, a tamarisk planted",
+      desc:"The place is called Beersheba, 'well of the oath,' and Abraham plants a tamarisk tree there and calls on the LORD (vv. 31-33)." }
+  ],
+  environment: {
+    chips: ["Long-delayed laughter, finally born", "A weaning feast turns bitter", "Exile into desert thirst", "A well opens Hagar's eyes", "Seven lambs seal an oath", "A name that sticks: Beersheba"],
+    text: "Beersheba sat at the edge of cultivable land where the Negev turns to steppe, its deep well the whole reason anyone could live there at all — which is exactly why disputes over wells recur through Genesis. The chapter pairs Isaac's joyful arrival with Ishmael's hard departure, refusing to let either the promise or its cost go unnamed."
+  },
+  objectsExtra: ["ewe-lamb", "well"],
+  peopleExtra: ["phicol"],
+  culture: [
+    { title:"'Laughter' as a name", icon:"😂",
+      text:"Isaac's name (Hebrew Yitzchak, 'he laughs') recalls both Sarah's disbelieving laugh at the promise (Gen 18:12) and her later joyful laughter at his birth (v. 6) — the same word carrying doubt and delight." },
+    { title:"Hard covenant math", icon:"⚖️",
+      text:"God's instruction to send Ishmael away, while still promising him a nation, reflects the ancient reality that only one son could carry a father's primary inheritance and covenant line — a tension Genesis never smooths over emotionally." },
+    { title:"Seven lambs, one oath", icon:"🐑",
+      text:"The number seven (sheva) puns on Beersheba's name; setting aside seven lambs as a witness-gift was a customary way to formalize a treaty in the ancient Near East, fixing the memory of an agreement in a physical token." }
+  ],
+  crossRefs: [
+    { group:"Isaac, the promised son", refs:[
+      { r:"Genesis 17:19", note:"God had already named the coming son Isaac and promised an everlasting covenant through him" },
+      { r:"Romans 9:7-9", note:"Paul reads Isaac as the pattern for children of promise, not merely of flesh" },
+      { r:"Galatians 4:28-29", note:"Isaac and Ishmael reused as a picture of promise versus flesh" } ]},
+    { group:"Hagar and Ishmael's later story", refs:[
+      { r:"Genesis 16:7-14", note:"Hagar's earlier flight and her naming of 'the God who sees me'" },
+      { r:"Genesis 25:12-18", note:"Ishmael's twelve sons and the territory his descendants settle" },
+      { r:"Galatians 4:22-31", note:"Paul's allegorical reading of Hagar and Sarah as two covenants" } ]}
+  ]
+},
+
+/* ===== GENESIS 22 — The binding of Isaac on Moriah ===== */
+"1:22": {
+  era: {
+    title: "ca. 2050 BC — the Akedah: Abraham's test on Mount Moriah",
+    sub: "Middle Bronze Age · a three-day journey to sacrifice the promised son · a ram caught in a thicket · 'The LORD will provide'",
+    badges: ["Middle Bronze Age", "The ultimate test of faith", "Moriah, future site of the Temple", "A substitute provided"]
+  },
+  timeOfDay: "day",
+  summary: "God tests Abraham, telling him to take Isaac, 'your only son, whom you love,' to the land of Moriah and offer him there as a burnt offering (vv. 1-2). Abraham rises early, saddles his donkey, and travels three days with Isaac and two servants; leaving the servants behind, he and Isaac climb together, Isaac carrying the wood and asking where the lamb is — Abraham answers that God will provide it (vv. 3-8). At the place, Abraham builds the altar, binds Isaac, and raises the knife, but the angel of the LORD stops him, commending his fear of God for not withholding his only son (vv. 9-12). Abraham looks up and sees a ram caught by its horns in a thicket, and offers it instead, naming the place 'The LORD Will Provide' (vv. 13-14). The angel calls again, swearing by God's own self that because Abraham obeyed, his offspring will be blessed and multiplied like the stars and sand, and through them all nations will be blessed (vv. 15-19). The chapter closes with a short note on the sons born to Abraham's brother Nahor, including Bethuel, father of Rebekah (vv. 20-24).",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The land of Moriah where Abraham is told to offer Isaac — later identified as the Temple Mount (v. 2; 2 Chron 3:1)" },
+    { id:"beersheba", role:"Where Abraham is dwelling when God calls him to Moriah, the likely starting point of the three-day journey (Gen 21:33-22:1)" },
+    { id:"haran", role:"Home of Nahor's family, named in the chapter's closing genealogy that introduces Bethuel and, through him, Rebekah (vv. 20-23)" }
+  ],
+  journey: [
+    { from:"beersheba", to:"jerusalem", label:"Three days to Moriah", km:75,
+      note:"Abraham travels three days with Isaac, wood, fire, and a knife, not knowing until the last moment how God will provide (vv. 3-4)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"'Take your son... and offer him'", av:"elder",
+      desc:"God's command tests Abraham to the utmost: take Isaac, 'your only son, whom you love,' to Moriah for a burnt offering (vv. 1-2)." },
+    { x:0.24, type:"person", label:"'God will provide the lamb'", av:"youth",
+      desc:"Isaac, carrying the wood, asks where the sacrifice is; Abraham answers with faith he cannot yet explain (vv. 6-8)." },
+    { x:0.44, type:"object", label:"The altar, the binding, the raised knife",
+      desc:"Abraham builds the altar, binds Isaac on the wood, and stretches out his hand with the knife before the angel calls out to stop him (vv. 9-11)." },
+    { x:0.62, type:"person", label:"'Now I know that you fear God'", av:"elder",
+      desc:"The angel of the LORD commends Abraham for not withholding his only son, confirming the test is over (v. 12)." },
+    { x:0.78, type:"object", label:"A ram caught in the thicket",
+      desc:"Abraham looks up, sees a ram caught by its horns, and offers it in Isaac's place, naming the site 'The LORD Will Provide' (vv. 13-14)." },
+    { x:0.92, type:"person", label:"The covenant oath renewed", av:"elder",
+      desc:"The angel swears by God's own name that Abraham's offspring will multiply like stars and sand and bless all nations, because he obeyed (vv. 15-18)." }
+  ],
+  environment: {
+    chips: ["A three-day journey in silence", "Wood, fire, knife — no lamb yet", "'God will provide' spoken in faith", "A knife stayed at the last second", "A ram substituted", "An oath sworn by God's own name"],
+    text: "Moriah's later identification with Jerusalem's Temple Mount (2 Chron 3:1) makes this the same ridge where Solomon's temple, and centuries of sacrifice, would eventually stand — the chapter's substitution of a ram for Isaac anticipating the whole sacrificial system built on that hill. Ancient Near Eastern neighbors sometimes practiced child sacrifice; this account's God explicitly stops it."
+  },
+  objectsExtra: ["ram-caught-in-thicket", "altar"],
+  peopleExtra: [],
+  culture: [
+    { title:"The Akedah in Jewish tradition", icon:"📜",
+      text:"Jewish tradition calls this episode the Akedah ('the Binding') and reads it as the supreme test of Abraham's faith, later invoked in the Rosh Hashanah liturgy and remembered as merit for Israel's descendants." },
+    { title:"A polemic against child sacrifice", icon:"🚫",
+      text:"Unlike neighboring Canaanite and later practices of offering children to gods like Molech, the God of this narrative explicitly halts the sacrifice and provides a substitute — a decisive break embedded at the story's climax, not its footnote." },
+    { title:"A pattern later writers return to", icon:"✝️",
+      text:"Hebrews 11:17-19 reads Abraham as trusting God could even raise Isaac from the dead; many Christian readers have long seen the 'only son... whom you love' carried up a mountain to be offered as foreshadowing Christ." }
+  ],
+  crossRefs: [
+    { group:"Moriah and the Temple", refs:[
+      { r:"2 Chronicles 3:1", note:"Solomon builds the temple 'on Mount Moriah,' identifying it with this chapter's site" },
+      { r:"Hebrews 11:17-19", note:"Abraham's faith that God could raise Isaac even from death" },
+      { r:"James 2:21-23", note:"Abraham's offering of Isaac cited as faith proven by works" } ]},
+    { group:"The oath renewed, and its fulfillment", refs:[
+      { r:"Genesis 15:5", note:"the earlier promise of offspring 'like the stars of heaven'" },
+      { r:"Genesis 26:3-4", note:"the same oath repeated to Isaac" },
+      { r:"Galatians 3:16", note:"Paul reads 'your offspring' ultimately as Christ" } ]}
+  ]
+},
+
+/* ===== GENESIS 23 — Sarah's death and the purchase of Machpelah ===== */
+"1:23": {
+  era: {
+    title: "ca. 2029 BC — Sarah dies at Hebron; Abraham buys Machpelah",
+    sub: "Middle Bronze Age · Sarah's death at 127 · a formal land purchase from Ephron the Hittite · Abraham's first owned ground in Canaan",
+    badges: ["Middle Bronze Age", "Sarah's death mourned", "A cave bought, not given", "First patriarchal foothold in the land"]
+  },
+  timeOfDay: "day",
+  summary: "Sarah dies at Kiriath-arba, that is Hebron, at 127 years old, and Abraham comes to mourn and weep for her (vv. 1-2). He rises and asks the Hittites of the land for a burial site, insisting he will pay full price rather than accept it as a gift, though offered a free choice of tombs (vv. 3-6). Ephron the Hittite offers the cave of Machpelah at the edge of his field, and though he initially offers it freely, Abraham insists on paying, and Ephron names the price — four hundred shekels of silver, 'what is that between you and me?' (vv. 7-15). Abraham weighs out the silver before witnesses at the city gate, and the field, the cave, and every tree in it are formally deeded to Abraham as a possession (vv. 16-18). Abraham buries Sarah there in the cave of Machpelah, near Mamre — the first piece of the promised land Abraham actually owns (vv. 19-20).",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"Kiriath-arba, where Sarah dies and where Abraham negotiates and completes the purchase of Machpelah at the city gate (vv. 2, 10-18)" },
+    { id:"beersheba", role:"Abraham's more recent home (Gen 21:33-34), from which he comes to mourn Sarah at Hebron" }
+  ],
+  journey: [
+    { from:"beersheba", to:"hebron", label:"Abraham comes to mourn and to buy a grave", km:45,
+      note:"Abraham travels from his home at Beersheba to Kiriath-arba (Hebron) on Sarah's death, and stays to complete the Machpelah purchase (vv. 1-2)." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Sarah dies at Hebron", av:"woman",
+      desc:"Sarah dies at 127 at Kiriath-arba; Abraham comes to mourn and weep for her (vv. 1-2)." },
+    { x:0.32, type:"person", label:"Abraham insists on paying full price", av:"elder",
+      desc:"Offered a free choice of tombs by the Hittites, Abraham insists on buying, not receiving a burial site as a gift (vv. 3-6, 9)." },
+    { x:0.55, type:"object", label:"Ephron names four hundred shekels",
+      desc:"Ephron the Hittite, after a show of generosity, names the price of the cave and field — 400 shekels of silver, 'current merchant's standard' (vv. 14-16)." },
+    { x:0.78, type:"object", label:"The deed formalized at the city gate",
+      desc:"The field, cave, and every tree in it pass legally to Abraham 'in the presence of all who went in at the gate of his city' (vv. 17-18)." },
+    { x:0.92, type:"person", label:"Sarah buried in Machpelah", av:"woman",
+      desc:"Abraham buries Sarah in the cave of Machpelah facing Mamre — Abraham's first owned ground in Canaan (vv. 19-20)." }
+  ],
+  environment: {
+    chips: ["Mourning at Kiriath-arba", "A formal ancient real-estate negotiation", "Full price insisted on, not a gift", "City-gate witnesses", "First land Abraham actually owns"],
+    text: "The negotiation follows real ancient Near Eastern legal convention — polite refusal, an inflated 'gift' offer, then a named price accepted before witnesses at the city gate, the customary place for binding public transactions. That the promise-holder Abraham owns not one acre of Canaan until this purchase of a burial cave is itself a quiet irony the text lets stand."
+  },
+  objectsExtra: ["machpelah-cave", "shekel", "citygate"],
+  peopleExtra: [],
+  culture: [
+    { title:"Ancient Near Eastern contract style", icon:"📝",
+      text:"The back-and-forth of refused gifts and named prices mirrors known Hittite and other ANE land-sale formulas, in which an initial 'free gift' offer was a customary opening move, not a real offer — Abraham's insistence on paying full price ensured an undisputed legal claim." },
+    { title:"The city gate as courthouse", icon:"🚪",
+      text:"City gates functioned as the public square where elders witnessed transactions, settled disputes, and confirmed contracts — 'in the presence of all who went in at the gate' (v. 18) is the ancient equivalent of a filed, witnessed deed." },
+    { title:"Machpelah's long afterlife", icon:"⚰️",
+      text:"The cave becomes the family tomb for Abraham, Sarah, Isaac, Rebekah, Jacob, and Leah (Gen 49:29-32; 50:13), still venerated today at Hebron's Cave of the Patriarchs — one of the few biblical sites with unbroken historical identification." }
+  ],
+  crossRefs: [
+    { group:"Machpelah as the family tomb", refs:[
+      { r:"Genesis 25:9-10", note:"Isaac and Ishmael together bury Abraham in the same cave" },
+      { r:"Genesis 49:29-32", note:"Jacob's dying instruction to be buried in Machpelah with his fathers" },
+      { r:"Genesis 50:13", note:"Jacob's body carried back from Egypt and buried there" } ]},
+    { group:"Sarah remembered", refs:[
+      { r:"Isaiah 51:2", note:"Israel told to 'look to Abraham... and Sarah who bore you'" },
+      { r:"Hebrews 11:11", note:"Sarah's faith to conceive celebrated in the roll call of the faithful" },
+      { r:"1 Peter 3:6", note:"Sarah held up as a model of a wife's respect" } ]}
+  ]
+},
+
+/* ===== GENESIS 24 — Eliezer's mission to find Rebekah ===== */
+"1:24": {
+  era: {
+    title: "ca. 2026 BC — a servant sent to Aram-naharaim for Isaac's bride",
+    sub: "Middle Bronze Age · an oath sworn on Abraham's thigh · a sign at the well · Rebekah's willing 'I will go'",
+    badges: ["Middle Bronze Age", "A providential sign requested", "A bride found at a well", "Rebekah's own consent sought"]
+  },
+  timeOfDay: "day",
+  summary: "Aged Abraham makes his chief servant swear not to take a wife for Isaac from the Canaanites, but to go to his own country and kindred, to Nahor's household (vv. 1-9). The servant travels to the city of Nahor and prays at the well for a specific sign: that the woman who offers to water his camels too will be the one God has chosen for Isaac (vv. 10-14). Before he finishes praying, Rebekah arrives, offers water to him and his camels exactly as asked, and is identified as Bethuel's daughter, granddaughter of Nahor (vv. 15-27). She runs to tell her household; her brother Laban, seeing the gifts, rushes out to welcome the servant, who explains his mission and asks for Rebekah for Isaac (vv. 28-49). Laban and Bethuel agree the matter is from the LORD, and after gifts are given, Rebekah herself is asked and agrees to go at once (vv. 50-61). The servant and Rebekah travel back; Isaac, out meditating in the field near Beerlahairoi, sees the camels coming, and Rebekah becomes his wife and comforts him after his mother's death (vv. 62-67).",
+  focusPlace: "haran",
+  places: [
+    { id:"haran", role:"The city of Nahor in Aram-naharaim where the servant finds Rebekah at the well (v. 10)" },
+    { id:"beerlahairoi", role:"Where Isaac is living and meditating in the field when Rebekah's caravan arrives (v. 62)" }
+  ],
+  journey: [
+    { from:"hebron", to:"haran", label:"The servant's outward journey", km:800,
+      note:"Abraham's servant travels north with ten camels and gifts to seek a wife for Isaac among his master's own kindred (vv. 4, 10)." },
+    { from:"haran", to:"beerlahairoi", label:"Rebekah's journey to Isaac", km:800,
+      note:"Rebekah, her nurse, and her attendants return with the servant to meet Isaac and become his wife (vv. 61, 67)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Abraham's oath: not a Canaanite wife", av:"elder",
+      desc:"Abraham binds his servant by oath to seek a wife for Isaac from his own kindred, not the Canaanites (vv. 1-9)." },
+    { x:0.24, type:"object", label:"A sign requested at the well",
+      desc:"The servant prays for a specific test: the woman who offers to water his ten camels will be God's chosen bride for Isaac (vv. 12-14)." },
+    { x:0.42, type:"person", label:"Rebekah waters the camels", av:"woman",
+      desc:"Before the prayer even ends, Rebekah arrives, draws water, and offers it to the camels unprompted, exactly as asked (vv. 15-20)." },
+    { x:0.58, type:"person", label:"Laban runs out to the gifts", av:"elder",
+      desc:"Seeing the servant's gold ring and bracelets, Laban rushes to welcome him and hear his mission (vv. 29-31)." },
+    { x:0.76, type:"person", label:"'I will go' — Rebekah's own consent", av:"woman",
+      desc:"Asked directly whether she will go with the servant, Rebekah answers, 'I will go,' and is sent off with blessing (vv. 57-60)." },
+    { x:0.92, type:"person", label:"Isaac meets Rebekah in the field", av:"shepherd",
+      desc:"Isaac, out meditating near Beerlahairoi, sees the camels approaching; Rebekah veils herself, and he takes her as his wife (vv. 62-67)." }
+  ],
+  environment: {
+    chips: ["An oath sworn on Abraham's thigh", "A providential sign at a well", "Camels laden with gifts", "A family's quick consent", "Rebekah's own 'I will go'", "Comfort after Sarah's death"],
+    text: "Wells functioned as the ancient world's social hub, the place where strangers, betrothals, and news all converged — this chapter, along with Jacob's own well-meeting of Rachel (Gen 29) and Moses' of Zipporah (Ex 2), makes the well-betrothal a recognizable type-scene. The servant's prayer for a specific, testable sign, and its immediate fulfillment, frames the whole journey as divinely guided rather than mere family arrangement."
+  },
+  objectsExtra: ["camel", "well", "bridal-veil"],
+  peopleExtra: ["rebekah", "bethuel", "laban", "milcah"],
+  culture: [
+    { title:"The well-betrothal type-scene", icon:"💧",
+      text:"A recurring biblical pattern — a foreign traveler meets his future bride at a well (Rebekah here, Rachel in Gen 29, Zipporah in Exodus 2) — uses shared conventions readers would recognize, making variations (who draws water for whom) narratively significant." },
+    { title:"Swearing on the thigh", icon:"🤝",
+      text:"Placing a hand 'under the thigh' (v. 2, near the reproductive organs) to swear an oath invoked one's descendants and household line as witness and stake — a solemn, family-line-binding gesture rather than a casual promise." },
+    { title:"Consent still sought", icon:"🙋",
+      text:"Even after the family agreed to the match, Rebekah herself is asked directly whether she will go (v. 58) — a notable moment of personal consent within an otherwise arranged, family-negotiated marriage." }
+  ],
+  crossRefs: [
+    { group:"Well-betrothal echoes later in Genesis and Exodus", refs:[
+      { r:"Genesis 29:9-12", note:"Jacob meets Rachel at a well in almost identical fashion" },
+      { r:"Exodus 2:15-21", note:"Moses meets Zipporah and her sisters at a well in Midian" },
+      { r:"John 4:5-7", note:"Jesus meets the Samaritan woman at Jacob's well" } ]},
+    { group:"Rebekah's family line", refs:[
+      { r:"Genesis 22:20-23", note:"Bethuel's birth already noted in Nahor's genealogy" },
+      { r:"Genesis 29:4-5", note:"Laban identified again as Rebekah's brother when Jacob arrives" },
+      { r:"Romans 9:10-12", note:"Rebekah's own later role in securing Jacob's line over Esau's" } ]}
+  ]
+},
+
+/* ===== GENESIS 25 — Abraham's death, Esau and Jacob, and the sold birthright ===== */
+"1:25": {
+  era: {
+    title: "ca. 2006-1966 BC — Abraham's death; Esau and Jacob born; the birthright sold",
+    sub: "Middle Bronze Age · Keturah's sons sent east · Ishmael's line recorded · rival twins from the womb onward",
+    badges: ["Middle Bronze Age", "Abraham's death and burial", "Twins struggling in the womb", "A birthright for stew"]
+  },
+  timeOfDay: "day",
+  summary: "Abraham takes another wife, Keturah, who bears him six more sons; he sends them east with gifts, keeping the inheritance for Isaac alone, and dies at 175, buried by Isaac and Ishmael together in Machpelah (vv. 1-11). Ishmael's twelve sons are listed as tribal princes, fulfilling God's earlier promise, and Ishmael dies at 137 (vv. 12-18). Isaac, married twenty years without children, prays for Rebekah, who conceives twins that struggle inside her; God tells her two nations are in her womb and the older will serve the younger (vv. 19-23). Esau is born first, red and hairy, followed by Jacob, gripping his brother's heel (vv. 24-26). Esau becomes a skilled hunter favored by Isaac; Jacob, a quieter man favored by Rebekah, one day trades a bowl of red stew to a famished Esau for his birthright, which Esau despises enough to sell (vv. 27-34).",
+  focusPlace: "beerlahairoi",
+  places: [
+    { id:"beerlahairoi", role:"Where Isaac is living when the twins are born and grow up (implied continuity from Gen 24:62; 25:11)" },
+    { id:"hebron", role:"Machpelah, where Isaac and Ishmael together bury Abraham beside Sarah (v. 9)" },
+    { id:"edom", role:"The territory Esau's descendants will settle, named here in advance through his own alternate name Edom, 'red' (v. 30)" }
+  ],
+  journey: [
+    { from:"beerlahairoi", to:"hebron", dashed:true, label:"Abraham's burial procession, in view", km:110,
+      note:"No travel is narrated directly, but Isaac and Ishmael together bring Abraham's body to be buried beside Sarah at Machpelah in Hebron (v. 9)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"Keturah's sons sent east", av:"woman",
+      desc:"Abraham's wife Keturah bears him six sons, who are given gifts and sent away east, away from Isaac's inheritance (vv. 1-6)." },
+    { x:0.20, type:"person", label:"Abraham dies at 175", av:"elder",
+      desc:"Abraham dies 'old and full of years' and is buried by Isaac and Ishmael together in the cave of Machpelah beside Sarah (vv. 7-10)." },
+    { x:0.38, type:"object", label:"Ishmael's twelve princes listed",
+      desc:"Ishmael's twelve sons are recorded as tribal princes before his own death at 137, fulfilling God's earlier promise to Hagar (vv. 12-18)." },
+    { x:0.55, type:"person", label:"Twins struggle in Rebekah's womb", av:"woman",
+      desc:"Rebekah, pregnant after twenty barren years, is told 'two nations are in your womb... the older shall serve the younger' (vv. 21-23)." },
+    { x:0.72, type:"person", label:"Esau and Jacob born", av:"youth",
+      desc:"Esau comes out first, red and hairy; Jacob follows, gripping his brother's heel — the name Jacob meaning 'he grasps the heel' (vv. 24-26)." },
+    { x:0.92, type:"person", label:"A birthright sold for stew", av:"shepherd",
+      desc:"Famished from hunting, Esau trades his birthright to Jacob for bread and red lentil stew, and 'Esau despised his birthright' (vv. 29-34)." }
+  ],
+  environment: {
+    chips: ["A patriarch's long life ends", "Two half-brothers bury their father together", "A promise's second fulfillment (Ishmael)", "Rival twins from conception", "A birthright traded for a meal"],
+    text: "The chapter compresses an entire generation — Abraham's peaceful death, Ishmael's separate but blessed line, and the birth of rival twins whose struggle in the womb previews Israel and Edom's later national rivalry. Esau's contempt for his birthright, tossed away for a single meal, becomes a byword for trading lasting worth for momentary appetite (Heb 12:16)."
+  },
+  objectsExtra: ["birthright", "red-stew"],
+  peopleExtra: ["keturah", "esau", "ishmaels-sons"],
+  culture: [
+    { title:"The firstborn's birthright", icon:"👑",
+      text:"A firstborn son's birthright typically meant a double inheritance share and family leadership upon the father's death — a substantial, lasting legal privilege that made Esau's willingness to trade it for one meal proverbial for shortsightedness (Heb 12:16-17)." },
+    { title:"Two nations in one womb", icon:"🌍",
+      text:"God's oracle to Rebekah (v. 23) is read as founding not just a personal rivalry but the later national relationship between Israel (through Jacob) and Edom (through Esau), a tension threading through later prophetic literature (Obadiah, Malachi 1:2-3)." },
+    { title:"Two brothers, one burial", icon:"⚰️",
+      text:"Isaac and Ishmael burying Abraham together (v. 9), despite their family's earlier rupture, is a quiet note of reconciliation the text does not dwell on but does not omit either." }
+  ],
+  crossRefs: [
+    { group:"The rivalry Rebekah is told about", refs:[
+      { r:"Romans 9:10-13", note:"Paul cites 'the older will serve the younger' to argue God's purpose in election" },
+      { r:"Malachi 1:2-3", note:"'Jacob I loved, but Esau I hated' — the same rivalry read nationally" },
+      { r:"Obadiah 1:10-14", note:"Edom's later betrayal of Israel, rooted in this brotherly split" } ]},
+    { group:"The birthright's later weight", refs:[
+      { r:"Genesis 27:36", note:"Esau's own words: Jacob has taken both his birthright and his blessing" },
+      { r:"Hebrews 12:16-17", note:"Esau held up as a warning against trading lasting worth for momentary appetite" },
+      { r:"1 Chronicles 5:1-2", note:"the birthright later formally transferred away from Reuben to Joseph's sons" } ]}
+  ]
+},
+
+/* ===== GENESIS 26 — Isaac at Gerar: famine, deception, and a well-covenant ===== */
+"1:26": {
+  era: {
+    title: "ca. 2000 BC — Isaac in Gerar: a repeated deception, a repeated covenant",
+    sub: "Middle Bronze Age · famine drives Isaac to Gerar · his father's sister-lie repeated · wells re-dug, then a covenant sworn",
+    badges: ["Middle Bronze Age", "The promise reaffirmed to Isaac", "History nearly repeats itself", "Wells contested, then a peace"]
+  },
+  timeOfDay: "day",
+  summary: "A famine sends Isaac toward Gerar, where the LORD appears and tells him not to go down to Egypt but to stay in the land, renewing to him the same covenant sworn to Abraham (vv. 1-5). At Gerar, Isaac, echoing his father, calls Rebekah his sister, until Abimelech spots them together and rebukes him for the near-disastrous deception (vv. 6-11). Isaac sows crops and prospers greatly, growing so powerful that the Philistines envy him and Abimelech asks him to leave; the Philistines had stopped up all his father's wells (vv. 12-16). Isaac re-digs his father's wells and digs new ones, naming them after disputes with local herdsmen — Esek and Sitnah — until he digs Rehoboth without contention, and then moves to Beersheba where God again confirms the covenant (vv. 17-25). Abimelech, Ahuzzath, and Phicol come to Isaac seeking a treaty as they once did with Abraham; a covenant oath is sworn, a well is found that same day, and the place is again called Beersheba (vv. 26-33). The chapter closes noting Esau's marriages to two Hittite women, a grief to Isaac and Rebekah (vv. 34-35).",
+  focusPlace: "gerar",
+  places: [
+    { id:"gerar", role:"Where Isaac sojourns during the famine, repeats his father's sister-lie, and prospers until the Philistines envy him (vv. 1, 6, 12-16)" },
+    { id:"beersheba", role:"Where Isaac moves after the well disputes and where God again confirms the covenant and Abimelech's treaty is renewed (vv. 23-33)" }
+  ],
+  journey: [
+    { from:"gerar", to:"beersheba", label:"Isaac withdraws after well disputes", km:35,
+      note:"Pushed out by envious Philistines over well after well, Isaac moves on to Beersheba, where the covenant is renewed without conflict (vv. 22-23)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"God renews the covenant to Isaac", av:"shepherd",
+      desc:"Told not to go to Egypt during the famine, Isaac hears the same promise given to Abraham — land, offspring, and blessing to all nations — repeated to him directly (vv. 2-5)." },
+    { x:0.22, type:"person", label:"'She is my sister' — Isaac repeats it", av:"shepherd",
+      desc:"Isaac calls Rebekah his sister at Gerar just as Abraham once did, until Abimelech catches them together and rebukes him (vv. 7-11)." },
+    { x:0.40, type:"object", label:"Isaac sows, and reaps a hundredfold",
+      desc:"Isaac plants crops in famine-stricken land and reaps a hundredfold that year, growing so rich the Philistines envy and expel him (vv. 12-16)." },
+    { x:0.58, type:"object", label:"Wells re-dug: Esek and Sitnah",
+      desc:"Isaac re-opens his father's stopped-up wells and digs new ones, naming two after the disputes they caused — Esek ('contention') and Sitnah ('enmity') (vv. 18-21)." },
+    { x:0.74, type:"object", label:"Rehoboth — 'room at last'",
+      desc:"A third well brings no quarrel, and Isaac names it Rehoboth: 'the LORD has made room for us' (v. 22)." },
+    { x:0.90, type:"person", label:"A second covenant sworn at Beersheba", av:"king",
+      desc:"Abimelech, Ahuzzath, and Phicol come seeking peace with Isaac as they once did with Abraham; an oath is sworn and a well found that same day (vv. 26-33)." }
+  ],
+  environment: {
+    chips: ["Famine forces a move", "A father's lie, repeated by his son", "Prosperity that breeds envy", "Wells as the real currency of the land", "'Room at last' after contention", "A covenant echoing Abraham's own"],
+    text: "Water rights in the arid Negev fringe determined whether a herding family could survive at all, which is why Isaac's re-digging of his father's wells and the naming of each — Esek, Sitnah, Rehoboth — reads almost as a small chronicle of the era's real economic conflicts. The chapter deliberately mirrors chapter 20 point for point, letting readers watch Isaac step, almost helplessly, into his father's exact pattern before finding his own peace."
+  },
+  objectsExtra: ["well"],
+  peopleExtra: [],
+  culture: [
+    { title:"A son repeats his father's sin", icon:"🪞",
+      text:"Isaac's sister-lie at Gerar (vv. 7-11) deliberately echoes Abraham's own deceptions (Gen 12, 20), suggesting inherited patterns of fear passed down within a family rather than an isolated lapse." },
+    { title:"Well names as a small history", icon:"💧",
+      text:"Esek ('contention'), Sitnah ('enmity' or 'accusation'), and Rehoboth ('room' or 'broad places') function almost like a diary entry, marking the emotional cost of each dispute before finally naming relief when it came." },
+    { title:"Prosperity and displacement", icon:"🌾",
+      text:"Isaac's hundredfold harvest during a famine (v. 12) reads as an unmistakable sign of divine blessing, yet that same blessing is precisely what makes the Philistines anxious enough to expel him — blessing and conflict arriving together." }
+  ],
+  crossRefs: [
+    { group:"The covenant renewed generation to generation", refs:[
+      { r:"Genesis 12:1-3", note:"the original promise to Abraham, now repeated almost verbatim to Isaac" },
+      { r:"Genesis 22:16-18", note:"the oath sworn on Moriah, echoed again here (v. 3-5)" },
+      { r:"Genesis 28:13-15", note:"the same covenant renewed a third time, to Jacob at Bethel" } ]},
+    { group:"Like father, like son", refs:[
+      { r:"Genesis 12:10-20", note:"Abraham's first sister-lie, in Egypt" },
+      { r:"Genesis 20:1-18", note:"Abraham's second sister-lie, at this same Gerar" },
+      { r:"Galatians 6:7", note:"'whatever one sows, that will he also reap' — a principle this chapter's harvest and family patterns both illustrate" } ]}
+  ]
+},
+
+/* ===== GENESIS 27 — Jacob steals Isaac's blessing ===== */
+"1:27": {
+  era: {
+    title: "ca. 1930 BC — Jacob deceives blind Isaac and steals Esau's blessing",
+    sub: "Middle Bronze Age · Isaac's failing eyes · Rebekah's scheme · goatskins, savory food, and a blessing that cannot be recalled",
+    badges: ["Middle Bronze Age", "A father's blessing, once given, unbreakable", "Rebekah and Jacob's deception", "Esau's bitter cry"]
+  },
+  timeOfDay: "day",
+  summary: "Old and nearly blind, Isaac calls Esau, his favored son, to hunt game and prepare a savory meal so he can bless him before he dies (vv. 1-4). Rebekah overhears and instructs Jacob to bring two young goats so she can cook Isaac's favorite dish; Jacob worries his smooth skin will expose the trick, but Rebekah dresses him in Esau's clothes and covers his hands and neck with the goatskins (vv. 5-17). Jacob brings the food to Isaac, claiming to be Esau; Isaac, suspicious of the quick success but reassured by the clothes' smell and the skins' feel, blesses Jacob with the dew of heaven, the fatness of the earth, and rule over his brothers (vv. 18-29). Esau returns moments later with his own game, and both he and Isaac tremble violently on discovering the deception; Esau begs for a blessing too and receives a lesser one, promising he will serve his brother but eventually break free (vv. 30-40). Esau vows to kill Jacob once Isaac dies, so Rebekah sends Jacob away to her brother Laban in Haran, telling Isaac it is to find a proper wife (vv. 41-46).",
+  focusPlace: "beersheba",
+  places: [
+    { id:"beersheba", role:"The likely setting of Isaac's household in his old age, from which Jacob is sent north to Haran (implied continuity; cf. Gen 28:10)" },
+    { id:"haran", role:"Where Rebekah sends Jacob to escape Esau's fury and to find a wife from her own family (vv. 43-45)" }
+  ],
+  journey: [
+    { from:"beersheba", to:"haran", label:"Jacob flees north", km:800,
+      note:"Rebekah sends Jacob to her brother Laban in Haran, both to escape Esau's vow of vengeance and to secure a wife of the family's own line (vv. 43-45)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Isaac calls for Esau's savory food", av:"elder",
+      desc:"Blind and feeling near death, Isaac asks his favored son Esau to hunt game and prepare a meal so he can give his blessing (vv. 1-4)." },
+    { x:0.22, type:"person", label:"Rebekah's scheme, and Jacob's fear", av:"woman",
+      desc:"Overhearing, Rebekah tells Jacob to bring two goats for her to cook; Jacob fears being caught as 'a smooth man' among Esau's hairy skin (vv. 5-12)." },
+    { x:0.40, type:"object", label:"Goatskins and borrowed clothes",
+      desc:"Rebekah dresses Jacob in Esau's garments and covers his hands and neck with goatskins to fool Isaac's touch and smell (vv. 15-17)." },
+    { x:0.58, type:"person", label:"'The voice is Jacob's, but the hands are Esau's'", av:"elder",
+      desc:"Isaac, suspicious but persuaded by touch and smell, blesses Jacob with dew, grain, wine, and dominion over his brothers (vv. 21-29)." },
+    { x:0.76, type:"person", label:"Esau's bitter, exceedingly great cry", av:"shepherd",
+      desc:"Esau returns to find the blessing already given; he and Isaac tremble, and Esau cries out for a blessing of his own, receiving a lesser one (vv. 30-40)." },
+    { x:0.92, type:"person", label:"Jacob sent away to Haran", av:"shepherd",
+      desc:"Fearing Esau's vow to kill Jacob after Isaac's death, Rebekah arranges to send Jacob to her brother Laban, framing it as a marriage errand (vv. 41-46)." }
+  ],
+  environment: {
+    chips: ["A father's failing sight exploited", "A mother's favoritism in action", "Goatskins as disguise", "A blessing, once spoken, irreversible", "A brother's rage, barely restrained", "An escape disguised as an errand"],
+    text: "In the ancient world a spoken deathbed blessing carried binding legal and social weight roughly equivalent to a will, which is exactly why Isaac cannot simply take it back once he realizes the deception — the words themselves, not just the intention behind them, were understood to effect the outcome. The episode leaves every character morally compromised: Isaac's favoritism, Rebekah's scheming, Jacob's lie, and Esau's own earlier contempt for his birthright all converge in one irreversible afternoon."
+  },
+  objectsExtra: ["savory-food", "skins-garment"],
+  peopleExtra: [],
+  culture: [
+    { title:"A blessing as binding as a will", icon:"📜",
+      text:"Ancient deathbed blessings functioned as legally and socially binding declarations, not mere well-wishes — once spoken over the wrong son, Isaac treats it as irrevocable (v. 33), which is precisely why Esau's grief is so total." },
+    { title:"Parental favoritism repeating a pattern", icon:"👪",
+      text:"Isaac's preference for Esau and Rebekah's for Jacob (Gen 25:28) directly enables this chapter's deception, and the same family favoritism will resurface destructively in Jacob's own household toward Joseph (Gen 37:3-4)." },
+    { title:"Jacob's methods, and later reckoning", icon:"⚖️",
+      text:"Jacob's deception here is later mirrored back on him when Laban substitutes Leah for Rachel on his wedding night (Gen 29:23-25) — a literary and moral turn many readers see as deliberate poetic justice." }
+  ],
+  crossRefs: [
+    { group:"The blessing's later consequences", refs:[
+      { r:"Genesis 28:1-5", note:"Isaac blesses Jacob again openly before sending him to Laban" },
+      { r:"Hebrews 11:20", note:"Isaac's blessing of Jacob and Esau counted as an act of faith 'even regarding things to come'" },
+      { r:"Hebrews 12:16-17", note:"Esau's loss of blessing recalled as a warning against traded birthrights" } ]},
+    { group:"Deception repaid in kind", refs:[
+      { r:"Genesis 29:21-25", note:"Laban deceives Jacob on his wedding night, echoing Jacob's own trick here" },
+      { r:"Genesis 37:31-33", note:"Jacob's own sons later deceive him with Joseph's bloodied coat" },
+      { r:"Galatians 6:7", note:"'whatever a man sows, that he will also reap' — a principle the whole Jacob cycle illustrates" } ]}
+  ]
+},
+
+/* ===== GENESIS 28 — Jacob's Ladder at Bethel ===== */
+"1:28": {
+  era: { title: "Jacob flees Canaan, c. mid-2nd millennium BC", sub: "Fleeing Esau's anger toward Haran · a night stop becomes a vision of heaven opened",
+    badges: ["Patriarchal age", "A fugitive with a stone pillow", "Covenant renewed to the third generation"] },
+  timeOfDay: "night",
+  summary: "Isaac sends Jacob away to Paddan-aram to find a wife among Laban's daughters, warning him against Canaanite women, and blesses him with Abraham's covenant before he leaves; Esau, noting his parents' disapproval of Canaanite wives, marries a daughter of Ishmael as well (vv. 1-9). On the road, Jacob stops for the night at an unnamed place, using a stone for a pillow, and dreams of a stairway set on the earth with its top reaching heaven, angels ascending and descending on it, and the LORD standing above it. The LORD renews to Jacob the promises given to Abraham and Isaac — land, offspring like the dust of the earth, blessing to all families, and God's own presence and protection until he brings Jacob back (vv. 10-15). Jacob wakes in awe, declares 'surely the LORD is in this place, and I did not know it,' sets up his stone pillow as a pillar, anoints it with oil, renames the place Bethel ('house of God'), and vows that if God brings him home safely, the LORD will be his God and he will give a tenth of everything back (vv. 16-22).",
+  focusPlace: "bethel",
+  places: [
+    { id:"bethel", role:"Where Jacob stops for the night, dreams of the stairway to heaven, and sets up his pillow-stone as a pillar (vv. 11-19)" },
+    { id:"haran", role:"Jacob's destination, his mother Rebekah's homeland and Laban's household (vv. 2, 10)" }
+  ],
+  journey: [
+    { from:"hebron", to:"bethel", label:"First leg of Jacob's flight north", km:75, note:"Jacob leaves his father's household at Hebron/Beersheba country and heads toward Haran, stopping the first night at Bethel." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Isaac sends Jacob off", av:"elder", desc:"Isaac blesses Jacob with 'the blessing of Abraham' and sends him to Paddan-aram to marry within the family (vv. 1-5)." },
+    { x:0.30, type:"person", label:"Esau marries a daughter of Ishmael", av:"shepherd", desc:"Seeing his Canaanite wives displease his parents, Esau adds Ishmael's daughter Mahalath to his household (vv. 6-9)." },
+    { x:0.50, type:"object", label:"The stone pillow", desc:"Jacob takes a stone of that place, puts it under his head, and lies down to sleep (v. 11)." },
+    { x:0.65, type:"object", label:"The stairway to heaven", desc:"A stairway set on the earth reaching to heaven, with angels ascending and descending on it, and the LORD standing above (vv. 12-13)." },
+    { x:0.80, type:"person", label:"The covenant renewed", av:"elder", desc:"The LORD repeats Abraham's promises to Jacob directly — land, offspring, blessing, and a pledge of presence (vv. 13-15)." },
+    { x:0.95, type:"object", label:"Bethel's pillar and the tithe vow", desc:"Jacob sets up his stone as a pillar, names the place Bethel, and vows a tenth of all God gives him (vv. 18-22)." }
+  ],
+  environment: {
+    chips: ["A lone traveler's camp, not a city", "Stone for a pillow", "Angels on a stairway", "Covenant renewed in a dream", "Oil poured on stone", "A vow, not yet a temple"],
+    text: "Bethel here is no more than open highland ground beside the road from Hebron to Haran — no altar, no shrine, just a good flat stone and a spot to sleep. Jacob's vision transforms an ordinary night's stop into 'the gate of heaven,' and his single stone becomes the seed of the sanctuary later generations would build on this same site."
+  },
+  objectsExtra: ["jacobs-ladder", "jacobs-pillar-stone"],
+  peopleExtra: [],
+  culture: [
+    { title:"A fugitive receiving Abraham's blessing", icon:"🪜",
+      text:"Jacob leaves home not in triumph but in flight from a brother's murderous anger, yet it is precisely here — alone, poor, and afraid — that God confirms to him the covenant given to Abraham and Isaac. The blessing follows the chosen line regardless of the recipient's circumstances." },
+    { title:"Bethel as sacred geography", icon:"🏛️",
+      text:"Bethel becomes one of Israel's most significant worship sites, visited again by Jacob in Genesis 35 and later host to a rival royal shrine under Jeroboam (1 Kings 12:29) — a use of the site the prophets condemn as a corruption of what began here as a spontaneous vow." },
+    { title:"Vow-making in the ancient world", icon:"🤝",
+      text:"Jacob's conditional vow ('if God will be with me... then the LORD shall be my God') reflects a common ancient Near Eastern pattern of bargaining with deity for protection on a journey, though Genesis frames it as the beginning of Jacob's own, still-developing faith rather than mere transaction." }
+  ],
+  crossRefs: [
+    { group:"The stairway remembered", refs:[
+      { r:"John 1:51", note:"Jesus tells Nathanael he will see heaven opened and angels ascending/descending on the Son of Man" },
+      { r:"Genesis 35:1-15", note:"Jacob returns to Bethel and renews the vow" },
+      { r:"Hosea 12:4", note:"recalls Jacob meeting God at Bethel" } ]},
+    { group:"The covenant handed down", refs:[
+      { r:"Genesis 12:1-3", note:"the same promises first given to Abraham" },
+      { r:"Genesis 26:2-5", note:"renewed to Isaac" },
+      { r:"Genesis 35:9-12", note:"confirmed again to Jacob at Bethel" } ]}
+  ]
+},
+
+/* ===== GENESIS 29 — Jacob Serves Laban, Tricked into Two Marriages ===== */
+"1:29": {
+  era: { title: "Jacob arrives in Haran, c. mid-2nd millennium BC", sub: "A well, a kiss, and a wedding-night deception · seven years of labor doubled to fourteen",
+    badges: ["Patriarchal age", "Laban's household", "Love, trickery, and rival sisters"] },
+  timeOfDay: "day",
+  summary: "Jacob arrives at a well near Haran, rolls the stone away to water Rachel's flock, and, learning she is Laban's daughter, kisses her and weeps aloud; Laban welcomes him and he stays a month, then agrees to serve seven years for Rachel, 'the younger and more beautiful,' years that seem to him but a few days (vv. 1-20). On the wedding night Laban substitutes Leah, the older, weaker-eyed daughter, and Jacob only discovers the trick the next morning; Laban's excuse is local custom — the younger cannot marry before the firstborn — but offers Rachel too after a bridal week, for another seven years of service, plus each daughter a maidservant, Zilpah for Leah and Bilhah for Rachel (vv. 21-30). Seeing Leah unloved, the LORD opens her womb while Rachel remains barren; Leah bears Reuben, Simeon, Levi, and Judah in succession, naming each son to express her hope that her husband's love would follow (vv. 31-35).",
+  focusPlace: "haran",
+  places: [
+    { id:"bethel", role:"Where Jacob's ladder vision took place before he continued on to Haran (Gen 28)" },
+    { id:"haran", role:"Laban's home city, site of the well, Jacob's arrival, and both weddings (vv. 1-30)" }
+  ],
+  journey: [
+    { from:"bethel", to:"haran", label:"Jacob completes his flight to Paddan-aram", km:640, note:"Jacob travels on from his Bethel vision to Laban's household, where he will spend the next twenty years." }
+  ],
+  hotspots: [
+    { x:0.08, type:"object", label:"The well and its stone", desc:"Shepherds wait for all the flocks to gather before rolling the great stone from the well's mouth; Jacob alone rolls it away for Rachel (vv. 2-10)." },
+    { x:0.22, type:"person", label:"Jacob meets Rachel", av:"woman", desc:"Jacob waters her flock, kisses her, and weeps aloud on learning she is his kinswoman (vv. 10-12)." },
+    { x:0.40, type:"person", label:"Seven years 'like a few days'", av:"shepherd", desc:"Jacob agrees to serve Laban seven years for Rachel, and the text notes his love made the years feel short (vv. 18-20)." },
+    { x:0.58, type:"person", label:"The wedding-night substitution", av:"woman", desc:"Laban brings Leah instead of Rachel under cover of darkness and feasting; Jacob does not discover it until morning (vv. 21-25)." },
+    { x:0.75, type:"person", label:"Rachel given after a bridal week", av:"elder", desc:"Laban defends the switch by custom, then gives Rachel too for a second seven years' labor (vv. 26-30)." },
+    { x:0.92, type:"person", label:"Leah's four sons", av:"woman", desc:"Unloved but fertile, Leah bears Reuben, Simeon, Levi, and Judah, naming each for her hope of Jacob's affection (vv. 31-35)." }
+  ],
+  environment: {
+    chips: ["A shepherds' well outside the city", "Custom trumps promise", "Two sisters, one husband", "Bride-service, not bride-price", "Naming as prayer", "The deceiver deceived"],
+    text: "Haran's countryside is watering-hole and pastureland, not palace — shepherds gather flocks at a communal well until the whole company can move the covering stone together. The deceptions inside Laban's household mirror, almost exactly, the deception Jacob himself worked on Isaac and Esau — the trickster now finds himself tricked by a craftier uncle."
+  },
+  objectsExtra: [],
+  peopleExtra: ["rachel", "leah", "bilhah", "zilpah", "reuben", "simeon", "levi", "judah"],
+  culture: [
+    { title:"Bride-service in the ancient Near East", icon:"🐑",
+      text:"Rather than paying a bride-price outright, Jacob works seven years for each wife — an arrangement attested elsewhere in the ancient Near East for a man without property of his own, though Laban's demand for two full terms is exploitative even by that standard." },
+    { title:"The younger-before-elder reversal", icon:"🔄",
+      text:"Laban's excuse — 'it is not so done in our place, to give the younger before the firstborn' — pointedly echoes back on Jacob, who took his own older brother's blessing; the deceiver is deceived by the very principle he had overturned at home." },
+    { title:"Naming children as testimony", icon:"📛",
+      text:"Leah's son-names (Reuben 'see, a son'; Simeon 'heard'; Levi 'attached'; Judah 'praise') trace her emotional arc from seeking Jacob's love to finally simply praising God — a pattern of naming-as-prayer common throughout Genesis." }
+  ],
+  crossRefs: [
+    { group:"Wells as meeting places", refs:[
+      { r:"Genesis 24:11-27", note:"Rebekah met at a well in the same way" },
+      { r:"Exodus 2:15-21", note:"Moses meets Zipporah at a well in Midian" },
+      { r:"John 4:6-7", note:"Jesus meets the Samaritan woman at Jacob's own well" } ]},
+    { group:"Jacob's deception returned", refs:[
+      { r:"Genesis 27:18-29", note:"Jacob's own deceit of Isaac and Esau" },
+      { r:"Genesis 31:7", note:"Jacob later accuses Laban of repeated deception" },
+      { r:"Galatians 6:7", note:"a man reaps what he sows" } ]}
+  ]
+},
+
+/* ===== GENESIS 30 — The Birth of Jacob's Sons and His Flock Scheme ===== */
+"1:30": {
+  era: { title: "Jacob's household grows in Haran, c. mid-2nd millennium BC", sub: "A rivalry between sisters plays out through sons · Jacob's wages become his own flocks",
+    badges: ["Patriarchal age", "Sibling rivalry over motherhood", "Selective breeding and shrewd bargaining"] },
+  timeOfDay: "day",
+  summary: "Envious of Leah's fertility, Rachel gives Jacob her maid Bilhah, who bears Dan and Naphtali; Leah, no longer bearing, gives her maid Zilpah, who bears Gad and Asher (vv. 1-13). A mandrake trade between the sisters — Leah's son Reuben's find, swapped for a night with Jacob — leads to Leah bearing Issachar, Zebulun, and a daughter, Dinah, before God finally remembers Rachel, who bears Joseph (vv. 14-24). With his large family, Jacob asks Laban to let him return home, but Laban, having prospered because of him, persuades him to stay for wages: all the speckled, spotted, and dark sheep and goats going forward will be Jacob's (vv. 25-34). Laban immediately removes such animals to sons three days away, but Jacob uses peeled rods at the watering troughs to influence the breeding, growing exceedingly strong flocks for himself and leaving Laban the weaker ones (vv. 35-43).",
+  focusPlace: "haran",
+  places: [
+    { id:"haran", role:"Where Jacob's household grows and his wage-negotiation with Laban plays out (vv. 1-43)" },
+    { id:"hebron", role:"Isaac's household back in Canaan, the home Jacob asks to return to (v. 25)" }
+  ],
+  journey: [
+    { from:"haran", to:"hebron", dashed:true, label:"The homeward pull, not yet acted on", km:640,
+      note:"Jacob asks to leave for 'my own home and country' (v. 25) — the same Canaan homeland he will not actually reach until two more chapters pass." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Bilhah bears Dan and Naphtali", av:"woman", desc:"Rachel gives her maid to Jacob 'that she may bear on my knees,' and Bilhah bears two sons (vv. 3-8)." },
+    { x:0.25, type:"person", label:"Zilpah bears Gad and Asher", av:"woman", desc:"Leah, having stopped bearing, gives Zilpah, who bears two more sons for Leah's household (vv. 9-13)." },
+    { x:0.40, type:"object", label:"Reuben's mandrakes", desc:"Reuben finds mandrakes in the field; Leah trades them to Rachel for a night with Jacob, resulting in Issachar's birth (vv. 14-18)." },
+    { x:0.55, type:"person", label:"Leah's final children", av:"woman", desc:"Leah bears Zebulun and then a daughter, Dinah (vv. 19-21)." },
+    { x:0.70, type:"person", label:"Rachel bears Joseph", av:"woman", desc:"'God remembered Rachel... and opened her womb,' and she bears Joseph, praying for 'another son' (vv. 22-24)." },
+    { x:0.90, type:"object", label:"The peeled rods at the troughs", desc:"Jacob sets striped rods before the flocks at breeding time, producing streaked and spotted young that become his own wages (vv. 37-42)." }
+  ],
+  environment: {
+    chips: ["A household of rival wives", "Two maidservants added as mothers", "Mandrakes as a bargaining chip", "Eleven sons by chapter's end", "Watering troughs as a breeding ground", "Shrewdness matching shrewdness"],
+    text: "The setting stays Laban's pastureland around Haran, but the real drama is domestic — two sisters competing for status through childbearing, their maids drawn into the contest, and Jacob himself now applying to livestock the same cunning once used to win a blessing, turning ordinary watering troughs into the site of his rising fortune."
+  },
+  objectsExtra: ["striped-rods"],
+  peopleExtra: ["dan", "naphtali", "gad-son-jacob", "asher", "issachar", "zebulun", "dinah", "joseph-ot"],
+  culture: [
+    { title:"Surrogate motherhood through maids", icon:"👶",
+      text:"Giving a maidservant to a husband to bear children 'on the wife's knees' — legally counted as the wife's own — was an accepted ancient practice for infertility, seen earlier with Sarah and Hagar (Gen 16); here it escalates a rivalry rather than resolving one." },
+    { title:"Mandrakes and fertility folklore", icon:"🌱",
+      text:"Mandrakes were widely believed in the ancient world to promote conception and were prized as a folk aphrodisiac; the sisters' trade over them shows how desperately both wanted more standing through motherhood, even while Rachel remained the more loved wife." },
+    { title:"Selective breeding, ancient style", icon:"🐐",
+      text:"Jacob's rod trick reflects a real (if not fully understood) ancient breeding technique combined, in the narrative's own framing, with divine favor (Gen 31:9-12) — Jacob later credits God, not folk magic, for his flocks' growth." }
+  ],
+  crossRefs: [
+    { group:"The twelve tribes taking shape", refs:[
+      { r:"Genesis 35:23-26", note:"the full roster of Jacob's twelve sons by mother" },
+      { r:"Genesis 49:1-28", note:"Jacob's deathbed blessings on each son" },
+      { r:"Exodus 1:1-5", note:"the sons who go down into Egypt" } ]},
+    { group:"Barrenness reversed by God", refs:[
+      { r:"Genesis 25:21", note:"Rebekah's own barrenness reversed by prayer" },
+      { r:"1 Samuel 1:19-20", note:"Hannah's barrenness reversed, echoing Rachel's" },
+      { r:"Genesis 31:9", note:"Jacob credits God, not craft, for his flocks" } ]}
+  ]
+},
+
+/* ===== GENESIS 31 — Jacob Flees Laban and the Covenant at Gilead ===== */
+"1:31": {
+  era: { title: "Jacob's flight from Haran, c. mid-2nd millennium BC", sub: "Twenty years of service end in flight · a chase, a search for stolen gods, a covenant of stones",
+    badges: ["Patriarchal age", "Twenty years' service ended", "Household gods and a parting covenant"] },
+  timeOfDay: "day",
+  summary: "Sensing Laban's sons' resentment and God's own command to return home, Jacob secretly leaves Haran with his wives, children, and flocks while Laban is away shearing sheep; Rachel steals her father's household gods (teraphim) without Jacob's knowledge (vv. 1-21). Laban pursues for seven days and overtakes Jacob in the hill country of Gilead, but God warns him in a dream not to harm Jacob; Laban instead confronts him over the flight and the missing gods, searching every tent but not finding them, since Rachel has hidden them and sits on them, claiming to be indisposed (vv. 22-35). Jacob angrily recounts his twenty years of faithful, unrewarded labor and Laban's repeated wage-changing, and the two make a covenant, raising a stone pillar and heap called Galeed/Mizpah as witness that neither will cross it to harm the other; Laban blesses his daughters and grandchildren and departs, while Jacob continues toward Canaan (vv. 36-55).",
+  focusPlace: "gilead-heights",
+  places: [
+    { id:"gilead-heights", role:"Where Laban overtakes Jacob and the two strike their parting covenant of stones (vv. 21-25, 44-49)" },
+    { id:"haran", role:"The household Jacob and his family secretly flee from (vv. 17-21)" }
+  ],
+  journey: [
+    { from:"haran", to:"gilead-heights", label:"Jacob's flight and Laban's pursuit", km:560, note:"Jacob flees with his whole household while Laban is away shearing; Laban pursues seven days and catches him in Gilead's hill country." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Jacob's secret departure", av:"shepherd", desc:"Jacob slips away with his family and flocks while Laban is shearing sheep three days off (vv. 17-21)." },
+    { x:0.20, type:"object", label:"Rachel steals the household gods", desc:"Rachel takes her father's teraphim without telling Jacob, for reasons the text leaves unexplained (v. 19)." },
+    { x:0.40, type:"person", label:"God warns Laban in a dream", av:"elder", desc:"'Take care that you say nothing to Jacob, either good or bad' — God restrains Laban's anger before he catches up (v. 24)." },
+    { x:0.55, type:"object", label:"The fruitless search for the teraphim", desc:"Laban searches every tent; Rachel hides the idols in her camel's saddle and sits on them, claiming a woman's condition (vv. 33-35)." },
+    { x:0.72, type:"person", label:"Jacob's twenty-years speech", av:"shepherd", desc:"Jacob recounts unpaid labor, changed wages, and God's protection through it all (vv. 36-42)." },
+    { x:0.90, type:"object", label:"The Galeed/Mizpah covenant heap", desc:"Jacob and Laban raise a stone heap and pillar as witness to their non-aggression covenant before parting ways (vv. 44-49)." }
+  ],
+  environment: {
+    chips: ["A furtive night departure", "A father's pursuit across the frontier", "Idols hidden under a saddle", "Twenty years' grievances aired", "A boundary marked in stone", "Two households finally parting"],
+    text: "The chapter moves from Haran's pastures to the rugged Gilead highlands east of the Jordan, the natural border between Aram and Canaan. The stone heap Jacob and Laban raise there functions as an ancient treaty marker — 'the LORD watch between you and me' becomes a boundary oath, not a blessing, sealing the final break between Jacob's family and his uncle's household."
+  },
+  objectsExtra: ["teraphim", "mizpah-heap"],
+  peopleExtra: [],
+  culture: [
+    { title:"Household gods and inheritance rights", icon:"🗿",
+      text:"Teraphim in the ancient Near East were sometimes linked to household inheritance claims or family protection, which may explain why Rachel took them rather than simple sentiment; Laban calls them 'my gods,' underscoring his own household's lingering polytheism even within Abraham's extended family." },
+    { title:"Treaty-making by stone heap", icon:"🪨",
+      text:"Raising a pillar and stone heap as a covenant witness was a recognized ancient Near Eastern treaty custom, functioning much like a boundary marker between two parties who no longer trust spoken word alone — the name 'Mizpah' ('watchtower') becomes proverbial for God's own oversight of parted friends." },
+    { title:"Jacob's grievance as vindication", icon:"⚖️",
+      text:"Jacob's fiery recounting of frost by night and heat by day, changed wages ten times over, and Laban's exploitation reframes the whole Haran narrative: Jacob's prosperity is presented not as trickery but as God's own just recompense for real mistreatment." }
+  ],
+  crossRefs: [
+    { group:"Household idolatry lingers", refs:[
+      { r:"Joshua 24:2, 14-15", note:"Joshua later recalls that the patriarchs' ancestors served other gods beyond the river" },
+      { r:"Genesis 35:2-4", note:"Jacob has his household bury its foreign gods at Bethel" },
+      { r:"Judges 17:5", note:"teraphim reappear in Micah's household shrine" } ]},
+    { group:"Covenants sealed with stones", refs:[
+      { r:"Joshua 4:20-24", note:"twelve stones set up as a covenant memorial at Gilgal" },
+      { r:"Genesis 28:18-22", note:"Jacob's earlier pillar-stone vow at Bethel" },
+      { r:"Genesis 21:27-31", note:"Abraham and Abimelech's earlier well covenant" } ]}
+  ]
+},
+
+/* ===== GENESIS 32 — Wrestling at Peniel ===== */
+"1:32": {
+  era: { title: "Jacob's return to Canaan, c. mid-2nd millennium BC", sub: "Messengers sent ahead to Esau · a night alone at the Jabbok ends in a new name",
+    badges: ["Patriarchal age", "Fear of a wronged brother", "Wrestling with God, renamed Israel"] },
+  timeOfDay: "night",
+  summary: "Jacob sends messengers ahead to Esau in Edom with a conciliatory message, but they return reporting Esau is coming with four hundred men; terrified, Jacob divides his camp into two companies for safety, prays urgently reminding God of his promises, and sends ahead generous droves of livestock as a gift to appease his brother (vv. 1-21). That night, having sent his family across the Jabbok, Jacob is left alone and wrestles with a man until daybreak; unable to overcome Jacob, the man touches his hip socket, putting it out of joint, yet Jacob clings on demanding a blessing. The man renames him Israel — 'for you have striven with God and with men, and have prevailed' — and blesses him there; Jacob names the place Peniel, 'for I have seen God face to face, and yet my life has been delivered,' and limps away from the encounter as the sun rises (vv. 22-32).",
+  focusPlace: "penuel",
+  places: [
+    { id:"penuel", role:"Where Jacob wrestles through the night, is renamed Israel, and limps away at dawn (vv. 24-31)" },
+    { id:"mahanaim", role:"Named just before, when Jacob meets God's angels and calls the place 'two camps' (vv. 1-2)" },
+    { id:"edom", role:"Esau's territory, from which the four hundred men are reported coming (vv. 3, 6)" }
+  ],
+  journey: [
+    { from:"gilead-heights", to:"penuel", label:"Jacob's approach to the Jabbok crossing", km:40, note:"Jacob moves his household and flocks south from Gilead toward the Jabbok ford, sending gifts and messengers ahead to Esau." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Angels meet Jacob at Mahanaim", av:"traveler", desc:"'This is God's camp,' Jacob says, naming the place Mahanaim, 'two camps' (vv. 1-2)." },
+    { x:0.22, type:"person", label:"Messengers report Esau's four hundred men", av:"traveler", desc:"Jacob's fear is described bluntly — 'greatly afraid and distressed' — prompting his defensive split of the camp (vv. 3-8)." },
+    { x:0.38, type:"person", label:"Jacob's prayer of desperation", av:"elder", desc:"Jacob appeals to God's own promises, confessing he is unworthy of the steadfast love already shown him (vv. 9-12)." },
+    { x:0.55, type:"object", label:"The appeasement gift", desc:"Jacob sends droves of goats, sheep, camels, cattle, and donkeys ahead in waves to soften Esau's anger (vv. 13-21)." },
+    { x:0.75, type:"person", label:"The wrestling match", av:"warrior", desc:"A man wrestles Jacob until daybreak, touching his hip socket out of joint when he cannot prevail (vv. 24-25)." },
+    { x:0.92, type:"person", label:"Renamed Israel at Peniel", av:"elder", desc:"'Your name shall no longer be called Jacob, but Israel'; Jacob names the place Peniel, having seen God face to face (vv. 28-30)." }
+  ],
+  environment: {
+    chips: ["Two camps at Mahanaim", "Four hundred men reported approaching", "Waves of livestock sent as tribute", "A solitary night crossing", "A hip put out of joint", "Sunrise on a new name"],
+    text: "The action moves along the Jabbok gorge, a steep tributary valley east of the Jordan, from the open highland camp at Mahanaim down to the ford at Peniel/Penuel. The setting is deliberately isolating — Jacob sends everyone he loves ahead across the stream and is left utterly alone for the encounter that changes both his name and his gait."
+  },
+  objectsExtra: [],
+  peopleExtra: [],
+  culture: [
+    { title:"Who was the wrestler?", icon:"👤",
+      text:"The text calls him simply 'a man,' yet Jacob names the place 'I have seen God face to face,' and Hosea 12:4 identifies him with 'the angel.' Interpreters have long read this as a theophany — God himself, or his messenger, meeting Jacob in physically resistible form on the one night he is most alone and afraid." },
+    { title:"A name change marking a turning point", icon:"📛",
+      text:"Renaming at a decisive moment recurs throughout Genesis (Abram to Abraham, Sarai to Sarah); 'Israel' likely means something like 'God strives' or 'he strives with God,' recasting Jacob's whole life of striving — with brother, father-in-law, and now God himself — as the very meaning of his new identity." },
+    { title:"A wound that becomes a memorial", icon:"🦵",
+      text:"The note that Israelites do not eat the hip's sciatic nerve 'because he touched the socket of Jacob's thigh' (v. 32) preserves in dietary custom a permanent, bodily reminder of the night the nation's ancestor was both wounded and blessed in the same encounter." }
+  ],
+  crossRefs: [
+    { group:"Wrestling with God, echoed later", refs:[
+      { r:"Hosea 12:3-4", note:"recalls Jacob striving with the angel and weeping for favor" },
+      { r:"Genesis 35:10", note:"the Israel name confirmed again at Bethel" },
+      { r:"Exodus 12:22-23", note:"a later, differently-toned night encounter framing Israel's identity" } ]},
+    { group:"Fear of a wronged party, faced head-on", refs:[
+      { r:"Genesis 27:41-45", note:"Esau's original vow to kill Jacob, the source of this fear" },
+      { r:"Genesis 33:1-4", note:"the reunion this chapter's fear anticipates" },
+      { r:"Proverbs 21:14", note:"'a gift in secret averts anger' — the logic behind Jacob's tribute" } ]}
+  ]
+},
+
+/* ===== GENESIS 33 — Reunion with Esau ===== */
+"1:33": {
+  era: { title: "Jacob's reconciliation, c. mid-2nd millennium BC", sub: "Four hundred men approach — and embrace instead of attack · Jacob settles near Shechem",
+    badges: ["Patriarchal age", "A feared reunion turns to embrace", "Settling in Canaan at last"] },
+  timeOfDay: "day",
+  summary: "Still limping from the night before, Jacob arranges his household with the maidservants and their children first, Leah and hers next, and Rachel and Joseph last, then goes ahead bowing seven times as Esau approaches with his four hundred men. Esau runs to meet him, embraces him, falls on his neck, and weeps — the anticipated attack becomes a reunion (vv. 1-4). Esau meets the family and questions the droves sent ahead; Jacob insists he keep the gift, saying seeing Esau's face is like seeing the face of God, now that he has been received favorably (vv. 5-11). Esau offers to travel together or leave some men as escort, but Jacob politely declines both, citing his flocks' and children's slower pace, and the brothers part on good terms, Esau returning to Seir while Jacob turns instead toward Succoth, building a shelter for his livestock, then on to Shechem, where he buys land, pitches his tent, and sets up an altar called El-Elohe-Israel (vv. 12-20).",
+  focusPlace: "shechem",
+  places: [
+    { id:"penuel", role:"Where the previous night's wrestling left Jacob limping into this reunion (v. 1, referring back to ch. 32)" },
+    { id:"edom", role:"Esau's home territory of Seir, to which he returns after the reunion (v. 16)" },
+    { id:"shechem", role:"Where Jacob finally settles, buying land, pitching his tent, and building an altar (vv. 18-20)" }
+  ],
+  journey: [
+    { from:"penuel", to:"shechem", label:"Jacob's route to permanent settlement in Canaan", km:70, note:"After the reunion with Esau, Jacob moves south to Succoth then west into Canaan proper, settling at last near Shechem." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Jacob's careful arrangement of his family", av:"shepherd", desc:"Jacob orders his household by perceived priority — maids and their sons first, Leah's family next, Rachel and Joseph last and safest (vv. 1-2)." },
+    { x:0.25, type:"person", label:"Esau runs to embrace Jacob", av:"shepherd", desc:"Esau runs, embraces, falls on Jacob's neck, and both weep — the feared confrontation dissolves instantly (v. 4)." },
+    { x:0.45, type:"person", label:"Jacob insists Esau keep the gift", av:"elder", desc:"'To see your face is like seeing the face of God, since you have received me favorably' (vv. 8-11)." },
+    { x:0.60, type:"person", label:"Esau's offer of escort declined", av:"shepherd", desc:"Jacob politely turns down travel together, citing the slower pace of children and nursing flocks (vv. 12-15)." },
+    { x:0.78, type:"object", label:"Succoth's shelters", desc:"Jacob builds a house for himself and booths for his livestock, giving the place its name, 'booths' (v. 17)." },
+    { x:0.92, type:"object", label:"The altar at Shechem", desc:"Jacob buys a plot of land from Hamor's sons and builds an altar named El-Elohe-Israel, 'God, the God of Israel' (vv. 18-20)." }
+  ],
+  environment: {
+    chips: ["A feared army becomes a welcome party", "Seven bows before an embrace", "Gifts pressed, then accepted", "A polite parting of ways", "Booths at Succoth", "Land purchased near Shechem"],
+    text: "The chapter moves from the tense approach along the Jabbok to open pastureland near Shechem, in the hill-country pass between Ebal and Gerizim. Jacob's purchase of land here — rather than simple squatting — quietly foreshadows Israel's eventual claim to Canaan through legitimate acquisition, not just conquest."
+  },
+  objectsExtra: [],
+  peopleExtra: [],
+  culture: [
+    { title:"Reconciliation instead of vengeance", icon:"🤗",
+      text:"Esau's run to embrace Jacob — echoing the prodigal son's father centuries of narrative later — subverts every fear Jacob has carried since fleeing home two decades earlier, showing time and estranged distance can dissolve even a vow of murder (Gen 27:41)." },
+    { title:"Diplomatic gift-giving", icon:"🎁",
+      text:"Jacob's insistence Esau accept his tribute, framed as seeing 'the face of God,' reflects ancient Near Eastern protocol where accepting a gift signaled genuine reconciliation, not mere politeness — refusing it would have left the peace in doubt." },
+    { title:"A purchased foothold in the promised land", icon:"🏞️",
+      text:"Jacob's land purchase at Shechem (later confirmed as Joseph's burial site, Joshua 24:32) is one of only a few explicit land purchases by the patriarchs in Canaan, alongside Abraham's cave at Machpelah — small legal footholds within a land not yet possessed." }
+  ],
+  crossRefs: [
+    { group:"Brothers reconciled", refs:[
+      { r:"Genesis 27:41", note:"Esau's original vow to kill Jacob after their father's death" },
+      { r:"Luke 15:20", note:"the father runs to embrace the prodigal, echoing Esau's run here" },
+      { r:"Obadiah 1:10", note:"later prophecy recalls violence between Jacob and Esau's descendants, a contrast to this reconciliation" } ]},
+    { group:"Shechem's later significance", refs:[
+      { r:"Joshua 24:1, 32", note:"Israel's covenant renewal at Shechem; Joseph's bones buried in this purchased plot" },
+      { r:"Genesis 34:1-2", note:"the very next event at this same settlement" },
+      { r:"John 4:5-6", note:"Jacob's well near Sychar, tied to this same ground" } ]}
+  ]
+},
+
+/* ===== GENESIS 34 — Dinah and the Shechemites ===== */
+"1:34": {
+  era: { title: "Violence at Shechem, c. mid-2nd millennium BC", sub: "A prince's crime, a false peace treaty, and a massacre",
+    badges: ["Patriarchal age", "Dinah violated", "Simeon and Levi's vengeance"] },
+  timeOfDay: "day",
+  summary: "Dinah, Jacob and Leah's daughter, goes out to visit the women of the land and is seized and violated by Shechem, son of Hamor the Hivite ruler; yet Shechem's heart is drawn to her, and he asks his father to secure her as a wife (vv. 1-4). Jacob hears but stays silent until his sons return; Hamor proposes intermarriage and free settlement between the two peoples, and Shechem himself offers any bride-price, however great (vv. 5-12). Jacob's sons answer deceitfully, saying they cannot give their sister to an uncircumcised man, but will agree if every male of the city is circumcised; Hamor and Shechem persuade their city to accept the terms (vv. 13-24). On the third day, while the men are still in pain, Simeon and Levi, Dinah's full brothers, attack the city, kill every male including Hamor and Shechem, rescue Dinah, and the rest of Jacob's sons plunder the city, flocks, wealth, women, and children; Jacob rebukes Simeon and Levi for endangering the family among the land's inhabitants, but they justify it: 'should he treat our sister like a prostitute?' (vv. 25-31).",
+  focusPlace: "shechem",
+  places: [
+    { id:"shechem", role:"The city where Dinah is violated and where the entire massacre and plunder take place (vv. 1-29)" },
+    { id:"hebron", role:"Isaac's household and Jacob's wider family base, though the action here stays entirely at Shechem" }
+  ],
+  journey: [
+    { from:"hebron", to:"shechem", dashed:true, label:"Jacob's family, settled just outside the old homestead", km:50,
+      note:"Jacob's household had recently moved from the Hebron region to buy land near Shechem (Gen 33:18-19); this line marks that recent, uneasy proximity to Isaac's household further south." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Dinah goes out among the women", av:"woman", desc:"Dinah visits the local women and is seized and violated by Shechem, the ruler's son (vv. 1-2)." },
+    { x:0.28, type:"person", label:"Shechem seeks marriage", av:"elder", desc:"Despite the crime, Shechem's heart clings to Dinah, and he asks Hamor to arrange the marriage properly (vv. 3-4, 11-12)." },
+    { x:0.45, type:"person", label:"Hamor's offer of intermarriage", av:"elder", desc:"Hamor proposes full intermarriage, land rights, and trade between the two peoples (vv. 8-10)." },
+    { x:0.62, type:"object", label:"The demand for circumcision", desc:"Jacob's sons deceitfully require every Shechemite male circumcised as the price of the alliance (vv. 13-17)." },
+    { x:0.80, type:"person", label:"Simeon and Levi's massacre", av:"warrior", desc:"On the third day, while the men are incapacitated, Simeon and Levi kill every male in the city and take Dinah home (vv. 25-26)." },
+    { x:0.95, type:"person", label:"Jacob's rebuke", av:"elder", desc:"Jacob fears reprisal from the surrounding peoples; his sons reply that their sister's honor demanded it (vv. 30-31)." }
+  ],
+  environment: {
+    chips: ["A visit among strangers turns violent", "A prince genuinely wants marriage", "Circumcision as a deceitful condition", "A city incapacitated by its own bargain", "Brothers acting as sole avengers", "A father's fear of retaliation"],
+    text: "The whole chapter unfolds within and just outside Shechem's walls, the same city where Jacob had just purchased land and built an altar in the previous chapter. What begins as a hopeful step toward peaceful coexistence between Jacob's family and the local Hivites collapses into betrayal and slaughter, souring the family's first real foothold in Canaan."
+  },
+  objectsExtra: [],
+  peopleExtra: ["dinah", "shechem-prince", "hamor"],
+  culture: [
+    { title:"Circumcision weaponized as deceit", icon:"⚔️",
+      text:"Circumcision, the sacred sign of Abraham's covenant (Gen 17), is here cynically repurposed by Jacob's sons as a tactical trap rather than a spiritual sign — a misuse of holy symbol for revenge that the narrative does not excuse even while recording the initial crime against Dinah." },
+    { title:"Honor, shame, and clan justice", icon:"🛡️",
+      text:"In the ancient Near East, a sister's violation was regarded as an offense against the whole family's honor, and brothers — not fathers alone — were often expected to act as her avengers; Simeon and Levi's fury reflects this social code, even as the narrative and Jacob himself question its proportionality." },
+    { title:"A dark shadow over Jacob's blessing", icon:"🌑",
+      text:"Jacob's deathbed words in Genesis 49:5-7 curse Simeon and Levi's anger and scatter their descendants within Israel — this chapter's violence carries consequences that outlast the immediate crisis by generations." }
+  ],
+  crossRefs: [
+    { group:"Consequences at Jacob's deathbed", refs:[
+      { r:"Genesis 49:5-7", note:"Jacob curses Simeon and Levi's violent anger" },
+      { r:"Genesis 35:5", note:"'a terror from God' protects the family as they flee Shechem's region" },
+      { r:"Judges 9:1-6", note:"Shechem later resurfaces violently under Abimelech" } ]},
+    { group:"Covenant sign misused", refs:[
+      { r:"Genesis 17:10-14", note:"circumcision instituted as Abraham's covenant sign" },
+      { r:"Deuteronomy 22:28-29", note:"later law addressing a comparable violation" },
+      { r:"Romans 2:28-29", note:"Paul contrasts outward circumcision with an inward reality" } ]}
+  ]
+},
+
+/* ===== GENESIS 35 — Return to Bethel, Rachel's Death, Isaac's Death ===== */
+"1:35": {
+  era: { title: "Jacob's return to Bethel and family losses, c. mid-2nd millennium BC", sub: "Foreign gods buried, vows renewed · Rachel dies bearing Benjamin, Isaac dies at Hebron",
+    badges: ["Patriarchal age", "Bethel revisited", "Births and deaths mark the family's turn"] },
+  timeOfDay: "day",
+  summary: "God tells Jacob to return to Bethel and build an altar there; Jacob has his household put away their foreign gods, purify themselves, and change clothes, burying the idols and earrings under an oak near Shechem before departing, protected by 'a terror from God' on the surrounding cities (vv. 1-5). At Bethel, Jacob builds his altar, God appears again confirming his new name Israel and repeating the covenant blessings, and Deborah, Rebekah's nurse, dies and is buried nearby (vv. 6-15). Traveling on toward Ephrath (Bethlehem), Rachel dies in hard labor bearing her second son, naming him Ben-oni with her last breath, though Jacob calls him Benjamin; she is buried on the road, and Jacob sets up a pillar over her grave (vv. 16-20). Reuben sleeps with Bilhah, his father's concubine, a wrong that costs him standing; the chapter closes with the roster of Jacob's twelve sons and the death of Isaac at a hundred and eighty, buried by both Jacob and Esau at Hebron (vv. 21-29).",
+  focusPlace: "bethel",
+  places: [
+    { id:"bethel", role:"Where Jacob builds his altar and God confirms the covenant and the name Israel again (vv. 1-15)" },
+    { id:"bethlehem", role:"Near where Rachel dies giving birth to Benjamin and is buried on the road (vv. 16-19)" },
+    { id:"hebron", role:"Where Isaac dies and is buried by both his sons (vv. 27-29)" }
+  ],
+  journey: [
+    { from:"shechem", to:"bethel", label:"Jacob's return to the site of his first vision", km:30, note:"Jacob leads his purified household back to Bethel to fulfill the vow he made twenty years earlier fleeing Esau." },
+    { from:"bethel", to:"bethlehem", label:"The final leg toward Hebron, cut short by tragedy", km:25, note:"Traveling on toward his father's home, Jacob loses Rachel in childbirth just short of Ephrath/Bethlehem." }
+  ],
+  hotspots: [
+    { x:0.08, type:"object", label:"Foreign gods buried under the oak", desc:"Jacob has his household surrender their idols and earrings, burying them near Shechem before the journey to Bethel (vv. 2-4)." },
+    { x:0.25, type:"person", label:"God confirms Israel's covenant again", av:"elder", desc:"At Bethel, God repeats the covenant blessings and Jacob's new name a second time (vv. 9-13)." },
+    { x:0.40, type:"person", label:"Deborah's death", av:"woman", desc:"Rebekah's old nurse dies and is buried under an oak near Bethel, given her own brief memorial (v. 8)." },
+    { x:0.58, type:"person", label:"Rachel dies bearing Benjamin", av:"woman", desc:"In hard labor near Ephrath, Rachel names her son Ben-oni with her dying breath; Jacob renames him Benjamin (vv. 16-19)." },
+    { x:0.75, type:"person", label:"Reuben's sin with Bilhah", av:"youth", desc:"Reuben sleeps with his father's concubine Bilhah, an act Jacob later remembers against him (v. 22)." },
+    { x:0.92, type:"person", label:"Isaac's death at Hebron", av:"elder", desc:"Isaac dies at 180, 'old and full of days,' buried by both Esau and Jacob together (vv. 27-29)." }
+  ],
+  environment: {
+    chips: ["Idols buried before worship renewed", "A covenant confirmed a second time", "A nurse's quiet death noted", "A grave marked on the road to Bethlehem", "A father's dishonor by his firstborn", "Two estranged brothers burying their father together"],
+    text: "The chapter's geography traces Jacob's long-delayed homecoming — Shechem to Bethel to the road toward Ephrath and finally to Hebron, retracing the route he fled twenty years before. Loss threads through every stop: a nurse, a beloved wife, and finally the patriarch Isaac himself, even as the family's covenant identity and twelve-tribe structure are formally completed."
+  },
+  objectsExtra: ["jacobs-pillar-stone"],
+  peopleExtra: ["reuben", "benjamin"],
+  culture: [
+    { title:"Purification before worship", icon:"🧼",
+      text:"Burying foreign gods and changing clothes before approaching Bethel reflects an ancient ritual-purity pattern — outward acts symbolizing an inward turning — that recurs whenever Israel formally recommits to covenant worship (compare Joshua 24:23)." },
+    { title:"Rachel's grave, a lasting landmark", icon:"🪦",
+      text:"The pillar Jacob raises over Rachel's tomb near Bethlehem is remembered centuries later (1 Samuel 10:2; Jeremiah 31:15), becoming one of the few patriarchal-era grave sites whose location tradition consistently preserved." },
+    { title:"The twelve tribes completed", icon:"🔢",
+      text:"With Benjamin's birth, the roster of Jacob's twelve sons — the future twelve tribes of Israel — is complete; the text pauses to list them all by mother (vv. 23-26), formally marking the family's transition from patriarchal household to nascent nation." }
+  ],
+  crossRefs: [
+    { group:"Bethel's covenant confirmed twice", refs:[
+      { r:"Genesis 28:10-19", note:"Jacob's first vision and vow at this same site" },
+      { r:"Genesis 32:28", note:"the name Israel first given at Peniel" },
+      { r:"Hosea 12:4-5", note:"recalls God meeting Jacob 'at Bethel'" } ]},
+    { group:"Rachel and Benjamin remembered later", refs:[
+      { r:"1 Samuel 10:2", note:"Rachel's tomb used as a landmark generations later" },
+      { r:"Jeremiah 31:15", note:"Rachel weeping for her children, applied to exile" },
+      { r:"Matthew 2:18", note:"quoted again over Herod's slaughter of the innocents" } ]}
+  ]
+},
+
+/* ===== GENESIS 36 — Esau's Genealogy and the Kings of Edom ===== */
+"1:36": {
+  era: { title: "The generations of Esau, c. mid-2nd millennium BC and after", sub: "A genealogical chapter tracing Esau's line into a settled nation, Edom",
+    badges: ["Patriarchal age", "A rival nation's family record", "Kings reigning before Israel had any"] },
+  timeOfDay: "day",
+  summary: "The chapter records Esau's wives (Canaanite and Ishmaelite women), his sons, and how he separates from Jacob because their combined livestock is too great for the land to support together, settling in the hill country of Seir — Esau being Edom (vv. 1-8). It then traces Esau's descendants as chiefs and clans in Seir, including through his son Eliphaz and Eliphaz's own sons, one born to the concubine Timna, and lists the Horite clans native to the land before Esau's family displaced or merged with them (vv. 9-30). The chapter closes with a list of the kings who reigned in Edom 'before any king reigned over the Israelites,' one dynasty succeeding another rather than passing by inheritance, followed by a final roster of Edom's chiefs by their settlements (vv. 31-43).",
+  focusPlace: "edom",
+  places: [
+    { id:"hebron", role:"Isaac and Jacob's territory in Canaan, the homeland Esau formally leaves behind (v. 6)" },
+    { id:"edom", role:"The hill country of Seir where Esau settles and his descendants become a nation of chiefs and kings (vv. 8-9, 31-43)" }
+  ],
+  journey: [
+    { from:"hebron", to:"edom", label:"Esau's final separation from Jacob's territory", km:100, note:"Esau moves his household and abundant livestock away from Canaan into the hill country of Seir, since the land could not support both brothers' herds together." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Esau's wives and sons listed", av:"shepherd", desc:"Esau's Canaanite and Ishmaelite wives and their sons are recorded as the root of Edom's clans (vv. 1-5)." },
+    { x:0.28, type:"object", label:"Separation from Jacob", desc:"'Their possessions were too great for them to dwell together,' so Esau moves away from Jacob into Seir (vv. 6-8)." },
+    { x:0.50, type:"person", label:"Eliphaz and Timna's son Amalek", av:"elder", desc:"Esau's son Eliphaz fathers Amalek through the concubine Timna, founding a clan that becomes a recurring enemy of Israel (v. 12)." },
+    { x:0.68, type:"person", label:"The Horite clans of Seir", av:"elder", desc:"The land's earlier inhabitants, the Horites, are listed by clan before or alongside Esau's own settlement there (vv. 20-30)." },
+    { x:0.85, type:"person", label:"The kings who reigned before Israel had any", av:"king", desc:"A succession of Edomite kings is listed, notably not passing father to son, 'before any king reigned over the Israelites' (vv. 31-39)." },
+    { x:0.95, type:"person", label:"Edom's chiefs by settlement", av:"elder", desc:"A final list names Esau's chiefs according to their clans and territories (vv. 40-43)." }
+  ],
+  environment: {
+    chips: ["A genealogy, not a narrative", "Land too small for two brothers' herds", "A nation forming in the shadow of Israel", "Kings before Israel had kings", "Amalek's roots traced here", "Clans settling into fixed territory"],
+    text: "Genesis 36 trades scene and story for record-keeping, cataloguing Edom's rise in the rugged hill country of Seir south of the Dead Sea. Its dry lists carry real weight: Esau's descendants become a full nation with kings generations before Israel has one of its own, and this chapter quietly plants the ancestry of Amalek, a foe who will trouble Israel for centuries."
+  },
+  objectsExtra: [],
+  peopleExtra: [],
+  culture: [
+    { title:"Genealogies as literary hinges", icon:"📜",
+      text:"Genesis regularly closes out a family line with a genealogy before turning fully to the chosen line's story (compare Gen 25:12-18 for Ishmael); Esau's genealogy here performs the same function, clearing the stage before Genesis 37 turns entirely to Jacob's sons and Joseph." },
+    { title:"Edom's early kingship", icon:"👑",
+      text:"The note that Edom had kings 'before any king reigned over the Israelites' has long interested readers as a possible clue to this material's final compilation, since it presupposes an Israelite monarchy already exists by the time the observation is made." },
+    { title:"Amalek's troubling legacy", icon:"⚔️",
+      text:"Amalek, traced here to Esau's grandson through a concubine, becomes one of Israel's fiercest recurring enemies (Exodus 17:8-16; 1 Samuel 15) — a small genealogical note in this chapter carries centuries of later conflict in its wake." }
+  ],
+  crossRefs: [
+    { group:"Edom and Israel's later history", refs:[
+      { r:"Numbers 20:14-21", note:"Edom later refuses Israel passage during the wilderness journey" },
+      { r:"Obadiah 1:1-14", note:"a prophecy of judgment against Edom for violence toward Jacob's descendants" },
+      { r:"Malachi 1:2-3", note:"'Jacob I loved, but Esau I hated' — reflecting on the two nations' diverging paths" } ]},
+    { group:"Amalek's later conflicts with Israel", refs:[
+      { r:"Exodus 17:8-16", note:"Amalek's first attack on Israel in the wilderness" },
+      { r:"1 Samuel 15:1-9", note:"Saul's commanded campaign against Amalek" },
+      { r:"Esther 3:1", note:"Haman the Agagite, traditionally linked to Amalek's line" } ]}
+  ]
+},
+
+/* ===== GENESIS 37 — Joseph's Dreams and His Sale into Slavery ===== */
+"1:37": {
+  era: { title: "Patriarchal age, c. 1900s BC — Joseph sold into Egypt", sub: "Jacob's favoritism, two dreams of rule, and a caravan road to Egypt",
+    badges: ["Patriarchal age", "Favored son, hated brothers", "Sold for twenty pieces of silver"] },
+  timeOfDay: "day",
+  summary: "Jacob's favoritism toward Joseph — visible in the ornamented robe he gives him — breeds deep resentment among his brothers, worsened when Joseph reports two dreams in which his family's sheaves and even sun, moon, and stars bow down to him (vv. 1-11). Sent to check on his brothers pasturing flocks near Shechem, Joseph is redirected to Dothan, where the brothers plot to kill him; Reuben persuades them to throw him into an empty cistern instead, hoping secretly to rescue him later (vv. 12-24). While Reuben is away, Judah proposes selling Joseph to a passing caravan of Ishmaelite/Midianite traders bound for Egypt, and the brothers do so for twenty pieces of silver (vv. 25-28). Reuben returns to find Joseph gone and is distraught; the brothers dip Joseph's robe in goat's blood and present it to Jacob, who concludes his son was torn apart by a wild animal and mourns inconsolably (vv. 29-35). Meanwhile the traders sell Joseph in Egypt to Potiphar, one of Pharaoh's officials (v. 36).",
+  focusPlace: "dothan",
+  places: [
+    { id:"dothan", role:"Where the brothers spot Joseph approaching and plot against him, and where he is sold and lowered into a cistern (vv. 17-28)" },
+    { id:"hebron", role:"Jacob's home, where Joseph is sent out from and where the false report of his death later arrives (vv. 13-14, 32-35)" },
+    { id:"egypt", role:"Where the traders take Joseph and sell him to Potiphar (v. 36)" }
+  ],
+  journey: [
+    { from:"hebron", to:"dothan", label:"Joseph sent to check on his brothers", km:100, note:"Jacob sends Joseph from Hebron to find his brothers, who have moved the flocks on from Shechem to Dothan." },
+    { from:"dothan", to:"egypt", label:"Sold south with the caravan", km:400, note:"Ishmaelite/Midianite traders carry Joseph down into Egypt to sell him as a slave to Potiphar." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"The ornamented robe", desc:"Jacob's gift marks Joseph as favored above his brothers, who 'could not speak peacefully to him' (vv. 3-4)." },
+    { x:0.20, type:"person", label:"Two dreams of rule", av:"youth", desc:"Joseph's dreams of sheaves and of sun, moon, and stars bowing to him provoke hatred from his brothers and a rebuke even from Jacob (vv. 5-11)." },
+    { x:0.42, type:"person", label:"The plot at Dothan", av:"youth", desc:"Seeing Joseph approach, the brothers plan to kill him; Reuben instead urges throwing him into a cistern, meaning to save him later (vv. 18-24)." },
+    { x:0.60, type:"person", label:"Judah's proposal and the sale", av:"youth", desc:"Judah suggests selling Joseph to the passing traders rather than killing him outright; he is sold for twenty pieces of silver (vv. 25-28)." },
+    { x:0.78, type:"object", label:"The blood-dipped robe", desc:"The brothers stage Joseph's death, dipping his robe in goat's blood to deceive Jacob (vv. 31-33)." },
+    { x:0.92, type:"person", label:"Jacob's inconsolable mourning", av:"elder", desc:"Jacob tears his clothes and mourns for many days, refusing comfort, while Joseph is sold again in Egypt to Potiphar (vv. 34-36)." }
+  ],
+  environment: {
+    chips: ["A favored son's robe", "Dreams of bowing sheaves and stars", "A dry cistern at Dothan", "Twenty pieces of silver", "A blood-stained deception", "Egypt, unknowingly, waits"],
+    text: "The chapter moves from the hill country around Hebron and Shechem to the caravan town of Dothan, a stop on the trade route running from Gilead down into Egypt — the very road that lets a family quarrel become an international sale. The brothers' jealousy, sharpened by Joseph's robe and dreams, finds its outlet exactly where trade caravans pass, turning a private grievance into slavery abroad."
+  },
+  objectsExtra: ["coat-of-many-colors"],
+  peopleExtra: ["reuben", "judah", "joseph-ot"],
+  culture: [
+    { title:"The ornamented robe", icon:"🧥",
+      text:"Whatever its exact style ('coat of many colors' or 'long robe with sleeves'), the garment marked Joseph as set apart from working brothers, likely exempting him from manual herding — a visible, provocative sign of Jacob's favoritism echoing his own father's preference for one son over another." },
+    { title:"Dream doublets", icon:"🌾",
+      text:"Joseph's two dreams, of sheaves and of heavenly bodies, both point the same direction and both come true by the story's end (Gen 42:6; 43-44) — a pattern of paired confirming dreams that recurs with Pharaoh's cattle and grain in chapter 41." },
+    { title:"Reuben and Judah's rival plans", icon:"⚖️",
+      text:"Reuben's plan to secretly rescue Joseph and Judah's plan to profit by selling him both avoid outright murder, but for very different reasons — a contrast that anticipates Judah's later moral growth in chapters 38 and 44." }
+  ],
+  crossRefs: [
+    { group:"Joseph's dreams and their fulfillment", refs:[
+      { r:"Genesis 42:6", note:"the brothers bow before Joseph in Egypt, fulfilling the sheaf dream" },
+      { r:"Genesis 43:26", note:"a second bowing, before Benjamin's presence" },
+      { r:"Psalm 105:17-19", note:"'he was sold as a slave... until what he had said came to pass'" } ]},
+    { group:"The sale recalled later", refs:[
+      { r:"Acts 7:9-10", note:"Stephen recounts the brothers selling Joseph out of jealousy" },
+      { r:"Genesis 45:4-5", note:"Joseph later reframes the sale as part of God's providence" },
+      { r:"Genesis 50:20", note:"'you meant evil against me, but God meant it for good'" } ]}
+  ]
+},
+
+/* ===== GENESIS 38 — Judah and Tamar ===== */
+"1:38": {
+  era: { title: "Patriarchal age — Judah's household apart from his brothers", sub: "Er, Onan, and Tamar's bold claim to an heir through the levirate custom",
+    badges: ["Patriarchal age", "A widow's disguised plea for justice", "Ancestor of David's line, Perez"] },
+  timeOfDay: "day",
+  summary: "Judah leaves his brothers and settles among Canaanites, marrying Shua's daughter and fathering Er, Onan, and Shelah; he arranges Tamar's marriage to Er, who dies for wickedness before fathering children (vv. 1-7). Onan is given to Tamar under the custom of raising up an heir for his dead brother, but he deliberately avoids giving her a child and is likewise struck dead; Judah, fearing for his last son, sends Tamar away to wait for Shelah to grow up, a promise he never keeps (vv. 8-11). Years later, learning Judah is traveling to Timnah, the widowed Tamar disguises herself as a prostitute, and Judah unknowingly sleeps with her, leaving his seal, cord, and staff as pledge for payment (vv. 12-23). When Tamar's pregnancy is reported, Judah orders her burned — until she produces his own pledge items, and he admits 'she is more righteous than I' (vv. 24-26). Tamar bears twins, Perez and Zerah, Perez becoming an ancestor of David and ultimately Jesus (vv. 27-30).",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"General region of Judah's settlement apart from his father's household in this chapter (v. 1, broadly)" },
+    { id:"edom", role:"Not directly named, but Timnah and Adullam lie in the Judahite hill country south of here where this narrative unfolds" }
+  ],
+  journey: [
+    { from:"hebron", to:"hebron", label:"Judah's separate household", km:0, dashed:true, note:"Judah moves away from his brothers to live among Canaanite neighbors, marrying locally and raising his family apart from Jacob's camp." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Judah's Canaanite marriage", av:"youth", desc:"Judah marries Shua's daughter and fathers Er, Onan, and Shelah (vv. 1-5)." },
+    { x:0.25, type:"person", label:"Er and Onan struck dead", av:"youth", desc:"Er is wicked and dies; Onan refuses to give Tamar an heir for his brother and is likewise struck down (vv. 6-10)." },
+    { x:0.40, type:"person", label:"Tamar sent away, waiting", av:"woman", desc:"Judah sends Tamar to her father's house to wait for Shelah, a promise he does not keep (v. 11)." },
+    { x:0.58, type:"person", label:"Tamar's disguise on the road to Timnah", av:"woman", desc:"Learning Judah is traveling to Timnah, Tamar disguises herself and Judah unknowingly sleeps with her, leaving his seal, cord, and staff as pledge (vv. 13-18)." },
+    { x:0.78, type:"object", label:"The pledge revealed", desc:"When Tamar is accused of prostitution, she produces Judah's own seal, cord, and staff; he confesses 'she is more righteous than I' (vv. 24-26)." },
+    { x:0.92, type:"person", label:"Perez and Zerah born", av:"youth", desc:"Tamar bears twins; Perez, whose hand yields at the last moment to his brother's, becomes an ancestor of David and Christ (vv. 27-30; Matt 1:3)." }
+  ],
+  environment: {
+    chips: ["A household apart from Jacob's camp", "Levirate duty refused", "A widow's bold disguise", "A seal, cord, and staff as pledge", "'More righteous than I'", "Twins, and a royal line begun"],
+    text: "The chapter interrupts the Joseph narrative to follow Judah into the Canaanite hill country, where he marries locally and loses two sons to their own wrongdoing. Tamar's determined, risky action to secure her rightful place in the family becomes, unexpectedly, the origin point of the line that leads to David and to Jesus — inserted here as a deliberate contrast to Joseph's story of integrity under pressure."
+  },
+  objectsExtra: ["signet"],
+  peopleExtra: ["tamar-judah", "er", "onan", "shelah", "judah"],
+  culture: [
+    { title:"The levirate custom", icon:"👪",
+      text:"Ancient Near Eastern custom (later codified in Deut 25:5-10) obligated a surviving brother to father a child with his dead brother's widow to preserve the deceased's name and inheritance; Onan's refusal to fulfill this duty, while enjoying its privileges, is what draws judgment (v. 9-10)." },
+    { title:"Why this chapter interrupts Joseph's story", icon:"📖",
+      text:"Placed right after Joseph is sold, Genesis 38 both delays and contrasts: Judah, who proposed profiting from his brother's sale, is shown failing his own family duties, while Tamar's bold, costly pursuit of justice foreshadows Judah's later growth into the man who offers himself for Benjamin (Gen 44:33)." },
+    { title:"Tamar in the genealogy of Christ", icon:"✝️",
+      text:"Tamar is one of only a few women named in Matthew's genealogy of Jesus (Matt 1:3), her irregular but resolute action treated by later tradition not as scandal alone but as securing the covenant line against Judah's own failures." }
+  ],
+  crossRefs: [
+    { group:"The levirate law and its later use", refs:[
+      { r:"Deuteronomy 25:5-10", note:"the formal law of levirate marriage" },
+      { r:"Ruth 4:1-12", note:"Boaz's levirate-style redemption of Ruth, echoing Tamar" },
+      { r:"Matthew 1:3", note:"Tamar named as an ancestor of Jesus" } ]},
+    { group:"Judah's arc, here and later", refs:[
+      { r:"Genesis 44:18-34", note:"Judah later offers himself in Benjamin's place" },
+      { r:"Genesis 49:8-10", note:"Jacob's blessing names Judah's line for kingship" },
+      { r:"Ruth 4:18-22", note:"Perez's line runs onward to David" } ]}
+  ]
+},
+
+/* ===== GENESIS 39 — Joseph in Potiphar's House ===== */
+"1:39": {
+  era: { title: "Egypt, patriarchal age — Joseph rises, then falls, in Potiphar's house", sub: "The LORD's blessing on a slave, a false accusation, and unjust imprisonment",
+    badges: ["Egypt, Middle Kingdom era", "Faithful under false accusation", "'The LORD was with Joseph'"] },
+  timeOfDay: "day",
+  summary: "Sold to Potiphar, an Egyptian official, Joseph prospers so visibly that Potiphar puts him in charge of his entire household, and the LORD blesses the Egyptian's house for Joseph's sake (vv. 1-6). Potiphar's wife repeatedly propositions Joseph, who refuses on grounds of trust and sin against God; when she grabs his garment and he flees, she uses it as false evidence, accusing him of assault before both the household and Potiphar (vv. 7-18). Potiphar, enraged, has Joseph thrown into prison — though notably not executed, suggesting some doubt about his wife's story (vv. 19-20). Even in prison the LORD is with Joseph, granting him favor with the warden, who puts him in charge of the other prisoners and everything done there (vv. 21-23).",
+  focusPlace: "egypt",
+  places: [
+    { id:"dothan", role:"Where Joseph's brothers sold him before he was carried down to Egypt (Gen 37:17, 28) — this journey's starting point" },
+    { id:"egypt", role:"The whole chapter's setting — Potiphar's house, then the royal prison, both places where 'the LORD was with Joseph' (vv. 2, 21)" }
+  ],
+  journey: [
+    { from:"dothan", to:"egypt", label:"Joseph's arrival as a slave", km:400, dashed:true, note:"Continuing from chapter 37, Joseph is now settled in Egypt, purchased by Potiphar from the traders who brought him down." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Joseph prospers in Potiphar's house", av:"official", desc:"'The LORD was with Joseph, and he became a successful man,' rising to oversee everything Potiphar owns (vv. 2-6)." },
+    { x:0.30, type:"person", label:"Potiphar's wife's repeated advances", av:"woman", desc:"Day after day she urges Joseph to sleep with her; he refuses, calling it 'a great wickedness and sin against God' (vv. 7-10)." },
+    { x:0.55, type:"object", label:"The garment left behind", desc:"When she grabs his garment, Joseph flees, leaving it in her hand — the very evidence she then twists against him (vv. 11-13)." },
+    { x:0.72, type:"person", label:"The false accusation", av:"woman", desc:"Potiphar's wife accuses Joseph before the household and her husband, using his own garment as proof (vv. 14-18)." },
+    { x:0.85, type:"person", label:"Imprisoned, not executed", av:"official", desc:"Potiphar's anger lands Joseph in prison rather than death, and even there 'the LORD was with Joseph' and gave him favor with the warden (vv. 19-23)." }
+  ],
+  environment: {
+    chips: ["A slave's rapid rise", "Repeated temptation, repeated refusal", "A garment as false witness", "Prison instead of execution", "'The LORD was with Joseph'", "Favor even behind bars"],
+    text: "Joseph's story alternates between two enclosed Egyptian settings, Potiphar's household and then the royal prison, both marked by the same refrain: whatever Joseph is given charge of prospers because 'the LORD was with him.' The chapter's real drama is moral rather than geographic — integrity maintained under both temptation and false accusation, in a foreign land with no family to vouch for him."
+  },
+  objectsExtra: [],
+  peopleExtra: ["potiphar", "potiphars-wife"],
+  culture: [
+    { title:"Egyptian household administration", icon:"🏛️",
+      text:"Potiphar's title, 'captain of the guard,' and his large household with servants and land reflect a genuine Egyptian office; foreign slaves rising to oversee such estates is attested elsewhere in Egyptian records, lending plausibility to Joseph's rapid advancement." },
+    { title:"Joseph's refusal, in his own words", icon:"🗣️",
+      text:"Joseph frames his refusal first as loyalty to Potiphar's trust and only then, climactically, as sin against God (v. 9) — an unusually explicit theological reasoning for resisting temptation in Genesis narrative." },
+    { title:"Why prison, not death?", icon:"⚖️",
+      text:"Potiphar's restrained punishment — imprisonment rather than execution, the normal penalty for such an offense against an official's household — has led many readers to suspect he doubted his wife's account even as he acted on it." }
+  ],
+  crossRefs: [
+    { group:"Joseph's integrity under pressure", refs:[
+      { r:"Genesis 41:38-40", note:"the same faithfulness later recognized by Pharaoh" },
+      { r:"Psalm 105:17-19", note:"'his feet were hurt with fetters' recalling this imprisonment" },
+      { r:"Hebrews 11:22", note:"Joseph remembered among the faithful" } ]},
+    { group:"'The LORD was with him'", refs:[
+      { r:"Genesis 39:2-3", note:"the refrain first stated in Potiphar's house" },
+      { r:"Genesis 39:21-23", note:"the same refrain repeated in prison" },
+      { r:"Acts 7:9-10", note:"Stephen's summary: 'God was with him'" } ]}
+  ]
+},
+
+/* ===== GENESIS 40 — The Cupbearer and the Baker's Dreams ===== */
+"1:40": {
+  era: { title: "Egypt, patriarchal age — dreams in Pharaoh's prison", sub: "Two officials' dreams interpreted, one promise kept, one forgotten",
+    badges: ["Egyptian royal prison", "God-given dream interpretation", "Two years still to wait"] },
+  timeOfDay: "night",
+  summary: "Pharaoh's cupbearer and baker offend him and are imprisoned in the same place as Joseph, who is assigned to attend them (vv. 1-4). Both men have troubling dreams on the same night; Joseph, noticing their dejection, insists that interpretations belong to God and asks to hear the dreams (vv. 5-8). The cupbearer dreams of a vine with three branches budding into grapes he presses into Pharaoh's cup; Joseph interprets this as restoration to his position within three days, asking to be remembered before Pharaoh when it happens (vv. 9-15). Encouraged by the favorable reading, the baker shares his dream of three baskets of bread on his head, birds eating from the top one; Joseph interprets this as the baker's execution within three days (vv. 16-19). Both interpretations come true exactly on Pharaoh's birthday three days later — the cupbearer restored, the baker hanged — but the cupbearer forgets Joseph entirely (vv. 20-23).",
+  focusPlace: "egypt",
+  places: [
+    { id:"egypt", role:"The royal prison where Joseph, the cupbearer, and the baker are held together (vv. 1-4)" },
+    { id:"hebron", role:"Jacob's household in Canaan, still unaware Joseph is alive and imprisoned in Egypt" }
+  ],
+  journey: [
+    { from:"egypt", to:"egypt", label:"Still imprisoned in Egypt", km:0, dashed:true, note:"No travel occurs in this chapter; it continues directly from Joseph's imprisonment in chapter 39, within the same Egyptian prison." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Two officials imprisoned", av:"official", desc:"Pharaoh's cupbearer and baker offend him and are placed in the same prison as Joseph, who is assigned to serve them (vv. 1-4)." },
+    { x:0.30, type:"person", label:"Two troubled dreams, one night", av:"official", desc:"Both men have dreams with no one to interpret them; Joseph insists interpretations belong to God alone (vv. 5-8)." },
+    { x:0.50, type:"object", label:"The cupbearer's vine dream", desc:"Three budding branches yield grapes pressed into Pharaoh's cup; Joseph reads this as restoration within three days (vv. 9-13)." },
+    { x:0.60, type:"person", label:"'Remember me when it is well with you'", av:"official", desc:"Joseph asks the cupbearer to mention him to Pharaoh and secure his release, protesting his innocence (vv. 14-15)." },
+    { x:0.75, type:"object", label:"The baker's basket dream", desc:"Three baskets of bread on his head, birds eating from the top one; Joseph interprets this as the baker's execution (vv. 16-19)." },
+    { x:0.92, type:"person", label:"Fulfillment, and forgetting", av:"official", desc:"On Pharaoh's birthday both interpretations come true exactly, but the restored cupbearer forgets Joseph (vv. 20-23)." }
+  ],
+  environment: {
+    chips: ["A shared prison cell", "Two dreams, one night", "Vine and grapes; baskets and birds", "'Interpretations belong to God'", "Exact fulfillment on Pharaoh's birthday", "A forgotten request"],
+    text: "Confined entirely within the Egyptian royal prison, this chapter turns Joseph's gift for dream interpretation — first shown, resentfully, with his own dreams in chapter 37 — into a tool that serves others rather than himself. The two-year delay the final verse quietly sets up (v. 23) becomes the hinge on which chapter 41 turns, as the cupbearer's forgetfulness leaves Joseph in prison until Pharaoh's own dreams create a need."
+  },
+  objectsExtra: [],
+  peopleExtra: ["cupbearer", "baker"],
+  culture: [
+    { title:"Dream interpretation in Egypt", icon:"💤",
+      text:"Egyptian culture took dreams seriously enough to maintain professional interpreters and dream manuals; Joseph's insistence that 'interpretations belong to God' (v. 8) deliberately sets his gift apart from Egypt's own divinatory professionals, crediting the true source directly." },
+    { title:"Symbolic dream pairs", icon:"🍇",
+      text:"The vine-and-grapes and basket-and-birds dreams both use the number three and everyday imagery from royal service, a pattern of paired, parallel dreams that recurs with Pharaoh's cattle and grain dreams in the very next chapter." },
+    { title:"The two-year wait", icon:"⏳",
+      text:"The chapter's closing note that the cupbearer 'did not remember Joseph, but forgot him' (v. 23) sets up a deliberately unresolved delay — two more years pass (Gen 41:1) before Joseph's circumstances change, underscoring that his rise depends entirely on God's timing, not human favor." }
+  ],
+  crossRefs: [
+    { group:"The cupbearer's forgetting, and its end", refs:[
+      { r:"Genesis 41:1, 9-13", note:"two years later, the cupbearer finally remembers Joseph" },
+      { r:"Psalm 105:19", note:"'until the time his word came to pass, the word of the LORD tested him'" },
+      { r:"Ecclesiastes 9:15-16", note:"a wise man's help forgotten, a familiar biblical pattern" } ]},
+    { group:"Interpretation belonging to God", refs:[
+      { r:"Genesis 41:16", note:"Joseph repeats the same claim before Pharaoh" },
+      { r:"Daniel 2:27-28", note:"Daniel makes an identical claim before Nebuchadnezzar" },
+      { r:"Daniel 5:11-14", note:"the same gift recognized generations later in Babylon" } ]}
+  ]
+},
+
+/* ===== GENESIS 41 — Pharaoh's Dreams and Joseph's Rise to Power ===== */
+"1:41": {
+  era: { title: "Egypt, c. 1885 BC (traditional dating) — Joseph made vizier", sub: "Seven years of plenty foreseen, then famine; Joseph elevated over all Egypt",
+    badges: ["Egyptian royal court", "Two years after the prison dreams", "Joseph, age thirty, made vizier"] },
+  timeOfDay: "day",
+  summary: "Two years later, Pharaoh dreams of seven fat cows devoured by seven gaunt ones, and seven plump heads of grain swallowed by seven withered ones; when none of Egypt's wise men can interpret them, the cupbearer finally remembers Joseph (vv. 1-13). Brought before Pharaoh, Joseph credits God alone for interpretation and explains both dreams mean the same thing: seven years of abundance will be followed by seven years of severe famine, and he advises appointing a wise administrator to store a fifth of the harvest during the good years (vv. 14-36). Impressed, Pharaoh appoints Joseph himself over all Egypt, second only to Pharaoh, giving him his signet ring, fine linen, a gold chain, a chariot, an Egyptian name, and Asenath as wife (vv. 37-45). During the seven good years Joseph gathers grain 'like the sand of the sea' and fathers Manasseh and Ephraim; when famine strikes as predicted, Egypt has bread while surrounding lands, including eventually Canaan, do not (vv. 46-57).",
+  focusPlace: "egypt",
+  places: [
+    { id:"egypt", role:"Pharaoh's court, where the dreams are interpreted and Joseph is elevated to vizier over the entire land (vv. 14-45)" },
+    { id:"hebron", role:"Jacob's household in Canaan, soon to feel the same famine Joseph has just foreseen (vv. 54-57 imply this reach)" }
+  ],
+  journey: [
+    { from:"egypt", to:"egypt", label:"From prison to the palace", km:0, dashed:true, note:"Joseph is brought directly from prison to stand before Pharaoh, and within the same day rises from prisoner to the second-highest office in Egypt." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Pharaoh's two dreams", av:"king", desc:"Seven gaunt cows devour seven fat ones, and seven withered heads of grain swallow seven plump ones; no Egyptian wise man can interpret them (vv. 1-8)." },
+    { x:0.20, type:"person", label:"The cupbearer remembers Joseph", av:"official", desc:"Prompted by Pharaoh's need, the cupbearer finally recalls Joseph's gift from prison two years earlier (vv. 9-13)." },
+    { x:0.38, type:"person", label:"Joseph's interpretation", av:"official", desc:"Joseph credits God alone, then explains both dreams as one message: seven years of plenty followed by seven years of famine (vv. 25-32)." },
+    { x:0.55, type:"person", label:"A plan, and its architect", av:"official", desc:"Joseph advises storing a fifth of the harvest during the good years and appointing an overseer — Pharaoh appoints Joseph himself (vv. 33-40)." },
+    { x:0.68, type:"object", label:"The signet ring and robes of office", desc:"Pharaoh invests Joseph with his own signet ring, fine linen, a gold chain, and a chariot, making him second in all Egypt (vv. 41-43)." },
+    { x:0.82, type:"person", label:"Asenath, and two sons", av:"woman", desc:"Joseph marries Asenath, daughter of Potiphera, priest of On, and fathers Manasseh and Ephraim before the famine begins (vv. 45, 50-52)." },
+    { x:0.95, type:"object", label:"Grain like the sand of the sea", desc:"During the seven good years Joseph stores such vast grain reserves that he stops measuring it; when famine strikes, Egypt alone has bread (vv. 47-49, 56-57)." }
+  ],
+  environment: {
+    chips: ["Two paired dreams of cattle and grain", "No wise man can interpret but Joseph", "A slave elevated to vizier in a day", "Signet ring, gold chain, chariot", "Seven years of plenty, stored", "Famine spreading beyond Egypt's borders"],
+    text: "Set entirely at Pharaoh's court and across Egypt's grain-growing years, this chapter turns on the same principle established in chapter 40 — that dream interpretation belongs to God, not Egypt's professional diviners. Joseph's administrative genius transforms a famine that could have devastated the region into the very means by which Egypt gains power and his own family will later be preserved."
+  },
+  objectsExtra: ["egyptian-signet-ring", "grain-storage"],
+  peopleExtra: ["pharaoh-joseph", "asenath", "potiphera", "manasseh", "ephraim"],
+  culture: [
+    { title:"Egyptian famine administration", icon:"🌾",
+      text:"Egyptian records describe officials responsible for grain storage and famine relief, and the Nile's flood cycles made multi-year agricultural planning a real concern; Joseph's proposed fifth-share storage plan reflects genuine ancient administrative practice rather than an implausible invention." },
+    { title:"An Egyptian name and identity", icon:"📛",
+      text:"Pharaoh gives Joseph the Egyptian name Zaphenath-paneah (v. 45), likely meaning something like 'God speaks and he lives' or 'the god has said he will live' — a formal act of naturalizing a foreigner into full Egyptian office and identity." },
+    { title:"Naming Manasseh and Ephraim", icon:"👶",
+      text:"Joseph names his sons to mark his own journey: Manasseh, 'making to forget' his hardship and father's house, and Ephraim, 'fruitful' in the land of his affliction (vv. 51-52) — both names later become tribal names within Israel." }
+  ],
+  crossRefs: [
+    { group:"Joseph's rise recognized as God's work", refs:[
+      { r:"Psalm 105:19-22", note:"'he made him lord of his house... to instruct the elders'" },
+      { r:"Acts 7:9-10", note:"Stephen: 'God gave him favor and wisdom before Pharaoh'" },
+      { r:"Genesis 45:8", note:"Joseph later calls himself 'father to Pharaoh' by God's design" } ]},
+    { group:"The famine that draws the family to Egypt", refs:[
+      { r:"Genesis 42:1-3", note:"the famine reaches Canaan, sending the brothers to buy grain" },
+      { r:"Genesis 47:13-26", note:"the famine's severity and Joseph's land policy across Egypt" },
+      { r:"Acts 7:11", note:"'a famine came over all Egypt and Canaan, and great affliction'" } ]}
+  ]
+},
+
+/* ===== GENESIS 42 — The Brothers' First Journey to Egypt ===== */
+"1:42": {
+  era: { title: "Patriarchal age — famine drives the brothers to Egypt", sub: "Ten brothers before the unrecognized Joseph; Simeon held as surety",
+    badges: ["Famine years", "Ten brothers, one held hostage", "Guilt over Joseph resurfaces"] },
+  timeOfDay: "day",
+  summary: "With famine gripping Canaan, Jacob sends ten sons to buy grain in Egypt, keeping only Benjamin back for fear of losing him too (vv. 1-4). The brothers bow before Joseph, now Egypt's vizier, fulfilling his childhood dream, though they do not recognize him; he speaks harshly, accuses them of being spies, and imprisons them for three days (vv. 5-17). He then demands one brother stay behind while the rest return with grain, insisting they bring Benjamin back to prove their honesty; overhearing this, the brothers admit to each other their guilt over Joseph, unaware Joseph understands their language and weeps privately (vv. 18-24). Joseph keeps Simeon as surety and secretly returns each brother's silver in his grain sack (vv. 24-25). On the journey home the returned money terrifies them, and when they report everything to Jacob, he refuses to let Benjamin go, grieving that he has already lost Joseph and now Simeon (vv. 26-38).",
+  focusPlace: "egypt",
+  places: [
+    { id:"hebron", role:"Jacob's home, where the brothers set out from and return to report Joseph's demands (vv. 1-5, 29-38)" },
+    { id:"egypt", role:"Where the unrecognized Joseph tests his brothers, accuses them of spying, and holds Simeon hostage (vv. 6-24)" }
+  ],
+  journey: [
+    { from:"hebron", to:"egypt", label:"Ten brothers sent for grain", km:400, note:"Jacob sends ten sons to buy grain in famine-stricken Egypt, withholding only Benjamin, and they return home with grain, hostage terms, and their returned silver." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Ten brothers sent, Benjamin held back", av:"elder", desc:"Jacob sends his sons for grain but keeps Benjamin home, fearing harm might befall him as it did Joseph (vv. 1-4)." },
+    { x:0.25, type:"person", label:"Bowing before the unrecognized Joseph", av:"official", desc:"The brothers bow low before Joseph, fulfilling his childhood dream exactly, though they do not know him (vv. 6-8)." },
+    { x:0.42, type:"person", label:"Accused as spies, imprisoned", av:"official", desc:"Joseph speaks harshly, accuses them of spying, and holds them for three days to test their story (vv. 9-17)." },
+    { x:0.58, type:"person", label:"Guilt over Joseph resurfaces", av:"youth", desc:"Overhearing Joseph's demand to bring Benjamin, the brothers admit to each other their guilt for Joseph's suffering years earlier; Joseph weeps unseen (vv. 18-24)." },
+    { x:0.72, type:"object", label:"Simeon held, silver secretly returned", desc:"Joseph keeps Simeon as surety and orders each brother's silver quietly returned in his grain sack (vv. 24-25)." },
+    { x:0.90, type:"person", label:"Jacob's refusal over Benjamin", av:"elder", desc:"Terrified by the returned money and Joseph's demand, Jacob refuses to let Benjamin go, grieving 'Joseph is no more, and Simeon is no more' (vv. 35-38)." }
+  ],
+  environment: {
+    chips: ["Famine forcing a journey south", "Ten brothers bowing, unknowingly, to Joseph", "A harsh test and three days' imprisonment", "Old guilt spoken aloud", "Silver mysteriously returned", "Jacob's fear for his last favored son"],
+    text: "The chapter shuttles between Hebron and Egypt as famine forces exactly the encounter Joseph's dreams once foretold, though neither side recognizes the other at first. Joseph's harsh testing and the brothers' overheard guilt turn a grain-buying trip into the quiet beginning of reconciliation, even as Jacob's fear for Benjamin threatens to unravel it before it starts."
+  },
+  objectsExtra: ["grain-storage"],
+  peopleExtra: [],
+  culture: [
+    { title:"Egyptian famine relief for foreigners", icon:"🌍",
+      text:"Egyptian texts describe grain sold or given to neighboring peoples during regional famines, since the Nile's floods made Egypt comparatively famine-resistant; the brothers' journey reflects a real ancient pattern of Canaanite and Semitic groups seeking Egyptian grain in hard years." },
+    { title:"Why Joseph tests his brothers", icon:"❓",
+      text:"Joseph's harsh accusations and hostage-taking are widely read not as cruelty but as a test of whether his brothers have changed — particularly whether they would abandon Benjamin, Rachel's other son, the way they once abandoned him." },
+    { title:"Jacob's grief compounding", icon:"😢",
+      text:"Jacob's lament that 'everything is against me' (v. 36) reads with dramatic irony for readers who know Joseph is alive and well; his refusal to risk Benjamin sets up the tension that drives the rest of the Joseph narrative." }
+  ],
+  crossRefs: [
+    { group:"Dreams fulfilled in the bowing brothers", refs:[
+      { r:"Genesis 37:7", note:"the sheaf dream, now literally fulfilled" },
+      { r:"Genesis 45:7-8", note:"Joseph's later explanation of God's purpose in it all" },
+      { r:"Psalm 105:16-17", note:"'he sent a man ahead of them, Joseph, sold as a slave'" } ]},
+    { group:"Guilt and conscience among the brothers", refs:[
+      { r:"Genesis 42:21-22", note:"the brothers' own words admitting their guilt" },
+      { r:"Genesis 44:16", note:"Judah later confesses 'God has found out the guilt of your servants'" },
+      { r:"Genesis 50:15-17", note:"the same guilt resurfacing after Jacob's death" } ]}
+  ]
+},
+
+/* ===== GENESIS 43 — The Second Journey, with Benjamin ===== */
+"1:43": {
+  era: { title: "Patriarchal age — Benjamin taken down to Egypt", sub: "Judah's guarantee persuades Jacob; a tense, then warm, reunion feast",
+    badges: ["Famine deepens", "Judah pledges himself for Benjamin", "A feast, and Joseph's hidden tears"] },
+  timeOfDay: "day",
+  summary: "With grain running out, Jacob presses his sons to return to Egypt, but Judah insists they cannot go without Benjamin, personally guaranteeing his safety to persuade their reluctant father (vv. 1-14). Arriving in Egypt with double silver, gifts, and Benjamin, the brothers are brought to Joseph's house, terrified about the previously returned money, but Joseph's steward reassures them and releases Simeon to them (vv. 15-25). When Joseph arrives, he inquires warmly after their father and is overcome with emotion at seeing Benjamin, his own mother's son, withdrawing to weep privately before composing himself (vv. 26-31). At the meal Joseph seats the brothers by exact birth order, astonishing them, and gives Benjamin five times the portion of the others, and they all feast and drink freely together (vv. 32-34).",
+  focusPlace: "egypt",
+  places: [
+    { id:"hebron", role:"Jacob's home, where Judah's guarantee finally persuades Jacob to let Benjamin go (vv. 1-14)" },
+    { id:"egypt", role:"Joseph's house, where the brothers are received, Simeon is restored, and the reunion feast takes place (vv. 15-34)" }
+  ],
+  journey: [
+    { from:"hebron", to:"egypt", label:"Benjamin taken down at last", km:400, note:"Jacob finally releases Benjamin on Judah's personal guarantee, and the brothers travel to Egypt with double silver and gifts for the still-unrecognized vizier." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Judah's personal guarantee", av:"youth", desc:"Judah pledges himself as surety for Benjamin's safety, finally persuading Jacob to let him go (vv. 8-10, 13-14)." },
+    { x:0.28, type:"person", label:"Fear over the returned silver", av:"youth", desc:"Arriving at Joseph's house, the brothers panic about the silver mysteriously returned earlier, but Joseph's steward reassures them (vv. 18-23)." },
+    { x:0.45, type:"person", label:"Simeon restored", av:"youth", desc:"Simeon is brought out and reunited with his brothers before the meal (v. 23)." },
+    { x:0.62, type:"person", label:"Joseph's hidden weeping over Benjamin", av:"official", desc:"Seeing his mother's son for the first time in over twenty years, Joseph is overcome and withdraws to weep privately (vv. 29-30)." },
+    { x:0.80, type:"person", label:"Seated by exact birth order", av:"official", desc:"The brothers are astonished to find themselves seated in precise order from oldest to youngest, an apparent impossibility to explain (v. 33)." },
+    { x:0.94, type:"object", label:"Benjamin's fivefold portion", desc:"Benjamin receives five times the food of his brothers, a pointed test of any lingering jealousy, and all feast and drink freely (v. 34)." }
+  ],
+  environment: {
+    chips: ["Grain running out again", "Judah's personal pledge for Benjamin", "Fear at Joseph's own house", "Simeon restored to his brothers", "Tears hidden behind closed doors", "A feast seated in impossible order"],
+    text: "The chapter moves from Hebron's hard bargaining over Benjamin's safety to a private, emotionally charged reunion feast inside Joseph's Egyptian house. Every detail — the returned silver, the birth-order seating, Benjamin's oversized portion — quietly tests the brothers even as Joseph struggles to contain his own feelings, setting the stage for the final test in chapter 44."
+  },
+  objectsExtra: [],
+  peopleExtra: [],
+  culture: [
+    { title:"Suretyship in patriarchal custom", icon:"🤝",
+      text:"Judah's personal guarantee for Benjamin — 'I will bear the blame forever' (v. 9) — reflects a real ancient practice of one family member pledging personal responsibility for another's safety, a custom that gives weight to his later plea in chapter 44." },
+    { title:"Egyptian dining customs and separation", icon:"🍽️",
+      text:"The note that Egyptians ate separately from Hebrews, 'for that is an abomination to the Egyptians' (v. 32), reflects genuine Egyptian dietary and ritual purity concerns regarding foreign herders, adding historical texture to the seating arrangement." },
+    { title:"Benjamin's portion as a pointed test", icon:"⚖️",
+      text:"Giving Benjamin five times the food of his brothers directly echoes the favoritism once shown Joseph, letting Joseph observe in real time whether the same jealousy that once led to his own sale would resurface against Rachel's other son." }
+  ],
+  crossRefs: [
+    { group:"Judah's growing responsibility", refs:[
+      { r:"Genesis 43:8-9", note:"Judah's guarantee, the turning point that persuades Jacob" },
+      { r:"Genesis 44:32-34", note:"Judah later makes good on this very pledge" },
+      { r:"Genesis 49:8-10", note:"Jacob's blessing rewards Judah's leadership with kingship" } ]},
+    { group:"Joseph's controlled emotion", refs:[
+      { r:"Genesis 42:24", note:"Joseph's earlier private weeping, unseen by his brothers" },
+      { r:"Genesis 45:1-2", note:"the emotion he can no longer contain in the next chapter" },
+      { r:"Genesis 45:14-15", note:"his open weeping once he reveals himself" } ]}
+  ]
+},
+
+/* ===== GENESIS 44 — The Silver Cup and Judah's Plea ===== */
+"1:44": {
+  era: { title: "Patriarchal age — the final test at the granary", sub: "A planted cup, a threatened enslavement, and Judah's offer of himself",
+    badges: ["The last and hardest test", "Judah's transformation complete", "A plea that moves Joseph to tears"] },
+  timeOfDay: "day",
+  summary: "As the brothers set out for home with grain, Joseph has his steward secretly plant his silver cup in Benjamin's sack and then pursue and accuse them of theft (vv. 1-6). Confident of their innocence, the brothers agree that whoever has the cup should die and the rest become slaves; when the cup is found in Benjamin's sack, they tear their clothes in anguish and return together to the city rather than abandon him (vv. 7-13). Before Joseph, Judah does not attempt to prove innocence but confesses their guilt is now God's doing and offers all the brothers as slaves; Joseph insists only Benjamin need stay (vv. 14-17). Judah then delivers an impassioned plea, recounting Jacob's love for Benjamin and his own personal guarantee, and offers himself as a slave in Benjamin's place rather than see his father die of grief (vv. 18-34).",
+  focusPlace: "egypt",
+  places: [
+    { id:"egypt", role:"Joseph's granary and city, where the cup is discovered and Judah delivers his plea before the still-unrecognized Joseph (vv. 1-34)" },
+    { id:"hebron", role:"Jacob, waiting at home, whose grief Judah invokes as the emotional center of his plea (vv. 22, 27-31)" }
+  ],
+  journey: [
+    { from:"egypt", to:"egypt", label:"Overtaken on the road home", km:0, dashed:true, note:"The brothers set out from Joseph's city toward Canaan but are overtaken by Joseph's steward before they get far, and all return to face the accusation together." }
+  ],
+  hotspots: [
+    { x:0.08, type:"object", label:"The silver cup planted", desc:"Joseph has his steward secretly hide his own silver cup in Benjamin's grain sack before the brothers depart (vv. 1-2)." },
+    { x:0.25, type:"person", label:"Overtaken and accused", av:"official", desc:"The steward catches up to the brothers and accuses them of stealing Joseph's divining cup, an accusation they confidently deny (vv. 4-9)." },
+    { x:0.42, type:"object", label:"The cup found in Benjamin's sack", desc:"Searched from oldest to youngest, the cup turns up exactly in Benjamin's sack, and the brothers tear their clothes in grief (vv. 12-13)." },
+    { x:0.55, type:"person", label:"Judah's confession before Joseph", av:"youth", desc:"Rather than argue innocence, Judah confesses 'God has found out the guilt of your servants' and offers all the brothers as slaves (vv. 14-16)." },
+    { x:0.75, type:"person", label:"Judah's plea recounting Jacob's love", av:"youth", desc:"Judah retells the whole story of Jacob's grief over Joseph and his fear of losing Benjamin, and his own personal pledge for the boy's safety (vv. 18-32)." },
+    { x:0.95, type:"person", label:"Judah offers himself in Benjamin's place", av:"youth", desc:"Judah begs to remain as a slave instead of Benjamin, unwilling to see his father die of grief (vv. 33-34)." }
+  ],
+  environment: {
+    chips: ["A cup planted as the final test", "Torn clothes and shared anguish", "No brother abandons Benjamin", "Judah's full confession of guilt", "A father's grief retold in full", "One brother's offer to take another's place"],
+    text: "The whole chapter unfolds within Joseph's Egyptian household and its immediate surroundings, the tightest and most emotionally concentrated scene in the Joseph narrative. What began in chapter 37 with brothers willing to sell one sibling for silver ends here with one brother willing to become a slave himself rather than let another be taken — the transformation the entire cycle has been building toward."
+  },
+  objectsExtra: ["silver-cup"],
+  peopleExtra: [],
+  culture: [
+    { title:"Divination cups in Egypt", icon:"🥈",
+      text:"The steward calls Joseph's cup one he uses 'for divination' (v. 5), a genuine Egyptian practice of reading omens in liquid; whether Joseph himself actually practiced this or the line is part of the elaborate ruse is debated, but the detail fits authentic Egyptian court culture." },
+    { title:"Corporate responsibility and the brothers' unity", icon:"🤝",
+      text:"The brothers' insistence on all returning together rather than abandoning Benjamin (v. 13) marks a decisive reversal from chapter 37, where they abandoned Joseph without a second thought — the test Joseph designed succeeds completely." },
+    { title:"Judah's speech as the narrative's turning point", icon:"🗣️",
+      text:"Judah's plea (vv. 18-34) is widely regarded as one of the most moving speeches in Genesis, and its selfless offer to be enslaved in Benjamin's place is precisely what breaks Joseph's composure in the opening verses of chapter 45." }
+  ],
+  crossRefs: [
+    { group:"Judah's transformation completed", refs:[
+      { r:"Genesis 37:26-27", note:"Judah once proposed selling a brother for profit" },
+      { r:"Genesis 43:8-9", note:"Judah's earlier pledge, now fulfilled here" },
+      { r:"Genesis 49:8-10", note:"Jacob's blessing rewards this very character with kingship" } ]},
+    { group:"Substitution and self-sacrifice", refs:[
+      { r:"Genesis 45:1-3", note:"Joseph's composure finally breaks after Judah's plea" },
+      { r:"Romans 5:6-8", note:"a later, greater substitution — one dying for the guilty" },
+      { r:"Exodus 32:32", note:"Moses similarly offers himself in place of the people" } ]}
+  ]
+},
+
+/* ===== GENESIS 45 — Joseph Reveals Himself ===== */
+"1:45": {
+  era: { title: "Patriarchal age — the great reveal and reconciliation", sub: "'I am Joseph... God sent me before you to preserve life'",
+    badges: ["Twenty-plus years of separation ended", "Reconciliation, not revenge", "Jacob summoned to Egypt"] },
+  timeOfDay: "day",
+  summary: "Overcome after Judah's plea, Joseph clears the room of Egyptians and weeps so loudly that Pharaoh's household hears, then reveals his identity to his stunned brothers: 'I am Joseph; is my father still alive?' (vv. 1-3). Seeing their terror, he reassures them not to be distressed or angry with themselves, reframing the sale as God's providence to preserve life through the famine, sending him ahead of them (vv. 4-8). He urges them to hurry back and bring Jacob and the whole family down to settle in Goshen, where he will provide for them through five more years of famine, and he embraces Benjamin and all his brothers, weeping and finally talking freely with them (vv. 9-15). Pharaoh, hearing the news, joyfully invites the whole family to Egypt and provides wagons and provisions for the move; Joseph sends the brothers off richly supplied, urging them not to quarrel on the way, and Jacob, told Joseph is alive, is at first unable to believe it but then revives at the sight of the wagons (vv. 16-28).",
+  focusPlace: "egypt",
+  places: [
+    { id:"egypt", role:"Where Joseph reveals himself and Pharaoh invites the whole family to settle (vv. 1-20)" },
+    { id:"hebron", role:"Where the brothers return to tell Jacob his son is alive (vv. 25-28)" },
+    { id:"goshen", role:"The region Joseph designates for his family's future settlement (v. 10)" }
+  ],
+  journey: [
+    { from:"egypt", to:"hebron", label:"The brothers race home with the news", km:400, note:"Loaded with provisions and wagons from Pharaoh, the brothers hurry back to tell Jacob that Joseph is alive and ruling all Egypt." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"'I am Joseph'", av:"official", desc:"Unable to control himself any longer, Joseph clears the room and reveals his identity, his weeping heard even in Pharaoh's house (vv. 1-3)." },
+    { x:0.22, type:"person", label:"'God sent me before you'", av:"official", desc:"Joseph reassures his terrified brothers, reframing their sale of him as part of God's plan to preserve life through the famine (vv. 4-8)." },
+    { x:0.40, type:"object", label:"The invitation to Goshen", desc:"Joseph instructs the brothers to bring Jacob and the whole household to settle in Goshen, where he will sustain them for the remaining famine years (vv. 9-11)." },
+    { x:0.55, type:"person", label:"Embracing Benjamin and all his brothers", av:"official", desc:"Joseph weeps on Benjamin's neck and kisses all his brothers, finally able to talk freely with them (vv. 14-15)." },
+    { x:0.72, type:"person", label:"Pharaoh's joyful invitation", av:"king", desc:"Hearing the news, Pharaoh happily offers the best of Egypt's land and sends wagons for the move (vv. 16-20)." },
+    { x:0.90, type:"person", label:"Jacob revived at the sight of the wagons", av:"elder", desc:"Jacob cannot believe the report until he sees the wagons Joseph sent, and his spirit revives: 'It is enough; Joseph my son is still alive' (vv. 26-28)." }
+  ],
+  environment: {
+    chips: ["Twenty-plus years of separation ended", "'I am Joseph' — the reveal", "Reconciliation framed as providence", "An invitation to Goshen's good land", "Pharaoh's own joyful blessing", "A father's spirit revived"],
+    text: "The chapter's emotional center is Joseph's Egyptian chamber, cleared of onlookers for the reveal, before opening outward to Pharaoh's court and finally back to Hebron where Jacob receives the news. Joseph's insistence that God, not his brothers' malice, sent him ahead becomes the theological key to the entire Joseph narrative, turning betrayal into providence without minimizing the wrong done."
+  },
+  objectsExtra: [],
+  peopleExtra: ["pharaoh-joseph"],
+  culture: [
+    { title:"Clearing the room before revealing himself", icon:"🚪",
+      text:"Joseph's insistence that all Egyptians leave before he speaks (v. 1) protects his brothers from public humiliation before Egyptian officials, a deliberate act of mercy and discretion in how he manages the reveal." },
+    { title:"Providence, not merely coincidence", icon:"🙏",
+      text:"Joseph's threefold repetition that 'God sent me' (vv. 5, 7, 8) is theologically central to Genesis's larger argument that God works through, not merely around, human sin and suffering to accomplish preservation and blessing." },
+    { title:"Goshen as a strategic choice", icon:"🐑",
+      text:"Goshen's pastureland suited Jacob's family's livestock and, being somewhat separate from Egyptian population centers, allowed them to maintain their distinct identity — a detail that matters greatly by the time of Exodus." }
+  ],
+  crossRefs: [
+    { group:"Providence over betrayal", refs:[
+      { r:"Genesis 50:20", note:"Joseph's fullest statement of the same principle after Jacob's death" },
+      { r:"Psalm 105:16-22", note:"a psalm retelling of God's hand throughout Joseph's rise" },
+      { r:"Romans 8:28", note:"'all things work together for good' echoes this theology" } ]},
+    { group:"Jacob's family summoned to Egypt", refs:[
+      { r:"Genesis 46:1-4", note:"God confirms the move to Jacob directly at Beersheba" },
+      { r:"Genesis 47:5-6", note:"Pharaoh formally settles the family in Goshen" },
+      { r:"Acts 7:14-15", note:"Stephen recounts Jacob's household, seventy-five in all, going down to Egypt" } ]}
+  ]
+},
+
+/* ===== GENESIS 46 — Jacob's Family Moves to Egypt ===== */
+"1:46": {
+  era: { title: "Patriarchal age — Jacob's household of seventy goes down to Egypt", sub: "A divine word at Beersheba, a genealogy of seventy, and reunion with Joseph",
+    badges: ["Last stop in Canaan: Beersheba", "God's promise to go with Jacob", "Seventy souls entering Egypt"] },
+  timeOfDay: "day",
+  summary: "Traveling south, Jacob stops at Beersheba to offer sacrifices, where God speaks to him in a night vision, confirming that he should not fear going to Egypt since God will go with him, make him a great nation there, and one day bring his descendants back up (vv. 1-4). Jacob's sons carry him, their wives, and children to Egypt in Pharaoh's wagons along with all their livestock and possessions (vv. 5-7). The chapter then lists the genealogy of Jacob's household entering Egypt — sons, grandsons, and a few granddaughters through Leah, Zilpah, Rachel, and Bilhah — totaling seventy persons (vv. 8-27). Judah is sent ahead to meet Joseph and guide the family to Goshen, and Joseph rides out to meet his father, embracing him and weeping long on his neck (vv. 28-30). Joseph then coaches his brothers on how to answer Pharaoh, so that they will be granted the land of Goshen as shepherds, a trade Egyptians found detestable (vv. 31-34).",
+  focusPlace: "goshen",
+  places: [
+    { id:"beersheba", role:"Where Jacob offers sacrifices and receives God's confirming word before continuing to Egypt (vv. 1-4)" },
+    { id:"egypt", role:"Where Joseph rides out to meet his father and reunite the family (vv. 28-30)" },
+    { id:"goshen", role:"The region Joseph secures for his family to settle as shepherds, separate from Egyptian population centers (vv. 28, 34)" }
+  ],
+  journey: [
+    { from:"beersheba", to:"goshen", label:"Jacob's whole household enters Egypt", km:450, note:"After God's confirming word at Beersheba, Jacob's entire household of seventy travels down into Egypt in Pharaoh's wagons to settle in Goshen." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"God's word at Beersheba", av:"elder", desc:"At his last stop in Canaan, Jacob offers sacrifices and hears God confirm the journey: 'Do not be afraid to go down to Egypt... I will also bring you up again' (vv. 1-4)." },
+    { x:0.25, type:"object", label:"Pharaoh's wagons carry the family", desc:"Jacob's sons transport him, their wives, children, and all their goods to Egypt in the wagons Pharaoh provided (vv. 5-7)." },
+    { x:0.45, type:"person", label:"Seventy souls listed by name", av:"elder", desc:"A genealogy names Jacob's sons, grandsons, and a few granddaughters through each wife, totaling seventy persons entering Egypt (vv. 8-27)." },
+    { x:0.65, type:"person", label:"Judah sent ahead", av:"youth", desc:"Jacob sends Judah ahead to Joseph to guide the family's arrival in Goshen (v. 28)." },
+    { x:0.80, type:"person", label:"Joseph and Jacob reunited", av:"official", desc:"Joseph rides out in his chariot to meet his father, falls on his neck, and weeps a long while (vv. 29-30)." },
+    { x:0.92, type:"person", label:"Coached to claim Goshen", av:"official", desc:"Joseph instructs his brothers to tell Pharaoh they are shepherds, a trade Egyptians consider detestable, ensuring they are settled apart in Goshen (vv. 31-34)." }
+  ],
+  environment: {
+    chips: ["A last sacrifice at Beersheba", "God's own confirming word", "Seventy names entering Egypt", "Wagons loaded with a whole household", "A long-awaited embrace", "Goshen secured for shepherds"],
+    text: "The chapter traces the family's final leg from Beersheba, the southern edge of Canaan, down into Goshen in the Nile delta, framed at its start by God's direct promise and at its end by Joseph's practical wisdom in securing separate land for his family. The genealogy at its center, seventy names strong, marks the formal beginning of Israel's sojourn in Egypt that will eventually lead to the Exodus."
+  },
+  objectsExtra: [],
+  peopleExtra: [],
+  culture: [
+    { title:"Why stop at Beersheba", icon:"🙏",
+      text:"Beersheba, associated with Abraham's and Isaac's own worship (Gen 21:33; 26:23-25), is a fitting last stop in Canaan for Jacob to seek God's confirmation before leaving the promised land — echoing his grandfather's and father's own patterns of covenant renewal there." },
+    { title:"The genealogy of seventy", icon:"📜",
+      text:"The number seventy (sometimes seventy-five per Acts 7:14, following the Septuagint's additional descendants) represents the whole of Jacob's household as a symbolically complete number, marking the small seed from which the nation of Israel will grow in Egypt." },
+    { title:"Shepherds, 'an abomination to the Egyptians'", icon:"🐑",
+      text:"Joseph's coaching (v. 34) reflects genuine Egyptian cultural disdain for nomadic herders, a distaste that works in the family's favor, securing them Goshen's separate pastureland rather than assimilation into Egyptian cities." }
+  ],
+  crossRefs: [
+    { group:"God's covenant promises renewed", refs:[
+      { r:"Genesis 15:13-14", note:"God's earlier prediction to Abraham of Egyptian sojourn and eventual return" },
+      { r:"Genesis 28:15", note:"the same promise of divine presence given earlier to Jacob at Bethel" },
+      { r:"Exodus 1:7", note:"the seventy multiply into a great nation, as promised here" } ]},
+    { group:"The seventy counted again later", refs:[
+      { r:"Exodus 1:1-5", note:"the same genealogical count recalled at the start of Exodus" },
+      { r:"Deuteronomy 10:22", note:"'seventy persons' who went down to Egypt, now as numerous as the stars" },
+      { r:"Acts 7:14-15", note:"Stephen's speech recounts the same family history" } ]}
+  ]
+},
+
+/* ===== GENESIS 47 — Jacob before Pharaoh, and the Land-for-Grain Policy ===== */
+"1:47": {
+  era: { title: "Patriarchal age — Jacob settled in Goshen, Egypt reorganized", sub: "Jacob blesses Pharaoh; Joseph's famine policy reshapes Egyptian land tenure",
+    badges: ["Goshen formally granted", "Famine's harshest years", "Jacob's seventeen years in Egypt"] },
+  timeOfDay: "day",
+  summary: "Joseph presents five of his brothers and then Jacob himself to Pharaoh, who grants the family Goshen and even offers capable men positions over his own livestock (vv. 1-6). Jacob blesses Pharaoh and, asked his age, reflects that his 'few and evil' years number 130, less than his fathers' (vv. 7-10). Joseph settles his family in Goshen's best land and sustains them through the ongoing famine (vv. 11-12). As the famine deepens, Joseph systematically acquires all Egypt's money, then livestock, then land and the people themselves for Pharaoh in exchange for food, only sparing the priests' land; he then institutes a permanent fifth-share tax on the harvest, and the Egyptians gratefully accept becoming Pharaoh's servants in exchange for survival (vv. 13-26). Israel meanwhile prospers greatly in Goshen, multiplying for seventeen years until, sensing death approaching, Jacob makes Joseph swear to bury him not in Egypt but with his fathers in Canaan (vv. 27-31).",
+  focusPlace: "goshen",
+  places: [
+    { id:"goshen", role:"Where Jacob's family formally settles and prospers under Pharaoh's grant, multiplying over seventeen years (vv. 6, 11-12, 27)" },
+    { id:"egypt", role:"Where Joseph's famine policy reorganizes land ownership under Pharaoh across the wider country (vv. 13-26)" },
+    { id:"hebron", role:"Where Jacob's fathers are buried, and where he makes Joseph swear to bury him instead of in Egypt (v. 30)" }
+  ],
+  journey: [
+    { from:"goshen", to:"egypt", label:"Joseph presents his family to Pharaoh", km:100, note:"Joseph brings his brothers and then Jacob from Goshen to Pharaoh's court for formal presentation and the land grant, then returns them to settle permanently." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Brothers presented to Pharaoh", av:"king", desc:"Joseph presents five brothers, who are granted Goshen and offered charge of Pharaoh's own livestock (vv. 1-6)." },
+    { x:0.22, type:"person", label:"Jacob blesses Pharaoh", av:"elder", desc:"Jacob blesses Pharaoh and reflects that his 130 years have been 'few and evil' compared to his fathers' (vv. 7-10)." },
+    { x:0.38, type:"object", label:"Goshen settled and sustained", desc:"Joseph provides for his father's whole household in Goshen's best land throughout the ongoing famine (vv. 11-12)." },
+    { x:0.55, type:"object", label:"Money, livestock, then land acquired", desc:"As the famine worsens, Egyptians exchange first their money, then livestock, then land and themselves for grain, Joseph gathering it all for Pharaoh (vv. 13-21)." },
+    { x:0.72, type:"person", label:"The priests' land spared", av:"priest", desc:"Only the priests keep their land, since Pharaoh provides for them directly, and a permanent fifth-share tax is established across Egypt (vv. 22, 26)." },
+    { x:0.90, type:"person", label:"Jacob's oath for burial in Canaan", av:"elder", desc:"After seventeen years in Egypt, sensing death near, Jacob makes Joseph swear not to bury him in Egypt but with his fathers (vv. 29-31)." }
+  ],
+  environment: {
+    chips: ["Formal land grant in Goshen", "Jacob's blessing on Pharaoh", "Famine forcing Egypt to sell itself", "A permanent fifth-share tax", "Priests alone keeping their land", "Seventeen years, then a burial oath"],
+    text: "The chapter moves between Pharaoh's court, where Jacob's family receives formal royal favor, and the wider Egyptian countryside, where Joseph's famine administration permanently reshapes land ownership under Pharaoh. Against this backdrop of national upheaval, Jacob's family alone prospers securely in Goshen, and the chapter closes with Jacob's mind already turning toward his eventual burial back in the promised land."
+  },
+  objectsExtra: ["grain-storage"],
+  peopleExtra: [],
+  culture: [
+    { title:"Egyptian land tenure and the fifth-share tax", icon:"🏛️",
+      text:"Ancient Egyptian sources do attest to substantial crown ownership of agricultural land with tenant farmers paying a portion of produce, lending historical plausibility to Joseph's famine-driven reorganization, even if the story's specific scale is theologically emphasized." },
+    { title:"Priestly land exemption", icon:"⛩️",
+      text:"Egyptian temples and priesthoods historically held tax-exempt land grants directly from Pharaoh, matching the text's note that priests alone did not have to sell their land since they received a fixed allowance (v. 22)." },
+    { title:"'Few and evil' — Jacob's self-assessment", icon:"💭",
+      text:"Jacob's blunt reflection on his 130 hard years (v. 9) surveys a life marked by deception, exile, bereavement, and loss, offering a notably unsentimental patriarchal self-appraisal rather than a triumphant summary." }
+  ],
+  crossRefs: [
+    { group:"Israel's prosperity in Goshen", refs:[
+      { r:"Genesis 46:34", note:"Goshen secured earlier specifically for shepherds" },
+      { r:"Exodus 1:7", note:"the family's multiplication continues explosively after this" },
+      { r:"Psalm 105:23-24", note:"'Israel came into Egypt... and the LORD made his people very fruitful'" } ]},
+    { group:"Jacob's burial request", refs:[
+      { r:"Genesis 49:29-32", note:"Jacob repeats and expands the same burial instructions" },
+      { r:"Genesis 50:12-13", note:"the sons carry out the oath, burying him at Machpelah" },
+      { r:"Hebrews 11:21-22", note:"both Jacob's and Joseph's faith remembered regarding their burial wishes" } ]}
+  ]
+},
+
+/* ===== GENESIS 48 — Jacob Blesses Ephraim and Manasseh ===== */
+"1:48": {
+  era: { title: "Patriarchal age — Jacob's deathbed adoption and blessing", sub: "Crossed hands favor the younger son; Ephraim and Manasseh become tribes",
+    badges: ["Jacob near death in Goshen", "The younger blessed above the elder", "Two grandsons adopted as sons"] },
+  timeOfDay: "dusk",
+  summary: "Told his father is ill, Joseph brings his two sons, Manasseh and Ephraim, to Jacob's bedside; Jacob recalls God's promise to him at Luz (Bethel) and formally adopts the two boys as his own sons, equal in inheritance to Reuben and Simeon (vv. 1-7). Nearly blind, Jacob asks who the boys are, then blesses them, deliberately crossing his hands to lay his right hand on the younger Ephraim's head and his left on the firstborn Manasseh's, despite Joseph's attempt to correct him (vv. 8-14). Jacob blesses Joseph himself with a prayer invoking the God who had shepherded him all his life and the Angel who redeemed him from all harm, and insists to Joseph that he has acted knowingly, declaring that Ephraim's descendants will become greater than Manasseh's (vv. 15-20). Jacob then tells Joseph he will die soon, but that God will bring the family back to Canaan, giving Joseph an extra portion, a mountain slope he took from the Amorites (vv. 21-22).",
+  focusPlace: "goshen",
+  places: [
+    { id:"goshen", role:"Where the aged, near-blind Jacob blesses Joseph's two sons on his deathbed (vv. 1-22)" },
+    { id:"bethel", role:"Luz, where God first appeared to Jacob and made the promise he now recalls while adopting Ephraim and Manasseh (v. 3; Gen 28:19)" }
+  ],
+  journey: [
+    { from:"goshen", to:"goshen", label:"No travel — a deathbed scene", km:0, dashed:true, note:"The entire chapter takes place at Jacob's bedside in Goshen; the only movement is Joseph bringing his sons close for the blessing." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Manasseh and Ephraim adopted as sons", av:"elder", desc:"Recalling God's promise at Luz, Jacob formally adopts Joseph's two sons as his own, equal to Reuben and Simeon in inheritance (vv. 3-7)." },
+    { x:0.30, type:"person", label:"Nearly blind, Jacob asks who they are", av:"elder", desc:"His eyes dim with age, Jacob asks Joseph to identify the boys before blessing them (vv. 8-10)." },
+    { x:0.50, type:"person", label:"Hands deliberately crossed", av:"elder", desc:"Jacob crosses his hands to put his right hand on the younger Ephraim, despite Joseph's attempt to move it to Manasseh, the firstborn (vv. 13-14, 17-19)." },
+    { x:0.68, type:"person", label:"'The God who has been my shepherd'", av:"elder", desc:"Jacob blesses Joseph with a prayer recalling the God of Abraham and Isaac who shepherded him and the Angel who redeemed him from all harm (vv. 15-16)." },
+    { x:0.85, type:"person", label:"'He knew what he was doing'", av:"elder", desc:"Jacob insists to Joseph that crossing his hands was deliberate, prophesying that Ephraim's line will surpass Manasseh's (vv. 19-20)." },
+    { x:0.95, type:"object", label:"An extra portion promised", desc:"Jacob gives Joseph one mountain slope more than his brothers, taken from the Amorites, alongside the promise of return to Canaan (vv. 21-22)." }
+  ],
+  environment: {
+    chips: ["A deathbed blessing scene", "Two grandsons formally adopted", "Crossed hands, deliberately", "The younger favored again", "'The God who has been my shepherd'", "A promised return to Canaan"],
+    text: "Confined entirely to Jacob's bedside in Goshen, this quiet, intimate chapter carries enormous weight: the formal adoption of Manasseh and Ephraim gives Joseph a double portion among the tribes, and Jacob's deliberate crossing of his hands continues a pattern, stretching back through his own life, of God's blessing favoring the younger over the elder."
+  },
+  objectsExtra: [],
+  peopleExtra: ["manasseh", "ephraim"],
+  culture: [
+    { title:"Adoption granting a double portion", icon:"👨‍👩‍👦",
+      text:"By adopting Manasseh and Ephraim as his own sons rather than Joseph's grandsons, Jacob effectively gives Joseph's line a double share of the inheritance — two tribes instead of one — a customary way in the ancient world of honoring a favored son's descendants." },
+    { title:"The younger over the elder, again", icon:"🔄",
+      text:"Jacob's crossed-hands blessing of Ephraim over Manasseh repeats a recurring Genesis pattern — Isaac over Ishmael, Jacob over Esau — of God's chosen blessing bypassing simple birth order, this time enacted knowingly by Jacob himself." },
+    { title:"'The Angel who has redeemed me'", icon:"👼",
+      text:"Jacob's blessing (v. 16) uniquely names 'the Angel' alongside God as the one who redeemed him from harm, a phrase later read by many as an early hint of a divine figure distinct from yet identified with God, echoing Jacob's earlier encounters at Bethel and Peniel." }
+  ],
+  crossRefs: [
+    { group:"The younger blessed above the elder", refs:[
+      { r:"Genesis 25:23", note:"'the older shall serve the younger,' said of Esau and Jacob" },
+      { r:"Genesis 27:1-29", note:"Jacob's own blessing taken from his elder brother" },
+      { r:"Numbers 1:32-35", note:"Ephraim's tribe indeed grows larger than Manasseh's later" } ]},
+    { group:"Jacob's blessings recalled later", refs:[
+      { r:"Joshua 13:29-31; 17:1", note:"Manasseh and Ephraim receive tribal territories as promised here" },
+      { r:"Hebrews 11:21", note:"'by faith Jacob... blessed each of the sons of Joseph'" },
+      { r:"Genesis 49:22-26", note:"Joseph's own blessing continues this scene's themes" } ]}
+  ]
+},
+
+/* ===== GENESIS 49 — Jacob's Deathbed Blessings on the Twelve Sons ===== */
+"1:49": {
+  era: { title: "Patriarchal age — Jacob's final oracles over his twelve sons", sub: "A father's last words become tribal destinies, Judah's kingship foretold",
+    badges: ["Jacob's final words", "Twelve sons, twelve futures", "Judah's line marked for kingship"] },
+  timeOfDay: "dusk",
+  summary: "Gathering his twelve sons, Jacob delivers a series of poetic oracles describing what will befall each in 'days to come' (vv. 1-2). Reuben is rebuked and demoted for defiling his father's bed; Simeon and Levi are condemned together for their violence at Shechem, their descendants to be scattered in Israel (vv. 3-7). Judah is praised as a lion, destined to hold the scepter until 'Shiloh comes' and the nations obey him — the most extensive and messianically significant blessing (vv. 8-12). Zebulun, Issachar, Dan, Gad, Asher, and Naphtali each receive shorter oracles touching on geography, character, or fate, including Dan's image as a serpent that bites the horse's heels (vv. 13-21). Joseph receives an extensive blessing of fruitfulness and strength despite past hostility, and Benjamin is described as a ravenous wolf (vv. 22-27). The chapter closes with Jacob instructing his sons to bury him with his fathers in the cave of Machpelah at Hebron, then breathing his last (vv. 28-33).",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"The cave of Machpelah where Jacob instructs his sons to bury him, alongside Abraham, Sarah, Isaac, and Rebekah (vv. 29-32)" },
+    { id:"goshen", role:"Where Jacob gathers his sons and delivers his final blessings before dying (vv. 1-2, 33)" }
+  ],
+  journey: [
+    { from:"goshen", to:"hebron", dashed:true, label:"Jacob's burial instructions look homeward", km:450, note:"Jacob himself does not travel in this chapter, but his final words point his sons back toward Hebron, where he insists on being buried with his ancestors rather than in Egypt." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Reuben demoted", av:"youth", desc:"'Unstable as water, you shall not have preeminence' — Reuben's blessing recalls his defiling of Jacob's bed (Gen 35:22; 49:3-4)." },
+    { x:0.18, type:"person", label:"Simeon and Levi condemned together", av:"youth", desc:"Jacob curses their anger for the Shechem massacre, decreeing their descendants scattered within Israel (vv. 5-7)." },
+    { x:0.32, type:"person", label:"Judah, the lion and the scepter", av:"youth", desc:"Judah's brothers will praise him; the scepter will not depart from Judah 'until Shiloh comes,' the chapter's clearest messianic note (vv. 8-12)." },
+    { x:0.50, type:"person", label:"Dan, a serpent by the road", av:"youth", desc:"Dan will judge his people, pictured as a serpent that bites a horse's heels, unseating its rider (vv. 16-18)." },
+    { x:0.68, type:"person", label:"Joseph's fruitful bough", av:"official", desc:"Joseph is blessed as a fruitful bough by a spring, attacked yet unbroken by archers, blessed with 'blessings of heaven above' (vv. 22-26)." },
+    { x:0.85, type:"person", label:"Benjamin, a ravenous wolf", av:"youth", desc:"Benjamin's brief oracle pictures him devouring prey morning and evening (v. 27)." },
+    { x:0.95, type:"person", label:"Jacob's final instruction and death", av:"elder", desc:"Jacob commands burial at Machpelah with his fathers, then 'breathed his last and was gathered to his people' (vv. 29-33)." }
+  ],
+  environment: {
+    chips: ["Twelve sons, twelve futures foretold", "Reuben, Simeon, and Levi rebuked", "Judah's scepter and 'Shiloh'", "Animal imagery for character and fate", "Joseph's fruitful, unbroken bough", "A last command: bury me at Machpelah"],
+    text: "Spoken from Jacob's deathbed in Goshen, these oracles function as much as tribal prophecy as personal blessing, their poetic, often cryptic animal imagery (lion, serpent, wolf, deer, fruitful bough) foreshadowing each tribe's later territory and character. Judah's blessing towers over the rest in length and significance, planting the promise of an enduring royal line that later prophecy and the New Testament both trace toward the Messiah."
+  },
+  objectsExtra: ["machpelah-cave"],
+  peopleExtra: [],
+  culture: [
+    { title:"Poetic 'testament' blessings", icon:"📜",
+      text:"Jacob's oracles follow an ancient Near Eastern pattern of a dying patriarch's final testament, using terse poetic imagery rather than plain prose — a genre that appears again in Moses' blessing of the tribes in Deuteronomy 33." },
+    { title:"'Until Shiloh comes'", icon:"👑",
+      text:"The obscure phrase in Judah's blessing (v. 10) has been read variously as a place name, a title meaning 'the one to whom it belongs,' or a messianic reference; Jewish and Christian tradition alike has long connected it to a future ruler from Judah's line, ultimately fulfilled for Christians in Jesus." },
+    { title:"Blessings as tribal geography foretold", icon:"🗺️",
+      text:"Many of the oracles anticipate specific tribal territories and roles seen later in Joshua and Judges — Zebulun by the seacoast, Issachar's agricultural toil, Dan's mobile, serpent-like tactics — reading almost as a poetic preview of the tribes' settled national character." }
+  ],
+  crossRefs: [
+    { group:"Judah's scepter and the Messiah", refs:[
+      { r:"Numbers 24:17", note:"Balaam's oracle of a coming star and scepter from Jacob" },
+      { r:"2 Samuel 7:12-16", note:"David's line established as an everlasting kingship" },
+      { r:"Revelation 5:5", note:"Jesus called 'the Lion of the tribe of Judah'" } ]},
+    { group:"Jacob's burial completing his own oath", refs:[
+      { r:"Genesis 47:29-31", note:"Jacob's earlier oath to Joseph about his burial" },
+      { r:"Genesis 50:1-14", note:"the sons carry out the burial at Machpelah in the next chapter" },
+      { r:"Genesis 23:17-20", note:"Abraham's original purchase of the cave of Machpelah" } ]}
+  ]
+},
+
+/* ===== GENESIS 50 — Jacob's Burial and Joseph's Death ===== */
+"1:50": {
+  era: { title: "Patriarchal age — Jacob's burial at Machpelah, and Joseph's own death", sub: "Egyptian mourning rites, final reassurance to the brothers, and a coffin awaiting the Exodus",
+    badges: ["A great Egyptian mourning procession", "'You meant evil... God meant it for good'", "Joseph's bones await the Exodus"] },
+  timeOfDay: "day",
+  summary: "Joseph weeps over his father's body and orders him embalmed in the Egyptian manner, a process taking forty days, followed by seventy days of mourning (vv. 1-3). With Pharaoh's permission, a great procession of Egyptian officials and Jacob's household travels to Canaan, where they mourn seven days at the threshing floor of Atad before burying Jacob in the cave of Machpelah at Hebron, as he had instructed (vv. 4-14). After their father's death the brothers fear Joseph will now take revenge, and send word begging forgiveness; Joseph weeps at their fear and reassures them fully: 'you meant evil against me, but God meant it for good,' and he provides for them and their children (vv. 15-21). Joseph lives to see his own great-grandchildren through Ephraim's and Manasseh's lines, and before dying at 110 he makes his brothers swear that when God eventually brings Israel out of Egypt, they will carry his bones with them; he is then embalmed and placed in a coffin in Egypt (vv. 22-26).",
+  focusPlace: "hebron",
+  places: [
+    { id:"egypt", role:"Where Jacob's embalming, mourning, and Joseph's own later death and embalming take place (vv. 1-3, 22-26)" },
+    { id:"hebron", role:"The cave of Machpelah where the great funeral procession finally buries Jacob with his ancestors (vv. 7-14)" }
+  ],
+  journey: [
+    { from:"egypt", to:"hebron", label:"The great funeral procession", km:400, note:"A vast company of Egyptian officials and Jacob's family carries his embalmed body from Egypt to bury him in the cave of Machpelah, then returns to Egypt." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"Jacob embalmed, forty days", desc:"Joseph orders his father embalmed in the Egyptian manner, a process taking forty days, with seventy days of national mourning (vv. 1-3)." },
+    { x:0.22, type:"person", label:"A great procession to Canaan", av:"official", desc:"Pharaoh's officials and Jacob's household together carry the body to Canaan, mourning seven days at the threshing floor of Atad (vv. 7-11)." },
+    { x:0.38, type:"object", label:"Burial at Machpelah", desc:"Jacob is buried in the cave his grandfather Abraham purchased, alongside Abraham, Sarah, Isaac, and Rebekah (vv. 12-13)." },
+    { x:0.55, type:"person", label:"The brothers' fear and plea", av:"youth", desc:"After Jacob's death the brothers fear reprisal and beg Joseph's forgiveness, falling before him as servants (vv. 15-18)." },
+    { x:0.72, type:"person", label:"'You meant evil... God meant it for good'", av:"official", desc:"Joseph weeps at their fear and fully reassures them, framing the whole story as God's providence to save many lives (vv. 19-21)." },
+    { x:0.92, type:"object", label:"Joseph's death and coffin", desc:"Joseph lives to 110, sees his great-grandchildren, makes his brothers swear to carry his bones out of Egypt one day, and is embalmed and placed in a coffin (vv. 22-26)." }
+  ],
+  environment: {
+    chips: ["Forty days of embalming", "A vast Egyptian-Hebrew funeral procession", "Burial at Machpelah, as promised", "The brothers' lingering fear", "'God meant it for good'", "A coffin in Egypt, awaiting the Exodus"],
+    text: "The chapter closes the whole book of Genesis by moving from Egypt's mourning rites to Machpelah's ancestral cave and back again, framing Jacob's honored burial and Joseph's own peaceful death within the same land where Israel's story will soon turn to slavery. Joseph's dying instruction to carry his bones out one day (v. 25) leaves Genesis ending not in finality but in forward-looking hope, fulfilled centuries later at the Exodus (Ex 13:19)."
+  },
+  objectsExtra: ["embalming-coffin", "machpelah-cave"],
+  peopleExtra: [],
+  culture: [
+    { title:"Egyptian embalming practice", icon:"⚰️",
+      text:"The forty-day embalming period and seventy days of mourning (v. 3) closely match known Egyptian mummification and national mourning customs, lending historical texture to Jacob's honored treatment as the father of a high Egyptian official." },
+    { title:"A joint Egyptian-Hebrew funeral", icon:"🚶",
+      text:"The description of chariots, horsemen, and 'a very great company' (v. 9) accompanying the family to Canaan reflects the genuine honor Pharaoh's court extended to Joseph, and the mourning at the threshing floor of Atad was memorable enough that Canaanites renamed the site 'Abel-mizraim,' 'mourning of Egypt' (v. 11)." },
+    { title:"Joseph's bones and the Exodus", icon:"🦴",
+      text:"Joseph's dying oath (v. 25) is fulfilled centuries later when Moses carries his bones out of Egypt (Ex 13:19) and Joshua finally buries them at Shechem (Josh 24:32) — a small but deliberate thread tying Genesis's ending directly to Israel's national deliverance." }
+  ],
+  crossRefs: [
+    { group:"Providence over betrayal, restated", refs:[
+      { r:"Genesis 45:5-8", note:"Joseph's earlier statement of the same providential theme" },
+      { r:"Romans 8:28", note:"'all things work together for good' echoes Joseph's words" },
+      { r:"Acts 7:9-10", note:"Stephen's summary of God's hand throughout Joseph's life" } ]},
+    { group:"Joseph's bones and the Exodus fulfilled", refs:[
+      { r:"Exodus 13:19", note:"Moses carries Joseph's bones out of Egypt as sworn" },
+      { r:"Joshua 24:32", note:"Joseph's bones finally buried at Shechem in the promised land" },
+      { r:"Hebrews 11:22", note:"Joseph remembered for this very act of faith regarding his bones" } ]}
+  ]
 }
+
+
 };

@@ -166,7 +166,19 @@ function check(name, cond, extra) {
     "2 Samuel 1|10:1", "2 Samuel 2|10:2", "2 Samuel 3|10:3", "2 Samuel 4|10:4", "2 Samuel 5|10:5", "2 Samuel 6|10:6", "2 Samuel 7|10:7",
     "2 Samuel 8|10:8", "2 Samuel 9|10:9", "2 Samuel 10|10:10", "2 Samuel 11|10:11", "2 Samuel 12|10:12", "2 Samuel 15|10:15", "2 Samuel 18|10:18",
     "2 Samuel 24|10:24",
-    "Genesis 1|1:1", "Genesis 2|1:2", "Genesis 3|1:3"];
+    "Genesis 1|1:1", "Genesis 2|1:2", "Genesis 3|1:3",
+    "Genesis 4|1:4", "Genesis 5|1:5", "Genesis 6|1:6", "Genesis 7|1:7",
+    "Genesis 8|1:8", "Genesis 9|1:9", "Genesis 10|1:10", "Genesis 11|1:11",
+    "Genesis 12|1:12", "Genesis 13|1:13", "Genesis 14|1:14", "Genesis 15|1:15",
+    "Genesis 16|1:16", "Genesis 17|1:17", "Genesis 18|1:18", "Genesis 19|1:19",
+    "Genesis 20|1:20", "Genesis 21|1:21", "Genesis 22|1:22", "Genesis 23|1:23",
+    "Genesis 24|1:24", "Genesis 25|1:25", "Genesis 26|1:26", "Genesis 27|1:27",
+    "Genesis 28|1:28", "Genesis 29|1:29", "Genesis 30|1:30", "Genesis 31|1:31",
+    "Genesis 32|1:32", "Genesis 33|1:33", "Genesis 34|1:34", "Genesis 35|1:35", "Genesis 36|1:36",
+    "Genesis 37|1:37", "Genesis 38|1:38", "Genesis 39|1:39", "Genesis 40|1:40",
+    "Genesis 41|1:41", "Genesis 42|1:42", "Genesis 43|1:43", "Genesis 44|1:44",
+    "Genesis 45|1:45", "Genesis 46|1:46", "Genesis 47|1:47", "Genesis 48|1:48",
+    "Genesis 49|1:49", "Genesis 50|1:50"];
   for (const entry of CURATED_SWEEP) {
     const [ref, key] = entry.split("|");
     console.log(`== curated pipeline: ${ref} ==`);
