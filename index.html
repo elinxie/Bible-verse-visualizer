@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bible Passage Visualizer — Maps, Ancient Views &amp; Study Context</title>
+<meta name="description" content="Enter any Bible passage and explore a map of its places, period-accurate street-level scenes, people, objects, cultural context and cross-references.">
+<link rel="stylesheet" href="js/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>🗺️</text></svg>">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <span class="brand-icon">📜</span>
+    <div>
+      <h1>Bible Passage Visualizer</h1>
+      <p class="tagline">Maps · period street-views · people &amp; objects · cultural context</p>
+    </div>
+  </div>
+  <form id="passage-form" class="passage-form" autocomplete="off">
+    <input id="passage-input" type="text" placeholder="e.g. 1 Samuel 28, John 4:1-26, Acts 27…"
+           value="1 Samuel 28" aria-label="Bible passage reference">
+    <button type="submit" id="go-btn">Visualize</button>
+  </form>
+  <div class="quick-links" id="quick-links">
+    <span>Try:</span>
+    <button data-ref="1 Samuel 28">1 Samuel 28</button>
+    <button data-ref="Luke 2:1-20">Luke 2:1-20</button>
+    <button data-ref="Acts 27">Acts 27</button>
+    <button data-ref="John 4:1-26">John 4</button>
+    <button data-ref="Exodus 14">Exodus 14</button>
+    <button id="coverage-btn" class="coverage-btn" data-coverage-toggle>📊 Coverage</button>
+  </div>
+</header>
+
+<div id="era-banner" class="era-banner hidden">
+  <div class="era-main">
+    <span class="era-icon">🕰️</span>
+    <div>
+      <div id="era-title" class="era-title"></div>
+      <div id="era-sub" class="era-sub"></div>
+    </div>
+  </div>
+  <div id="era-badges" class="era-badges"></div>
+</div>
+
+<div id="status-bar" class="status-bar hidden"></div>
+
+<section id="coverage" class="coverage-panel hidden" aria-label="Bible coverage progress"></section>
+
+<main id="main" class="main-grid hidden">
+
+  <!-- LEFT: scripture text -->
+  <section class="panel text-panel">
+    <div class="panel-head">
+      <h2 id="text-title">Passage</h2>
+      <span id="text-source" class="source-badge"></span>
+    </div>
+    <div id="verses" class="verses" aria-live="polite"></div>
+    <p class="hint">Highlighted <span class="demo-place">places</span>, <span class="demo-person">people</span> and <span class="demo-object">objects</span> are clickable.</p>
+  </section>
+
+  <!-- RIGHT: map + ancient view -->
+  <section class="panel map-panel">
+    <div class="panel-head">
+      <h2>Map &amp; Route</h2>
+      <span class="panel-note" id="map-note"></span>
+    </div>
+    <div id="map"></div>
+    <div id="journey-list" class="journey-list"></div>
+  </section>
+
+  <section class="panel scene-panel">
+    <div class="panel-head">
+      <h2 id="scene-title">Ancient Street View</h2>
+      <div class="scene-controls">
+        <select id="scene-place-select" aria-label="Choose place to view"></select>
+      </div>
+    </div>
+    <div id="scene-wrap" class="scene-wrap">
+      <div id="scene-viewport" class="scene-viewport"></div>
+      <div class="scene-caption" id="scene-caption"></div>
+      <div class="scene-drag-hint">⟵ drag to look around ⟶</div>
+    </div>
+    <div id="scene-hotspot-card" class="hotspot-card hidden"></div>
+  </section>
+
+  <section class="panel streetview-panel">
+    <div class="panel-head">
+      <h2>📍 Present-Day Street View</h2>
+      <div class="scene-controls">
+        <select id="streetview-place-select" aria-label="Choose place for present-day street view"></select>
+      </div>
+    </div>
+    <div id="streetview-wrap" class="streetview-wrap"></div>
+  </section>
+
+  <!-- BOTTOM: study tabs -->
+  <section class="panel chat-panel" aria-label="Ask questions about this passage">
+    <div class="panel-head">
+      <h2>💬 Ask About This Passage</h2>
+      <span class="panel-note">Bible context + trusted web</span>
+    </div>
+    <div id="chat-log" class="chat-log" aria-live="polite"></div>
+    <form id="chat-form" class="chat-form" autocomplete="off">
+      <label class="sr-only" for="chat-question">Ask a question about this passage</label>
+      <textarea id="chat-question" rows="3" placeholder="What is happening here? Why is this place important?"></textarea>
+      <button id="chat-send" type="submit">Ask</button>
+    </form>
+    <p class="chat-disclaimer">Answers are generated study aids checked against the supplied passage, Bible context, and trusted web sources when needed. Always compare with the scripture text shown.</p>
+  </section>
+
+  <section class="panel tabs-panel">
+    <nav class="tabs" id="tabs" role="tablist">
+      <button class="tab active" data-tab="setting" role="tab">🏞️ Setting &amp; Environment</button>
+      <button class="tab" data-tab="people" role="tab">🧍 People &amp; Objects</button>
+      <button class="tab" data-tab="culture" role="tab">🏺 Cultural &amp; Archaeological Context</button>
+      <button class="tab" data-tab="crossrefs" role="tab">🔗 Related Verses</button>
+      <button class="tab" data-tab="analyses" role="tab">⚖️ Analyses Compared</button>
+    </nav>
+    <div id="tab-setting" class="tab-body active"></div>
+    <div id="tab-people" class="tab-body"></div>
+    <div id="tab-culture" class="tab-body"></div>
+    <div id="tab-crossrefs" class="tab-body"></div>
+    <div id="tab-analyses" class="tab-body"></div>
+  </section>
+
+</main>
+
+<div id="welcome" class="welcome">
+  <h2>Step into the world of the text</h2>
+  <p>Type a passage above (book + chapter, optionally verses) and press <b>Visualize</b>.</p>
+  <p><button class="welcome-coverage" data-coverage-toggle>📊 See how much of the Bible is covered so far</button></p>
+</div>
+
+<footer class="site-footer">
+  <p>Scripture: ESV via <a href="https://bolls.life" target="_blank" rel="noopener">bolls.life</a> (fallback: WEB via bible-api.com).
+     Maps © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.
+     Ancient views are illustrative reconstructions generated from historical &amp; archaeological data — artistic impressions, not photographs.</p>
+</footer>
+
+<script src="js/vendor/leaflet/leaflet.js"></script>
+<script src="js/data/books.js"></script>
+<script src="js/data/places.js"></script>
+<script src="js/data/people.js"></script>
+<script src="js/data/objects.js"></script>
+<script src="js/data/curated.js"></script>
+<script src="js/refparse.js"></script>
+<script src="js/bibletext.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/streetview.js"></script>
+<script src="js/map.js"></script>
+<script src="js/panels.js"></script>
+<script src="js/coverage.js"></script>
+<script>
+  window.BVV_CHAT_ENDPOINT = "https://bible-verse-visualizer-chat.ericlinxie.workers.dev";
+</script>
+<script src="js/chat.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

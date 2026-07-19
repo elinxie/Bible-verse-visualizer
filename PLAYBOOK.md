@@ -1,0 +1,221 @@
+# Continuation Playbook — autonomous loop + agent team
+
+The site is **live**: https://elinxie.github.io/Bible-verse-visualizer/
+This doc is the working memory for the autonomous build loop. The
+orchestrator session and every worker agent must read it before working and
+update the **Ledger** after shipping.
+
+## Mission & definition of done
+
+"The whole Bible detailed and viewable from anywhere" means, concretely:
+
+- **Tier 0 — universal function (DONE):** all 1,189 chapters render via the
+  automatic pipeline (ESV text, place/people/object detection, map, period
+  scene, tabs) on the public site.
+- **Tier 1 — key-chapter curation:** every book has its narrative/study key
+  chapters curated at M depth or better (target list in the Ledger, ~150
+  chapters; 1 Samuel 28 is the L-depth reference implementation).
+- **Tier 2 — dataset completeness:** gazetteer ≥ 200 places (all mappable
+  names that occur in narrative books), people ≥ 120, objects ≥ 60; detection
+  false-positive free on the test corpus.
+- **Tier 3 — quality gates:** deterministic Playwright suite green in CI on
+  every PR; Pages deploy verified 200 after every merge.
+
+Done = Tiers 1–3 complete. Work proceeds loop-iteration by loop-iteration
+until then (or until the user says stop — obey immediately).
+
+## ⚠️ Incident post-mortem (2026-07-03) — READ BEFORE ANY WORK
+
+**What happened:** during loop iteration 4 the account hit its **monthly
+spend limit**; the curation agent for 1 Sam 8–10 was killed mid-run and the
+loop had to be stopped by the user.
+
+**Why the spend limit was hit (ranked by cost):**
+1. **One giant session.** The app build, deploy debugging, and all loop
+   iterations ran in a single conversation. Every wake-up re-billed the
+   entire (huge) context, and because gaps between turns exceeded the
+   ~5-minute prompt-cache window, most re-reads were billed **uncached**.
+   Cost compounded every iteration.
+2. **Polling and babysitting.** Dozens of timer wake-ups watching CI and
+   retrying the flaky GitHub Pages backend, each one re-billing the full
+   context; several GitHub API responses added 30–60KB each of permanent
+   context.
+3. **Premium orchestrator model** multiplying (1) and (2). The Sonnet worker
+   agents were cheap (~70–100K tokens each); they were NOT the problem.
+4. **Cap-type mismatch:** back-off logic assumed rolling 5-hour/weekly limits
+   that refresh on their own. A monthly cap does not — waiting cannot fix it.
+
+**Why jobs failed along the way (for the record):**
+- `configure-pages` enablement → workflow tokens cannot create a Pages site
+  (fixed: gh-pages publish + user enabled Pages once in Settings).
+- "pages build and deployment" → known GitHub backend flake
+  (actions/deploy-pages#406/#418); fresh deployments succeed where retries of
+  the same run often don't. A failed rotation never breaks the live site —
+  it keeps serving the previous version.
+- Iteration-4 agent → killed by the monthly spend cap, not by a bug.
+
+## 🛑 Hard spend guardrails (aggressive — these override everything below)
+
+1. **One iteration per session, then STOP.** Ship one batch, update the
+   Ledger, tell the user to start a fresh session with the per-session
+   prompt. Never chain iterations inside one conversation — fresh sessions
+   carry ~2% of a long session's context cost.
+2. **Chat-freshness reminders are mandatory.** At session start and roughly
+   every 45 minutes of active work: if the conversation has grown long
+   (many tool results, several timers fired, or work has pivoted), SAY SO —
+   "this chat is now burning budget on context; switch to a new session with
+   the PLAYBOOK prompt" — and wind down.
+3. **Short-circuit on the first limit signal.** Any rate/spend-limit error
+   anywhere (orchestrator call, agent failure message, API 429): immediately
+   (a) stop spawning agents, (b) commit + push whatever is green, (c) write
+   the Ledger row, (d) STOP the loop with a clear note to the user. Do NOT
+   schedule wake-ups against a monthly cap — only the user can lift it
+   (claude.ai/settings/usage). Losing an unfinished batch is fine; work is
+   designed to be resumable.
+4. **No babysitting, no polling.** One CI status check per ship, maximum.
+   Never sleep-poll CI or the Pages backend. Pages flake → at most ONE
+   retry, then leave it: the next merge rotates it, and the site never goes
+   down. Use `minimal_output`/pagination on GitHub API calls.
+5. **≤1 agent per iteration, sonnet only,** unless the user explicitly asks
+   for more. Before every spawn ask: "can the orchestrator do this with
+   fewer total tokens than briefing an agent?" If yes, don't spawn.
+6. **Prefer a cheaper orchestrator.** When the user starts a resume session,
+   suggest running it on a mid-tier model; curation quality lives in the
+   data-file specs, not the orchestrator's model class.
+7. **Budget sanity-check at iteration start.** Estimate: context size ×
+   expected turns + one agent. If the session already feels heavy, do a
+   smaller batch or just ship what exists.
+
+## Budget model (rate limits = payroll)
+
+The orchestrator + agents share the user's Claude usage limits (5-hour
+rolling window + weekly cap). Treat every agent spawn as paid labor:
+
+1. **Per iteration spend cap:** at most **2 worker-agent runs** plus the
+   orchestrator's own integration/test/ship work. Prefer **1 agent doing a
+   well-scoped batch** (e.g. "curate these 3 chapters") over many small runs.
+2. **Model = pay grade:** `sonnet` for data curation, tests, routine fixes
+   (the default). `fable`/opus-class only for architecture or a bug two
+   sonnet attempts failed to fix. Never spawn an agent for work the
+   orchestrator can do in fewer tokens itself.
+3. **Scoped prompts save budget:** every agent prompt must name the exact
+   files to read (this file + the specific `js/data/*.js` sections) and
+   forbid repo-wide exploration.
+4. **Back-off rule:** on any rate-limit error, or if agents start failing/
+   timing out, STOP spawning, commit whatever is complete and green, push,
+   and schedule the next wake-up at the maximum interval (1 hour) repeatedly
+   until capacity returns. Ship partial batches rather than losing them.
+5. **Ledger discipline:** every iteration appends one Ledger row (date,
+   scope, agents used, outcome). That row is how the next iteration knows
+   where to resume without re-reading the repo.
+
+## Iteration recipe (what one loop turn does)
+
+1. `git fetch origin main && git checkout -B claude/bible-passage-map-viz-r17fur origin/main`
+   (the working branch always restarts from main; PRs merge back to main).
+2. Pick the next unchecked batch from the Ledger roadmap (2–4 chapters, or
+   one feature+tests), checking the **Feature backlog** table for any open
+   GitHub issue slotted ahead of the next curation batch. Small enough to
+   finish in one iteration.
+3. Spawn ≤2 agents (see Budget). Typical split:
+   - **ENG (sonnet):** write the curated entries / dataset additions,
+     following the `9:28` entry in `js/data/curated.js` as schema reference.
+   - **QA (sonnet, only when logic changed):** extend `tests/` and hunt
+     regressions with a different approach than ENG (fresh fixtures, edge
+     references, mobile viewport).
+4. Orchestrator integrates, runs `node tests/smoke.js` locally (deterministic,
+   offline — uses fixtures), fixes or reverts anything red.
+5. Commit (`curate: <refs>` / `feat: …` / `test: …`), push, open PR, verify
+   the `deploy`+`verify` checks, **merge into main** (pre-authorized by the
+   user), confirm the "pages build and deployment" run succeeds — if it fails
+   with "Deployment failed, try again later", re-run it (known flake:
+   actions/deploy-pages#406/#418; up to 3 retries, spaced).
+6. Update the Ledger + tick the roadmap, include it in the commit (or a
+   follow-up commit in the same PR when discovered later).
+7. Schedule the next wake-up (20–30 min normal; 60 min repeatedly when
+   budget-constrained per Back-off rule).
+
+## Architecture invariants — don't break these
+
+1. Static site, no build step; plain HTML/CSS/JS. Deploy = merge to main.
+2. Expansion is **data, not code**: append to `js/data/*.js`. Code changes
+   only for features, with tests.
+3. Every chapter must keep working via the auto pipeline; curation only adds
+   depth. Never gate function on curation.
+4. ESV text is fetched at runtime (bolls.life, 8s timeout) with WEB fallback;
+   deploy-time snapshots live only on the `gh-pages` branch artifact. Never
+   hand-commit scripture text to main. Test fixtures (`tests/fixtures/`) are
+   paraphrase stand-ins, clearly not scripture, used offline only.
+5. Scene renderer stays deterministic (seeded per place id).
+6. Curated-entry schema = the `"9:28"` object in `js/data/curated.js`.
+   New places need: coords at the accepted site, `ancient` ("as it was
+   then") note, and a `scene` recipe.
+
+## Testing (deterministic, offline)
+
+- `tests/smoke.js` — Playwright (Chromium at `/opt/pw-browsers/...` in the
+  sandbox, or `npx playwright install chromium` elsewhere): starts a local
+  static server, copies `tests/fixtures/*.json` to `data/embedded/`, and
+  asserts: app boot, curated chapter (1 Sam 28: markers/journey/hotspots/all
+  tabs), auto chapter (1 Sam 17 fixture), verse-range dimming, no console
+  errors. Run: `node tests/smoke.js` (needs `npm i playwright` once,
+  anywhere on disk — see file header).
+- Add one fixture + assertions per newly curated chapter batch (QA agent).
+- Live-site validation stays in CI (`verify` job polls the URL post-deploy).
+
+## Deploy facts
+
+- **Live URL:** https://elinxie.github.io/Bible-verse-visualizer/
+- Pages source: **main branch** (user-configured). Every merge to main
+  triggers GitHub's "pages build and deployment" — watch it; retry on the
+  known flake. The repo's own workflow also maintains `gh-pages` (with ESV
+  snapshots) as a ready alternative source; never develop on `gh-pages`.
+- Dev branch: `claude/bible-passage-map-viz-r17fur` → PR → merge to main.
+
+## Ledger
+
+### Iteration log
+| # | When (UTC) | Scope | Agents | Outcome |
+|---|------------|-------|--------|---------|
+| 0 | 2026-07-02/03 | Core app, 1 Sam 28 (L), Luke 2/Acts 27/John 4/Exod 14 (M), deploy pipeline, site LIVE | none (orchestrator only) | ✅ merged PR #1, site serving |
+| 1 | 2026-07-03 | Loop bootstrap: this doc rewritten for agent team; tests/smoke.js (32 offline assertions, PASS); curated 1 Sam 17 (L) + 31 (M); places +socoh +azekah | 1× sonnet ENG (curation) | ✅ shipped, deploy verified |
+| 2 | 2026-07-03 | Curated 1 Sam 3, 15, 16 (M); place +amalek; test sweep generalized (47 assertions, PASS); fixtures 9-3/15/16 | 1× sonnet ENG (curation) | ✅ merged (#3); Pages rotation flaked 3× — superseded by iter 3's deploy |
+| 3 | 2026-07-03 | Curated 1 Sam 4, 5, 6 (M, ark narrative); place +ebenezer; fixtures 9-4/5/6 (65 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped, deploy verified live |
+| 4 | 2026-07-03 | 1 Sam 8–10 batch ABORTED — monthly spend limit hit mid-agent; fixtures 9-8/9/10 committed as prep; post-mortem + spend guardrails written | 1× sonnet ENG (killed) | 🛑 loop stopped by user; resume here |
+| 5 | 2026-07-04 | Curated 1 Sam 8, 9, 10 (M) using the prepped fixtures; sweep entries `"1 Samuel 8\|9:8"`, `"9\|9:9"`, `"10\|9:10"` added to tests/smoke.js (87 assertions, PASS); no new places/people/objects needed (fully reused beersheba/ramah/gibeah/bethel/gilgal/mizpah) | 1× sonnet ENG (curation) | ✅ shipped per Hard spend guardrails (one iteration, then stop) |
+| 6 | 2026-07-03 | On-page coverage panel (`js/coverage.js` + 📊 buttons): per-book/per-chapter grid computed live from `BVV.CURATED`/datasets, stat cards vs Tier 1–2 targets; +8 smoke assertions (PASS) | none (orchestrator only) | ✅ shipped |
+| 7 | 2026-07-05 | GitHub issue #7 shipped: `meaning` field ("<Hebrew/Greek> — '<English gloss>'") added to the 48 `BVV.PLACES` entries used by curated chapters (all of 1 Sam 28/17/31/3/4-6/8-10/15/16, Luke 2, Acts 27); surfaced via new `.place-meaning` line in both the setting-tab place card (`js/panels.js`) and the map hotspot popup (`js/map.js`), styled in `css/style.css`; +1 smoke assertion (Bethlehem "house of bread" renders in 1 Sam 17's place card) — 88 assertions, PASS | none (orchestrator only) | ✅ shipped |
+| 8 | 2026-07-06 | Re-scanned all GitHub issues (only #7 exists; already closed/shipped in iteration 7 — nothing new to slot). Curated 1 Sam 24 (En-gedi cave, M) + 1 Sam 25 (Nabal/Abigail, M) — finishes the 1 Samuel key-chapter list; new person `nabal`, new object `wineskin`, `meaning` field top-up on `engedi`/`ziph`/`maon` (rode along per the issue #7 rule of thumb); fixtures 9-24/9-25; sweep entries added (100 assertions, PASS) | none (orchestrator only) | ✅ shipped |
+| 9 | 2026-07-07 | Re-scanned all GitHub issues (only #7 exists, still closed/already shipped — nothing new to slot). Curated 2 Sam 1 (Amalekite messenger / Song of the Bow, M) + 2 Sam 5 (anointed king over all Israel, capture of Jerusalem, Baal-perazim, M); new place `baal-perazim`, new people `amalekite-messenger`/`jebusites`, `meaning` top-up on `hebron`; fixtures 10-1/10-5; sweep entries added (120 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped |
+| 10 | 2026-07-09 | Completed 1 Samuel 31: promoted M→L depth by adding the `analyses` block (consensus/debated/sources) to `js/data/curated.js` "9:31", matching the 28/17 schema — covers Saul's suicide vs. the Amalekite's account (2 Sam 1), the Ashtaroth/Dagon temple discrepancy (1 Chr 10:10), and the cremation-before-burial question (v. 12); also completed the offline test fixture `tests/fixtures/9-31.json`, which was missing verses 5–7 (10/13 → 13/13). Smoke suite green (120 assertions incl. "deep cells match analyses entries") | none (orchestrator only) | ✅ shipped |
+| 11 | 2026-07-09 | Re-scanned all GitHub issues (only #7 exists, still closed/already shipped — nothing new to slot). Curated 2 Sam 6 (ark to Jerusalem: Uzzah's death, Obed-edom, David's dance, Michal's contempt, M) + 2 Sam 7 (Nathan's oracle / Davidic covenant, M); new place `kiriath-jearim`; new people `uzzah`, `michal`, `nathan`; reused existing `ark-covenant`/`ephod`/`tabernacle` objects; fixtures 10-6/10-7; sweep entries added (132 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped |
+| 12 | 2026-07-10 | Re-scanned all GitHub issues (only #7 exists, still closed/already shipped — nothing new to slot). Curated 2 Sam 11 (David, Bathsheba, Uriah's death at the Rabbah siege, M) + 2 Sam 12 (Nathan's rebuke, the child's death, Solomon's birth, Rabbah's fall, M); new people `bathsheba`, `uriah`, `joab`; new object `ewe-lamb`; reused existing `jerusalem`/`rabbah` places; fixtures 10-11/10-12; sweep entries added (144 assertions, PASS) | 1× sonnet ENG (curation) | ✅ shipped |
+| 13 | 2026-07-13 | Re-scanned all GitHub issues (only #7 exists, total across open+closed — still closed/already shipped in iteration 7 — nothing new to slot). Curated 2 Sam 15 (Absalom's conspiracy from Hebron, David's flight over the Kidron/Mount of Olives, Ittai's loyalty, the ark sent back, Hushai vs. Ahithophel, M) + 2 Sam 18 (battle in the forest of Ephraim, Absalom caught by his hair, Joab's killing him against David's order, the Cushite/Ahimaaz race, "O Absalom, my son, my son!", M); new places `ephraim-forest`, `geshur` (reused `jerusalem`/`hebron`/`olives`/`mahanaim`); new people `absalom`, `ahithophel`, `hushai`, `ittai`, `zadok`, `abiathar`, `ahimaaz`, `cushite-messenger`; new objects `mule`, `absalom-pillar`; fixtures 10-15/10-18; sweep entries added — smoke suite green | 1× sonnet ENG (curation) | ✅ shipped |
+| 14 | 2026-07-14 | Curated 2 Sam 24 (M) — David's census via Joab, David's remorse, Gad's three-option judgment, the plague and the angel stayed at Araunah's threshing floor, David buying the site and oxen at full price, the altar that stops the plague; finishes the 2 Samuel key-chapter list. New people `gad` (David's seer, first appearing 1 Sam 22:5) and `araunah` (the Jebusite landowner, "Ornan" in 1 Chron 21); no new places (reused `jerusalem`, `dan`, `beersheba`) and no new objects (reused existing `altar`/`threshing`/`yoke`); fixture `tests/fixtures/10-24.json` (25/25 verses); sweep entry `"2 Samuel 24\|10:24"` added — 162 assertions, PASS, no regressions | 1× sonnet ENG (curation) | ✅ shipped |
+| 15 | 2026-07-15 | Re-scanned all GitHub issues (only #7 exists, total across open+closed — still closed/already shipped in iteration 7 — nothing new to slot). Curated Genesis 1 (six days of creation, M), Genesis 2 (Eden's four rivers, Adam naming the animals, Eve formed, "one flesh," M), Genesis 3 (the serpent's temptation, the fall, the curses, the protoevangelium of 3:15, expulsion from Eden, M) — first batch of the "Then" roadmap after 2 Samuel. New place `eden` (approximate southern-Mesopotamia site, disputed/possibly symbolic — noted as such); new objects `tree-of-life`, `tree-of-knowledge`, `serpent`, `fig-leaves`, `skins-garment`, `eden-rivers`, `cherub-flaming-sword`; reused existing people `adam`/`eve` (no new people) and existing places `babylon`/`nineveh` as thematic/river-geography map markers; fixtures 1-1/1-2/1-3; sweep entries `"Genesis 1\|1:1"`, `"Genesis 2\|1:2"`, `"Genesis 3\|1:3"` added | 1× sonnet ENG (curation) | ✅ shipped |
+| 16 | 2026-07-16 | User asked to "finish off 2nd Samuel" beyond the original 8-chapter key list — curated 2 Sam 2 (David anointed king over Judah at Hebron, Abner crowns Ish-bosheth at Mahanaim, the twelve-on-twelve duel at Gibeon's pool, Asahel's death, M) + 2 Sam 3 (David's six sons born at Hebron, Abner's break with Ish-bosheth over Rizpah, his defection to David, Michal reclaimed from Paltiel, Joab's murder of Abner at Hebron's gate, David's public mourning, M) — fills the gap between chs. 1 and 5; new people `ishbosheth`, `asahel`, `abishai` (also expanded the existing terse `abner` entry into a full bio, replacing the duplicate); `meaning` field top-up on `gibeon`/`mahanaim`; no new places/objects (fully reused `hebron`/`mahanaim`/`gibeon` and `sword`/`spear`); fixtures 10-2/10-3; sweep entries added — 192 assertions, PASS | none (orchestrator only) | ✅ shipped |
+| 17 | 2026-07-16 | Re-scanned all GitHub issues (open+closed): still only issue #7, closed, already shipped in iteration 7 — nothing new to slot into the Feature backlog. Curated 2 Sam 4 (Ish-bosheth's assassination by Rechab and Baanah at Mahanaim, the head brought to David at Hebron, burial in Abner's tomb, the Mephibosheth aside, M) + 2 Sam 8 (David's wars of conquest — Philistines, Moab measured with a cord, Zobah/Hadadezer, Aram-Damascus, Edom — tribute dedicated to the LORD, the royal cabinet list, M); new places `beeroth`, `zobah`; new people `rechab`, `baanah`, `mephibosheth`, `hadadezer`, `jehoshaphat-recorder`, `seraiah-scribe`, `benaiah`, `cherethites-pelethites`; new object `measuring-cord`; reused `hebron`/`mahanaim`/`jerusalem`/`philistia`/`moab-plains`/`damascus`/`edom` places and `david`/`joab`/`ishbosheth`/`zadok`/`abiathar` people; fixtures 10-4/10-8; sweep entries added — 204 assertions, PASS | 1× sonnet ENG (curation) | ✅ shipped |
+| 18 | 2026-07-18 | Re-scanned all GitHub issues (open+closed): still only issue #7, closed, already shipped in iteration 7 — nothing new to slot into the Feature backlog. Curated 2 Sam 9 (Mephibosheth restored for Jonathan's sake, Ziba put in charge of Saul's land, M) + 2 Sam 10 (Hanun shames David's envoys, the Ammonite-Aramean war, Joab/Abishai's split-front victory, David's crossing to defeat Shobach at Helam, M) — continues the "2 Samuel full-book gaps" item; new places `lo-debar`, `helam`; new people `ziba`, `hanun`, `nahash`, `shobach`; new object `shaved-beard`; `meaning` top-up on `rabbah`/`jericho`; reused existing `mephibosheth`/`abishai`/`hadadezer`/`zobah`; fixtures 10-9/10-10; sweep entries added — 216 assertions, PASS | 1× sonnet ENG (curation) | ✅ shipped |
+| 19 | 2026-07-19 | User asked for a full-book Genesis curation via subagents, run efficiently (budget-conscious), prioritizing names/places/map/culture and explicitly de-prioritizing "ancient street view" (scene) polish. Dispatched 5 sequential sonnet agents on the same branch (each pulling the prior one's commit first, to avoid parallel-edit conflicts on the shared data files): batch 1 Gen 4–11 (Cain/Abel, Seth's genealogy, the Flood, Table of Nations, Babel), batch 2 Gen 12–19 (Abram's call through Sodom/Gomorrah), batch 3 Gen 20–27 (Isaac's birth through the stolen blessing), batch 4 Gen 28–36 (Jacob's ladder through Esau's genealogy), batch 5 Gen 37–50 (the Joseph story). Every entry written at ~1/3 the length of the "1:1"/"1:3" reference chapters (compact summary, 4-6 hotspots, exactly 3 culture cards, 2×3 crossRefs) to control cost; new places given only minimal `ancient`/`scene` stub fields, no street-view prose. Orchestrator then integrated centrally: fixed 13 entries left with only 1 map place (needed ≥2 for markers) and 6 missing a journey leg by adding a second reused/thematic place + a short dashed leg to each; resolved one id collision (`gad` used by both David's seer and Jacob's son — renamed the latter to `gad-son-jacob` and fixed its one reference). New across all 5 batches: places `ararat`, `nod`, `sodom`, `gomorrah`, `zoar`, `beerlahairoi`, `gerar`, `gilead-heights`, `dothan` (9); people ~60 (Cain/Abel/Seth-line, Lot/Hagar/Ishmael/Melchizedek, Abimelech/Rebekah/Laban/Esau, Rachel/Leah/the 12 tribal sons/Dinah, Judah's sons/Potiphar's household/Pharaoh/Asenath/Ephraim/Manasseh); objects ~19 (mark-of-cain, noahs-ark, rainbow, tower-of-babel, covenant-pieces, circumcision, sulfur-fire, pillar-of-salt, jacobs-ladder, jacobs-pillar-stone, striped-rods, mizpah-heap, coat-of-many-colors, silver-cup, grain-storage, egyptian-signet-ring, embalming-coffin, etc.); 47 new test fixtures (`tests/fixtures/1-4.json`–`1-50.json`); `CURATED_SWEEP` in `tests/smoke.js` now covers all of Genesis 1–50. Ran the full Playwright smoke suite once centrally (not per-batch, to save cost) after integration — all green, no regressions. Genesis is now the first full 50-chapter book in `BVV.CURATED` (every other book still uses the automatic pipeline outside its key chapters). | 5× sonnet (curation, sequential) | ✅ shipped |
+| — | NEXT SESSION | Remaining 2 Samuel gaps: chs. 13-14, 16-17, 19-23 (Tamar/Amnon, Absalom's exile and return, Shimei/Ziba's second appearance during the revolt, the revolt's aftermath, David's last words and mighty men) — pick 2 at a time. Genesis's own key-chapter roadmap slots (6–9, 12, 22, 28, 37, 41, 45) are now subsumed by the full-book pass in iteration 19 — mark them done below. Continue the "Then" roadmap with Exodus 3, 12, 19–20, 32 next (Exod 14 already done). Re-scan GitHub issues first (only issue #7 exists as of 2026-07-18, already closed/shipped — check for anything new) | ≤1 sonnet | pending |
+
+### Curation roadmap (tick as shipped; M = medium depth, L = deep)
+**1 Samuel:** [x] 28(L) · [x] 3(M) · [x] 4–6(M) · [x] 8–10(M) · [x] 15(M) · [x] 16(M) · [x] 17(L) · [x] 24(M) · [x] 25(M) · [x] 31(L) — 1 Samuel key-chapter list COMPLETE
+**2 Samuel:** [x] 1(M) · [x] 2(M) · [x] 3(M) · [x] 4(M) · [x] 5(M) · [x] 6(M) · [x] 7(M) · [x] 8(M) · [x] 9(M) · [x] 10(M) · [x] 11–12(M) · [x] 15(M) · [x] 18(M) · [x] 24(M) — key-chapter list COMPLETE; full-book gaps remaining: 13–14, 16–17, 19–23
+**Genesis:** [x] 1–50 — FULL BOOK COMPLETE (iteration 19; chs. 1-3 at slightly deeper M depth from iteration 15, chs. 4-50 at a compressed M depth for cost efficiency)
+**Then (order):** Exodus 3, 12, [x] 14(M), 19–20, 32 · Joshua 2, 6 · Judges 4, 7, 16 · Ruth 1–4 · 1 Kgs 3, 8, 17–19 · 2 Kgs 5, 18–19, 25 · Ezra 3 · Neh 2, 8 · Esther 4 · Job 1–2, 38 · Pss 22, 23, 51, 137 · Isa 6, 40, 53 · Jer 1, 29, 31 · Ezek 1, 37 · Dan 1–6 · Jonah 1–4 · Mic 5 · Hag 1 ·
+**NT:** Matt 2, 5–7, 26–28 · Mark 4–5 · Luke [x] 2(M), 10, 15, 24 · John 1, 3, [x] 4(M), 9, 11, 19–21 · Acts 1–2, 8–9, 16–17, [x] 27(M), 28 · Rom 8 · 1 Cor 15 · Rev 1–3, 21–22
+**Datasets:** places 136/200 (+9 new from Genesis full-book pass: ararat, nod, sodom, gomorrah, zoar, beerlahairoi, gerar, gilead-heights, dothan) · people 179/120 (target exceeded — target was a floor, not a cap; ~60 new from the Genesis pass) · objects 82/60 (target exceeded — ~19 new from the Genesis pass)
+
+### Feature backlog (GitHub issues — check this before picking the next batch)
+Re-scan open issues each session start (`list_issues` state=OPEN) and re-slot
+new ones here by size/risk, cheapest-and-safest first.
+
+| # | Issue | Scope | Slot |
+|---|-------|-------|------|
+| [#7](https://github.com/elinxie/Bible-verse-visualizer/issues/7) | Add translations to city names | ✅ **Shipped in iteration 7** (see Ledger); 3 more places (engedi/ziph/maon) topped up with `meaning` in iteration 8; `eden` shipped with `meaning` from birth in iteration 15. Remaining ~65 non-curated places (jerusalem-adjacent minor sites, all Isa/Jer/Ezek/Rev-era towns, etc.) still lack `meaning` — a pure data top-up, safe to ride along with a future curation batch rather than needing its own iteration. | Repo re-scanned 2026-07-18: still the only issue ever filed (open+closed), already closed — no open issues exist. |
+
+Rule of thumb for future issues: pure data additions (new places/people/objects,
+more curated chapters) can ride along with a curation batch; anything that
+touches a schema field or the UI (like #7) gets its own feature+tests
+iteration so a regression is easy to bisect and revert.
