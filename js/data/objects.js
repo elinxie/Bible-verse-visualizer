@@ -120,5 +120,13 @@ BVV.OBJECTS = [
   { id:"eden-rivers", name:"The four rivers of Eden", al:["Pishon","Gihon","Hiddekel","river of Eden"], icon:"🌊",
     desc:"A single river waters Eden's garden, then splits into four: the Pishon (winding through gold-rich Havilah), the Gihon (encircling Cush), the Hiddekel (the Tigris, flowing east of Assyria), and the Euphrates, named without further comment because none was needed (Gen 2:10-14). Only the last two are confidently identified today; Pishon and Gihon have been proposed as anything from Arabian wadis to a now-submerged 'Gulf River.'" },
   { id:"cherub-flaming-sword", name:"Cherubim & the flaming sword", al:["cherubim","flaming sword","sword which turned every way"], icon:"🔥",
-    desc:"Posted 'at the east of the garden of Eden' after the expulsion, a whirling, self-turning blade of fire alongside the cherubim guards the road back to the tree of life (Gen 3:24) — the Bible's first mention of cherubim, creatures later woven into the tabernacle veil and cast in gold over the ark's mercy seat." }
+    desc:"Posted 'at the east of the garden of Eden' after the expulsion, a whirling, self-turning blade of fire alongside the cherubim guards the road back to the tree of life (Gen 3:24) — the Bible's first mention of cherubim, creatures later woven into the tabernacle veil and cast in gold over the ark's mercy seat." },
+  { id:"mark-of-cain", name:"Mark of Cain", al:["mark of Cain","sign on Cain"], icon:"🔖",
+    desc:"An unspecified sign the LORD placed on Cain after his sentence, warning off anyone who might kill him and backed by a promise of sevenfold vengeance (Gen 4:15). Its exact form is never described." },
+  { id:"noahs-ark", name:"Noah's Ark", al:["the ark","Noah's ark"], icon:"🚢",
+    desc:"A cypress-wood vessel about 300×50×30 cubits, coated in pitch, with three decks and a single door — built at God's command to carry Noah's family and pairs of every creature through the Flood (Gen 6-8)." },
+  { id:"rainbow", name:"Rainbow", al:["rainbow","bow in the cloud"], icon:"🌈",
+    desc:"The sign of God's covenant with Noah and every living creature never again to destroy the earth by flood — his own 'bow' set in the clouds as a reminder (Gen 9:12-17)." },
+  { id:"tower-of-babel", name:"Tower of Babel", al:["tower","tower of Babel","ziggurat"], icon:"🗼",
+    desc:"A brick-and-tar tower 'with its top in the heavens' begun on the plain of Shinar so its builders could make a name for themselves — halted when the LORD confused their language and scattered them (Gen 11:1-9)." }
 ];

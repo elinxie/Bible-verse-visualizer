@@ -2594,5 +2594,414 @@ BVV.CURATED = {
       { r:"Isaiah 65:25", note:"a future peace where 'dust shall be the serpent's food' — Eden's curse still in view" },
       { r:"Revelation 22:2-3", note:"the curse reversed at last, and the tree of life restored" } ]}
   ]
+},
+
+/* ===== GENESIS 4 — Cain, Abel, and the first murder ===== */
+"1:4": {
+  era: {
+    title: "Primeval history — the first family, the first murder",
+    sub: "Cain and Abel's offerings · the first murder · Cain's line · Seth and Enosh",
+    badges: ["Primeval history", "First worship, first murder", "The mark of Cain", "Calling on the LORD's name begins"]
+  },
+  timeOfDay: "day",
+  summary: "Eve bears Cain, then Abel; Cain farms, Abel shepherds. Both bring offerings, but the LORD favors Abel's firstborn flock over Cain's produce, and Cain grows furious. God warns him that sin is 'crouching at the door,' desiring him, but he must master it. Cain instead lures Abel into a field and kills him — history's first murder. When the LORD asks where Abel is, Cain deflects ('Am I my brother's keeper?'), and is sentenced to wander the earth, the ground no longer yielding its strength to him; yet God marks him so no one will kill him in vengeance. Cain settles in Nod, east of Eden, builds a city named for his son Enoch, and his line produces the first tent-dwellers, musicians, and metalworkers — alongside Lamech, whose boast of unrestrained vengeance escalates Cain's own violence. The chapter closes on a contrasting note: Adam and Eve have another son, Seth, 'in place of Abel,' and Seth's son Enosh's generation is when 'people began to call upon the name of the LORD' — worship reasserting itself after the family's collapse.",
+  focusPlace: "eden",
+  places: [
+    { id:"eden", role:"The point of reference — Cain settles 'east of Eden,' still oriented to the garden his parents lost" },
+    { id:"nod", role:"The land where Cain settles after his sentence, and where he builds the first named city" }
+  ],
+  journey: [
+    { from:"eden", to:"nod", label:"Cain's exile", km:150, note:"Driven from the ground he farmed, Cain moves east into Nod, permanently separated from Eden's presence of God." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Two offerings, one accepted", av:"elder", desc:"Cain brings crops, Abel brings the best of his flock; the LORD favors Abel's, and Cain's face falls (vv. 3-5)." },
+    { x:0.24, type:"object", label:"Sin crouching at the door", desc:"God warns Cain that sin desires to master him, but he can rule over it — the Bible's first warning about temptation (v. 7)." },
+    { x:0.40, type:"person", label:"The first murder", av:"elder", desc:"Cain kills Abel in the field; when asked where his brother is, he answers, 'Am I my brother's keeper?' (vv. 8-9)." },
+    { x:0.55, type:"object", label:"The mark of Cain", desc:"Sentenced to wander, Cain is nonetheless marked by God against vengeance, and sevenfold retribution is promised anyone who kills him (vv. 13-15)." },
+    { x:0.72, type:"person", label:"Lamech's escalating boast", av:"elder", desc:"Cain's descendant Lamech takes two wives and boasts of killing a man, claiming seventy-sevenfold vengeance — violence compounding down the line (vv. 19-24)." },
+    { x:0.92, type:"person", label:"Seth, and calling on the LORD's name", av:"elder", desc:"Seth is born 'in place of Abel'; his son Enosh's generation marks when people first 'began to call upon the name of the LORD' (vv. 25-26)." }
+  ],
+  environment: {
+    chips: ["Farmer vs. shepherd", "Sin crouching at the door", "The first city, named for a son", "Tents, harps, and bronze", "Lamech's escalating vengeance", "Worship begins again"],
+    text: "The chapter moves fast — from garden to farmland to the first city — tracing how quickly human community both builds culture (tents, music, metalwork) and multiplies violence (Lamech's boast dwarfing God's own mercy to Cain). Nod's exact location is never fixed; its name means 'wandering,' fitting a fugitive's homeland. The turn to Seth and Enosh closes the chapter on hope rather than despair."
+  },
+  objectsExtra: ["mark-of-cain", "altar"],
+  peopleExtra: ["cain", "abel", "seth", "enoch-son-cain", "lamech-cainite", "jabal", "jubal", "tubal-cain", "enosh"],
+  culture: [
+    { title:"Why was Abel's offering favored?", icon:"🐑",
+      text:"The text never says Cain's grain offering was wrong in kind — only that Abel brought 'the firstborn of his flock and their fat portions,' language of costly, first-quality giving, while Cain's is unspecified. Hebrews 11:4 credits Abel's faith, not his livestock, as the difference." },
+    { title:"The first city", icon:"🏙️",
+      text:"Cain, sentenced to wander, paradoxically becomes the first city-builder, naming it after his son Enoch. Ancient readers would have felt the irony: settled civilization begins with a fugitive under judgment, not with paradise regained." },
+    { title:"Lamech's song of vengeance", icon:"⚔️",
+      text:"Lamech's boast to his wives (vv. 23-24) is Hebrew poetry — the Bible's oldest recorded verse by some readings — turning God's mercy to Cain into personal bravado, escalating sevenfold vengeance to seventy-sevenfold." }
+  ],
+  crossRefs: [
+    { group:"Cain and Abel, remembered later", refs:[
+      { r:"Hebrews 11:4", note:"Abel's faith, still speaking after death" },
+      { r:"1 John 3:12", note:"Cain 'was of the evil one' and murdered his brother" },
+      { r:"Matthew 23:35", note:"'the blood of righteous Abel' invoked by Jesus" } ]},
+    { group:"Sin, mastery, and the fall's aftermath", refs:[
+      { r:"Genesis 3:16", note:"the same 'desire/rule' language used of the woman and the man" },
+      { r:"Romans 6:12-14", note:"sin no longer reigning over believers" },
+      { r:"James 1:14-15", note:"desire conceiving sin, sin bringing death" } ]}
+  ]
+},
+
+/* ===== GENESIS 5 — From Adam to Noah ===== */
+"1:5": {
+  era: {
+    title: "Primeval history — ten generations, Adam to Noah",
+    sub: "The genealogy of Seth's line · Enoch's walk with God · Methuselah's long years · Noah's birth",
+    badges: ["Primeval history", "Ten long-lived generations", "Enoch: 'God took him'", "Ends with Noah"]
+  },
+  timeOfDay: "day",
+  summary: "This chapter is a genealogy bridging Adam to Noah through Seth's line, each entry following a set formula: a man's age when he fathered his named heir, the years he lived afterward while fathering other sons and daughters, his total lifespan, and 'then he died.' Ages run into the many centuries — Methuselah reaches 969, the longest recorded life in Scripture. The pattern breaks only once: Enoch, at 365, does not die but 'walked with God, and he was not, for God took him,' a singular exception to the chapter's relentless refrain. The list closes with Lamech fathering Noah, naming him in hope that he would bring relief from the toil of the cursed ground, and Noah in turn fathering Shem, Ham, and Japheth. The genealogy functions as more than a record: it quietly tracks how the death sentence pronounced in Eden ('you shall surely die') plays out across a full ten generations, while also preserving the line through which the promise of Genesis 3:15 will be carried forward to Noah and beyond.",
+  focusPlace: "eden",
+  places: [
+    { id:"eden", role:"The genealogy's implicit starting point — Adam's line begins where Genesis 2-3 left off" }
+  ],
+  journey: [],
+  hotspots: [
+    { x:0.10, type:"person", label:"Adam, 930 years", av:"elder", desc:"The chapter opens by restating Adam's creation 'in God's likeness' before recording his full 930-year lifespan (vv. 1-5)." },
+    { x:0.30, type:"person", label:"Seth to Kenan to Mahalalel", av:"elder", desc:"Three generations pass in the chapter's steady formula, each living upward of 900 years except where noted (vv. 6-17)." },
+    { x:0.50, type:"person", label:"Enoch: 'he walked with God'", av:"elder", desc:"Uniquely, Enoch does not die: 'Enoch walked with God, and he was not, for God took him' at 365 — far short of his ancestors' ages, yet uniquely spared death (vv. 21-24)." },
+    { x:0.68, type:"person", label:"Methuselah, 969 years", av:"elder", desc:"Enoch's son lives longer than anyone else recorded in Scripture, his death traditionally reckoned to fall the same year as the Flood (vv. 25-27)." },
+    { x:0.85, type:"person", label:"Lamech names Noah", av:"elder", desc:"Lamech fathers a son and names him Noah, hoping he will bring 'relief from our work and from the painful toil of our hands' (vv. 28-31)." },
+    { x:0.96, type:"person", label:"Noah fathers three sons", av:"elder", desc:"At 500, Noah fathers Shem, Ham, and Japheth, setting up the Flood narrative to follow (v. 32)." }
+  ],
+  environment: {
+    chips: ["A ten-generation bridge", "Death's steady refrain", "One exception: Enoch", "Methuselah's record lifespan", "Noah named in hope", "The promise carried forward"],
+    text: "Genesis 5 is structured, not narrated — a formal king-list-style genealogy common in the ancient Near East, though here tracking ordinary patriarchs rather than kings. The repeated 'and he died' underscores Eden's sentence taking hold generation after generation, broken only by Enoch's translation, a flicker of hope that death need not be final."
+  },
+  objectsExtra: [],
+  peopleExtra: ["seth", "enosh", "enoch-son-jared", "methuselah", "lamech-sethite", "noah", "shem", "ham", "japheth"],
+  culture: [
+    { title:"Why such long lifespans?", icon:"📜",
+      text:"Ancient Near Eastern king-lists (Sumerian ones especially) also record extraordinarily long reigns before a flood, dropping sharply after. Whether Genesis 5's numbers are literal, symbolic, or reflect a different counting convention is genuinely debated among conservative scholars." },
+    { title:"Enoch's translation", icon:"🌤️",
+      text:"Enoch is the first person Scripture says did not die; Hebrews 11:5 credits this to his faith, and Jude 14-15 quotes a prophecy attributed to him from later Jewish tradition (1 Enoch), though that book itself is not scriptural." },
+    { title:"A genealogy with a purpose", icon:"🔗",
+      text:"Unlike a bare list, this chapter deliberately links Adam's creation 'in the likeness of God' (v. 1) to Seth being fathered 'in his own likeness' (v. 3) — the image of God transmitted through ordinary human birth, not lost at the fall." }
+  ],
+  crossRefs: [
+    { group:"Enoch's walk with God", refs:[
+      { r:"Hebrews 11:5", note:"'by faith Enoch was taken up so that he should not see death'" },
+      { r:"Jude 1:14-15", note:"a prophecy attributed to Enoch about the LORD's coming judgment" },
+      { r:"2 Kings 2:11", note:"Elijah's later, similarly death-free departure" } ]},
+    { group:"Genealogy and the promised line", refs:[
+      { r:"Luke 3:36-38", note:"Luke's genealogy of Jesus traces back through this same line to Adam" },
+      { r:"1 Chronicles 1:1-4", note:"the Chronicler repeats this genealogy to open Israel's own history" },
+      { r:"Genesis 3:15", note:"the promised offspring this genealogy is quietly carrying forward" } ]}
+  ]
+},
+
+/* ===== GENESIS 6 — Corruption, and the ark commanded ===== */
+"1:6": {
+  era: {
+    title: "Primeval history — 'every inclination... only evil continually'",
+    sub: "The Nephilim · human wickedness grieves God · Noah found righteous · the ark's blueprint",
+    badges: ["Primeval history", "Widespread corruption", "Noah alone found righteous", "The ark's design given"]
+  },
+  timeOfDay: "day",
+  summary: "As humanity multiplies, the enigmatic 'sons of God' take wives from among human daughters, and Nephilim — 'the mighty men who were of old, the men of renown' — appear on the earth; God limits human lifespan to 120 years. The LORD sees that human wickedness is great and 'every intention of the thoughts of his heart was only evil continually,' and he regrets making mankind, resolving to blot out every living thing. But Noah finds favor in the LORD's eyes: he is righteous and blameless in his generation, walking with God. God tells Noah the earth is full of violence and corruption and he intends to destroy it, instructing Noah to build an ark of gopher wood, coated with pitch, with precise dimensions (300 by 50 by 30 cubits), three decks, and a door in the side. God promises to establish his covenant with Noah, who will enter the ark with his wife, sons, and their wives, along with two of every kind of creature to keep them alive, and enough food stored for all. Noah does everything exactly as God commands him — the chapter's closing note of quiet obedience against the surrounding chaos.",
+  focusPlace: "eden",
+  places: [
+    { id:"eden", role:"The backdrop against which the corruption is measured — humanity's decline from the garden continues" }
+  ],
+  journey: [],
+  hotspots: [
+    { x:0.08, type:"object", label:"The 'sons of God' and the Nephilim", desc:"An enigmatic union produces the Nephilim, 'mighty men... of renown,' and God limits human lifespan to 120 years (vv. 1-4)." },
+    { x:0.24, type:"object", label:"God's grief over human evil", desc:"'Every intention of the thoughts of his heart was only evil continually'; the LORD regrets making mankind and resolves to destroy it (vv. 5-7)." },
+    { x:0.40, type:"person", label:"Noah finds favor", av:"elder", desc:"Alone among his generation, Noah is righteous, blameless, and walks with God — the reason the story continues at all (vv. 8-9)." },
+    { x:0.56, type:"object", label:"The earth 'corrupt' and 'full of violence'", desc:"God tells Noah the whole earth has become corrupt in his sight, and he intends to destroy it along with the earth itself (vv. 11-13)." },
+    { x:0.74, type:"object", label:"The ark's blueprint", desc:"Precise instructions: gopher wood, pitch inside and out, 300x50x30 cubits, three decks, a door in the side (vv. 14-16)." },
+    { x:0.92, type:"person", label:"'Noah did... according to all that God commanded him'", av:"elder", desc:"God promises his covenant and instructs Noah on who and what to bring aboard; Noah obeys without recorded objection (vv. 17-22)." }
+  ],
+  environment: {
+    chips: ["Nephilim, 'men of renown'", "120-year lifespan limit", "Total corruption, total grief", "Noah: righteous, blameless", "Gopher wood and pitch", "Exact obedience"],
+    text: "The chapter pivots the whole primeval history from cosmos-building to catastrophe: humanity's spread has produced not flourishing but violence so total that God's own language ('regretted,' 'grieved') mirrors the intimacy of Genesis 2's garden-forming. The ark's dimensions (roughly 135 x 22.5 x 13.5 m by a common cubit reckoning) describe a genuinely enormous vessel, built entirely on the strength of one man's obedience."
+  },
+  objectsExtra: ["noahs-ark"],
+  peopleExtra: ["noah", "shem", "ham", "japheth"],
+  culture: [
+    { title:"Who were the 'sons of God'?", icon:"❓",
+      text:"Three major readings persist: fallen angels intermarrying with humans (supported by parallels in Job and 2 Peter/Jude), the godly line of Seth intermarrying with Cain's line, or human rulers/despots taking wives by force. Serious, conservative scholars hold each view; the text itself does not resolve it." },
+    { title:"Flood traditions across the ancient world", icon:"🌊",
+      text:"Mesopotamian epics (Atrahasis, Gilgamesh's flood tablet) tell strikingly similar stories — a flood hero, a boat, birds sent to find land — but with capricious gods destroying humanity over noise, contrasted against Genesis's single righteous God judging real moral corruption." },
+    { title:"The ark's scale", icon:"🚢",
+      text:"At roughly 300 cubits long, the ark's proportions (6:1 length-to-width) are strikingly close to modern ship-design ratios for stability, noted by naval architects even among skeptical readers as a sound design for a vessel meant to float rather than sail." }
+  ],
+  crossRefs: [
+    { group:"The Nephilim and 'sons of God' elsewhere", refs:[
+      { r:"Job 1:6", note:"'sons of God' presenting themselves before the LORD" },
+      { r:"2 Peter 2:4-5", note:"angels who sinned, linked to the flood generation" },
+      { r:"Jude 1:6-7", note:"angels who left their proper dwelling, judged" } ]},
+    { group:"Noah's righteousness and the Flood's judgment", refs:[
+      { r:"Hebrews 11:7", note:"Noah's faith, 'condemning the world' by his obedience" },
+      { r:"1 Peter 3:20", note:"eight souls saved 'through water'" },
+      { r:"Matthew 24:37-39", note:"Jesus compares his coming to 'the days of Noah'" } ]}
+  ]
+},
+
+/* ===== GENESIS 7 — The Flood comes ===== */
+"1:7": {
+  era: {
+    title: "Primeval history — forty days, then a hundred fifty",
+    sub: "Entry into the ark · the fountains of the deep burst open · every living thing outside the ark perishes",
+    badges: ["Primeval history", "Seven pairs of clean animals", "The LORD shuts the door", "Total judgment by water"]
+  },
+  timeOfDay: "day",
+  summary: "The LORD tells Noah to enter the ark with his household, for he alone is found righteous in this generation; he is to take seven pairs of every clean animal and a pair of each unclean animal, plus seven pairs of birds, to keep offspring alive on the earth, since in seven days rain will fall for forty days and nights. Noah, 600 years old, enters with his wife, sons, and their wives as the animals come to him in pairs, 'as God had commanded him' — and then 'the LORD shut him in.' The flood begins: on the seventeenth day of the second month, 'all the fountains of the great deep burst forth, and the windows of the heavens were opened,' and rain falls forty days and nights. The waters increase, lifting the ark above the earth; they rise until they cover even the highest mountains by more than twenty feet. Every living thing on dry land perishes — 'only Noah was left, and those with him in the ark.' The waters prevail over the earth one hundred fifty days, a period of total, sustained judgment before any recession begins.",
+  focusPlace: "ararat",
+  places: [
+    { id:"ararat", role:"Not yet reached, but the destination this chapter's floodwaters are lifting the ark toward" },
+    { id:"eden", role:"The judgment reverses Eden's original 'very good' order, undoing creation back toward the primal waters" }
+  ],
+  journey: [
+    { from:"eden", to:"ararat", label:"The ark's floating ascent", km:900, note:"As waters rise, the ark is lifted off the ground and carried, eventually settling in the mountains of Ararat (recorded fully in ch. 8)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"The command to enter", av:"elder", desc:"The LORD tells Noah to bring his family and seven pairs of clean animals, a pair of unclean, aboard within seven days (vv. 1-4)." },
+    { x:0.22, type:"object", label:"Animals come to Noah", desc:"Pairs of every kind come to Noah 'as God had commanded him' — the animals' arrival itself a small sign of divine ordering amid coming chaos (vv. 8-9)." },
+    { x:0.38, type:"object", label:"'The LORD shut him in'", desc:"After the household and animals board, God himself closes the door — the last line of protection between Noah and the judgment outside (v. 16)." },
+    { x:0.52, type:"object", label:"Fountains of the deep, windows of heaven", desc:"On the flood's first day, both the subterranean waters and the sky's own reservoirs are opened at once — the reversal of Genesis 1's ordered separation of waters (v. 11)." },
+    { x:0.68, type:"object", label:"Waters cover the mountains", desc:"The flood rises more than twenty feet over the highest mountains, leaving nowhere for any creature to survive outside the ark (vv. 19-20)." },
+    { x:0.85, type:"object", label:"'Only Noah was left'", desc:"Every land creature and person outside the ark dies; the narrator's stark summary underscores how total the judgment is (vv. 21-23)." },
+    { x:0.96, type:"object", label:"One hundred fifty days", desc:"The waters prevail over the earth for a sustained 150 days before any recession begins (v. 24)." }
+  ],
+  environment: {
+    chips: ["Seven days' warning", "Seven pairs of clean animals", "'The LORD shut him in'", "Fountains and windows opened", "Mountains submerged", "150 days of judgment"],
+    text: "The chapter's language deliberately echoes and reverses Genesis 1: the ordered separation of waters above and below (Gen 1:6-8) collapses back into a single undifferentiated flood, undoing creation's structure. Only the ark — and the God who shuts its door — stands between total re-immersion in chaos and the small remnant of life preserved inside it."
+  },
+  objectsExtra: ["noahs-ark"],
+  peopleExtra: ["noah", "shem", "ham", "japheth"],
+  culture: [
+    { title:"Clean and unclean animals, before the Law", icon:"🐐",
+      text:"The clean/unclean distinction appears here centuries before Leviticus codifies it, implying Noah already possessed some working category for sacrifice-suitable animals — the extra clean pairs anticipate the burnt offerings of Genesis 8:20." },
+    { title:"'The fountains of the great deep'", icon:"🌊",
+      text:"This phrase pictures a cosmic-scale release of subterranean waters alongside torrential rain — language many read as poetic-cosmic rather than a claim about literal plate tectonics, though flood geology debates continue among readers who hold a high view of the text's historicity." },
+    { title:"A global or local flood?", icon:"🗺️",
+      text:"The chapter's totalizing language ('all the high mountains... were covered') has long been read literally by most interpreters, though some conservative scholars argue for a hyperbolic ancient idiom describing a regionally total but not globally total catastrophe. Both readings affirm the same theological point: total judgment on 'all flesh.'" }
+  ],
+  crossRefs: [
+    { group:"The Flood as judgment pattern", refs:[
+      { r:"2 Peter 3:5-7", note:"the world 'deluged with water and perished,' a pattern for final judgment by fire" },
+      { r:"Luke 17:26-27", note:"Jesus: 'as it was in the days of Noah,' unexpected judgment" },
+      { r:"1 Peter 3:20-21", note:"the Flood's water prefigures baptism" } ]},
+    { group:"Shutting the door, being kept safe", refs:[
+      { r:"Genesis 6:18", note:"the covenant promise that grounds this chapter's rescue" },
+      { r:"Matthew 25:10", note:"a later parable's shut door, too late for the unprepared" },
+      { r:"Hebrews 11:7", note:"Noah's faith 'condemned the world' by contrast" } ]}
+  ]
+},
+
+/* ===== GENESIS 8 — The waters recede ===== */
+"1:8": {
+  era: {
+    title: "Primeval history — 'God remembered Noah'",
+    sub: "The ark rests on Ararat · raven and dove · the altar and the LORD's resolve",
+    badges: ["Primeval history", "The ark comes to rest", "The dove and the olive leaf", "A new promise of stability"]
+  },
+  timeOfDay: "dawn",
+  summary: "'God remembered Noah' and sends a wind over the earth; the springs of the deep and windows of heaven are closed, and the waters steadily recede. On the seventeenth day of the seventh month the ark comes to rest on the mountains of Ararat, and by the tenth month mountaintops become visible. After forty days Noah opens a window and sends out a raven, which flies back and forth, then a dove, which finds no resting place and returns. Seven days later the dove returns with a freshly plucked olive leaf — proof the waters have receded — and, sent out again after another seven days, does not return at all. Noah removes the ark's covering and sees the ground is dry; by the following month it is fully dried. God tells Noah to bring out his family and every living creature to multiply again on the earth. Noah builds an altar and offers burnt offerings of every clean animal and bird; the LORD, pleased by the aroma, resolves in his heart never again to curse the ground or destroy every living creature as he has done, and promises that seedtime and harvest, cold and heat, summer and winter, day and night will not cease as long as the earth remains.",
+  focusPlace: "ararat",
+  places: [
+    { id:"ararat", role:"Where the ark comes to rest as the waters recede (Gen 8:4)" },
+    { id:"eden", role:"The garden this new post-flood beginning implicitly echoes, as creation is effectively restarted" }
+  ],
+  journey: [
+    { from:"eden", to:"ararat", dashed:true, label:"From lost garden to a new beginning", km:900, note:"Ararat becomes the new starting point for humanity, standing in the same typological role Eden once did." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"'God remembered Noah'", desc:"The turning point of the whole flood narrative — God acts, sending a wind, and the waters begin to recede (v. 1)." },
+    { x:0.20, type:"object", label:"The ark rests on Ararat", desc:"On the seventeenth day of the seventh month, the ark settles on the mountains of Ararat as the waters continue falling (v. 4)." },
+    { x:0.36, type:"object", label:"The raven, sent first", desc:"Noah sends out a raven, which simply flies back and forth rather than returning, unlike the dove that follows (v. 7)." },
+    { x:0.50, type:"object", label:"The dove and the olive leaf", desc:"After finding no resting place the first time, the dove returns a week later with a fresh olive leaf — visible proof the waters have receded far enough for plant life (vv. 8-11)." },
+    { x:0.64, type:"person", label:"Noah removes the covering", av:"elder", desc:"Noah looks out and sees the ground is dry, though God waits nearly two more months before commanding everyone out (vv. 13-14)." },
+    { x:0.80, type:"person", label:"The altar and burnt offering", av:"elder", desc:"Noah's first act on dry ground is worship — an altar and burnt offerings from every clean animal and bird (v. 20)." },
+    { x:0.94, type:"object", label:"A promise of stability", desc:"Pleased by the offering, the LORD resolves never again to curse the ground this way, promising the seasons' rhythm will not cease (vv. 21-22)." }
+  ],
+  environment: {
+    chips: ["'God remembered Noah'", "The ark rests on Ararat", "Raven, then dove", "An olive leaf, plucked fresh", "First act ashore: an altar", "Seasons promised to continue"],
+    text: "The chapter narrates a slow, careful un-flooding that mirrors creation's own patient order — wind over waters, dry ground emerging, life re-populating it. Noah's altar answers Genesis 4's failed and successful offerings with worship that this time meets full divine favor, and God's resolve toward the 'ground' quietly reverses the curse pronounced back in Genesis 3:17."
+  },
+  objectsExtra: ["noahs-ark", "altar"],
+  peopleExtra: ["noah", "shem", "ham", "japheth"],
+  culture: [
+    { title:"Why a raven, then a dove?", icon:"🐦",
+      text:"Ravens are scavengers, content to feed on floating carrion and in no hurry to return; doves need clean, dry footing and green food, making their return (or non-return) a more precise gauge of the earth's readiness — a detail ancient sailors and farmers would have recognized immediately." },
+    { title:"Ararat in ancient geography", icon:"⛰️",
+      text:"'The mountains of Ararat' names a region (ancient Urartu, in modern eastern Turkey/Armenia), not necessarily the single peak later tradition identified — the text itself is deliberately broader than the popular image of one specific mountain." },
+    { title:"The 'pleasing aroma' of sacrifice", icon:"🔥",
+      text:"The phrase describing God's response to Noah's offering (v. 21) becomes standard sacrificial vocabulary throughout the Law (e.g. Lev 1:9) — its first biblical use here, tied not to ritual instruction but to spontaneous worship after judgment and deliverance." }
+  ],
+  crossRefs: [
+    { group:"A new beginning, echoing creation", refs:[
+      { r:"Genesis 1:9-10", note:"dry land appearing again, as at the world's first creation" },
+      { r:"Genesis 9:1", note:"the 'be fruitful and multiply' blessing renewed for Noah's family" },
+      { r:"Isaiah 54:9", note:"God recalls 'the waters of Noah' as a pattern of covenant faithfulness" } ]},
+    { group:"The dove and the offering, remembered", refs:[
+      { r:"Matthew 3:16", note:"a dove descending at Jesus' baptism — a flood-echoing image of new creation" },
+      { r:"Leviticus 1:9", note:"'a pleasing aroma to the LORD,' language rooted in Noah's altar" },
+      { r:"Genesis 8:22", note:"seedtime and harvest promised without ceasing" } ]}
+  ]
+},
+
+/* ===== GENESIS 9 — The covenant, the rainbow, and Noah's vineyard ===== */
+"1:9": {
+  era: {
+    title: "Primeval history — the Noahic covenant and its sign",
+    sub: "Be fruitful and multiply · the prohibition of blood and murder · the rainbow · Noah's drunkenness and Canaan's curse",
+    badges: ["Primeval history", "Life for life: Gen 9:6", "The rainbow covenant", "Ham's disrespect, Canaan cursed"]
+  },
+  timeOfDay: "day",
+  summary: "God blesses Noah and his sons, renewing the command to be fruitful and multiply, and now placing the fear of humanity on every animal, given for food alongside every green plant — except blood, which they must not eat, since it is the creature's life. Human life carries special weight: whoever sheds human blood will have his own blood shed, 'for God made man in his own image' (v. 6). God establishes his covenant with Noah, his descendants, and every living creature, promising never again to destroy the earth by flood, and sets the rainbow in the clouds as the covenant's perpetual sign. The chapter then turns personal: Noah plants a vineyard, gets drunk, and lies naked in his tent. Ham sees his father's nakedness and tells his brothers outside; Shem and Japheth walk in backward and cover Noah without looking. On waking, Noah curses Canaan (Ham's son) to servitude, and blesses Shem and Japheth, foreshadowing later relations between their descendant peoples. The chapter closes with Noah's death at 950 years, the last of the primeval patriarchs to reach such an age.",
+  focusPlace: "ararat",
+  places: [
+    { id:"ararat", role:"Where the covenant and rainbow are given, and where Noah's household begins farming again" },
+    { id:"babylon", role:"The Mesopotamian plain Noah's descendants will eventually spread into and settle (foreshadowing ch. 10-11)" }
+  ],
+  journey: [
+    { from:"ararat", to:"babylon", dashed:true, label:"The line this chapter's blessing will follow", km:900, note:"Ham's son Canaan is cursed here; Noah's spreading descendants will settle the plains that later produce Babel and Babylon's civilizations (ch. 10-11)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"Be fruitful, and meat now permitted", desc:"God renews the fruitfulness blessing and now permits eating animals, though not their blood (vv. 1-4)." },
+    { x:0.20, type:"object", label:"'By man shall his blood be shed' (v. 6)", desc:"Human life is granted unique protection because mankind bears God's image — the Bible's foundational statement against murder (vv. 5-6)." },
+    { x:0.36, type:"object", label:"The rainbow, sign of the covenant", desc:"God sets his 'bow in the clouds' as a perpetual reminder never again to flood the whole earth (vv. 12-17)." },
+    { x:0.52, type:"person", label:"Noah's vineyard and drunkenness", av:"elder", desc:"Noah, now a farmer, plants a vineyard, drinks its wine, and lies uncovered and drunk in his tent (vv. 20-21)." },
+    { x:0.66, type:"person", label:"Ham sees, tells his brothers", av:"elder", desc:"Ham sees his father's nakedness and reports it to Shem and Japheth rather than covering him himself (v. 22)." },
+    { x:0.80, type:"person", label:"Shem and Japheth cover their father", av:"elder", desc:"Walking in backward with a garment, the two brothers cover Noah without looking at his exposure (v. 23)." },
+    { x:0.94, type:"person", label:"Canaan cursed, Shem and Japheth blessed", av:"elder", desc:"On waking, Noah curses Canaan to servitude and blesses Shem's God and Japheth's expansion — the chapter's closing pronouncement (vv. 24-27)." }
+  ],
+  environment: {
+    chips: ["Meat now permitted, blood forbidden", "Life for life — image of God", "The rainbow as covenant sign", "A vineyard, and drunkenness", "Seeing vs. covering", "A curse and two blessings"],
+    text: "This chapter completes the flood narrative's theological arc: humanity is re-commissioned, given clearer moral boundaries (especially around bloodshed), and given a visible, universal sign of God's restraint. The turn to Noah's vineyard shows the same pattern as Eden — blessing followed almost immediately by human failure — reminding readers that the Flood did not eliminate sin, only its previous scale."
+  },
+  objectsExtra: ["rainbow"],
+  peopleExtra: ["noah", "shem", "ham", "japheth", "canaan-person"],
+  culture: [
+    { title:"Why forbid eating blood?", icon:"🩸",
+      text:"The prohibition (v. 4) treats blood as uniquely tied to life itself, a principle later codified extensively in Levitical law (Lev 17:11) and echoed even in the Jerusalem council's guidance to Gentile believers (Acts 15:20) — one of the few Noahic laws explicitly carried into the New Testament era." },
+    { title:"The image of God and capital justice", icon:"⚖️",
+      text:"Genesis 9:6 grounds the death penalty for murder not in social utility but in theology: taking a human life defaces something bearing God's own image. This verse has anchored centuries of Jewish and Christian legal and ethical reflection on the value of human life." },
+    { title:"What was Ham's sin, exactly?", icon:"❓",
+      text:"Interpreters differ over whether Ham's offense was simply seeing his father naked and gossiping about it, or something more severe implied by ancient Near Eastern euphemism ('saw the nakedness of'). Either reading explains why the curse falls specifically on Ham's son Canaan rather than on Ham himself." }
+  ],
+  crossRefs: [
+    { group:"The rainbow and covenant faithfulness", refs:[
+      { r:"Isaiah 54:9-10", note:"God recalls this covenant as a pledge of unshakable love" },
+      { r:"Ezekiel 1:28", note:"a rainbow around God's glory-throne" },
+      { r:"Revelation 4:3", note:"a rainbow encircling the heavenly throne" } ]},
+    { group:"Bloodshed, image, and later law", refs:[
+      { r:"Exodus 20:13", note:"'You shall not murder' — the commandment this chapter anticipates" },
+      { r:"Acts 15:20", note:"the Jerusalem council still restricts Gentile believers from blood" },
+      { r:"James 3:9", note:"cursing people made 'in the likeness of God'" } ]}
+  ]
+},
+
+/* ===== GENESIS 10 — The Table of Nations ===== */
+"1:10": {
+  era: {
+    title: "Primeval history — the Table of Nations",
+    sub: "Japheth's, Ham's, and Shem's descendants · Nimrod's kingdom · nations spread and multiply",
+    badges: ["Primeval history", "Seventy nations, one family", "Nimrod: mighty hunter, empire-builder", "Sets up Babel's scattering"]
+  },
+  timeOfDay: "day",
+  summary: "This chapter maps the known world's nations back to Noah's three sons. Japheth's line produces the maritime and northern peoples — Gomer, Magog, Madai, Javan and others, scattering into 'their lands, each with his own language.' Ham's line includes Cush, Egypt, Put, and Canaan; Cush fathers Nimrod, 'a mighty hunter before the LORD,' whose kingdom begins with Babylon, Uruk, and Akkad in Shinar before he goes on to found Nineveh and other Assyrian cities. Canaan's descendants include the Jebusites, Amorites, Hivites, and other clans later dispossessed at Israel's conquest, their territory stretching toward Sodom and Gomorrah. Shem's line, given fullest attention as the ancestor of 'all the sons of Eber,' runs through Elam, Ashur, and Aram, down to Eber and his sons Peleg ('in his days the earth was divided') and Joktan, whose many sons settle the eastern hill country. The chapter closes by summarizing all these clans, languages, territories, and nations as descending 'from these... after the flood' — a genealogical bridge preparing for Babel's scattering (ch. 11) and, eventually, Abraham's call.",
+  focusPlace: "babylon",
+  places: [
+    { id:"babylon", role:"Nimrod's kingdom begins here in Shinar, with Babylon named first among his cities (v. 10)" },
+    { id:"nineveh", role:"Founded by Nimrod after he leaves Shinar for Assyria, called 'that great city' (vv. 11-12)" }
+  ],
+  journey: [
+    { from:"babylon", to:"nineveh", label:"Nimrod's expansion into Assyria", km:400, note:"From his base in Shinar, Nimrod extends his kingdom north to found Nineveh and other Assyrian cities (Gen 10:11-12)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"Japheth's maritime peoples", desc:"Gomer, Magog, Madai, Javan and others scatter into coastlands, 'each with his own language, by their clans, in their nations' (vv. 2-5)." },
+    { x:0.22, type:"person", label:"Nimrod, mighty hunter and empire-builder", av:"warrior", desc:"Cush's son becomes 'a mighty hunter before the LORD,' founding Babylon and other Shinar cities before expanding to Assyria (vv. 8-12)." },
+    { x:0.40, type:"object", label:"Canaan's clans", desc:"Canaan fathers Sidon, Heth, and the peoples later displaced at Israel's conquest — Jebusites, Amorites, Hivites among them (vv. 15-19)." },
+    { x:0.58, type:"person", label:"Shem, ancestor of Eber", av:"elder", desc:"Given fullest treatment as ancestor of 'all the children of Eber,' Shem's line runs through Elam, Ashur, Arphaxad, and Aram (vv. 21-23)." },
+    { x:0.75, type:"person", label:"Peleg — 'in his days the earth was divided'", av:"elder", desc:"Eber's son is named for an event the text does not fully explain here, traditionally linked to Babel's language division in the very next chapter (v. 25)." },
+    { x:0.90, type:"object", label:"Seventy nations, one family", desc:"The chapter's closing summary ties the whole known world's nations back to Noah's three sons 'after the flood' (v. 32)." }
+  ],
+  environment: {
+    chips: ["Three sons, seventy nations", "Nimrod: hunter, empire-builder", "Shinar to Assyria", "Canaan's clans, later dispossessed", "Eber, Peleg, and 'the earth divided'", "One family, many languages"],
+    text: "The Table of Nations reads almost like an ancient ethnographic map, situating every people group its Israelite audience would recognize within a single family tree descending from Noah. Its geography ranges from the Aegean coastlands (Javan) to Mesopotamia (Shinar, Asshur) to Canaan itself, deliberately preparing readers to recognize Canaan's later inhabitants, Assyria's rise, and Babylon's eventual empire as all branches of one traceable family."
+  },
+  objectsExtra: [],
+  peopleExtra: ["shem", "ham", "japheth", "nimrod", "canaan-person", "peleg"],
+  culture: [
+    { title:"A genealogy as ethnography", icon:"🗺️",
+      text:"Unlike Genesis 5's strict individual genealogy, chapter 10 mixes individuals with what are clearly nation- or people-group names (Mizraim = Egypt, Kittim = Cyprus) — a common ancient Near Eastern convention for expressing political and ethnic relationships as family ties." },
+    { title:"Nimrod's reputation", icon:"🏹",
+      text:"'Like Nimrod, a mighty hunter before the LORD' became proverbial (v. 9); later Jewish tradition often reads him more negatively, as a tyrant-founder of Babel's rebellion, reading his empire-building as domineering rather than merely impressive." },
+    { title:"Why does Shem get the most space?", icon:"📖",
+      text:"The extra detail on Shem's line (vv. 21-31), especially Eber and his sons, sets up the genealogy that will carry directly into Genesis 11's closing verses and ultimately to Abraham — the Table of Nations is universal in scope but narrows its camera toward the coming covenant line." }
+  ],
+  crossRefs: [
+    { group:"Nimrod, Babel, and Assyria's later shadow", refs:[
+      { r:"Genesis 11:1-9", note:"the tower and city Nimrod's Shinar kingdom sets the stage for" },
+      { r:"Micah 5:6", note:"'the land of Nimrod' used as a byword for Assyria" },
+      { r:"Jonah 1:2; 3:3", note:"Nineveh, Nimrod's city, later the target of Jonah's mission" } ]},
+    { group:"One family, all nations", refs:[
+      { r:"Acts 17:26", note:"Paul: God 'made from one man every nation of mankind'" },
+      { r:"Genesis 12:3", note:"Abraham's call promises blessing to 'all the families of the earth'" },
+      { r:"Revelation 7:9", note:"a multitude from every nation gathered before the throne" } ]}
+  ]
+},
+
+/* ===== GENESIS 11 — Babel, and Abraham's ancestors ===== */
+"1:11": {
+  era: {
+    title: "Primeval history — Babel's tower, and the road to Abraham",
+    sub: "One language, one rebellion · the LORD confuses speech and scatters the nations · Shem's genealogy to Terah",
+    badges: ["Primeval history", "Babel: 'confusion'", "Language scattered, not perfected", "Bridges to Abraham's call"]
+  },
+  timeOfDay: "day",
+  summary: "The whole earth still shares one language. Migrating people settle on a plain in Shinar and resolve to build a city and a tower 'with its top in the heavens,' explicitly to 'make a name for ourselves' and avoid being scattered. The LORD comes down to look at what they are building and observes that, united by one language, nothing they set out to do will be impossible for them — so he confuses their speech and scatters them across the earth, halting the project; the place is named Babel, because there the LORD 'confused' (balal) the language of the whole earth. The chapter then pivots to genealogy: from Shem down through Arphaxad, Shelah, Eber, Peleg, Reu, Serug, and Nahor to Terah, each generation's lifespan given in the same formula as chapter 5, though the numbers shrink steadily compared to the pre-flood patriarchs. Terah fathers Abram, Nahor, and Haran; Haran dies young in Ur, leaving his son Lot; Abram marries the childless Sarai. Terah sets out from Ur toward Canaan but settles instead in Haran, where he eventually dies — leaving the narrative poised for God's call to Abram in the next chapter.",
+  focusPlace: "babylon",
+  places: [
+    { id:"babylon", role:"The plain of Shinar where the city and tower are built, and where the LORD confuses the builders' language (vv. 1-9)" },
+    { id:"ur", role:"Where Terah's family originates and where Haran dies, before the family sets out (vv. 28, 31)" },
+    { id:"haran", role:"Where Terah's family settles instead of continuing to Canaan, and where Terah dies (v. 32)" }
+  ],
+  journey: [
+    { from:"ur", to:"haran", label:"Terah's incomplete journey toward Canaan", km:960, note:"Terah sets out from Ur of the Chaldeans intending to reach Canaan but stops and settles in Haran instead, dying there (v. 31-32)." },
+    { from:"babylon", to:"ur", dashed:true, label:"Shinar's civilization, and Abram's origin", km:200, note:"Babel's plain in Shinar and Ur of the Chaldeans both sit within the same Mesopotamian world the covenant story is about to leave behind." }
+  ],
+  hotspots: [
+    { x:0.05, type:"object", label:"One language, a plain in Shinar", desc:"Migrating settlers find a plain in Shinar and decide to build with brick and tar rather than stone and mortar (vv. 1-3)." },
+    { x:0.18, type:"object", label:"'A tower with its top in the heavens'", desc:"Their stated goal is to make a name for themselves and avoid being scattered — the very outcome that follows (v. 4)." },
+    { x:0.32, type:"object", label:"The LORD comes down to see", desc:"God observes that unified language gives the builders unlimited potential for whatever they resolve to do next (vv. 5-6)." },
+    { x:0.44, type:"object", label:"Language confused, the builders scattered", desc:"'Let us go down and there confuse their language' — the project halts as communication breaks down and people disperse (vv. 7-8)." },
+    { x:0.55, type:"object", label:"Babel: a name meaning 'confusion'", desc:"The text explains the name as wordplay on Hebrew balal, 'to confuse' — a deliberate irony against the city's own ambition to 'make a name' (v. 9)." },
+    { x:0.68, type:"person", label:"Shem to Eber to Peleg", av:"elder", desc:"The genealogy resumes chapter 10's line in fuller detail, tracking shrinking lifespans generation by generation (vv. 10-19)." },
+    { x:0.82, type:"person", label:"Terah's family, and Haran's early death", av:"elder", desc:"Terah fathers Abram, Nahor, and Haran; Haran dies in Ur, leaving his son Lot fatherless (vv. 26-28)." },
+    { x:0.95, type:"person", label:"Toward Canaan, but settling in Haran", av:"elder", desc:"Terah's family sets out from Ur for Canaan but stops in Haran, where Terah dies — poised for God's call to Abram (vv. 31-32)." }
+  ],
+  environment: {
+    chips: ["One language, one ambition", "Brick for stone, tar for mortar", "'The LORD came down to see'", "Babel = confusion, not blessing", "A genealogy shrinking in years", "Ur to Haran, not yet Canaan"],
+    text: "Babel closes the primeval history with humanity's collective ambition meeting swift divine correction, echoing Eden's 'you will be like God' temptation on a civic scale. The chapter's back half quietly resets the narrative's focus from all nations to one family, tracing Shem's line to Terah so the very next chapter can begin with God's specific call to a specific man in a specific place — a hinge from universal history into covenant history."
+  },
+  objectsExtra: ["tower-of-babel"],
+  peopleExtra: ["shem", "peleg", "terah"],
+  culture: [
+    { title:"Ziggurats and 'a tower to heaven'", icon:"🗼",
+      text:"Mesopotamian cities built stepped temple-towers (ziggurats) meant to bridge heaven and earth, often inscribed with claims that their tops reached the heavens — language Genesis 11:4 appears to echo and mock, portraying such ambition as futile self-exaltation rather than genuine access to God." },
+    { title:"Babel and Babylon — the same name", icon:"🏛️",
+      text:"'Babel' and 'Babylon' translate the same Hebrew word; this chapter's account of proud, God-defying ambition sets a pattern the rest of Scripture returns to whenever Babylon reappears as a symbol of human empire opposed to God (Isaiah, Daniel, Revelation)." },
+    { title:"Why does the genealogy's math shrink?", icon:"📉",
+      text:"Post-flood lifespans in this genealogy drop sharply compared to Genesis 5's antediluvian figures (from centuries near a millennium down toward a few hundred years), a trend scholars read either as literal decline in human longevity after the Flood or as a literary signal of the world's changed conditions." }
+  ],
+  crossRefs: [
+    { group:"Babel's pride, and later judgment on empire", refs:[
+      { r:"Isaiah 14:12-14", note:"a proud ruler's boast to 'ascend to the heavens,' echoing Babel's ambition" },
+      { r:"Daniel 4:30", note:"Nebuchadnezzar's boast over 'Babylon that I have built,' answered by judgment" },
+      { r:"Revelation 18:2", note:"'Babylon the great is fallen' — Babel's ambition finally undone for good" } ]},
+    { group:"Scattered languages, later reversed", refs:[
+      { r:"Acts 2:1-11", note:"Pentecost's many tongues understood as one message — often read as Babel's reversal" },
+      { r:"Zephaniah 3:9", note:"a future promise of 'pure speech' restored to the peoples" },
+      { r:"Genesis 12:1-3", note:"God's call to Abram immediately follows, narrowing from all nations to one covenant family" } ]}
+  ]
 }
 };

@@ -600,7 +600,15 @@ BVV.PLACES = [
     blurb:"The garden God planted 'eastward, in Eden,' watered by a river that divided into four, where the first man and woman were placed, tested, and from which they were finally driven out (Gen 2-3).",
     meaning:"Hebrew 'ʿEden' — 'delight/pleasure'",
     ancient:"The exact site is disputed and may be more symbolic than a single recoverable spot; the traditional and most common scholarly guess sets it near the ancient confluence of the Tigris and Euphrates at the northern head of the Persian Gulf, a lush, well-watered alluvial garden landscape standing out against the surrounding arid steppe.",
-    scene:{ terrain:"oasis", settlement:"none", water:"river", veg:"mixed" } }
+    scene:{ terrain:"oasis", settlement:"none", water:"river", veg:"mixed" } },
+  { id:"ararat", name:"Mount Ararat", al:["Ararat","mountains of Ararat"], modern:"Ağrı Dağı, Turkey", lat:39.702, lon:44.298, type:"mountain",
+    blurb:"The mountain range where Noah's ark came to rest as the floodwaters receded (Gen 8:4).",
+    ancient:"A remote highland range in ancient Urartu, far above the Mesopotamian plain.",
+    scene:{ terrain:"mountain", settlement:"none", water:"none", veg:"sparse" } },
+  { id:"nod", name:"Land of Nod", al:["Nod","land of Nod"], modern:"unknown, likely Mesopotamia east of the Tigris (traditional)", lat:33.500, lon:45.500, type:"region",
+    blurb:"The land east of Eden where Cain settled after being driven out for killing Abel (Gen 4:16).",
+    ancient:"Its name means 'wandering' — a fitting home for a fugitive under judgment.",
+    scene:{ terrain:"plain", settlement:"none", water:"none", veg:"sparse" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };

@@ -166,7 +166,9 @@ function check(name, cond, extra) {
     "2 Samuel 1|10:1", "2 Samuel 2|10:2", "2 Samuel 3|10:3", "2 Samuel 4|10:4", "2 Samuel 5|10:5", "2 Samuel 6|10:6", "2 Samuel 7|10:7",
     "2 Samuel 8|10:8", "2 Samuel 9|10:9", "2 Samuel 10|10:10", "2 Samuel 11|10:11", "2 Samuel 12|10:12", "2 Samuel 15|10:15", "2 Samuel 18|10:18",
     "2 Samuel 24|10:24",
-    "Genesis 1|1:1", "Genesis 2|1:2", "Genesis 3|1:3"];
+    "Genesis 1|1:1", "Genesis 2|1:2", "Genesis 3|1:3",
+    "Genesis 4|1:4", "Genesis 5|1:5", "Genesis 6|1:6", "Genesis 7|1:7",
+    "Genesis 8|1:8", "Genesis 9|1:9", "Genesis 10|1:10", "Genesis 11|1:11"];
   for (const entry of CURATED_SWEEP) {
     const [ref, key] = entry.split("|");
     console.log(`== curated pipeline: ${ref} ==`);
