@@ -172,7 +172,9 @@ function check(name, cond, extra) {
     "Genesis 12|1:12", "Genesis 13|1:13", "Genesis 14|1:14", "Genesis 15|1:15",
     "Genesis 16|1:16", "Genesis 17|1:17", "Genesis 18|1:18", "Genesis 19|1:19",
     "Genesis 20|1:20", "Genesis 21|1:21", "Genesis 22|1:22", "Genesis 23|1:23",
-    "Genesis 24|1:24", "Genesis 25|1:25", "Genesis 26|1:26", "Genesis 27|1:27"];
+    "Genesis 24|1:24", "Genesis 25|1:25", "Genesis 26|1:26", "Genesis 27|1:27",
+    "Genesis 28|1:28", "Genesis 29|1:29", "Genesis 30|1:30", "Genesis 31|1:31",
+    "Genesis 32|1:32", "Genesis 33|1:33", "Genesis 34|1:34", "Genesis 35|1:35", "Genesis 36|1:36"];
   for (const entry of CURATED_SWEEP) {
     const [ref, key] = entry.split("|");
     console.log(`== curated pipeline: ${ref} ==`);

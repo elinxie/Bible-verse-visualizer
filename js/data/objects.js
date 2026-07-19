@@ -148,5 +148,13 @@ BVV.OBJECTS = [
   { id:"sulfur-fire", name:"Fire and sulfur", al:["fire and brimstone","sulfur and fire","brimstone"], icon:"☄️",
     desc:"What the LORD rains down 'out of the heavens' on Sodom and Gomorrah, overthrowing the cities and the whole plain (Gen 19:24-25) — a judgment later Scripture repeatedly invokes as the paradigm of divine wrath." },
   { id:"pillar-of-salt", name:"Pillar of salt", al:["pillar of salt"], icon:"🧂",
-    desc:"What Lot's wife became after looking back toward the burning cities against the angels' explicit warning (Gen 19:17, 26) — later remembered as Jesus' own warning to 'remember Lot's wife' (Luke 17:32)." }
+    desc:"What Lot's wife became after looking back toward the burning cities against the angels' explicit warning (Gen 19:17, 26) — later remembered as Jesus' own warning to 'remember Lot's wife' (Luke 17:32)." },
+  { id:"jacobs-ladder", name:"Jacob's ladder (stairway)", al:["ladder","stairway to heaven"], icon:"🪜",
+    desc:"A stairway set on the earth with its top reaching heaven, angels ascending and descending on it, seen by Jacob in a dream at Bethel as the LORD renews Abraham's covenant over him (Gen 28:12-15)." },
+  { id:"jacobs-pillar-stone", name:"Jacob's pillar stone", al:["pillow-stone","pillar at Bethel"], icon:"🪨",
+    desc:"The stone Jacob used as a pillow at Bethel, set up as a pillar and anointed with oil the next morning to mark the place 'God's house' (Gen 28:18-19; re-erected and renamed on his return, Gen 35:14-15)." },
+  { id:"striped-rods", name:"Peeled rods (Jacob's flock scheme)", al:["peeled rods","streaked rods"], icon:"🌿",
+    desc:"Poplar, almond, and plane branches Jacob peeled into stripes and set before Laban's flocks at the watering troughs, breeding strong, streaked, and spotted animals for his own growing herd (Gen 30:37-42)." },
+  { id:"mizpah-heap", name:"Galeed / the Mizpah heap", al:["Galeed","heap of witness","Mizpah stones"], icon:"🗻",
+    desc:"A stone heap and pillar Jacob and Laban raised together in Gilead as witness to their parting covenant, each swearing not to cross it against the other — the source of the 'Mizpah' benediction (Gen 31:44-49)." }
 ];

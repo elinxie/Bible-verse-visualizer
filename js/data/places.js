@@ -628,7 +628,11 @@ BVV.PLACES = [
   { id:"beerlahairoi", name:"Beer-lahai-roi", al:["Beer-lahai-roi","Beer Lahai Roi"], modern:"N Negev/Sinai borderland (approx.), Israel", lat:30.700, lon:34.350, type:"well",
     blurb:"The well where the LORD's angel found the fleeing, pregnant Hagar; its name means 'well of the Living One who sees me' (Gen 16:14).",
     ancient:"A desert well on the Shur road, later associated with Isaac (Gen 24:62; 25:11).",
-    scene:{ terrain:"desert", settlement:"none", water:"well", veg:"sparse" } }
+    scene:{ terrain:"desert", settlement:"none", water:"well", veg:"sparse" } },
+  { id:"gilead-heights", name:"Hill country of Gilead", al:["Gilead","Mount Gilead","Galeed","Jegar-sahadutha"], modern:"Ajlun highlands, Jordan", lat:32.330, lon:35.750, type:"region",
+    blurb:"Highlands east of the Jordan where Laban overtook fleeing Jacob and the two struck their parting covenant (Gen 31:21-25, 44-49).",
+    ancient:"A rugged, well-watered ridge of hills east of the Jordan, grazing country between Aram and Canaan.",
+    scene:{ terrain:"hills", settlement:"none", water:"spring", veg:"mixed" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };

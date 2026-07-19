@@ -3885,6 +3885,434 @@ BVV.CURATED = {
       { r:"Genesis 37:31-33", note:"Jacob's own sons later deceive him with Joseph's bloodied coat" },
       { r:"Galatians 6:7", note:"'whatever a man sows, that he will also reap' — a principle the whole Jacob cycle illustrates" } ]}
   ]
+},
+
+/* ===== GENESIS 28 — Jacob's Ladder at Bethel ===== */
+"1:28": {
+  era: { title: "Jacob flees Canaan, c. mid-2nd millennium BC", sub: "Fleeing Esau's anger toward Haran · a night stop becomes a vision of heaven opened",
+    badges: ["Patriarchal age", "A fugitive with a stone pillow", "Covenant renewed to the third generation"] },
+  timeOfDay: "night",
+  summary: "Isaac sends Jacob away to Paddan-aram to find a wife among Laban's daughters, warning him against Canaanite women, and blesses him with Abraham's covenant before he leaves; Esau, noting his parents' disapproval of Canaanite wives, marries a daughter of Ishmael as well (vv. 1-9). On the road, Jacob stops for the night at an unnamed place, using a stone for a pillow, and dreams of a stairway set on the earth with its top reaching heaven, angels ascending and descending on it, and the LORD standing above it. The LORD renews to Jacob the promises given to Abraham and Isaac — land, offspring like the dust of the earth, blessing to all families, and God's own presence and protection until he brings Jacob back (vv. 10-15). Jacob wakes in awe, declares 'surely the LORD is in this place, and I did not know it,' sets up his stone pillow as a pillar, anoints it with oil, renames the place Bethel ('house of God'), and vows that if God brings him home safely, the LORD will be his God and he will give a tenth of everything back (vv. 16-22).",
+  focusPlace: "bethel",
+  places: [
+    { id:"bethel", role:"Where Jacob stops for the night, dreams of the stairway to heaven, and sets up his pillow-stone as a pillar (vv. 11-19)" },
+    { id:"haran", role:"Jacob's destination, his mother Rebekah's homeland and Laban's household (vv. 2, 10)" }
+  ],
+  journey: [
+    { from:"hebron", to:"bethel", label:"First leg of Jacob's flight north", km:75, note:"Jacob leaves his father's household at Hebron/Beersheba country and heads toward Haran, stopping the first night at Bethel." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Isaac sends Jacob off", av:"elder", desc:"Isaac blesses Jacob with 'the blessing of Abraham' and sends him to Paddan-aram to marry within the family (vv. 1-5)." },
+    { x:0.30, type:"person", label:"Esau marries a daughter of Ishmael", av:"shepherd", desc:"Seeing his Canaanite wives displease his parents, Esau adds Ishmael's daughter Mahalath to his household (vv. 6-9)." },
+    { x:0.50, type:"object", label:"The stone pillow", desc:"Jacob takes a stone of that place, puts it under his head, and lies down to sleep (v. 11)." },
+    { x:0.65, type:"object", label:"The stairway to heaven", desc:"A stairway set on the earth reaching to heaven, with angels ascending and descending on it, and the LORD standing above (vv. 12-13)." },
+    { x:0.80, type:"person", label:"The covenant renewed", av:"elder", desc:"The LORD repeats Abraham's promises to Jacob directly — land, offspring, blessing, and a pledge of presence (vv. 13-15)." },
+    { x:0.95, type:"object", label:"Bethel's pillar and the tithe vow", desc:"Jacob sets up his stone as a pillar, names the place Bethel, and vows a tenth of all God gives him (vv. 18-22)." }
+  ],
+  environment: {
+    chips: ["A lone traveler's camp, not a city", "Stone for a pillow", "Angels on a stairway", "Covenant renewed in a dream", "Oil poured on stone", "A vow, not yet a temple"],
+    text: "Bethel here is no more than open highland ground beside the road from Hebron to Haran — no altar, no shrine, just a good flat stone and a spot to sleep. Jacob's vision transforms an ordinary night's stop into 'the gate of heaven,' and his single stone becomes the seed of the sanctuary later generations would build on this same site."
+  },
+  objectsExtra: ["jacobs-ladder", "jacobs-pillar-stone"],
+  peopleExtra: [],
+  culture: [
+    { title:"A fugitive receiving Abraham's blessing", icon:"🪜",
+      text:"Jacob leaves home not in triumph but in flight from a brother's murderous anger, yet it is precisely here — alone, poor, and afraid — that God confirms to him the covenant given to Abraham and Isaac. The blessing follows the chosen line regardless of the recipient's circumstances." },
+    { title:"Bethel as sacred geography", icon:"🏛️",
+      text:"Bethel becomes one of Israel's most significant worship sites, visited again by Jacob in Genesis 35 and later host to a rival royal shrine under Jeroboam (1 Kings 12:29) — a use of the site the prophets condemn as a corruption of what began here as a spontaneous vow." },
+    { title:"Vow-making in the ancient world", icon:"🤝",
+      text:"Jacob's conditional vow ('if God will be with me... then the LORD shall be my God') reflects a common ancient Near Eastern pattern of bargaining with deity for protection on a journey, though Genesis frames it as the beginning of Jacob's own, still-developing faith rather than mere transaction." }
+  ],
+  crossRefs: [
+    { group:"The stairway remembered", refs:[
+      { r:"John 1:51", note:"Jesus tells Nathanael he will see heaven opened and angels ascending/descending on the Son of Man" },
+      { r:"Genesis 35:1-15", note:"Jacob returns to Bethel and renews the vow" },
+      { r:"Hosea 12:4", note:"recalls Jacob meeting God at Bethel" } ]},
+    { group:"The covenant handed down", refs:[
+      { r:"Genesis 12:1-3", note:"the same promises first given to Abraham" },
+      { r:"Genesis 26:2-5", note:"renewed to Isaac" },
+      { r:"Genesis 35:9-12", note:"confirmed again to Jacob at Bethel" } ]}
+  ]
+},
+
+/* ===== GENESIS 29 — Jacob Serves Laban, Tricked into Two Marriages ===== */
+"1:29": {
+  era: { title: "Jacob arrives in Haran, c. mid-2nd millennium BC", sub: "A well, a kiss, and a wedding-night deception · seven years of labor doubled to fourteen",
+    badges: ["Patriarchal age", "Laban's household", "Love, trickery, and rival sisters"] },
+  timeOfDay: "day",
+  summary: "Jacob arrives at a well near Haran, rolls the stone away to water Rachel's flock, and, learning she is Laban's daughter, kisses her and weeps aloud; Laban welcomes him and he stays a month, then agrees to serve seven years for Rachel, 'the younger and more beautiful,' years that seem to him but a few days (vv. 1-20). On the wedding night Laban substitutes Leah, the older, weaker-eyed daughter, and Jacob only discovers the trick the next morning; Laban's excuse is local custom — the younger cannot marry before the firstborn — but offers Rachel too after a bridal week, for another seven years of service, plus each daughter a maidservant, Zilpah for Leah and Bilhah for Rachel (vv. 21-30). Seeing Leah unloved, the LORD opens her womb while Rachel remains barren; Leah bears Reuben, Simeon, Levi, and Judah in succession, naming each son to express her hope that her husband's love would follow (vv. 31-35).",
+  focusPlace: "haran",
+  places: [
+    { id:"haran", role:"Laban's home city, site of the well, Jacob's arrival, and both weddings (vv. 1-30)" }
+  ],
+  journey: [
+    { from:"bethel", to:"haran", label:"Jacob completes his flight to Paddan-aram", km:640, note:"Jacob travels on from his Bethel vision to Laban's household, where he will spend the next twenty years." }
+  ],
+  hotspots: [
+    { x:0.08, type:"object", label:"The well and its stone", desc:"Shepherds wait for all the flocks to gather before rolling the great stone from the well's mouth; Jacob alone rolls it away for Rachel (vv. 2-10)." },
+    { x:0.22, type:"person", label:"Jacob meets Rachel", av:"woman", desc:"Jacob waters her flock, kisses her, and weeps aloud on learning she is his kinswoman (vv. 10-12)." },
+    { x:0.40, type:"person", label:"Seven years 'like a few days'", av:"shepherd", desc:"Jacob agrees to serve Laban seven years for Rachel, and the text notes his love made the years feel short (vv. 18-20)." },
+    { x:0.58, type:"person", label:"The wedding-night substitution", av:"woman", desc:"Laban brings Leah instead of Rachel under cover of darkness and feasting; Jacob does not discover it until morning (vv. 21-25)." },
+    { x:0.75, type:"person", label:"Rachel given after a bridal week", av:"elder", desc:"Laban defends the switch by custom, then gives Rachel too for a second seven years' labor (vv. 26-30)." },
+    { x:0.92, type:"person", label:"Leah's four sons", av:"woman", desc:"Unloved but fertile, Leah bears Reuben, Simeon, Levi, and Judah, naming each for her hope of Jacob's affection (vv. 31-35)." }
+  ],
+  environment: {
+    chips: ["A shepherds' well outside the city", "Custom trumps promise", "Two sisters, one husband", "Bride-service, not bride-price", "Naming as prayer", "The deceiver deceived"],
+    text: "Haran's countryside is watering-hole and pastureland, not palace — shepherds gather flocks at a communal well until the whole company can move the covering stone together. The deceptions inside Laban's household mirror, almost exactly, the deception Jacob himself worked on Isaac and Esau — the trickster now finds himself tricked by a craftier uncle."
+  },
+  objectsExtra: [],
+  peopleExtra: ["rachel", "leah", "bilhah", "zilpah", "reuben", "simeon", "levi", "judah"],
+  culture: [
+    { title:"Bride-service in the ancient Near East", icon:"🐑",
+      text:"Rather than paying a bride-price outright, Jacob works seven years for each wife — an arrangement attested elsewhere in the ancient Near East for a man without property of his own, though Laban's demand for two full terms is exploitative even by that standard." },
+    { title:"The younger-before-elder reversal", icon:"🔄",
+      text:"Laban's excuse — 'it is not so done in our place, to give the younger before the firstborn' — pointedly echoes back on Jacob, who took his own older brother's blessing; the deceiver is deceived by the very principle he had overturned at home." },
+    { title:"Naming children as testimony", icon:"📛",
+      text:"Leah's son-names (Reuben 'see, a son'; Simeon 'heard'; Levi 'attached'; Judah 'praise') trace her emotional arc from seeking Jacob's love to finally simply praising God — a pattern of naming-as-prayer common throughout Genesis." }
+  ],
+  crossRefs: [
+    { group:"Wells as meeting places", refs:[
+      { r:"Genesis 24:11-27", note:"Rebekah met at a well in the same way" },
+      { r:"Exodus 2:15-21", note:"Moses meets Zipporah at a well in Midian" },
+      { r:"John 4:6-7", note:"Jesus meets the Samaritan woman at Jacob's own well" } ]},
+    { group:"Jacob's deception returned", refs:[
+      { r:"Genesis 27:18-29", note:"Jacob's own deceit of Isaac and Esau" },
+      { r:"Genesis 31:7", note:"Jacob later accuses Laban of repeated deception" },
+      { r:"Galatians 6:7", note:"a man reaps what he sows" } ]}
+  ]
+},
+
+/* ===== GENESIS 30 — The Birth of Jacob's Sons and His Flock Scheme ===== */
+"1:30": {
+  era: { title: "Jacob's household grows in Haran, c. mid-2nd millennium BC", sub: "A rivalry between sisters plays out through sons · Jacob's wages become his own flocks",
+    badges: ["Patriarchal age", "Sibling rivalry over motherhood", "Selective breeding and shrewd bargaining"] },
+  timeOfDay: "day",
+  summary: "Envious of Leah's fertility, Rachel gives Jacob her maid Bilhah, who bears Dan and Naphtali; Leah, no longer bearing, gives her maid Zilpah, who bears Gad and Asher (vv. 1-13). A mandrake trade between the sisters — Leah's son Reuben's find, swapped for a night with Jacob — leads to Leah bearing Issachar, Zebulun, and a daughter, Dinah, before God finally remembers Rachel, who bears Joseph (vv. 14-24). With his large family, Jacob asks Laban to let him return home, but Laban, having prospered because of him, persuades him to stay for wages: all the speckled, spotted, and dark sheep and goats going forward will be Jacob's (vv. 25-34). Laban immediately removes such animals to sons three days away, but Jacob uses peeled rods at the watering troughs to influence the breeding, growing exceedingly strong flocks for himself and leaving Laban the weaker ones (vv. 35-43).",
+  focusPlace: "haran",
+  places: [
+    { id:"haran", role:"Where Jacob's household grows and his wage-negotiation with Laban plays out (vv. 1-43)" }
+  ],
+  journey: [],
+  hotspots: [
+    { x:0.10, type:"person", label:"Bilhah bears Dan and Naphtali", av:"woman", desc:"Rachel gives her maid to Jacob 'that she may bear on my knees,' and Bilhah bears two sons (vv. 3-8)." },
+    { x:0.25, type:"person", label:"Zilpah bears Gad and Asher", av:"woman", desc:"Leah, having stopped bearing, gives Zilpah, who bears two more sons for Leah's household (vv. 9-13)." },
+    { x:0.40, type:"object", label:"Reuben's mandrakes", desc:"Reuben finds mandrakes in the field; Leah trades them to Rachel for a night with Jacob, resulting in Issachar's birth (vv. 14-18)." },
+    { x:0.55, type:"person", label:"Leah's final children", av:"woman", desc:"Leah bears Zebulun and then a daughter, Dinah (vv. 19-21)." },
+    { x:0.70, type:"person", label:"Rachel bears Joseph", av:"woman", desc:"'God remembered Rachel... and opened her womb,' and she bears Joseph, praying for 'another son' (vv. 22-24)." },
+    { x:0.90, type:"object", label:"The peeled rods at the troughs", desc:"Jacob sets striped rods before the flocks at breeding time, producing streaked and spotted young that become his own wages (vv. 37-42)." }
+  ],
+  environment: {
+    chips: ["A household of rival wives", "Two maidservants added as mothers", "Mandrakes as a bargaining chip", "Eleven sons by chapter's end", "Watering troughs as a breeding ground", "Shrewdness matching shrewdness"],
+    text: "The setting stays Laban's pastureland around Haran, but the real drama is domestic — two sisters competing for status through childbearing, their maids drawn into the contest, and Jacob himself now applying to livestock the same cunning once used to win a blessing, turning ordinary watering troughs into the site of his rising fortune."
+  },
+  objectsExtra: ["striped-rods"],
+  peopleExtra: ["dan", "naphtali", "gad", "asher", "issachar", "zebulun", "dinah", "joseph-ot"],
+  culture: [
+    { title:"Surrogate motherhood through maids", icon:"👶",
+      text:"Giving a maidservant to a husband to bear children 'on the wife's knees' — legally counted as the wife's own — was an accepted ancient practice for infertility, seen earlier with Sarah and Hagar (Gen 16); here it escalates a rivalry rather than resolving one." },
+    { title:"Mandrakes and fertility folklore", icon:"🌱",
+      text:"Mandrakes were widely believed in the ancient world to promote conception and were prized as a folk aphrodisiac; the sisters' trade over them shows how desperately both wanted more standing through motherhood, even while Rachel remained the more loved wife." },
+    { title:"Selective breeding, ancient style", icon:"🐐",
+      text:"Jacob's rod trick reflects a real (if not fully understood) ancient breeding technique combined, in the narrative's own framing, with divine favor (Gen 31:9-12) — Jacob later credits God, not folk magic, for his flocks' growth." }
+  ],
+  crossRefs: [
+    { group:"The twelve tribes taking shape", refs:[
+      { r:"Genesis 35:23-26", note:"the full roster of Jacob's twelve sons by mother" },
+      { r:"Genesis 49:1-28", note:"Jacob's deathbed blessings on each son" },
+      { r:"Exodus 1:1-5", note:"the sons who go down into Egypt" } ]},
+    { group:"Barrenness reversed by God", refs:[
+      { r:"Genesis 25:21", note:"Rebekah's own barrenness reversed by prayer" },
+      { r:"1 Samuel 1:19-20", note:"Hannah's barrenness reversed, echoing Rachel's" },
+      { r:"Genesis 31:9", note:"Jacob credits God, not craft, for his flocks" } ]}
+  ]
+},
+
+/* ===== GENESIS 31 — Jacob Flees Laban and the Covenant at Gilead ===== */
+"1:31": {
+  era: { title: "Jacob's flight from Haran, c. mid-2nd millennium BC", sub: "Twenty years of service end in flight · a chase, a search for stolen gods, a covenant of stones",
+    badges: ["Patriarchal age", "Twenty years' service ended", "Household gods and a parting covenant"] },
+  timeOfDay: "day",
+  summary: "Sensing Laban's sons' resentment and God's own command to return home, Jacob secretly leaves Haran with his wives, children, and flocks while Laban is away shearing sheep; Rachel steals her father's household gods (teraphim) without Jacob's knowledge (vv. 1-21). Laban pursues for seven days and overtakes Jacob in the hill country of Gilead, but God warns him in a dream not to harm Jacob; Laban instead confronts him over the flight and the missing gods, searching every tent but not finding them, since Rachel has hidden them and sits on them, claiming to be indisposed (vv. 22-35). Jacob angrily recounts his twenty years of faithful, unrewarded labor and Laban's repeated wage-changing, and the two make a covenant, raising a stone pillar and heap called Galeed/Mizpah as witness that neither will cross it to harm the other; Laban blesses his daughters and grandchildren and departs, while Jacob continues toward Canaan (vv. 36-55).",
+  focusPlace: "gilead-heights",
+  places: [
+    { id:"gilead-heights", role:"Where Laban overtakes Jacob and the two strike their parting covenant of stones (vv. 21-25, 44-49)" },
+    { id:"haran", role:"The household Jacob and his family secretly flee from (vv. 17-21)" }
+  ],
+  journey: [
+    { from:"haran", to:"gilead-heights", label:"Jacob's flight and Laban's pursuit", km:560, note:"Jacob flees with his whole household while Laban is away shearing; Laban pursues seven days and catches him in Gilead's hill country." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Jacob's secret departure", av:"shepherd", desc:"Jacob slips away with his family and flocks while Laban is shearing sheep three days off (vv. 17-21)." },
+    { x:0.20, type:"object", label:"Rachel steals the household gods", desc:"Rachel takes her father's teraphim without telling Jacob, for reasons the text leaves unexplained (v. 19)." },
+    { x:0.40, type:"person", label:"God warns Laban in a dream", av:"elder", desc:"'Take care that you say nothing to Jacob, either good or bad' — God restrains Laban's anger before he catches up (v. 24)." },
+    { x:0.55, type:"object", label:"The fruitless search for the teraphim", desc:"Laban searches every tent; Rachel hides the idols in her camel's saddle and sits on them, claiming a woman's condition (vv. 33-35)." },
+    { x:0.72, type:"person", label:"Jacob's twenty-years speech", av:"shepherd", desc:"Jacob recounts unpaid labor, changed wages, and God's protection through it all (vv. 36-42)." },
+    { x:0.90, type:"object", label:"The Galeed/Mizpah covenant heap", desc:"Jacob and Laban raise a stone heap and pillar as witness to their non-aggression covenant before parting ways (vv. 44-49)." }
+  ],
+  environment: {
+    chips: ["A furtive night departure", "A father's pursuit across the frontier", "Idols hidden under a saddle", "Twenty years' grievances aired", "A boundary marked in stone", "Two households finally parting"],
+    text: "The chapter moves from Haran's pastures to the rugged Gilead highlands east of the Jordan, the natural border between Aram and Canaan. The stone heap Jacob and Laban raise there functions as an ancient treaty marker — 'the LORD watch between you and me' becomes a boundary oath, not a blessing, sealing the final break between Jacob's family and his uncle's household."
+  },
+  objectsExtra: ["teraphim", "mizpah-heap"],
+  peopleExtra: [],
+  culture: [
+    { title:"Household gods and inheritance rights", icon:"🗿",
+      text:"Teraphim in the ancient Near East were sometimes linked to household inheritance claims or family protection, which may explain why Rachel took them rather than simple sentiment; Laban calls them 'my gods,' underscoring his own household's lingering polytheism even within Abraham's extended family." },
+    { title:"Treaty-making by stone heap", icon:"🪨",
+      text:"Raising a pillar and stone heap as a covenant witness was a recognized ancient Near Eastern treaty custom, functioning much like a boundary marker between two parties who no longer trust spoken word alone — the name 'Mizpah' ('watchtower') becomes proverbial for God's own oversight of parted friends." },
+    { title:"Jacob's grievance as vindication", icon:"⚖️",
+      text:"Jacob's fiery recounting of frost by night and heat by day, changed wages ten times over, and Laban's exploitation reframes the whole Haran narrative: Jacob's prosperity is presented not as trickery but as God's own just recompense for real mistreatment." }
+  ],
+  crossRefs: [
+    { group:"Household idolatry lingers", refs:[
+      { r:"Joshua 24:2, 14-15", note:"Joshua later recalls that the patriarchs' ancestors served other gods beyond the river" },
+      { r:"Genesis 35:2-4", note:"Jacob has his household bury its foreign gods at Bethel" },
+      { r:"Judges 17:5", note:"teraphim reappear in Micah's household shrine" } ]},
+    { group:"Covenants sealed with stones", refs:[
+      { r:"Joshua 4:20-24", note:"twelve stones set up as a covenant memorial at Gilgal" },
+      { r:"Genesis 28:18-22", note:"Jacob's earlier pillar-stone vow at Bethel" },
+      { r:"Genesis 21:27-31", note:"Abraham and Abimelech's earlier well covenant" } ]}
+  ]
+},
+
+/* ===== GENESIS 32 — Wrestling at Peniel ===== */
+"1:32": {
+  era: { title: "Jacob's return to Canaan, c. mid-2nd millennium BC", sub: "Messengers sent ahead to Esau · a night alone at the Jabbok ends in a new name",
+    badges: ["Patriarchal age", "Fear of a wronged brother", "Wrestling with God, renamed Israel"] },
+  timeOfDay: "night",
+  summary: "Jacob sends messengers ahead to Esau in Edom with a conciliatory message, but they return reporting Esau is coming with four hundred men; terrified, Jacob divides his camp into two companies for safety, prays urgently reminding God of his promises, and sends ahead generous droves of livestock as a gift to appease his brother (vv. 1-21). That night, having sent his family across the Jabbok, Jacob is left alone and wrestles with a man until daybreak; unable to overcome Jacob, the man touches his hip socket, putting it out of joint, yet Jacob clings on demanding a blessing. The man renames him Israel — 'for you have striven with God and with men, and have prevailed' — and blesses him there; Jacob names the place Peniel, 'for I have seen God face to face, and yet my life has been delivered,' and limps away from the encounter as the sun rises (vv. 22-32).",
+  focusPlace: "penuel",
+  places: [
+    { id:"penuel", role:"Where Jacob wrestles through the night, is renamed Israel, and limps away at dawn (vv. 24-31)" },
+    { id:"mahanaim", role:"Named just before, when Jacob meets God's angels and calls the place 'two camps' (vv. 1-2)" },
+    { id:"edom", role:"Esau's territory, from which the four hundred men are reported coming (vv. 3, 6)" }
+  ],
+  journey: [
+    { from:"gilead-heights", to:"penuel", label:"Jacob's approach to the Jabbok crossing", km:40, note:"Jacob moves his household and flocks south from Gilead toward the Jabbok ford, sending gifts and messengers ahead to Esau." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Angels meet Jacob at Mahanaim", av:"traveler", desc:"'This is God's camp,' Jacob says, naming the place Mahanaim, 'two camps' (vv. 1-2)." },
+    { x:0.22, type:"person", label:"Messengers report Esau's four hundred men", av:"traveler", desc:"Jacob's fear is described bluntly — 'greatly afraid and distressed' — prompting his defensive split of the camp (vv. 3-8)." },
+    { x:0.38, type:"person", label:"Jacob's prayer of desperation", av:"elder", desc:"Jacob appeals to God's own promises, confessing he is unworthy of the steadfast love already shown him (vv. 9-12)." },
+    { x:0.55, type:"object", label:"The appeasement gift", desc:"Jacob sends droves of goats, sheep, camels, cattle, and donkeys ahead in waves to soften Esau's anger (vv. 13-21)." },
+    { x:0.75, type:"person", label:"The wrestling match", av:"warrior", desc:"A man wrestles Jacob until daybreak, touching his hip socket out of joint when he cannot prevail (vv. 24-25)." },
+    { x:0.92, type:"person", label:"Renamed Israel at Peniel", av:"elder", desc:"'Your name shall no longer be called Jacob, but Israel'; Jacob names the place Peniel, having seen God face to face (vv. 28-30)." }
+  ],
+  environment: {
+    chips: ["Two camps at Mahanaim", "Four hundred men reported approaching", "Waves of livestock sent as tribute", "A solitary night crossing", "A hip put out of joint", "Sunrise on a new name"],
+    text: "The action moves along the Jabbok gorge, a steep tributary valley east of the Jordan, from the open highland camp at Mahanaim down to the ford at Peniel/Penuel. The setting is deliberately isolating — Jacob sends everyone he loves ahead across the stream and is left utterly alone for the encounter that changes both his name and his gait."
+  },
+  objectsExtra: [],
+  peopleExtra: [],
+  culture: [
+    { title:"Who was the wrestler?", icon:"👤",
+      text:"The text calls him simply 'a man,' yet Jacob names the place 'I have seen God face to face,' and Hosea 12:4 identifies him with 'the angel.' Interpreters have long read this as a theophany — God himself, or his messenger, meeting Jacob in physically resistible form on the one night he is most alone and afraid." },
+    { title:"A name change marking a turning point", icon:"📛",
+      text:"Renaming at a decisive moment recurs throughout Genesis (Abram to Abraham, Sarai to Sarah); 'Israel' likely means something like 'God strives' or 'he strives with God,' recasting Jacob's whole life of striving — with brother, father-in-law, and now God himself — as the very meaning of his new identity." },
+    { title:"A wound that becomes a memorial", icon:"🦵",
+      text:"The note that Israelites do not eat the hip's sciatic nerve 'because he touched the socket of Jacob's thigh' (v. 32) preserves in dietary custom a permanent, bodily reminder of the night the nation's ancestor was both wounded and blessed in the same encounter." }
+  ],
+  crossRefs: [
+    { group:"Wrestling with God, echoed later", refs:[
+      { r:"Hosea 12:3-4", note:"recalls Jacob striving with the angel and weeping for favor" },
+      { r:"Genesis 35:10", note:"the Israel name confirmed again at Bethel" },
+      { r:"Exodus 12:22-23", note:"a later, differently-toned night encounter framing Israel's identity" } ]},
+    { group:"Fear of a wronged party, faced head-on", refs:[
+      { r:"Genesis 27:41-45", note:"Esau's original vow to kill Jacob, the source of this fear" },
+      { r:"Genesis 33:1-4", note:"the reunion this chapter's fear anticipates" },
+      { r:"Proverbs 21:14", note:"'a gift in secret averts anger' — the logic behind Jacob's tribute" } ]}
+  ]
+},
+
+/* ===== GENESIS 33 — Reunion with Esau ===== */
+"1:33": {
+  era: { title: "Jacob's reconciliation, c. mid-2nd millennium BC", sub: "Four hundred men approach — and embrace instead of attack · Jacob settles near Shechem",
+    badges: ["Patriarchal age", "A feared reunion turns to embrace", "Settling in Canaan at last"] },
+  timeOfDay: "day",
+  summary: "Still limping from the night before, Jacob arranges his household with the maidservants and their children first, Leah and hers next, and Rachel and Joseph last, then goes ahead bowing seven times as Esau approaches with his four hundred men. Esau runs to meet him, embraces him, falls on his neck, and weeps — the anticipated attack becomes a reunion (vv. 1-4). Esau meets the family and questions the droves sent ahead; Jacob insists he keep the gift, saying seeing Esau's face is like seeing the face of God, now that he has been received favorably (vv. 5-11). Esau offers to travel together or leave some men as escort, but Jacob politely declines both, citing his flocks' and children's slower pace, and the brothers part on good terms, Esau returning to Seir while Jacob turns instead toward Succoth, building a shelter for his livestock, then on to Shechem, where he buys land, pitches his tent, and sets up an altar called El-Elohe-Israel (vv. 12-20).",
+  focusPlace: "shechem",
+  places: [
+    { id:"penuel", role:"Where the previous night's wrestling left Jacob limping into this reunion (v. 1, referring back to ch. 32)" },
+    { id:"edom", role:"Esau's home territory of Seir, to which he returns after the reunion (v. 16)" },
+    { id:"shechem", role:"Where Jacob finally settles, buying land, pitching his tent, and building an altar (vv. 18-20)" }
+  ],
+  journey: [
+    { from:"penuel", to:"shechem", label:"Jacob's route to permanent settlement in Canaan", km:70, note:"After the reunion with Esau, Jacob moves south to Succoth then west into Canaan proper, settling at last near Shechem." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Jacob's careful arrangement of his family", av:"shepherd", desc:"Jacob orders his household by perceived priority — maids and their sons first, Leah's family next, Rachel and Joseph last and safest (vv. 1-2)." },
+    { x:0.25, type:"person", label:"Esau runs to embrace Jacob", av:"shepherd", desc:"Esau runs, embraces, falls on Jacob's neck, and both weep — the feared confrontation dissolves instantly (v. 4)." },
+    { x:0.45, type:"person", label:"Jacob insists Esau keep the gift", av:"elder", desc:"'To see your face is like seeing the face of God, since you have received me favorably' (vv. 8-11)." },
+    { x:0.60, type:"person", label:"Esau's offer of escort declined", av:"shepherd", desc:"Jacob politely turns down travel together, citing the slower pace of children and nursing flocks (vv. 12-15)." },
+    { x:0.78, type:"object", label:"Succoth's shelters", desc:"Jacob builds a house for himself and booths for his livestock, giving the place its name, 'booths' (v. 17)." },
+    { x:0.92, type:"object", label:"The altar at Shechem", desc:"Jacob buys a plot of land from Hamor's sons and builds an altar named El-Elohe-Israel, 'God, the God of Israel' (vv. 18-20)." }
+  ],
+  environment: {
+    chips: ["A feared army becomes a welcome party", "Seven bows before an embrace", "Gifts pressed, then accepted", "A polite parting of ways", "Booths at Succoth", "Land purchased near Shechem"],
+    text: "The chapter moves from the tense approach along the Jabbok to open pastureland near Shechem, in the hill-country pass between Ebal and Gerizim. Jacob's purchase of land here — rather than simple squatting — quietly foreshadows Israel's eventual claim to Canaan through legitimate acquisition, not just conquest."
+  },
+  objectsExtra: [],
+  peopleExtra: [],
+  culture: [
+    { title:"Reconciliation instead of vengeance", icon:"🤗",
+      text:"Esau's run to embrace Jacob — echoing the prodigal son's father centuries of narrative later — subverts every fear Jacob has carried since fleeing home two decades earlier, showing time and estranged distance can dissolve even a vow of murder (Gen 27:41)." },
+    { title:"Diplomatic gift-giving", icon:"🎁",
+      text:"Jacob's insistence Esau accept his tribute, framed as seeing 'the face of God,' reflects ancient Near Eastern protocol where accepting a gift signaled genuine reconciliation, not mere politeness — refusing it would have left the peace in doubt." },
+    { title:"A purchased foothold in the promised land", icon:"🏞️",
+      text:"Jacob's land purchase at Shechem (later confirmed as Joseph's burial site, Joshua 24:32) is one of only a few explicit land purchases by the patriarchs in Canaan, alongside Abraham's cave at Machpelah — small legal footholds within a land not yet possessed." }
+  ],
+  crossRefs: [
+    { group:"Brothers reconciled", refs:[
+      { r:"Genesis 27:41", note:"Esau's original vow to kill Jacob after their father's death" },
+      { r:"Luke 15:20", note:"the father runs to embrace the prodigal, echoing Esau's run here" },
+      { r:"Obadiah 1:10", note:"later prophecy recalls violence between Jacob and Esau's descendants, a contrast to this reconciliation" } ]},
+    { group:"Shechem's later significance", refs:[
+      { r:"Joshua 24:1, 32", note:"Israel's covenant renewal at Shechem; Joseph's bones buried in this purchased plot" },
+      { r:"Genesis 34:1-2", note:"the very next event at this same settlement" },
+      { r:"John 4:5-6", note:"Jacob's well near Sychar, tied to this same ground" } ]}
+  ]
+},
+
+/* ===== GENESIS 34 — Dinah and the Shechemites ===== */
+"1:34": {
+  era: { title: "Violence at Shechem, c. mid-2nd millennium BC", sub: "A prince's crime, a false peace treaty, and a massacre",
+    badges: ["Patriarchal age", "Dinah violated", "Simeon and Levi's vengeance"] },
+  timeOfDay: "day",
+  summary: "Dinah, Jacob and Leah's daughter, goes out to visit the women of the land and is seized and violated by Shechem, son of Hamor the Hivite ruler; yet Shechem's heart is drawn to her, and he asks his father to secure her as a wife (vv. 1-4). Jacob hears but stays silent until his sons return; Hamor proposes intermarriage and free settlement between the two peoples, and Shechem himself offers any bride-price, however great (vv. 5-12). Jacob's sons answer deceitfully, saying they cannot give their sister to an uncircumcised man, but will agree if every male of the city is circumcised; Hamor and Shechem persuade their city to accept the terms (vv. 13-24). On the third day, while the men are still in pain, Simeon and Levi, Dinah's full brothers, attack the city, kill every male including Hamor and Shechem, rescue Dinah, and the rest of Jacob's sons plunder the city, flocks, wealth, women, and children; Jacob rebukes Simeon and Levi for endangering the family among the land's inhabitants, but they justify it: 'should he treat our sister like a prostitute?' (vv. 25-31).",
+  focusPlace: "shechem",
+  places: [
+    { id:"shechem", role:"The city where Dinah is violated and where the entire massacre and plunder take place (vv. 1-29)" }
+  ],
+  journey: [],
+  hotspots: [
+    { x:0.10, type:"person", label:"Dinah goes out among the women", av:"woman", desc:"Dinah visits the local women and is seized and violated by Shechem, the ruler's son (vv. 1-2)." },
+    { x:0.28, type:"person", label:"Shechem seeks marriage", av:"elder", desc:"Despite the crime, Shechem's heart clings to Dinah, and he asks Hamor to arrange the marriage properly (vv. 3-4, 11-12)." },
+    { x:0.45, type:"person", label:"Hamor's offer of intermarriage", av:"elder", desc:"Hamor proposes full intermarriage, land rights, and trade between the two peoples (vv. 8-10)." },
+    { x:0.62, type:"object", label:"The demand for circumcision", desc:"Jacob's sons deceitfully require every Shechemite male circumcised as the price of the alliance (vv. 13-17)." },
+    { x:0.80, type:"person", label:"Simeon and Levi's massacre", av:"warrior", desc:"On the third day, while the men are incapacitated, Simeon and Levi kill every male in the city and take Dinah home (vv. 25-26)." },
+    { x:0.95, type:"person", label:"Jacob's rebuke", av:"elder", desc:"Jacob fears reprisal from the surrounding peoples; his sons reply that their sister's honor demanded it (vv. 30-31)." }
+  ],
+  environment: {
+    chips: ["A visit among strangers turns violent", "A prince genuinely wants marriage", "Circumcision as a deceitful condition", "A city incapacitated by its own bargain", "Brothers acting as sole avengers", "A father's fear of retaliation"],
+    text: "The whole chapter unfolds within and just outside Shechem's walls, the same city where Jacob had just purchased land and built an altar in the previous chapter. What begins as a hopeful step toward peaceful coexistence between Jacob's family and the local Hivites collapses into betrayal and slaughter, souring the family's first real foothold in Canaan."
+  },
+  objectsExtra: [],
+  peopleExtra: ["dinah", "shechem-prince", "hamor"],
+  culture: [
+    { title:"Circumcision weaponized as deceit", icon:"⚔️",
+      text:"Circumcision, the sacred sign of Abraham's covenant (Gen 17), is here cynically repurposed by Jacob's sons as a tactical trap rather than a spiritual sign — a misuse of holy symbol for revenge that the narrative does not excuse even while recording the initial crime against Dinah." },
+    { title:"Honor, shame, and clan justice", icon:"🛡️",
+      text:"In the ancient Near East, a sister's violation was regarded as an offense against the whole family's honor, and brothers — not fathers alone — were often expected to act as her avengers; Simeon and Levi's fury reflects this social code, even as the narrative and Jacob himself question its proportionality." },
+    { title:"A dark shadow over Jacob's blessing", icon:"🌑",
+      text:"Jacob's deathbed words in Genesis 49:5-7 curse Simeon and Levi's anger and scatter their descendants within Israel — this chapter's violence carries consequences that outlast the immediate crisis by generations." }
+  ],
+  crossRefs: [
+    { group:"Consequences at Jacob's deathbed", refs:[
+      { r:"Genesis 49:5-7", note:"Jacob curses Simeon and Levi's violent anger" },
+      { r:"Genesis 35:5", note:"'a terror from God' protects the family as they flee Shechem's region" },
+      { r:"Judges 9:1-6", note:"Shechem later resurfaces violently under Abimelech" } ]},
+    { group:"Covenant sign misused", refs:[
+      { r:"Genesis 17:10-14", note:"circumcision instituted as Abraham's covenant sign" },
+      { r:"Deuteronomy 22:28-29", note:"later law addressing a comparable violation" },
+      { r:"Romans 2:28-29", note:"Paul contrasts outward circumcision with an inward reality" } ]}
+  ]
+},
+
+/* ===== GENESIS 35 — Return to Bethel, Rachel's Death, Isaac's Death ===== */
+"1:35": {
+  era: { title: "Jacob's return to Bethel and family losses, c. mid-2nd millennium BC", sub: "Foreign gods buried, vows renewed · Rachel dies bearing Benjamin, Isaac dies at Hebron",
+    badges: ["Patriarchal age", "Bethel revisited", "Births and deaths mark the family's turn"] },
+  timeOfDay: "day",
+  summary: "God tells Jacob to return to Bethel and build an altar there; Jacob has his household put away their foreign gods, purify themselves, and change clothes, burying the idols and earrings under an oak near Shechem before departing, protected by 'a terror from God' on the surrounding cities (vv. 1-5). At Bethel, Jacob builds his altar, God appears again confirming his new name Israel and repeating the covenant blessings, and Deborah, Rebekah's nurse, dies and is buried nearby (vv. 6-15). Traveling on toward Ephrath (Bethlehem), Rachel dies in hard labor bearing her second son, naming him Ben-oni with her last breath, though Jacob calls him Benjamin; she is buried on the road, and Jacob sets up a pillar over her grave (vv. 16-20). Reuben sleeps with Bilhah, his father's concubine, a wrong that costs him standing; the chapter closes with the roster of Jacob's twelve sons and the death of Isaac at a hundred and eighty, buried by both Jacob and Esau at Hebron (vv. 21-29).",
+  focusPlace: "bethel",
+  places: [
+    { id:"bethel", role:"Where Jacob builds his altar and God confirms the covenant and the name Israel again (vv. 1-15)" },
+    { id:"bethlehem", role:"Near where Rachel dies giving birth to Benjamin and is buried on the road (vv. 16-19)" },
+    { id:"hebron", role:"Where Isaac dies and is buried by both his sons (vv. 27-29)" }
+  ],
+  journey: [
+    { from:"shechem", to:"bethel", label:"Jacob's return to the site of his first vision", km:30, note:"Jacob leads his purified household back to Bethel to fulfill the vow he made twenty years earlier fleeing Esau." },
+    { from:"bethel", to:"bethlehem", label:"The final leg toward Hebron, cut short by tragedy", km:25, note:"Traveling on toward his father's home, Jacob loses Rachel in childbirth just short of Ephrath/Bethlehem." }
+  ],
+  hotspots: [
+    { x:0.08, type:"object", label:"Foreign gods buried under the oak", desc:"Jacob has his household surrender their idols and earrings, burying them near Shechem before the journey to Bethel (vv. 2-4)." },
+    { x:0.25, type:"person", label:"God confirms Israel's covenant again", av:"elder", desc:"At Bethel, God repeats the covenant blessings and Jacob's new name a second time (vv. 9-13)." },
+    { x:0.40, type:"person", label:"Deborah's death", av:"woman", desc:"Rebekah's old nurse dies and is buried under an oak near Bethel, given her own brief memorial (v. 8)." },
+    { x:0.58, type:"person", label:"Rachel dies bearing Benjamin", av:"woman", desc:"In hard labor near Ephrath, Rachel names her son Ben-oni with her dying breath; Jacob renames him Benjamin (vv. 16-19)." },
+    { x:0.75, type:"person", label:"Reuben's sin with Bilhah", av:"youth", desc:"Reuben sleeps with his father's concubine Bilhah, an act Jacob later remembers against him (v. 22)." },
+    { x:0.92, type:"person", label:"Isaac's death at Hebron", av:"elder", desc:"Isaac dies at 180, 'old and full of days,' buried by both Esau and Jacob together (vv. 27-29)." }
+  ],
+  environment: {
+    chips: ["Idols buried before worship renewed", "A covenant confirmed a second time", "A nurse's quiet death noted", "A grave marked on the road to Bethlehem", "A father's dishonor by his firstborn", "Two estranged brothers burying their father together"],
+    text: "The chapter's geography traces Jacob's long-delayed homecoming — Shechem to Bethel to the road toward Ephrath and finally to Hebron, retracing the route he fled twenty years before. Loss threads through every stop: a nurse, a beloved wife, and finally the patriarch Isaac himself, even as the family's covenant identity and twelve-tribe structure are formally completed."
+  },
+  objectsExtra: ["jacobs-pillar-stone"],
+  peopleExtra: ["reuben", "benjamin"],
+  culture: [
+    { title:"Purification before worship", icon:"🧼",
+      text:"Burying foreign gods and changing clothes before approaching Bethel reflects an ancient ritual-purity pattern — outward acts symbolizing an inward turning — that recurs whenever Israel formally recommits to covenant worship (compare Joshua 24:23)." },
+    { title:"Rachel's grave, a lasting landmark", icon:"🪦",
+      text:"The pillar Jacob raises over Rachel's tomb near Bethlehem is remembered centuries later (1 Samuel 10:2; Jeremiah 31:15), becoming one of the few patriarchal-era grave sites whose location tradition consistently preserved." },
+    { title:"The twelve tribes completed", icon:"🔢",
+      text:"With Benjamin's birth, the roster of Jacob's twelve sons — the future twelve tribes of Israel — is complete; the text pauses to list them all by mother (vv. 23-26), formally marking the family's transition from patriarchal household to nascent nation." }
+  ],
+  crossRefs: [
+    { group:"Bethel's covenant confirmed twice", refs:[
+      { r:"Genesis 28:10-19", note:"Jacob's first vision and vow at this same site" },
+      { r:"Genesis 32:28", note:"the name Israel first given at Peniel" },
+      { r:"Hosea 12:4-5", note:"recalls God meeting Jacob 'at Bethel'" } ]},
+    { group:"Rachel and Benjamin remembered later", refs:[
+      { r:"1 Samuel 10:2", note:"Rachel's tomb used as a landmark generations later" },
+      { r:"Jeremiah 31:15", note:"Rachel weeping for her children, applied to exile" },
+      { r:"Matthew 2:18", note:"quoted again over Herod's slaughter of the innocents" } ]}
+  ]
+},
+
+/* ===== GENESIS 36 — Esau's Genealogy and the Kings of Edom ===== */
+"1:36": {
+  era: { title: "The generations of Esau, c. mid-2nd millennium BC and after", sub: "A genealogical chapter tracing Esau's line into a settled nation, Edom",
+    badges: ["Patriarchal age", "A rival nation's family record", "Kings reigning before Israel had any"] },
+  timeOfDay: "day",
+  summary: "The chapter records Esau's wives (Canaanite and Ishmaelite women), his sons, and how he separates from Jacob because their combined livestock is too great for the land to support together, settling in the hill country of Seir — Esau being Edom (vv. 1-8). It then traces Esau's descendants as chiefs and clans in Seir, including through his son Eliphaz and Eliphaz's own sons, one born to the concubine Timna, and lists the Horite clans native to the land before Esau's family displaced or merged with them (vv. 9-30). The chapter closes with a list of the kings who reigned in Edom 'before any king reigned over the Israelites,' one dynasty succeeding another rather than passing by inheritance, followed by a final roster of Edom's chiefs by their settlements (vv. 31-43).",
+  focusPlace: "edom",
+  places: [
+    { id:"edom", role:"The hill country of Seir where Esau settles and his descendants become a nation of chiefs and kings (vv. 8-9, 31-43)" }
+  ],
+  journey: [
+    { from:"hebron", to:"edom", label:"Esau's final separation from Jacob's territory", km:100, note:"Esau moves his household and abundant livestock away from Canaan into the hill country of Seir, since the land could not support both brothers' herds together." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Esau's wives and sons listed", av:"shepherd", desc:"Esau's Canaanite and Ishmaelite wives and their sons are recorded as the root of Edom's clans (vv. 1-5)." },
+    { x:0.28, type:"object", label:"Separation from Jacob", desc:"'Their possessions were too great for them to dwell together,' so Esau moves away from Jacob into Seir (vv. 6-8)." },
+    { x:0.50, type:"person", label:"Eliphaz and Timna's son Amalek", av:"elder", desc:"Esau's son Eliphaz fathers Amalek through the concubine Timna, founding a clan that becomes a recurring enemy of Israel (v. 12)." },
+    { x:0.68, type:"person", label:"The Horite clans of Seir", av:"elder", desc:"The land's earlier inhabitants, the Horites, are listed by clan before or alongside Esau's own settlement there (vv. 20-30)." },
+    { x:0.85, type:"person", label:"The kings who reigned before Israel had any", av:"king", desc:"A succession of Edomite kings is listed, notably not passing father to son, 'before any king reigned over the Israelites' (vv. 31-39)." },
+    { x:0.95, type:"person", label:"Edom's chiefs by settlement", av:"elder", desc:"A final list names Esau's chiefs according to their clans and territories (vv. 40-43)." }
+  ],
+  environment: {
+    chips: ["A genealogy, not a narrative", "Land too small for two brothers' herds", "A nation forming in the shadow of Israel", "Kings before Israel had kings", "Amalek's roots traced here", "Clans settling into fixed territory"],
+    text: "Genesis 36 trades scene and story for record-keeping, cataloguing Edom's rise in the rugged hill country of Seir south of the Dead Sea. Its dry lists carry real weight: Esau's descendants become a full nation with kings generations before Israel has one of its own, and this chapter quietly plants the ancestry of Amalek, a foe who will trouble Israel for centuries."
+  },
+  objectsExtra: [],
+  peopleExtra: [],
+  culture: [
+    { title:"Genealogies as literary hinges", icon:"📜",
+      text:"Genesis regularly closes out a family line with a genealogy before turning fully to the chosen line's story (compare Gen 25:12-18 for Ishmael); Esau's genealogy here performs the same function, clearing the stage before Genesis 37 turns entirely to Jacob's sons and Joseph." },
+    { title:"Edom's early kingship", icon:"👑",
+      text:"The note that Edom had kings 'before any king reigned over the Israelites' has long interested readers as a possible clue to this material's final compilation, since it presupposes an Israelite monarchy already exists by the time the observation is made." },
+    { title:"Amalek's troubling legacy", icon:"⚔️",
+      text:"Amalek, traced here to Esau's grandson through a concubine, becomes one of Israel's fiercest recurring enemies (Exodus 17:8-16; 1 Samuel 15) — a small genealogical note in this chapter carries centuries of later conflict in its wake." }
+  ],
+  crossRefs: [
+    { group:"Edom and Israel's later history", refs:[
+      { r:"Numbers 20:14-21", note:"Edom later refuses Israel passage during the wilderness journey" },
+      { r:"Obadiah 1:1-14", note:"a prophecy of judgment against Edom for violence toward Jacob's descendants" },
+      { r:"Malachi 1:2-3", note:"'Jacob I loved, but Esau I hated' — reflecting on the two nations' diverging paths" } ]},
+    { group:"Amalek's later conflicts with Israel", refs:[
+      { r:"Exodus 17:8-16", note:"Amalek's first attack on Israel in the wilderness" },
+      { r:"1 Samuel 15:1-9", note:"Saul's commanded campaign against Amalek" },
+      { r:"Esther 3:1", note:"Haman the Agagite, traditionally linked to Amalek's line" } ]}
+  ]
 }
 
 };
