@@ -3003,5 +3003,429 @@ BVV.CURATED = {
       { r:"Zephaniah 3:9", note:"a future promise of 'pure speech' restored to the peoples" },
       { r:"Genesis 12:1-3", note:"God's call to Abram immediately follows, narrowing from all nations to one covenant family" } ]}
   ]
+},
+
+/* ===== GENESIS 12 — Abram's call, and a detour to Egypt ===== */
+"1:12": {
+  era: {
+    title: "ca. 2091 BC — Abram called out of Haran",
+    sub: "Middle Bronze Age · the covenant call · a famine detour into Egypt",
+    badges: ["Middle Bronze Age", "Abrahamic covenant begins", "First altar in Canaan", "Sarai in Pharaoh's house"]
+  },
+  timeOfDay: "day",
+  summary: "The LORD tells Abram, seventy-five, to leave his country, kin, and father's house for a land he will only be shown, promising to make him a great nation and bless 'all the families of the earth' through him. Abram obeys, taking Sarai, Lot, and their household from Haran into Canaan, stopping first at Shechem, where God appears and promises the land to his offspring, then at Bethel, where he builds an altar and calls on the LORD's name. A famine drives him on to Egypt, where — fearing Sarai's beauty will get him killed — Abram has her pose as his sister. Pharaoh takes her into his house and enriches Abram with livestock and servants, until the LORD strikes Pharaoh's household with plagues. Learning the truth, Pharaoh angrily returns Sarai and expels them both from Egypt.",
+  focusPlace: "shechem",
+  places: [
+    { id:"haran", role:"Where Abram receives God's call and sets out (vv. 1, 4)" },
+    { id:"shechem", role:"First stop in Canaan, where God first promises the land (vv. 6-7)" },
+    { id:"bethel", role:"Where Abram pitches his tent and builds an altar (vv. 8)" },
+    { id:"egypt", role:"Famine refuge where Sarai is taken into Pharaoh's house (vv. 10-20)" }
+  ],
+  journey: [
+    { from:"haran", to:"shechem", label:"Abram's call to Canaan", km:640, note:"Abram leaves Haran at 75 with Sarai, Lot, and all their household, arriving at Shechem's oak of Moreh (vv. 4-6)." },
+    { from:"bethel", to:"egypt", label:"Famine drives Abram south", km:400, note:"A severe famine sends Abram down into Egypt, where the deception over Sarai unfolds (vv. 10-20)." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"'Go from your country' — the call", av:"elder",
+      desc:"God's command comes with no destination named yet, only a promise: a great nation, a great name, and blessing flowing outward to 'all the families of the earth' (vv. 1-3)." },
+    { x:0.28, type:"object", label:"An altar at Shechem, another at Bethel",
+      desc:"At Shechem the LORD promises the land to Abram's offspring; at Bethel, between Bethel and Ai, Abram builds again and calls on the LORD's name (vv. 7-8)." },
+    { x:0.50, type:"person", label:"'Say you are my sister'", av:"woman",
+      desc:"Fearing for his life over Sarai's beauty, Abram asks her to pose as his sister — a half-truth (she is his half-sister) that nearly costs Pharaoh his household (vv. 11-13)." },
+    { x:0.68, type:"person", label:"Sarai taken into Pharaoh's house", av:"king",
+      desc:"Pharaoh's officials praise Sarai to him; she is taken in, and Abram is paid in sheep, oxen, donkeys, servants, and camels (vv. 14-16)." },
+    { x:0.85, type:"object", label:"Plagues, and an expulsion",
+      desc:"The LORD afflicts Pharaoh's house; confronting Abram, Pharaoh returns Sarai and has them escorted out of Egypt with all they own (vv. 17-20)." }
+  ],
+  environment: {
+    chips: ["A call with no map", "Oak of Moreh, Shechem", "Altar between Bethel and Ai", "Famine drives migration south", "Nile-valley wealth: flocks, camels, servants", "A half-truth, and its cost"],
+    text: "Abram's route follows the classic north-south ridge road through Canaan's hill country, the same corridor caravans and armies used for centuries, before a Negev famine — an ordinary hazard of this semi-arid land — pushes him further south into Egypt's more reliable Nile-fed agriculture. Wife-sister ruses, and the wealth foreign potentates paid for a beautiful woman, appear elsewhere in patriarchal narrative and in comparable ancient Near Eastern custom, though Genesis frames this one as endangering the very promise just given."
+  },
+  objectsExtra: ["altar", "camel"],
+  peopleExtra: ["lot"],
+  culture: [
+    { title:"Leaving Ur and Haran — why it mattered", icon:"🏛️",
+      text:"Both Ur and Haran were centers of moon-god worship in the ancient Near East; Abram's call meant abandoning not just geography and family but an entire religious world for an unseen God and an unnamed destination — a test of trust the text underlines by delaying the land's name until Abram is already moving." },
+    { title:"The wife-sister motif", icon:"👰",
+      text:"This is the first of three similar episodes (again in Gen 20 and 26), where a patriarch's wife is passed off as a sister before a foreign ruler. Whatever the precise customary background, Genesis consistently shows God protecting the promise despite the patriarchs' fear-driven scheming, not because of it." },
+    { title:"Altars as claim-markers", icon:"⛰️",
+      text:"Building an altar at each stop was more than worship — in the ancient world it functioned as a public claim on the land and a permanent memorial of divine encounter, planting Abram's presence at Shechem and Bethel long before he owned a single field there." }
+  ],
+  crossRefs: [
+    { group:"The call, echoed forward", refs:[
+      { r:"Hebrews 11:8", note:"'by faith Abraham obeyed... not knowing where he was going'" },
+      { r:"Acts 7:2-4", note:"Stephen retells the call as beginning even earlier, in Mesopotamia" },
+      { r:"Galatians 3:8", note:"Paul reads v. 3's blessing as the gospel preached in advance to Abraham" } ]},
+    { group:"The wife-sister pattern repeated", refs:[
+      { r:"Genesis 20:1-18", note:"the same ruse played on Abimelech of Gerar" },
+      { r:"Genesis 26:6-11", note:"Isaac repeats his father's exact deception with Rebekah" },
+      { r:"Psalm 105:12-15", note:"'he allowed no one to oppress them... touch not my anointed'" } ]}
+  ]
+},
+
+/* ===== GENESIS 13 — Abram and Lot separate ===== */
+"1:13": {
+  era: {
+    title: "ca. 2090 BC — Abram and Lot part ways",
+    sub: "Middle Bronze Age · the two households outgrow the land · Lot chooses the Jordan plain",
+    badges: ["Middle Bronze Age", "Peaceable separation", "Land promise renewed", "Sodom's wickedness introduced"]
+  },
+  timeOfDay: "day",
+  summary: "Abram returns from Egypt to the Negev and then back to Bethel, rich now in livestock, silver, and gold, retracing his steps to the altar he first built there. His herdsmen and Lot's quarrel over grazing land, since both households have grown too large to share the range, so Abram proposes they separate and generously lets Lot choose first. Lot looks out over the well-watered Jordan plain, 'like the garden of the LORD,' and pitches his tents toward Sodom — whose men, the narrator notes, 'were wicked, great sinners against the LORD.' After Lot departs, God tells Abram to look in every direction: all the land he sees will belong to his offspring, who will be as countless as the dust of the earth. Abram moves his tents to the oaks of Mamre at Hebron and builds another altar there.",
+  focusPlace: "hebron",
+  places: [
+    { id:"bethel", role:"Abram's return stop, back to his first altar (vv. 3-4)" },
+    { id:"sodom", role:"The plain city Lot chooses and moves toward (vv. 10-12)" },
+    { id:"hebron", role:"Where Abram settles at Mamre's oaks after the separation (v. 18)" }
+  ],
+  journey: [
+    { from:"bethel", to:"hebron", label:"Abram settles at Mamre", km:35, note:"After Lot departs for the plain, Abram moves his tents south to the oaks of Mamre near Hebron and builds an altar (v. 18)." },
+    { from:"bethel", to:"sodom", dashed:true, label:"Lot's choice", km:50, note:"Lot chooses the fertile Jordan plain and pitches his tents 'as far as Sodom,' drawn by its lush appeal despite the city's reputation (vv. 10-12)." }
+  ],
+  hotspots: [
+    { x:0.10, type:"object", label:"Rich out of Egypt", desc:"Abram returns from Egypt heavy with livestock, silver, and gold, retracing his path to Bethel's altar (vv. 1-4)." },
+    { x:0.28, type:"person", label:"Strife between the herdsmen", av:"shepherd", desc:"Abram's and Lot's flocks have both grown too large for the land to support them together, and their herdsmen quarrel over grazing and water (vv. 5-7)." },
+    { x:0.46, type:"person", label:"'Let there be no strife between us'", av:"elder", desc:"Abram, the elder party, generously offers Lot first choice of the land, refusing to let kinship curdle into conflict (vv. 8-9)." },
+    { x:0.62, type:"person", label:"Lot chooses the plain", av:"elder", desc:"Lot surveys the well-watered Jordan valley 'like the garden of the LORD, like the land of Egypt,' and moves his tents toward wicked Sodom (vv. 10-13)." },
+    { x:0.82, type:"object", label:"'Look... all the land you see'", desc:"After Lot leaves, God renews the covenant promise to Abram in full: land in every direction and offspring 'like the dust of the earth' (vv. 14-17)." }
+  ],
+  environment: {
+    chips: ["Negev famine behind them", "Herds too large to share range", "Jordan plain, lush before judgment", "Sodom's reputation precedes it", "Oaks of Mamre, Hebron", "Land promise renewed in full"],
+    text: "The central hill country simply could not support two large pastoral operations sharing wells and pasture, a practical pressure familiar throughout the patriarchal narratives. Lot's choice trades long-term security for immediate fertility, settling near a city plain later remembered chiefly for its destruction, while Abram's move to Hebron's oaks at Mamre — one of the region's most reliable water and grazing zones — becomes his most enduring base for the rest of the story."
+  },
+  objectsExtra: ["altar"],
+  peopleExtra: ["lot"],
+  culture: [
+    { title:"Why herdsmen quarrel", icon:"🐑",
+      text:"Pastoral economies in the ancient hill country depended on limited wells and seasonal grazing; two households of Abram's and Lot's scale (v. 6 says the land 'could not support both') routinely produced exactly this kind of conflict, which is why peaceful separation, rather than combat, was the wiser and rarer choice." },
+    { title:"'Like the garden of the LORD'", icon:"🌿",
+      text:"Before the Jordan region's destruction, the text explicitly compares it to Eden and to Egypt's irrigated fertility (v. 10) — establishing just how much beauty and abundance Lot's choice represents, which makes the later judgment on Sodom read as a genuine loss, not an obvious trap avoided." },
+    { title:"Hebron and the oaks of Mamre", icon:"🌳",
+      text:"Mamre, near Hebron, becomes Abraham's most frequent dwelling place across Genesis — the site of the three visitors (ch. 18) and near the cave of Machpelah he later buys as a family tomb (ch. 23), anchoring the promise in a specific, remembered patch of ground." }
+  ],
+  crossRefs: [
+    { group:"The land promise, expanding", refs:[
+      { r:"Genesis 12:7", note:"the first, narrower promise at Shechem, now widened to every direction" },
+      { r:"Genesis 15:18-21", note:"the promise given fixed borders in the covenant of the pieces" },
+      { r:"Genesis 28:13-14", note:"the same promise repeated to Jacob at Bethel" } ]},
+    { group:"Sodom's wickedness, foreshadowed", refs:[
+      { r:"Genesis 18:20-21", note:"the LORD's own verdict on the outcry against Sodom" },
+      { r:"Genesis 19:4-9", note:"the wickedness this chapter names in advance plays out at Lot's door" },
+      { r:"Ezekiel 16:49-50", note:"Sodom's sin defined as pride, excess, and neglect of the poor" } ]}
+  ]
+},
+
+/* ===== GENESIS 14 — The war of the kings, and Melchizedek ===== */
+"1:14": {
+  era: {
+    title: "ca. 2089 BC — Abram's rescue of Lot, and Melchizedek's blessing",
+    sub: "Middle Bronze Age · a coalition war among Canaanite and Mesopotamian kings · Abram's only recorded battle",
+    badges: ["Middle Bronze Age", "Four kings vs. five", "Abram the rescuer-warrior", "Melchizedek: king and priest"]
+  },
+  timeOfDay: "day",
+  summary: "Four eastern kings led by Chedorlaomer of Elam crush a rebellion by five Jordan-plain kings, including Sodom and Gomorrah, plundering the cities and carrying off captives and goods — among them Lot, now living in Sodom. Hearing this, Abram arms 318 trained men born in his household, pursues the coalition north past Dan, and routs them by night near Damascus, recovering Lot, the women, and all the goods. Returning victorious, Abram is met by two kings: the king of Sodom, offering him the plunder while keeping the people, and Melchizedek, king of Salem and priest of God Most High, who brings out bread and wine and blesses Abram. Abram gives Melchizedek a tenth of everything, then refuses any reward from the king of Sodom beyond his men's shares, so that no one could say Sodom's king had made Abram rich.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"sodom", role:"Home city of Lot, plundered by the eastern coalition (vv. 11-12)" },
+    { id:"dan", role:"Northern point of Abram's pursuit of the captors (v. 14)" },
+    { id:"jerusalem", role:"Salem, where king-priest Melchizedek meets and blesses Abram (vv. 18-20)" },
+    { id:"hebron", role:"Abram's base at Mamre before the campaign begins (v. 13)" }
+  ],
+  journey: [
+    { from:"hebron", to:"dan", label:"Abram's rescue pursuit", km:190, note:"Abram leads 318 trained men north in pursuit of the four kings, catching and routing them near Dan and pursuing further to Hobah near Damascus (vv. 14-15)." },
+    { from:"dan", to:"jerusalem", label:"Return, and Melchizedek's blessing", km:170, note:"On his way back with the recovered captives and goods, Abram is met in the King's Valley by the kings of Sodom and Salem (vv. 17-20)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Chedorlaomer's coalition crushes the rebels", av:"king",
+      desc:"Four kings led by Chedorlaomer defeat five Canaanite kings who had rebelled after twelve years of vassalage, plundering Sodom and Gomorrah (vv. 1-11)." },
+    { x:0.22, type:"person", label:"Lot taken captive", av:"elder",
+      desc:"Living in Sodom, Lot and his goods are swept up in the plunder — the news that reaches Abram by a fugitive (vv. 12-13)." },
+    { x:0.42, type:"person", label:"318 men, and a night raid", av:"warrior",
+      desc:"Abram arms his household-born fighting men, allies with local chiefs, and divides his force for a night attack that routs the coalition (vv. 14-16)." },
+    { x:0.62, type:"person", label:"Melchizedek's bread, wine, and blessing", av:"priest",
+      desc:"King of Salem and priest of God Most High, Melchizedek blesses Abram in God's name; Abram in turn gives him a tenth of all the recovered goods (vv. 18-20)." },
+    { x:0.80, type:"person", label:"The king of Sodom's offer, refused", av:"king",
+      desc:"Sodom's king asks only for his people back, offering Abram the goods; Abram swears he will take nothing, 'lest you should say, I have made Abram rich'' (vv. 21-24)." }
+  ],
+  environment: {
+    chips: ["A coalition war of vassal kings", "Household-born fighters, not mercenaries", "A night raid near Damascus", "King's Valley meeting", "Bread, wine, and a tithe", "No reward taken from Sodom"],
+    text: "This chapter's geography spans from the Dead Sea plain to Dan in the far north and on toward Damascus — an unusually long-range campaign for a single pastoral family chief, underlining how seriously Abram treated his covenant obligation to family. The meeting afterward, in the King's Valley near later Jerusalem, sets two very different rulers side by side: one offering wealth for compliance, the other offering blessing for nothing at all."
+  },
+  objectsExtra: ["sword", "armor"],
+  peopleExtra: ["lot", "melchizedek", "chedorlaomer"],
+  culture: [
+    { title:"A four-king, five-king world", icon:"⚔️",
+      text:"The chapter reflects the real political texture of Middle Bronze Age Canaan and Mesopotamia: small city-kings under larger regional overlords, prone to periodic rebellion and punitive campaigns exactly like the one described, long before Israel existed as a nation." },
+    { title:"Melchizedek: priest before Levi", icon:"👑",
+      text:"Melchizedek appears with no genealogy, predating the Aaronic priesthood by centuries; Psalm 110:4 and Hebrews 5-7 later single out this 'priesthood after the order of Melchizedek' — kingly and priestly together, without recorded beginning or end — as a type of Christ's own priesthood." },
+    { title:"The first tithe", icon:"💰",
+      text:"Abram's tenth to Melchizedek (v. 20) is the Bible's first recorded tithe, given voluntarily to a priest-king rather than commanded by law — a detail Hebrews later leans on to argue Melchizedek's priesthood outranks Levi's, since Levi himself was, in a sense, still in Abraham's loins." }
+  ],
+  crossRefs: [
+    { group:"Melchizedek's priesthood, later magnified", refs:[
+      { r:"Psalm 110:4", note:"'You are a priest forever after the order of Melchizedek'" },
+      { r:"Hebrews 7:1-3", note:"Melchizedek as a type of the Son of God, priest without beginning or end of days" },
+      { r:"Hebrews 7:4-10", note:"the tithe's argument: Levi 'paid tithes' through Abraham" } ]},
+    { group:"Abram the warrior, and Sodom's fate to come", refs:[
+      { r:"Genesis 15:1", note:"'Fear not, Abram, I am your shield' — God's word right after this battle" },
+      { r:"Genesis 18:20-21", note:"the same Sodom whose king Abram just refused, soon judged" },
+      { r:"Hebrews 11:33-34", note:"faith that 'became mighty in war' listed among the patriarchs' deeds" } ]}
+  ]
+},
+
+/* ===== GENESIS 15 — The covenant of the pieces ===== */
+"1:15": {
+  era: {
+    title: "ca. 2088 BC — the covenant of the pieces",
+    sub: "Middle Bronze Age · a childless man promised uncountable offspring · a self-maledictory oath, and a 400-year prophecy",
+    badges: ["Middle Bronze Age", "Faith counted as righteousness", "A covenant God alone walks through", "Land borders fixed: Egypt to Euphrates"]
+  },
+  timeOfDay: "night",
+  summary: "After the battle, the LORD comes to Abram in a vision: 'Fear not, Abram, I am your shield; your reward shall be very great.' Abram objects that he remains childless, his heir only a servant, Eliezer of Damascus — so God takes him outside and tells him to count the stars, if he can, promising offspring just as numerous. Abram believes the LORD, 'and he counted it to him as righteousness.' Asked how he can know he will possess the land, Abram is told to bring specific animals, cut them in half, and lay the halves opposite each other. As the sun sets, a deep, dreadful darkness falls on Abram, and God foretells four hundred years of slavery and affliction for his offspring in a foreign land, followed by judgment on their oppressors and a return with great possessions. Then, after dark, a smoking fire pot and flaming torch pass alone between the pieces, and the LORD cuts a covenant naming the land's exact borders, from Egypt's river to the Euphrates.",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"Where Abram receives the vision and the covenant is cut (implied setting near Mamre)" },
+    { id:"egypt", role:"Named as both the covenant's southern border and the land of 400 years' future bondage (vv. 13, 18)" }
+  ],
+  journey: [
+    { from:"hebron", to:"egypt", dashed:true, label:"A 400-year prophecy, cast forward", km:400, note:"No one travels in this chapter; the line marks God's forecast that Abram's offspring will be sojourners and slaves in a foreign land for four centuries before returning (vv. 13-16)." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"'I am your shield; your reward shall be very great'", av:"elder", desc:"God reassures the victorious but childless Abram, prompting his honest complaint that Eliezer of Damascus, a servant, remains his only heir (vv. 1-3)." },
+    { x:0.24, type:"object", label:"'Count the stars, if you are able'", desc:"God promises offspring as numerous as the stars; Abram believes, and it is counted to him as righteousness — the Bible's classic statement of faith reckoned as righteousness (vv. 4-6)." },
+    { x:0.42, type:"object", label:"Halved animals, laid opposite each other", desc:"At God's instruction Abram cuts a heifer, goat, and ram in half and arranges the pieces in two rows, keeping the birds whole (vv. 9-11)." },
+    { x:0.58, type:"person", label:"A deep, dreadful darkness", av:"elder", desc:"As the sun sets, a terrifying darkness falls on Abram, and God foretells 400 years of affliction for his offspring in a foreign land, then judgment on their oppressors (vv. 12-16)." },
+    { x:0.78, type:"object", label:"Smoking pot and flaming torch pass through alone", desc:"After dark, a smoking fire pot and blazing torch — symbols of God's own presence — pass between the halved pieces without Abram, sealing a covenant he takes no active part in cutting (v. 17)." },
+    { x:0.92, type:"object", label:"Borders fixed: Egypt's river to the Euphrates", desc:"The LORD names the covenant's territory outright, listing ten peoples whose land will become Abram's offspring's own (vv. 18-21)." }
+  ],
+  environment: {
+    chips: ["A vision at night", "Stars as a measure of descendants", "Halved animals, a covenant ritual", "A 400-year prophecy given in advance", "God alone passes between the pieces", "Egypt to Euphrates: borders fixed"],
+    text: "The ritual of walking between halved animals was a known ancient Near Eastern practice for sealing solemn treaties, in which both parties would normally pass through together, invoking a curse of being cut apart like the animals if they broke the oath. Here only the smoking pot and torch — representing God — pass through, making this one-sidedly binding: God obligates only himself to keep the promise, regardless of Abram's future faithfulness."
+  },
+  objectsExtra: ["covenant-pieces"],
+  peopleExtra: [],
+  culture: [
+    { title:"Faith counted as righteousness", icon:"⭐",
+      text:"Verse 6 becomes one of Scripture's most quoted lines: Paul (Rom 4:3, 9; Gal 3:6) and James (Jas 2:23) both build major arguments on it, agreeing that Abram was declared righteous by trusting God's promise, before circumcision (ch. 17) or any law existed to obey." },
+    { title:"Cutting a covenant, ancient Near Eastern style", icon:"🐐",
+      text:"Treaty rituals across the ancient Near East, attested in Mari and later Assyrian texts, sometimes involved halving animals as a self-curse: 'may this happen to whoever breaks this oath.' Genesis 15 uses the same form but inverts the normal risk, since only God — not Abram — walks through." },
+    { title:"Why 400 years?", icon:"⏳",
+      text:"The prophecy's number is echoed almost exactly in Exodus 12:40-41's count of the sojourn in Egypt and in Paul's own arithmetic in Galatians 3:17, tying this chapter directly forward to the Exodus and to the giving of the law centuries later." }
+  ],
+  crossRefs: [
+    { group:"Faith reckoned as righteousness, cited forward", refs:[
+      { r:"Romans 4:3, 9-11", note:"Paul's central proof-text for justification by faith apart from works" },
+      { r:"Galatians 3:6-9", note:"Abraham's faith as the pattern for all who believe" },
+      { r:"James 2:21-23", note:"faith and works read together through the same verse" } ]},
+    { group:"The 400 years, fulfilled", refs:[
+      { r:"Exodus 12:40-41", note:"the sojourn in Egypt, ending 'on that very day'" },
+      { r:"Acts 7:6-7", note:"Stephen retells the prophecy before the Sanhedrin" },
+      { r:"Galatians 3:16-17", note:"Paul counts 430 years from this promise to the law at Sinai" } ]}
+  ]
+},
+
+/* ===== GENESIS 16 — Hagar and Ishmael ===== */
+"1:16": {
+  era: {
+    title: "ca. 2081 BC — Hagar's flight, and Ishmael's birth",
+    sub: "Middle Bronze Age · a plan to force the promise · the first person in Scripture to name God",
+    badges: ["Middle Bronze Age", "A human shortcut to the promise", "Hagar names God", "Ishmael born, not yet the heir"]
+  },
+  timeOfDay: "day",
+  summary: "Ten years into the promise, still childless, Sarai gives Abram her Egyptian servant Hagar as a surrogate wife — a customary but ultimately faithless shortcut to the heir God had promised. Hagar conceives and begins to despise her mistress; Sarai, blaming Abram, mistreats her so harshly that Hagar flees into the wilderness toward Shur. There, by a spring on the road, the angel of the LORD finds her, tells her to return and submit to Sarai, and promises that her son — to be named Ishmael, 'God hears' — will father a multitude too numerous to count, though he will be 'a wild donkey of a man' at odds with everyone. Hagar responds by naming the LORD 'El Roi,' the God who sees her, and calls the well Beer-lahai-roi. She returns and bears Ishmael; Abram is eighty-six years old.",
+  focusPlace: "beerlahairoi",
+  places: [
+    { id:"hebron", role:"Abram and Sarai's household, where the surrogacy plan begins (vv. 1-3)" },
+    { id:"beerlahairoi", role:"The desert well where the angel finds the fleeing Hagar (vv. 7, 14)" }
+  ],
+  journey: [
+    { from:"hebron", to:"beerlahairoi", label:"Hagar's flight into the wilderness", km:80, note:"Mistreated by Sarai, the pregnant Hagar flees south toward Shur and is found by a spring on the road (vv. 6-7)." },
+    { from:"beerlahairoi", to:"hebron", dashed:true, label:"Hagar's return", km:80, note:"On the angel's instruction, Hagar returns to Sarai's household to bear her son there (v. 9)." }
+  ],
+  hotspots: [
+    { x:0.10, type:"person", label:"Sarai's plan: a servant as surrogate", av:"woman", desc:"After ten fruitless years in Canaan, Sarai gives Hagar to Abram to build a family through her — a customary practice of the time, but not God's stated promise (vv. 1-3)." },
+    { x:0.28, type:"person", label:"Contempt, then harsh treatment", av:"woman", desc:"Once pregnant, Hagar despises Sarai; Sarai blames Abram and deals with Hagar so harshly that she flees (vv. 4-6)." },
+    { x:0.48, type:"person", label:"The angel of the LORD finds her", av:"woman", desc:"By a spring on the way to Shur, the angel meets the fleeing Hagar, telling her to return and submit, and promising her son countless descendants (vv. 7-10)." },
+    { x:0.66, type:"object", label:"Ishmael: 'God hears'", desc:"The angel names the unborn child Ishmael, 'because the LORD has listened to your affliction,' and describes him as a free, contentious 'wild donkey of a man' (vv. 11-12)." },
+    { x:0.84, type:"object", label:"'You are a God of seeing' — Beer-lahai-roi", desc:"Hagar becomes the first person in Scripture to name God directly — El Roi — and the well is remembered as Beer-lahai-roi, 'well of the Living One who sees me' (vv. 13-14)." }
+  ],
+  environment: {
+    chips: ["Ten years of waiting", "A customary surrogacy, humanly reasoned", "Flight toward Shur", "A wilderness spring", "Hagar names God first", "Ishmael: 'God hears'"],
+    text: "The road to Shur ran through the arid Negev/Sinai borderland toward Egypt — Hagar's likely homeward direction, since she was Egyptian by birth. Wells in this landscape were rare, vital landmarks, which is exactly why one becomes the site of both her rescue and its own lasting name. The episode's ancient Near Eastern surrogacy custom (a barren wife providing a servant to bear an heir) is attested in Nuzi and Mesopotamian legal texts, showing Sarai's plan was culturally unremarkable even as Genesis frames it as a detour from faith."
+  },
+  objectsExtra: ["well"],
+  peopleExtra: ["hagar", "ishmael"],
+  culture: [
+    { title:"Surrogacy as ancient custom, not divine command", icon:"📜",
+      text:"Ancient Near Eastern marriage contracts (notably from Nuzi) explicitly allow a barren wife to give her servant to her husband to produce an heir credited to the wife — exactly Sarai's plan. Genesis records the custom accurately while quietly showing its human cost." },
+    { title:"El Roi — the God who sees", icon:"👁️",
+      text:"Hagar, a foreign servant with no status, becomes the first person in the Bible to give God a name, based purely on personal experience of being seen in her distress — a strikingly intimate theological moment attributed to the story's most marginalized character." },
+    { title:"Ishmael's future, described in advance", icon:"🏹",
+      text:"The angel's description of Ishmael as free-roaming and often 'at odds with' his kin is later read by many as anticipating the fiercely independent desert-tribal culture historically associated with his Arab descendants, rather than as a moral verdict on the boy himself." }
+  ],
+  crossRefs: [
+    { group:"Hagar and Ishmael, later theology", refs:[
+      { r:"Galatians 4:22-26", note:"Paul allegorizes Hagar and Sarah as two covenants, slavery and freedom" },
+      { r:"Genesis 21:9-21", note:"Hagar and Ishmael's later expulsion after Isaac's birth" },
+      { r:"Genesis 25:12-18", note:"Ishmael's twelve sons, fulfilling the promise of multiplied offspring" } ]},
+    { group:"God who sees and hears the afflicted", refs:[
+      { r:"Exodus 3:7", note:"'I have surely seen the affliction of my people' — the same divine attentiveness" },
+      { r:"Psalm 34:15", note:"'the eyes of the LORD are toward the righteous... his ears toward their cry'" },
+      { r:"1 Peter 3:12", note:"'the eyes of the Lord are on the righteous, and his ears are open to their prayer'" } ]}
+  ]
+},
+
+/* ===== GENESIS 17 — The covenant of circumcision ===== */
+"1:17": {
+  era: {
+    title: "ca. 2067 BC — new names, and the sign of circumcision",
+    sub: "Middle Bronze Age · Abram becomes Abraham, Sarai becomes Sarah · circumcision as covenant sign · Isaac promised by name",
+    badges: ["Middle Bronze Age", "Names changed: father of nations", "Everlasting covenant", "Circumcision instituted"]
+  },
+  timeOfDay: "day",
+  summary: "When Abram is ninety-nine, God appears as 'God Almighty' (El Shaddai) and calls him to walk blamelessly, establishing an everlasting covenant to multiply him greatly and give Canaan to his offspring as a permanent possession. He renames Abram 'Abraham,' father of a multitude of nations, and Sarai 'Sarah,' promising that she herself — not a servant — will bear the covenant son. Abraham laughs at the thought of a child born to a hundred-year-old man and his ninety-year-old wife, and pleads for Ishmael's blessing instead; God blesses Ishmael with twelve princely descendants but insists the covenant will run through a son named Isaac, to be born within the year. As the covenant's perpetual sign, every male in Abraham's household is to be circumcised on the eighth day, under penalty of being cut off from the people; Abraham circumcises himself, Ishmael, and every male in his household that same day.",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"Where God appears to Abraham and the covenant of circumcision is instituted (implied setting)" }
+  ],
+  journey: [
+    { from:"hebron", to:"jerusalem", dashed:true, label:"An everlasting possession, still future", km:35, note:"No travel occurs in this chapter; the line marks the everlasting covenant's promise of 'all the land of Canaan' as a permanent possession, land that later centers on Jerusalem (vv. 8)." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"'I am God Almighty; walk before me'", av:"elder", desc:"El Shaddai appears to the ninety-nine-year-old Abram, establishing an everlasting covenant and calling him to blameless obedience (vv. 1-2)." },
+    { x:0.24, type:"object", label:"New names: Abraham and Sarah", desc:"Abram ('exalted father') becomes Abraham ('father of a multitude'); Sarai becomes Sarah — both renamed to match the scope of the promise now clarified (vv. 5, 15)." },
+    { x:0.42, type:"person", label:"Abraham laughs, and pleads for Ishmael", av:"elder", desc:"Abraham falls on his face laughing at the idea of a hundred-year-old father and ninety-year-old mother, and asks that Ishmael might simply 'live before' God (vv. 17-18)." },
+    { x:0.58, type:"person", label:"Isaac named in advance", av:"elder", desc:"God insists the covenant runs specifically through a son named Isaac ('he laughs'), to be born to Sarah within the year, while also blessing Ishmael richly (vv. 19-21)." },
+    { x:0.78, type:"object", label:"Circumcision: the covenant's sign", desc:"Every male, including servants and foreigners in the household, is to be circumcised on the eighth day forever, or be 'cut off' for breaking the covenant (vv. 10-14)." },
+    { x:0.94, type:"person", label:"Obedience the same day", av:"elder", desc:"Abraham circumcises himself at ninety-nine and Ishmael at thirteen, along with every male in his household, that very day (vv. 23-27)." }
+  ],
+  environment: {
+    chips: ["El Shaddai — 'God Almighty'", "Names changed to match the promise", "Laughter at an impossible birth", "Isaac named before he's conceived", "Circumcision on the eighth day", "Obedience carried out immediately"],
+    text: "Renaming in the ancient world signified a genuine change of identity and destiny, not mere relabeling — Abram's and Sarai's new names publicly commit them to a promise still entirely unfulfilled. Circumcision, while practiced by some neighboring cultures for other reasons, becomes here a specifically covenantal mark cut into the body itself, distinguishing Abraham's household as a permanent, physical sign carried by every generation after."
+  },
+  objectsExtra: ["circumcision"],
+  peopleExtra: ["ishmael"],
+  culture: [
+    { title:"El Shaddai — 'God Almighty'", icon:"⛰️",
+      text:"This divine name, of debated etymology (possibly linked to 'mountain' or simply 'sufficient/powerful'), recurs at pivotal covenant moments across Genesis and signals God's power to accomplish exactly what human biology says is impossible — a hundred-year-old father, a ninety-year-old mother." },
+    { title:"Circumcision in the ancient world", icon:"🔪",
+      text:"Circumcision was practiced by various ancient peoples, often at puberty as a rite of passage; Genesis 17 redefines it entirely as an infant covenant sign tied to lineage and faith rather than adult initiation, making the eighth-day timing itself a marker of Israel's distinct theology." },
+    { title:"Two sons, two destinies foretold", icon:"👶",
+      text:"God's blessing of Ishmael (twelve princes, a great nation) alongside his insistence that the covenant runs through the not-yet-conceived Isaac sets up the entire Abraham-Ishmael-Isaac dynamic that plays out through the rest of Genesis and beyond, without denying Ishmael real blessing of his own." }
+  ],
+  crossRefs: [
+    { group:"Names and destiny", refs:[
+      { r:"Genesis 32:28", note:"Jacob renamed Israel — the pattern of a new name marking a new covenant identity" },
+      { r:"Isaiah 62:2", note:"Israel promised 'a new name that the mouth of the LORD will give'" },
+      { r:"Revelation 2:17", note:"a new name given to the one who conquers" } ]},
+    { group:"Circumcision, spiritualized later", refs:[
+      { r:"Deuteronomy 10:16", note:"'circumcise the foreskin of your heart' — the sign pointing past itself" },
+      { r:"Romans 4:11", note:"circumcision as 'a seal of the righteousness' Abraham already had by faith" },
+      { r:"Colossians 2:11-12", note:"Paul reads Christian baptism as a 'circumcision made without hands'" } ]}
+  ]
+},
+
+/* ===== GENESIS 18 — Three visitors, and intercession for Sodom ===== */
+"1:18": {
+  era: {
+    title: "ca. 2067 BC — three visitors at Mamre, and Abraham's plea for Sodom",
+    sub: "Middle Bronze Age · Isaac's birth announced directly to Sarah · Abraham bargains for the righteous",
+    badges: ["Middle Bronze Age", "The LORD dines under Abraham's tree", "Sarah laughs, then denies it", "Abraham's boldest intercession"]
+  },
+  timeOfDay: "day",
+  summary: "Three men appear before Abraham's tent at Mamre in the heat of the day; he runs to greet them, washes their feet, and rushes Sarah and a servant to prepare a lavish meal. One of the visitors, revealed as the LORD himself, promises that Sarah will have a son within the year. Sarah, listening at the tent door, laughs to herself at the impossibility, given her and Abraham's age; confronted, she denies laughing out of fear, and the LORD replies simply, 'Is anything too hard for the LORD?' As the men set out toward Sodom, the LORD deliberates whether to hide his plan from Abraham, then reveals that the outcry against Sodom and Gomorrah is so great he is going down to see for himself. Abraham intercedes boldly, bargaining the LORD down from fifty righteous people to ten before the LORD departs and Abraham returns home.",
+  focusPlace: "hebron",
+  places: [
+    { id:"hebron", role:"Mamre, where the three visitors meet Abraham and Sarah (vv. 1-15)" },
+    { id:"sodom", role:"The city whose outcry the LORD investigates, and for which Abraham intercedes (vv. 16-33)" }
+  ],
+  journey: [
+    { from:"hebron", to:"sodom", dashed:true, label:"'I will go down and see'", km:50, note:"The LORD's messengers head toward Sodom to investigate its outcry firsthand, while Abraham remains at Mamre pleading on the city's behalf (vv. 16, 22)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Three visitors at the tent door", av:"traveler", desc:"Abraham spots three men near Mamre's oaks, runs to meet them, bows, and insists on washing their feet and feeding them (vv. 1-8)." },
+    { x:0.24, type:"person", label:"'Sarah your wife shall have a son'", av:"elder", desc:"One visitor, speaking as the LORD, promises Isaac's birth within the year — news Sarah overhears from inside the tent (vv. 9-10)." },
+    { x:0.40, type:"person", label:"Sarah laughs, then denies it", av:"woman", desc:"Sarah laughs privately at the idea of bearing a child at her age; caught, she denies it out of fear, met with the LORD's reply, 'Is anything too hard for the LORD?' (vv. 11-15)." },
+    { x:0.58, type:"object", label:"'Shall I hide from Abraham what I am about to do?'", desc:"The LORD deliberates aloud whether to conceal his plan, then discloses that Sodom and Gomorrah's outcry has reached him and he is going to investigate (vv. 17-21)." },
+    { x:0.78, type:"person", label:"Abraham bargains for the righteous", av:"elder", desc:"Standing before the LORD, Abraham pleads for the city, repeatedly lowering the number of righteous needed to spare it — from fifty down to ten (vv. 22-32)." },
+    { x:0.94, type:"object", label:"The LORD departs; Abraham returns home", desc:"Having agreed to spare the city for ten righteous, the LORD goes his way and Abraham returns to his place at Mamre (v. 33)." }
+  ],
+  environment: {
+    chips: ["Noon heat, tent-flap hospitality", "Bread, curds, and a calf prepared fast", "A promise Sarah overhears", "'Is anything too hard for the LORD?'", "An outcry investigated in person", "Bargaining from fifty down to ten"],
+    text: "Middle-Eastern hospitality customs required exactly this kind of urgent, lavish welcome for unknown travelers — fresh-baked bread, a tender calf slaughtered on the spot, curds and milk — all prepared within roughly an hour, signaling both genuine honor and the household's real means. The scene's shift from domestic meal to cosmic courtroom, as Abraham negotiates directly with the LORD over a doomed city's fate, is one of the boldest instances of human intercession recorded anywhere in Scripture."
+  },
+  objectsExtra: ["waterjar"],
+  peopleExtra: [],
+  culture: [
+    { title:"Hospitality as sacred duty", icon:"🍞",
+      text:"In the ancient Near East, offering food and shelter to travelers was a moral obligation bound up with honor and divine favor; Abraham's exaggerated urgency ('quickly,' 'run') reflects genuine cultural expectation, not mere politeness, and sets up a deliberate contrast with Sodom's treatment of visitors in the next chapter." },
+    { title:"Who are the 'three men'?", icon:"👥",
+      text:"The narrative identifies one visitor directly with the LORD (v. 1, 13) while the other two are later called angels heading to Sodom (19:1); readers across traditions have long debated whether this is a theophany, an appearance of the pre-incarnate Son, or simply the LORD speaking through commissioned messengers." },
+    { title:"Abraham's intercession as a model", icon:"🙏",
+      text:"Abraham's respectful, persistent bargaining ('far be it from you... shall not the Judge of all the earth do right?') is often read as an early template for intercessory prayer — boldly appealing to God's own justice and character rather than mere pleading, without ever presuming on it." }
+  ],
+  crossRefs: [
+    { group:"Sarah's laughter, and Isaac's name", refs:[
+      { r:"Genesis 21:1-6", note:"Isaac's birth fulfills this promise exactly 'at the appointed time'" },
+      { r:"Hebrews 11:11-12", note:"Sarah's faith to conceive, celebrated despite her doubt here" },
+      { r:"Luke 1:34-37", note:"Gabriel's near-identical answer to Mary — 'nothing will be impossible with God'" } ]},
+    { group:"Intercession for the righteous few", refs:[
+      { r:"Genesis 19:29", note:"God 'remembered Abraham' and rescued Lot when Sodom fell" },
+      { r:"Ezekiel 22:30", note:"God seeking someone to 'stand in the gap' for the land, and finding none" },
+      { r:"1 Timothy 2:1", note:"intercession commanded 'for all people'" } ]}
+  ]
+},
+
+/* ===== GENESIS 19 — The destruction of Sodom and Gomorrah ===== */
+"1:19": {
+  era: {
+    title: "ca. 2067 BC — the destruction of Sodom and Gomorrah",
+    sub: "Middle Bronze Age · two angels rescue Lot · fire and sulfur on the plain · a pillar of salt, and Moab and Ammon's origin",
+    badges: ["Middle Bronze Age", "Lot's rescue, barely in time", "Judgment on the plain cities", "Lot's wife, and his daughters' scheme"]
+  },
+  timeOfDay: "night",
+  summary: "Two angels arrive at Sodom in the evening; Lot insists on hosting them, but the city's men surround his house demanding to abuse the visitors, and Lot's offer of his daughters instead is refused and the mob struck blind. The angels reveal they have come to destroy the city and urge Lot to gather his family; his sons-in-law-to-be dismiss the warning as a joke. At dawn the angels physically drag the hesitating Lot, his wife, and two daughters out of the city, warning them not to look back or stop anywhere on the plain; Lot pleads to flee instead to the small town of Zoar, and is granted it. As the sun rises, the LORD rains fire and sulfur on Sodom and Gomorrah, overturning the cities and the whole plain; Lot's wife looks back and becomes a pillar of salt. Lot and his daughters end up in a cave, where the daughters, fearing no husbands remain, get their father drunk and conceive sons who become the ancestors of Moab and Ammon.",
+  focusPlace: "sodom",
+  places: [
+    { id:"sodom", role:"The city where the angels arrive and the mob gathers at Lot's door (vv. 1-11)" },
+    { id:"gomorrah", role:"Destroyed alongside Sodom in the judgment (v. 24)" },
+    { id:"zoar", role:"The small city Lot begs to flee to instead of the hills (vv. 18-23)" }
+  ],
+  journey: [
+    { from:"sodom", to:"zoar", label:"Lot's escape from the burning plain", km:15, note:"Dragged out by the angels at dawn, Lot pleads to flee to nearby Zoar rather than the distant hills, and is granted refuge there just before the destruction falls (vv. 15-23)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Two angels at Lot's door", av:"traveler", desc:"Lot meets the two visitors at Sodom's gate and insists they lodge with him rather than in the square (vv. 1-3)." },
+    { x:0.20, type:"person", label:"The mob demands the visitors", av:"elder", desc:"Men of the city, young and old, surround the house demanding to abuse the guests; Lot's offer of his daughters instead is refused, and the mob is struck blind (vv. 4-11)." },
+    { x:0.38, type:"person", label:"Sons-in-law dismiss the warning", av:"youth", desc:"Lot warns his daughters' intended husbands to flee the coming destruction, but they think he is joking (v. 14)." },
+    { x:0.54, type:"person", label:"Dragged out at dawn", av:"elder", desc:"As Lot hesitates, the angels seize his hand, his wife's, and his daughters' and pull them out of the city, urging them not to look back (vv. 15-17)." },
+    { x:0.70, type:"object", label:"Fire and sulfur rain down", desc:"The LORD overturns Sodom, Gomorrah, and the whole plain with fire and sulfur out of the heavens as the sun rises over the land (vv. 24-25)." },
+    { x:0.82, type:"person", label:"Lot's wife looks back", av:"woman", desc:"Against the explicit warning, Lot's wife looks back toward the city and becomes a pillar of salt (v. 26)." },
+    { x:0.94, type:"person", label:"The cave, and Lot's daughters' scheme", av:"woman", desc:"Fearing no husbands remain anywhere, Lot's daughters get him drunk on consecutive nights and conceive sons — Moab and Ben-ammi, ancestors of Moab and Ammon (vv. 30-38)." }
+  ],
+  environment: {
+    chips: ["Evening arrival, urgent hospitality", "A violent mob at the door", "Angels who strike blindness", "Dawn drag-out, no time to spare", "Fire and sulfur over the whole plain", "A pillar of salt, and a cave's aftermath"],
+    text: "The Jordan plain's cities sat on or near valuable bitumen and mineral deposits around the Dead Sea basin, a region later archaeology associates with sudden, catastrophic destruction layers at several Bronze Age sites. The chapter's swift collapse from hospitality drama to cosmic judgment to family tragedy in a cave mirrors the surrounding narrative's repeated theme: rescue that is real but never undoes every consequence of the world it rescues someone from."
+  },
+  objectsExtra: ["sulfur-fire", "pillar-of-salt"],
+  peopleExtra: ["lots-wife", "lots-daughters"],
+  culture: [
+    { title:"Sodom's sin, defined by Scripture itself", icon:"⚖️",
+      text:"Ezekiel 16:49-50 names Sodom's core sins as pride, gluttonous excess, and refusal to help the poor and needy, alongside 'abomination' before God — this chapter's attempted mob assault on the visitors is the narrative's climactic illustration of a city's total breakdown of hospitality and justice, not its only offense." },
+    { title:"Why looking back mattered", icon:"🧂",
+      text:"The angels' warning not to look back (v. 17) functioned as a test of trust and urgency rather than an arbitrary rule; Lot's wife's fatal glance is remembered by Jesus himself as a warning against clinging to a doomed old life when called to leave it decisively (Luke 17:32)." },
+    { title:"Moab and Ammon's uncomfortable origin", icon:"🏺",
+      text:"The chapter's closing genealogy explains, without excusing, the ancestry of two nations Israel would repeatedly clash with and sometimes intermarry with; Genesis is characteristically candid about the moral compromise behind their origin rather than glossing over it." }
+  ],
+  crossRefs: [
+    { group:"Sodom as a lasting warning", refs:[
+      { r:"Ezekiel 16:49-50", note:"Sodom's sins defined: pride, excess, and neglect of the poor" },
+      { r:"Luke 17:28-32", note:"Jesus cites Sodom's sudden judgment, and warns, 'remember Lot's wife'" },
+      { r:"2 Peter 2:6-9", note:"Sodom and Gomorrah as an example of judgment, and Lot as 'righteous' despite it all" } ]},
+    { group:"Moab and Ammon in Israel's later story", refs:[
+      { r:"Deuteronomy 2:9, 19", note:"Israel forbidden to dispossess Moab or Ammon — 'sons of Lot'" },
+      { r:"Ruth 1:4, 22", note:"Ruth the Moabitess, ancestress of David, brought into Israel's story" },
+      { r:"Judges 3:12-14; 10:7-9", note:"Moab and Ammon's later oppression of Israel" } ]}
+  ]
 }
 };

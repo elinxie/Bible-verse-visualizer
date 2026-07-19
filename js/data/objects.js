@@ -128,5 +128,13 @@ BVV.OBJECTS = [
   { id:"rainbow", name:"Rainbow", al:["rainbow","bow in the cloud"], icon:"🌈",
     desc:"The sign of God's covenant with Noah and every living creature never again to destroy the earth by flood — his own 'bow' set in the clouds as a reminder (Gen 9:12-17)." },
   { id:"tower-of-babel", name:"Tower of Babel", al:["tower","tower of Babel","ziggurat"], icon:"🗼",
-    desc:"A brick-and-tar tower 'with its top in the heavens' begun on the plain of Shinar so its builders could make a name for themselves — halted when the LORD confused their language and scattered them (Gen 11:1-9)." }
+    desc:"A brick-and-tar tower 'with its top in the heavens' begun on the plain of Shinar so its builders could make a name for themselves — halted when the LORD confused their language and scattered them (Gen 11:1-9)." },
+  { id:"covenant-pieces", name:"Covenant of the pieces", al:["smoking fire pot","flaming torch","covenant of the pieces"], icon:"🔥",
+    desc:"Abram halves a heifer, goat, and ram and lays them opposite each other; at sunset a smoking fire pot and flaming torch pass between the pieces alone, God himself sealing a one-sided covenant while Abram sleeps (Gen 15:9-18)." },
+  { id:"circumcision", name:"Circumcision", al:["circumcision","circumcised"], icon:"🔪",
+    desc:"The sign of God's covenant with Abraham and his offspring, cut in the flesh of every male on the eighth day thereafter; Abraham, at 99, and Ishmael, at 13, are both circumcised the same day (Gen 17:9-27)." },
+  { id:"sulfur-fire", name:"Fire and sulfur", al:["fire and brimstone","sulfur and fire","brimstone"], icon:"☄️",
+    desc:"What the LORD rains down 'out of the heavens' on Sodom and Gomorrah, overthrowing the cities and the whole plain (Gen 19:24-25) — a judgment later Scripture repeatedly invokes as the paradigm of divine wrath." },
+  { id:"pillar-of-salt", name:"Pillar of salt", al:["pillar of salt"], icon:"🧂",
+    desc:"What Lot's wife became after looking back toward the burning cities against the angels' explicit warning (Gen 19:17, 26) — later remembered as Jesus' own warning to 'remember Lot's wife' (Luke 17:32)." }
 ];

@@ -168,7 +168,9 @@ function check(name, cond, extra) {
     "2 Samuel 24|10:24",
     "Genesis 1|1:1", "Genesis 2|1:2", "Genesis 3|1:3",
     "Genesis 4|1:4", "Genesis 5|1:5", "Genesis 6|1:6", "Genesis 7|1:7",
-    "Genesis 8|1:8", "Genesis 9|1:9", "Genesis 10|1:10", "Genesis 11|1:11"];
+    "Genesis 8|1:8", "Genesis 9|1:9", "Genesis 10|1:10", "Genesis 11|1:11",
+    "Genesis 12|1:12", "Genesis 13|1:13", "Genesis 14|1:14", "Genesis 15|1:15",
+    "Genesis 16|1:16", "Genesis 17|1:17", "Genesis 18|1:18", "Genesis 19|1:19"];
   for (const entry of CURATED_SWEEP) {
     const [ref, key] = entry.split("|");
     console.log(`== curated pipeline: ${ref} ==`);

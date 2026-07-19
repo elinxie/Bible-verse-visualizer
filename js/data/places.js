@@ -608,7 +608,23 @@ BVV.PLACES = [
   { id:"nod", name:"Land of Nod", al:["Nod","land of Nod"], modern:"unknown, likely Mesopotamia east of the Tigris (traditional)", lat:33.500, lon:45.500, type:"region",
     blurb:"The land east of Eden where Cain settled after being driven out for killing Abel (Gen 4:16).",
     ancient:"Its name means 'wandering' — a fitting home for a fugitive under judgment.",
-    scene:{ terrain:"plain", settlement:"none", water:"none", veg:"sparse" } }
+    scene:{ terrain:"plain", settlement:"none", water:"none", veg:"sparse" } },
+  { id:"sodom", name:"Sodom", al:["Sodom"], modern:"likely SE Dead Sea plain (candidate: Bab edh-Dhra or Numeira), Jordan", lat:31.180, lon:35.470, type:"city",
+    blurb:"A wealthy city of the Jordan plain where Lot settled, notorious for wickedness and destroyed by fire and sulfur (Gen 13, 18-19).",
+    ancient:"A well-watered plain city, 'like the garden of the LORD,' overturned in judgment.",
+    scene:{ terrain:"plain", settlement:"city", water:"none", veg:"sparse" } },
+  { id:"gomorrah", name:"Gomorrah", al:["Gomorrah"], modern:"likely SE Dead Sea plain, Jordan", lat:31.150, lon:35.480, type:"city",
+    blurb:"Sodom's sister city on the plain, destroyed alongside it (Gen 19:24-25).",
+    ancient:"Paired with Sodom in judgment and in later memory as a byword for sin.",
+    scene:{ terrain:"plain", settlement:"city", water:"none", veg:"sparse" } },
+  { id:"zoar", name:"Zoar", al:["Zoar","Bela"], modern:"SE Dead Sea plain, Jordan", lat:31.030, lon:35.560, type:"town",
+    blurb:"The small city spared at Lot's request as a refuge from Sodom's destruction (Gen 19:20-23).",
+    ancient:"A minor plain town, granted mercy so Lot would have somewhere to flee.",
+    scene:{ terrain:"plain", settlement:"village", water:"none", veg:"sparse" } },
+  { id:"beerlahairoi", name:"Beer-lahai-roi", al:["Beer-lahai-roi","Beer Lahai Roi"], modern:"N Negev/Sinai borderland (approx.), Israel", lat:30.700, lon:34.350, type:"well",
+    blurb:"The well where the LORD's angel found the fleeing, pregnant Hagar; its name means 'well of the Living One who sees me' (Gen 16:14).",
+    ancient:"A desert well on the Shur road, later associated with Isaac (Gen 24:62; 25:11).",
+    scene:{ terrain:"desert", settlement:"none", water:"well", veg:"sparse" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };

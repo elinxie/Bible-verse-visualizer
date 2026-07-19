@@ -138,5 +138,13 @@ BVV.PEOPLE = [
   { id:"festus", name:"Festus", al:["Festus"], t:"nt", av:"official", desc:"Felix's successor, before whom Paul appealed: 'To Caesar you shall go.'" },
   { id:"agrippa", name:"Agrippa", al:["Agrippa"], t:"nt", av:"king", desc:"Herod Agrippa II, last of the dynasty, almost persuaded — 'This man could have been set free.'" },
   { id:"julius", name:"Julius the centurion", al:["Julius"], t:"nt", av:"warrior", desc:"Centurion of the Augustan Cohort escorting Paul to Rome; trusted the pilot over the prisoner until the storm taught him otherwise (Acts 27)." },
-  { id:"publius", name:"Publius", al:["Publius"], t:"nt", av:"official", desc:"'First man' of Malta whose father Paul healed after the shipwreck." }
+  { id:"publius", name:"Publius", al:["Publius"], t:"nt", av:"official", desc:"'First man' of Malta whose father Paul healed after the shipwreck." },
+  { id:"lot", name:"Lot", al:["Lot"], t:"ot", av:"elder", desc:"Abram's nephew who chose the well-watered Jordan plain, settled in Sodom, was rescued twice — once from kings, once from fire — and ended in a cave with his two daughters." },
+  { id:"hagar", name:"Hagar", al:["Hagar"], t:"ot", av:"woman", desc:"Sarai's Egyptian servant, given to Abram to bear an heir; fled to the desert and became the first person in Scripture to name God, then was sent away with her son." },
+  { id:"ishmael", name:"Ishmael", al:["Ishmael"], t:"ot", av:"youth", desc:"Abram's son by Hagar, born when Abram was 86; circumcised with his father's household and promised a nation of his own, though not the covenant line." },
+  { id:"melchizedek", name:"Melchizedek", al:["Melchizedek"], t:"ot", av:"priest", desc:"King of Salem and 'priest of God Most High' who blessed Abram with bread and wine after the battle of the kings and received a tithe from him." },
+  { id:"eliezer", name:"Eliezer of Damascus", al:["Eliezer"], t:"ot", av:"official", desc:"Abram's chief household servant, named as his likely heir before Isaac's birth was promised." },
+  { id:"chedorlaomer", name:"Chedorlaomer and the kings", al:["Chedorlaomer","Amraphel","Arioch","Tidal"], t:"ot", av:"king", desc:"The Elamite king who led a four-king coalition against five rebelling Canaanite kings (including Sodom and Gomorrah), captured Lot, and was defeated by Abram's night raid." },
+  { id:"lots-wife", name:"Lot's wife", al:["Lot's wife"], t:"ot", av:"woman", desc:"Fled Sodom with her family but looked back against the angels' warning and became a pillar of salt." },
+  { id:"lots-daughters", name:"Lot's daughters", al:["Lot's daughters"], t:"ot", av:"woman", desc:"Escaped Sodom's destruction with their father and, fearing no husbands remained, schemed to preserve his line — becoming ancestresses of Moab and Ammon." }
 ];
