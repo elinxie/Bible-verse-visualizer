@@ -166,5 +166,9 @@ BVV.OBJECTS = [
   { id:"egyptian-signet-ring", name:"Pharaoh's signet ring", al:["signet ring"], icon:"💍",
     desc:"The ring Pharaoh placed on Joseph's hand to formally invest him with authority as vizier over all Egypt (Gen 41:42)." },
   { id:"embalming-coffin", name:"Joseph's Egyptian coffin", al:["coffin","embalmed body"], icon:"⚰️",
-    desc:"Joseph was embalmed in the Egyptian manner and placed in a coffin in Egypt at his death, awaiting the eventual exodus he foretold (Gen 50:2-3, 26)." }
+    desc:"Joseph was embalmed in the Egyptian manner and placed in a coffin in Egypt at his death, awaiting the eventual exodus he foretold (Gen 50:2-3, 26)." },
+  { id:"tamar-royal-robe", name:"Tamar's ornamented robe", al:["ornamented robe","robe of many colors","long robe with sleeves"], icon:"👘",
+    desc:"The distinctive garment ('ketonet passim') worn by an unmarried royal daughter — the very Hebrew phrase used for Joseph's own coat (Gen 37:3) — which Tamar tears and covers herself with ashes over after Amnon rapes and casts her out, a visible, public sign of violation rather than mere grief (2 Sam 13:18-19)." },
+  { id:"absalom-hair", name:"Absalom's weighed hair", al:["Absalom's hair","two hundred shekels"], icon:"💇",
+    desc:"Cut once a year 'when it was heavy on him' and weighed at two hundred shekels by the royal standard (roughly 2.3 kg / 5 lb) — the narrator's flagship proof of Absalom's famous, flawless good looks (2 Sam 14:25-26), the same hair that catches in an oak's branches and costs him his life a few chapters later (2 Sam 18:9)." }
 ];
