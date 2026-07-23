@@ -213,7 +213,7 @@ new ones here by size/risk, cheapest-and-safest first.
 
 | # | Issue | Scope | Slot |
 |---|-------|-------|------|
-| [#7](https://github.com/elinxie/Bible-verse-visualizer/issues/7) | Add translations to city names | ✅ **Shipped in iteration 7** (see Ledger); 3 more places (engedi/ziph/maon) topped up with `meaning` in iteration 8; `eden` shipped with `meaning` from birth in iteration 15. Remaining ~65 non-curated places (jerusalem-adjacent minor sites, all Isa/Jer/Ezek/Rev-era towns, etc.) still lack `meaning` — a pure data top-up, safe to ride along with a future curation batch rather than needing its own iteration. | Repo re-scanned 2026-07-18: still the only issue ever filed (open+closed), already closed — no open issues exist. |
+| [#7](https://github.com/elinxie/Bible-verse-visualizer/issues/7) | Add translations to city names | ✅ **Shipped in iteration 7** (see Ledger); 3 more places (engedi/ziph/maon) topped up with `meaning` in iteration 8; `eden` shipped with `meaning` from birth in iteration 15. Remaining ~65 non-curated places (jerusalem-adjacent minor sites, all Isa/Jer/Ezek/Rev-era towns, etc.) still lack `meaning` — a pure data top-up, safe to ride along with a future curation batch rather than needing its own iteration. | Repo re-scanned 2026-07-23: still the only issue ever filed (open+closed), already closed — no open issues exist. |
 
 Rule of thumb for future issues: pure data additions (new places/people/objects,
 more curated chapters) can ride along with a curation batch; anything that
