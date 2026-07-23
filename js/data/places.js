@@ -209,9 +209,15 @@ BVV.PLACES = [
     ancient:"Terraced fields, a huddle of stone houses, and hostile kinsmen of the prophet.",
     scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } },
   { id:"tekoa", name:"Tekoa", al:["Tekoa"], modern:"Kh. Tequ'a, West Bank", lat:31.635, lon:35.211, type:"village",
-    blurb:"Home of Amos the shepherd-prophet, at the edge of the Judean wilderness.",
+    blurb:"Home of Amos the shepherd-prophet, at the edge of the Judean wilderness; Joab fetches an unnamed 'wise woman' from here to plead Absalom's case before David in disguise (2 Sam 14:2-20).",
+    meaning:"Hebrew Tĕqoa’, from taqa‘ ('to blow a trumpet' or 'to drive in a stake/pitch a tent') — roughly 'the staked-out place' or 'trumpet blast'",
     ancient:"Sheepfolds and sycamore-fig groves fading into desert eastward.",
     scene:{ terrain:"desert", settlement:"village", water:"well", veg:"sparse" } },
+  { id:"baal-hazor", name:"Baal-hazor", al:["Baal-hazor","Baalhazor"], modern:"Tell 'Asur (Jabal al-'Asur), West Bank", lat:31.994, lon:35.257, type:"village",
+    blurb:"Absalom's sheep-shearing estate in the Ephraim hill country north of Jerusalem, near Ephraim/Ophrah, where he has his servants kill Amnon at the feast (2 Sam 13:23-29).",
+    meaning:"Hebrew Ba'al Chatsor — 'lord/master of Hazor,' i.e. of the enclosed settlement (chatsor, 'walled village, enclosure')",
+    ancient:"A remote hill-country sheep station on the highest ridge of the Ephraim highlands, the kind of private estate where a prince could gather flocks, throw a feast for his brothers, and keep the king himself at a safe distance.",
+    scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } },
 
   // ---- Philistia & coast ----
   { id:"gaza", name:"Gaza", al:["Gaza"], modern:"Gaza", lat:31.504, lon:34.464, type:"city",
