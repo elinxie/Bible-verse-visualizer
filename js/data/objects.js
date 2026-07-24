@@ -159,6 +159,8 @@ BVV.OBJECTS = [
     desc:"A stone heap and pillar Jacob and Laban raised together in Gilead as witness to their parting covenant, each swearing not to cross it against the other — the source of the 'Mizpah' benediction (Gen 31:44-49)." },
   { id:"coat-of-many-colors", name:"Joseph's ornamented robe", al:["coat of many colors","striped robe"], icon:"🧥",
     desc:"The special robe Jacob made for his favorite son, a visible sign of favoritism that fueled his brothers' hatred; stripped off and dipped in goat's blood to fake Joseph's death (Gen 37:3, 23, 31-33)." },
+  { id:"tamar-robe", name:"Tamar's ornamented robe", al:["robe of many colors","garment of many colors","varicolored tunic","long robe with sleeves"], icon:"🎽",
+    desc:"The long, ornamented robe (ketonet passim — the same Hebrew term used for Joseph's coat) that marked an unmarried royal daughter; 'thus were the virgin daughters of the king dressed' (2 Sam 13:18). Tamar wears it to Amnon's house, and after the rape tears it and puts ashes on her head, turning the garment's own meaning — royal, untouched — into a public sign of what has been done to her (13:19)." },
   { id:"silver-cup", name:"Joseph's silver cup", al:["silver cup","divining cup"], icon:"🥈",
     desc:"Joseph's own cup, secretly planted in Benjamin's grain sack by his steward to force the brothers back and test their loyalty to Benjamin (Gen 44:1-13)." },
   { id:"grain-storage", name:"Egypt's grain storehouses", al:["storehouses","grain silos"], icon:"🌾",
