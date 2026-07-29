@@ -209,9 +209,15 @@ BVV.PLACES = [
     ancient:"Terraced fields, a huddle of stone houses, and hostile kinsmen of the prophet.",
     scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } },
   { id:"tekoa", name:"Tekoa", al:["Tekoa"], modern:"Kh. Tequ'a, West Bank", lat:31.635, lon:35.211, type:"village",
-    blurb:"Home of Amos the shepherd-prophet, at the edge of the Judean wilderness.",
-    ancient:"Sheepfolds and sycamore-fig groves fading into desert eastward.",
+    blurb:"Judean hill-country village on the edge of the wilderness; home of the 'wise woman' Joab recruits to plead Absalom's case before David with a staged parable (2 Sam 14:1-20), and, later, of Amos the shepherd-prophet.",
+    meaning:"Hebrew 'Teqoa`', probably from a root meaning 'to pitch (a tent)' or 'to thrust/blow (a trumpet)' — the further sense is uncertain",
+    ancient:"Sheepfolds and sycamore-fig groves fading into desert eastward — a respectable enough border village that Joab could draw a convincingly sober 'wise woman' from it to argue a case before the king.",
     scene:{ terrain:"desert", settlement:"village", water:"well", veg:"sparse" } },
+  { id:"baal-hazor", name:"Baal-hazor", al:["Baal-hazor"], modern:"Jebel el-'Asur (Tell 'Asur), West Bank", lat:31.968, lon:35.273, type:"mountain",
+    blurb:"Hill-country site 'beside Ephraim' where Absalom holds a sheepshearing feast and has his men strike down his half-brother Amnon in revenge for Tamar (2 Sam 13:23-29).",
+    meaning:"Hebrew 'Ba'al Ḥatsor', probably 'lord/possessor of an enclosure' (compare Hazor, 'enclosure/settlement')",
+    ancient:"A hill-country sheep-grazing height near Ephraim's border, its open pastures suited to the annual shearing feast — a boisterous, wine-heavy gathering of the king's sons that gave Absalom's ambush its cover.",
+    scene:{ terrain:"hills", settlement:"none", water:"none", veg:"sparse" } },
 
   // ---- Philistia & coast ----
   { id:"gaza", name:"Gaza", al:["Gaza"], modern:"Gaza", lat:31.504, lon:34.464, type:"city",
