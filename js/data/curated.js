@@ -2352,6 +2352,137 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   2 SAMUEL 16 — Ziba's slander, Shimei's curse, Ahithophel's counsel
+   ============================================================ */
+"10:16": {
+  era: {
+    title: "ca. 979 BC — Ziba's slander, Shimei's curse, and Ahithophel's counsel",
+    sub: "Iron Age IIA · the road from Olivet to Bahurim, and Jerusalem · day one of David's flight, continued",
+    badges: ["Iron Age IIA", "United monarchy", "Absalom's rebellion", "≈3,005 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Just past the summit of Olivet, Ziba — Mephibosheth's own steward — meets the weary column with a loaded train of donkeys, bread, raisins, summer fruit, and wine, and when David asks after his master, answers with a lie handed straight to a desperate king: Mephibosheth, he claims, has stayed behind in Jerusalem hoping the chaos will hand him back Saul's throne. David does not investigate; on the spot he transfers Mephibosheth's whole restored estate to the man standing in front of him. Further down the descent, at Bahurim, a member of Saul's own clan named Shimei runs along the ridge parallel to the road, cursing David as a man of blood who murdered his way to Saul's throne and is only now getting what he deserves, pelting him and his officers with stones and handfuls of dust the whole way. Abishai asks leave to cross over and remove the man's head; David refuses, reading even this curse as something the LORD may have permitted — 'let him curse, for the LORD has told him to... it may be that the LORD will look on my affliction and repay me with good for his cursing today.' The column presses on and rests, exhausted, before moving further. Back in Jerusalem, Absalom takes the city, and Hushai's declared loyalty — tested with open suspicion at first — is accepted. Ahithophel's first counsel is deliberately public and irreversible: pitch a tent on the palace roof in the sight of all Israel and take his father's ten concubines there, a claim on the throne so absolute it forecloses any reconciliation with David — and the narrator adds, almost in passing, that Ahithophel's advice in those days 'was as if one consulted the word of God' (v. 23), an authority that for the moment stands entirely on Absalom's side.",
+  focusPlace: "bahurim",
+  places: [
+    { id:"olives",   role:"Just past the summit — Ziba meets David with provisions and the false report about Mephibosheth (vv. 1-4)" },
+    { id:"bahurim",  role:"Shimei of Saul's own clan curses David and pelts him with stones and dust as he passes (vv. 5-14)" },
+    { id:"jerusalem", role:"Absalom takes the vacated capital, tests Hushai's loyalty, and takes Ahithophel's counsel to claim the concubines (vv. 15-23)" },
+    { id:"mahanaim", role:"Not yet reached in this chapter, but already the flight's real destination across the Jordan" }
+  ],
+  journey: [
+    { from:"olives", to:"bahurim", label:"Ziba's provisions, then Shimei's curse", km:6,
+      note:"The road down from Olivet toward the Jordan runs straight through Benjaminite territory — Saul's own tribe — which is exactly where a kinsman of the fallen house catches up with the fleeing king (vv. 1-13)." },
+    { from:"jerusalem", to:"jerusalem", dashed:true, label:"Absalom takes the vacated capital", km:0,
+      note:"While David's column struggles down toward Bahurim, Absalom is arriving in the city his father just abandoned, taking Ahithophel's counsel to claim the throne in the most public and irreversible way available to him (vv. 15-22)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Ziba's donkeys and the false report", av:"official",
+      desc:"Loaded with bread, raisin cakes, summer fruit and wine for the exhausted column, Ziba tells David that Mephibosheth 'stayed in Jerusalem, for he said, today the house of Israel will give me back my father's kingdom' — a claim no one else is present to contradict (vv. 1-3)." },
+    { x:0.2, type:"person", label:"David transfers the whole estate on the spot", av:"king",
+      desc:"'Behold, all that belonged to Mephibosheth is now yours,' David tells Ziba, with no investigation and no chance for Mephibosheth to answer — a snap judgment in the fog of flight that 2 Sam 19 will later force David to walk back only halfway (v. 4)." },
+    { x:0.34, type:"person", label:"Shimei's curse, stones, and dust", av:"elder",
+      desc:"Running along the hillside opposite the road, Shimei of Saul's clan curses David as 'a man of blood' whom the LORD is now repaying for the house of Saul, throwing stones and flinging dust the entire way the column passes (vv. 5-8, 13)." },
+    { x:0.48, type:"person", label:"Abishai's request, David's restraint", av:"warrior",
+      desc:"'Why should this dead dog curse my lord the king? Let me go over and take off his head' — David refuses: 'if he is cursing because the LORD has said to him, curse David, who then shall say, why have you done so?... it may be that the LORD will look on my affliction and repay me with good' (vv. 9-12)." },
+    { x:0.64, type:"person", label:"Absalom enters the city, and tests Hushai", av:"warrior",
+      desc:"When Hushai greets him with 'long live the king!' Absalom presses him openly — 'is this your loyalty to your friend? why did you not go with your friend?' — and accepts Hushai's carefully double-edged answer that he will simply serve whomever Israel and the LORD have chosen (vv. 15-19)." },
+    { x:0.8, type:"object", label:"Ahithophel's counsel: the tent on the roof",
+      desc:"Ahithophel advises Absalom to go in to his father's concubines, left behind to keep the house, in a tent pitched on the palace roof 'in the sight of all Israel' — a claim on the throne so total and so public it fulfills, almost word for word, Nathan's oracle to David years earlier (v. 22; cf. 12:11-12)." }
+  ],
+  environment: {
+    chips: ["A weary column, refreshed mid-flight", "A Benjaminite ridge road", "Cursing performed in public, not muttered in private", "A palace roof turned into a throne-claim", "Ahithophel's counsel at its peak authority"],
+    text: "Bahurim sits just over the ridge east of Jerusalem, on the steep descent toward the Jordan — Benjaminite territory, Saul's own tribal land, which is precisely why Shimei can run the parallel hillside path shouting insults David's guard cannot easily reach him across without abandoning the column. Back in the capital, Absalom's court moves at a different pace and register entirely: a formal welcome, a pointed loyalty test, and then a counselor's public, ceremonial claim on the harem of a deposed king, staged on the one part of the palace every citizen below could see."
+  },
+  objectsExtra: ["donkey"],
+  peopleExtra: ["david","absalom","ahithophel","hushai","ziba","mephibosheth","shimei"],
+  culture: [
+    { title:"Cursing as a weapon, dust and stones as its escort", icon:"🪨",
+      text:"Public imprecation carried real weight in the ancient Near East — a curse spoken aloud, backed by thrown stones and dust, was an act of war on someone's honor, not idle noise. Shimei's specific charge (that David is a 'man of blood' who stole Saul's throne) makes this political theater as much as personal spite: he is performing, in public, the verdict David's own guard cannot silence without looking like they fear it." },
+    { title:"A king's harem as the throne itself", icon:"⛺",
+      text:"Across the ancient Near East, taking a predecessor's concubines was a recognized, unambiguous claim to his throne — which is exactly why Abner's alleged move on Saul's concubine Rizpah reads as attempted usurpation (2 Sam 3:7) and why Solomon executes Adonijah the moment he asks for Abishag (1 Kgs 2:13-25). Ahithophel's counsel exploits the same logic in the most public form possible, and does it as the direct, specific fulfillment of Nathan's word: 'I will take your wives... and give them to your neighbor, and he shall lie with your wives in the sight of this sun' (12:11-12)." },
+    { title:"'As if one consulted the word of God'", icon:"🧠",
+      text:"Verse 23's aside on Ahithophel's reputation is the chapter's real hinge, not a throwaway compliment: it sets up exactly how much is at stake in chapter 17 when Absalom, for the only time in the whole affair, chooses Hushai's counsel over his. The comparison to consulting God is startling language for a human advisor — and makes Ahithophel's coming defeat, and his despair at it, considerably more understandable." }
+  ],
+  crossRefs: [
+    { group:"Nathan's word, landing in public", refs:[
+      { r:"2 Samuel 12:11-12", note:"Nathan's oracle to David — 'I will raise up evil against you... and give your wives to your neighbor' — fulfilled almost verbatim on the palace roof" },
+      { r:"2 Samuel 15:16", note:"the ten concubines David deliberately leaves behind to keep the house, now at the center of Ahithophel's counsel" },
+      { r:"2 Samuel 20:3", note:"David's aftermath: he shuts the ten women up under guard and provides for them, but 'did not go in to them' again — living widows for the rest of their lives" } ]},
+    { group:"Ziba and Shimei's stories, resolved later", refs:[
+      { r:"2 Samuel 9:9-10", note:"David's original grant putting Ziba in charge of working Saul's restored land for Mephibosheth" },
+      { r:"2 Samuel 19:16-30", note:"Shimei begs pardon and is spared by oath; Mephibosheth's own account contradicts Ziba, and David splits the disputed estate" },
+      { r:"1 Kings 2:36-46", note:"David's deathbed charge to Solomon regarding Shimei bears fruit — Solomon executes him once he breaks his parole" } ]}
+  ]
+},
+
+/* ============================================================
+   2 SAMUEL 17 — Ahithophel overruled; David's escape to Mahanaim
+   ============================================================ */
+"10:17": {
+  era: {
+    title: "ca. 979 BC — Ahithophel overruled; David's escape to Mahanaim",
+    sub: "Iron Age IIA · Jerusalem, Bahurim, and the Jordan crossing into Gilead · the rebellion's turning point",
+    badges: ["Iron Age IIA", "United monarchy", "Absalom's rebellion", "≈3,005 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Ahithophel's counsel is surgical and immediate: give him twelve thousand men to set out that very night while David's people are still exhausted and demoralized, strike the king alone, and bring the rest of Israel home 'as a bride comes home to her husband.' Absalom and Israel's elders are ready to approve it outright — until Absalom, wanting a second opinion, calls in Hushai as well. Still working as David's planted agent, Hushai argues Ahithophel's plan is unsound this time: David and his mighty men, he says, fight like a bear robbed of her cubs and are far too shrewd to be camped in the open where twelve thousand men expect to find them, and even a false rumor of an early setback could unravel morale a rebellion this fresh can't yet absorb. His alternative flatters Absalom directly — wait, summon all Israel from Dan to Beersheba like sand on the seashore, and personally lead the whole overwhelming mass to wherever David is hiding, sweeping him away like dew off the ground, or dragging out a whole city with ropes if he takes shelter in one. Absalom and all Israel judge Hushai's counsel better than Ahithophel's, and the narrator adds, for the reader alone, that the LORD had determined to frustrate Ahithophel's genuinely good advice in order to bring disaster on Absalom. Hushai immediately relays both plans to Zadok and Abiathar with an urgent warning to get David across the Jordan that same night; the priests' sons Jonathan and Ahimaaz, waiting outside the city at En-rogel, are spotted by a boy and have to hide in a dry well in a homeowner's courtyard at Bahurim, covered over with a cloth and scattered grain, before slipping past Absalom's search party and reaching David with the warning. Ahithophel, watching his own counsel rejected in favor of an amateur's flattery, reads the outcome correctly, saddles his donkey, goes home to Giloh, sets his affairs in order, and hangs himself — Scripture's flattest, least sentimental report of a suicide. David crosses the Jordan with everyone still loyal to him before daylight, and once he reaches Mahanaim in Gilead, three men from opposite ends of his old and new loyalties — Shobi the Ammonite, Machir from Lo-debar, and Barzillai the Gileadite — arrive with bedding, basins, grain, and food for an army that, by this point, has marched further than it has eaten.",
+  focusPlace: "jordan",
+  places: [
+    { id:"jerusalem", role:"Absalom's war council — Ahithophel's plan for an immediate night strike overruled by Hushai's counter-counsel (vv. 1-14)" },
+    { id:"bahurim",   role:"Jonathan and Ahimaaz hide from Absalom's searchers in a well in a homeowner's courtyard (vv. 17-20)" },
+    { id:"jordan",    role:"David and everyone with him cross before daybreak — the flight's real turning point (vv. 21-22)" },
+    { id:"mahanaim",  role:"David's refuge in Gilead, where Shobi, Machir, and Barzillai provision his exhausted men (vv. 24-29)" },
+    { id:"lo-debar",  role:"Machir son of Ammiel's home — the same man who once sheltered the crippled Mephibosheth now supplies David's fugitive camp (v. 27)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"bahurim", label:"Hushai's warning, carried by two runners", km:7,
+      note:"Jonathan and Ahimaaz wait outside the city at En-rogel rather than risk being seen entering it; spotted anyway, they slip out toward Bahurim just ahead of Absalom's search party (vv. 17-20)." },
+    { from:"bahurim", to:"jordan", label:"The last stretch to the river, in darkness", km:25,
+      note:"Once the two messengers climb out of the well, they carry Hushai's warning the rest of the way to David with a single, urgent instruction: cross the Jordan tonight, or be overtaken (vv. 21-22)." },
+    { from:"jordan", to:"mahanaim", label:"The crossing completed; refuge in Gilead", km:50,
+      note:"'By morning light there was not one left who had not crossed the Jordan' (v. 22) — David's column completes the flight begun in chapter 15, reaching the fortified refuge across the river with Absalom's pursuit still gathering (v. 24)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"Ahithophel's plan: strike tonight", av:"elder",
+      desc:"Twelve thousand men, a night march, and a single target — David alone, while he is 'weary and discouraged' — with the rest of the people brought back peacefully, 'as a bride comes home to her husband.' Absalom and the elders are ready to approve it as it stands (vv. 1-4)." },
+    { x:0.18, type:"person", label:"Hushai's counter-counsel", av:"elder",
+      desc:"Called in for a second opinion, Hushai calls Ahithophel's plan unsound this once: David's men are fierce as a bear robbed of her cubs and far too experienced to be found camped in the open, and even a rumored setback could break morale a young rebellion can't afford (vv. 7-10)." },
+    { x:0.34, type:"person", label:"'Like the sand that is on the seashore'", av:"warrior",
+      desc:"Hushai's real proposal flatters Absalom outright — delay, summon all Israel from Dan to Beersheba, and lead the overwhelming mass in person; Absalom and all Israel agree it's the better plan, not knowing 'the LORD had ordained to defeat the good counsel of Ahithophel, so that the LORD might bring harm upon Absalom' (vv. 11-14)." },
+    { x:0.48, type:"object", label:"Two runners and the well at Bahurim",
+      desc:"Jonathan and Ahimaaz, waiting at En-rogel to avoid being seen entering Jerusalem, are spotted by a boy and warned off; they hide in a dry well in a man's courtyard, whose wife covers the opening with a cloth and scatters grain over it, misdirecting Absalom's servants entirely (vv. 17-20)." },
+    { x:0.62, type:"person", label:"Ahithophel's suicide", av:"elder",
+      desc:"Seeing his counsel set aside for Hushai's, Ahithophel reads the outcome without illusion: he saddles his donkey, rides home to Giloh, puts his house in order, and hangs himself, and is buried in his father's tomb — no speech, no last word recorded (v. 23)." },
+    { x:0.8, type:"person", label:"Shobi, Machir, and Barzillai's provisions at Mahanaim", av:"elder",
+      desc:"Three men — an Ammonite, the same Machir who once sheltered Mephibosheth at Lo-debar, and the wealthy old Barzillai of Rogelim — bring bedding, basins, pottery, wheat, barley, honey, curds, and flocks 'for they said, the people are hungry and weary and thirsty in the wilderness' (vv. 27-29)." }
+  ],
+  environment: {
+    chips: ["A war council with two competing plans", "Flattery as strategy", "A dry well used as a hiding place", "A suicide reported without comment", "A river crossed before daylight", "Provisions arriving from three directions at once"],
+    text: "The chapter's geography is a single race against the clock: every hour Hushai buys in Jerusalem is an hour David's column gains on the road to the Jordan. Bahurim's well — likely a dry cistern rather than a working water source, easy to cover and disguise with a cloth and scattered grain — sits exactly on the corridor a courier would have to use between the capital and the river crossings east of Jericho. Once across, Mahanaim's position above the Jabbok gorge in Gilead offers David the two things Jerusalem no longer could: distance from Absalom's growing muster, and old regional loyalties — to Saul's memory, to Machir's earlier kindness, to simple hospitality toward a king in flight — willing to feed an army that outran its own supply lines."
+  },
+  objectsExtra: ["cistern", "donkey"],
+  peopleExtra: ["david","absalom","ahithophel","hushai","zadok","abiathar","ahimaaz","barzillai"],
+  culture: [
+    { title:"Court counsel as high-stakes theater", icon:"🗣️",
+      text:"Royal courts across the ancient Near East staged advice-giving as a competitive, rhetorical performance, not a quiet memo — which is exactly what lets Hushai win. He never argues Ahithophel is wrong on the merits; he argues to Absalom's vanity and appetite for a grander, more personal triumph ('you yourself go to battle,' sand on the seashore, dragging a whole city out with ropes), while quietly buying David time on the one point that actually matters: delay." },
+    { title:"Suicide in the Old Testament — a short and telling list", icon:"🪢",
+      text:"Ahithophel joins a very small company of biblical figures whose deaths by their own hand are simply reported, without eulogy or divine commentary — Saul falling on his sword rather than face Philistine mockery (1 Sam 31:4), Zimri burning his own palace down around himself after a seven-day reign (1 Kgs 16:18). The flat, procedural detail here — saddling the donkey, going home, setting his house in order — reads less like tragedy than a man executing his own final plan with the same competence he brought to every other one." },
+    { title:"Wells, cisterns, and hiding in plain sight", icon:"🕳️",
+      text:"Dry cisterns and disused wells recur across the Old Testament as places to hide people, alive or dead — Joseph's brothers drop him in one before selling him (Gen 37:24), Jeremiah is lowered into one as a prison (Jer 38:6). The Bahurim well's specific staging — a cloth over the mouth, grain spread on top as camouflage for grinding — is an ordinary domestic scene turned, on one woman's initiative, into the hinge that keeps David's warning system alive." }
+  ],
+  crossRefs: [
+    { group:"The prayer answered, chapter by chapter", refs:[
+      { r:"2 Samuel 15:31", note:"David's prayer at the summit of Olivet — 'O LORD, please turn the counsel of Ahithophel into foolishness'" },
+      { r:"2 Samuel 15:32-34", note:"Hushai sent back into the city with the specific job of defeating that counsel" },
+      { r:"2 Samuel 16:23", note:"Ahithophel's counsel described as 'like one who consults the word of God' — the very authority Hushai has to overturn" } ]},
+    { group:"Ahithophel's end, and what follows at Mahanaim", refs:[
+      { r:"Psalm 41:9", note:"'even my close friend... has lifted up his heel against me' — traditionally read as David's own reflection on Ahithophel's betrayal, later applied by Jesus to Judas (John 13:18)" },
+      { r:"2 Samuel 18:1-8", note:"the muster and battle in the forest of Ephraim that follows once David is safely across the Jordan" },
+      { r:"2 Samuel 19:31-40", note:"Barzillai's reward after David's return — which the aged Gileadite declines for himself, asking it instead for his son Chimham" } ]}
+  ]
+},
+
+/* ============================================================
    2 SAMUEL 18 — the forest of Ephraim; the death of Absalom
    ============================================================ */
 "10:18": {
