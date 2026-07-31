@@ -2555,6 +2555,217 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   2 SAMUEL 19 — David's uneasy homecoming
+   ============================================================ */
+"10:19": {
+  era: {
+    title: "ca. 979 BC — David's uneasy homecoming",
+    sub: "Iron Age IIA · Mahanaim, the Jordan crossing, and Gilgal · Absalom's rebellion, immediate aftermath",
+    badges: ["Iron Age IIA", "United monarchy", "Absalom's rebellion, aftermath", "≈3,005 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "News that victory has cost him a son turns David's camp into a house of mourning rather than a celebration, until Joab bursts in with a blunt rebuke: the king has humiliated the very men who just saved his life and the lives of his whole family — get up and speak kindly to your servants, Joab warns, or by morning not a man will be left with you. David composes himself and sits in the gate, and the army's morale recovers on the spot. Israel, meanwhile, argues among its own tribes over who should bring the king back after backing a rebellion that collapsed with its leader dead in a forest pit, while Judah — David's own tribe — hangs back in awkward silence until David shames its elders into acting first through the priests Zadok and Abiathar, sweetening the offer by giving Absalom's own general, Amasa, command of the whole army in Joab's place. As the column starts back toward the Jordan, Shimei of Bahurim — the same man who cursed David with stones and dust on the way out — rushes down with a thousand Benjaminites and Ziba's household to beg pardon before anyone else can accuse him first; Abishai again wants him killed for cursing 'the LORD's anointed,' and David again refuses, swearing an oath on the spot that Shimei will not die that day. Mephibosheth also comes down to meet the king, his feet and beard untrimmed and his clothes unwashed since the day David fled, and his account flatly contradicts Ziba's: he says his own servant slandered him and left him behind, lame as he is and unable to saddle a donkey alone. Unable or unwilling to adjudicate between the two conflicting stories, David simply splits Saul's restored estate between them — a compromise that satisfies neither, though Mephibosheth, for his part, says he no longer cares, glad only that the king has come home safely. Barzillai, the wealthy eighty-year-old Gileadite who provisioned David's camp at Mahanaim, escorts him across the Jordan and is offered a comfortable place at court in return, but declines it as a burden at his age, asking only that the honor go instead to his son Chimham. The homecoming curdles almost immediately into a fresh quarrel: the men of Israel complain that Judah stole the king away without consulting them, Judah answers that David is their own kinsman, and the exchange grows sharp enough — Judah's words 'fiercer than the words of the men of Israel' — that a Benjaminite bystander named Sheba son of Bichri seizes the moment for the next chapter's revolt.",
+  focusPlace: "jordan",
+  places: [
+    { id:"mahanaim", role:"David's base as news of the victory arrives; Joab's rebuke ends the public mourning that was costing him his own army's loyalty (vv. 1-8)" },
+    { id:"jordan",    role:"The crossing itself — Shimei's plea, Mephibosheth's contradicted account, and Barzillai's parting all happen here (vv. 15-39)" },
+    { id:"gilgal",    role:"Where Judah's elders gather to escort the king across, and where the closing quarrel with Israel first breaks out (vv. 15, 40-43)" },
+    { id:"jerusalem", role:"Not yet reached — the destination of David's much-delayed homecoming, actually completed only at the start of ch. 20" }
+  ],
+  journey: [
+    { from:"mahanaim", to:"jordan", label:"David's return march begins", km:50,
+      note:"The same 50 km stretch crossed in the opposite direction during the flight (ch. 17), now walked back toward the capital once Joab's rebuke has steadied the king and his army (vv. 8-15)." },
+    { from:"jordan", to:"gilgal", label:"Judah crosses to escort the king", km:6,
+      note:"Judah's men come down to Gilgal to bring the king across — the same ford and camp where Israel's kingship itself was first confirmed under Saul (1 Sam 11:14-15) — while Shimei, Ziba, and Mephibosheth each intercept the crossing in turn (vv. 15-30)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Joab's blunt rebuke", av:"warrior",
+      desc:"'You have humiliated all your servants, who have this day saved your life... you love those who hate you and hate those who love you' (vv. 5-6) — Joab's plainest words to David in the whole book, and they work: David gets up and sits in the gate (v. 8)." },
+    { x:0.18, type:"person", label:"Judah shamed into acting first; Amasa given Joab's command", av:"king",
+      desc:"David sends Zadok and Abiathar to press Judah's elders — 'why should you be the last to bring the king back?' — and sweetens the offer by promising Absalom's own general, Amasa, permanent command of the army in Joab's place (vv. 11-14)." },
+    { x:0.32, type:"person", label:"Shimei's plea at the Jordan", av:"elder",
+      desc:"The same man who cursed David with stones and dust on the way out (16:5-13) is first across the river to beg pardon, backed by a thousand Benjaminites; Abishai wants him executed for cursing 'the LORD's anointed,' and David swears an oath on the spot that he will not die (vv. 16-23)." },
+    { x:0.46, type:"person", label:"Mephibosheth vs. Ziba, and David's split verdict", av:"youth",
+      desc:"Unwashed and untrimmed since the day the king fled, Mephibosheth insists his own servant slandered and abandoned him; unable to settle which man told the truth, David simply divides Saul's land between them, and Mephibosheth says he no longer cares, glad only the king is safely home (vv. 24-30)." },
+    { x:0.6, type:"person", label:"Barzillai declines, and sends Chimham instead", av:"elder",
+      desc:"'How many years have I left to live... can I still tell good from bad? Let your servant return, that I may die in my own city' — the aged Gileadite kisses David goodbye at the Jordan and asks only that his son Chimham receive the honor in his place (vv. 31-39)." },
+    { x:0.78, type:"person", label:"Israel and Judah's quarrel — the seed of the next revolt", av:"warrior",
+      desc:"'Why have our brothers the men of Judah stolen you away?' meets 'because the king is our close relative' meets 'we have ten shares in the king' — the argument turns sharp enough that Sheba son of Bichri seizes the moment before the chapter even ends (vv. 40-43)." }
+  ],
+  environment: {
+    chips: ["A homecoming that starts as a funeral", "A tribal argument over who welcomes the king first", "A river crossing intercepted three times", "An old man declining a young man's reward", "Reconciliation and fresh resentment in the same breath"],
+    text: "The whole chapter is staged along a single road home: from Mahanaim's gate, down to the Jordan ford, up through Gilgal, toward a Jerusalem the text pointedly withholds until the next chapter opens. Every encounter at the river crossing — Shimei's plea, Mephibosheth's contested claim, Barzillai's refusal — plays out in the crowded, public space of a fording point, where a king's every gesture of mercy or judgment happens in front of exactly the divided nation he is trying to reunite. The closing quarrel between Israel and Judah is not incidental noise; it is the chapter's real subject, surfacing a fault line between the tribes that a united throne has papered over rather than healed."
+  },
+  objectsExtra: ["donkey"],
+  peopleExtra: ["david","joab","shimei","ziba","mephibosheth","barzillai","amasa"],
+  culture: [
+    { title:"A king who must be seen composing himself", icon:"👑",
+      text:"Joab's rebuke assumes something ancient Near Eastern kingship took for granted: a ruler's visible bearing was itself a political act. An army that has just risked everything for a king needs to see him grateful, not grieving for the enemy it fought; David's silent walk to the gate (v. 8) is less an emotional recovery than a public performance his whole administration depends on." },
+    { title:"A verdict with no witnesses, and no Solomon yet", icon:"⚖️",
+      text:"With Ziba and Mephibosheth's accounts flatly opposed and no independent witness available, David's split-the-estate ruling (v. 29) is a shortcut, not a judgment — it satisfies the logistics of the moment rather than the facts. The contrast with Solomon's later true-mother test (1 Kgs 3:16-28) is instructive: that story works precisely because it manufactures a way to expose the liar; here, David simply doesn't try." },
+    { title:"Ten shares, one kingdom, one old grievance", icon:"⚔️",
+      text:"Israel's claim to 'ten shares in the king' against Judah's one (v. 43) previews, almost word for word, the rupture that splits the kingdom for good under Rehoboam a century later (1 Kgs 12). The united monarchy's fault line was never fully closed by David's reign — it is merely reopened and re-papered here, at exactly the moment reunification should have been complete." }
+  ],
+  crossRefs: [
+    { group:"Joab's rebuke, and its cost", refs:[
+      { r:"2 Samuel 18:33-19:4", note:"the grief Joab is rebuking — 'O my son Absalom' repeated" },
+      { r:"1 Kings 2:5-6", note:"David's deathbed verdict on Joab's blood-guilt, decades later" } ]},
+    { group:"Ziba and Shimei's stories, resolved", refs:[
+      { r:"2 Samuel 16:1-4", note:"Ziba's original slander and David's snap grant of Mephibosheth's estate" },
+      { r:"2 Samuel 16:5-13", note:"Shimei's cursing, stones, and dust on the way out of Jerusalem" },
+      { r:"1 Kings 2:36-46", note:"David's deathbed charge bears fruit — Solomon executes Shimei once he breaks his parole" } ]},
+    { group:"Barzillai's kindness, repaid two ways", refs:[
+      { r:"2 Samuel 17:27-29", note:"Barzillai's original provisioning of David's exhausted camp at Mahanaim" },
+      { r:"1 Kings 2:7", note:"David's deathbed charge to Solomon to show kindness to Barzillai's sons" } ]},
+    { group:"The quarrel that becomes Sheba's revolt", refs:[
+      { r:"2 Samuel 20:1-2", note:"the argument boils over into open rebellion within verses" },
+      { r:"1 Kings 12:16", note:"the same cry — 'to your tents, O Israel!' — at the kingdom's actual, permanent split" } ]}
+  ]
+},
+
+/* ============================================================
+   2 SAMUEL 20 — Sheba's revolt, and Joab's return to command
+   ============================================================ */
+"10:20": {
+  era: {
+    title: "ca. 979 BC — Sheba's revolt, and Joab's return to command",
+    sub: "Iron Age IIA · Jerusalem, Gibeon, and Abel Beth-maacah in the far north · a second, briefer rebellion breaks out within days of the first one's end",
+    badges: ["Iron Age IIA", "United monarchy", "Sheba's revolt", "≈3,005 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "The quarrel that closed the last chapter detonates instantly: a Benjaminite named Sheba son of Bichri blows the trumpet and cries, 'We have no share in David... every man to his tents, O Israel!' — and all Israel deserts David for Sheba on the spot, while only Judah escorts the king the rest of the way home to Jerusalem. David's first act back in the city is not celebration but consequence: he shuts up the ten concubines Absalom publicly violated on the palace roof, provides for them, but never goes in to them again — living widows for the rest of their lives. He then gives Amasa, his newly promised commander, three days to muster Judah against Sheba; when Amasa is late, David turns to Abishai instead, and Joab — demoted, but far from finished — simply falls in with his own men. At the great stone in Gibeon, Amasa finally arrives to join the pursuit, and Joab greets him with a kiss, one hand at his beard as if for an embrace, the other driving a sword into his stomach — a single blow, no second thrust needed — and Joab has retaken command of the whole army without a word of official reinstatement. Amasa's body convulsing in the road causes such a jam of stunned soldiers that one of Joab's men has to drag it into a field and throw a garment over it before the pursuit can even continue. Joab chases Sheba the length of the land to Abel Beth-maacah in the far north, where the rebel takes shelter and Joab's men begin building a siege ramp against the wall. A woman calling herself wise appeals to Joab from the ramparts, invoking the town's old reputation as a place people 'used to ask counsel' to settle disputes, and asks why he means to 'swallow up the inheritance of the LORD.' Joab answers plainly: he wants no city destroyed, only one rebel's head. The woman goes to her people 'in her wisdom,' and Abel Beth-maacah's citizens cut off Sheba's head themselves and throw it over the wall, and Joab sounds the retreat and returns to David at Jerusalem — restored, this time for good, as commander over all Israel's army. The chapter closes with a formal roster of David's officials, echoing the earlier cabinet list in chapter 8, with one new name: Adoram, over the forced-labor gangs — a detail that resurfaces fatally a century later, when Rehoboam sends him to collect tribute and Israel stones him to death (1 Kgs 12:18).",
+  focusPlace: "abel-beth-maacah",
+  places: [
+    { id:"jerusalem", role:"David completes his delayed homecoming, shuts up Absalom's ten concubines for life, and receives the closing roster of his officials (vv. 2-3, 23-26)" },
+    { id:"gibeon",     role:"The 'great stone' where Amasa finally joins the pursuit and Joab murders him in the road (vv. 4-13)" },
+    { id:"abel-beth-maacah", role:"The northern city where Sheba takes refuge, the siege ramp goes up, and the wise woman ends it (vv. 14-22)" }
+  ],
+  journey: [
+    { from:"jordan", to:"jerusalem", label:"Judah completes the king's escort home", km:30,
+      note:"'The men of Judah followed their king steadfastly from the Jordan to Jerusalem' (v. 2) — the homecoming the previous chapter kept deferring finally reaches the capital, even as all of Israel has just deserted for Sheba." },
+    { from:"jerusalem", to:"gibeon", label:"Abishai and Joab set out after Sheba", km:9,
+      note:"David's three-day deadline for Amasa expires, so Abishai leads the king's standing troops out instead — with Joab, stripped of command but not of loyalty, simply falling in alongside them (vv. 4-7)." },
+    { from:"gibeon", to:"abel-beth-maacah", label:"The chase runs the length of the land", km:110,
+      note:"Once Amasa is dead in the road at Gibeon, Joab — now commanding again in all but name — pursues Sheba clear across Israelite territory to the far northern city where he finally goes to ground (vv. 13-15)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"Sheba's trumpet call", av:"warrior",
+      desc:"'We have no share in David, and no inheritance in the son of Jesse; every man to his tents, O Israel!' (v. 1) — all Israel follows Sheba instantly, leaving David only Judah's loyalty on the very day he finally reaches home." },
+    { x:0.16, type:"object", label:"The ten concubines, shut up for life",
+      desc:"David provides for the women Absalom violated on the palace roof (16:20-22) but 'did not go in to them' again — 'living as if in widowhood,' the text says, a quiet aftershock of Nathan's oracle years earlier (v. 3; cf. 12:11-12)." },
+    { x:0.3, type:"person", label:"Amasa's tardy muster; Joab tags along under Abishai", av:"warrior",
+      desc:"Given three days to raise Judah, Amasa takes longer; David sends Abishai and the standing army after Sheba instead, and Joab — publicly demoted, privately indispensable — falls in with the column uninvited (vv. 4-7)." },
+    { x:0.44, type:"person", label:"The kiss and the sword at the great stone in Gibeon", av:"warrior",
+      desc:"Amasa arrives to join the pursuit; Joab reaches for his beard as if to kiss him in greeting, and drives his sword into Amasa's stomach with the other hand — 'he did not strike a second blow, and he died' (vv. 8-10)." },
+    { x:0.56, type:"object", label:"A body dragged out of the road",
+      desc:"Amasa's corpse, still convulsing in blood in the middle of the highway, stops the whole pursuing army in its tracks until one of Joab's men drags it into a field and throws a garment over it — only then does the column move again (vv. 11-13)." },
+    { x:0.7, type:"object", label:"The siege ramp at Abel Beth-maacah",
+      desc:"Joab's men 'cast up a mound against the city' and begin battering the wall to bring it down — standard siegecraft against a walled town that has taken in a rebel it did not create (v. 15)." },
+    { x:0.86, type:"person", label:"The wise woman's negotiation", av:"woman",
+      desc:"Calling from the wall, she invokes Abel's old reputation as a place 'they used to ask counsel' and asks why Joab would 'swallow up the inheritance of the LORD'; Joab answers he wants no destroyed city, only Sheba's head — and the town supplies it (vv. 16-22)." }
+  ],
+  environment: {
+    chips: ["A trumpet call that unravels a kingdom in a sentence", "A palace turned half-mourning house", "A murder disguised as a greeting", "A siege ended by negotiation, not breach", "A cabinet roster closing the book's political arc"],
+    text: "The chapter's geography runs the entire length of Israelite territory: from Jerusalem's palace, where the ten concubines are quietly shut away, south to Gibeon's great stone where Joab settles an old professional rivalry in the middle of a public road, and then the length of the land north to Abel Beth-maacah, hard against the Aramean border — a city so far from the court's politics that it can only be reached by chasing one man clear out of the kingdom's heartland. The wise woman's intervention turns a siege that could have flattened an innocent city into a negotiated, single-casualty ending, closing out the civil unrest that has run continuously since chapter 15 with the same instrument — a woman's carefully staged words — that reopened Absalom's own case back in chapter 14."
+  },
+  objectsExtra: ["sword", "trumpet"],
+  peopleExtra: ["david","joab","abishai","amasa","sheba-bichri","wise-woman-abel"],
+  culture: [
+    { title:"A kiss that hides a blade", icon:"🗡️",
+      text:"Grasping a man's beard for a kiss was an ordinary, even affectionate ancient Near Eastern greeting between equals — which is exactly what makes it lethal here: Amasa has no reason to flinch until the sword is already in him. It is Joab's second political murder staged as a friendly gesture, the first being Abner's killing under a pretended private word at Hebron's gate (2 Sam 3:27)." },
+    { title:"Wise women as recognized civic negotiators", icon:"🗣️",
+      text:"Abel's unnamed spokeswoman is the second 'wise woman' in consecutive chapters of David's story, after Tekoa's (14:1-20) — a pattern suggesting Israelite towns kept women skilled in persuasive speech on hand for exactly this kind of high-stakes negotiation, trusted enough that a veteran general takes her proposal at face value rather than pressing the assault." },
+    { title:"'To your tents, O Israel!' — a phrase with a second life", icon:"📯",
+      text:"Sheba's rallying cry is not a one-off insult; the identical words reappear in 1 Kings 12:16 when the ten northern tribes reject Rehoboam for good. Sheba's revolt fails and is forgotten within a chapter, but the fault line it exposes — a northern Israel unconvinced its loyalty belongs permanently to a Judean throne — turns out to be the kingdom's real, unresolved fracture." }
+  ],
+  crossRefs: [
+    { group:"Joab's second political murder", refs:[
+      { r:"2 Samuel 3:26-27", note:"Joab's earlier murder of Abner, also staged as a private, friendly word" },
+      { r:"1 Kings 2:5-6, 28-34", note:"David's deathbed charge, and Solomon's execution of Joab for both killings" } ]},
+    { group:"The wise woman's precedent", refs:[
+      { r:"2 Samuel 14:1-20", note:"the wise woman of Tekoa's earlier staged negotiation, which returned Absalom to Jerusalem" } ]},
+    { group:"Sheba's cry, echoed for good", refs:[
+      { r:"1 Kings 12:16-20", note:"the same words end the united monarchy permanently under Rehoboam" } ]},
+    { group:"The concubines, and Nathan's word", refs:[
+      { r:"2 Samuel 12:11-12", note:"Nathan's oracle, publicly fulfilled on the palace roof (16:20-22)" },
+      { r:"2 Samuel 16:20-22", note:"Ahithophel's counsel that put the concubines there in the first place" } ]}
+  ]
+},
+
+/* ============================================================
+   2 SAMUEL 21 — the Gibeonite famine, Rizpah's vigil, and four fallen giants
+   ============================================================ */
+"10:21": {
+  era: {
+    title: "Date uncertain, likely earlier in the reign — the Gibeonite famine, Rizpah's vigil, and four fallen giants",
+    sub: "Iron Age IIA · Gibeah, Zela, and the Philistine frontier at Gob and Gath · the first of the book's two closing appendices (2 Sam 21-24)",
+    badges: ["Iron Age IIA", "United monarchy", "Closing appendix", "≈3,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "An undated three-year famine — told here out of strict chronological order, as the first of the book's two closing appendices, and likely belonging to an earlier point in David's reign — drives the king to seek the LORD's face, and the answer is specific: 'There is bloodguilt on Saul and on his house, because he put the Gibeonites to death.' Generations earlier Israel had sworn peace to this Hivite remnant by treaty (Josh 9); Saul, 'in his zeal for Israel and Judah,' tried to wipe them out anyway, and the debt has outlived him. David asks the Gibeonites what will satisfy them; they refuse silver, want no Israelite killed at random, and demand instead seven of Saul's male descendants handed over to be executed and exposed 'before the LORD' at Gibeah, Saul's own hometown. David complies, but pointedly spares Mephibosheth, Jonathan's son, for the sake of his old oath — handing over instead two of Saul's sons by Rizpah and five grandsons by his daughter Merab. The seven die at the start of barley harvest, and Rizpah spreads sackcloth for herself on the rock at the execution site, keeping a months-long vigil that drives off birds by day and wild animals by night from the exposed bodies until the rains finally break the drought. Hearing of her vigil, David acts decisively: he retrieves Saul and Jonathan's long-unburied bones from Jabesh-gilead — the town that once rescued Saul's body from the Philistines' wall — gathers the bones of the seven executed men as well, and has all of them reburied together in Zela, Kish's family tomb; only then, the text notes, does God 'respond to the plea for the land.' The chapter's back half turns to a different threat entirely: renewed border war with the Philistines produces a string of duels against 'descendants of Rapha,' giants from Gath. In the first, an exhausted David is nearly killed by Ishbi-benob and his new bronze-tipped spear until Abishai steps in and finishes the giant himself — after which David's men make him swear never to go out to battle again, 'so that you do not extinguish the lamp of Israel.' Three more encounters follow at Gob and Gath: Sibbecai the Hushathite kills Saph; Elhanan son of Jaare-oregim kills the brother of Goliath the Gittite, whose spear shaft was 'like a weaver's beam'; and Jonathan, David's own nephew, kills an unnamed giant with six fingers on each hand and six toes on each foot who had taunted Israel. All four, the chapter closes, 'fell by the hand of David and his servants.'",
+  focusPlace: "gibeah",
+  places: [
+    { id:"gibeah", role:"Where the seven descendants of Saul are executed 'before the LORD,' and where Rizpah keeps her vigil over their bodies (vv. 6-10)" },
+    { id:"jabesh",  role:"Where Saul and Jonathan's bones have lain since the men of Jabesh-gilead rescued them from Beth-shan's wall (v. 12; cf. 1 Sam 31:11-13)" },
+    { id:"zela",    role:"Kish's family tomb, where Saul, Jonathan, and the seven executed men are all finally reburied together (v. 14)" },
+    { id:"gob",     role:"Site of two of the four battles against Philistine giants — Saph and Goliath's brother Lahmi fall here (vv. 18-19)" },
+    { id:"gath",    role:"Home city of the giants, and the site of the fourth duel, against the six-fingered, six-toed champion (v. 20)" }
+  ],
+  journey: [
+    { from:"jabesh", to:"zela", label:"Saul and Jonathan's bones come home", km:60, dashed:true,
+      note:"Retrieved from the Gilead town that rescued them a generation earlier (1 Sam 31:11-13), the king's and his heir's bones finally complete a journey to proper burial that the whole book has left unfinished until now (v. 12-13)." },
+    { from:"gibeah", to:"zela", label:"The seven executed men join them", km:6,
+      note:"David has the bones of the seven Gibeonite-executed descendants of Saul gathered from the exposure site and reburied alongside Saul and Jonathan in the family tomb — an act the text ties directly to the famine's end (v. 14)." },
+    { from:"gob", to:"gath", label:"The last giants of Gath fall", km:20,
+      note:"Two duels at Gob and a third at Gath close out a generation of Philistine border wars against the last remembered 'descendants of Rapha' — the same giant lineage Goliath himself belonged to (vv. 18-22; cf. 1 Sam 17)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"The famine, and the LORD's specific answer", av:"king",
+      desc:"Three years of famine send David to inquire of the LORD, and the answer names a cause no one had raised: 'There is bloodguilt on Saul and on his house, because he put the Gibeonites to death' (vv. 1-2) — an old, buried treaty violation, not a new sin." },
+    { x:0.18, type:"person", label:"The Gibeonites' demand; Mephibosheth spared", av:"elder",
+      desc:"Refusing silver or random Israelite deaths, the Gibeonites demand seven of Saul's male line 'that we may hang them before the LORD in Gibeah'; David hands over two of Rizpah's sons and five of Merab's, but deliberately keeps his oath to Jonathan by sparing Mephibosheth (vv. 3-6, 8-9)." },
+    { x:0.32, type:"object", label:"Seven executed at Gibeah",
+      desc:"'They were put to death in the days of harvest, at the beginning of barley harvest' (v. 9) — a pointed detail, since the very harvest the famine had ruined is the backdrop against which the debt is finally paid." },
+    { x:0.46, type:"person", label:"Rizpah's vigil", av:"woman",
+      desc:"Spreading sackcloth on the bare rock at the execution site, Rizpah keeps watch 'from the beginning of harvest until rain fell upon them from the heavens,' driving off birds by day and wild animals by night from bodies Israelite law would normally require buried before nightfall (v. 10; cf. Deut 21:22-23)." },
+    { x:0.58, type:"object", label:"Saul and Jonathan finally reburied at Zela",
+      desc:"Moved by Rizpah's vigil, David retrieves Saul and Jonathan's bones from Jabesh-gilead and buries them, with the seven executed men's bones, in Kish's family tomb — and 'after that God responded to the plea for the land' (vv. 12-14)." },
+    { x:0.72, type:"person", label:"Ishbi-benob's spear, and Abishai's rescue", av:"warrior",
+      desc:"Weary from battle, David is nearly killed by Ishbi-benob, a descendant of Rapha carrying a new bronze-tipped spear weighing 300 shekels; Abishai kills the giant instead, and David's men swear him off the battlefield for good — 'so that you do not extinguish the lamp of Israel' (vv. 15-17)." },
+    { x:0.86, type:"object", label:"Three more giants fall at Gob and Gath",
+      desc:"Sibbecai the Hushathite kills Saph at Gob; Elhanan kills the brother of Goliath the Gittite, his spear 'like a weaver's beam'; and Jonathan, David's nephew, kills an unnamed six-fingered, six-toed giant at Gath who had taunted Israel (vv. 18-21)." }
+  ],
+  environment: {
+    chips: ["A famine traced to an old, buried treaty violation", "An execution timed to the very harvest it disrupted", "A vigil kept on bare rock through a whole growing season", "Two kings' bones finally laid to rest together", "A generation's worth of Philistine border duels, closed out at once"],
+    text: "The chapter moves between two very different kinds of ground: Gibeah's execution rock, where Rizpah's motionless vigil turns a site of shame into one of fierce, unrewarded loyalty, and the shifting frontier at Gob and Gath, where the same old war with the Philistines that opened Saul's reign and made David famous (1 Sam 17) finally winds down with its last giants named and killed one by one. Zela — Kish's undistinguished family tomb in Benjamin — becomes, almost as an afterthought, the place where two entangled story-lines (Saul's broken oath, and Saul and Jonathan's own long-delayed burial) are resolved in the same verse, tying the book's earliest tragedy to one of its last acts of restitution."
+  },
+  objectsExtra: ["sackcloth", "spear", "sword"],
+  peopleExtra: ["david","abishai","mephibosheth","rizpah","gibeonites","philistine-giants","elhanan"],
+  culture: [
+    { title:"Treaty-breaking as bloodguilt that outlives a generation", icon:"📜",
+      text:"Israel's oath to the Gibeonites (Josh 9:3-27) was sworn 'by the LORD, the God of Israel' and therefore, in the moral logic of the text, binding regardless of the deception that produced it. Saul's zealous but unauthorized attempt to erase the Gibeonites is treated as pollution on the land itself, not just a political matter — a bloodguilt that requires literal atonement, not an apology, decades after Saul is already dead (cf. Num 35:33)." },
+    { title:"Exposure, burial, and 'a plea for the land'", icon:"🪦",
+      text:"Deuteronomy 21:22-23 requires even an executed criminal's body be buried the same day, 'that you not defile the land'; Rizpah's vigil holds that principle open past its normal limit, refusing to let scavengers finish what the executions started until rain — read here as divine mercy breaking the drought — finally comes. Her lone, unpaid watch over bodies she cannot bury herself is what moves David to complete the larger, unfinished burial the whole book has deferred since 1 Samuel 31." },
+    { title:"The last of the Rephaim, one duel at a time", icon:"🗡️",
+      text:"Deuteronomy 2:10-11 and Joshua 11:22 both note that after Israel's conquest, descendants of the giant Rephaim/Anakim survived only in Philistine cities like Gath — exactly where these four final duels take place. Reading this closing list alongside Goliath's own duel (1 Sam 17) turns it into something like an epilogue: the giant-line that made David famous as a shepherd boy is finally, individually, extinguished by the veterans who once served under him." }
+  ],
+  crossRefs: [
+    { group:"The treaty Saul broke", refs:[
+      { r:"Joshua 9:3-27", note:"Israel's original, deception-induced treaty with the Gibeonites" },
+      { r:"Numbers 35:33", note:"bloodguilt is said to pollute the land itself, requiring atonement" } ]},
+    { group:"Mephibosheth spared, again", refs:[
+      { r:"2 Samuel 9:1-13", note:"David's earlier oath-keeping restoration of Mephibosheth, for Jonathan's sake" },
+      { r:"1 Samuel 20:14-17", note:"Jonathan's original request that David show covenant loyalty to his descendants" } ]},
+    { group:"Saul and Jonathan's long road to burial", refs:[
+      { r:"1 Samuel 31:11-13", note:"Jabesh-gilead's rescue and first burial of Saul's and his sons' bodies" },
+      { r:"2 Samuel 1:17-27", note:"David's lament for Saul and Jonathan, years before their bones are finally laid to rest" } ]},
+    { group:"The champion's line, one more time", refs:[
+      { r:"1 Samuel 17:4-7, 49-51", note:"Goliath's own duel and gear, the pattern all four later giants repeat" },
+      { r:"1 Chronicles 20:4-8", note:"the parallel giant-battle list, including the Gob/Gezer place-name variant and the Elhanan/Lahmi correction" } ]}
+  ]
+},
+
+/* ============================================================
    2 SAMUEL 24 — the census, the plague, and Araunah's threshing floor
    ============================================================ */
 "10:24": {
