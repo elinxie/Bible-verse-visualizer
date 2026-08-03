@@ -2766,6 +2766,86 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   2 SAMUEL 23 — David's last words, and the mighty men
+   ============================================================ */
+"10:23": {
+  era: {
+    title: "Likely near the end of the reign — David's last words and the roster of his mighty men",
+    sub: "Iron Age IIA · Bethlehem, Adullam, and the wider kingdom · the second of the book's two closing appendices (2 Sam 21-24)",
+    badges: ["Iron Age IIA", "United monarchy", "Closing appendix", "≈3,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "The book's second appendix opens with what the text itself labels 'the last words of David' (v. 1) — not a narrative scene but a short prophetic oracle, David speaking of himself in the third person as 'the man raised on high, the anointed of the God of Jacob, the sweet psalmist of Israel.' The Spirit of the LORD, he says, has spoken through him: a just ruler is like sunrise on a cloudless morning, like grass springing up after rain, while his own house, he claims, stands under an everlasting covenant, 'ordered in all things and secure' — evil men, by contrast, are worthless as thorns, fit only to be burned where they lie. From there the chapter turns from poetry to an honor roll: 'the names of the mighty men whom David had' (v. 8). The list opens with the Three, an inner circle above even the larger Thirty — Josheb-basshebeth (also called Adino), who killed eight hundred men in one encounter; Eleazar son of Dodo, who stood alone against the Philistines at Pas-dammim until his hand froze fast to his sword; and Shammah son of Agee, who single-handedly held a lentil field against a Philistine raid. A separate anecdote follows, undated within the chapter: during harvest, with a Philistine garrison holding Bethlehem and the Philistine army camped in the Valley of Rephaim, David — holed up at the cave of Adullam — says aloud that he longs for water from the well by Bethlehem's gate. Three of his mighty men (unnamed here, likely the same Three) overhear him, break through the Philistine lines, draw the water, and bring it back — and David refuses to drink it, pouring it out to the LORD instead: 'is this not the blood of the men who went at the risk of their lives?' Abishai, Joab's brother, gets a shorter mention — chief of the Thirty for killing three hundred men with his spear, honored but never quite reaching the Three. Benaiah son of Jehoiada gets the longest single entry after the Three themselves: he struck down two of Moab's champions, killed a lion in a pit on a day it had snowed, and disarmed and killed a huge Egyptian with the man's own spear after going at him with only a club — feats that win him command of David's bodyguard. The chapter closes with a plain roster of the Thirty, name after hometown after clan, thirty-seven men in all counting Joab's own armor-bearer — and the very last name on the list, given no comment at all, is 'Uriah the Hittite.'",
+  focusPlace: "bethlehem",
+  places: [
+    { id:"bethlehem", role:"Held by a Philistine garrison when David, camped at Adullam, longs aloud for water from its well by the gate — three of his mighty men break through enemy lines to bring it to him, and he pours it out to the LORD instead of drinking it (vv. 14-17); also the hometown of Elhanan, one of the Thirty (v. 24)" },
+    { id:"adullam", role:"The cave stronghold where three of David's Thirty rejoin him during harvest, while the Philistines mass nearby in the Valley of Rephaim (v. 13)" },
+    { id:"tekoa", role:"Hometown of Ira son of Ikkesh, one of the Thirty (v. 26)" },
+    { id:"anathoth", role:"Hometown of Abiezer, one of the Thirty (v. 27)" },
+    { id:"gibeah", role:"Hometown of Ittai son of Ribai, one of the Thirty (v. 29)" },
+    { id:"zobah", role:"Home region of Igal son of Nathan, one of the Thirty — a reminder the roster reaches well beyond Israel's own borders (v. 36)" },
+    { id:"jerusalem", role:"David's throne and capital by the time of this closing appendix — the map's anchor point for a list of fighters drawn from across the kingdom" }
+  ],
+  journey: [
+    { from:"adullam", to:"bethlehem", label:"The Three break through for water", km:19,
+      note:"Bethlehem lay behind a Philistine garrison while David and his men held out among Adullam's caves; three of the Thirty crossed that line on foot, drew water from the well by Bethlehem's gate, and carried it back — a risk David judged too costly to spend on his own thirst (vv. 14-17)." },
+    { from:"bethlehem", to:"jerusalem", label:"David's last words, spoken as king", km:10, dashed:true,
+      note:"The chapter's opening oracle carries no travel of its own, but by long tradition belongs to David's later years enthroned in Jerusalem — a vantage far removed from the Bethlehem well and Adullam's caves where the anecdotes about his men are set (vv. 1-7)." },
+    { from:"zobah", to:"jerusalem", label:"The Thirty's reach, Aram to Judah", km:264, dashed:true,
+      note:"Igal son of Nathan, one of the Thirty, is named 'of Zobah' — a reminder that David's elite guard drew fighters from well beyond Judah's own borders, all the way to the Aramean kingdom his own wars had subdued (v. 36; cf. 2 Sam 8:3-8)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"David's last words — 'the Rock of Israel'", av:"king",
+      desc:"Speaking of himself in the third person as 'the man raised on high... the sweet psalmist of Israel,' David gives a short prophetic oracle rather than a narrative scene: the Spirit has spoken through him, a just ruler shines like a cloudless sunrise, and his own house stands, he says, under an everlasting covenant, 'ordered in all things and secure' (vv. 1-5)." },
+    { x:0.17, type:"person", label:"Josheb-basshebeth — eight hundred in one encounter", av:"warrior",
+      desc:"Chief of the Three, also called Adino the Eznite, credited with raising his spear against eight hundred men and killing them in a single stand (v. 8; the parallel 1 Chron 11:11 gives a different name, Jashobeam, and a lower count, three hundred)." },
+    { x:0.29, type:"person", label:"Eleazar — his hand froze to the sword", av:"warrior",
+      desc:"When the rest of Israel's line broke before the Philistines massed at Pas-dammim, Eleazar alone kept fighting until his hand cramped shut around his sword; the troops who had fled came back only to strip the enemy dead he had already won (vv. 9-10)." },
+    { x:0.40, type:"person", label:"Shammah defends a lentil field, alone", av:"warrior",
+      desc:"With Israel's troops fleeing a Philistine raid, Shammah took his stand in the middle of a field of lentils and held it by himself — 'the LORD brought about a great victory' (vv. 11-12)." },
+    { x:0.53, type:"object", label:"Water from Bethlehem's well, poured out to the LORD",
+      desc:"Hearing David say aloud that he longed for a drink from the well by Bethlehem's gate, three of his men broke through the Philistine garrison to bring it — and David refused to drink it, pouring it on the ground instead: 'is this not the blood of the men who went at the risk of their lives?' (vv. 13-17)." },
+    { x:0.66, type:"person", label:"Benaiah — the lion in the pit, the Egyptian's own spear", av:"warrior",
+      desc:"Benaiah son of Jehoiada struck down two of Moab's champions, climbed into a pit to kill a lion on a snowy day, and beat a huge armed Egyptian at close range with only a club before killing him with the spear he wrestled away — feats that win him command of David's bodyguard (vv. 20-23)." },
+    { x:0.88, type:"object", label:"Thirty-seven names, closing with Uriah the Hittite",
+      desc:"The chapter ends as a plain roster — hometown after hometown, clan after clan — with no comment at all on its final name: 'Uriah the Hittite,' the loyal soldier David had killed to cover an affair the book has already told in full (v. 39; cf. 2 Sam 11)." }
+  ],
+  environment: {
+    chips: ["A prophetic oracle, not a narrative scene", "An inner Three within a larger Thirty", "A cup of water treated like a drink offering", "A lion killed in a snow-choked pit", "A roster that closes on one damning name"],
+    text: "The chapter has almost no single setting of its own — its two halves move between a poetic oracle spoken from David's throne in later years and a set of battlefield anecdotes scattered across the kingdom's edges: Pas-dammim and a lentil field somewhere near the Philistine frontier, the cave-riddled hills around Adullam, Bethlehem under Philistine occupation, a pit that had unexpectedly filled with snow, and hometowns as far-flung as Tekoa, Anathoth, Gibeah, and the Aramean region of Zobah. What holds the list together is not geography but loyalty: every name on it belongs to a man who put himself between David and death at some specific, rememberable moment, and the list's flat, uncommented style is exactly what makes its very last entry — Uriah the Hittite — land as hard as it does."
+  },
+  objectsExtra: ["spear", "sword", "well"],
+  peopleExtra: ["david", "joab", "abishai", "benaiah", "uriah", "josheb-basshebeth", "eleazar-dodo", "shammah-agee", "elhanan"],
+  culture: [
+    { title:"The Three and the Thirty — an elite within an elite", icon:"🗡️",
+      text:"David's fighting men are organized in visible ranks: an inner Three (the chapter's opening trio) and a wider Thirty — really thirty-seven, counting substitutes and armor-bearers — who serve as a standing corps of proven veterans; Abishai and Benaiah are each explicitly compared to the Three and said not to have 'attained' to their number, showing the ranking was a known, guarded distinction rather than loose praise. The system reads like a real military honors structure, earned action by action rather than by birth, and it recurs with an even longer roster in 1 Chronicles 11-12, naming men who rallied to David at Ziklag and Hebron." },
+    { title:"Pouring out water like blood — a substitute libation", icon:"💧",
+      text:"David's refusal to drink water three men risked their lives for, choosing instead to pour it out 'to the LORD,' echoes the logic of Israel's own sacrificial law, where blood — 'the life of the flesh' (Lev 17:11) — could never simply be consumed for its own sake; here water stands in for blood by association, treated as too costly a thing for personal use and given back to God instead, in a gesture close to the drink offerings poured out alongside other sacrifices (cf. Num 28:7)." },
+    { title:"'The last words of David' as royal oracle", icon:"👑",
+      text:"The chapter's opening lines follow a recognizable ancient pattern — a ruler's testamentary oracle, summarizing a reign's legitimacy near its close — closer in form to Jacob's blessing of his sons (Gen 49) or Moses' final blessing of Israel (Deut 33) than to ordinary narrative; David describes the Spirit's inspiration directly ('his word was on my tongue,' v. 2), language later writers point back to when discussing prophetic inspiration in general (cf. Acts 1:16; 2 Pet 1:21)." },
+    { title:"An international roster under one king", icon:"🌍",
+      text:"Interspersed among the Thirty's Israelite hometowns are men identified by foreign ethnicity — Zelek the Ammonite, and, closing the whole list, Uriah the Hittite — a detail that quietly confirms David's kingdom, like the empire it briefly became, drew loyalty across ethnic lines even into its most trusted ranks." }
+  ],
+  crossRefs: [
+    { group:"David's last words as covenant reflection", refs:[
+      { r:"2 Samuel 7:12-16", note:"Nathan's earlier promise of an 'everlasting covenant' — the very phrase David's own last words echo back (23:5)" },
+      { r:"Numbers 24:15-19", note:"Balaam's earlier oracle form, another poetic prophecy delivered before a king" } ]},
+    { group:"Uriah's name, closing the list", refs:[
+      { r:"2 Samuel 11:1-27", note:"Uriah's death at the siege of Rabbah, engineered by David to cover an affair with his wife" },
+      { r:"2 Samuel 12:1-14", note:"Nathan's rebuke and the judgment that 'the sword shall never depart from your house'" } ]},
+    { group:"Eliam and Ahithophel, hidden in the roster", refs:[
+      { r:"2 Samuel 11:3", note:"Bathsheba is introduced as 'the daughter of Eliam' — a name that reappears among the Thirty (23:34)" },
+      { r:"2 Samuel 15:12; 17:23", note:"Ahithophel's defection to Absalom and eventual suicide — read by many as personal, if the roster's Eliam is his son" } ]},
+    { group:"The parallel roster in Chronicles", refs:[
+      { r:"1 Chronicles 11:10-47", note:"a longer parallel list of the same mighty men, with additional names beyond the Thirty" },
+      { r:"1 Chronicles 27:1-15", note:"the Thirty (and more) reorganized into twelve monthly divisions of 24,000 men each, serving the king in rotation" } ]},
+    { group:"Names that reappear from earlier chapters", refs:[
+      { r:"2 Samuel 2:18-23", note:"Asahel, Joab's brother, killed by Abner at Gibeon's pool — yet still honored by name among the Thirty (23:24)" },
+      { r:"2 Samuel 21:19", note:"a different Elhanan credited with killing Goliath's brother — the roster's own Elhanan of Bethlehem (23:24) raises the same authorship question" } ]}
+  ]
+},
+
+/* ============================================================
    2 SAMUEL 24 — the census, the plague, and Araunah's threshing floor
    ============================================================ */
 "10:24": {
