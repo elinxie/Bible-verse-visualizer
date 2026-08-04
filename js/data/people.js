@@ -35,6 +35,7 @@ BVV.PEOPLE = [
   { id:"joseph-ot", name:"Joseph (son of Jacob)", al:["Joseph"], t:"ot", av:"official", desc:"Sold by his brothers, raised from Egyptian prison to vizier; his grain administration saved the family that betrayed him." },
   { id:"moses", name:"Moses", al:["Moses"], t:"both", av:"prophet", desc:"Prince of Egypt turned desert shepherd, then liberator, lawgiver and mediator who spoke with God face to face." },
   { id:"aaron", name:"Aaron", al:["Aaron"], t:"ot", av:"priest", desc:"Moses' brother and spokesman; first high priest, wearing the ephod and breastpiece with the Urim and Thummim." },
+  { id:"jethro", name:"Jethro", al:["Jethro","Reuel","Hobab"], t:"ot", av:"priest", desc:"Priest of Midian and Moses' father-in-law, whose flock Moses was tending at Horeb when God called him from the burning bush; also named Reuel (Ex 2:18), and later, through his son Hobab, guides Israel's wilderness march (Num 10:29)." },
   { id:"joshua", name:"Joshua", al:["Joshua"], t:"ot", av:"warrior", desc:"Moses' aide and war leader who took Israel across the Jordan and apportioned the land." },
   { id:"deborah", name:"Deborah", al:["Deborah"], t:"ot", av:"woman", desc:"Prophetess and judge who summoned Barak; sang the victory over Sisera's chariots by the Kishon." },
   { id:"gideon", name:"Gideon", al:["Gideon","Jerubbaal"], t:"ot", av:"warrior", desc:"Threshing wheat in a winepress when called; routed Midian with 300 men, torches and trumpets at the spring of Harod." },

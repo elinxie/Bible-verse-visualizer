@@ -166,5 +166,7 @@ BVV.OBJECTS = [
   { id:"egyptian-signet-ring", name:"Pharaoh's signet ring", al:["signet ring"], icon:"💍",
     desc:"The ring Pharaoh placed on Joseph's hand to formally invest him with authority as vizier over all Egypt (Gen 41:42)." },
   { id:"embalming-coffin", name:"Joseph's Egyptian coffin", al:["coffin","embalmed body"], icon:"⚰️",
-    desc:"Joseph was embalmed in the Egyptian manner and placed in a coffin in Egypt at his death, awaiting the eventual exodus he foretold (Gen 50:2-3, 26)." }
+    desc:"Joseph was embalmed in the Egyptian manner and placed in a coffin in Egypt at his death, awaiting the eventual exodus he foretold (Gen 50:2-3, 26)." },
+  { id:"burning-bush", name:"The burning bush", al:["burning bush","bush was not consumed","bush"], icon:"🔥",
+    desc:"The thornbush at Horeb that blazed without being consumed, out of which the angel of the LORD called to Moses and revealed the divine name, YHWH — 'I AM WHO I AM' (Exod 3:2-4, 14)." }
 ];

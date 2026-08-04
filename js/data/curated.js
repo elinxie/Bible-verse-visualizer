@@ -1096,6 +1096,75 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   EXODUS 3 — The burning bush at Horeb
+   ============================================================ */
+"2:3": {
+  era: {
+    title: "ca. 1446 BC (traditional) — Moses called at the burning bush",
+    sub: "Late Bronze Age · Horeb, the wilderness of Midian · forty years after Moses fled Egypt",
+    badges: ["Late Bronze Age", "New Kingdom Egypt", "Moses' shepherd years end", "≈3,470 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Forty years after fleeing Pharaoh's court, Moses is an anonymous shepherd, driving his father-in-law Jethro's flock to the far side of the wilderness when a bush ablaze but not consumed stops him cold. From inside the fire the God of Abraham, Isaac, and Jacob names himself — 'I AM WHO I AM' — and commissions the fugitive he is to send straight back into the court he fled, to bring Israel out of Egypt's forced labor and into a promised land, with a parting instruction that Israel will not leave empty-handed.",
+  focusPlace: "sinai",
+  places: [
+    { id:"midian",  role:"Where Moses has shepherded Jethro's flock for forty years in exile from Egypt (v. 1)" },
+    { id:"sinai",   role:"Horeb, 'the mountain of God' — where the bush burns and God commissions Moses (vv. 1-6)" },
+    { id:"egypt",   role:"Where Pharaoh still reigns and Israel still groans under forced labor — the destination of the call (vv. 7-10)" }
+  ],
+  journey: [
+    { from:"midian", to:"sinai", label:"Driving the flock to the far side of the wilderness", km:100,
+      note:"Moses leads Jethro's flock 'to the west side of the wilderness' and comes to Horeb, already called 'the mountain of God' here even before any covenant is made on it (v. 1)." },
+    { from:"sinai", to:"egypt", dashed:true, label:"The commission: back to Pharaoh's court", km:330,
+      note:"Not a route Moses walks within this chapter, but the mission God lays on him at the bush — return to the very court he fled forty years earlier and demand Israel's release (vv. 10, 16-18)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Moses shepherding at Horeb", av:"shepherd",
+      desc:"Keeping the flock of Jethro, priest of Midian, Moses leads the sheep to the far side of the wilderness and arrives, without expecting anything, at 'the mountain of God' (v. 1)." },
+    { x:0.20, type:"object", label:"The bush ablaze, yet unconsumed",
+      desc:"'The bush was burning, yet it was not consumed' (v. 2) — an ordinary desert thornbush that breaks the ordinary rule that fire destroys what it touches, enough to make Moses turn aside for a closer look (v. 3)." },
+    { x:0.32, type:"object", label:"'Take off your sandals' — holy ground",
+      desc:"Once God sees Moses has turned aside, he calls his name from within the bush and stops him at a distance: 'do not come near; take your sandals off your feet, for the place on which you are standing is holy ground' (vv. 4-5)." },
+    { x:0.44, type:"person", label:"'I am the God of your fathers'", av:"shepherd",
+      desc:"'I am the God of your father, the God of Abraham, the God of Isaac, and the God of Jacob' — Moses hides his face, afraid to look at God (v. 6)." },
+    { x:0.58, type:"object", label:"The call: deliver Israel from Egypt",
+      desc:"'I have surely seen the affliction of my people... I have heard their cry... I know their sufferings' — God announces he has come down to rescue Israel and bring them to a good, wide land, and now sends Moses to Pharaoh to do it (vv. 7-10)." },
+    { x:0.72, type:"person", label:"Moses objects; the name 'I AM'", av:"shepherd",
+      desc:"'Who am I, that I should go to Pharaoh...?' (v. 11). God answers only 'I will be with you' — and when Moses presses for a name to give Israel, God answers 'I AM WHO I AM... say to the people of Israel, I AM has sent me to you' (vv. 12-14), then gives the name YHWH, 'the LORD,' as his name forever (v. 15)." },
+    { x:0.88, type:"object", label:"Elders, Pharaoh, and Egypt's silver and gold",
+      desc:"Moses is told to gather Israel's elders, then go with them to Pharaoh to ask for a three-day journey to sacrifice — expecting refusal until 'a mighty hand' compels it (vv. 16-20) — and to have every woman ask her Egyptian neighbors for silver, gold, and clothing, so Israel leaves 'plundering the Egyptians' rather than empty-handed (vv. 21-22)." }
+  ],
+  environment: {
+    chips: ["Desert shepherd country", "A fire that doesn't consume", "Sacred ground, bare feet", "Forty years since Egypt", "A name instead of an idol", "Silver, gold, and clothing promised"],
+    text: "The traditional Horeb/Sinai massif is a knot of bare granite peaks rising over 2,000 m above gravel wadis on the southern Sinai peninsula — harsh, waterless country except for scattered springs, exactly the kind of marginal grazing land a Midianite priest's flocks would need a full-time shepherd to work far from any town. Fire and smoke were common ancient Near Eastern signals of divine presence (later at this same mountain in Exodus 19, and in the pillar of fire that leads Israel by night), but a flame that burns a thornbush without consuming it inverts the ordinary rule that fire destroys what it touches — the sign matches the message: this God draws near without destroying what he draws near to. Removing sandals before holy ground reflects a wider ancient courtesy toward temples and shrines, extended here to open desert with no building at all."
+  },
+  objectsExtra: ["burning-bush"],
+  peopleExtra: ["moses","jethro"],
+  culture: [
+    { title:"Horeb, 'the mountain of God'", icon:"⛰️",
+      text:"The text calls Horeb 'the mountain of God' (v. 1) before any covenant has been made there — the name anticipates what is coming, not what has already happened. This is the same mountain Moses returns to with all Israel seven chapters later (Exodus 19) and where, generations on, a fleeing Elijah walks forty days to encounter God again in a 'still small voice' (1 Kings 19:8-13). Tradition places it at Jebel Musa in the southern Sinai peninsula, though the exact site is debated, with other locations proposed in northern Sinai and northwest Arabia." },
+    { title:"The name behind 'the LORD'", icon:"🔥",
+      text:"'I AM WHO I AM' (Hebrew ehyeh asher ehyeh) both explains and issues the name YHWH, the four-letter divine name (the tetragrammaton) built from the verb 'to be' — self-existent, dependent on nothing, and actively present tense rather than a static title. Later Jewish practice, out of reverence, avoided pronouncing the name aloud at all, substituting 'Adonai' ('my Lord') in reading — the reason English Bibles print 'the LORD' in small capitals wherever the Hebrew text actually has YHWH." },
+    { title:"'Plundering the Egyptians'", icon:"💰",
+      text:"Verses 21-22 have drawn the objection that God is here instructing outright theft. The text itself frames it differently: Genesis 15:13-14 had already promised Abraham that his enslaved descendants would 'come out with great possessions,' and generations of unpaid, forced labor (Exodus 1:11-14) sit behind the request — read less as a heist and more as back wages extracted through favor rather than force. Exodus 12:35-36 shows it literally fulfilled: the Egyptians, eager to see Israel gone, hand the requested silver, gold, and clothing over willingly." }
+  ],
+  crossRefs: [
+    { group:"The divine name, echoed forward", refs:[
+      { r:"John 8:58", note:"'before Abraham was, I am' — Jesus takes up the name spoken at the bush" },
+      { r:"Revelation 1:8", note:"'who is and who was and who is to come, the Almighty' — the name's tense reapplied" } ]},
+    { group:"Holy ground, elsewhere", refs:[
+      { r:"Joshua 5:13-15", note:"the commander of the LORD's army gives Joshua the identical command at Jericho" },
+      { r:"Acts 7:30-34", note:"Stephen retells this exact scene to the Sanhedrin" } ]},
+    { group:"God remembers the covenant", refs:[
+      { r:"Genesis 15:13-14", note:"the four-hundred-years-of-affliction prophecy this chapter answers" },
+      { r:"Exodus 6:2-8", note:"God restates his name and covenant to Moses once Pharaoh has first refused" } ]},
+    { group:"The plunder, fulfilled", refs:[
+      { r:"Exodus 12:35-36", note:"Israel actually receives the silver, gold, and clothing promised here" },
+      { r:"Psalm 105:37", note:"'he brought them out with silver and gold, and there was none among his tribes who stumbled'" } ]}
+  ]
+},
+
+/* ============================================================
    EXODUS 14 — The sea crossing
    ============================================================ */
 "2:14": {
