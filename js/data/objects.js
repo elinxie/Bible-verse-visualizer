@@ -35,6 +35,8 @@ BVV.OBJECTS = [
     desc:"Flat bread baked in haste without waiting for yeast — the bread of Passover night, of urgent hospitality (Gen 19:3), and of the medium's midnight meal for Saul (1 Sam 28:24)." },
   { id:"passover-lamb", name:"Passover lamb", al:["Passover"], icon:"🐑",
     desc:"Year-old male without blemish, slain at twilight on 14 Nisan, its blood on the doorposts; the meal Jesus transformed at the Last Supper." },
+  { id:"hyssop", name:"Hyssop", al:["hyssop","bunch of hyssop"], icon:"🌿",
+    desc:"Bushy, stiff-stemmed herb (likely Syrian marjoram) used as a natural brush — dipped in the Passover lamb's blood to mark Israel's doorposts (Exod 12:22), later prescribed for cleansing lepers (Lev 14:4-7) and defilement (Num 19:18), and echoed in David's plea 'purge me with hyssop' (Ps 51:7) and the branch lifted to Jesus' lips at the cross (John 19:29)." },
   { id:"sling", name:"Sling", al:["sling"], icon:"🪨",
     desc:"Shepherd's and soldier's weapon: leather pouch on cords whirling a smooth stone to lethal speed (~100+ km/h). Benjamin fielded 700 left-handed slingers who 'would not miss' (Judg 20:16)." },
   { id:"spear", name:"Spear", al:["spear","javelin"], icon:"🔱",
