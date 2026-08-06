@@ -1165,6 +1165,77 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   EXODUS 12 — The Passover and the Exodus
+   ============================================================ */
+"2:12": {
+  era: {
+    title: "ca. 1446 BC (traditional) — the night of the Passover and the Exodus",
+    sub: "Late Bronze Age · Rameses (Pi-Ramesses) in the Nile delta · the tenth and final plague",
+    badges: ["Late Bronze Age", "New Kingdom Egypt", "The first Passover", "≈3,470 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "On Moses and Aaron's instructions, every Israelite household selects a spotless year-old lamb on the tenth day of the month, keeps it four days, then slaughters it at twilight on the fourteenth and paints its blood on the doorposts and lintel with a branch of hyssop. Inside, dressed and shod for departure, they eat it roasted with unleavened bread and bitter herbs, forbidden to leave the marked house until morning. At midnight the LORD strikes every firstborn in Egypt, from Pharaoh's own son to the prisoner's, sparing only the blood-marked homes; by dawn a devastated Pharaoh expels Israel outright, and the people — dough unleavened on their shoulders, a mixed multitude and vast flocks in tow — march out from Rameses four hundred thirty years to the day after Jacob's family first arrived, with orders to keep this night as a statute forever.",
+  focusPlace: "rameses",
+  places: [
+    { id:"egypt",   role:"Where the tenth and final plague falls on every unmarked household at midnight (vv. 12-13, 29-30)" },
+    { id:"goshen",  role:"The delta region where Israel's households mark their doors and eat the first Passover behind them (vv. 3-11, 21-23)" },
+    { id:"rameses", role:"The store-city Israel built by forced labor — and the literal starting line of the Exodus march (v. 37)" }
+  ],
+  journey: [
+    { from:"goshen", to:"rameses", label:"Israel's households muster to leave", km:25,
+      note:"From the marked houses where the night is spent to the store-city crossroads by morning — Rameses becomes the literal starting point of the Exodus itself (v. 37)." },
+    { from:"rameses", to:"egypt", dashed:true, label:"Midnight sweeps every house in the land", km:90,
+      note:"Not a route walked within the chapter, but the reach of the tenth plague itself — 'from the firstborn of Pharaoh who sat on his throne to the firstborn of the captive who was in the dungeon' (v. 29), striking every unmarked house across Egypt at once." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Moses and Aaron given the instructions", av:"prophet",
+      desc:"The LORD speaks to Moses and Aaron 'in the land of Egypt,' resetting Israel's calendar before they even leave it: this month will be the first month of their year (vv. 1-2)." },
+    { x:0.15, type:"object", label:"Selecting the lamb, the tenth day",
+      desc:"Each household takes a lamb — or shares one with a neighbor if too small a family — 'without blemish, a male a year old,' kept and watched for four days before slaughter (vv. 3-6)." },
+    { x:0.27, type:"object", label:"Blood on the doorposts and lintel",
+      desc:"At twilight on the fourteenth the lamb is killed, and its blood applied to the two doorposts and the lintel with a bunch of hyssop dipped in the basin — a mark death itself will read from outside (vv. 6-7, 22)." },
+    { x:0.39, type:"person", label:"Eaten in haste, staff in hand", av:"elder",
+      desc:"The meal itself: roasted whole, never boiled, eaten with unleavened bread and bitter herbs — belt fastened, sandals on, staff in hand, dressed to walk out the door before the meal is even finished (vv. 8-11)." },
+    { x:0.50, type:"object", label:"'When I see the blood, I will pass over you'",
+      desc:"The instruction that names the festival forever: the destroyer sweeps through Egypt, but every house marked by the lamb's blood is passed over untouched (vv. 12-13, 23)." },
+    { x:0.62, type:"person", label:"Midnight: every firstborn in Egypt", av:"king",
+      desc:"'From the firstborn of Pharaoh who sat on his throne to the firstborn of the captive who was in the dungeon' — no rank or poverty exempts a single Egyptian household; 'there was not a house where someone was not dead' (vv. 29-30)." },
+    { x:0.74, type:"person", label:"Pharaoh drives Israel out, by night", av:"king",
+      desc:"Pharaoh himself summons Moses and Aaron in the dark hours and tells them to leave at once — flocks, herds, and all — and even asks a blessing on his way out (vv. 31-32); the Egyptians, in dread, hurry Israel along (v. 33)." },
+    { x:0.88, type:"object", label:"Kneading bowls on their shoulders",
+      desc:"Dough too urgent to leaven, bound in cloaks on their shoulders; a mixed multitude and vast flocks and herds go with them; six hundred thousand men on foot leave Rameses exactly 430 years to the day after Jacob's family first arrived (vv. 34-41)." }
+  ],
+  environment: {
+    chips: ["The tenth-to-fourteenth-day countdown", "Blood on wood, not stone", "A meal eaten standing up", "Unleavened bread, bitter herbs", "Midnight, not daybreak", "A statute forever, kept by strangers too"],
+    text: "Rameses/Pi-Ramesses, excavated at Qantir in the eastern Nile delta, was a Ramesside-era store-city of mudbrick granaries and workshops — exactly the kind of forced-labor site Exodus 1 describes Israel building. House doorframes there were timber set into mudbrick walls, low and narrow enough that a hyssop branch dipped in a basin of blood could reach the lintel and both posts from inside without stepping into the street — matching the chapter's own instruction that nobody leave the house until morning (v. 22). Hyssop (likely Origanum syriacum, Syrian marjoram) is a bushy, stiff-stemmed herb whose hairy stalks make a natural brush; it reappears at the cleansing of lepers (Lev 14) and, centuries later, lifted to Jesus' lips on the cross (John 19:29). The command to eat 'in haste,' belt fastened and staff in hand, describes marching orders eaten at the table — the meal itself already staged for departure."
+  },
+  objectsExtra: ["passover-lamb","unleavened","hyssop"],
+  peopleExtra: ["moses","aaron","pharaoh-exodus"],
+  culture: [
+    { title:"The Passover lamb — provision and pattern", icon:"🐑",
+      text:"A lamb dies so a household does not; its blood, not any merit of the people behind the door, is what the LORD says he 'sees' and passes over (v. 13). The rules given here — without blemish, bones unbroken (v. 46), eaten by the covenant community — become the pattern the New Testament reaches for directly: 'Christ, our Passover lamb, has been sacrificed' (1 Cor 5:7), and John notes that not one of Jesus' bones was broken at the cross, reading it as this very statute fulfilled (John 19:36)." },
+    { title:"A calendar reset — this month is month one", icon:"📅",
+      text:"Verse 2 does something no plague has done yet: it renames time itself, making the month of the Exodus (later called Abib, then Nisan) the first month of Israel's religious year, even though it fell in what had been month seven of the older civil calendar. Passover and the seven-day Feast of Unleavened Bread that follows it (vv. 14-20) become the fixed opening festival of Israel's entire liturgical calendar (Lev 23:4-8), still marked as the start of the religious year in Judaism today." },
+    { title:"Not by blood alone — a law for the stranger", icon:"🤝",
+      text:"Verses 43-49 close the chapter with an unexpected clause: no foreigner or hired worker may eat the Passover — unless he is circumcised into the covenant, after which 'he shall be as a native of the land,' with 'one law for the native and for the stranger.' The rule anticipates the very next verse's detail that 'a mixed multitude also went up with them' (v. 38) — outsiders leaving Egypt alongside Israel, on the same terms Israel itself will be offered a stranger and sojourner statute for as long as the feast is kept." }
+  ],
+  crossRefs: [
+    { group:"The Passover fulfilled", refs:[
+      { r:"1 Corinthians 5:7", note:"'Christ, our Passover lamb, has been sacrificed'" },
+      { r:"John 19:36", note:"'not one of his bones will be broken' — this chapter's instruction (v. 46), read as fulfilled at the cross" } ]},
+    { group:"The exodus remembered", refs:[
+      { r:"Deuteronomy 16:1-8", note:"the Passover law repeated for the promised land, still tied to 'the month of Abib'" },
+      { r:"Luke 22:14-20", note:"the Last Supper — a Passover meal Jesus reinterprets around his own body and blood" } ]},
+    { group:"Hyssop, blood, and cleansing", refs:[
+      { r:"Psalm 51:7", note:"'purge me with hyssop, and I shall be clean'" },
+      { r:"Hebrews 9:19-22", note:"'without the shedding of blood there is no forgiveness of sins'" } ]},
+    { group:"430 years, kept to the day", refs:[
+      { r:"Genesis 15:13-14", note:"the length of Israel's affliction, foretold to Abraham centuries earlier" },
+      { r:"Galatians 3:17", note:"Paul counts this same 430 years, from the promise to Moses' law" } ]}
+  ]
+},
+
+/* ============================================================
    EXODUS 14 — The sea crossing
    ============================================================ */
 "2:14": {
