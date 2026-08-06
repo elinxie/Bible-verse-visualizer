@@ -1279,6 +1279,190 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   EXODUS 19 — Israel arrives at Sinai; the covenant proposed
+   ============================================================ */
+"2:19": {
+  era: {
+    title: "ca. 1446 BC (traditional) — Israel arrives at Sinai",
+    sub: "Late Bronze Age · Mount Sinai (Horeb) · the third month after leaving Egypt",
+    badges: ["Late Bronze Age", "New Kingdom Egypt", "The Sinai covenant begins", "≈3,470 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Six weeks of wilderness travel end where it began for Moses: the mountain of the burning bush. Israel camps 'in front of the mountain,' and the LORD proposes a covenant before he legislates a single law — obey, and Israel becomes his treasured possession, a kingdom of priests, a holy nation. The people answer as one voice, 'all that the LORD has spoken we will do,' and are told to wash their garments and stay off the mountain for two days. On the third day thunder, lightning, thick cloud, and a trumpet blast that grows louder and louder announce the LORD's own descent onto Sinai in fire and smoke, the whole mountain trembling, while Moses climbs up and down as go-between and a death-penalty boundary keeps everyone else back.",
+  focusPlace: "sinai",
+  places: [
+    { id:"sinai",  role:"Israel camps 'in front of the mountain' — the whole scene's setting (v. 2)" },
+    { id:"redsea", role:"The sea Israel crossed six weeks earlier, now well behind them (14:21-29; 19:1)" },
+    { id:"egypt",  role:"'The house of slavery' this covenant proposal explicitly leaves behind (v. 4)" }
+  ],
+  journey: [
+    { from:"redsea", to:"sinai", dashed:true, label:"The last leg of the wilderness march", km:110,
+      note:"Six weeks on from the sea, via the Wilderness of Sin and Rephidim (Exod 16-18, not separately mapped here), Israel arrives at Sinai 'on this day, in the third month' after leaving Egypt (v. 1)." }
+  ],
+  hotspots: [
+    { x:0.08, type:"person", label:"Moses climbs the mountain", av:"prophet",
+      desc:"Israel has barely pitched camp before 'Moses went up to God,' and the LORD calls to him from the mountain with the proposal that opens the entire covenant (v. 3)." },
+    { x:0.24, type:"object", label:"'You shall be my treasured possession'",
+      desc:"'You have seen what I did to the Egyptians, and how I bore you on eagles' wings and brought you to myself. Now therefore, if you will indeed obey my voice... you shall be to me a kingdom of priests and a holy nation' (vv. 4-6) — the covenant offer, before a single command is given." },
+    { x:0.40, type:"person", label:"'All that the LORD has spoken we will do'", av:"elder",
+      desc:"Moses lays the proposal before the elders and 'all the people answered together' with a single unconditional yes (v. 8) — a vow the very next chapters will test." },
+    { x:0.55, type:"object", label:"Consecration and a deadly boundary",
+      desc:"The people wash their garments and abstain for two days; a boundary is set around the mountain's foot with a standing order — anyone, even an animal, that touches it is to be put to death, stoned or shot from a distance rather than approached (vv. 10-13, 21-24)." },
+    { x:0.72, type:"object", label:"Fire, smoke, and a trumpet blast",
+      desc:"On the morning of the third day: thunder, lightning, a thick cloud, and a trumpet blast so loud the people in camp tremble. The LORD descends on Sinai in fire; smoke goes up like a furnace, and the whole mountain trembles greatly (vv. 16-19)." },
+    { x:0.90, type:"person", label:"Moses and Aaron alone go up", av:"prophet",
+      desc:"Summoned to the summit, Moses is sent back down once more to warn the priests and people not to break through 'to gaze' at the LORD, then finally brings Aaron up with him — everyone else stays below the line (vv. 20-25)." }
+  ],
+  environment: {
+    chips: ["Third month after the Exodus", "A quarantined mountain", "A trumpet blast growing louder", "Fire, smoke, and earthquake", "Washed garments, two days' preparation", "A death-penalty perimeter"],
+    text: "The traditional Sinai/Horeb massif is a cluster of bare granite peaks rising sharply over 2,000 m above open gravel plains wide enough to hold a whole encampment 'in front of the mountain' (v. 2) — a natural amphitheater matching the text's staging exactly. Fire, smoke, and violent trembling are stock ancient Near Eastern signals of a god's descent (comparable storm-theophany imagery appears from Ugarit to later Israelite poetry, e.g. Ps 18, 68), but here they attach to a specific, dateable, mappable event rather than myth. The chapter's structure — a historical prologue recalling deliverance (v. 4), then a conditional covenant offer, then Israel's oath — closely tracks the shape of Late Bronze Age suzerain-vassal treaties well attested from Hittite archives, a pattern Exodus 19-24 as a whole continues to follow."
+  },
+  objectsExtra: ["trumpet"],
+  peopleExtra: ["moses","aaron"],
+  culture: [
+    { title:"'A kingdom of priests, a holy nation'", icon:"👑",
+      text:"The covenant is offered before it is legislated: Israel's identity — priestly mediators to the nations, set apart as holy — comes first, obedience is the means of living it out, not a hoop to jump through first. The New Testament reaches directly for this language for the church: 'you are a chosen race, a royal priesthood, a holy nation' (1 Pet 2:9), and Revelation echoes it of those Christ has 'made... a kingdom, priests to his God' (Rev 1:6)." },
+    { title:"Treaty shape, not just theophany", icon:"📜",
+      text:"Scholars have long noted that Exodus 19-24's sequence — historical prologue (what the suzerain has already done), stipulations (the commandments and case laws), and a ratification ceremony (ch. 24) — parallels the standard structure of Late Bronze Age Hittite suzerain-vassal treaties almost point for point. Whatever one makes of the comparison's precision, the ancient Near Eastern setting makes the covenant's legal, relational shape (not merely a list of rules) unmistakable to its first hearers." },
+    { title:"A boundary that will not stay closed", icon:"🚧",
+      text:"The perimeter and the warning against 'breaking through to gaze' (v. 21) read as an intensified version of the burning bush's 'holy ground' (Exod 3:5) — nearness to God still requires distance and preparation. Hebrews 12:18-21 later contrasts this very scene, 'so terrifying that Moses said, I tremble with fear,' with the New Covenant's claim that believers 'have come' to Mount Zion instead — access without the fence." }
+  ],
+  crossRefs: [
+    { group:"'Kingdom of priests,' fulfilled", refs:[
+      { r:"1 Peter 2:9", note:"'a chosen race, a royal priesthood, a holy nation' — the church takes up this exact language" },
+      { r:"Revelation 1:6", note:"Christ 'made us a kingdom, priests to his God and Father'" } ]},
+    { group:"The boundary and its dread", refs:[
+      { r:"Hebrews 12:18-21", note:"Sinai's terror contrasted with the New Covenant's welcome to Zion" },
+      { r:"Exodus 20:18-21", note:"the very next scene: the people ask Moses to keep mediating rather than hear God directly" } ]},
+    { group:"The same mountain, later", refs:[
+      { r:"1 Kings 19:8-13", note:"Elijah walks forty days to this mountain and meets God again, this time in a 'still small voice'" },
+      { r:"Deuteronomy 4:10-13", note:"Moses' own retelling of this day to the next generation, forty years on" } ]}
+  ]
+},
+
+/* ============================================================
+   EXODUS 20 — The Ten Commandments
+   ============================================================ */
+"2:20": {
+  era: {
+    title: "ca. 1446 BC (traditional) — the Ten Commandments spoken at Sinai",
+    sub: "Late Bronze Age · Mount Sinai · the morning of the third-day theophany",
+    badges: ["Late Bronze Age", "New Kingdom Egypt", "The Ten Commandments", "≈3,470 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Out of the fire, smoke, and trumpet blast of chapter 19, God speaks ten commands directly to the assembled people — the only time in Scripture the whole nation hears the LORD's own unmediated voice. The first four govern loyalty to God alone (no other gods, no carved image, no misuse of the Name, the Sabbath); the last six govern loyalty to neighbor (parents, murder, adultery, theft, false witness, coveting). The direct voice is more than the people can bear: trembling at the thunder and the smoking mountain, they beg Moses to hear God for them from now on, 'lest we die.' Moses answers that the terror itself is the point — meant to plant the fear of God in them so they will not sin — then God adds one closing rule before the case-law code that follows: no gods of silver or gold, and altars of plain earth or unhewn stone, without steps, so that nothing of human craft or exposure intrudes on the offering.",
+  focusPlace: "sinai",
+  places: [
+    { id:"sinai", role:"Where the whole assembly hears God's voice directly, then asks never to again (vv. 1, 18-19)" },
+    { id:"egypt", role:"'Who brought you out... out of the house of slavery' — the identity clause the commandments open with (v. 2)" }
+  ],
+  journey: [
+    { from:"egypt", to:"sinai", dashed:true, label:"The rescue behind the law", km:330,
+      note:"Not a route walked within this chapter, but the fact the commandments themselves open with: before any command comes the reminder of what God has already done, bringing this people out of slavery (v. 2)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"'I am the LORD your God'",
+      desc:"For the first and only time in Scripture, God speaks the commandments to the entire nation directly rather than through Moses alone — opening not with a rule but an identity: the one who 'brought you out of the land of Egypt, out of the house of slavery' (vv. 1-2)." },
+    { x:0.22, type:"object", label:"Commandments 1-4: toward God",
+      desc:"No other gods before him; no carved image or likeness to bow to; no misuse of his name; and the Sabbath kept holy, resting as God himself rested at creation (vv. 3-11)." },
+    { x:0.38, type:"object", label:"Commandments 5-10: toward neighbor",
+      desc:"Honor father and mother; no murder, adultery, theft, or false testimony; and, closing the list, a command aimed at the heart itself — do not covet anything that is your neighbor's (vv. 12-17)." },
+    { x:0.54, type:"person", label:"The people, trembling", av:"elder",
+      desc:"Thunder, lightning, trumpet, and a smoking mountain — the people see it, tremble, and 'stood far off,' unwilling to come any nearer to the source of that voice (v. 18)." },
+    { x:0.70, type:"person", label:"'You speak to us, and we will listen'", av:"elder",
+      desc:"'You speak to us, and we will listen; but let not God speak to us, lest we die' (v. 19). Moses answers that the terror is not punishment but purpose: 'God has come to test you, that the fear of him may be before you, that you may not sin' (vv. 20-21)." },
+    { x:0.88, type:"object", label:"The altar law",
+      desc:"No gods of silver or gold made alongside the LORD; an altar should be plain earth, or unhewn stone untouched by a chisel — and no steps up to it, 'that your nakedness be not exposed on it' (vv. 22-26), closing the chapter before the detailed case-law code of chapters 21-23 begins." }
+  ],
+  environment: {
+    chips: ["Ten words, spoken not yet written", "Thunder, lightning, thick smoke", "A trembling assembly", "A people asking for a mediator", "An earthen altar, no chisel, no steps", "Direct divine speech — once"],
+    text: "This chapter continues chapter 19's theophany without a scene change: the same fire, smoke, and trumpet blast that opened the mountain now carry the commandments themselves. The Decalogue's own form was new for its world — ancient Near Eastern law codes like Hammurabi's are overwhelmingly casuistic ('if a man does X, then Y'), while these ten are apodictic, blunt second-person absolutes with no stated penalty attached, addressed to persons rather than cases. The altar law's ban on hewn stone and steps matches both later instruction (Deut 27:5-6; Josh 8:31, unworked fieldstones for Joshua's altar on Mount Ebal) and archaeology: excavated Israelite altars at sites like Arad and Beersheba are built up from unworked stones rather than dressed ashlar, exactly as commanded here."
+  },
+  objectsExtra: ["ten-commandments","altar"],
+  peopleExtra: ["moses"],
+  culture: [
+    { title:"Two tables: God and neighbor", icon:"⚖️",
+      text:"Jewish and Christian tradition alike has long grouped the ten into two halves — duty toward God (vv. 3-11) and duty toward neighbor (vv. 12-17) — a division Jesus makes explicit when he sums up 'all the Law and the Prophets' in the twin command to love God and love neighbor (Matt 22:37-40). The Decalogue is presented here as that summary's own source text." },
+    { title:"Apodictic law — a different kind of code", icon:"📯",
+      text:"Contemporary Near Eastern law collections (Hammurabi, Eshnunna, the Hittite laws) are built almost entirely from conditional case law: 'if an ox gores a man...' The Ten Commandments instead are unconditional, second-person, and unattached to a stated penalty — 'you shall not' rather than 'if... then.' Scholars call this style apodictic law, and its concentration here is unusually dense even by the standards of Israel's own later legal material." },
+    { title:"An altar with no steps and no chisel", icon:"⛰️",
+      text:"The closing rule bans both craftsmanship (a chisel 'profanes' the stone) and elevation (steps risk exposure, since priestly undergarments aren't prescribed until Exodus 28:42-43). Together the two restrictions keep the altar's holiness resting entirely on God's presence and command, not on human skill, status, or display — a theme this book returns to two chapters later when Israel makes exactly the opposite choice with the golden calf." }
+  ],
+  crossRefs: [
+    { group:"The commandments repeated and summarized", refs:[
+      { r:"Deuteronomy 5:6-21", note:"Moses restates the Ten Commandments to the next generation, before entering the land" },
+      { r:"Matthew 22:37-40", note:"Jesus sums up 'all the Law and the Prophets' in love of God and neighbor" } ]},
+    { group:"Fear of God as protection, not just terror", refs:[
+      { r:"Hebrews 12:18-21", note:"Sinai's fire and trembling contrasted with the New Covenant's access to Zion" },
+      { r:"Proverbs 1:7", note:"'the fear of the LORD is the beginning of knowledge'" } ]},
+    { group:"The altar law, later obeyed", refs:[
+      { r:"Deuteronomy 27:5-6", note:"uncut stones commanded for the altar on Mount Ebal" },
+      { r:"Joshua 8:30-31", note:"Joshua builds that exact altar, 'as Moses... had commanded'" } ]}
+  ]
+},
+
+/* ============================================================
+   EXODUS 32 — The golden calf
+   ============================================================ */
+"2:32": {
+  era: {
+    title: "ca. 1446 BC (traditional) — the golden calf at the foot of Sinai",
+    sub: "Late Bronze Age · Mount Sinai · forty days into Moses' ascent",
+    badges: ["Late Bronze Age", "New Kingdom Egypt", "Covenant broken and remade", "≈3,470 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Moses is forty days out of sight on the summit receiving the tablets and the tabernacle's design, and the camp below runs out of patience. The people press Aaron to 'make us gods who shall go before us'; he collects their gold earrings, fashions a calf, builds an altar before it, and proclaims 'a feast to the LORD' — the people rise the next morning to sacrifice, eat, drink, and revel. On the mountain God tells Moses to go down at once to 'your people, whom you brought up out of the land of Egypt,' threatening to consume them and start over with Moses alone; Moses intercedes, and the LORD relents. Descending with Joshua, Moses sees the dancing for himself, and in hot anger throws the two tablets down and shatters them at the mountain's foot. He burns the calf, grinds it to powder, scatters it on water, and makes Israel drink it; Aaron blames the people; standing in the camp gate, Moses calls 'Who is on the LORD's side?' and the Levites alone rally to him, executing about three thousand at his command. Moses climbs the mountain a second time to intercede again, offering to be blotted out himself rather than see the people destroyed — and the LORD still sends a plague on them 'because they made the calf.'",
+  focusPlace: "sinai",
+  places: [
+    { id:"sinai", role:"Both the summit where Moses receives the tablets and the camp at its foot where the calf is made (vv. 1, 15-19)" },
+    { id:"egypt", role:"'These are your gods... who brought you up out of the land of Egypt' — the very deliverance the calf claims credit for (vv. 4, 8, 11-12)" }
+  ],
+  journey: [
+    { from:"sinai", to:"egypt", dashed:true, label:"The reputation God's anger risks", km:330,
+      note:"Not a literal route, but the stake Moses names in his intercession: if the LORD destroys Israel here, Egypt will conclude he brought his people out only 'to kill them in the mountains' (vv. 11-12) — the very outcome Moses argues against." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Aaron melts the gold", av:"priest",
+      desc:"With Moses forty days out of sight, the people surround Aaron: 'make us gods who shall go before us.' He collects the gold rings from their ears and fashions them, with a graving tool, into the shape of a calf (vv. 1-4)." },
+    { x:0.20, type:"object", label:"The golden calf and its altar",
+      desc:"'These are your gods, O Israel, who brought you up out of the land of Egypt!' Aaron builds an altar before the image and proclaims a feast to the LORD for the next day — young-bull imagery familiar across Egypt (the Apis bull) and Canaan as a symbol of strength and fertility, here turned into an idol at Sinai itself (vv. 4-5)." },
+    { x:0.34, type:"person", label:"The people rise up to play", av:"elder",
+      desc:"Early the next morning they offer burnt offerings and peace offerings, then 'sat down to eat and drink and rose up to play' — the same verb used elsewhere for illicit revelry (v. 6)." },
+    { x:0.48, type:"person", label:"Moses intercedes on the mountain", av:"prophet",
+      desc:"God tells Moses to go down to 'your people... they have corrupted themselves' and offers to destroy the nation and build a new one from Moses alone. Moses pleads God's own reputation before Egypt and his sworn oath to Abraham, Isaac, and Jacob — 'and the LORD relented from the disaster he had spoken of bringing on his people' (vv. 7-14)." },
+    { x:0.64, type:"object", label:"The tablets shattered",
+      desc:"Coming down with Joshua and hearing the sound of singing, Moses sees the calf and the dancing for himself and, in hot anger, throws down the two tablets of the testimony, breaking them at the foot of the mountain — then burns the calf, grinds it to powder, scatters it on the water, and makes Israel drink it (vv. 15-20)." },
+    { x:0.84, type:"person", label:"'Who is on the LORD's side?'", av:"priest",
+      desc:"Aaron blames the people ('I threw [the gold] into the fire, and out came this calf'); Moses stands in the camp gate and calls for loyalty — only the tribe of Levi rallies to him, and at his command they kill about three thousand that day. Moses climbs the mountain a second time to intercede further, offering to be blotted out of God's book himself, but a plague still falls on the people 'because of the calf, the one that Aaron made' (vv. 21-35)." }
+  ],
+  environment: {
+    chips: ["Forty days, no leader in sight", "Gold earrings melted down", "A calf-image feast 'to the LORD'", "Tablets broken at the mountain's foot", "Gold-dust water, forced to drink", "Levites vs. covenant-breakers"],
+    text: "The camp sprawled on the open gravel plain at Sinai's foot (see ch. 19) is close enough that Joshua and Moses hear singing before they can see anything, and near enough the mountain that the shattered tablets and the burned, ground calf are dealt with on the spot rather than carried anywhere. Young-bull iconography was common divine imagery across the Late Bronze Age Near East — Egypt's Apis bull, Canaanite bull imagery associated with El and Baal — which is why many readers take Aaron's calf as a mistaken pedestal or throne for the invisible LORD (echoing the cherubim-throne motif) rather than a rejection of him outright; his proclaimed 'feast to the LORD' (v. 5) reads as syncretism, not atheism, which makes it no less a breach of the very first and second commandments just given."
+  },
+  objectsExtra: ["golden-calf","tablets-stone"],
+  peopleExtra: ["moses","aaron","levites"],
+  culture: [
+    { title:"An idol with the LORD's own name on it", icon:"🐂",
+      text:"Aaron's proclamation ('a feast to the LORD,' v. 5) shows the calf was not meant, in his own framing, as a swap of gods but as a physical stand-in for the one who brought Israel out of Egypt — exactly the kind of image the second commandment, given days earlier, had just forbidden. The episode becomes Scripture's paradigm case of syncretism: keeping the right name while breaking the command not to represent it, a pattern Jeroboam repeats word for word centuries later with two golden calves at Bethel and Dan (1 Kgs 12:28)." },
+    { title:"Moses as intercessor", icon:"🙏",
+      text:"Moses' plea — appealing to God's reputation among the nations and his sworn covenant with the patriarchs rather than any merit in the people — becomes the Bible's template for prophetic intercession, echoed later when 'Moses stood in the breach before him, to turn away his wrath from destroying them' (Ps 106:23) and when he offers, in the chapter's most startling line, to be blotted out of God's book himself in the people's place (v. 32)." },
+    { title:"The Levites' costly loyalty", icon:"⚔️",
+      text:"Verse 26-29's call to arms against 'brother... companion... neighbor' is one of Scripture's harder passages, and commentators generally read it as covenant law enforcement in the immediate aftermath of a capital offense (Exod 22:20) rather than open-ended license. Whatever its full weight, the text ties the tribe of Levi's later priestly role directly to this test of loyalty: Deuteronomy 33:8-11 blesses Levi by name for putting God's word above family ties that very day." }
+  ],
+  crossRefs: [
+    { group:"Moses' intercession, foreshadowed and echoed", refs:[
+      { r:"Deuteronomy 9:18-20", note:"Moses' own retelling — a forty-day fast, and Aaron himself 'in great danger'" },
+      { r:"Psalm 106:19-23", note:"'Moses stood in the breach before him, to turn away his wrath'" } ]},
+    { group:"The calf's afterlife", refs:[
+      { r:"1 Kings 12:28-30", note:"Jeroboam's two golden calves reuse this chapter's exact words, 'these are your gods, O Israel'" },
+      { r:"Acts 7:39-41", note:"Stephen's speech before the Sanhedrin retells the golden calf as Israel's pattern sin" } ]},
+    { group:"Covenant broken, covenant remade", refs:[
+      { r:"Exodus 34:1-10", note:"the LORD has Moses cut new tablets and proclaims his name to him again" },
+      { r:"Exodus 34:27-28", note:"the covenant words are rewritten and the covenant itself renewed" } ]}
+  ]
+},
+
+/* ============================================================
    1 SAMUEL 24 — David spares Saul in the cave at En-gedi
    ============================================================ */
 "9:24": {
