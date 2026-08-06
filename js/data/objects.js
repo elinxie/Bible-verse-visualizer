@@ -170,5 +170,11 @@ BVV.OBJECTS = [
   { id:"embalming-coffin", name:"Joseph's Egyptian coffin", al:["coffin","embalmed body"], icon:"⚰️",
     desc:"Joseph was embalmed in the Egyptian manner and placed in a coffin in Egypt at his death, awaiting the eventual exodus he foretold (Gen 50:2-3, 26)." },
   { id:"burning-bush", name:"The burning bush", al:["burning bush","bush was not consumed","bush"], icon:"🔥",
-    desc:"The thornbush at Horeb that blazed without being consumed, out of which the angel of the LORD called to Moses and revealed the divine name, YHWH — 'I AM WHO I AM' (Exod 3:2-4, 14)." }
+    desc:"The thornbush at Horeb that blazed without being consumed, out of which the angel of the LORD called to Moses and revealed the divine name, YHWH — 'I AM WHO I AM' (Exod 3:2-4, 14)." },
+  { id:"ten-commandments", name:"The Ten Commandments", al:["Ten Commandments","ten words","the words"], icon:"🔟",
+    desc:"The Decalogue — ten unconditional 'you shall not' commands the LORD speaks aloud to the whole assembled nation at Sinai, the only time in Scripture God's voice addresses all Israel directly (Exod 20:1-17); later called 'the ten words' when written on stone (Exod 34:28; Deut 4:13, 10:4)." },
+  { id:"tablets-stone", name:"The two tablets of stone", al:["tablets of stone","two tablets","tables of stone","tablets of the testimony"], icon:"🪨",
+    desc:"The stone slabs inscribed 'by the finger of God' with the covenant words, given to Moses on the mountain (Exod 24:12; 31:18); the first pair is thrown down and shattered at the foot of Sinai when Moses sees the golden calf (Exod 32:19), and a second pair is later cut and rewritten (Exod 34:1, 27-28) — kept afterward inside the ark of the covenant (1 Kgs 8:9)." },
+  { id:"golden-calf", name:"The golden calf", al:["golden calf","calf of gold","the calf"], icon:"🐂",
+    desc:"An idol Aaron casts from the people's melted-down gold earrings while Moses is on the mountain, proclaiming 'these are your gods, O Israel, who brought you up out of the land of Egypt' (Exod 32:1-6) — young-bull imagery echoing Egypt's Apis bull and Canaanite divine-strength symbolism, ground to powder and forced into Israel's drinking water once Moses returns (Exod 32:20). Jeroboam later sets up two more at Bethel and Dan with the identical proclamation (1 Kgs 12:28)." }
 ];
