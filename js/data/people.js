@@ -206,5 +206,6 @@ BVV.PEOPLE = [
   { id:"asenath", name:"Asenath", al:["Asenath"], t:"ot", av:"woman", desc:"Daughter of Potiphera, priest of On, given to Joseph as wife by Pharaoh; mother of Manasseh and Ephraim (Gen 41:45, 50-52)." },
   { id:"potiphera", name:"Potiphera", al:["Potiphera","Poti-phera"], t:"ot", av:"priest", desc:"Priest of On (Heliopolis) whose daughter Asenath was given to Joseph in marriage (Gen 41:45)." },
   { id:"manasseh", name:"Manasseh", al:["Manasseh"], t:"ot", av:"youth", desc:"Joseph's firstborn by Asenath; though older, Jacob crossed his hands to bless his younger brother Ephraim above him (Gen 41:51; 48:14-20)." },
-  { id:"ephraim", name:"Ephraim", al:["Ephraim"], t:"ot", av:"youth", desc:"Joseph's second son by Asenath, given the greater blessing over his older brother Manasseh by Jacob's crossed hands (Gen 41:52; 48:14-20)." }
+  { id:"ephraim", name:"Ephraim", al:["Ephraim"], t:"ot", av:"youth", desc:"Joseph's second son by Asenath, given the greater blessing over his older brother Manasseh by Jacob's crossed hands (Gen 41:52; 48:14-20)." },
+  { id:"rahab", name:"Rahab", al:["Rahab"], t:"ot", av:"woman", desc:"A prostitute of Jericho whose house was built into the city wall; hid Joshua's two spies from the king's men and won an oath sparing her household when the city fell (Josh 2, 6:22-25) — later named in Jesus' genealogy (Matt 1:5) and commended for faith (Heb 11:31; James 2:25)." }
 ];
