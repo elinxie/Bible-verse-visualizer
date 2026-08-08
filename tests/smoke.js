@@ -182,7 +182,8 @@ function check(name, cond, extra) {
     "Genesis 49|1:49", "Genesis 50|1:50",
     "Exodus 3|2:3", "Exodus 12|2:12",
     "Exodus 19|2:19", "Exodus 20|2:20", "Exodus 32|2:32",
-    "Joshua 2|6:2", "Joshua 6|6:6"];
+    "Joshua 2|6:2", "Joshua 6|6:6",
+    "Judges 4|7:4", "Judges 7|7:7", "Judges 16|7:16"];
   for (const entry of CURATED_SWEEP) {
     const [ref, key] = entry.split("|");
     console.log(`== curated pipeline: ${ref} ==`);
