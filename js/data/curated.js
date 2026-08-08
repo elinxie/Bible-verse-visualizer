@@ -5902,6 +5902,136 @@ BVV.CURATED = {
       { r:"Joshua 24:32", note:"Joseph's bones finally buried at Shechem in the promised land" },
       { r:"Hebrews 11:22", note:"Joseph remembered for this very act of faith regarding his bones" } ]}
   ]
+},
+
+/* ============================================================
+   JOSHUA 2 — Rahab and the two spies
+   ============================================================ */
+"6:2": {
+  era: {
+    title: "ca. 1406 BC (traditional) — spies sent into Jericho",
+    sub: "Late Bronze / early Iron Age transition · Jericho · days before the Jordan crossing",
+    badges: ["Late Bronze Age", "Conquest of Canaan begins", "≈3,430 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "From the camp at Shittim, Joshua quietly sends two men to scout Jericho. They lodge with Rahab, a prostitute whose house is built into the city wall — and when the king's men come hunting them, she hides the spies under stalks of flax on her roof and lies to send the search party off toward the Jordan fords. In exchange for her risk she extracts an oath: spare her and her father's household when the city falls. Her reasoning is theological, not merely practical — she has heard of the Red Sea and of Sithon and Og, and confesses plainly, 'the LORD your God, he is God in heaven above and on earth beneath' (v. 11). The spies swear the oath, tell her to tie a scarlet cord in her window as the sign, hide three days in the hill country while the king's search party gives up, then wade back across the Jordan and report to Joshua: 'the LORD has given all the land into our hands; and moreover, all the inhabitants of the land melt away before us' (v. 24).",
+  focusPlace: "jericho",
+  places: [
+    { id:"moab-plains", role:"Shittim — the spies' starting point, Israel's camp (v. 1)" },
+    { id:"jericho",      role:"The walled city Rahab's house is built into (vv. 1-21)" },
+    { id:"jordan",       role:"The river the spies wade back across to report (v. 23)" }
+  ],
+  journey: [
+    { from:"moab-plains", to:"jericho", label:"The spies' mission in", km:12,
+      note:"Sent 'secretly' from the camp at Shittim on the Jordan's east bank, the two men cross into Jericho and lodge at Rahab's house before the king's men are even aware they've arrived (v. 1)." },
+    { from:"jericho", to:"moab-plains", via:"jordan", label:"The spies' mission out", km:12, dashed:true,
+      note:"After three days hiding in the hill country while the pursuers search the Jordan road (vv. 16, 22), the spies descend, wade the river, and return to Joshua with their report (v. 23)." }
+  ],
+  hotspots: [
+    { x:0.16, type:"person", label:"Rahab, in her house on the wall", av:"woman",
+      desc:"A prostitute (zonah) whose home is built directly into Jericho's city wall (v. 15) — a detail that lets her both shelter the spies and lower them outside the wall unseen. She hides them under stalks of flax drying on her roof (v. 6) and lies flatly to the king's messengers (vv. 4-5)." },
+    { x:0.34, type:"object", label:"'The LORD your God, he is God'",
+      desc:"Rahab's confession (vv. 9-11) is the chapter's theological center: she has heard how the LORD dried up the Red Sea and how Israel devoted Sihon and Og to destruction, and concludes 'our hearts melted, and there was no courage left in any man' — an outsider naming Israel's God before Israel's own conquest has begun." },
+    { x:0.50, type:"object", label:"The oath and the scarlet cord",
+      desc:"The spies swear 'our life for yours' on the condition Rahab keep their mission secret and tie 'this scarlet cord' in the window she lowers them from (vv. 14, 17-18) — the sign that will mark her house for sparing when the city falls, and gather her whole father's household inside it (v. 18)." },
+    { x:0.64, type:"person", label:"The king of Jericho's search party", av:"warrior",
+      desc:"Word reaches the king that Israelite spies have entered the city 'to search out all the land' (v. 2); his men are sent straight to Rahab's door, then out the gate toward the Jordan fords — chasing a lie toward exactly the direction the spies will later actually leave (vv. 3-5, 7)." },
+    { x:0.80, type:"object", label:"Three days in the hill country",
+      desc:"On the spies' own instruction, they hide three days in the hills west of Jericho until the pursuers give up and turn back, before finally making their way down to the river (v. 16, 22)." },
+    { x:0.92, type:"person", label:"Joshua receives the report", av:"warrior",
+      desc:"Back in camp, the spies deliver a one-line verdict that will shape everything to come: 'Truly the LORD has given all the land into our hands, and moreover, all the inhabitants of the land melt away before us' (v. 24)." }
+  ],
+  environment: {
+    chips: ["Night mission into a walled city", "A house built into the city wall", "Flax drying on a flat roof", "A scarlet cord in a window", "Three days hidden in the hills", "The Jordan at flood stage nearby (3:15)"],
+    text: "Jericho's Late Bronze Age mound (Tell es-Sultan) sits by a perennial spring at the edge of a wide oasis, ringed by a city wall thick enough to carry houses built into its face — exactly Rahab's arrangement (v. 15), a construction style attested at other fortified Canaanite sites of the period. West of the city the ground rises quickly into the rugged, cave-pocked wilderness hills later called the wilderness of Judea — rough enough terrain that a two- or three-day hideout from a search party was entirely plausible. The spies' route runs the short distance from the Israelite camp at Shittim, across the Jordan's lower fords, to the city and back — the same corridor the whole nation will cross openly within days (Josh 3-4)."
+  },
+  objectsExtra: ["scarlet-cord"],
+  peopleExtra: ["joshua","rahab"],
+  culture: [
+    { title:"Rahab's confession, named twice more in Scripture", icon:"📜",
+      text:"Rahab is not a footnote: the New Testament names her in Jesus' own genealogy (Matt 1:5, mother of Boaz), holds her up as an example of justifying faith shown by works (James 2:25), and lists her among the faith-heroes of Hebrews 11:31 — 'by faith Rahab the prostitute did not perish with those who were disobedient, because she had given a friendly welcome to the spies.'" },
+    { title:"A house in the city wall", icon:"🧱",
+      text:"Casemate and solid city walls thick enough to incorporate rooms or small dwellings are known from several Late Bronze and Iron Age Canaanite sites — the arrangement lets Rahab's window open directly outside the city's defensive line, explaining exactly how she lowers the spies to the ground without passing back through the gate (v. 15)." },
+    { title:"The scarlet cord as covenant sign", icon:"🧵",
+      text:"A visible marker tied where it can be seen from outside recalls the blood on the Passover doorposts (Exod 12:13) — a household spared not by its own merit but by a sign obeyed in faith. Rahab's whole extended family gathers 'into the house' on the strength of that one cord (v. 18; 6:23), a pattern of household salvation echoed later at Jericho's fall." }
+  ],
+  crossRefs: [
+    { group:"Rahab remembered later in Scripture", refs:[
+      { r:"Matthew 1:5", note:"Rahab named in Jesus' genealogy, mother of Boaz" },
+      { r:"Hebrews 11:31", note:"'by faith Rahab the prostitute did not perish'" },
+      { r:"James 2:25", note:"Rahab's faith 'justified by works' when she hid the messengers" } ]},
+    { group:"What Rahab had heard about", refs:[
+      { r:"Exodus 14:21-22", note:"the Red Sea crossing, still remembered forty years later" },
+      { r:"Numbers 21:21-35", note:"the defeat of Sihon and Og, east of the Jordan" } ]},
+    { group:"The sign fulfilled", refs:[
+      { r:"Joshua 6:22-25", note:"Rahab's household kept safe outside the camp when Jericho falls" },
+      { r:"Exodus 12:13", note:"the earlier household-marked-for-sparing sign, the Passover blood" } ]}
+  ]
+},
+
+/* ============================================================
+   JOSHUA 6 — The fall of Jericho
+   ============================================================ */
+"6:6": {
+  era: {
+    title: "ca. 1406 BC (traditional) — the wall of Jericho falls",
+    sub: "Late Bronze / early Iron Age transition · Jericho · seven days after the Jordan crossing",
+    badges: ["Late Bronze Age", "Conquest of Canaan begins", "≈3,430 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Jericho is shut up tight, 'no one going out and none coming in,' when the LORD gives Joshua the battle plan: not a siege, but a procession. Armed men, seven priests blowing seven trumpets of rams' horns, and the ark of the covenant circle the city once a day for six days in total silence except for the trumpets. On the seventh day they circle seven times, and at the seventh circuit, on Joshua's command, the whole army raises a great shout — and the wall falls down flat. Israel devotes the city to destruction (herem): every living thing but Rahab's household, marked out beforehand and brought safely to the camp; only silver, gold, and bronze and iron vessels are set apart for the LORD's treasury. Joshua closes with a curse on whoever rebuilds Jericho, laying its foundation at the cost of a firstborn son and setting up its gates at the cost of the youngest (v. 26) — a curse the book of Kings records coming true centuries later (1 Kgs 16:34).",
+  focusPlace: "jericho",
+  places: [
+    { id:"jericho", role:"The shut-up city Israel marches around and destroys (vv. 1-21)" },
+    { id:"gilgal",  role:"Israel's camp base for the whole Jericho campaign (4:19; 5:10)" },
+    { id:"jordan",  role:"The river Israel had crossed on dry ground days before (3:14-17)" }
+  ],
+  journey: [
+    { from:"gilgal", to:"jericho", label:"The daily march, six days", km:3,
+      note:"A short march from camp — the armed guard, seven priests with rams'-horn trumpets, and the ark circling the city once each day for six days, in silence but for the trumpets (vv. 3, 10, 14)." },
+    { from:"gilgal", to:"jericho", label:"The seventh day, seven circuits", km:21, dashed:true,
+      note:"On the seventh day the same short march is repeated seven times — roughly seven laps of the city, ending with the great shout and the collapse of the wall (vv. 15-16, 20)." }
+  ],
+  hotspots: [
+    { x:0.12, type:"object", label:"Jericho shut up tight",
+      desc:"'Now Jericho was shut up from within and from without because of the people of Israel; none went out, and none came in' (v. 1) — a city under total lockdown, awaiting an attack that will not come by any conventional siege." },
+    { x:0.28, type:"object", label:"Seven priests, seven trumpets, the ark",
+      desc:"The LORD's plan (vv. 3-5): armed men in front, seven priests blowing rams'-horn trumpets, the ark of the covenant carried behind, and a rear guard — once around the city each day for six days, then seven times on the seventh, all in commanded silence except the trumpet blasts (v. 10)." },
+    { x:0.46, type:"person", label:"Joshua commands the shout", av:"warrior",
+      desc:"On the seventh circuit of the seventh day, at the long trumpet blast, Joshua gives the order: 'Shout, for the LORD has given you the city' (v. 16) — the one moment the marching silence breaks." },
+    { x:0.60, type:"object", label:"The wall falls down flat",
+      desc:"'The wall fell down flat, so that the people went up into the city, everyone straight before him, and they captured the city' (v. 20) — no breach, no battering ram, only the shout after seven days of obedience." },
+    { x:0.74, type:"person", label:"Rahab's household spared", av:"woman",
+      desc:"True to the spies' oath, the two men bring Rahab, her father's household, and all who belong to her out to safety 'outside the camp of Israel,' the only survivors of the city's destruction (vv. 22-23, 25)." },
+    { x:0.88, type:"object", label:"Herem and the curse on rebuilding",
+      desc:"The city and everything in it is devoted to destruction except silver, gold, bronze, and iron, which go into the LORD's treasury (vv. 17-19, 24); Joshua then pronounces a curse — the man who rebuilds Jericho will lay its foundation at the cost of his firstborn and set up its gates at the cost of his youngest (v. 26)." }
+  ],
+  environment: {
+    chips: ["Silent daily marches, six days", "Seven priests, seven rams'-horn trumpets", "The ark carried in procession", "One great shout on day seven", "Herem — total devotion to destruction", "A city cursed against rebuilding"],
+    text: "Jericho's mound (Tell es-Sultan) sits low in the Jordan Rift Valley by its perennial spring, its ancient fortifications among the oldest and thickest known from the ancient Near East — which makes the narrative's method notable: not sappers or a ram against the gate, but seven days of circling, trumpet blasts, and a shout. Excavations at the site (Kenyon's 1950s dig and later reassessments) have found evidence of collapsed mudbrick wall material and burn layers, though dating the exact destruction layer to Joshua's era remains debated among archaeologists — a question this site notes rather than resolves. The 'devoted' (herem) category set the city and its inhabitants apart entirely for the LORD, with only metal vessels salvaged for sacred use — the same category of warfare that, notably, Achan will violate in the very next chapter (Josh 7)."
+  },
+  objectsExtra: ["ark-covenant","trumpet"],
+  peopleExtra: ["joshua","rahab"],
+  culture: [
+    { title:"Trumpets of rams' horns (shofar)", icon:"📯",
+      text:"The shofar's blast signaled war, alarm, coronation, and festival across Israel's history — Jericho's fall and Gideon's rout of Midian (Judg 7) are its two most famous battlefield uses. Unlike Gideon's night ambush, though, Jericho's trumpets work in broad daylight with no weapon drawn until the wall itself gives way." },
+    { title:"Herem — warfare as an offering", icon:"⚔️",
+      text:"Devoting a conquered city 'to destruction' (herem) set it apart entirely for God, the way an offering is set apart for the altar — nothing could be kept for private plunder. Achan's violation of exactly this rule in the next chapter (Josh 7:1, 20-21) shows how seriously the category was taken: one man's theft from Jericho's herem brings defeat on the whole nation at Ai." },
+    { title:"The curse on Jericho, fulfilled centuries later", icon:"🏗️",
+      text:"1 Kings 16:34 records the curse's grim fulfillment under King Ahab: Hiel of Bethel rebuilt Jericho, 'laid its foundation at the cost of Abiram his firstborn, and set up its gates at the cost of his youngest son Segub, according to the word of the LORD that he spoke by Joshua' — a rare biblical case of a centuries-old prophetic curse tracked to a named fulfillment." }
+  ],
+  crossRefs: [
+    { group:"The curse fulfilled", refs:[
+      { r:"1 Kings 16:34", note:"Hiel of Bethel rebuilds Jericho at the cost of two sons, as Joshua had sworn" } ]},
+    { group:"Herem broken in the very next chapter", refs:[
+      { r:"Joshua 7:1", note:"Achan takes from the devoted things at Jericho" },
+      { r:"Joshua 7:20-26", note:"the consequence — defeat at Ai, then Achan's judgment" } ]},
+    { group:"Rahab's oath kept", refs:[
+      { r:"Joshua 2:12-14", note:"the spies' original oath to spare Rahab's household" },
+      { r:"Hebrews 11:31", note:"Rahab's faith commended for this very rescue" } ]},
+    { group:"Other trumpet-and-shout victories", refs:[
+      { r:"Judges 7:19-22", note:"Gideon's 300 with trumpets and torches rout Midian" } ]}
+  ]
 }
 
 
