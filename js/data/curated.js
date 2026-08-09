@@ -6032,6 +6032,199 @@ BVV.CURATED = {
     { group:"Other trumpet-and-shout victories", refs:[
       { r:"Judges 7:19-22", note:"Gideon's 300 with trumpets and torches rout Midian" } ]}
   ]
+},
+
+/* ============================================================
+   JUDGES 4 — Deborah, Barak, and Jael's tent peg
+   ============================================================ */
+"7:4": {
+  era: {
+    title: "ca. 1150 BC (traditional) — Sisera's chariots broken at the Kishon",
+    sub: "Iron Age I · Mount Tabor & the Kishon River · the age of the judges, no king in Israel",
+    badges: ["Iron Age I", "The age of the Judges", "Canaanite chariot power broken", "≈3,175 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Twenty years under Jabin, king of Canaan at Hazor, and his chariot commander Sisera have worn Israel down. Deborah, a prophetess judging under a palm tree between Ramah and Bethel, summons Barak from Kedesh and relays the LORD's plan: muster ten thousand at Mount Tabor, and Sisera will be drawn to the Kishon and given into his hand. Barak will only go if Deborah goes with him — and she agrees, warning that the road he's taking will not end in his own glory, 'for the LORD will sell Sisera into the hand of a woman.' At Deborah's word Barak charges down from Tabor; the LORD throws Sisera's nine hundred iron chariots into a panic in the Kishon's mud, and his whole army falls by the sword until not a man is left. Sisera himself abandons his chariot and flees on foot to the tent of Jael, wife of Heber the Kenite — a household at peace with Jabin. She welcomes him, hides him under a rug, gives him milk instead of the water he asks for, and once he sleeps from exhaustion drives a tent peg through his temple with a hammer. When Barak arrives in pursuit, Jael meets him at the tent door: 'Come, and I will show you the man whom you seek.'",
+  focusPlace: "tabor",
+  places: [
+    { id:"harosheth-hagoyim", role:"Sisera's base — nine hundred iron chariots muster here before marching south (vv. 2-3, 13)" },
+    { id:"tabor",             role:"Barak's ten thousand gather at Deborah's command; the high ground he charges down from (vv. 6, 12, 14)" },
+    { id:"kishon",            role:"The river where the LORD throws Sisera's chariots into a panic and his army falls by the sword (vv. 7, 13-16)" },
+    { id:"hazor",             role:"Jabin's royal city, twenty years' oppressor of Israel — the power this campaign finally breaks (vv. 2-3, 23-24)" }
+  ],
+  journey: [
+    { from:"harosheth-hagoyim", to:"kishon", label:"Sisera's chariots march out", km:20,
+      note:"Word reaches Sisera that Barak has gone up to Tabor; he musters all nine hundred iron chariots and his whole army to the river Kishon to meet him (vv. 12-13)." },
+    { from:"tabor", to:"kishon", label:"Barak's charge down the mountain", km:20, dashed:true,
+      note:"'Up! For this is the day the LORD has given Sisera into your hand' — Barak goes down from Tabor with ten thousand men, and the LORD routs Sisera's chariots before him (vv. 14-15)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Deborah summons Barak", av:"woman",
+      desc:"Judging Israel 'under the palm of Deborah,' she sends for Barak of Kedesh-naphtali and relays the LORD's command: muster ten thousand at Tabor, and Sisera will be drawn to the Kishon and given into his hand (vv. 4-7)." },
+    { x:0.20, type:"object", label:"'The road will not lead to your glory'",
+      desc:"Barak agrees to go only if Deborah goes with him; she consents, but warns that the LORD 'will sell Sisera into the hand of a woman' — the honor of the kill will not be his (vv. 8-9)." },
+    { x:0.36, type:"person", label:"Barak charges down from Tabor", av:"warrior",
+      desc:"At Deborah's signal Barak descends from the mountain with ten thousand men against Sisera's nine hundred chariots — infantry against the ancient world's armored vehicle, on ground the LORD has chosen (vv. 14-15)." },
+    { x:0.52, type:"object", label:"The Kishon routs the chariots",
+      desc:"'The LORD routed Sisera and all his chariots and all his army before Barak' (v. 15). Deborah's Song later credits the river itself — 'the torrent Kishon swept them away' (5:21) — the valley's soft, flooded ground bogging down wheeled chariots exactly where they should have been unstoppable." },
+    { x:0.70, type:"person", label:"Sisera flees on foot to Jael's tent", av:"warrior",
+      desc:"His chariot useless, Sisera abandons it and runs — to the one tent in the region he has reason to think is safe, Heber the Kenite's, whose house was at peace with Jabin (vv. 15-17)." },
+    { x:0.90, type:"person", label:"Jael drives the tent peg", av:"woman",
+      desc:"Jael hides him under a rug, brings milk instead of the water he asks for, and once he sleeps from exhaustion 'took a tent peg, and took a hammer in her hand... and drove the peg into his temple' (vv. 18-21) — fulfilling Deborah's word to the letter." }
+  ],
+  environment: {
+    chips: ["Twenty years under a Canaanite chariot king", "Iron Age I hill-country vs. valley chariotry", "A flash-flooded riverbed", "A nomadic Kenite tent, not a fortress", "A tent peg and hammer — women's daily tools", "A nine-hundred-chariot army destroyed in one afternoon"],
+    text: "The Jezreel Valley's flat floor was ideal chariot country, which is exactly why Israel's outnumbered infantry needed Tabor's steep, forested slopes — good ground for a charge downhill, useless for wheeled vehicles trying to climb it. The Kishon drains the whole valley toward the Mediterranean and, though often a shallow trickle, turns to soft, sucking mud within hours of heavy rain; Deborah's Song (Judg 5:4, 20-21) reads the timing as no accident. Kenite clans like Heber's were metalworking nomads related to Moses' father-in-law (Judg 1:16; 4:11), moving between tribal territories under negotiated peace — which is precisely why Sisera trusted Jael's tent as safe ground, and precisely what makes her choice so shocking within her own culture's guest-protection norms."
+  },
+  objectsExtra: ["tent-peg","chariot"],
+  peopleExtra: ["deborah","barak","sisera","jael"],
+  culture: [
+    { title:"'Sold into the hand of a woman'", icon:"👩‍⚖️",
+      text:"Deborah's warning to Barak (v. 9) is fulfilled twice over — first in her own role leading Israel to the battlefield, then in Jael's hand delivering the killing blow. Judges frames both as the LORD's own doing, not incidental: the double irony underlines the book's recurring theme that Israel's deliverers come from unexpected, often marginal, places." },
+    { title:"Deborah's Song — Judges 5", icon:"🎵",
+      text:"Chapter 5 retells this same battle as one of the Hebrew Bible's oldest surviving poems, widely dated by scholars to close to the events themselves on linguistic grounds. It adds vivid details this prose account omits — 'the stars fought from heaven' (5:20), Sisera's mother watching anxiously at a window for a son who will never return (5:28-30) — turning victory into a full victory ode in the ancient Near Eastern tradition." },
+    { title:"Chariots undone by mud, not muscle", icon:"🌧️",
+      text:"Iron Age chariotry dominated open, dry valley floors and was famously helpless on wet or broken ground — the same tactical logic behind Joshua's earlier hamstringing of captured chariot horses (Josh 11:6, 9) and Israel's later avoidance of set-piece valley battles wherever possible. The Kishon's flood turns Sisera's greatest asset into the trap that destroys his entire army." }
+  ],
+  crossRefs: [
+    { group:"Deborah's Song retells the battle", refs:[
+      { r:"Judges 5:19-21", note:"'the torrent Kishon swept them away' — the poetic account of the rout" },
+      { r:"Judges 5:24-27", note:"Jael praised as 'most blessed of women' for the killing blow" } ]},
+    { group:"A woman's hand foretold", refs:[
+      { r:"Judges 4:9", note:"Deborah's warning to Barak, fulfilled at Jael's hand" },
+      { r:"1 Samuel 12:11", note:"Samuel later lists Barak among the LORD's appointed deliverers" } ]},
+    { group:"Remembered later in Scripture", refs:[
+      { r:"Hebrews 11:32", note:"Barak named among the faith-heroes of Israel's history" },
+      { r:"Psalm 83:9-10", note:"Asaph's prayer recalls Sisera and Jabin as the pattern of a defeated enemy" } ]}
+  ]
+},
+
+/* ============================================================
+   JUDGES 7 — Gideon's 300: trumpets, torches, and jars
+   ============================================================ */
+"7:7": {
+  era: {
+    title: "ca. 1150 BC (traditional) — Gideon's 300 rout the Midianite camp by night",
+    sub: "Iron Age I · spring of Harod & the hill of Moreh · east Jezreel Valley",
+    badges: ["Iron Age I", "The age of the Judges", "Midianite oppression broken", "≈3,175 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Gideon (Jerubbaal) and his army camp beside the spring of Harod, with the vast Midianite host — joined by Amalek and 'the people of the East,' 'like locusts in abundance' — spread across the valley by the hill of Moreh. The LORD says the army is too large: Israel might credit its own strength. Twenty-two thousand fearful men are sent home at a word; a water test at the spring — those who lap like a dog versus those who kneel to drink — narrows the rest to just three hundred. That night Gideon creeps down to the edge of the enemy camp and overhears a Midianite telling a dream: a loaf of barley bread tumbling into camp, striking a tent so hard it collapses — interpreted at once as 'the sword of Gideon,' God's gift of the whole camp into his hand. Encouraged, Gideon divides the three hundred into three companies, arms each man with a trumpet and a torch hidden inside an empty jar, and at the start of the middle watch has them surround the camp, smash the jars, wave the torches, and shout 'A sword for the LORD and for Gideon!' The sudden noise and light in the dark sends the whole Midianite camp into a self-destroying panic, swords turned on their own comrades as they flee; Ephraimite reinforcements seize the Jordan's fords ahead of them and capture two Midianite princes, Oreb and Zeeb, whose heads are brought to Gideon.",
+  focusPlace: "jezreel-spring",
+  places: [
+    { id:"jezreel-spring", role:"Israel's muster point — the water test here narrows 32,000 down to 300 (vv. 1-7)" },
+    { id:"moreh",          role:"The Midianite camp lies 'north of them... by the hill of Moreh, in the valley' (v. 1)" },
+    { id:"midian",         role:"Homeland of the raiding confederation encamped in the valley for the seventh year running (v. 12; 6:1-6)" }
+  ],
+  journey: [
+    { from:"midian", to:"moreh", dashed:true, label:"The raiders' camp, seven years running", km:460,
+      note:"Not one march but a pattern: for seven straight harvests Midian, Amalek, and 'the people of the East' have swept in from the desert to strip Israel's fields bare, camping 'like locusts' across the valley floor (6:1-6, 33; 7:12)." },
+    { from:"jezreel-spring", to:"moreh", label:"The night raid", km:8,
+      note:"Gideon's three hundred surround the camp at the start of the middle watch, just after the changing of the guard, and spring the ambush together (vv. 19-22)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"The water test at the spring", av:"warrior",
+      desc:"Still too many, the LORD says. At the spring of Harod, those who lap water from cupped hands like a dog are kept; those who kneel down to drink are sent home. Only three hundred men lap (vv. 4-7)." },
+    { x:0.22, type:"object", label:"A barley loaf tumbles a tent",
+      desc:"Slipping down to the camp's edge, Gideon overhears a Midianite recounting a dream — a round loaf of barley bread rolling into camp and flattening a tent — and his comrade's instant interpretation: 'This is no other than the sword of Gideon... God has given into his hand Midian and all the host' (vv. 13-14)." },
+    { x:0.38, type:"person", label:"Three companies, three hundred men", av:"warrior",
+      desc:"Encouraged, Gideon worships, returns to camp, and divides the three hundred into three companies, putting a trumpet in every man's right hand and an empty jar with a torch hidden inside in his left (vv. 15-16)." },
+    { x:0.55, type:"object", label:"Trumpets, jars, and torches",
+      desc:"At the beginning of the middle watch, all three companies blow their trumpets at once and smash their jars — three hundred sudden points of fire and noise around a camp that has no idea how few men are actually attacking (vv. 19-20)." },
+    { x:0.72, type:"object", label:"'A sword for the LORD and for Gideon!'",
+      desc:"Each man stands still in his own place around the perimeter; the whole Midianite camp runs, cries out, and flees, the LORD setting 'every man's sword against his comrade' throughout the panicked camp in the dark (vv. 20-22)." },
+    { x:0.90, type:"person", label:"Oreb and Zeeb caught at the Jordan", av:"warrior",
+      desc:"Summoned by Gideon's messengers, men of Ephraim seize the water crossings at Beth-barah and the Jordan ahead of the fleeing Midianites, capturing and killing two of their princes, Oreb and Zeeb, and carrying their heads to Gideon across the river (vv. 24-25)." }
+  ],
+  environment: {
+    chips: ["A test at the spring, not the battlefield", "A dream overheard in enemy territory", "300 men against a camp 'like locusts'", "Trumpets in the right hand, torches hidden in jars", "The middle-of-the-night changing of the guard", "Panic that turns a camp against itself"],
+    text: "The spring of Harod ('En Ḥarod) at Gilboa's foot supplies enough clear water for a large army to camp and drink from directly, which is what makes the water test practical rather than symbolic — a real behavioral difference (cupped-hand lapping versus kneeling) visible at the water's edge. Camel-riding raiders like the Midianite coalition typically struck after harvest and withdrew before a counterattack could be organized, which is why a night ambush — rather than a set-piece daylight battle — suited Gideon's tiny force so well: three hundred scattered points of noise and torchlight in total darkness could pass, for a few critical minutes, as a vastly larger army surrounding the camp on every side."
+  },
+  objectsExtra: ["trumpet","torch-jar"],
+  peopleExtra: ["gideon","midianites"],
+  culture: [
+    { title:"Down to 300: strength deliberately hidden", icon:"🏺",
+      text:"The LORD's stated reason for shrinking Gideon's army — 'lest Israel boast over me, saying, My own hand has saved me' (v. 2) — makes the entire episode a case study in the book's larger argument: every judge's power is borrowed, and the size of the enemy or the smallness of the deliverer is the point being made, not an obstacle to it." },
+    { title:"Trumpets, jars, and torches as psychological warfare", icon:"🔥",
+      text:"Three hundred men spread around a camp's perimeter, each simulating the noise and light of a much larger unit, is a documented ancient tactic for maximizing apparent numbers in the dark — the same instinct behind Jericho's trumpet-and-shout strategy (Josh 6) and, centuries later, Jehoshaphat's singers sent ahead of Judah's army against Moab and Ammon (2 Chron 20:20-22)." },
+    { title:"'For the LORD and for Gideon'", icon:"⚔️",
+      text:"The full battle cry (v. 20) credits God first and Gideon second — a balance the rest of Gideon's story will not always keep; his later ephod at Ophrah 'became a snare' to Israel (8:27), and his son Abimelech's bloody bid for kingship (ch. 9) shows how quickly a deliverer's household can trade that order for the opposite one." }
+  ],
+  crossRefs: [
+    { group:"The same trumpet tactic, other battles", refs:[
+      { r:"Joshua 6:20", note:"Jericho's walls fall to trumpets and a shout" },
+      { r:"2 Chronicles 20:20-22", note:"Jehoshaphat's singers sent ahead rout Moab and Ammon" } ]},
+    { group:"Gideon's name and legacy", refs:[
+      { r:"Judges 6:32", note:"Gideon is renamed Jerubbaal after tearing down his father's Baal altar" },
+      { r:"Hebrews 11:32", note:"Gideon listed among the faith-heroes of Israel's history" } ]},
+    { group:"The 'day of Midian' remembered", refs:[
+      { r:"Psalm 83:9-12", note:"a prayer asking God to repeat this defeat — 'as to Midian... as to Oreb and Zeeb'" },
+      { r:"Isaiah 9:4", note:"a future deliverance likened to 'the day of Midian' as the byword for total, sudden reversal" } ]}
+  ]
+},
+
+/* ============================================================
+   JUDGES 16 — Samson, Delilah, and the fall of Dagon's temple
+   ============================================================ */
+"7:16": {
+  era: {
+    title: "ca. 1075 BC (traditional) — Samson's last riddle and the temple of Dagon",
+    sub: "Iron Age I · Valley of Sorek & Gaza · Philistine-controlled coastal plain",
+    badges: ["Iron Age I", "The age of the Judges", "Philistine wars begin", "≈3,100 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Samson's last chapter opens at Gaza, where Philistine men wait all night at the city gate to kill him at dawn; at midnight he simply tears the gate and its posts free and carries them to a hilltop facing Hebron. Afterward he loves a woman in the Valley of Sorek, Delilah, and the Philistine lords bribe her — 1,100 pieces of silver each — to learn the secret of his strength. Three times he lies to her: bind me with fresh bowstrings, with new ropes, weave my hair into your loom's web — and three times ambushers hiding in the room fail as he snaps free the instant she cries 'the Philistines are upon you.' Worn down by her daily pressing until his soul is 'vexed to death,' he finally tells the truth: no razor has ever touched his head, for he has been a Nazirite to God from his mother's womb; cut it, and his strength would leave him. Lulled asleep in her lap, his seven locks are shaved off, and he wakes not knowing 'the LORD had left him.' The Philistines seize him, gouge out his eyes, and bring him down to Gaza in bronze shackles to grind grain in the prison — while, unnoticed, his hair begins to grow back. Gathering to sacrifice to Dagon and celebrate their captive, the Philistine lords have the blind Samson brought out to entertain them, stood between the temple's two central pillars. Praying once more for strength 'only this once,' Samson braces an arm against each pillar and pushes: 'Let me die with the Philistines,' he says, and the roof falls on the lords and the crowd above — killing more in his death than in all his life.",
+  focusPlace: "gaza",
+  places: [
+    { id:"sorek", role:"Where Samson loves Delilah, and where the Philistine lords come to bribe her (vv. 4-5)" },
+    { id:"gaza",  role:"Opens the chapter (the gates carried off) and closes it (the prison, the temple, his death) (vv. 1-3, 21-30)" },
+    { id:"hebron",role:"The hill 'in front of' which Samson sets Gaza's stolen gates down — a display of strength before Delilah ever appears (v. 3)" }
+  ],
+  journey: [
+    { from:"gaza", to:"hebron", dashed:true, label:"Gates carried off in the night", km:60,
+      note:"Ambushed at the city gate, Samson tears the doors, posts, and bar free at midnight and shoulders them to a hilltop facing Hebron, roughly forty miles inland — a feat of strength that opens the chapter before Delilah's name is even mentioned (v. 3)." },
+    { from:"sorek", to:"gaza", dashed:true, label:"Blind and bound, led south to prison", km:55,
+      note:"After his hair is shaved and his strength leaves him, the Philistines gouge out his eyes and bring him down from the valley to Gaza in bronze shackles, where he grinds grain in the prison house (v. 21)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Gaza's gates carried to a hilltop", av:"warrior",
+      desc:"Philistine men wait quietly at the city gate all night, sure they'll kill him 'when the light of morning' comes; Samson rises at midnight instead, tears the gate, posts, and bar out of the ground, and carries them off to the hill facing Hebron (vv. 1-3)." },
+    { x:0.20, type:"person", label:"Delilah presses for the secret", av:"woman",
+      desc:"Bribed by the Philistine lords at 1,100 silver pieces apiece, Delilah asks Samson directly wherein his great strength lies and how he might be bound and subdued (vv. 4-6)." },
+    { x:0.36, type:"object", label:"Three false answers, three failed ambushes",
+      desc:"Fresh bowstrings, new ropes, his hair woven into the loom — each time Delilah binds him exactly as told, ambushers wait hidden in the next room, and each time Samson snaps free the instant she cries the alarm, the real secret still untouched (vv. 7-14)." },
+    { x:0.54, type:"object", label:"'His strength left him'",
+      desc:"Worn down by daily pleading until his 'soul was vexed to death,' Samson finally tells the truth: he has been a Nazirite from the womb, no razor has touched his head, and if it is shaved his strength will leave him. Delilah lulls him to sleep on her knees and has a man shave his seven locks (vv. 15-19)." },
+    { x:0.72, type:"person", label:"Blinded and grinding grain at Gaza", av:"warrior",
+      desc:"Not knowing the LORD has left him, Samson wakes thinking he can shake himself free as before; the Philistines seize him, put out his eyes, and set him to grinding at the mill in Gaza's prison, bound in bronze shackles (vv. 20-21)." },
+    { x:0.92, type:"person", label:"'Let me die with the Philistines'", av:"warrior",
+      desc:"Brought out to entertain the lords' sacrifice-feast to Dagon, his hair quietly grown back, Samson asks the boy leading him to let him feel the temple's two central pillars, prays once more for strength, and pushes — bringing the whole roof down on the assembled lords and worshipers (vv. 23-30)." }
+  ],
+  environment: {
+    chips: ["A Nazirite vow kept in secret for twenty years", "Silver enough to buy a betrayal — 1,100 pieces × five lords", "Three lies, three failed ambushes", "A razor undoing what no chains could", "Bronze shackles and a grinding mill at Gaza", "Two central pillars, thousands watching from the roof"],
+    text: "Philistine temples excavated at sites like Tell Qasile show a distinctive plan: a roof supported on two central wooden pillars set on stone bases close enough together for one strong man to brace an arm against each — architecture that makes the story's climax structurally plausible rather than merely dramatic license. Bronze fetters and hand-mill grinding were standard treatment for captured enemy labor across the ancient Near East, a routine and deliberately humiliating fate for a man whose earlier feats had made him legendary. The Nazirite vow itself (Num 6:1-21; Judg 13:5, 7) required abstaining from wine, avoiding corpse contact, and never cutting the hair — Samson had already broken the first two repeatedly; his hair, the one visible sign left, was never the actual source of his strength, only the last outward mark of a vow he had otherwise been careless with his whole life."
+  },
+  objectsExtra: ["delilah-tests","razor","temple-pillars"],
+  peopleExtra: ["samson","delilah","philistine-lords"],
+  culture: [
+    { title:"The Nazirite vow, broken and unmade", icon:"🪒",
+      text:"An angel announces before Samson's birth that he will be 'a Nazirite to God from the womb' (Judg 13:5, 7) — a lifelong version of the temporary vow Numbers 6 otherwise describes. His strength was never magic residing in hair itself but the visible sign of a set-apart relationship to God; losing the sign after a lifetime of quietly ignoring the rest of the vow is less a plot twist than the story's whole argument catching up with him." },
+    { title:"Twin-pillar temples — the architecture behind the story", icon:"🏛️",
+      text:"Excavated Philistine temples (notably at Tell Qasile, north of modern Tel Aviv) show exactly the kind of two-pillar roof-support arrangement the chapter assumes, standing close enough together that a man could reach both at once — a striking match between a centuries-later archaeological find and a narrative detail scholars once treated as merely symbolic." },
+    { title:"More in his death than his life", icon:"⚰️",
+      text:"The narrator's own closing verdict — 'the dead whom he killed at his death were more than those whom he had killed during his life' (16:30) — sums up a judge whose story is one long string of personal failures used anyway, climaxing in a self-sacrificing final act. The New Testament still lists him, without qualification, among the faithful (Heb 11:32)." }
+  ],
+  crossRefs: [
+    { group:"The vow that began this story", refs:[
+      { r:"Judges 13:3-5", note:"the angel's promise: a Nazirite from the womb, deliverer 'from the hand of the Philistines'" },
+      { r:"Numbers 6:1-5", note:"the general Nazirite law — no wine, no razor, no corpse contact" } ]},
+    { group:"The pattern begins earlier", refs:[
+      { r:"Judges 14:1-3", note:"Samson's first entanglement with a Philistine woman, over his parents' objection" },
+      { r:"Judges 15:20", note:"'he judged Israel... twenty years' — the summary this chapter's ending echoes (16:31)" } ]},
+    { group:"Samson's final act, weighed", refs:[
+      { r:"Judges 16:30", note:"the narrator's own verdict on the temple's collapse" },
+      { r:"Hebrews 11:32", note:"Samson still named among the faith-heroes despite his failures" } ]}
+  ]
 }
 
 

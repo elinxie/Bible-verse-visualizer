@@ -663,7 +663,22 @@ BVV.PLACES = [
   { id:"gilead-heights", name:"Hill country of Gilead", al:["Gilead","Mount Gilead","Galeed","Jegar-sahadutha"], modern:"Ajlun highlands, Jordan", lat:32.330, lon:35.750, type:"region",
     blurb:"Highlands east of the Jordan where Laban overtook fleeing Jacob and the two struck their parting covenant (Gen 31:21-25, 44-49).",
     ancient:"A rugged, well-watered ridge of hills east of the Jordan, grazing country between Aram and Canaan.",
-    scene:{ terrain:"hills", settlement:"none", water:"spring", veg:"mixed" } }
+    scene:{ terrain:"hills", settlement:"none", water:"spring", veg:"mixed" } },
+  { id:"kishon", name:"Kishon River", al:["Kishon","river Kishon","waters of Megiddo"], modern:"Nahal Kishon, Israel", lat:32.590, lon:35.170, type:"river",
+    blurb:"The Jezreel Valley's drainage river, flash-flood prone; swept away Sisera's mired chariots (Judg 4:7, 13; 5:21) and later ran with the blood of Baal's prophets under Elijah (1 Kgs 18:40).",
+    meaning:"Hebrew 'Qishon' — 'winding' or 'tortuous' (from a root meaning to bend)",
+    ancient:"A shallow, sluggish streambed most of the year, but a sudden killer in the winter rains — its soft alluvial banks bog down wheeled chariots exactly where Deborah's song says the stars fought against Sisera (Judg 5:20-21).",
+    scene:{ terrain:"valley", settlement:"none", water:"river", veg:"mixed" } },
+  { id:"harosheth-hagoyim", name:"Harosheth-hagoyim", al:["Harosheth","Harosheth of the Gentiles","Harosheth-hagoyim"], modern:"likely Tell 'Amr / el-Harbaj, NW Jezreel Valley, Israel", lat:32.750, lon:35.130, type:"town",
+    blurb:"Sisera's home base, where he mustered his nine hundred iron chariots before marching them into the Jezreel Valley to meet Barak (Judg 4:2, 13, 16).",
+    meaning:"Hebrew 'Ḥaroshet ha-Goyim' — 'smithy/craftsmen of the nations,' likely a mixed-population garrison and metalworking town",
+    ancient:"A fortified Canaanite outpost at the Kishon's exit toward the coastal plain, positioned to funnel chariotry down into the valley — a garrison town, not a royal capital like Jabin's Hazor.",
+    scene:{ terrain:"hills", settlement:"village", water:"river", veg:"mixed" } },
+  { id:"sorek", name:"Valley of Sorek", al:["Sorek","valley of Sorek"], modern:"Nahal Sorek / Wadi es-Sarar, Israel", lat:31.783, lon:34.943, type:"valley",
+    blurb:"Border valley between Judah's hill country and Philistine territory where Samson loved Delilah, and where the Philistine lords bribed her to learn the secret of his strength (Judg 16:4-5).",
+    meaning:"Hebrew 'Sorek' — 'choice vine' (the valley was noted vineyard country)",
+    ancient:"A gently sloping wine-growing valley straddling the Israelite-Philistine frontier, its mixed population and open access from the coast making it a natural crossing-point for both trade and trouble.",
+    scene:{ terrain:"valley", settlement:"village", water:"river", veg:"mixed" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };
