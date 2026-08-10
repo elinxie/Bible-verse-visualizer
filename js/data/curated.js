@@ -6225,7 +6225,248 @@ BVV.CURATED = {
       { r:"Judges 16:30", note:"the narrator's own verdict on the temple's collapse" },
       { r:"Hebrews 11:32", note:"Samson still named among the faith-heroes despite his failures" } ]}
   ]
-}
+},
 
+/* ============================================================
+   RUTH 1 — famine, flight to Moab, and Ruth's vow of loyalty
+   ============================================================ */
+"8:1": {
+  era: {
+    title: "ca. 1100 BC (traditional) — famine, flight to Moab, and Ruth's vow of loyalty",
+    sub: "Iron Age I · Bethlehem to the plains of Moab · the days when the judges ruled",
+    badges: ["Iron Age I", "The age of the Judges", "Famine and migration", "≈3,125 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "A famine drives Elimelech of Bethlehem, his wife Naomi, and their sons Mahlon and Chilion to sojourn in Moab, where the sons marry Moabite women, Orpah and Ruth. Within about ten years Elimelech, Mahlon, and Chilion all die, leaving three widows. Hearing the famine has lifted, Naomi sets out for home and urges her daughters-in-law back to their own people; Orpah, weeping, kisses her goodbye and turns back, but Ruth clings to her and answers with one of Scripture's great vows of loyalty: 'Where you go I will go, and where you lodge I will lodge. Your people shall be my people, and your God my God... where you die I will die, and there will I be buried' (1:16-17). The two women arrive together in Bethlehem just as the barley harvest is beginning, and Naomi tells the astonished townswomen to call her Mara — 'bitter' — for the LORD has dealt bitterly with her.",
+  focusPlace: "moab-plains",
+  places: [
+    { id:"bethlehem", role:"Elimelech's home, left behind in famine (v. 1) and the widows' destination (vv. 19-22)" },
+    { id:"moab-plains", role:"Where the family sojourns roughly ten years — Elimelech, Mahlon and Chilion all die here (vv. 1-5)" }
+  ],
+  journey: [
+    { from:"bethlehem", to:"moab-plains", label:"Fleeing famine", km:80, dashed:true,
+      note:"Elimelech's family leaves Bethlehem — 'the house of bread,' ironically empty — for the plateau of Moab, roughly 80 km southeast across the Jordan and the Dead Sea rift; the plains-of-Moab marker approximates the wider Moabite region where they settle (v. 1)." },
+    { from:"moab-plains", to:"bethlehem", label:"Naomi and Ruth return", km:80,
+      note:"Naomi, now with only Ruth, walks the same road home, arriving 'at the beginning of barley harvest' — late spring — with nothing but each other (vv. 6-7, 19, 22)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Elimelech leads the family to Moab", av:"elder",
+      desc:"Famine in Bethlehem sends Elimelech, Naomi, and their two sons to sojourn across the Jordan in Moab — a people Israel's law kept at arm's length (v. 1; cf. Deut 23:3-6)." },
+    { x:0.24, type:"person", label:"Marriages, then three deaths", av:"elder",
+      desc:"Mahlon and Chilion marry Moabite women, Orpah and Ruth; about ten years on, Elimelech and both sons are dead, leaving Naomi and her two daughters-in-law widowed and childless (vv. 3-5)." },
+    { x:0.46, type:"person", label:"Orpah turns back", av:"woman",
+      desc:"Naomi urges both women to return to their mothers' houses and find new husbands among their own people. Orpah weeps, kisses Naomi goodbye, and goes back — a choice the text lets stand without judgment (vv. 8-14)." },
+    { x:0.62, type:"person", label:"\"Your people shall be my people\"", av:"woman",
+      desc:"Ruth refuses to leave: 'Entreat me not to leave you... for where you go I will go, and where you lodge I will lodge. Your people shall be my people, and your God my God' (vv. 16-17) — an oath sealed 'till death parts us.'" },
+    { x:0.80, type:"person", label:"\"Call me Mara\"", av:"woman",
+      desc:"Arriving in Bethlehem, the whole town stirs at the sight of them; Naomi tells the women to call her Mara, 'bitter,' for she 'went away full, and the LORD has brought me back empty' (vv. 19-21)." },
+    { x:0.94, type:"object", label:"Barley harvest begins",
+      desc:"The chapter's last line quietly turns toward hope: they arrive 'at the beginning of barley harvest' (v. 22) — the season that will put Ruth in Boaz's field within days." }
+  ],
+  environment: {
+    chips: ["A famine severe enough to empty 'the house of bread'", "A decade in Moabite territory", "Three widows, no surviving sons", "An oath sealed on the open road", "Arrival timed to the barley harvest"],
+    text: "Moab's high, well-watered plateau east of the Dead Sea rift often kept grain when Judah's hill country failed — exactly the kind of short-term refuge Genesis (12:10; 26:1) describes Israelites seeking abroad in famine years. Israel's law nonetheless barred Moabites from the assembly 'to the tenth generation' (Deut 23:3-6) over old hostility (Num 22-25) — the backdrop that makes Ruth's oath, and Bethlehem's later welcome of her, pointedly countercultural rather than incidental."
+  },
+  objectsExtra: ["sheaf"],
+  peopleExtra: ["elimelech","naomi","mahlon","chilion","orpah","ruth"],
+  culture: [
+    { title:"Famine and cross-border refuge", icon:"🌾",
+      text:"Sojourning abroad during famine is a recurring patriarchal pattern (Abraham to Egypt, Gen 12:10; Isaac to Gerar, 26:1; Jacob's sons to Egypt, 42:1-2) — a normal ancient Near Eastern survival strategy, not a unique lapse of faith, though later readers have debated whether Elimelech's move showed weak trust." },
+    { title:"An oath in covenant language", icon:"🤝",
+      text:"Ruth's vow ('where you go... your God my God... thus may the LORD do to me') uses the formal structure of ancient Near Eastern loyalty oaths and treaty curses — the same pattern behind covenant-cutting language elsewhere in Scripture (e.g. 1 Sam 20:13, Jonathan to David). It is a legal-sounding bond, not just sentiment." },
+    { title:"Moab's uneasy place in Israel's story", icon:"⚔️",
+      text:"Moab descends from Lot (Gen 19:36-37) and later lured Israel into Baal-Peor's idolatry (Num 25:1-3), earning the assembly-exclusion law of Deut 23:3-6. A Moabite widow's total loyalty to Israel's God, and her eventual place in David's own ancestry, reads as one of the Old Testament's sharpest reversals of that old hostility." }
+  ],
+  crossRefs: [
+    { group:"Moab's place in Israel's story", refs:[
+      { r:"Genesis 19:36-37", note:"Moab's origin, born of Lot" },
+      { r:"Numbers 25:1-3", note:"Baal of Peor — Moab's seduction of Israel into idolatry" },
+      { r:"Deuteronomy 23:3-6", note:"the law excluding Moabites from Israel's assembly" } ]},
+    { group:"Ruth's loyalty echoed elsewhere", refs:[
+      { r:"1 Samuel 18:1, 3", note:"Jonathan's soul knit to David's — a parallel covenant of loyalty" },
+      { r:"Proverbs 17:17", note:"'a friend loves at all times'" },
+      { r:"Matthew 1:5", note:"Ruth named in Jesus' genealogy — the loyalty that led to David's line" } ]}
+  ]
+},
+
+/* ============================================================
+   RUTH 2 — Ruth gleans in the field of Boaz
+   ============================================================ */
+"8:2": {
+  era: {
+    title: "ca. 1100 BC (traditional) — Ruth gleans in the field of Boaz",
+    sub: "Iron Age I · Bethlehem's barley fields · early harvest days",
+    badges: ["Iron Age I", "The age of the Judges", "Barley harvest", "≈3,125 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Ruth asks Naomi's permission to glean — gathering the stalks reapers leave behind, provision the law set aside for the poor and the foreign widow (Lev 19:9-10) — and 'as it happened' she comes to a field belonging to Boaz, a worthy man of Elimelech's clan. Boaz notices her, learns from his foreman who she is, and shows unusual favor: she may stay close behind his own young women, drink from the water jars, and glean even among the standing sheaves, while he orders the young men not to touch or reproach her and to deliberately pull grain from their own bundles for her to find. At the noon meal he hands her roasted grain himself. Ruth gleans until evening and beats out nearly an ephah of barley — an unusually large haul — which she carries home to Naomi along with the mealtime leftovers. Naomi recognizes the name at once: Boaz is a close relative, one of the family's kinsman-redeemers, and blesses the LORD who 'has not forsaken his kindness to the living and the dead.'",
+  focusPlace: "bethlehem",
+  places: [
+    { id:"bethlehem", role:"Boaz's barley fields just outside the town, where the whole chapter unfolds (vv. 1-23)" },
+    { id:"moab-plains", role:"Ruth's homeland — the identity Boaz's foreman reports the moment he notices her (v. 6)" }
+  ],
+  journey: [
+    { from:"moab-plains", to:"bethlehem", dashed:true, label:"\"She is the young Moabite woman\"", km:80,
+      note:"Ruth's Moabite origin travels with her into the field — the very first thing Boaz's foreman tells him about the stranger gleaning behind the reapers (v. 6)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"\"As it happened\" — Ruth's field", av:"woman",
+      desc:"Ruth asks to glean and 'her lot happened to fall' on a field belonging to Boaz, of Elimelech's clan — the story's quiet hinge, read by the narrator as unmistakable providence (vv. 2-3)." },
+    { x:0.22, type:"person", label:"Boaz greets his reapers", av:"elder",
+      desc:"Arriving from town, Boaz greets his workers, 'The LORD be with you!' and they answer, 'The LORD bless you' — then asks his foreman about the unfamiliar young woman (vv. 4-7)." },
+    { x:0.4, type:"object", label:"Boaz's instructions",
+      desc:"Boaz tells Ruth to stay in his field alone, keep close to his young women, drink freely from the water jars, and orders the young men not to touch or reproach her (vv. 8-9)." },
+    { x:0.56, type:"person", label:"Ruth falls on her face", av:"woman",
+      desc:"Ruth bows to the ground: 'Why have I found favor in your eyes, that you should take notice of me, since I am a foreigner?' Boaz answers that her loyalty to Naomi has already reached him (vv. 10-12)." },
+    { x:0.72, type:"object", label:"The noon meal, and deliberate generosity",
+      desc:"At mealtime Boaz hands her roasted grain himself; afterward he quietly tells his men to let her glean even among the standing sheaves and to pull stalks from their own bundles and leave them for her (vv. 14-16)." },
+    { x:0.92, type:"object", label:"An ephah of barley, and a name Naomi knows",
+      desc:"Ruth beats out almost an ephah — an unusually generous day's gleaning — and carries it home. Naomi recognizes Boaz's name at once: he is one of the family's redeemers (vv. 17-20)." }
+  ],
+  environment: {
+    chips: ["Gleaning: welfare law worked in the furrows", "A foreman's report travels fast", "Deliberate, hidden generosity", "A noon meal shared across social lines", "Nearly an ephah — a day's gleaning far above normal"],
+    text: "Israelite harvest law required leaving field edges and any dropped grain for the poor, the widow, and the sojourner (Lev 19:9-10; 23:22; Deut 24:19-21) — Ruth, a poor Moabite widow, is exactly the law's stated target. Boaz's extra steps go well beyond the minimum the law required, foreshadowing the fuller kindness (hesed) that will carry into chapters 3-4."
+  },
+  objectsExtra: ["sheaf","ephah-barley"],
+  peopleExtra: ["ruth","boaz","naomi"],
+  culture: [
+    { title:"Gleaning: welfare law in the furrows", icon:"🌾",
+      text:"Israelite law forbade a second pass over the harvested field and required leaving its edges and corners unharvested, reserved by name for 'the poor and the sojourner' (Lev 19:9-10; 23:22; Deut 24:19-21) — an early, structural form of social provision built directly into the agricultural calendar rather than charity after the fact." },
+    { title:"The go'el — kinsman-redeemer", icon:"👨‍⚖️",
+      text:"Israelite law empowered a near relative (go'el) to redeem family land sold in hardship, buy back a relative from debt-slavery, or avenge blood (Lev 25:25-55). Naomi's excited identification of Boaz's name sets up the legal path the rest of the book will follow." },
+    { title:"'As it happened' — providence in ordinary events", icon:"🎲",
+      text:"The Hebrew miqreh ('chance,' v. 3) is the narrator's only comment on how Ruth ended up in exactly the right field. Ruth never records a vision or an angelic word; an apparently ordinary coincidence carries the weight of divine providence throughout the whole book." }
+  ],
+  crossRefs: [
+    { group:"Gleaning law behind the scene", refs:[
+      { r:"Leviticus 19:9-10", note:"leave the edges and gleanings for the poor and sojourner" },
+      { r:"Leviticus 23:22", note:"the same gleaning law repeated at the Feast of Weeks" },
+      { r:"Deuteronomy 24:19-21", note:"forgotten sheaves left for the sojourner, fatherless, and widow" } ]},
+    { group:"The redeemer theme begins", refs:[
+      { r:"Leviticus 25:25-28", note:"the law of land redemption by a near kinsman" },
+      { r:"Deuteronomy 25:5-10", note:"the levirate-marriage law behind what Boaz will later do" },
+      { r:"Ruth 4:1-12", note:"the plan Naomi's discovery of Boaz's name sets in motion" } ]}
+  ]
+},
+
+/* ============================================================
+   RUTH 3 — Ruth at the threshing floor
+   ============================================================ */
+"8:3": {
+  era: {
+    title: "ca. 1100 BC (traditional) — Ruth at the threshing floor",
+    sub: "Iron Age I · the threshing floor outside Bethlehem · harvest's end, night",
+    badges: ["Iron Age I", "The age of the Judges", "Harvest's end", "≈3,125 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "With harvest ending, Naomi lays out a plan to secure Ruth's future: wash, anoint yourself, dress well, and go down to the threshing floor after dark, where Boaz will be winnowing barley and sleeping by the grain heap to guard it. Ruth is to note where he lies down, uncover his feet, and lie down there herself — and wait. She does exactly as instructed. At midnight Boaz wakes, startled to find a woman at his feet; Ruth answers, 'I am Ruth, your servant. Spread your garment over your servant, for you are a redeemer' — asking him, by an old legal-marital idiom, to take her under his protection as next of kin. Boaz blesses her for this second kindness, greater than the first, since she did not go after younger men, and agrees in principle — but tells her, for the first time in the story, that a nearer redeemer than himself exists, who has first right of refusal. He has her stay till morning, then sends her home before dawn — careful of her reputation — with six measures of barley as a pledge that he will settle the matter that very day.",
+  focusPlace: "bethlehem",
+  places: [
+    { id:"bethlehem", role:"The threshing floor outside town where the whole night's exchange happens (vv. 2-15)" },
+    { id:"moab-plains", role:"Ruth's homeland, still marking her as an outsider risking everything on this night (cf. 2:10-11)" }
+  ],
+  journey: [
+    { from:"moab-plains", to:"bethlehem", dashed:true, label:"A Moabite widow risks her reputation", km:80,
+      note:"Ruth's foreignness is never far from view even here — a Moabite woman making a bold, culturally loaded appeal to an Israelite landowner in the dark (v. 11 still calls her 'a worthy woman' despite it)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Naomi's plan", av:"woman",
+      desc:"Naomi tells Ruth exactly how to prepare and approach Boaz at the threshing floor that night — wash, anoint, dress, and wait until he has finished eating and drinking and lain down (vv. 1-4)." },
+    { x:0.24, type:"person", label:"Boaz beds down by the grain heap", av:"elder",
+      desc:"His heart 'merry' after the harvest meal, Boaz lies down at the end of the pile of grain — guarding it overnight from theft, as was customary at threshing time (v. 7)." },
+    { x:0.42, type:"person", label:"Ruth uncovers his feet", av:"woman",
+      desc:"Ruth comes quietly, uncovers his feet, and lies down — following Naomi's instructions to the letter, then waiting in silence for Boaz himself to act (vv. 6-7)." },
+    { x:0.58, type:"object", label:"\"Spread your garment over your servant\"",
+      desc:"Startled awake at midnight, Boaz asks who is there; Ruth identifies herself and makes her request directly, using an idiom of protection and marriage-covenant: 'you are a redeemer' (v. 9)." },
+    { x:0.74, type:"person", label:"Boaz's blessing, and a complication", av:"elder",
+      desc:"Boaz praises this 'kindness better than the first' and agrees to act — but reveals a nearer redeemer exists with the first legal claim, whom he must approach before he can (vv. 10-13)." },
+    { x:0.92, type:"object", label:"Six measures of barley sent home",
+      desc:"Before dawn, careful that no one should know a woman came to the threshing floor, Boaz sends Ruth home with six measures of barley and a promise: the matter will be settled that same day (vv. 14-15, 18)." }
+  ],
+  environment: {
+    chips: ["A threshing floor guarded overnight", "A plan built on custom, not improvisation", "A midnight appeal, not a seduction", "Reputation guarded on both sides", "Barley sent home as a pledge, not a gift"],
+    text: "Guarding winnowed grain overnight against theft was standard harvest practice (cf. Gideon threshing in a winepress to hide grain, Judg 6:11); the threshing floor's privacy is also exactly why Naomi's plan is both practical and reputation-risky, and why Boaz moves so carefully — sending Ruth home before anyone could see her — to protect her name (v. 14)."
+  },
+  objectsExtra: ["garment-corner","threshing","ephah-barley"],
+  peopleExtra: ["naomi","ruth","boaz"],
+  culture: [
+    { title:"The threshing floor at night", icon:"🌙",
+      text:"Threshing floors sat on open, wind-exposed ground outside town, worked and then guarded through the harvest weeks; their privacy after dark made them a natural — if reputation-risky — setting for exactly the kind of quiet legal appeal Naomi's plan calls for." },
+    { title:"'Spread your garment/wings over me'", icon:"🧣",
+      text:"Kanaph ('wing,' or a garment's corner/edge) appears elsewhere for both literal robes and figurative divine protection (Ps 91:4; Ezek 16:8). Ruth deliberately echoes Boaz's own earlier blessing that she had come to take refuge 'under [the LORD's] wings' (2:12), asking him now to be the answer to his own prayer." },
+    { title:"Redeemer priority — why Boaz can't simply say yes", icon:"⚖️",
+      text:"Israelite law recognized an order of claim among relatives, nearest kin first (Lev 25:25). Boaz's integrity — refusing to bypass a nearer relative even though he clearly wants to act — is what drives the public legal scene that opens chapter 4." }
+  ],
+  crossRefs: [
+    { group:"The wing/garment motif", refs:[
+      { r:"Ruth 2:12", note:"Boaz's earlier blessing — refuge 'under his wings'" },
+      { r:"Ezekiel 16:8", note:"God 'spreads his garment' over Israel in covenant" },
+      { r:"Psalm 91:4", note:"'under his wings you will find refuge'" } ]},
+    { group:"The redeemer process, about to be tested", refs:[
+      { r:"Leviticus 25:25-28", note:"the law of land redemption by a near kinsman" },
+      { r:"Deuteronomy 25:5-10", note:"the levirate-marriage law behind Boaz's promise" },
+      { r:"Ruth 4:1-6", note:"the nearer redeemer's actual answer, next chapter" } ]}
+  ]
+},
+
+/* ============================================================
+   RUTH 4 — redemption at the gate, and a genealogy to David
+   ============================================================ */
+"8:4": {
+  era: {
+    title: "ca. 1100 BC (traditional) — redemption at the gate, and a genealogy to David",
+    sub: "Iron Age I · Bethlehem's city gate · a legal transaction and a wedding",
+    badges: ["Iron Age I", "The age of the Judges", "Founding of David's line", "≈3,125 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Boaz goes up to the city gate — Bethlehem's public square for legal business — and, spotting the nearer redeemer passing by, calls him to sit with ten of the town's elders as witnesses. He lays out the case: Naomi is selling Elimelech's land, and this man has first right to redeem it. The man agrees — until Boaz adds that redeeming the field also means marrying Ruth the Moabite to raise up an heir for the dead in his name. That would dilute the redeemer's own estate for his existing heirs, so he declines and transfers his right to Boaz by an old custom: pulling off his sandal and handing it over. Boaz then formally announces before the elders and all the people that he has bought all that belonged to Elimelech, Chilion, and Mahlon, and has acquired Ruth as his wife, to raise up the name of the dead on his inheritance. The witnesses bless the marriage, comparing Ruth to Rachel, Leah, and Tamar. Boaz and Ruth marry, and the LORD gives her conception; a son is born, whom the women of Bethlehem — praising Naomi, who nurses him as her own — name Obed. The book closes with a genealogy: Obed becomes the father of Jesse, the father of David — tracing the line from Perez, Judah's son by Tamar, through ten generations to Israel's future king.",
+  focusPlace: "bethlehem",
+  places: [
+    { id:"bethlehem", role:"The city gate, where the legal transfer, marriage, and Obed's birth all happen (vv. 1-17), and where the book's closing genealogy is attached (vv. 18-22)" },
+    { id:"moab-plains", role:"Ruth's homeland, named one final time in the transaction record — \"Ruth the Moabite\" (vv. 5, 10)" }
+  ],
+  journey: [
+    { from:"moab-plains", to:"bethlehem", dashed:true, label:"A Moabite becomes an ancestor of David", km:80,
+      note:"The book's whole arc is compressed into this last legal record: a widow from Moab, formally named at the gate, ends up four generations from Israel's greatest king (vv. 10, 18-22)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"Boaz waits at the gate", av:"elder",
+      desc:"Boaz goes up to the city gate — the customary place for legal and civic business — sits down, and waits for the nearer redeemer to pass by (v. 1)." },
+    { x:0.2, type:"person", label:"Ten elders seated as witnesses", av:"elder",
+      desc:"Boaz gathers ten of the town's elders to sit as formal witnesses before he says a word of business — every step of the transaction is made a matter of public record (v. 2)." },
+    { x:0.36, type:"person", label:"The nearer redeemer declines", av:"elder",
+      desc:"The nearer redeemer agrees to buy the land — until Boaz adds that it comes bundled with marrying Ruth to raise up the dead man's heir; unwilling to jeopardize his own estate, he passes his right to Boaz (vv. 3-6)." },
+    { x:0.52, type:"object", label:"The sandal is handed over",
+      desc:"By 'the manner formerly in Israel,' the redeemer pulls off his own sandal and gives it to Boaz to confirm the transfer — an old custom the narrator explains for readers who no longer knew it (vv. 7-8)." },
+    { x:0.68, type:"person", label:"Boaz redeems, and marries Ruth", av:"elder",
+      desc:"Before the elders and all the people, Boaz declares he has bought Elimelech's whole estate and taken Ruth as his wife; the witnesses bless the marriage, invoking Rachel, Leah, and Tamar (vv. 9-12)." },
+    { x:0.9, type:"person", label:"Obed is born — and the line to David", av:"youth",
+      desc:"A son is born; the women bless Naomi, who takes and nurses him, and name him Obed. The book's closing genealogy traces Perez to Jesse to David (vv. 13-17), naming his father Jesse of Bethlehem — see also 1 Samuel 16 (vv. 18-22)." }
+  ],
+  environment: {
+    chips: ["The gate as courtroom, not just entrance", "Ten elders as a formal quorum", "A sandal instead of a signature", "A public wedding blessing", "A ten-name genealogy closing the book"],
+    text: "Bethlehem's gate area served as the public square for contracts, witnesses, and disputes — the same kind of setting Abraham used to buy the cave of Machpelah 'in the hearing of all who went in at the gate' (Gen 23:10-18). Sealing the deal with a handed-over sandal, rather than a written deed, reflects a largely oral-legal culture where public witnesses, not paper, made a transaction binding."
+  },
+  objectsExtra: ["sandal"],
+  peopleExtra: ["boaz","ruth","naomi","obed","nearer-redeemer","david"],
+  culture: [
+    { title:"The city gate as courtroom", icon:"🏛️",
+      text:"Bethlehem's gate area served as the public square for contracts, witnesses, and disputes — the same setting Abraham used to buy Machpelah 'in the hearing of all who went in at the gate' (Gen 23:10-18). Ten elders as witnesses reflects the same public-record principle: no private handshake could settle an inheritance." },
+    { title:"The sandal-transfer custom", icon:"👡",
+      text:"The narrator explicitly calls this 'the custom in former times in Israel to confirm a transaction' (v. 7) — already an antiquated practice by the time Ruth was written down, distinct from (though related to) the shaming sandal-removal rite prescribed for a levirate refusal in Deut 25:9-10." },
+    { title:"A genealogy that changes everything", icon:"👑",
+      text:"Closing the book with ten names from Perez (born to Judah and Tamar in another levirate-adjacent story, Gen 38) down to David quietly reframes the whole preceding story — a famine, a foreign widow's loyalty, and one careful legal transaction turn out to be how God built the house of Israel's king, and, in Matthew's genealogy, of Jesus himself." }
+  ],
+  crossRefs: [
+    { group:"The redeemer's obligations, tested", refs:[
+      { r:"Leviticus 25:25-28", note:"the law of land redemption by a near kinsman" },
+      { r:"Deuteronomy 25:5-10", note:"the levirate-marriage law behind the sandal custom" },
+      { r:"Genesis 38:6-11", note:"Tamar and Judah's earlier levirate-marriage case" } ]},
+    { group:"Ruth's line to David and beyond", refs:[
+      { r:"1 Chronicles 2:10-15", note:"the same Perez-to-David genealogy repeated" },
+      { r:"1 Samuel 16:1", note:"'Jesse the Bethlehemite' — David's father, named here first" },
+      { r:"Matthew 1:5-6", note:"'Boaz the father of Obed... David the king' in Jesus' genealogy" } ]}
+  ]
+}
 
 };

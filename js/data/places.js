@@ -400,6 +400,7 @@ BVV.PLACES = [
     scene:{ terrain:"mountain", settlement:"none", water:"none", veg:"sparse" } },
   { id:"moab-plains", name:"Plains of Moab", al:["Moab"], modern:"S of the Jordan mouth, Jordan", lat:31.820, lon:35.620, type:"region",
     blurb:"Israel's last camp before Canaan; Ruth's homeland plateau lies south.",
+    meaning:"Hebrew 'Mo'av', of disputed origin; Gen 19:37's own wordplay reads it as 'from father' (me'av)",
     ancient:"Acacia groves (Shittim) and a vast tent-camp opposite Jericho.",
     scene:{ terrain:"plain", settlement:"camp", water:"river", veg:"sparse" } },
   { id:"mahanaim", name:"Mahanaim", al:["Mahanaim"], modern:"Tulul adh-Dhahab (candidate), Jordan", lat:32.190, lon:35.694, type:"town",
