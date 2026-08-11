@@ -6467,6 +6467,129 @@ BVV.CURATED = {
       { r:"1 Samuel 16:1", note:"'Jesse the Bethlehemite' — David's father, named here first" },
       { r:"Matthew 1:5-6", note:"'Boaz the father of Obed... David the king' in Jesus' genealogy" } ]}
   ]
+},
+
+/* ============================================================
+   1 KINGS 3 — Solomon's dream at Gibeon; the judgment of two mothers
+   ============================================================ */
+"11:3": {
+  era: {
+    title: "ca. 970 BC — Solomon's dream at Gibeon, and the judgment of two mothers",
+    sub: "Early Iron Age IIA · Gibeon's high place and Jerusalem's palace · the start of Solomon's reign",
+    badges: ["Iron Age IIA", "United monarchy (Solomon)", "Wisdom literature roots", "≈3,000 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Solomon secures his young throne with a marriage alliance to a daughter of Pharaoh, bringing her to the City of David until his own palace, the temple, and Jerusalem's wall are finished. The narrator notes that Israel still sacrifices at scattered hilltop \"high places,\" since no temple yet stands for the LORD's name. Solomon goes to Gibeon, the greatest of these, and offers a thousand burnt offerings on its altar. That night the LORD appears to him in a dream: \"Ask what I shall give you.\" Rather than long life, riches, or his enemies' lives, Solomon — calling himself \"but a little child\" facing an unmanageable task — asks for \"an understanding mind to govern your people, that I may discern between good and evil.\" Pleased that he asked for wisdom rather than wealth, God grants exactly that, and because he did not ask for them, adds riches and honor beyond any king of his day, with long life offered on the condition of continued obedience. Solomon wakes, returns to Jerusalem, sacrifices before the ark, and holds a feast for his court. The chapter closes with wisdom on display: two women living in one house both claim the same surviving baby after one child dies in the night. Unable to settle it by testimony, Solomon orders a sword to divide the living child in two, one half to each — a test, not a sentence. The true mother, her compassion overriding her claim, begs him to give the child to the other woman rather than kill it; the impostor, unmoved, says to divide it. Solomon awards the baby to the woman who begged for its life, and all Israel \"stood in awe of the king, because they perceived that the wisdom of God was in him to do justice.\"",
+  focusPlace: "gibeon",
+  places: [
+    { id:"gibeon", role:"The great high place where Solomon offers a thousand burnt offerings and receives the night dream (vv. 4-15)" },
+    { id:"jerusalem", role:"Solomon's capital — home to Pharaoh's daughter (v. 1), the ark before which he sacrifices on his return (v. 15), and the court where he judges the two women (vv. 16-28)" },
+    { id:"egypt", role:"Pharaoh's homeland — the marriage alliance that opens the chapter (v. 1)" }
+  ],
+  journey: [
+    { from:"egypt", to:"jerusalem", dashed:true, label:"Pharaoh's daughter comes north as Solomon's wife", km:480,
+      note:"A political marriage sealing peace with Egypt on Solomon's southern border — she lives in the City of David until his building projects are finished (v. 1; cf. 9:24)." },
+    { from:"jerusalem", to:"gibeon", label:"Solomon goes up to sacrifice at the great high place", km:9,
+      note:"A short trip north to Gibeon's ancient altar and tabernacle site, where Solomon offers a thousand burnt offerings before the dream that night (v. 4)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"Marriage alliance with Pharaoh's daughter", av:"king",
+      desc:"Solomon marries a daughter of Pharaoh and brings her to the City of David until his palace, the temple, and Jerusalem's wall are complete — a treaty sealed by marriage, common between ancient royal houses (v. 1)." },
+    { x:0.2, type:"object", label:"Worship still at the high places",
+      desc:"With no temple yet built, Solomon and the people still sacrifice at scattered hilltop shrines; the narrator adds that he \"loved the LORD,\" though he too sacrificed at the high places (vv. 2-3)." },
+    { x:0.38, type:"person", label:"A thousand burnt offerings at Gibeon", av:"king",
+      desc:"Solomon goes to Gibeon, \"the great high place,\" and offers a thousand burnt offerings on its altar — an extravagant, kingdom-opening act of devotion (v. 4)." },
+    { x:0.52, type:"person", label:"\"Ask what I shall give you\"", av:"king",
+      desc:"That night God appears in a dream; Solomon, calling himself \"but a little child,\" asks not for riches or his enemies' lives but for an understanding heart to discern good from evil in governing Israel (vv. 5-9)." },
+    { x:0.68, type:"object", label:"Wisdom, and riches unasked",
+      desc:"Pleased by the request, God grants unmatched wisdom and adds riches and honor no king would rival, with long life offered on condition of walking in God's ways (vv. 10-14)." },
+    { x:0.88, type:"person", label:"The living child and the sword", av:"king",
+      desc:"Two women dispute a single surviving baby; Solomon orders a sword to divide the child, then awards it to the one who begs to spare its life rather than see it killed — proof of the wisdom just granted (vv. 16-28)." }
+  ],
+  environment: {
+    chips: ["A political marriage sealing peace with Egypt", "Worship still scattered at hilltop altars", "A single night's sacrifice: a thousand offerings", "A dream that asks the asker what he wants", "A courtroom test, not a real sentence"],
+    text: "Before the temple, Israel's worship centered on regional high places; Gibeon's — with its ancient altar and, per 1 Chr 21:29, the wilderness tabernacle and bronze altar Moses had made — was simply the largest and most prestigious. A dream-encounter at a major shrine echoes the wider ancient Near Eastern practice of sleeping at a sanctuary to receive a god's word, though here God initiates it, not a summoned rite. The courtroom scene works because a true mother's love and a rival's indifference produce opposite reactions to the same shocking proposal — Solomon's test exposes character, not just claims."
+  },
+  objectsExtra: ["sword","altar"],
+  peopleExtra: ["solomon","pharaohs-daughter","two-mothers"],
+  culture: [
+    { title:"High places before the temple", icon:"🛕",
+      text:"Until Solomon's temple centralized worship, sacrifice at regional hilltop shrines was normal practice, even for the faithful — later reforming kings (Hezekiah, Josiah) would treat the same high places as a problem to be torn down (2 Kgs 18:4; 23:8), but in Solomon's day the temple simply did not exist yet." },
+    { title:"Royal marriage alliances", icon:"💍",
+      text:"Marrying into a neighboring royal house was standard ancient Near Eastern diplomacy, sealing peace without a treaty tablet. This same pattern, multiplied many times over with wives from Moab, Ammon, Edom, Sidon and among the Hittites, later turns Solomon's heart away from the LORD (1 Kgs 11:1-4) — a shadow this chapter's opening verse quietly casts forward." },
+    { title:"Solomon's wisdom in its world", icon:"🦉",
+      text:"Israel's wisdom tradition (Proverbs, Ecclesiastes, much of it attributed to Solomon) sits alongside Egyptian and Mesopotamian royal-wisdom literature that also prized a king's practical discernment. What sets this scene apart is the source: Solomon asks for wisdom as God's gift, not a discipline mastered by study." }
+  ],
+  crossRefs: [
+    { group:"Solomon's request for wisdom", refs:[
+      { r:"2 Chronicles 1:7-12", note:"the parallel account of the same night at Gibeon" },
+      { r:"James 1:5", note:"\"ask God, who gives generously\" — the same open request, later generalized" },
+      { r:"1 Kings 4:29-34", note:"the scope of the wisdom this dream produced" } ]},
+    { group:"Warnings the chapter already hints at", refs:[
+      { r:"Deuteronomy 17:16-17", note:"the law against a king multiplying wives, horses, and silver" },
+      { r:"1 Kings 11:1-4", note:"Solomon's later foreign wives turn his heart away — this chapter's opening verse fulfilled the wrong way" },
+      { r:"Proverbs 1:1", note:"Solomon's proverbs, attributed to the wisdom granted here" } ]}
+  ]
+},
+
+/* ============================================================
+   1 KINGS 8 — the dedication of Solomon's temple
+   ============================================================ */
+"11:8": {
+  era: {
+    title: "ca. 959 BC — the dedication of Solomon's temple",
+    sub: "Iron Age IIA · Jerusalem, Mount Moriah · the Feast of Booths, seventh month",
+    badges: ["Iron Age IIA", "United monarchy (Solomon)", "Temple dedication", "≈2,985 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Solomon assembles Israel's elders, tribal heads, and family leaders in Jerusalem at the Feast of Booths, in the seventh month, to bring the ark up from the City of David. Priests and Levites carry the ark, the tent of meeting, and its holy vessels into the new temple, with sheep and oxen sacrificed along the way in numbers too great to count. The ark is set beneath the outstretched wings of the cherubim in the inner sanctuary; the text notes it holds nothing but the two stone tablets Moses placed there at Horeb. As the priests withdraw, a cloud fills the temple so densely that they cannot continue ministering — the visible glory of the LORD. Solomon declares that the LORD has said he would dwell in thick darkness, blesses the assembled people, and recounts how God's promise to David is now fulfilled in him and this house. Facing the altar with hands spread toward heaven, he prays the long dedication prayer: that God would hear every prayer made toward this house — an oath taken here, defeat in battle followed by repentance, drought, famine or plague, a soldier's prayer in war — and, deliberately, the prayer of the foreigner who comes from a distant land \"for your name's sake,\" so that all peoples of the earth may know that name; and that God would hear and forgive an exiled, repentant people who pray toward this house from the land of their captors. Solomon blesses the assembly and charges them to keep the LORD's commandments, and he and all Israel offer a dedication sacrifice of 22,000 oxen and 120,000 sheep — so many that the bronze altar cannot hold them, and the middle of the courtyard is consecrated for burnt offerings. The feast runs fourteen days, and the people go home rejoicing.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The temple on Mount Moriah — where the ark is installed, the glory-cloud falls, the prayer is prayed, and the dedication feast is held (vv. 1-66)" },
+    { id:"gibeon", role:"Where the tabernacle's tent of meeting had stood since ch. 3 — brought up to Jerusalem together with the ark (v. 4)" }
+  ],
+  journey: [
+    { from:"gibeon", to:"jerusalem", dashed:true, label:"The ancient tent of meeting comes up to the new temple", km:9,
+      note:"The tabernacle's tent of meeting and holy vessels, kept at Gibeon's high place since Moses' day, are carried up to Jerusalem to join the ark inside Solomon's finished temple (v. 4)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Elders assemble at the feast", av:"king",
+      desc:"Solomon summons Israel's elders, tribal heads, and family leaders to Jerusalem at the Feast of Booths, the seventh month, to bring the ark up from the City of David (vv. 1-2)." },
+    { x:0.2, type:"object", label:"The ark, the tent, and the vessels come up",
+      desc:"Priests and Levites carry the ark, the tent of meeting, and its holy vessels into the temple, with sheep and oxen sacrificed along the way \"that could not be counted\" (vv. 3-5)." },
+    { x:0.36, type:"object", label:"Two stone tablets, nothing else",
+      desc:"The ark is set beneath the cherubim's outstretched wings in the inner sanctuary; the text notes it contains only the two stone tablets Moses placed there at Horeb (vv. 6-9)." },
+    { x:0.52, type:"object", label:"The cloud fills the house",
+      desc:"As the priests come out, a cloud fills the temple so densely that they cannot stand to minister — the visible glory of the LORD taking up residence (vv. 10-11)." },
+    { x:0.7, type:"person", label:"Solomon's long prayer", av:"king",
+      desc:"Facing the altar with hands spread to heaven, Solomon prays that God would hear every prayer offered toward this house — Israel's and, deliberately, the foreigner's who comes \"for your name's sake\" — and forgive a repentant, exiled people (vv. 22-53)." },
+    { x:0.92, type:"object", label:"A sacrifice too large for the altar",
+      desc:"Solomon and all Israel offer 22,000 oxen and 120,000 sheep — so many that the bronze altar is too small, and the middle of the court is consecrated for the burnt offerings; the feast runs fourteen days (vv. 62-66)." }
+  ],
+  environment: {
+    chips: ["The ark's last journey — City of David to Mount Moriah", "Sacrifices too many to count", "A cloud so thick the priests retreat", "A prayer built around seven kinds of need", "Fourteen days of feasting, tens of thousands of animals"],
+    text: "A glory-cloud marking a deity's arrival in a finished sanctuary echoes the tabernacle's own dedication centuries earlier (Exod 40:34-35) and reflects a wider ancient Near Eastern expectation that a god's presence would visibly settle into a completed temple. Solomon's prayer is unusually outward-looking for its setting: alongside Israel's own needs it explicitly asks God to answer the foreign worshiper who is not part of the covenant people at all, a note that sits oddly against the era's more typical, purely national temple theology."
+  },
+  objectsExtra: ["ark-covenant","temple","temple-glory-cloud"],
+  peopleExtra: ["solomon","zadok"],
+  culture: [
+    { title:"The glory-cloud that halts the priests", icon:"☁️",
+      text:"The same cloud that filled the wilderness tabernacle at its dedication (Exod 40:34-35) and later filled Isaiah's temple vision with smoke (Isa 6:4) now settles into Solomon's finished house — so thick the officiating priests must withdraw. The parallel account in 2 Chronicles 7:1-3 adds that fire also fell from heaven to consume the offering, with the people falling on their faces in worship." },
+    { title:"Praying toward the temple", icon:"🙏",
+      text:"Solomon's prayer repeatedly asks God to hear prayer made \"toward this place\" even from far away — the pattern Daniel later follows literally, praying with his window open toward Jerusalem while in exile in Babylon (Dan 6:10), doing exactly what this prayer anticipated centuries earlier." },
+    { title:"The foreigner's prayer", icon:"🌍",
+      text:"Verses 41-43 single out \"the foreigner, who is not of your people Israel,\" asking that God answer him too, \"that all the peoples of the earth may know your name.\" In an era whose temples were normally built for one nation's god alone, this is a striking, deliberately universal note inside an otherwise covenant-specific dedication." }
+  ],
+  crossRefs: [
+    { group:"The glory-cloud, before and after", refs:[
+      { r:"Exodus 40:34-35", note:"the tabernacle's own dedication, filled with the same glory-cloud" },
+      { r:"2 Chronicles 7:1-3", note:"the parallel account adds fire falling from heaven to consume the offering" },
+      { r:"Isaiah 6:4", note:"smoke filling the temple at Isaiah's later vision" } ]},
+    { group:"The prayer's reach, fulfilled later", refs:[
+      { r:"Deuteronomy 30:1-5", note:"the repentance-in-exile pattern Solomon's prayer anticipates" },
+      { r:"Daniel 6:10", note:"Daniel praying toward Jerusalem from Babylon — exactly what this prayer asked for" },
+      { r:"Isaiah 56:7", note:"\"a house of prayer for all peoples\" — echoing the foreigner's welcome here" } ]}
+  ]
 }
 
 };

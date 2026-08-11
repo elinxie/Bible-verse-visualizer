@@ -25,6 +25,8 @@ BVV.OBJECTS = [
     desc:"The portable sanctuary: goat-hair and ram-skin tent over gold-plated frames, courtyard of linen hangings, lampstand, incense altar, and the ark behind the veil." },
   { id:"temple", name:"The Temple", al:["temple"], icon:"🏛️",
     desc:"Solomon's cedar-lined house of God (ca. 966 BC), rebuilt under Zerubbabel, and lavishly rebuilt by Herod — whose platform stones exceed 500 tons. Destroyed AD 70." },
+  { id:"temple-glory-cloud", name:"The glory-cloud", al:["cloud","glory of the LORD","glory cloud"], icon:"☁️",
+    desc:"The visible sign of God's presence settling into a finished sanctuary — so thick at Solomon's temple dedication that the officiating priests could not stand to minister (1 Kgs 8:10-11), echoing the same cloud filling the tabernacle at its own dedication centuries earlier (Exod 40:34-35)." },
   { id:"synagogue", name:"Synagogue", al:["synagogue"], icon:"🏫",
     desc:"Local assembly hall for Scripture reading, prayer and community life, developed in the exile. First-century examples excavated at Capernaum (basalt base), Magdala and Gamla." },
   { id:"showbread", name:"Bread of the Presence", al:["bread of the Presence","showbread","holy bread"], icon:"🍞",
