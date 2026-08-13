@@ -198,5 +198,13 @@ BVV.OBJECTS = [
   { id:"razor", name:"Razor", al:["razor"], icon:"🪒",
     desc:"The instrument that finally breaks Samson's Nazirite vow: while he sleeps in Delilah's lap she has a man shave off his seven locks, and 'his strength left him' — not the hair itself but the broken vow it symbolized, sealed since before his birth (Judg 13:5; 16:17, 19)." },
   { id:"temple-pillars", name:"Temple pillars", al:["two middle pillars","pillars of the temple","pillars"], icon:"🏛️",
-    desc:"The two central support pillars of Dagon's temple at Gaza, which the blinded, hair-regrown Samson braces against with both arms and pushes apart in his final prayer for strength — bringing the roof down on the Philistine lords and the crowd above, killing more in his death than in his life (Judg 16:26-30)." }
+    desc:"The two central support pillars of Dagon's temple at Gaza, which the blinded, hair-regrown Samson braces against with both arms and pushes apart in his final prayer for strength — bringing the roof down on the Philistine lords and the crowd above, killing more in his death than in his life (Judg 16:26-30)." },
+  { id:"ravens-cherith", name:"Ravens (Elijah's providers)", al:["ravens","the ravens"], icon:"🐦",
+    desc:"Unclean birds under the Law (Lev 11:15) yet the LORD's chosen couriers at Cherith, bringing Elijah bread and meat morning and evening while the brook still ran (1 Kgs 17:4-6) — provision from an unexpected, even 'impure,' source." },
+  { id:"widows-jar-oil", name:"Widow's jar of flour and jug of oil", al:["handful of flour","jar of flour","jug of oil","jar of meal"], icon:"🏺",
+    desc:"A starving widow's last rations at Zarephath — flour in a jar, oil in a jug — that 'did not run out' through the rest of the famine, exactly as Elijah promised (1 Kgs 17:12-16)." },
+  { id:"carmel-fire", name:"Water-drenched altar & fire from heaven", al:["fire fell","fire from heaven","the trench"], icon:"🔥",
+    desc:"Elijah's rebuilt altar of twelve stones, its sacrifice and wood drenched three times until the trench around it brims with water — then consumed instantly when 'the fire of the LORD fell,' licking up even the water, at Mount Carmel (1 Kgs 18:30-38)." },
+  { id:"still-small-voice", name:"Still small voice (gentle whisper)", al:["still small voice","gentle whisper","sound of a low whisper"], icon:"🌬️",
+    desc:"Hebrew qol demamah daqqah — literally 'a sound, thin, silence' — the form God's presence takes at Horeb after wind, earthquake, and fire pass by unoccupied; Elijah wraps his face in his mantle at the sound (1 Kgs 19:11-13)." }
 ];
