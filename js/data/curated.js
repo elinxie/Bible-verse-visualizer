@@ -6590,6 +6590,192 @@ BVV.CURATED = {
       { r:"Daniel 6:10", note:"Daniel praying toward Jerusalem from Babylon — exactly what this prayer asked for" },
       { r:"Isaiah 56:7", note:"\"a house of prayer for all peoples\" — echoing the foreigner's welcome here" } ]}
   ]
+},
+
+/* ============================================================
+   1 KINGS 17 — Elijah at Cherith and Zarephath
+   ============================================================ */
+"11:17": {
+  era: {
+    title: "ca. 860 BC — Elijah shuts up the sky",
+    sub: "Iron Age IIB · the brook Cherith, then Phoenician Zarephath · the start of a three-year drought",
+    badges: ["Iron Age IIB", "Divided kingdom (Ahab of Israel)", "Elijah cycle begins", "≈2,885 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Elijah the Tishbite, a prophet from Gilead across the Jordan, announces to Ahab that no dew or rain will fall except by his word — the opening shot in a showdown with Baal, the Canaanite storm-and-fertility god Ahab's house has enthroned in Israel. The LORD immediately sends Elijah into hiding at the brook Cherith, east of the Jordan, where ravens bring him bread and meat morning and evening and he drinks from the brook — until the drought he announced dries it up. Directed next to Zarephath, a Phoenician village between Tyre and Sidon deep in Baal's own territory, Elijah meets a widow gathering sticks for what she expects to be her last meal: a handful of flour and a little oil for herself and her son before they starve. Elijah asks her to feed him first, promising that her jar of flour and jug of oil will not run out until the LORD sends rain. She believes him, and the household eats for many days on rations that never empty. Later her son sickens and stops breathing; grief-stricken, she accuses Elijah of exposing her sin. He carries the boy to his upstairs room, stretches himself over him three times crying out to the LORD, and the boy's life returns. \"Now I know that you are a man of God,\" she says, \"and that the word of the LORD in your mouth is truth.\"",
+  focusPlace: "zarephath",
+  places: [
+    { id:"cherith", role:"The wadi east of the Jordan where Elijah hides at the drought's start, fed by ravens until the brook itself dries up (vv. 2-7)" },
+    { id:"zarephath", role:"The Phoenician village where the widow's flour and oil never run out, and her son is raised (vv. 8-24)" }
+  ],
+  journey: [
+    { from:"cherith", to:"zarephath", dashed:true, label:"From a drying brook to a starving widow's door", km:110,
+      note:"Cherith's exact site is unrecoverable and was already disputed in antiquity; the LORD sends Elijah roughly 110 km northwest, out of Israel entirely and into Baal's own Phoenician heartland, once the brook fails (vv. 7-9)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"\"There shall be neither dew nor rain\"", av:"prophet",
+      desc:"Elijah announces the drought to Ahab before vanishing — the sky itself now answers to the word of the LORD's prophet, not to Baal (v. 1)." },
+    { x:0.22, type:"object", label:"Ravens bring bread and meat",
+      desc:"Hidden at the brook Cherith, Elijah is fed twice daily by ravens — birds the Law counted unclean — and drinks from the brook (vv. 2-6)." },
+    { x:0.38, type:"object", label:"The brook dries up",
+      desc:"The drought Elijah himself pronounced eventually silences even his own hiding place, and the word of the LORD sends him on to Phoenicia (v. 7)." },
+    { x:0.55, type:"person", label:"A widow's last handful of flour", av:"woman",
+      desc:"Gathering sticks for what she expects to be her final meal, the widow of Zarephath feeds Elijah first on his promise that her flour and oil will not fail until the rain returns (vv. 10-16)." },
+    { x:0.75, type:"person", label:"Elijah stretches himself over the boy", av:"prophet",
+      desc:"When the widow's son stops breathing, Elijah carries him to the upper room, stretches out over him three times, and cries out until his life returns (vv. 17-22)." },
+    { x:0.93, type:"person", label:"\"Now I know you are a man of God\"", av:"woman",
+      desc:"The widow's confession closes the chapter — the word in Elijah's mouth confirmed true twice over, first by unfailing flour, then by a son restored (vv. 23-24)." }
+  ],
+  environment: {
+    chips: ["A prophet from Gilead vs. a storm-god's own turf", "Ravens as unlikely couriers", "A brook that obeys the drought it announced", "Flour and oil that outlast a famine", "A resurrection two chapters before Elisha's own"],
+    text: "Sending Elijah to hide among Israel's own ravines, then across the border into Phoenicia — Baal and Asherah's ancestral homeland — sharpens the contest to come: the LORD provides through an unclean bird in Israel and sustains a foreign widow's household in the very region that worshiped the storm god blamed for withholding rain. Zarephath sat on the coast road between Tyre and Sidon, Jezebel's own home cities, making the miracle there a pointed answer to the queen who would soon hunt Elijah down. The widow's small daily ration — flour scooped from a jar, oil poured from a jug — reflects ordinary Iron Age household storage, which makes its refusal to run dry all the more visibly a sign rather than abundance."
+  },
+  objectsExtra: ["ravens-cherith","widows-jar-oil"],
+  peopleExtra: ["elijah","widow-zarephath"],
+  culture: [
+    { title:"Elijah the Tishbite", icon:"🧥",
+      text:"Introduced with no genealogy beyond 'of Gilead,' Elijah arrives already in motion, announcing judgment before anyone asks who sent him. His prophetic sign-act — pronouncing a drought and then living inside its consequences at Cherith — makes the coming contest personal: he stakes his own survival on the God he represents before he ever challenges Baal in public." },
+    { title:"Ravens as providers", icon:"🐦",
+      text:"Leviticus 11:15 lists ravens among the unclean birds, unfit for food or altar — yet these are precisely the couriers the LORD chooses at Cherith. The detail was noticed early: it is not the cleanest resource but the LORD's own command over 'unclean' nature that keeps his prophet alive, a theme picked up again when the drought's answer comes not from Israel's own hills but from a foreign widow's kitchen." },
+    { title:"Drought in Baal's own territory", icon:"🌾",
+      text:"Baal-Hadad was worshiped across the Levant, including Phoenicia, as the storm god who sent rain and made the ground fertile; a famine severe enough to threaten starvation in Zarephath itself — a coastal town that should have depended on Baal's favor — quietly undercuts Baal's credibility on his own home ground before Elijah ever reaches Carmel." }
+  ],
+  crossRefs: [
+    { group:"The drought as covenant judgment", refs:[
+      { r:"Deuteronomy 11:16-17", note:"the warning that turning to other gods shuts up the sky" },
+      { r:"Deuteronomy 28:23-24", note:"drought and bronze skies among the covenant curses" },
+      { r:"James 5:17-18", note:"Elijah's prayer, credited with shutting and reopening the heavens" } ]},
+    { group:"Zarephath remembered later", refs:[
+      { r:"Luke 4:25-26", note:"Jesus cites the widow of Zarephath — a foreigner — as proof of God's wider mercy" },
+      { r:"2 Kings 4:32-37", note:"Elisha's near-identical resurrection of the Shunammite's son" },
+      { r:"Hebrews 11:35", note:"'women received back their dead by resurrection' — this account among them" } ]}
+  ]
+},
+
+/* ============================================================
+   1 KINGS 18 — the contest on Mount Carmel
+   ============================================================ */
+"11:18": {
+  era: {
+    title: "ca. 860 BC — fire falls on Mount Carmel",
+    sub: "Iron Age IIB · Mount Carmel, the Kishon, and the road to Jezreel · the third year of the drought",
+    badges: ["Iron Age IIB", "Divided kingdom (Ahab of Israel)", "Elijah vs. 450 prophets of Baal", "≈2,885 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "In the drought's third year, the LORD sends Elijah to present himself to Ahab, promising rain at last. On the road he meets Obadiah, Ahab's palace steward, who has secretly hidden a hundred of the LORD's prophets in two caves through Jezebel's purge; terrified Elijah will vanish again and cost him his life, Obadiah is finally persuaded to announce him. Ahab greets Elijah as \"troubler of Israel\"; Elijah answers that it is Ahab's own abandonment of the LORD for Baal that has troubled the land. Elijah proposes a public contest on Mount Carmel: all Israel, the 450 prophets of Baal, and 400 prophets of Asherah who eat at Jezebel's table. Two bulls, two altars, no fire lit by human hand — whichever god answers by fire is God. Baal's prophets cry out from morning to noon and beyond, dancing, cutting themselves till the blood flows; nothing answers, while Elijah mocks that their god may be thinking, traveling, or asleep. At the time of the evening offering, Elijah repairs the LORD's ruined altar with twelve stones for the twelve tribes, digs a trench around it, and has the sacrifice and wood drenched with water three times until the trench itself is full. His prayer is a single sentence — that Israel may know the LORD is God and that he, Elijah, is his servant. Fire falls from heaven and consumes the sacrifice, the wood, the stones, the dust, and licks up the water in the trench. The people fall on their faces: \"The LORD, he is God!\" Elijah has the prophets of Baal seized and put to death at the brook Kishon below. Then, as clouds gather and rain finally breaks the drought, Elijah — with the hand of the LORD upon him — girds up his robe and outruns Ahab's chariot the whole way to Jezreel.",
+  focusPlace: "carmel-mount",
+  places: [
+    { id:"carmel-mount", role:"The contest itself — the drenched altar, the fire from heaven, and the people's verdict (vv. 19-39)" },
+    { id:"kishon", role:"Where the defeated prophets of Baal are seized and put to death (v. 40)" },
+    { id:"jezreel-city", role:"Ahab's chariot race destination, which Elijah reaches first on foot as the rain begins (vv. 45-46)" }
+  ],
+  journey: [
+    { from:"carmel-mount", to:"kishon", label:"Down to the streambed below the ridge", km:4,
+      note:"The Kishon runs along the base of the Carmel range close to the traditional contest site — a short, grim walk down from where the verdict was won to where it was executed (v. 40)." },
+    { from:"carmel-mount", to:"jezreel-city", label:"Elijah outruns Ahab's chariot", km:32,
+      note:"With rain finally breaking the three-year drought, Elijah runs the roughly 32 km to Jezreel ahead of the king's own chariot — 'the hand of the LORD was on Elijah' (vv. 45-46)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Obadiah's hundred hidden prophets", av:"official",
+      desc:"Ahab's steward, 'one who feared the LORD greatly,' has hidden a hundred of the LORD's prophets in two caves through Jezebel's purge, and fears announcing Elijah will cost him his life (vv. 3-4, 12-14)." },
+    { x:0.2, type:"person", label:"\"Troubler of Israel\"", av:"king",
+      desc:"Ahab greets Elijah as the source of Israel's trouble; Elijah answers that it is Ahab's own abandonment of the LORD for the Baals that has brought the drought (vv. 17-18)." },
+    { x:0.36, type:"person", label:"Baal's prophets cry out unanswered", av:"prophet",
+      desc:"From morning to noon and past it, 450 prophets of Baal dance around their altar and cut themselves with swords and lances; 'there was no voice, no one answered, no one paid attention' (vv. 26-29)." },
+    { x:0.54, type:"object", label:"The drenched altar and fire from heaven",
+      desc:"Elijah rebuilds the LORD's altar with twelve stones, drenches the sacrifice and wood three times until the surrounding trench brims with water, and prays a single sentence — fire falls and consumes everything, even the water (vv. 30-38)." },
+    { x:0.72, type:"object", label:"Slaughter at the Kishon",
+      desc:"With the crowd shouting 'The LORD, he is God!', Elijah has the defeated prophets of Baal seized and put to death at the brook below Carmel (vv. 39-40)." },
+    { x:0.9, type:"person", label:"A cloud like a man's hand", av:"prophet",
+      desc:"Elijah bows atop Carmel and sends his servant to watch the sea seven times until a small cloud appears; the sky blackens with wind and rain, and Elijah outruns Ahab's chariot the whole way to Jezreel (vv. 41-46)." }
+  ],
+  environment: {
+    chips: ["Third year of a three-year drought", "450 prophets of Baal, 400 of Asherah", "A trench drenched three times before the prayer", "Fire that licks up standing water", "A foot-race against a chariot, in the rain"],
+    text: "Mount Carmel's wooded ridge overlooking the Mediterranean was a natural boundary shrine — claimed at different times by both Israelite and Phoenician cult — which made it a fitting neutral ground for a contest between Israel's God and Jezebel's imported Baal-Melqart. Baal was worshiped precisely as the storm god who sent fire (lightning) and rain; staging the test around exactly those two elements, on the god's own specialty, gives the drenched altar and the falling fire their full rhetorical force. The self-laceration of Baal's prophets matches practices known from other ancient Near Eastern mourning and appeal rites, while the Kishon's marshy banks — the same ground that swallowed Sisera's chariots in Judges 4-5 — again becomes the place where a defeated army meets its end."
+  },
+  objectsExtra: ["carmel-fire","chariot"],
+  peopleExtra: ["elijah","ahab","jezebel","obadiah-steward"],
+  culture: [
+    { title:"450 prophets of Baal, 400 of Asherah", icon:"🛕",
+      text:"Baal-Melqart, patron god of Jezebel's native Tyre, and the goddess Asherah together represent state-sponsored Phoenician religion imported wholesale into Israel through the royal marriage (1 Kgs 16:31-33); that Asherah's 400 prophets 'eat at Jezebel's table' (v. 19) makes explicit that this is not folk religion but funded, palace-backed policy — which is exactly why Elijah stages the confrontation as public and total, not private reform." },
+    { title:"Fire from heaven as verdict", icon:"🔥",
+      text:"Fire consuming a sacrifice without human kindling recurs at pivotal moments as divine ratification: at the tabernacle's inauguration (Lev 9:24), at David's altar on Araunah's threshing floor (1 Chron 21:26), and at Solomon's temple dedication (2 Chron 7:1-3). Carmel's fire does more than answer a prayer — in each of these scenes it authenticates the entire system of worship it falls upon." },
+    { title:"The Kishon and the cloud", icon:"🌊",
+      text:"The Kishon's role as an execution ground here deliberately echoes its earlier role sweeping away Sisera's chariots (Judg 4:7, 13; 5:21) — the same river twice becomes the place where Canaanite military or religious power is broken. The 'cloud like a man's hand' rising from the sea, meanwhile, is the first crack in three years of bronze sky, and its small, almost comic size against the flood that follows underlines how little it takes once the true source of rain chooses to act." }
+  ],
+  crossRefs: [
+    { group:"Fire from heaven, elsewhere", refs:[
+      { r:"Leviticus 9:24", note:"fire consumes the first sacrifice at the tabernacle's inauguration" },
+      { r:"1 Chronicles 21:26", note:"fire answers David at Araunah's threshing floor" },
+      { r:"2 Chronicles 7:1-3", note:"fire falls at Solomon's temple dedication" } ]},
+    { group:"Elijah remembered forward", refs:[
+      { r:"Malachi 4:5-6", note:"Elijah promised to return before 'the great and awesome day of the LORD'" },
+      { r:"Matthew 17:3-4", note:"Elijah appears with Moses at the Transfiguration" },
+      { r:"James 5:17-18", note:"Elijah's prayer credited with shutting and reopening the sky" } ]}
+  ]
+},
+
+/* ============================================================
+   1 KINGS 19 — Elijah at Horeb, and the still small voice
+   ============================================================ */
+"11:19": {
+  era: {
+    title: "ca. 860 BC — Elijah flees to Horeb",
+    sub: "Iron Age IIB · Beersheba, the wilderness, and Mount Horeb (Sinai) · immediately after Carmel",
+    badges: ["Iron Age IIB", "Divided kingdom (Ahab of Israel)", "Elijah at Horeb", "≈2,885 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Word of the Kishon reaches Jezebel, who swears to have Elijah dead within a day. The prophet who faced down 450 prophets of Baal without flinching now runs for his life, leaving his servant at Beersheba and going a day's journey alone into the wilderness, where he sits under a broom tree and asks to die: \"I am no better than my fathers.\" He sleeps; an angel wakes him twice with bread baked on hot stones and a jar of water, telling him the journey ahead is too great for him to face unfed. Strengthened by that food for forty days and nights, he reaches Horeb, the mountain of God, and lodges in a cave. \"What are you doing here, Elijah?\" the word of the LORD asks; he answers that he alone is left, zealous for the LORD, and they seek his life. Told to stand on the mountain, he watches a great wind tear the rocks, then an earthquake, then fire — the LORD in none of them — and finally hears a still small voice, a sound of a low whisper. He wraps his face in his mantle and repeats his complaint word for word. God corrects him twice: seven thousand in Israel have never bowed to Baal, and Elijah is not finished — he is to anoint Hazael king over Aram, Jehu king over Israel, and Elisha as prophet in his own place, three agents who between them will finish the reckoning with Baal worship that Carmel began. Descending, Elijah finds Elisha plowing with twelve yoke of oxen and throws his mantle over him; after a farewell feast for his parents, Elisha follows him as his attendant.",
+  focusPlace: "sinai",
+  places: [
+    { id:"jezreel-city", role:"Where Jezebel's death-threat reaches Elijah and his flight begins (vv. 1-3)" },
+    { id:"beersheba", role:"Southernmost town of Judah, where Elijah leaves his servant before going on alone (v. 3)" },
+    { id:"sinai", role:"Horeb, the mountain of God — the cave, the theophany, and the three commissions (vv. 8-18)" }
+  ],
+  journey: [
+    { from:"jezreel-city", to:"beersheba", label:"Flight the length of the kingdom", km:150,
+      note:"Elijah runs roughly 150 km south, clear out of Israel and through all of Judah, before even pausing to leave his servant behind (v. 3)." },
+    { from:"beersheba", to:"sinai", dashed:true, label:"Forty days and nights to the mountain of God", km:310,
+      note:"A further day's journey into the wilderness, then forty days and nights on the strength of the angel's food — deliberately mirroring Moses' own fasts on this same mountain (Exod 24:18; 34:28) — brings Elijah to Horeb's cave (vv. 4-8)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Jezebel's vow; Elijah runs for his life", av:"prophet",
+      desc:"Jezebel swears to kill Elijah within a day; the prophet who stood alone against 450 prophets of Baal flees south, past Beersheba, and goes on alone (vv. 1-3)." },
+    { x:0.2, type:"person", label:"\"I am no better than my fathers\"", av:"prophet",
+      desc:"Exhausted in the wilderness, Elijah sits under a broom tree and asks to die, then falls asleep — the contest's aftermath is despair, not triumph (vv. 4-5)." },
+    { x:0.36, type:"object", label:"The angel's cake and jar of water",
+      desc:"An angel wakes Elijah twice with bread baked on hot stones and water, telling him 'the journey is too great for you' — food for a forty-day trek he does not yet know he is about to take (vv. 5-8)." },
+    { x:0.54, type:"person", label:"\"What are you doing here, Elijah?\"", av:"prophet",
+      desc:"At the cave on Horeb, the word of the LORD asks the question twice; Elijah answers both times that he alone is left and they seek his life (vv. 9-10, 13-14)." },
+    { x:0.7, type:"object", label:"Wind, earthquake, fire — then a still small voice",
+      desc:"A great wind, an earthquake, and fire pass by the mountain in turn, the LORD in none of them; then a still small voice, and Elijah wraps his face in his mantle (vv. 11-13)." },
+    { x:0.9, type:"person", label:"Three commissions, and a mantle for Elisha", av:"prophet",
+      desc:"God corrects Elijah's isolation — seven thousand have not bowed to Baal — and sends him to anoint Hazael, Jehu, and Elisha; descending, he throws his mantle over Elisha plowing in the field (vv. 15-21)." }
+  ],
+  environment: {
+    chips: ["A death threat that outruns a victory", "A day's flight becomes 150 km, then 310 more", "Bread and water for a forty-day fast", "Not in the wind, quake, or fire", "Three names that outlive Elijah's own ministry"],
+    text: "Elijah's route retraces Israel's own founding journey in reverse and then some — through Beersheba, the patriarchal south, and on to Horeb/Sinai itself, the mountain of the original covenant, arriving by the same forty-day fast Moses twice kept there (Exod 24:18; 34:28). The theophany's sequence — wind, earthquake, fire, then a 'still small voice' (Hebrew qol demamah daqqah, literally 'a sound, thin, silence') — pointedly withholds the LORD from the very phenomena that accompanied Sinai's first, thunderous covenant-giving (Exod 19:16-18), reframing how God's presence is recognized without diminishing the mountain's authority. Elisha's response — slaughtering his plow oxen for a farewell meal before following — was a costly, irreversible break with his old livelihood, not a casual apprenticeship."
+  },
+  objectsExtra: ["still-small-voice","mantle"],
+  peopleExtra: ["elijah","jezebel","elisha","hazael","jehu"],
+  culture: [
+    { title:"Horeb, the mountain of the first covenant", icon:"🏔️",
+      text:"Sinai/Horeb is where Moses first met God at the burning bush (Exod 3:1-6) and where Israel received the Law; Elijah's cave, his forty-day fast, and his direct address from God all deliberately recall Moses, right down to God's earlier promise to let Moses see his glory pass by from the cleft of a rock (Exod 33:18-23) — Elijah, centuries later, is granted a variation of the same encounter on the same mountain." },
+    { title:"Not in the wind, earthquake, or fire", icon:"🌬️",
+      text:"Ancient Near Eastern storm gods, including Baal, were routinely depicted arriving in exactly these forces — wind, quake, and fire. By explicitly locating the LORD not in any of them but in a 'still small voice,' the narrative continues Carmel's argument in a quieter key: this God is not simply a more powerful version of Baal working through the same natural spectacle, but reveals himself on his own terms." },
+    { title:"Elijah's three commissions and the 'seven thousand'", icon:"👥",
+      text:"None of the three commissions is carried out by Elijah's own hand within this book — Hazael is anointed years later through Elisha (2 Kgs 8:7-15), Jehu through one of Elisha's sons of the prophets (2 Kgs 9:1-13), and Elisha himself simply receives the thrown mantle here, formally succeeding Elijah only at 2 Kings 2. The 'seven thousand' who answer Elijah's despair become Paul's own proof-text for a faithful remnant surviving unseen (Rom 11:2-5)." }
+  ],
+  crossRefs: [
+    { group:"Horeb echoes Sinai", refs:[
+      { r:"Exodus 3:1-6", note:"Moses' own first encounter with God at this same mountain" },
+      { r:"Exodus 19:16-18", note:"wind, fire, and quaking at the Law's first giving — the forces this theophany deliberately withholds" },
+      { r:"Exodus 34:28", note:"Moses' own forty days and nights on Horeb without bread or water" } ]},
+    { group:"The three commissions, fulfilled later", refs:[
+      { r:"2 Kings 8:7-15", note:"Hazael's anointing, carried out through Elisha" },
+      { r:"2 Kings 9:1-13", note:"Jehu's anointing and immediate coup" },
+      { r:"2 Kings 2:1-15", note:"Elisha's own succession, and Elijah's mantle passing on" } ]}
+  ]
 }
 
 };
