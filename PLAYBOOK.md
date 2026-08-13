@@ -95,9 +95,9 @@ rolling window + weekly cap). Treat every agent spawn as paid labor:
    orchestrator's own integration/test/ship work. Prefer **1 agent doing a
    well-scoped batch** (e.g. "curate these 3 chapters") over many small runs.
 2. **Model = pay grade:** `sonnet` for data curation, tests, routine fixes
-   (the default). `fable`/opus-class only for architecture or a bug two
-   sonnet attempts failed to fix. Never spawn an agent for work the
-   orchestrator can do in fewer tokens itself.
+   (the default). `opus` (Opus 5) only for architecture or a bug two
+   sonnet attempts failed to fix — do not use `fable` for this tier. Never
+   spawn an agent for work the orchestrator can do in fewer tokens itself.
 3. **Scoped prompts save budget:** every agent prompt must name the exact
    files to read (this file + the specific `js/data/*.js` sections) and
    forbid repo-wide exploration.
