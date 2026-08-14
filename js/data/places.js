@@ -389,6 +389,11 @@ BVV.PLACES = [
     meaning:"Hebrew 'Tsovah', meaning debated — possibly related to a root for 'station/garrison', though the name may predate Hebrew etymology entirely",
     ancient:"A powerful Aramean state controlling a fertile inland corridor between the coastal ranges and the Syrian interior, wealthy enough to field thousands of chariots and horsemen and to draw Damascus itself into its wars — the single toughest opponent David's united monarchy ever fought.",
     scene:{ terrain:"valley", settlement:"none", water:"river", veg:"mixed" } },
+  { id:"riblah", name:"Riblah", al:["Riblah"], modern:"Rableh, Syria", lat:34.468, lon:36.542, type:"camp",
+    blurb:"Babylonian military headquarters on the Orontes in the land of Hamath; here Nebuchadnezzar judged Zedekiah after Jerusalem's fall, executing his sons before him and then blinding him, and later executed dozens more of Judah's officials (2 Kgs 25:6-7, 18-21) — the same place Pharaoh Necho had earlier used to depose Jehoahaz (2 Kgs 23:33).",
+    meaning:"Hebrew 'Riblah', of uncertain etymology",
+    ancient:"Nebuchadnezzar's forward base on the Orontes for directing the whole western campaign — close enough to Judah to receive prisoners and reports, far enough to keep the king himself out of the actual siege; the place where captured kings were judged, blinded, or executed rather than fought.",
+    scene:{ terrain:"river", settlement:"camp", water:"river", veg:"sparse" } },
 
   // ---- Jordan valley, Dead Sea, Transjordan ----
   { id:"jordan", name:"Jordan River", al:["Jordan"], modern:"Jordan River", lat:32.100, lon:35.554, type:"river",

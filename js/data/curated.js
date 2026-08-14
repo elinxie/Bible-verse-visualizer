@@ -6776,6 +6776,265 @@ BVV.CURATED = {
       { r:"2 Kings 9:1-13", note:"Jehu's anointing and immediate coup" },
       { r:"2 Kings 2:1-15", note:"Elisha's own succession, and Elijah's mantle passing on" } ]}
   ]
+},
+
+/* ============================================================
+   2 KINGS 5 — Naaman healed, Gehazi's greed
+   ============================================================ */
+"12:5": {
+  era: {
+    title: "ca. 850 BC — a commander's healing, a servant's greed",
+    sub: "Iron Age IIB · Damascus, Samaria, and the Jordan · during the reign of Jehoram of Israel, amid ongoing Aram-Israel border war",
+    badges: ["Iron Age IIB", "Divided kingdom (Jehoram of Israel)", "Elisha's ministry", "≈2,876 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Naaman, commander of the army of the king of Aram, is a great man in his master's eyes and a mighty warrior — and a leper. A young Israelite girl, captured on some earlier raid and now serving Naaman's wife, mentions offhand that the prophet in Samaria could cure him. The king of Aram sends Naaman north with a letter and a fortune — ten talents of silver, six thousand shekels of gold, ten changes of festal clothing — addressed to the king of Israel, who tears his own clothes in panic, certain this is a manufactured pretext for war: \"Am I God, to kill and make alive, that this man sends word to me to cure a man of his leprosy?\" Elisha hears of it and simply asks that Naaman be sent to him, \"that he may know there is a prophet in Israel.\" Naaman arrives at Elisha's door with his horses and chariots in state, and Elisha does not even come out to meet him — he sends a messenger with a plain instruction: wash seven times in the Jordan. Naaman is furious. He expected drama, a hand waved over the sore spot, the prophet's God called on by name; the Jordan is muddier and lesser than Damascus's own rivers, Abana and Pharpar. His servants talk him down with plain logic — if the prophet had asked something hard, would he not have done it? — and he goes down, dips seven times, and comes up with flesh like a little child's. He returns to confess, \"now I know that there is no God in all the earth but in Israel,\" offers a gift, and is refused; he asks instead for two mule-loads of Israelite earth to take home, and forgiveness in advance for the one compromise his new faith can't yet avoid — bowing beside his king in the temple of Rimmon. Elisha sends him off in peace. But Elisha's servant Gehazi, watching the Aramean's wealth disappear down the road untouched, runs after him with a lie — two of the 'sons of the prophets' need silver and clothing, he says — and comes home with both, hiding them in the house, only to have Elisha, who saw it all in spirit, confront him: Naaman's leprosy \"shall cling to you and to your descendants forever.\" Gehazi leaves the prophet's presence a leper, white as snow.",
+  focusPlace: "jordan",
+  places: [
+    { id:"damascus", role:"Naaman's home, and the city whose rivers he still prefers to the Jordan (vv. 1, 5, 12, 18-19)" },
+    { id:"samaria", role:"Where the king of Israel panics at Aram's letter, and where Elisha sends Naaman only a messenger rather than coming out himself (vv. 5-10)" },
+    { id:"jordan", role:"The river Naaman is told to wash in seven times, and where his flesh is restored (vv. 10, 14)" }
+  ],
+  journey: [
+    { from:"damascus", to:"samaria", label:"Naaman travels south with a fortune and a letter", km:170,
+      note:"Naaman rides from Aram's capital to Samaria bearing the Aramean king's letter and a fortune in silver, gold, and festal clothing, expecting the king of Israel himself to arrange a cure (vv. 4-6)." },
+    { from:"samaria", to:"jordan", label:"Sent on to wash in the Jordan", km:40,
+      note:"Turned away from the king's court to the prophet's own house, then further still to the river itself, Naaman's journey keeps getting less royal and more ordinary at every step (vv. 8-14)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"A captive girl's small suggestion", av:"youth",
+      desc:"An Israelite girl taken captive on some earlier Aramean raid, now serving Naaman's wife, mentions in passing that 'the prophet in Samaria' could cure her master's leprosy — the whole account turns on a single unnamed captive's offhand kindness (vv. 2-3)." },
+    { x:0.2, type:"person", label:"The king of Israel tears his robe", av:"king",
+      desc:"Handed Aram's letter and a fortune in silver and gold, the king of Israel assumes it's a manufactured pretext for war — \"Am I God, to kill and to make alive?\" (vv. 5-7)." },
+    { x:0.35, type:"person", label:"Elisha's plain instruction: wash seven times", av:"prophet",
+      desc:"Naaman arrives at Elisha's door with horses and chariots in state; the prophet does not even come out, sending only a messenger with an unglamorous order — wash seven times in the Jordan — and Naaman turns away in fury (vv. 8-12)." },
+    { x:0.5, type:"object", label:"Seven dips in the Jordan",
+      desc:"Talked down by his own servants' plain logic — if the prophet had asked something hard, would you not have done it? — Naaman dips seven times and comes up with flesh restored 'like the flesh of a little child' (vv. 13-14)." },
+    { x:0.64, type:"person", label:"\"No God in all the earth but in Israel\"", av:"warrior",
+      desc:"Naaman returns to confess the LORD alone is God, asks for two mule-loads of Israelite earth to take home, and receives advance forgiveness for the one compromise his new faith can't yet avoid — bowing beside his king in Rimmon's temple (vv. 15-19)." },
+    { x:0.78, type:"person", label:"Gehazi's chase and his lie", av:"official",
+      desc:"Watching Naaman's untouched wealth disappear down the road, Elisha's servant Gehazi runs after him with a fabricated errand, comes home with two talents of silver and two changes of clothing, hides them, and tells Elisha he 'went nowhere' (vv. 20-25)." },
+    { x:0.92, type:"object", label:"Naaman's leprosy clings to Gehazi",
+      desc:"Elisha, who saw it all in spirit, confronts the lie: 'the leprosy of Naaman shall cling to you and to your descendants forever.' Gehazi leaves the prophet's presence leprous, white as snow (vv. 26-27)." }
+  ],
+  environment: {
+    chips: ["A captive girl's offhand suggestion", "A fortune in silver, gold, and festal clothing", "Anger at a river beneath his expectations", "Flesh restored 'like a little child's'", "A servant's greed, and a borrowed leprosy"],
+    text: "Damascus's own rivers, the Abana and Pharpar (likely the Barada and one of its tributaries), ran clear and perennial through the city's gardens, which is exactly why Naaman finds the seasonally muddy Jordan such an insult to his expectations. The gift he brings — ten talents of silver (roughly 300 kg) and six thousand shekels of gold (roughly 68 kg), on top of ten changes of festal clothing — represents enormous wealth, which makes Elisha's flat refusal of it all the more pointed against Gehazi's private theft of a fraction of the same fortune. Captive women and girls were a routine byproduct of ancient Near Eastern border raiding, their voices almost never recorded — which makes it striking that this whole account turns on one such girl's unprompted kindness toward the household of her captor. 'The sons of the prophets,' the cover story Gehazi invents, names a real prophetic community of Elisha's own disciples who appear repeatedly across the surrounding chapters, which is exactly why the lie is so easy for Elisha's household to believe."
+  },
+  objectsExtra: ["naaman-gift"],
+  peopleExtra: ["elisha","naaman","gehazi"],
+  culture: [
+    { title:"Leprosy (tsara'at) and social exile", icon:"🩹",
+      text:"Biblical tsara'at covers a range of skin, cloth, and even wall conditions (Lev 13-14), not only what modern medicine calls Hansen's disease, but any of them required a priest's diagnosis and, if confirmed, isolation 'outside the camp' until cleared. Naaman's Aramean society placed no such stigma on his condition — he still commands armies and stands before his king — which is part of why the Israelite court's panic and the girl's simple faith read so differently than they would inside Israel itself." },
+    { title:"Two mule-loads of earth", icon:"🌍",
+      text:"Naaman's request to carry Israelite soil home reflects a common ancient Near Eastern assumption that a god's power was bound to his own territory — so a foreigner wanting to worship a foreign god on foreign ground would bring some of that ground with him, even while pledging exclusive loyalty to the LORD alone. It is an imperfect, transitional theology, and the text lets it stand without correcting it, alongside his frank request for pardon in advance for bowing beside his king in Rimmon's temple." },
+    { title:"A gift that can't be bought", icon:"💰",
+      text:"Elisha's blunt refusal of Naaman's fortune — 'as the LORD lives, whom I serve, I will receive nothing' — insists that healing through God's prophet is not a transaction. Gehazi's secret pursuit of exactly the payment his master turned down, and the leprosy that follows him home, makes the point twice over: grace that can be bought stops being grace, a principle the New Testament will apply almost verbatim to Simon the sorcerer (Acts 8:18-24)." }
+  ],
+  crossRefs: [
+    { group:"Leprosy in Scripture", refs:[
+      { r:"Leviticus 13:45-46", note:"the priestly law requiring anyone with a confirmed skin disease to live outside the camp, calling out 'unclean, unclean'" },
+      { r:"Numbers 12:9-15", note:"Miriam struck leprous for opposing Moses, healed after seven days' exile from the camp" },
+      { r:"Luke 17:12-19", note:"ten lepers cleansed by Jesus; only the Samaritan — a foreigner, like Naaman — returns to give thanks" } ]},
+    { group:"Naaman and Gehazi remembered", refs:[
+      { r:"Luke 4:27", note:"Jesus cites Naaman as proof God's mercy in Elisha's day reached a foreigner, when no leper in Israel itself was cleansed" },
+      { r:"Acts 8:18-24", note:"Simon Magus tries to buy spiritual power with money; Peter's rebuke echoes Gehazi's exact sin" },
+      { r:"2 Kings 8:4-5", note:"Gehazi is later found recounting Elisha's deeds to the king of Israel, still apparently active despite his leprosy" } ]}
+  ]
+},
+
+/* ============================================================
+   2 KINGS 18 — Hezekiah's reforms; Sennacherib's invasion and the Rabshakeh's ultimatum
+   ============================================================ */
+"12:18": {
+  era: {
+    title: "701 BC — Sennacherib's army at the walls of Jerusalem",
+    sub: "Iron Age IIC · Jerusalem and Lachish · Hezekiah's fourteenth year, the Assyrian crisis",
+    badges: ["Iron Age IIC", "Kingdom of Judah (Hezekiah)", "Assyrian invasion of 701 BC", "≈2,727 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Hezekiah becomes king of Judah at twenty-five and does what none of his predecessors managed in full: he removes the high places, smashes the sacred pillars, cuts down the Asherah poles — and breaks in pieces the bronze serpent Moses had made in the wilderness, because by now Israel had taken to burning incense to it as an idol, giving it a nickname that drips with his own contempt: Nehushtan, 'a mere bronze thing.' He trusts the LORD so completely that 'after him was none like him among all the kings of Judah, nor among those who were before him'; he rebels against Assyrian vassalage and even strikes back at the Philistines. The narrative pauses to recall, in stark summary, how Israel's own northern kingdom had already fallen to this same Assyrian empire a few years earlier — Samaria besieged three years, its people deported, its land resettled with foreigners — because it would not listen (vv. 9-12), a warning shadow hanging over everything that follows. In Hezekiah's fourteenth year, Sennacherib of Assyria overruns Judah's fortified cities; Hezekiah tries to buy him off, stripping the temple treasury and even the gold from the temple doors to pay a crushing tribute. It buys nothing. Sennacherib sends three officers — the Tartan, the Rabsaris, and the Rabshakeh — with a great army from Lachish to Jerusalem itself. Hezekiah's officials, Eliakim, Shebna, and Joah, meet them at the conduit of the upper pool, and the Rabshakeh delivers Assyria's ultimatum: Egypt is a splintering reed, Judah's own God has sent Assyria against it, no god of any nation has ever saved its people from the king of Assyria's hand, so why would this one? When the officials ask him to speak Aramaic rather than Hebrew — the diplomatic language, over the heads of the ordinary people listening on the wall — the Rabshakeh raises his voice deliberately, so that everyone can hear exactly what siege and surrender will mean. The people, under royal order, answer him nothing at all; Hezekiah's officials return to the king with torn clothes and a devastating report.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"Hezekiah's capital, its temple stripped of gold, and the wall where the Rabshakeh delivers his ultimatum (vv. 1-8, 13-37)" },
+    { id:"lachish", role:"Sennacherib's forward headquarters after Judah's fortified cities fall, and where Hezekiah's tribute is sent (vv. 14, 17)" },
+    { id:"samaria", role:"The northern kingdom's fallen capital, recalled in summary as a warning of what unfaithfulness already cost Israel (vv. 9-12)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"lachish", label:"Hezekiah's tribute sent to Sennacherib's headquarters", km:44,
+      note:"Sennacherib has already taken Judah's fortified cities and made Lachish his forward base; Hezekiah strips the temple and palace treasuries, even the gold from the temple doors, and sends it there to buy peace (vv. 14-16)." },
+    { from:"lachish", to:"jerusalem", label:"The Rabshakeh marches on Jerusalem anyway", km:44,
+      note:"Tribute paid, Sennacherib sends three officers and a great army from Lachish to Jerusalem's wall regardless, to demand outright surrender (v. 17)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"Nehushtan broken in pieces",
+      desc:"Among Hezekiah's reforms — high places removed, sacred pillars smashed, Asherah poles cut down — he breaks up the bronze serpent Moses made in the wilderness centuries earlier, because Israel had taken to burning incense to it; he gives it a contemptuous nickname, Nehushtan, 'a mere bronze thing' (v. 4)." },
+    { x:0.2, type:"person", label:"Trust like none before or after him", av:"king",
+      desc:"The narrator's verdict on Hezekiah is unmatched anywhere else in Kings: he trusted the LORD so completely that 'after him was none like him among all the kings of Judah, nor among those who were before him' (vv. 5-7)." },
+    { x:0.35, type:"object", label:"Samaria's fall, recalled as warning",
+      desc:"The account pauses to recap how Israel's own northern kingdom had already fallen to this same Assyrian empire — Samaria besieged three years, its people deported for refusing to listen to the LORD's voice — a shadow hanging over everything that follows in Judah (vv. 9-12)." },
+    { x:0.5, type:"object", label:"Tribute stripped from the temple doors",
+      desc:"In Hezekiah's fourteenth year Sennacherib overruns Judah's fortified cities; Hezekiah tries to buy peace with 300 talents of silver and 30 of gold, stripping even the gold overlay from the temple doors to pay it — and it buys nothing (vv. 13-16)." },
+    { x:0.68, type:"person", label:"The Rabshakeh's ultimatum", av:"official",
+      desc:"Sennacherib sends three officers with a great army from Lachish to Jerusalem's wall; the Rabshakeh mocks trust in Egypt as a splintering reed and claims the LORD himself sent Assyria to destroy the city — no god of any nation has ever saved its people from Assyria's hand (vv. 17-25, 28-35)." },
+    { x:0.9, type:"person", label:"Speaking Hebrew over the officials' heads", av:"official",
+      desc:"When Hezekiah's officials ask him to negotiate in Aramaic rather than Hebrew, the Rabshakeh deliberately raises his voice for the ordinary people listening on the wall to hear every word of siege and surrender; the people answer him nothing, 'for the king's command was, do not answer him' (vv. 26-27, 36-37)." }
+  ],
+  environment: {
+    chips: ["Six centuries of a bronze idol, broken in one reform", "300 talents of silver, 30 of gold — and gold pried off the doors", "Three Assyrian officers, one great army, one wall", "A word choice: Aramaic for diplomats, Hebrew for everyone", "Eating dung and drinking urine — siege horror used as threat"],
+    text: "Sennacherib's 701 BC campaign is among the best-documented events in the Old Testament outside the Bible itself: his own palace reliefs at Nineveh depict the siege of Lachish in vivid, boastful detail, and his inscriptions record receiving Hezekiah's tribute — a scene 2 Kings 18:14-16 confirms almost item for item. Aramaic was already emerging as the diplomatic lingua franca of the region (it would fully dominate under Persia a century and a half later), which is exactly why Hezekiah's officials expect the negotiation to stay in a language ordinary Judahites on the wall could not follow — and exactly why the Rabshakeh's choice to switch to Hebrew is a calculated act of psychological warfare rather than a courtesy. His crude threat about the coming famine of a siege was not mere insult; starvation-driven horror inside besieged cities is independently attested across the ancient Near East, which is precisely what makes the threat land."
+  },
+  objectsExtra: ["nehushtan","temple"],
+  peopleExtra: ["hezekiah","sennacherib","rabshakeh"],
+  culture: [
+    { title:"Nehushtan's long life as an idol", icon:"🐍",
+      text:"The bronze serpent Moses made in Numbers 21:8-9 survived roughly seven centuries as a sacred object before Hezekiah destroyed it — a striking case of a legitimate, God-commanded artifact quietly curdling into idolatry over generations. Of all the kings who came before him, only Hezekiah is recorded as recognizing and ending the practice, which is part of why the narrator's verdict on him in v. 5 is so emphatic." },
+    { title:"Diplomatic Aramaic vs. common Hebrew", icon:"🗣️",
+      text:"By the 8th century BC, Aramaic was already the preferred language of international correspondence between courts across the Near East, understood by trained officials but not by the general population. Hezekiah's officials' request to keep the exchange in Aramaic was a normal diplomatic courtesy; the Rabshakeh's deliberate refusal, switching to Hebrew to address the crowd directly, converts a negotiation into a psychological assault on civilian morale." },
+    { title:"Sennacherib's own account of the siege", icon:"📜",
+      text:"Sennacherib's Prism (the Taylor/Oriental Institute Prism) boasts of shutting Hezekiah up in Jerusalem 'like a bird in a cage' and lists the tribute he received — yet conspicuously never claims to have captured the city itself. That silence, from an Assyrian king who elsewhere boasts freely of conquests, dovetails with rather than contradicts the biblical account's own abrupt, undefeated ending in the next chapter." }
+  ],
+  crossRefs: [
+    { group:"Nehushtan, before and after", refs:[
+      { r:"Numbers 21:4-9", note:"Moses makes the bronze serpent so that anyone bitten by the fiery serpents who looks at it will live" },
+      { r:"John 3:14-15", note:"Jesus compares his own coming crucifixion to the serpent Moses lifted up in the wilderness" },
+      { r:"2 Kings 17:7-18", note:"the fall of Samaria explained at length as judgment for exactly this kind of persistent idolatry — the warning behind vv. 9-12" } ]},
+    { group:"The siege, told twice more", refs:[
+      { r:"Isaiah 36:1-22", note:"Isaiah's own near-identical account of the Rabshakeh's speech at the wall" },
+      { r:"2 Chronicles 32:1-19", note:"the Chronicler's parallel record of the invasion and the taunt" },
+      { r:"Isaiah 10:5-11", note:"Assyria named earlier as 'the rod of my anger' — an instrument of judgment, not a god acting on its own" } ]}
+  ]
+},
+
+/* ============================================================
+   2 KINGS 19 — Hezekiah's prayer, Isaiah's oracles, and the angel of the LORD
+   ============================================================ */
+"12:19": {
+  era: {
+    title: "701 BC — deliverance, and the angel of the LORD by night",
+    sub: "Iron Age IIC · Jerusalem's temple, and (offstage) Nineveh · continuing directly from the Rabshakeh's ultimatum",
+    badges: ["Iron Age IIC", "Kingdom of Judah (Hezekiah)", "Isaiah's two oracles", "≈2,727 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Hezekiah hears the Rabshakeh's report, tears his own clothes, puts on sackcloth, and goes into the temple — then sends his officials, likewise in sackcloth, to the prophet Isaiah, asking him to pray for the surviving remnant. Isaiah's answer is immediate and specific: do not be afraid of the words you have heard; I will put a spirit in Sennacherib so that he hears a rumor, returns to his own land, and falls there by the sword. The Rabshakeh, meanwhile, finds his king already moved on from Lachish to besiege Libnah. Word reaches Sennacherib that Tirhakah of Cush is marching against him, and rather than simply retreat he sends messengers back to Hezekiah with an even more contemptuous letter, daring him to trust a God who has proven no more able to save Jerusalem than the gods of Gozan, Haran, Rezeph, or Eden ever saved their own cities. Hezekiah takes the letter, goes up to the temple, and spreads it out — literally — before the LORD, praying not simply for rescue but 'that all the kingdoms of the earth may know that you alone, O LORD, are God.' Isaiah's second oracle answers in poetry: the virgin daughter of Zion despises and mocks the invader; whom have you insulted and blasphemed but the Holy One of Israel? God recounts Sennacherib's own boasts back to him and promises a hook in his nose and a bit in his mouth, turning him back the way he came. As a sign, Hezekiah is told the land itself will recover over three growing seasons, and the remnant of Judah will again take root and bear fruit. Sennacherib, the LORD declares, will not so much as shoot an arrow into this city — he will return home by the very road he came, and never enter it at all. That night, the angel of the LORD goes out and strikes down a hundred and eighty-five thousand men in the Assyrian camp; in the morning, it is all dead bodies. Sennacherib breaks camp and returns to Nineveh, where, years later, he is murdered by two of his own sons, Adrammelech and Sharezer, while worshiping in the temple of his god Nisroch — and they escape to Ararat as another son, Esarhaddon, succeeds him.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The temple where Hezekiah spreads Sennacherib's letter before the LORD, and the city the angel of the LORD defends (vv. 1, 14, 34-35)" },
+    { id:"nineveh", role:"Sennacherib's capital, where he retreats after the night attack and is later murdered by his own sons (vv. 36-37)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"nineveh", dashed:true, label:"Sennacherib's retreat home — and, years later, his death", km:890,
+      note:"Struck by the angel's night attack, Sennacherib breaks camp and returns to his own capital, fulfilling Isaiah's first oracle almost to the letter — he 'hears a rumor, returns to his own land, and falls there by the sword' (vv. 7, 35-37)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Torn clothes, sackcloth, the temple", av:"king",
+      desc:"Hezekiah hears the Rabshakeh's report, tears his clothes, puts on sackcloth, and goes into the temple — then sends his officials, likewise in sackcloth, to ask the prophet Isaiah to pray for the surviving remnant (vv. 1-4)." },
+    { x:0.2, type:"person", label:"Isaiah's first oracle: a rumor, then the sword", av:"prophet",
+      desc:"Isaiah answers at once: do not be afraid of what you've heard; I will put a spirit in Sennacherib so that he hears a rumor, returns to his own land, and falls there by the sword (vv. 5-7)." },
+    { x:0.34, type:"object", label:"A second, even more contemptuous letter",
+      desc:"Word reaches Sennacherib, now besieging Libnah, that Tirhakah of Cush is marching against him; rather than simply withdraw, he sends Hezekiah a written ultimatum daring him to trust a God no more able to save Jerusalem than the gods of Gozan, Haran, or Sepharvaim saved their own cities (vv. 8-13)." },
+    { x:0.48, type:"object", label:"Hezekiah spreads the letter before the LORD",
+      desc:"Hezekiah carries the letter into the temple and spreads it out before the LORD, praying not simply for rescue but 'that all the kingdoms of the earth may know that you alone, O LORD, are God' (vv. 14-19)." },
+    { x:0.62, type:"person", label:"\"Whom have you mocked?\" — Isaiah's second oracle", av:"prophet",
+      desc:"Isaiah answers in poetry: the virgin daughter of Zion despises the invader; God recounts Sennacherib's own boasts back to him and promises a hook in his nose and a bit in his mouth, turning him back the way he came, never even to shoot an arrow into the city (vv. 20-34)." },
+    { x:0.76, type:"object", label:"The angel of the LORD, by night",
+      desc:"That night the angel of the LORD goes out and strikes down 185,000 men in the Assyrian camp; when the survivors rise in the morning, it is all dead bodies (v. 35)." },
+    { x:0.9, type:"person", label:"Murdered by his own sons at worship", av:"king",
+      desc:"Sennacherib breaks camp for Nineveh; years later, while worshiping in the temple of his god Nisroch, his sons Adrammelech and Sharezer cut him down with the sword and flee to Ararat, and another son, Esarhaddon, takes the throne (vv. 36-37)." }
+  ],
+  environment: {
+    chips: ["Sackcloth twice over — king and officials both", "A letter spread out like an accusation, not folded away", "A hook in the nose, a bit in the mouth", "185,000 in one night, and morning light on the camp", "A prophet's god, a king's own sons, a sword"],
+    text: "Royal letters in this period were genuine diplomatic instruments — sealed, carried by messenger, meant to be read aloud and archived — which is what makes Hezekiah's act of physically 'spreading' Sennacherib's letter before the LORD (v. 14) so pointed: he is treating God as the actual, present reader and judge of Assyria's written boast, not offering a private devotion. The poem Isaiah answers with directly echoes the bragging style of real Assyrian royal inscriptions, which routinely claim to have dammed rivers and felled distant forests (vv. 23-24) — the LORD's oracle quotes the empire's own propaganda back at it before dismantling it. Sennacherib's assassination by his own sons around 681 BC, roughly two decades after this campaign, is independently confirmed by the Babylonian Chronicle and by inscriptions of his son and successor Esarhaddon, even though the name of the god Nisroch in whose temple it happened is not otherwise attested among known Assyrian deities."
+  },
+  objectsExtra: ["sackcloth"],
+  peopleExtra: ["hezekiah","isaiah","sennacherib","rabshakeh"],
+  culture: [
+    { title:"Spreading the letter before the LORD", icon:"📖",
+      text:"Physically unrolling and laying out a written accusation in the sanctuary, rather than simply praying about its contents, treats the temple as a courtroom and God as the reader who will render the actual verdict — an enacted prayer, not just a spoken one, that fits a culture where letters were legal and diplomatic instruments with real, tangible weight." },
+    { title:"185,000 and a night of judgment", icon:"⚔️",
+      text:"Some historians propose that a sudden epidemic — bubonic plague or a similar disease known to sweep besieging armies camped in close, unsanitary quarters — lies behind the scale of the Assyrian losses; the Greek historian Herodotus independently preserves a garbled folk memory of the same disaster, attributing it to field mice gnawing through Assyrian bowstrings overnight. The text itself credits neither plague nor rodents, but a single agent: the angel of the LORD, in a single night." },
+    { title:"A king murdered at his own altar", icon:"🗡️",
+      text:"Sennacherib's death at the hands of his own sons, confirmed by the Babylonian Chronicle and by the inscriptions of his son and successor Esarhaddon, actually happened around 681 BC — roughly twenty years after the 701 BC campaign this chapter records, a timeline 2 Kings compresses into a single flowing narrative without marking the gap." }
+  ],
+  crossRefs: [
+    { group:"Prayer, and an unseen defense", refs:[
+      { r:"Isaiah 37:1-38", note:"Isaiah's own near-identical parallel account of this entire chapter" },
+      { r:"2 Chronicles 32:20-23", note:"the Chronicler's brief summary: Hezekiah and Isaiah cried out, and the LORD sent an angel who cut off the Assyrian camp" },
+      { r:"2 Kings 6:15-17", note:"Elisha's servant sees, for a moment, the horses and chariots of fire surrounding them — the same kind of unseen defense at work here on a vastly larger scale" } ]},
+    { group:"Assyria's rod of anger, then broken", refs:[
+      { r:"Isaiah 10:5-19", note:"Assyria wielded as God's instrument of judgment, then condemned for its own arrogance in wielding it" },
+      { r:"Isaiah 14:24-27", note:"an earlier oracle: 'I will break the Assyrian in my land, and on my mountains trample him underfoot'" },
+      { r:"Nahum 1:1-15", note:"an entire prophetic book anticipating Nineveh's eventual fall in 612 BC, the empire's final reckoning" } ]}
+  ]
+},
+
+/* ============================================================
+   2 KINGS 25 — the fall of Jerusalem
+   ============================================================ */
+"12:25": {
+  era: {
+    title: "586 BC — the fall of Jerusalem",
+    sub: "Iron Age IIC (ending) · Jerusalem, Riblah, and the road to Babylon · Zedekiah's eleventh year, with a closing note reaching to 561 BC",
+    badges: ["Iron Age IIC", "Fall of the kingdom of Judah", "Babylonian exile begins", "≈2,612 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "In Zedekiah's ninth year, Nebuchadnezzar brings his whole army against Jerusalem and builds siege works around it; the siege drags on until Zedekiah's eleventh year, by which point famine inside the walls has grown so severe there is no bread left for the common people. The wall is finally broken through, and by night the city's soldiers — Zedekiah among them — flee through a gate between two walls near the king's garden, toward the plains of the Jordan. The Chaldean army pursues and overtakes him near Jericho; his own army scatters and abandons him. He is taken north to Nebuchadnezzar's headquarters at Riblah, where sentence is passed: his sons are executed in front of him — the last thing his eyes ever see — before he is blinded, bound in bronze shackles, and led away to Babylon. A month later, Nebuzaradan, captain of the guard, arrives from Riblah to finish the destruction: the temple, the palace, and every great house in Jerusalem go up in flames, the city walls are broken down all around, and most of the surviving population is deported, leaving only the poorest to work the land as vinedressers and farmers. What the fire and the siege didn't already ruin, Nebuzaradan's men strip for their metal: the temple's two great bronze pillars, Jachin and Boaz, the enormous bronze Sea and its stands, and every pot, shovel, snuffer, and vessel of gold, silver, or bronze — Solomon's furnishings, over four centuries old, broken up or carried off whole. The chief priest, the second priest, three doorkeepers, and dozens of officials and ordinary citizens are taken to Riblah and executed there too — Judah, the text says flatly, 'was taken into exile out of its land.' Nebuchadnezzar appoints Gedaliah governor over whoever remains, and Gedaliah, ruling from Mizpah, urges the scattered survivors simply to settle down, serve Babylon, and let it go well with them — until, within months, Ishmael, a member of the royal family, assassinates him at a banquet along with the Babylonian garrison stationed there, and the remaining population flees in fear to Egypt. The book's very last note reaches decades further: in the thirty-seventh year of Jehoiachin's captivity, the new Babylonian king Evil-merodach releases him from prison, seats him above the other exiled kings, and gives him a regular place at the royal table and a daily allowance for the rest of his life — one small, unexpected mercy at the very end of a book largely about judgment.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The besieged, breached, and finally burned capital (vv. 1-10)" },
+    { id:"jericho", role:"Where the Chaldean army overtakes the fleeing Zedekiah on the plains nearby (v. 5)" },
+    { id:"riblah", role:"Nebuchadnezzar's headquarters, where Zedekiah's sons are executed before him and he is then blinded, and where dozens of Judah's officials are later executed (vv. 6-7, 18-21)" },
+    { id:"babylon", role:"The destination of the exiled population and the temple's stripped treasures, and where Jehoiachin is eventually released and honored (vv. 11, 13, 27-30)" },
+    { id:"mizpah", role:"Gedaliah's brief seat of government over the remnant left in the land, and where he is assassinated (vv. 22-25)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"jericho", label:"Zedekiah's flight toward the Arabah", km:22,
+      note:"When the wall is finally breached, the king and his soldiers flee by night through a gate near the royal garden, only to be overtaken on the plains near Jericho as his army scatters around him (vv. 4-5)." },
+    { from:"jericho", to:"riblah", label:"Marched north to judgment", km:305,
+      note:"Captured and stripped of his army, Zedekiah is taken the length of the Levant to Nebuchadnezzar's headquarters at Riblah, where his sons are executed before his eyes and he is then blinded (vv. 6-7)." },
+    { from:"jerusalem", to:"babylon", dashed:true, label:"The long road into exile", km:870,
+      note:"A month after the wall falls, Nebuzaradan finishes the destruction and marches most of the surviving population — along with the temple's stripped bronze, gold, and silver — the long distance east into Babylonian captivity (vv. 11, 13-17)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"object", label:"Siege, wall, and famine",
+      desc:"Nebuchadnezzar's whole army surrounds Jerusalem in Zedekiah's ninth year and builds siege works against it; by the eleventh year the famine inside is so severe 'there was no bread for the people of the land' (vv. 1-3)." },
+    { x:0.2, type:"person", label:"Capture in the plains of Jericho", av:"king",
+      desc:"The wall is finally breached; Zedekiah and his soldiers flee by night toward the Arabah, but the Chaldean army overtakes them near Jericho — his own army scatters, and he is taken alone (vv. 4-5)." },
+    { x:0.34, type:"person", label:"Judgment at Riblah", av:"king",
+      desc:"Brought north to Nebuchadnezzar's headquarters at Riblah, Zedekiah watches his own sons executed before his eyes — the last thing he ever sees — before he is blinded, bound in bronze shackles, and marched to Babylon (vv. 6-7)." },
+    { x:0.48, type:"object", label:"The city burned, the walls broken down",
+      desc:"A month later Nebuzaradan, captain of the guard, arrives from Riblah and burns the temple, the palace, and every great house in Jerusalem, while the Chaldean army breaks down the city walls all around (vv. 8-10)." },
+    { x:0.62, type:"object", label:"Temple bronze stripped and carried off",
+      desc:"What fire doesn't finish, plunder does: the temple's two great bronze pillars, the enormous bronze Sea and its stands, and every remaining gold, silver, and bronze vessel are broken up or carried off whole to Babylon (vv. 13-17)." },
+    { x:0.76, type:"person", label:"Gedaliah's governorship, and his murder", av:"official",
+      desc:"Nebuchadnezzar appoints Gedaliah governor over those left in the land; ruling from Mizpah he urges the scattered survivors to settle down and serve Babylon in peace — until Ishmael, a member of the royal family, assassinates him at a banquet within months (vv. 22-26)." },
+    { x:0.9, type:"person", label:"Jehoiachin raised up in Babylon", av:"king",
+      desc:"The book's closing note reaches decades further: in the thirty-seventh year of his captivity, the new king Evil-merodach frees Jehoiachin from prison, seats him above the other exiled kings, and gives him a lifelong place at the royal table (vv. 27-30)." }
+  ],
+  environment: {
+    chips: ["A wall breached, a king fleeing by night", "Sons killed first, eyes put out last", "A month's grace before the burning begins", "Bronze beyond counting, broken for its weight", "Thirty-seven years, then a seat above other kings"],
+    text: "The chapter dates events with unusual precision for ancient historiography — year, month, and day repeatedly given — matching the kind of administrative record-keeping the Babylonian empire was known for. This was Judah's second deportation in a decade: a first wave in 597 BC had already carried off Jehoiachin and much of the skilled elite, leaving the poorest 'people of the land' behind in 586 BC as farmers, standard imperial practice for keeping conquered territory productive without a population capable of organizing rebellion. The Lachish ostraca, letters written on pottery shards during this very campaign, include a Judahite garrison commander reporting that he can no longer see the signal fires of Azekah — a chilling, non-biblical eyewitness fragment from the exact final weeks this chapter describes."
+  },
+  objectsExtra: ["temple-treasures-babylon"],
+  peopleExtra: ["zedekiah","nebuchadnezzar","gedaliah","nebuzaradan","jehoiachin","evil-merodach"],
+  culture: [
+    { title:"Two deportations, decades apart", icon:"🚶",
+      text:"The 597 BC deportation had already carried off Jehoiachin and Judah's skilled and elite population (2 Kgs 24:14-16); this final 586 BC deportation empties the city almost entirely, leaving only the poorest behind as vinedressers and plowmen (v. 12) — standard Babylonian and Assyrian imperial policy alike, designed to keep conquered land taxable and productive while removing anyone capable of leading a revolt." },
+    { title:"Blinded after watching his sons die", icon:"👁️",
+      text:"Zedekiah's specific fate fulfills two prophecies that read, on the surface, as contradictory: Jeremiah warned he would 'see the king of Babylon eye to eye' and go to Babylon himself (Jer 34:3), while Ezekiel warned he would be brought to Babylon yet 'not see it' (Ezek 12:13). Both come true exactly as written, because his sons are executed in front of him before his own eyes are put out — he sees the king's judgment, but never sees Babylon itself." },
+    { title:"Jehoiachin's rations, confirmed in clay", icon:"🏺",
+      text:"Babylonian administrative tablets excavated at Babylon — the so-called Weidner tablets — list oil rations issued to 'Yaukin, king of the land of Yahud,' and his sons among the royal captives fed from Nebuchadnezzar's own storehouses, external, non-biblical confirmation of exactly the detail 2 Kings 25:27-30 preserves as its very last note." }
+  ],
+  crossRefs: [
+    { group:"Zedekiah's paradoxical fate, foretold twice", refs:[
+      { r:"Jeremiah 34:2-3", note:"Jeremiah's earlier warning: Zedekiah will not escape Babylon's hand, will see the king of Babylon eye to eye, and go there himself" },
+      { r:"Ezekiel 12:12-13", note:"a seemingly contradictory prophecy from the same years: the prince will be brought to Babylon, the land of the Chaldeans — yet not see it" },
+      { r:"Jeremiah 39:4-7", note:"Jeremiah's own eyewitness parallel account of the flight, capture, and blinding at Riblah" } ]},
+    { group:"The exile, and a flicker of hope", refs:[
+      { r:"Jeremiah 52:31-34", note:"Jeremiah's own closing account, nearly word for word, of Jehoiachin's release and honored place in Babylon" },
+      { r:"2 Chronicles 36:15-21", note:"the Chronicler's summary verdict on the fall, and the land's sabbath rest of seventy years" },
+      { r:"Lamentations 1:1-3", note:"the poetic aftermath: 'how lonely sits the city that was full of people'" } ]}
+  ]
 }
 
 };
