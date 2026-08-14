@@ -186,7 +186,8 @@ function check(name, cond, extra) {
     "Judges 4|7:4", "Judges 7|7:7", "Judges 16|7:16",
     "Ruth 1|8:1", "Ruth 2|8:2", "Ruth 3|8:3", "Ruth 4|8:4",
     "1 Kings 3|11:3", "1 Kings 8|11:8",
-    "1 Kings 17|11:17", "1 Kings 18|11:18", "1 Kings 19|11:19"];
+    "1 Kings 17|11:17", "1 Kings 18|11:18", "1 Kings 19|11:19",
+    "2 Kings 5|12:5", "2 Kings 18|12:18", "2 Kings 19|12:19", "2 Kings 25|12:25"];
   for (const entry of CURATED_SWEEP) {
     const [ref, key] = entry.split("|");
     console.log(`== curated pipeline: ${ref} ==`);
