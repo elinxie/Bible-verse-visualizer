@@ -7035,6 +7035,256 @@ BVV.CURATED = {
       { r:"2 Chronicles 36:15-21", note:"the Chronicler's summary verdict on the fall, and the land's sabbath rest of seventy years" },
       { r:"Lamentations 1:1-3", note:"the poetic aftermath: 'how lonely sits the city that was full of people'" } ]}
   ]
+},
+
+/* ============================================================
+   EZRA 3 — the altar rebuilt, and the temple's foundation laid
+   ============================================================ */
+"15:3": {
+  era: {
+    title: "536 BC — the altar rebuilt, and the temple's foundation is laid",
+    sub: "Early Persian period · Jerusalem, newly resettled · the first and second years after the return under Zerubbabel and Jeshua",
+    badges: ["Persian period (Achaemenid)", "Return from Babylonian exile", "Second temple begun", "≈2,562 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "When the seventh month comes, the returned exiles gather to Jerusalem as one man, and Jeshua the priest and Zerubbabel set up the altar on its old foundation and resume burnt offerings morning and evening, exactly as the Law of Moses prescribes — even though, the text notes plainly, \"fear was on them because of the peoples of the lands.\" They keep the Feast of Booths as written, along with the regular offerings, new-moon offerings, and freewill gifts, but a full year passes with the temple's own foundation still unlaid. To fund the actual building, they pay masons and carpenters in silver and pay Sidonian and Tyrian shippers in food, drink, and oil to float cedar logs from Lebanon down the coast to Joppa, under a grant from Cyrus king of Persia — the identical arrangement Solomon's builders had used four centuries earlier. In the second year, second month, Zerubbabel and Jeshua finally break ground, appointing Levites twenty years old and up to oversee the work. When the foundation is actually laid, priests in their vestments sound trumpets and the sons of Asaph strike cymbals, reviving the musical order King David himself had set for temple worship; the singers answer one another, \"For he is good, for his steadfast love endures forever toward Israel,\" and the whole assembly raises a great shout of praise. But the shout is not one sound. Many of the older priests, Levites, and family heads who remember Solomon's first temple weep loudly at how the new foundation compares to what was lost, while everyone else shouts for joy at what has finally begun — and from any distance, the text says, no one could tell the weeping from the rejoicing; the noise carried far off as a single, mixed roar.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"Where the altar is rebuilt on its old foundation and, the following year, the temple's own foundation is laid amid weeping and shouting (vv. 1-13)" },
+    { id:"babylon", role:"The captivity these returnees have just left — 'all who had come to Jerusalem from the captivity' now do the building (v. 8)" },
+    { id:"joppa", role:"The port where cedar logs from Lebanon are floated ashore for the temple, under a grant from Cyrus — the same route Solomon's shippers had used (v. 7)" }
+  ],
+  journey: [
+    { from:"babylon", to:"jerusalem", dashed:true, label:"The exiles' return, already a year or two behind them", km:870,
+      note:"This is the same community Cyrus's decree released from Babylon (Ezra 1-2); by the time this chapter opens they are resettled 'in the towns' of Judah and gather to Jerusalem as one man for the altar's rebuilding (v. 1)." },
+    { from:"joppa", to:"jerusalem", label:"Cedar rafts hauled up from the coast", km:60,
+      note:"Masons and carpenters are paid in silver, and Sidonian and Tyrian shippers in food, drink, and oil, to float cedar logs from Lebanon down the coast and haul them inland from Joppa — the identical arrangement Solomon had used for the first temple four centuries earlier (v. 7; cf. 1 Kgs 5:9)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"priest", label:"Jeshua and Zerubbabel rebuild the altar first",
+      desc:"Before one stone of the temple itself is touched, Jeshua the priest and Zerubbabel set up the altar on its old foundation and resume burnt offerings morning and evening, 'for fear was on them because of the peoples of the lands' (vv. 2-3)." },
+    { x:0.19, type:"object", label:"The Feast of Booths, and the daily offerings resume",
+      desc:"They keep the Feast of Booths as written in the Law, along with the regular burnt offerings, new-moon offerings, and every freewill gift — worship restarts a full year before the building itself does (vv. 4-6)." },
+    { x:0.33, type:"object", label:"Cedar from Lebanon, paid for like Solomon's own",
+      desc:"Money goes to masons and carpenters; food, drink, and oil go to Sidon and Tyre for cedar logs floated to Joppa — the same supply chain, and by tradition the very same forests, Solomon's builders had used (v. 7)." },
+    { x:0.47, type:"person", av:"official", label:"Ground finally broken, Levites put in charge",
+      desc:"In the second year, second month, Zerubbabel and Jeshua make the actual beginning, appointing Levites twenty years old and older to oversee the work of the LORD's house (vv. 8-9)." },
+    { x:0.6, type:"object", label:"Trumpets and cymbals, 'according to David'",
+      desc:"As the builders lay the foundation, priests in vestments sound trumpets and Asaph's descendants strike cymbals, reviving the exact musical order King David had set two and a half centuries before (v. 10)." },
+    { x:0.74, type:"object", label:"\"He is good; his steadfast love endures forever\"",
+      desc:"The singers answer one another in the old refrain, and all the people raise a great shout of praise because the foundation of the LORD's house is laid at last (v. 11)." },
+    { x:0.9, type:"person", av:"elder", label:"Weeping elders, shouting youth — one indistinguishable sound",
+      desc:"Old priests, Levites, and family heads who remember Solomon's first temple weep aloud at how much smaller this one looks; everyone else shouts for joy, and from a distance the two sounds cannot be told apart (vv. 12-13)." }
+  ],
+  environment: {
+    chips: ["An altar rebuilt before the temple is even started", "Fear of the neighbors, worship anyway", "Cedar shipped exactly as Solomon shipped it", "Trumpets and cymbals reviving David's order", "Two generations, one indistinguishable sound"],
+    text: "Rebuilding the altar 'on its foundation' (v. 3) means reusing the exact sacred spot from Solomon's temple, likely still marked by the old altar's stone base even after decades of ruin — continuity mattered more than a fresh start. The 'peoples of the lands' the returnees feared were the mixed population that had grown up in and around Judah during the exile, including the ancestors of the later Samaritans, whose offer to help build the temple is refused a chapter later and who become open opponents. Cyrus's grant authorizing payment to Phoenician shippers (v. 7) matches documented Achaemenid practice of funding local cult restoration as imperial policy, corroborated by the Cyrus Cylinder's own boast of returning displaced peoples and their gods to their home sanctuaries."
+  },
+  objectsExtra: ["altar","trumpet"],
+  peopleExtra: ["zerubbabel","jeshua-priest"],
+  culture: [
+    { title:"An altar before a temple", icon:"⛰️",
+      text:"Restoring sacrifice at the altar a full year before any work begins on the temple building itself reflects a real priority: functioning worship, not architecture, was the urgent thing. The altar's exposed position also made it the most vulnerable point to hostile neighbors, which is exactly why the text notes the builders' fear even as they went ahead (v. 3)." },
+    { title:"Cyrus's grant, and Solomon's old supply route", icon:"🌊",
+      text:"Paying Phoenician shippers in food, drink, and oil rather than coin, and floating cedar logs down the coast to Joppa for the overland haul to Jerusalem, reproduces Solomon's arrangement with Hiram of Tyre almost exactly (1 Kgs 5:6-10) — the returned community is deliberately building the second temple to look, structurally and procedurally, like a resumption of the first." },
+    { title:"Weeping and shouting, impossible to separate", icon:"😢",
+      text:"The old-timers' grief likely had a concrete cause beyond nostalgia: Solomon's temple had been gold-plated within and towered over its modest successor (cf. Hag 2:3, addressed to this same generation a little later, asking whether the new house doesn't look 'as nothing' next to the first). Scripture doesn't resolve the tension between the two reactions — it simply records that both were real, and both were loud." }
+  ],
+  crossRefs: [
+    { group:"Cyrus's decree and the return", refs:[
+      { r:"Ezra 1:1-4", note:"Cyrus's original decree releasing the exiles and funding the temple's rebuilding — the event this chapter's community is already a year or two removed from" },
+      { r:"2 Chronicles 36:22-23", note:"the Chronicler's own account of the same decree, in nearly identical wording, closing out the Old Testament's historical books" },
+      { r:"Isaiah 44:28-45:1", note:"Cyrus named by God as his 'shepherd' and 'anointed' more than a century before he was born" } ]},
+    { group:"Solomon's temple, echoed and mourned", refs:[
+      { r:"1 Kings 5:6-10", note:"Solomon's own cedar-from-Lebanon arrangement with Hiram of Tyre, the model this chapter's builders are consciously repeating" },
+      { r:"1 Chronicles 25:1-7", note:"David's original establishment of the trumpet-and-cymbal order the priests and Asaph's sons are now reviving" },
+      { r:"Haggai 2:3-9", note:"a later prophetic word to this very community: the new house looks like nothing beside the old, yet its latter glory will exceed it" } ]}
+  ]
+},
+
+/* ============================================================
+   NEHEMIAH 2 — Nehemiah's request, and a secret night ride
+   ============================================================ */
+"16:2": {
+  era: {
+    title: "445 BC — Nehemiah's request, and a secret night ride around the walls",
+    sub: "Persian period · Susa, then Jerusalem · Nisan, the twentieth year of King Artaxerxes I",
+    badges: ["Persian period (Achaemenid)", "Yehud province", "Wall-rebuilding begins", "≈2,471 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "It is Nisan, the twentieth year of King Artaxerxes, and Nehemiah — the king's own cupbearer — brings the wine as always, except this time his face gives him away: he has never been sad in the king's presence before. Terrified, he explains himself anyway: how could his face not be sad, when the city of his fathers' graves lies in ruins and its gates are burned? Before answering the king's next question, Nehemiah prays silently to the God of heaven, then asks for something enormous — leave to go and rebuild Jerusalem, letters of safe passage to the governors of the province Beyond the River, and a letter to Asaph, keeper of the king's forest, for timber to rebuild the temple fortress's gates, the city wall, and his own house. The king grants all of it, and sends army officers and horsemen along with him — \"the good hand of my God was upon me,\" Nehemiah writes. Word reaches Sanballat the Horonite and Tobiah the Ammonite official before Nehemiah even arrives, and it displeases them badly that someone has come to seek Israel's welfare. Once in Jerusalem, Nehemiah waits three days, tells no one his plan, and then rides out alone at night with a few companions on a single animal, inspecting the ruined walls in the dark — out past the Valley Gate, the Dragon Spring, and the Dung Gate, on toward the Fountain Gate and the King's Pool, where the rubble is too thick for even his mount to pass, then back up the valley and in again through the Valley Gate. No one — not the officials, not the Jews, not the priests — yet knows what he's doing or why. Only afterward does he lay it out for them plainly: \"You see the trouble we are in... come, let us build the wall of Jerusalem, that we may no longer suffer derision.\" He tells them of God's hand on him and of the king's own words, and they answer at once, \"Let us rise up and build,\" and set to work. Sanballat, Tobiah, and now a third figure, Geshem the Arab, hear of it and mock them outright — \"are you rebelling against the king?\" — and Nehemiah answers that the God of heaven will make them prosper, that he and his people will build, and that the mockers themselves have \"no portion or right or claim in Jerusalem.\"",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"susa", role:"The Persian winter capital, where Nehemiah serves as royal cupbearer and makes his request to Artaxerxes (vv. 1-8)" },
+    { id:"jerusalem", role:"The ruined city Nehemiah rides around alone by night before revealing his plan to rebuild it (vv. 11-18)" }
+  ],
+  journey: [
+    { from:"susa", to:"jerusalem", label:"Nehemiah's journey west, under royal escort", km:1600,
+      note:"Granted letters of safe-conduct to the governors of the province Beyond the River, plus a timber grant and an armed escort of officers and horsemen, Nehemiah makes the long journey from the Persian court to the ruined city of his fathers (vv. 7-9)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"official", label:"A sad face before the king",
+      desc:"In Nisan, wine before Artaxerxes as always, but this time the king notices Nehemiah's sadness though he isn't sick; Nehemiah is 'very much afraid' at being caught (vv. 1-2)." },
+    { x:0.18, type:"person", av:"official", label:"\"Why should not my face be sad?\"",
+      desc:"Nehemiah explains: the city of his fathers' graves lies in ruins, its gates burned; he prays silently to the God of heaven, then asks to be sent to rebuild it (vv. 3-5)." },
+    { x:0.32, type:"object", label:"Letters of passage, and timber from the king's forest",
+      desc:"He requests letters to the governors of Beyond the River for safe passage, and a letter to Asaph, keeper of the king's forest, for timber — all granted, 'for the good hand of my God was upon me' (vv. 6-8)." },
+    { x:0.46, type:"person", av:"official", label:"Sanballat and Tobiah, already displeased",
+      desc:"Army officers and horsemen escort him to Judah; news of his coming displeases Sanballat the Horonite and Tobiah the Ammonite official, who resent anyone seeking Israel's welfare (vv. 9-10)." },
+    { x:0.58, type:"object", label:"Three days, then a lone night ride",
+      desc:"After resting three days, Nehemiah rides out at night with a few men, telling no one, past the Valley Gate, the Dragon Spring, the Dung Gate, the Fountain Gate, and the King's Pool — where rubble blocks even his animal — inspecting the broken walls and burned gates in the dark (vv. 11-15)." },
+    { x:0.74, type:"person", av:"official", label:"\"Let us rise up and build\"",
+      desc:"Only now does Nehemiah reveal the plan to the Jews, priests, nobles, and officials, telling them of God's hand on him and the king's own words; they resolve together and 'strengthened their hands for the good work' (vv. 16-18)." },
+    { x:0.9, type:"person", av:"official", label:"Mocked as rebels",
+      desc:"Sanballat, Tobiah, and now Geshem the Arab jeer and accuse them of rebelling against the king; Nehemiah replies that God will prosper them, and the mockers themselves have 'no portion or right or claim in Jerusalem' (vv. 19-20)." }
+  ],
+  environment: {
+    chips: ["A cupbearer's face, read by the king", "A silent prayer before a spoken request", "Letters that double as a royal passport", "A lone rider, a few men, no torches announced", "Mockery answered with a property line, not an argument"],
+    text: "A royal cupbearer's job was to taste the king's wine against poison, which put Nehemiah in daily, trusted proximity to the most powerful man in the world — exactly why an unguarded sad face there was dangerous enough to leave him 'very much afraid' (v. 2). 'The province Beyond the River' (Abar-Nahara) was the Persian satrapy covering Syria-Palestine, administered from Damascus, and royal letters like the ones Nehemiah carries functioned as genuine travel authorization within that bureaucracy. The gates and features he inspects by night — the Valley Gate, the Dung Gate, the Fountain Gate, the King's Pool — correspond to real, excavated features of Jerusalem's City of David ridge, giving his midnight route an unusually concrete, mappable itinerary for an ancient text."
+  },
+  peopleExtra: ["nehemiah","artaxerxes","sanballat","tobiah"],
+  culture: [
+    { title:"The cupbearer's dangerous trust", icon:"🍷",
+      text:"Tasting the king's wine to guard against poisoning put the cupbearer in the innermost circle of royal trust — close enough to speak freely, but also close enough that an unexplained change in mood could look like plotting. Persian and other Near Eastern court records independently attest cupbearers as high-status officials, which is exactly why Nehemiah's fear at being noticed (v. 2) was not an overreaction." },
+    { title:"A royal letter as a passport", icon:"📜",
+      text:"Nehemiah's letters to 'the governors of the province Beyond the River' (v. 7) are a documented feature of Achaemenid administration — written authorizations that provincial officials were expected to honor on sight, the ancient equivalent of diplomatic travel papers, backed in this case by an actual military escort (v. 9)." },
+    { title:"Three opponents, three real names", icon:"🪨",
+      text:"All three men who mock the wall-building are independently attested outside the Bible: a Persian-period governor of Samaria named Sanballat appears in the Elephantine papyri; Ammonite seal impressions preserve a family of officials named Tobiah; and an Arab chieftain named Geshem (Gashmu) is named in a silver bowl inscription from northern Sinai — three named opponents of a small building project, oddly well documented for figures this minor." }
+  ],
+  crossRefs: [
+    { group:"Nehemiah's prayer, private and public", refs:[
+      { r:"Nehemiah 1:4-11", note:"his earlier days of fasting, mourning, and prayer on first hearing Jerusalem's condition — the direct backstory to this chapter's silent 'arrow prayer' before the king" },
+      { r:"Nehemiah 4:4-9", note:"prayer again once opposition turns from mockery toward an actual plot to attack the builders" },
+      { r:"Psalm 127:1", note:"'unless the LORD builds the house, the builders labor in vain' — the assumption behind every request Nehemiah makes" } ]},
+    { group:"Opposition through the whole project", refs:[
+      { r:"Nehemiah 4:1-3", note:"Sanballat and Tobiah's mockery escalates into open ridicule once the wall-building actually begins" },
+      { r:"Nehemiah 6:1-14", note:"their later, more dangerous plots against Nehemiah personally, once the wall nears completion" },
+      { r:"Ezra 4:1-5", note:"a near-identical pattern of local opposition to the temple project itself, a generation earlier" } ]}
+  ]
+},
+
+/* ============================================================
+   NEHEMIAH 8 — the Law read aloud, and the Feast of Booths restored
+   ============================================================ */
+"16:8": {
+  era: {
+    title: "445 BC — the Law read aloud, and the first Feast of Booths since Joshua",
+    sub: "Persian period · Jerusalem, the square before the Water Gate · the seventh month, weeks after the wall's completion",
+    badges: ["Persian period (Achaemenid)", "Yehud province", "Public reading of the Law", "≈2,471 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Weeks after the wall itself is finished, the whole community gathers 'as one man' into the square before the Water Gate and asks Ezra the scribe to bring out the Book of the Law of Moses. Standing on a purpose-built wooden platform with thirteen men beside him, Ezra reads aloud to everyone old enough to understand — men and women together — from early morning until noon, and 'the ears of all the people were attentive.' He opens the book in full view of the crowd, and everyone stands; he blesses the LORD, and the people answer, \"Amen, Amen,\" lifting their hands, then bow with their faces to the ground in worship. Thirteen named Levites move through the assembly as he reads, giving the sense of the text so that people actually understand what they're hearing, not merely listening to it. And what they understand makes them weep — until Nehemiah the governor, Ezra the priest, and the instructing Levites tell them together to stop: \"This day is holy to the LORD your God; do not mourn or weep... go your way, eat the fat and drink sweet wine, and send portions to anyone who has nothing ready, for the joy of the LORD is your strength.\" Quieted, the people go off to feast, share with those who have nothing prepared, and celebrate, because they finally understood the words read to them. The next day, family heads return with the priests and Levites to study further, and in the Law itself they find a command they had apparently forgotten how to keep: that Israel should live in booths during this month's feast. Word goes out to every town and to Jerusalem to gather branches — olive, wild olive, myrtle, palm, and other leafy trees — and the people build booths everywhere: on their own roofs, in courtyards, in the temple courts, and in the city squares. The whole returned community keeps the feast this way, the text notes, for the first time 'since the days of Joshua the son of Nun' — and there is very great rejoicing. Ezra reads from the Law every day of the seven-day feast, closing with a solemn assembly on the eighth day.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The square before the Water Gate, where the Law is read aloud from daybreak to noon and the Feast of Booths is kept for the first time in generations (vv. 1-18)" },
+    { id:"babylon", role:"The captivity this 'assembly of those who had returned' (v. 17) had been carried into — the same exile Ezra himself had led a return from a dozen years earlier (Ezra 7:6-9)" }
+  ],
+  journey: [
+    { from:"babylon", to:"jerusalem", dashed:true, label:"The return this assembly still calls itself by", km:870,
+      note:"The crowd gathered at the Water Gate is explicitly identified as 'the assembly of those who had returned from the captivity' (v. 17) — the same community, or their children, whose journey out of Babylon this whole book assumes as its starting point." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"priest", label:"The people ask for the Book of the Law",
+      desc:"The whole assembly gathers as one man before the Water Gate and asks Ezra the scribe to bring the Law; he reads aloud from daybreak to noon to everyone old enough to understand (vv. 1-3)." },
+    { x:0.19, type:"person", av:"priest", label:"A wooden platform, and a book opened for all to see",
+      desc:"Ezra stands on a purpose-built platform with thirteen men beside him; he opens the book in full view, so everyone stands, then blesses the LORD as the people answer 'Amen, Amen' and bow with faces to the ground (vv. 4-6)." },
+    { x:0.33, type:"person", av:"priest", label:"Levites moving through the crowd, giving the sense",
+      desc:"Thirteen named Levites move among the people as Ezra reads, explaining the meaning clearly so the Law is actually understood, not merely heard (vv. 7-8)." },
+    { x:0.47, type:"object", label:"\"This day is holy... do not weep\"",
+      desc:"The people weep as they hear and understand the Law's demands; Nehemiah, Ezra, and the Levites together tell them to stop mourning — go eat richly, share with the needy, for 'the joy of the LORD is your strength' (vv. 9-10)." },
+    { x:0.6, type:"object", label:"The Levites calm the crowd, and the feasting begins",
+      desc:"'Be quiet, for this day is holy'; the people go off to eat, drink, share, and celebrate, because they finally understood what had been read to them (vv. 11-12)." },
+    { x:0.74, type:"object", label:"Branches for booths, rediscovered in the text itself",
+      desc:"The next day, family heads return to study further with Ezra and find, in the Law, the command to dwell in booths during this month's feast; word goes out to every town to gather olive, myrtle, palm, and other leafy branches (vv. 13-16)." },
+    { x:0.9, type:"object", label:"Not kept like this since the days of Joshua",
+      desc:"The whole returned community builds booths on roofs, in courtyards, and in the city squares and lives in them for seven days with 'very great rejoicing' — not observed this way, the text says, since Joshua son of Nun; the reading continues daily, closing with a solemn assembly on the eighth day (vv. 17-18)." }
+  ],
+  environment: {
+    chips: ["A crowd that asks for the Law, unprompted", "A platform built just to hold the book up", "Understanding, not just hearing, as the actual goal", "Grief redirected into a feast by royal and priestly order alike", "Roofs and courtyards turned into a week of leaf-roofed shelters"],
+    text: "'Giving the sense' (v. 8) likely means more than reading clearly — many scholars think it points to on-the-spot explanation, possibly even translation, since generations in Babylon had left Aramaic as the community's everyday language while the Law remained in Hebrew. The Water Gate square sat near the Gihon spring on the City of David's eastern slope, a natural gathering point close to the freshly rebuilt wall. The Feast of Booths itself (Lev 23:33-43) commemorated the wilderness wandering by having Israel live outdoors in branch-built shelters for a week — a vivid, physically uncomfortable memorial that this generation, remarkably, had to relearn from scratch by reading their own Law."
+  },
+  objectsExtra: ["scroll"],
+  peopleExtra: ["ezra","nehemiah"],
+  culture: [
+    { title:"Reading aloud, and 'giving the sense'", icon:"📖",
+      text:"Public reading of the Law was itself a Mosaic command, prescribed every seven years at this very feast (Deut 31:10-13); what's new here is the emphasis on comprehension — thirteen Levites are named specifically for making sure the crowd understood, not just heard, suggesting active teaching or interpretation alongside the reading itself." },
+    { title:"Grief redirected into a feast", icon:"🎉",
+      text:"The people's weeping (v. 9) was likely genuine conviction — recognizing how far daily practice had drifted from what the Law actually required. Nehemiah, Ezra, and the Levites' joint insistence on joy instead produces one of the Old Testament's most quoted lines, 'the joy of the LORD is your strength' (v. 10), treating celebration itself as an act of obedience rather than a relief from it." },
+    { title:"Booths not kept like this since Joshua", icon:"🌿",
+      text:"The claim that Israel hadn't observed the feast this fully 'since the days of Joshua son of Nun' (v. 17) is striking — it means not even under David or at the height of Solomon's kingdom was it kept with this degree of care, suggesting the full communal practice of living in booths, as opposed to simply offering the feast's sacrifices, had lapsed for the better part of a millennium before this reading revived it." }
+  ],
+  crossRefs: [
+    { group:"The Law, and the feast it commands", refs:[
+      { r:"Leviticus 23:33-43", note:"the original instructions for the Feast of Booths — its timing, its sacrifices, and the command to live in branch-built shelters for seven days" },
+      { r:"Deuteronomy 31:10-13", note:"Moses' command to read the Law publicly at this very feast every seventh year, so children too young to remember Sinai would still hear it" },
+      { r:"2 Kings 23:21-23", note:"Josiah's earlier Passover revival, described with the identical 'not kept since' formula — a recurring biblical pattern of rediscovering neglected worship" } ]},
+    { group:"What this reading sets in motion", refs:[
+      { r:"Nehemiah 9:1-3", note:"the very next act: a further fast, sackcloth, and public confession building directly on this reading" },
+      { r:"Nehemiah 10:28-29", note:"the covenant renewal and binding oath that follows, signed by the community's leaders" },
+      { r:"Ezra 7:10", note:"Ezra's own life mission stated at his introduction — to study, obey, and teach the Law — now visibly fulfilled" } ]}
+  ]
+},
+
+/* ============================================================
+   ESTHER 4 — Mordecai's plea, and "for such a time as this"
+   ============================================================ */
+"17:4": {
+  era: {
+    title: "474 BC — Mordecai's sackcloth, and \"for such a time as this\"",
+    sub: "Persian period · Susa, the royal citadel · weeks after Haman's decree of annihilation",
+    badges: ["Persian period (Achaemenid)", "Reign of Ahasuerus (Xerxes I)", "The Jews of the dispersion", "≈2,500 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "News of Haman's decree reaches Mordecai, and he tears his clothes, puts on sackcloth and ashes, and goes out into the city crying loudly and bitterly — stopping only at the entrance to the king's gate, since no one dressed in sackcloth is allowed inside it. The same scene plays out everywhere the decree travels: in every province, Jews respond with fasting, weeping, and lament, many lying in sackcloth and ashes just like Mordecai. Word of this reaches Esther inside the palace, and she is 'deeply distressed'; she sends Mordecai fresh garments to replace the sackcloth, but he refuses them. So she sends her eunuch Hathach to find out what's wrong, and Mordecai tells him everything — the decree itself, and even the exact sum Haman promised to pay into the royal treasury for the Jews' destruction — and hands him a written copy of the edict to show Esther, with an urgent instruction: go to the king and beg for her people. Esther's answer, relayed back through Hathach, is a real risk assessment, not a refusal: anyone who approaches the king's inner court unsummoned is put to death, no exceptions, unless the king extends the golden scepter — and she herself hasn't been called in thirty days. Mordecai's reply, sent back through the same channel, refuses to let her hide behind the law: staying silent won't save her either, since she and her father's house will still perish if the Jews are destroyed, while relief will rise for them from somewhere else if not from her — \"and who knows whether you have not come to the kingdom for such a time as this?\" Esther's answer becomes the turning point of the whole book: gather every Jew in Susa, hold a three-day fast on her behalf, no food or water, day or night; she and her attendants will fast the same way; then she will go to the king, unsummoned, against the law — \"and if I perish, I perish.\" Mordecai leaves and does exactly as she instructed.",
+  focusPlace: "susa",
+  places: [
+    { id:"susa", role:"The citadel where Mordecai mourns at the king's gate and Esther, inside the palace, learns what he wants of her (vv. 1-17)" },
+    { id:"jerusalem", role:"The city Mordecai's family had been carried away from generations earlier, in the same deportation that took King Jeconiah (Esth 2:5-6) — the ancestral home this whole community lives permanently outside of" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"susa", dashed:true, label:"The exile Mordecai's family never returned from", km:1600,
+      note:"Mordecai is introduced a chapter earlier as a descendant of those 'carried away from Jerusalem' with Jeconiah (Esth 2:5-6) — unlike Zerubbabel's, Ezra's, or Nehemiah's communities, his family is among the Jews who stayed on in the Persian heartland rather than going back." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"official", label:"Sackcloth and ashes at the king's gate",
+      desc:"Mordecai learns of the decree, tears his clothes, puts on sackcloth and ashes, and goes crying loudly into the city — stopping at the king's gate, since no one may enter it dressed in sackcloth (vv. 1-2)." },
+    { x:0.18, type:"object", label:"Mourning in every province",
+      desc:"Wherever the king's decree reaches, Jews respond with fasting, weeping, and lamenting; many lie in sackcloth and ashes, the same scene repeated across the whole empire (v. 3)." },
+    { x:0.31, type:"person", av:"woman", label:"Esther's distress, and a refused change of clothes",
+      desc:"Word reaches Esther inside the palace; deeply distressed, she sends Mordecai garments to replace the sackcloth, but he refuses them (v. 4)." },
+    { x:0.44, type:"person", av:"official", label:"Hathach carries the message both ways",
+      desc:"Esther sends her eunuch Hathach to learn what's wrong; Mordecai tells him everything, including the exact sum Haman promised the treasury, and gives him a copy of the decree to show Esther, urging her to plead with the king (vv. 5-9)." },
+    { x:0.57, type:"person", av:"woman", label:"\"I have not been called... these thirty days\"",
+      desc:"Esther replies that anyone who approaches the king unsummoned risks death unless he extends the golden scepter — and she hasn't been summoned in a month (vv. 10-11)." },
+    { x:0.7, type:"person", av:"official", label:"\"For such a time as this\"",
+      desc:"Mordecai's answer, sent back through the messengers: silence won't save her either; relief will come from somewhere if not from her, but she and her father's house will perish — and who knows if she has come to her position for exactly this moment (vv. 12-14)." },
+    { x:0.85, type:"person", av:"woman", label:"\"If I perish, I perish\"",
+      desc:"Esther asks Mordecai to gather all the Jews of Susa for a three-day fast alongside her and her attendants, then declares she will go to the king against the law, whatever it costs; Mordecai does everything she asks (vv. 15-17)." }
+  ],
+  environment: {
+    chips: ["Loud, public grief stopped at a doorway", "The same mourning repeated province by province", "A queen who doesn't yet know she's in danger", "A eunuch as the only line of communication", "Thirty days of silence, then a three-day fast"],
+    text: "That sackcloth-clad mourners could not pass the king's gate (v. 2) reflects real royal-court decorum: displays of grief, like anything associated with death or disaster, were kept away from spaces meant to project the king's own untroubled majesty. Persian court protocol treating an unsummoned approach to the king as a capital offense, with the golden scepter as the sole exception (v. 11), is independently described by the Greek historian Herodotus writing about this same Achaemenid court. A three-day fast without food or water (v. 16) was an unusually severe undertaking, closer to the kind of total abstention reserved for the gravest crises."
+  },
+  objectsExtra: ["sackcloth"],
+  peopleExtra: ["esther","mordecai","haman","hathach","ahasuerus"],
+  culture: [
+    { title:"Sackcloth stopped at the threshold", icon:"🪶",
+      text:"Mordecai can mourn as loudly as he likes in the open city, but sackcloth itself is barred from the king's gate (v. 2) — grief was tolerated as a public, even expected, response to disaster, but never allowed to intrude on the deliberately untroubled formality of the royal presence itself." },
+    { title:"Unsummoned before the king — confirmed outside the Bible", icon:"👑",
+      text:"The extreme formality Esther describes — that even the queen could be executed for approaching unsummoned, spared only by the king extending his scepter (v. 11) — is corroborated by classical writers like Herodotus, who independently describe the rigid protocols surrounding access to the Achaemenid throne." },
+    { title:"Providence, never named", icon:"🕊️",
+      text:"Esther is the only book in the Hebrew Bible that never mentions God by name. Mordecai's whole argument leans on an unstated but assumed providence — 'who knows whether you have not come to the kingdom for such a time as this?' (v. 14) — and the entire book works this way throughout, visible only in hindsight, never announced in advance." }
+  ],
+  crossRefs: [
+    { group:"Mordecai and Esther's backstory", refs:[
+      { r:"Esther 2:5-7", note:"Mordecai's exile lineage and his adoption of the orphaned Esther as his own daughter — the family history this chapter assumes" },
+      { r:"Esther 3:8-13", note:"Haman's decree itself, bribed through the king and sealed with his signet, the news Mordecai is reacting to" },
+      { r:"Esther 2:19-23", note:"Mordecai's earlier, quieter service at the king's gate, uncovering an assassination plot — already establishing that he has some standing there" } ]},
+    { group:"The turn the fast makes possible", refs:[
+      { r:"Esther 5:1-3", note:"the very next scene: Esther approaches unsummoned, and the king extends the golden scepter" },
+      { r:"Esther 8:3-8", note:"her second, successful appeal, securing a counter-edict that reverses the decree's effect" },
+      { r:"Esther 9:20-22", note:"the Feast of Purim instituted afterward to commemorate the deliverance this chapter's fast and decision set in motion" } ]}
+  ]
 }
 
 };
