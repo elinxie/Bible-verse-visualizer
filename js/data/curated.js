@@ -7285,6 +7285,186 @@ BVV.CURATED = {
       { r:"Esther 8:3-8", note:"her second, successful appeal, securing a counter-edict that reverses the decree's effect" },
       { r:"Esther 9:20-22", note:"the Feast of Purim instituted afterward to commemorate the deliverance this chapter's fast and decision set in motion" } ]}
   ]
+},
+
+/* ============================================================
+   JOB 1 — Job's blamelessness; the heavenly council; the first wager
+   ============================================================ */
+"18:1": {
+  era: {
+    title: "Uncertain — traditionally patriarchal era (ca. 2000-1800 BC)",
+    sub: "Bronze Age pastoral wealth · the land of Uz, on Edom's or northern Arabia's borderlands · outside any datable Israelite history",
+    badges: ["Patriarchal era (traditional)", "Wisdom literature", "Outside Israel's own history", "≈3,900 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "Job of Uz is introduced in full before anything happens to him: blameless, upright, God-fearing, and 'the greatest of all the people of the east' — seven sons, three daughters, and vast herds of sheep, camels, oxen, and donkeys. His sons take turns hosting feasts, and Job rises early afterward to offer a burnt offering for each of them, just in case any had cursed God in their hearts; it is a standing habit, not a single act. The scene then shifts to a courtroom none of them can see: the 'sons of God' present themselves before the LORD, and 'the satan' — a title, 'the accuser,' not yet the New Testament's fully personal devil-figure — comes among them. Asked whether he has considered Job, the accuser counters that Job's piety is bought: strip away the hedge of blessing around him and he will curse God to his face. The LORD permits an attack on everything Job has, but forbids any hand laid on Job himself. Back on earth, four messengers arrive in horrifying, overlapping succession — each cut off mid-report by the next — announcing that Sabean raiders killed the servants and stole the oxen and donkeys, that fire fell from the sky and burned up the sheep, that Chaldean raiders in three bands stole the camels and killed more servants, and finally that a great wind collapsed the house where all ten of Job's children were feasting together, killing every one of them. Job tears his robe, shaves his head, and falls to the ground — not in collapse but in worship: 'the LORD gave, and the LORD has taken away; blessed be the name of the LORD.' In all this, the chapter insists, Job did not sin or charge God with wrong.",
+  focusPlace: "uz",
+  places: [
+    { id:"uz", role:"Job's homeland — 'the greatest of all the people of the east,' where his feasts, his flocks, and his sudden losses all take place (vv. 1-3, 13-19)" },
+    { id:"edom", role:"Neighboring territory whose borderlands anchor most scholarly guesses at Uz's disputed location (see this place's own ancient note)" }
+  ],
+  journey: [
+    { from:"edom", to:"uz", dashed:true, label:"Uz's disputed borderland with Edom", km:50,
+      note:"Uz was never precisely located even in antiquity; its own internal clues — Eliphaz 'the Temanite,' Sabean raiders from the south, Chaldean raiders from the east — point to open pastoral steppe somewhere along Edom's or northern Arabia's edge." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"elder", label:"Job of Uz: blameless, and the greatest man of the east",
+      desc:"Job is blameless and upright, fearing God and shunning evil; seven sons, three daughters, and vast herds — 7,000 sheep, 3,000 camels, 500 yoke of oxen, 500 donkeys — make him 'the greatest of all the people of the east' (vv. 1-3)." },
+    { x:0.18, type:"person", av:"elder", label:"A father's standing offerings",
+      desc:"After his children's rotating feasts, Job rises early to offer a burnt offering for each of them, in case any had 'cursed God in their hearts' — a quiet, constant habit, not a one-time act (vv. 4-5)." },
+    { x:0.35, type:"person", av:"traveler", label:"The heavenly council; the satan's challenge",
+      desc:"The 'sons of God' present themselves before the LORD, and 'the satan' comes among them. Asked about Job, he counters that Job's piety is bought — strip the hedge of blessing around him and he will curse God to his face. The LORD permits an attack on all Job has, but not on Job himself (vv. 6-12)." },
+    { x:0.55, type:"object", label:"Two messengers: Sabeans, then fire from heaven",
+      desc:"While Job's children feast at the eldest brother's house, a messenger reports Sabean raiders have taken the oxen and donkeys and killed the servants — and before he finishes, a second reports 'the fire of God' fell from the sky and burned up the sheep and their shepherds. Each closes with the same line: 'I alone have escaped to tell you' (vv. 13-16)." },
+    { x:0.72, type:"object", label:"Two more: Chaldeans, then the wind that kills all ten children",
+      desc:"A third messenger reports Chaldean raiders in three bands have stolen the camels and killed more servants; a fourth, arriving before the third even finishes, reports a great wind swept in from the wilderness, collapsed the house where all ten of Job's children were feasting together, and killed every one of them (vv. 17-19)." },
+    { x:0.92, type:"person", av:"elder", label:"\"The LORD gave, and the LORD has taken away\"",
+      desc:"Job tears his robe, shaves his head, and falls to the ground — not in collapse but in worship: 'naked I came... naked shall I return; the LORD gave, and the LORD has taken away; blessed be the name of the LORD.' In all this, Job did not sin or charge God with wrong (vv. 20-22)." }
+  ],
+  environment: {
+    chips: ["A wager Job never hears about", "Four messengers, none finishing before the next arrives", "Ten children lost in one collapsing house", "A robe torn, a head shaved — then worship, not collapse", "\"The LORD gave, and the LORD has taken away\""],
+    text: "Job's wealth is counted the patriarchal way — livestock and servants, not coined money or land title — the same yardstick Genesis uses for Abraham; the label 'greatest of all the people of the east' places Uz among the pastoral societies east and south of Canaan, outside Israel's own history entirely. The chapter's four-messenger relay is deliberate storytelling craft: each report interrupts the last mid-sentence ('while he was yet speaking, there came also another'), compressing what could have been days of disaster into one unbearable audience for Job. Tearing an outer robe and shaving the head were standard ancient Near Eastern mourning rites — grief made visible on the body — which is exactly why Job's response reads as so unexpected: the same gestures that elsewhere mark despair here frame an act of worship."
+  },
+  objectsExtra: ["robe"],
+  peopleExtra: ["job","ha-satan","job-messengers"],
+  culture: [
+    { title:"The divine council (bene elohim)", icon:"🏛️",
+      text:"Ancient Near Eastern religious thought regularly pictured a high god presiding over a court of lesser divine beings; Scripture borrows the same courtroom image while keeping every member of it — including 'the satan' — subordinate and answerable to the LORD. Nothing happens to Job that this court does not first debate and bound: the wager is real, but never a contest between equals." },
+    { title:"'The satan' — an office, not yet a name", icon:"⚖️",
+      text:"Hebrew 'ha-satan' carries the definite article throughout, functioning as a title ('the accuser/adversary') rather than a proper name — closer to a prosecuting attorney testing a case than to the fully developed tempter-and-enemy figure of later Jewish and Christian tradition. His question, 'does Job fear God for nothing?', is the whole book's real subject: whether devotion can survive with no payoff attached." },
+    { title:"Livestock as wealth, feast as family bond", icon:"🐑",
+      text:"Camels, sheep, oxen, and donkeys were the patriarchal era's measure of a man's standing, exactly as with Abraham (Gen 12:16) and Jacob (Gen 30:43); the sons' custom of rotating feasts, each hosting in turn with their sisters invited, pictures a large, close, prosperous household — the very thing the chapter goes on to strip away in a single day." }
+  ],
+  crossRefs: [
+    { group:"The heavenly council, elsewhere in Scripture", refs:[
+      { r:"1 Kings 22:19-22", note:"Micaiah's vision of the LORD enthroned with the whole host of heaven deliberating below him — the same courtroom setting" },
+      { r:"Zechariah 3:1-2", note:"'the satan' again standing to accuse, this time the high priest Joshua, and again rebuked by the LORD directly" },
+      { r:"Job 2:1-6", note:"the council reconvenes for the second, harsher wager over Job's own body" } ]},
+    { group:"Job's story read backward and forward", refs:[
+      { r:"Ezekiel 14:14, 20", note:"Job named alongside Noah and Daniel as one of only three men whose righteousness could save no one but himself" },
+      { r:"James 5:11", note:"'you have heard of the steadfastness of Job, and you have seen the purpose of the Lord' — the NT's own reading of this chapter" },
+      { r:"Job 42:10-17", note:"the restoration that eventually answers this chapter's losses, doubling Job's possessions and giving him ten more children" } ]}
+  ]
+},
+
+/* ============================================================
+   JOB 2 — The second wager; Job's sores; his wife; the three friends
+   ============================================================ */
+"18:2": {
+  era: {
+    title: "Uncertain — traditionally patriarchal era (ca. 2000-1800 BC)",
+    sub: "Bronze Age pastoral world · the land of Uz · immediately after the first wager",
+    badges: ["Patriarchal era (traditional)", "Wisdom literature", "Outside Israel's own history", "≈3,900 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "The heavenly council reconvenes exactly as before: the sons of God present themselves, and the satan comes among them again. The LORD points out that Job still holds fast his integrity, 'although you incited me against him, to destroy him without cause' — the narrative's own blunt admission that the first round achieved nothing but loss. The accuser raises the stakes: 'skin for skin! All that a man has he will give for his life. But stretch out your hand and touch his bone and his flesh, and he will curse you to your face.' The LORD permits it, with one boundary: Job's life must be spared. Job is struck with loathsome sores from the sole of his foot to the crown of his head; he sits down among the ashes and scrapes himself with a piece of broken pottery. His wife, watching all of it, breaks: 'do you still hold on to your integrity? Curse God and die.' Job rebukes her — 'you speak as one of the foolish women speaks; shall we accept good from God, and not adversity?' — and the chapter repeats its verdict: in all this Job did not sin with his lips. Word of his ruin reaches three friends, Eliphaz, Bildad, and Zophar, who arrange together to come and comfort him. Approaching, they barely recognize him; they weep aloud, tear their own robes, and throw dust on their heads toward heaven. Then they sit with him on the ground for seven days and seven nights, and no one says a word, because they see that his suffering is too great for speech.",
+  focusPlace: "uz",
+  places: [
+    { id:"uz", role:"Job's homeland, where the second wager falls on his own body and his three friends come to sit with him (vv. 7-13)" },
+    { id:"edom", role:"Neighboring territory whose borderlands anchor most scholarly guesses at Uz's disputed location (see this place's own ancient note)" }
+  ],
+  journey: [
+    { from:"edom", to:"uz", dashed:true, label:"Uz's disputed borderland with Edom", km:50,
+      note:"The same disputed borderland as chapter 1 — Uz's exact site is unrecoverable, but its neighbors (Edom, the Arabian steppe) are the best anchor scholars have." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", av:"traveler", label:"The council reconvenes",
+      desc:"The sons of God present themselves again, the satan among them; the LORD notes Job still holds his integrity 'although you incited me against him... without cause' — an unusually candid admission that the first wager cost Job everything and proved nothing new (v. 1-3)." },
+    { x:0.22, type:"person", av:"traveler", label:"\"Skin for skin!\"",
+      desc:"The accuser raises the stakes from possessions to the body itself: touch his bone and flesh, and he will curse you to your face. The LORD permits it, with one limit — Job's life must be spared (vv. 4-6)." },
+    { x:0.42, type:"object", label:"Loathsome sores, head to foot",
+      desc:"Job is struck with sores from the sole of his foot to the crown of his head; he sits down among the ashes and scrapes himself with a piece of broken pottery (vv. 7-8)." },
+    { x:0.58, type:"person", av:"woman", label:"\"Curse God and die\"",
+      desc:"Job's unnamed wife, watching her husband stripped of everything and now covered in sores, urges him to abandon his integrity outright rather than keep suffering for it (v. 9)." },
+    { x:0.68, type:"person", av:"elder", label:"\"Shall we accept only good?\"",
+      desc:"Job rebukes her as speaking 'like one of the foolish women,' insisting good and adversity must both be received from God's hand — and again, the chapter records, he does not sin with his lips (v. 10)." },
+    { x:0.88, type:"person", av:"elder", label:"Three friends, then seven silent days",
+      desc:"Eliphaz, Bildad, and Zophar arrange together to come comfort Job; barely recognizing him from a distance, they weep, tear their robes, throw dust on their heads, then sit with him on the ground seven days and nights without a word, because his suffering is too great for speech (vv. 11-13)." }
+  ],
+  environment: {
+    chips: ["The council reconvenes, unchanged in its terms", "'Skin for skin' — an old trader's proverb turned threat", "Sores scraped with broken pottery, sitting in ashes", "A wife's despair, and a husband's rebuke", "Seven days, seven nights, not one word spoken"],
+    text: "'Skin for skin' likely echoes an ancient bartering proverb about equivalent trade — hide for hide — repurposed by the accuser to claim that self-preservation is the one thing no one will trade away, not even integrity. Sitting 'among the ashes,' traditionally understood as the town's refuse heap outside the gate, combines physical relief (ash could dry weeping sores) with social exclusion, the same margin later assigned to those with diagnosed skin disease (Lev 13:45-46). The friends' seven days of silence is the most quietly praised pastoral care in the whole book — everything that goes wrong later happens only once they start talking."
+  },
+  objectsExtra: ["job-sores","sackcloth","robe"],
+  peopleExtra: ["job","ha-satan","job-wife","eliphaz","bildad","zophar"],
+  culture: [
+    { title:"'Skin for skin' — an obscure proverb", icon:"💰",
+      text:"The exact sense of this old saying is debated, but its logic in context is plain: a man will barter away anything, even another creature's skin, to preserve his own — so only an attack on Job's own body, the accuser argues, will expose whether his righteousness has a breaking point." },
+    { title:"Ashes and the potsherd", icon:"🩹",
+      text:"Sitting outside the settlement among ash and refuse marked Job as both a mourner and, functionally, an outcast — exactly where a person with a serious skin condition would be expected to remain under later Israelite law (Lev 13:45-46), even though Job's own community and era predate that legislation." },
+    { title:"Seven days of silence", icon:"🤫",
+      text:"A seven-day mourning period is attested elsewhere in the patriarchal world (Gen 50:10, for Jacob), but the friends' wordlessness here is presented as their finest moment in the book — it is only once the silence breaks, in chapter 3 onward, that their sympathy curdles into argument, and it is their speeches, not their silence, that the LORD rebukes at the book's end (Job 42:7)." }
+  ],
+  crossRefs: [
+    { group:"The council's second round", refs:[
+      { r:"Job 1:6-12", note:"the first wager, over Job's possessions — this scene's direct predecessor" },
+      { r:"2 Corinthians 12:7", note:"Paul's own 'thorn in the flesh,' identified as 'a messenger of Satan,' operating under a similarly bounded permission" },
+      { r:"Luke 22:31-32", note:"Jesus tells Peter 'Satan has demanded to sift you like wheat' — the same accusing role, centuries later" } ]},
+    { group:"Grief rites and the friends' silence", refs:[
+      { r:"Genesis 37:34", note:"Jacob tears his robe and mourns for the supposedly dead Joseph — the same gesture Job's friends repeat here" },
+      { r:"Ezekiel 3:15", note:"Ezekiel sits silently among the exiles for seven days, overwhelmed in much the same way" },
+      { r:"Job 42:7-9", note:"the friends reappear at the book's end, rebuked by the LORD for what they eventually say once the silence breaks" } ]}
+  ]
+},
+
+/* ============================================================
+   JOB 38 — The LORD answers Job out of the whirlwind
+   ============================================================ */
+"18:38": {
+  era: {
+    title: "Uncertain — traditionally patriarchal era (ca. 2000-1800 BC)",
+    sub: "Bronze Age pastoral world · the land of Uz · after thirty-seven chapters of dialogue and dispute",
+    badges: ["Patriarchal era (traditional)", "Wisdom literature", "Outside Israel's own history", "≈3,900 years ago (traditional)"]
+  },
+  timeOfDay: "storm",
+  summary: "After thirty-seven chapters of speeches — Job's three friends insisting his suffering must trace back to hidden sin, Job protesting his innocence and demanding an audience with God, a fourth voice (Elihu) finally trying to break the deadlock — the LORD himself answers Job out of the whirlwind. The reply is not an explanation; it is a barrage of questions. 'Who is this that darkens counsel by words without knowledge? Dress for action like a man; I will question you, and you shall answer me.' Where was Job when the earth's foundations were laid, its measurements fixed, its cornerstone set, while the morning stars sang together and all the sons of God shouted for joy? Who shut in the sea with doors when it burst from the womb, wrapped it in cloud and thick darkness, and told it, 'thus far shall you come, and no farther, and here shall your proud waves be stayed'? Has Job ever commanded a morning, or walked the springs of the sea, or seen the gates of death? Does he know the way to light's dwelling, or darkness's own territory? Has he entered the storehouses of snow and hail, kept in reserve for the day of battle? Can he cut a channel for the rain to fall on land where no one lives, or father the dew, or birth the ice and frost? Can he bind the cluster of the Pleiades, or loosen Orion's belt, or bring out the constellations each in its season? The interrogation closes by turning to Job's own words made needless — provision even the wild world doesn't seem to need permission for: who hunts prey for the lion in its den, or answers the raven's cry when its young go hungry?",
+  focusPlace: "uz",
+  places: [
+    { id:"uz", role:"The setting for the whole book, where the whirlwind finally breaks over Job (v. 1)" },
+    { id:"edom", role:"Neighboring territory whose borderlands anchor most scholarly guesses at Uz's disputed location (see this place's own ancient note)" }
+  ],
+  journey: [
+    { from:"edom", to:"uz", dashed:true, label:"Uz's disputed borderland with Edom", km:50,
+      note:"The same disputed borderland as chapters 1-2 — Uz's exact site is unrecoverable, but its neighbors are the best anchor scholars have." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"elder", label:"The LORD answers out of the whirlwind",
+      desc:"After thirty-seven chapters of human argument, God finally speaks — not to explain Job's suffering, but to question him: 'who is this that darkens counsel by words without knowledge? Dress for action like a man' (vv. 1-3)." },
+    { x:0.2, type:"object", label:"\"Where were you when I laid the earth's foundations?\"",
+      desc:"The interrogation opens with creation itself — who fixed the earth's measurements, sank its foundations, laid its cornerstone, while the morning stars sang together and all the sons of God shouted for joy (vv. 4-7)." },
+    { x:0.35, type:"object", label:"The sea shut behind doors",
+      desc:"Who shut in the sea when it burst from the womb, wrapped it in cloud, and told it, 'thus far shall you come, and no farther, and here shall your proud waves be stayed' (vv. 8-11)." },
+    { x:0.52, type:"object", label:"Dawn, the deep, and the storehouses of snow and hail",
+      desc:"Has Job ever commanded a morning, walked the springs of the sea, or seen the gates of death? Has he entered the storehouses of snow and hail kept in reserve for the day of battle, or fathered the rain, dew, ice, and frost (vv. 12-30)?" },
+    { x:0.7, type:"object", label:"Pleiades, Orion, and the ordinances of heaven",
+      desc:"Can Job bind the cluster of the Pleiades, loosen Orion's belt, or bring out the constellations each in its season and govern the sky's own laws (vv. 31-33)?" },
+    { x:0.9, type:"object", label:"Who feeds the lion, and answers the raven",
+      desc:"The interrogation's closing turn, and the start of a longer wild-animal roll call carried into the next chapter: who hunts prey for the lion crouching in its den, or provides for the raven when its young cry out hungry (vv. 39-41)?" }
+  ],
+  environment: {
+    chips: ["An answer made entirely of questions", "Creation's own blueprint, recited back to its critic", "The sea bound by decree, not by battle", "Storehouses of snow and hail, kept for a day of war", "Wild animals fed by no one Job knows"],
+    text: "The divine speeches never once explain why Job suffers — across this chapter and the next three, the LORD asks well over fifty unanswerable questions, systematically relocating Job from the position of prosecutor demanding an explanation to that of a small witness inside an enormous, ordered world he did not build and does not administer. The sea 'shut in with doors' echoes a mythic image widespread across the ancient Near East, where a storm-god subdues a chaotic sea-monster in open combat; here the LORD simply issues a boundary by decree, no battle and no rival required. Naming the Pleiades and Orion — star clusters recognizable across the ancient Mediterranean and Near East alike — grounds the poetry in real observational astronomy rather than vague cosmic flourish."
+  },
+  objectsExtra: ["whirlwind"],
+  peopleExtra: ["job"],
+  culture: [
+    { title:"Rhetorical interrogation as an answer", icon:"❓",
+      text:"Rather than resolving the book's central question — why does a blameless man suffer? — God's reply reframes it: over fifty questions across four chapters (38-41) ask Job to account for creation's operation before asking him to account for his own case, and Job's own eventual response (40:3-5; 42:1-6) is silence, then repentance, not a satisfied explanation." },
+    { title:"Ancient Near Eastern cosmology, without a rival", icon:"🌊",
+      text:"Neighboring mythologies regularly depict a storm-god defeating a chaotic sea in violent combat before creation can proceed; the LORD's sea here is instead spoken to directly and confined by verbal decree ('thus far... and no farther'), a deliberately calmer claim to the same cosmic authority without needing an opposing deity to defeat first." },
+    { title:"Pleiades and Orion (Mazzaroth)", icon:"✨",
+      text:"Naming specific, recognizable constellations situates the speech in real sky-watching, not abstract metaphor — 'binding the Pleiades' plays on that cluster's own visibly tight grouping of stars, while 'loosing Orion's belt' plays on the straight line of three stars that gives the constellation its most identifiable feature." }
+  ],
+  crossRefs: [
+    { group:"Creation's questions echoed elsewhere", refs:[
+      { r:"Proverbs 8:22-31", note:"wisdom personified present when the LORD 'assigned to the sea its limit' — the same events, narrated this time from wisdom's own side" },
+      { r:"Psalm 104:5-9", note:"the same picture of the sea bounded by decree so that it cannot again cover the earth" },
+      { r:"Genesis 1:6-10", note:"the creation account this whole speech continually assumes without ever quoting it directly" } ]},
+    { group:"The whirlwind and its aftermath", refs:[
+      { r:"Job 40:3-5", note:"Job's first response to the LORD's questions — silence, and a hand over his own mouth" },
+      { r:"Job 42:1-6", note:"Job's fuller answer once the questioning ends: repentance 'in dust and ashes'" },
+      { r:"2 Kings 2:11", note:"the same whirlwind that later carries Elijah bodily up to heaven" } ]}
+  ]
 }
 
 };

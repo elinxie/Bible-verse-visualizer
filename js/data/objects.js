@@ -212,5 +212,9 @@ BVV.OBJECTS = [
   { id:"nehushtan", name:"Nehushtan (the bronze serpent)", al:["Nehushtan","bronze serpent","bronze snake"], icon:"🐍",
     desc:"The bronze serpent Moses made in the wilderness so that anyone bitten by the fiery serpents could look at it and live (Num 21:8-9); kept for some seven centuries until Hezekiah, finding Israel had taken to burning incense to it as an idol, broke it in pieces and gave it a contemptuous nickname — Nehushtan, roughly 'a mere bronze thing' (2 Kgs 18:4)." },
   { id:"temple-treasures-babylon", name:"Temple bronze, gold & silver carried to Babylon", al:["bronze sea","bronze pillars","pots and shovels","vessels of gold and silver"], icon:"⚱️",
-    desc:"The temple's great bronze pillars Jachin and Boaz, the bronze Sea and its stands, and every remaining gold and silver vessel — broken up or carted off whole by Nebuchadnezzar's guard and hauled to Babylon, stripping bare in one afternoon what had furnished Solomon's house for over four centuries (2 Kgs 25:13-17)." }
+    desc:"The temple's great bronze pillars Jachin and Boaz, the bronze Sea and its stands, and every remaining gold and silver vessel — broken up or carted off whole by Nebuchadnezzar's guard and hauled to Babylon, stripping bare in one afternoon what had furnished Solomon's house for over four centuries (2 Kgs 25:13-17)." },
+  { id:"job-sores", name:"Job's sores and potsherd", al:["loathsome sores","sores","boils","potsherd","broken pottery"], icon:"🩹",
+    desc:"The second wager's blow: Job struck with festering sores 'from the sole of his foot to the crown of his head,' bad enough that he sits down among the ashes and scrapes himself with a broken piece of pottery for relief (Job 2:7-8)." },
+  { id:"whirlwind", name:"The whirlwind", al:["whirlwind","the storm","out of the whirlwind"], icon:"🌪️",
+    desc:"The storm out of which the LORD finally speaks to Job after thirty-seven chapters of human argument, answering not with an explanation but with a barrage of questions about creation itself (Job 38:1; 40:6) — the same word later carries Elijah bodily up to heaven (2 Kgs 2:11)." }
 ];
