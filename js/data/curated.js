@@ -7465,6 +7465,249 @@ BVV.CURATED = {
       { r:"Job 42:1-6", note:"Job's fuller answer once the questioning ends: repentance 'in dust and ashes'" },
       { r:"2 Kings 2:11", note:"the same whirlwind that later carries Elijah bodily up to heaven" } ]}
   ]
+},
+
+/* ============================================================
+   PSALM 22 — The cry of dereliction, and the turn to praise
+   ============================================================ */
+"19:22": {
+  era: {
+    title: "Traditionally ca. 1000-970 BC — a psalm of David",
+    sub: "Hebrew lament poetry · 'To the choirmaster: according to The Doe of the Dawn. A Psalm of David.' · no narrative geography of its own",
+    badges: ["Wisdom/poetic literature", "Davidic psalm (superscription)", "Quoted at the crucifixion (Matt 27, Mark 15, John 19)", "≈3,000 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "A psalm of David opens at the bottom of despair — 'My God, my God, why have you forsaken me?' — and does not stay there. The first half is unrelieved suffering: mocked by onlookers who wag their heads, poured out like water, bones out of joint, strength dried up 'like a potsherd,' surrounded by enemies pictured as bulls, lions, and dogs, hands and feet described as pierced, every bone visible, garments divided and gambled for while the sufferer is still alive to watch. Nothing in David's own biography matches this scene of execution-by-exposure — which is exactly why the church has read it, since the New Testament itself quotes it at the cross, as looking beyond David to a fuller Sufferer. Then, at v. 21, without any narrated rescue, the tone inverts completely: 'you have answered me,' and the psalm becomes public praise — a vow to declare God's name to 'my brothers,' to the whole worshiping assembly, to 'all the ends of the earth,' even to 'a people yet unborn.' Lament and praise sit in the same poem, the second answering the first.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"'You are enthroned on the praises of Israel' (v. 3) — the temple-worship setting the psalm's own turn to praise assumes, even though the suffering it describes has no narrative location of its own" },
+    { id:"bethlehem", role:"David's own boyhood town, reused thematically for the journey leg below since this psalm has no mapped events — only a psalmist's life arc from shepherd's field to temple worship" }
+  ],
+  journey: [
+    { from:"bethlehem", to:"jerusalem", dashed:true, label:"A psalmist's arc, not a mapped event", km:10,
+      note:"Psalm 22 names no places at all — it is poetry, not narrative. This leg is only a thematic reminder that the 'David' of the superscription is the same shepherd boy of Bethlehem who became the king who worshiped, and suffered, at Jerusalem." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", av:"king", label:"\"My God, my God, why have you forsaken me?\"",
+      desc:"The psalm's opening cry — repeated word for word by Jesus from the cross in Aramaic (Matt 27:46; Mark 15:34) — names abandonment by God as the worst suffering the psalmist can describe, worse even than the human enemies that follow (vv. 1-2)." },
+    { x:0.22, type:"object", label:"Mocked: \"He trusted in the LORD; let him deliver him\"",
+      desc:"Onlookers wag their heads and quote the sufferer's own faith back at him as an insult — 'he trusted... let the LORD rescue him, since he delights in him' (vv. 6-8), a taunt the Gospels record almost verbatim at Golgotha (Matt 27:43)." },
+    { x:0.4, type:"object", label:"\"Poured out like water... bones out of joint\"",
+      desc:"A body's collapse described with clinical precision: strength dried up like a potsherd, tongue stuck to the jaws, heart like wax melted within — 'you lay me in the dust of death' (vv. 14-15)." },
+    { x:0.56, type:"object", label:"\"They have pierced my hands and feet\"",
+      desc:"Dogs, a company of evildoers, encircle the sufferer; 'they stare and gloat over me' while every bone can be counted (vv. 16-17) — language many find hard to fit to any known ancient Israelite mode of execution, and which some later manuscript traditions read slightly differently (see Culture)." },
+    { x:0.72, type:"object", label:"\"They divide my garments among them, and for my clothing they cast lots\"",
+      desc:"The dying man's last possession, gambled away by the very people watching him die (v. 18) — quoted directly by John as fulfilled, detail for detail, at the foot of the cross (John 19:23-24)." },
+    { x:0.9, type:"person", av:"king", label:"The turn: praise before 'a people yet unborn'",
+      desc:"Without any narrated rescue between the verses, v. 21 flips to thanksgiving: 'you have answered me.' The psalmist vows to declare God's name to 'my brothers,' to the great congregation, to 'all the ends of the earth,' and to 'a people yet unborn' (vv. 22-31) — quoted in Hebrews 2:12 as Christ's own voice among his redeemed family." }
+  ],
+  environment: {
+    chips: ["Individual lament turning to communal praise", "Quoted more at the crucifixion than any other psalm", "A textual variant at 'pierced'/'like a lion'", "Casting lots for a dying man's clothes", "'A people yet unborn' — praise reaching forward, not just up"],
+    text: "Psalm 22 has no mappable events of its own — no city, road, or battlefield is named — which is itself part of why the church has always read it as pointing past David's own life. Structurally it is a textbook individual lament: address, complaint, imagery of suffering, and (usually, as here) a vow of praise once the crisis lifts — except that here the pivot at v. 21 comes with no narrated deliverance in between, only trust that God has already answered. The suffering imagery (mockery, bone-counting, pierced hands and feet, divided garments) matches no known Israelite punishment but does match Roman crucifixion in remarkable, specific detail centuries before that method of execution existed — the reason the Gospel writers return to this single psalm so often at the cross."
+  },
+  objectsExtra: ["casting-lots"],
+  peopleExtra: ["david"],
+  culture: [
+    { title:"Lament that ends in praise", icon:"🎼",
+      text:"Most of the Psalter's individual laments follow the same three-beat shape: an honest cry of complaint, a plea for help, and a vow to praise once the trouble passes. Psalm 22 is the shape at its starkest — extreme complaint (vv. 1-21) followed by extreme praise (vv. 22-31) with no narrated turning point between them, only the bare statement 'you have answered me' (v. 21b)." },
+    { title:"'Pierced' or 'like a lion'? — a text-critical note", icon:"📜",
+      text:"The Masoretic Hebrew of v. 16 is famously difficult, literally reading something like 'like a lion, my hands and feet'; the Septuagint (2nd c. BC) and a Dead Sea Scroll fragment (5/6HevPs) instead read a verb meaning 'they have pierced/dug,' the sense followed by most English translations and by the New Testament's own crucifixion reading. Scholars disagree on which reading is more original; the site follows the widely used rendering while flagging the variant here." },
+    { title:"Casting lots for the condemned's clothing", icon:"🎲",
+      text:"Executioners keeping a condemned person's clothes as a perquisite, decided by lot when several soldiers shared the duty, is independently attested as ordinary Roman practice — which is exactly what John reports happening to Jesus' garments, citing this psalm verse for verse as the event's own explanation (John 19:23-24)." }
+  ],
+  crossRefs: [
+    { group:"The cry echoed at Golgotha", refs:[
+      { r:"Matthew 27:46", note:"Jesus cries the psalm's opening line in Aramaic, word for word" },
+      { r:"Mark 15:34", note:"the same cry, in the earliest Gospel account" },
+      { r:"John 19:23-24", note:"soldiers divide his garments and cast lots — 'this was to fulfill the Scripture'" } ]},
+    { group:"The psalm's own turn to praise", refs:[
+      { r:"Hebrews 2:12", note:"quotes v. 22 as Christ's own voice declaring God's name 'to my brothers'" },
+      { r:"Psalm 31:5", note:"'into your hand I commit my spirit' — the other lament psalm quoted from the cross (Luke 23:46)" },
+      { r:"Psalm 69:20-21", note:"gall and vinegar — the psalm most often paired with this one at the crucifixion" } ]}
+  ]
+},
+
+/* ============================================================
+   PSALM 23 — "The LORD is my shepherd"
+   ============================================================ */
+"19:23": {
+  era: {
+    title: "Traditionally ca. 1000-970 BC — a psalm of David, the shepherd-turned-king",
+    sub: "Hebrew pastoral poetry · superscription 'A Psalm of David' · imagery drawn from David's own boyhood trade",
+    badges: ["Wisdom/poetic literature", "Davidic psalm (superscription)", "Pastoral imagery, not narrative geography", "≈3,000 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "Six short verses build a single extended picture: the LORD as a shepherd who personally leads, restores, and protects. Green pastures and still waters open it — a shepherd choosing calm grazing and safe drinking, since sheep will not drink from fast-moving water. 'He restores my soul' and leads 'in paths of righteousness for his name's sake' turn the pastoral image toward guidance and character. The psalm's center is its hardest image: 'the valley of the shadow of death,' walked through rather than around, made bearable only because 'you are with me; your rod and your staff, they comfort me' — the shepherd's own tools, one for defense and one for guidance, now offered as comfort rather than correction. The image then shifts from pasture to household: a table spread 'in the presence of my enemies,' a head anointed with oil, a cup overflowing — the shepherd become a host. It closes on a settled certainty: 'goodness and mercy shall follow me all the days of my life, and I shall dwell in the house of the LORD forever.'",
+  focusPlace: "bethlehem",
+  places: [
+    { id:"bethlehem", role:"The terraced hill pastures where David, by his own account, kept his father's sheep before ever composing a line of psalmody (1 Sam 16:11; 17:34-36) — the psalm names no place at all, but this is where its imagery comes from" },
+    { id:"jerusalem", role:"'I shall dwell in the house of the LORD forever' (v. 6) — the psalm's closing hope, reused here thematically since Psalm 23 has no mapped narrative of its own" }
+  ],
+  journey: [
+    { from:"bethlehem", to:"jerusalem", dashed:true, label:"From shepherd boy to shepherd king (thematic, not narrative)", km:10,
+      note:"Psalm 23 has no narrative geography — it is pure pastoral poetry. This leg only traces David's own life arc: the Bethlehem hillsides where he literally tended sheep (1 Sam 16-17) to the psalm's closing image of dwelling in the LORD's house at Jerusalem." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"shepherd", label:"\"The LORD is my shepherd; I shall not want\"",
+      desc:"The psalm's governing claim, stated once and never argued for: a shepherd who personally provides everything a flock needs, so that nothing essential is lacking (v. 1)." },
+    { x:0.22, type:"object", label:"Green pastures, still waters",
+      desc:"A good shepherd chooses the grazing and the water himself — 'still' or literally 'waters of rest,' since sheep instinctively refuse to drink from anything moving too fast (v. 2)." },
+    { x:0.4, type:"object", label:"\"He restores my soul... paths of righteousness\"",
+      desc:"The image turns from physical care to inner renewal and moral direction, both credited to the shepherd's own initiative — 'for his name's sake,' not the sheep's merit (v. 3)." },
+    { x:0.56, type:"object", label:"The valley of the shadow of death: rod and staff",
+      desc:"The psalm's hardest turn — walked through, not detoured around — made bearable by presence alone: 'you are with me,' and by the shepherd's own working tools, rod (a club, for defense against predators) and staff (a hooked crook, for guiding and rescuing), now named as comfort (v. 4)." },
+    { x:0.74, type:"object", label:"A table prepared, a head anointed, a cup overflowing",
+      desc:"The shepherd becomes a host: a table spread 'in the presence of my enemies,' oil poured on the head as a guest's welcome, and a cup filled past its brim (v. 5) — ancient Near Eastern hospitality customs turned into an image of God's lavish, even provocative, generosity." },
+    { x:0.9, type:"person", av:"shepherd", label:"\"Goodness and mercy shall follow me... forever\"",
+      desc:"The psalm's settled close: not a hope but a certainty, stretching from 'all the days of my life' to an unqualified 'forever' in the house of the LORD (v. 6)." }
+  ],
+  environment: {
+    chips: ["Judean hill-country pastureland", "A shepherd's actual toolkit: rod and staff", "Still waters vs. fast-moving streams", "Ancient hospitality customs, turned into theology", "Six verses, one uninterrupted image"],
+    text: "The whole psalm draws on the real working knowledge of a Judean shepherd, the trade David himself practiced on the terraced, wolf- and lion-prone hills around Bethlehem before Samuel ever anointed him (1 Sam 16:11-13; 17:34-36). Sheep are genuinely skittish about moving water and need a shepherd to lead them to calm pools; the rod (a wooden club for driving off predators) and staff (a long hooked crook for guiding, and for hooking a fallen or straying animal back to safety) were the shepherd's two standard tools, one defensive and one guiding — which is why the psalm can name both in the same breath as sources of comfort rather than threat. The closing table-and-oil scene shifts registers from pasture to host's house, but keeps the same logic: a guest under a host's protection was safe even with enemies watching, a hospitality code the ancient Near East took as seriously as any law."
+  },
+  objectsExtra: ["shepherds-rod-staff", "anoint-oil"],
+  peopleExtra: ["david"],
+  culture: [
+    { title:"Shepherding in ancient Judah", icon:"🐑",
+      text:"Judean hill-country shepherding meant long days moving a flock between seasonal pastures and watering points, watching for wolves, lions, and thieves, and sleeping across the entrance of a sheepfold as a living gate. David's own resume — killing a lion and a bear that took lambs from his flock (1 Sam 17:34-36) — is the lived experience this psalm's shepherd-as-protector imagery draws from directly." },
+    { title:"Rod and staff — two different tools", icon:"🦯",
+      text:"Ancient shepherds carried two distinct implements: a short, weighted club (the rod) swung at attacking predators, and a long staff with a crook at one end used to guide the flock, nudge stragglers, and hook an animal back from a ledge or thicket. The psalm names both specifically — comfort by both defense and guidance, not comfort by force alone." },
+    { title:"A table in the wilderness — ancient hospitality customs", icon:"🍽️",
+      text:"Hosting a guest, even one's enemy, at a shared meal placed that guest under a formal, socially binding protection across much of the ancient Near East; anointing a guest's head with scented oil was itself a mark of honored welcome (cf. Luke 7:46, where its absence is a pointed insult). The psalm's table 'in the presence of my enemies' pictures God extending exactly this protective hospitality even in hostile territory." }
+  ],
+  crossRefs: [
+    { group:"Shepherd imagery elsewhere in Scripture", refs:[
+      { r:"John 10:11-14", note:"'I am the good shepherd' — Jesus applies this exact image to himself" },
+      { r:"Ezekiel 34:11-16", note:"'I myself will search for my sheep' — God as shepherd when human shepherds fail" },
+      { r:"1 Peter 5:4", note:"'the chief Shepherd' who will appear and reward faithful under-shepherds" } ]},
+    { group:"David's own shepherd years", refs:[
+      { r:"1 Samuel 16:11-13", note:"Samuel anoints David while he is still out tending the flock at Bethlehem" },
+      { r:"1 Samuel 17:34-36", note:"David's account of killing a lion and a bear to protect his father's sheep" },
+      { r:"Psalm 78:70-72", note:"'he chose David... to shepherd Jacob his people' — the same image applied to his kingship" } ]}
+  ]
+},
+
+/* ============================================================
+   PSALM 51 — David's psalm of repentance after Nathan's rebuke
+   ============================================================ */
+"19:51": {
+  era: {
+    title: "ca. 990 BC — David's psalm of repentance",
+    sub: "Hebrew penitential poetry · superscription: 'when Nathan the prophet went to him, after he had gone in to Bathsheba' · immediately follows 2 Samuel 11-12's events",
+    badges: ["Wisdom/poetic literature", "Davidic psalm (superscription ties it to 2 Sam 12)", "The classic penitential psalm", "≈3,010 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "The psalm's own superscription pins it to one specific moment: Nathan's confrontation of David after Bathsheba and Uriah (2 Sam 12). It opens with a plea built entirely on God's character, not David's — 'according to your steadfast love... your abundant mercy, blot out my transgressions' — and moves straight to an admission with no self-defense attached: 'I know my transgressions, and my sin is ever before me... against you, you only, have I sinned.' David traces the fault beneath the act to his own nature — 'brought forth in iniquity... sinful from the moment my mother conceived me' — then asks not just for pardon but for cleansing, 'purge me with hyssop... wash me, and I shall be whiter than snow,' and for something Nathan's rebuke could not supply: a new heart. 'Create in me a clean heart, O God, and renew a right spirit within me... do not cast me from your presence, and do not take your Holy Spirit from me.' He promises, once restored, to teach other sinners the way back, and closes by redefining what God actually wants from him — not more sacrifices, which he does not withhold, but 'a broken and contrite heart' — before two final verses ask God to 'do good to Zion' and rebuild her walls, widening a private confession into a prayer for the whole city.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"Where Nathan confronted David and where the psalm's own superscription places its composition (2 Sam 12:1-14)" },
+    { id:"rabbah", role:"The Ammonite siege where Uriah was killed to cover the sin this psalm confesses (2 Sam 11:14-17) — never named in the psalm itself, included here only for the narrative context Nathan's confrontation assumes" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"rabbah", dashed:true, label:"The sin this psalm confesses began at a distant siege", km:69,
+      note:"David stayed in Jerusalem 'at the time when kings go out to battle' (2 Sam 11:1) while Joab besieged Rabbah — the absence, and the affair with Bathsheba that followed it, that Nathan's parable finally exposes and this psalm confesses." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"king", label:"\"Have mercy on me, O God... blot out my transgressions\"",
+      desc:"The opening plea appeals to nothing in David except God's own character — 'according to your steadfast love... your abundant mercy' — before a single specific sin is even named (vv. 1-2)." },
+    { x:0.22, type:"object", label:"\"Against you, you only, have I sinned\"",
+      desc:"A startling claim given the human victims of the affair — Bathsheba, Uriah, the household, the nation — David's confession fixes first on the sin's ultimate offense against God, 'so that you may be justified in your words' (v. 4)." },
+    { x:0.38, type:"object", label:"\"Brought forth in iniquity... sinful from the moment my mother conceived me\"",
+      desc:"David traces the specific act to something deeper than a single bad decision — a confession of sinful nature, not just sinful behavior, that has shaped Christian discussion of original sin ever since (v. 5)." },
+    { x:0.54, type:"object", label:"\"Purge me with hyssop... wash me whiter than snow\"",
+      desc:"David reaches for the same purification language used to cleanse a leper or a defiled house (Lev 14) or someone contaminated by death (Num 19) — a plant-brush ritual for physical impurity now asked to cover moral guilt (v. 7)." },
+    { x:0.7, type:"person", av:"king", label:"\"Create in me a clean heart... do not take your Holy Spirit from me\"",
+      desc:"The psalm's turning request: not merely pardon for the past but a new inner condition going forward, plus the one thing David has just watched happen to Saul (1 Sam 16:14) and dreads for himself (vv. 10-11)." },
+    { x:0.88, type:"object", label:"\"A broken and contrite heart\" — then, a prayer for Zion",
+      desc:"David redefines acceptable sacrifice as inward brokenness rather than ritual alone (v. 17), then closes with two verses that widen the psalm outward — asking God to 'do good to Zion' and rebuild her walls (vv. 18-19), a shift some read as a later liturgical addition and others as David's own concern that his sin not cost the whole city (see Culture)." }
+  ],
+  environment: {
+    chips: ["The classic penitential psalm", "No self-defense, only confession", "Hyssop — the same plant-brush used for leprosy and defilement", "'Against you, you only' — sin's vertical dimension named first", "Two closing verses that widen it to Zion's walls"],
+    text: "Psalm 51 follows the shape of a formal penitential prayer rather than a narrative: invocation of mercy, confession, a plea for cleansing and renewal, and a closing vow — but its superscription anchors every line to one datable event, Nathan's rebuke in 2 Samuel 12, so the psalm reads as David's own first-person expansion of the four words he actually says there: 'I have sinned against the LORD' (2 Sam 12:13). Hyssop's appearance at v. 7 is not decorative; the same bushy herb served as a ritual brush across Israel's purification law — for a cleansed leper (Lev 14:4-7), a house cleared of contamination, and a person defiled by contact with a corpse (Num 19:18) — so David is deliberately reaching for the vocabulary of ritual, physical cleansing to ask for something no ritual can actually supply."
+  },
+  objectsExtra: ["hyssop"],
+  peopleExtra: ["david", "nathan", "bathsheba"],
+  culture: [
+    { title:"The penitential psalm as its own genre", icon:"🙏",
+      text:"Jewish and Christian tradition alike single out a small group of 'penitential psalms' (often counted as 6, 32, 38, 51, 102, 130, 143), with Psalm 51 as the clearest example of the type: address, unqualified confession, plea for cleansing and renewal, and a vow of changed life once restored — no bargaining, no partial admission, no blaming the circumstances." },
+    { title:"Hyssop — cleansing language borrowed from the Law", icon:"🌿",
+      text:"The same plant brush dipped in blood or water to cleanse a healed leper (Lev 14:4-7), a defiled house, or someone who had touched a corpse (Num 19:18) reappears at David's own request in v. 7 — deliberately borrowing the vocabulary of ritual, ceremonial cleansing to ask God for something those rituals could never actually accomplish on their own." },
+    { title:"Why does a private confession end with Zion's walls?", icon:"🏙️",
+      text:"Verses 18-19 shift abruptly from first-person plea to a prayer for the whole city's fortifications and sacrifices — a jump many scholars read as a later liturgical addition, adapting David's personal psalm for corporate worship use, possibly during or after the Babylonian exile when Jerusalem's walls were literally down; others take it simply as David's own concern that his private sin not become the nation's public liability." }
+  ],
+  crossRefs: [
+    { group:"The event behind the psalm", refs:[
+      { r:"2 Samuel 11:1-5", note:"Bathsheba, and the sin the psalm confesses" },
+      { r:"2 Samuel 12:1-14", note:"Nathan's parable and rebuke — the superscription's own reference point" },
+      { r:"2 Samuel 12:13", note:"'I have sinned against the LORD' — the four words this whole psalm expands" } ]},
+    { group:"Confession and mercy elsewhere", refs:[
+      { r:"Psalm 32:1-5", note:"David's companion psalm on the misery of unconfessed sin, and relief once confessed" },
+      { r:"1 John 1:9", note:"'if we confess our sins, he is faithful and just to forgive us'" },
+      { r:"Luke 18:13", note:"the tax collector's echo: 'God, be merciful to me, a sinner'" } ]}
+  ]
+},
+
+/* ============================================================
+   PSALM 137 — By the rivers of Babylon
+   ============================================================ */
+"19:137": {
+  era: {
+    title: "ca. 586-539 BC — a song of the Babylonian exile",
+    sub: "Hebrew exilic lament · anonymous author, composed by or for the deportees 'by the rivers of Babylon' · between Jerusalem's fall and the return",
+    badges: ["Wisdom/poetic literature", "Exilic lament (anonymous)", "Imprecatory psalm", "≈2,600 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "An anonymous psalm gives voice to the exile community itself: 'by the rivers of Babylon, there we sat down and wept, when we remembered Zion.' On the willows nearby they hang up their harps, silenced by grief — and then their captors, apparently for entertainment, demand a performance: 'sing us one of the songs of Zion.' The refusal is total: 'how shall we sing the LORD's song in a foreign land?' The psalm turns to a vow of memory as an act of loyalty — 'if I forget you, O Jerusalem, let my right hand forget its skill... let my tongue stick to the roof of my mouth, if I do not remember you, if I do not set Jerusalem above my highest joy.' It closes by asking God to remember two debts: against Edom, who cheered Jerusalem's fall ('lay it bare, lay it bare, down to its foundations'), and against Babylon itself, in the psalm's hardest verse — a blessing pronounced on whoever repays Babylon for what she did, down to her infants. The psalm never claims the psalmist will do this himself; the vengeance is handed entirely to God.",
+  focusPlace: "babylon",
+  places: [
+    { id:"babylon", role:"'By the rivers of Babylon we sat down and wept' (v. 1) — the exile community's setting, and where the captors demand 'songs of Zion' for entertainment (vv. 2-3)" },
+    { id:"jerusalem", role:"'If I forget you, O Jerusalem...' (v. 5) — the city remembered, mourned, and vowed never to be forgotten, set in deliberate contrast to Babylon" },
+    { id:"edom", role:"'Remember, O LORD, against the Edomites the day of Jerusalem' (v. 7) — Edom's cheering complicity in the city's fall, invoked in the psalm's closing appeal for judgment" }
+  ],
+  journey: [
+    { from:"babylon", to:"jerusalem", dashed:true, label:"The exile's own remembered road", km:900,
+      note:"Roughly 900 km separates the Babylonian settlements on the irrigation canals (cf. Ezekiel's own community 'by the Chebar canal,' Ezek 1:1) from the ruined city the exiles refuse to stop remembering — the psalm's entire emotional geography in one number." },
+    { from:"jerusalem", to:"edom", dashed:true, label:"Edom's complicity, remembered in the closing curse", km:100,
+      note:"Edom lay just southeast of Judah and, per this psalm and Obadiah's fuller indictment, did not merely fail to help at Jerusalem's fall but actively cheered it on and preyed on refugees (v. 7; Obad 10-14)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"traveler", label:"\"By the rivers of Babylon we sat down and wept\"",
+      desc:"The exile community's own collective voice, gathered by the irrigation canals of Babylonia, grieving 'when we remembered Zion' (v. 1) — the same riverine setting Ezekiel names for his own exile community (Ezek 1:1)." },
+    { x:0.22, type:"object", label:"Harps hung on the willows",
+      desc:"The instruments that once accompanied temple worship are hung up in silence on the willows/poplars along the canal banks (v. 2) — grief that has stopped, rather than merely quieted, the music." },
+    { x:0.4, type:"person", av:"traveler", label:"\"Sing us one of the songs of Zion\"",
+      desc:"The captors' demand, apparently for entertainment or mockery, is met with a flat refusal: 'how shall we sing the LORD's song in a foreign land?' (vv. 3-4) — worship songs are not tavern songs, and the exiles will not treat them as such." },
+    { x:0.56, type:"person", av:"traveler", label:"\"If I forget you, O Jerusalem\"",
+      desc:"A self-curse sworn against forgetting: a withered right hand, a tongue stuck fast, unless Jerusalem is set 'above my highest joy' (vv. 5-6) — memory itself made into an act of loyalty and resistance." },
+    { x:0.74, type:"object", label:"\"Remember... against the Edomites\"",
+      desc:"The psalm names Edom by name, recalling their cheering complicity — 'lay it bare, lay it bare, down to its foundations!' — in Jerusalem's fall (v. 7), a charge Obadiah's whole short book expands on independently." },
+    { x:0.9, type:"object", label:"The closing imprecation against Babylon",
+      desc:"The psalm's hardest verse pronounces a blessing on whoever repays Babylon 'as she has done to us,' down to her infants (vv. 8-9) — talionic justice language handed entirely over to God's judgment rather than claimed by the psalmist's own hand (see Culture)." }
+  ],
+  environment: {
+    chips: ["Exile community on Babylon's irrigation canals", "Willows/poplars — real Euphrates riverine flora", "Worship songs refused as entertainment", "Memory of Zion as an act of resistance", "An imprecatory psalm's hardest verse, and how it's read"],
+    text: "The 'rivers of Babylon' are the network of irrigation canals fed by the Euphrates that watered Babylonia's farmland and settlements — the same geography Ezekiel names for his own exile community 'among the exiles by the Chebar canal' (Ezek 1:1), making this psalm's setting a real, mappable place and not a vague poetic gesture. Willows and poplars genuinely grew along these watercourses, giving the exiles literal branches to hang silent harps on. The psalm's refusal to perform temple songs for a captor audience, and its vow never to rank any joy above Jerusalem, functioned as small acts of religious and national resistance in a community stripped of land, temple, and king — memory itself was one of the few things exile could not confiscate."
+  },
+  objectsExtra: ["lyre"],
+  peopleExtra: ["babylonian-exiles"],
+  culture: [
+    { title:"The willows of Babylon", icon:"🌳",
+      text:"Willows and poplars lined the Euphrates-fed canals that irrigated Babylonia, giving the exile community real trees to hang their instruments on rather than a purely symbolic image — the same watercourse network Ezekiel independently locates his own exile community beside (Ezek 1:1, 3:15)." },
+    { title:"Imprecatory psalms — praying for judgment", icon:"⚖️",
+      text:"Psalm 137 belongs to a small set of psalms that call down disaster on enemies rather than simply lamenting or praising. Most interpreters read the closing verse not as the psalmist's own plan of action but as talionic justice ('as she has done, so may it be done to her') handed entirely to God, using the era's conventional — and brutally frank — language for a nation's total defeat, the same fate Babylon itself had already inflicted and would itself later suffer (cf. Isa 13:16)." },
+    { title:"Refusing to sing as an act of resistance", icon:"🎵",
+      text:"Temple songs were written for worship, not for a captor's amusement; refusing to perform them on demand, while still refusing to let Jerusalem's memory fade even a little, functioned as quiet defiance from a community with no other power left to exercise — the vow of v. 6 turns memory itself into loyalty." }
+  ],
+  crossRefs: [
+    { group:"The exile this psalm mourns", refs:[
+      { r:"2 Kings 25:8-12", note:"Nebuzaradan's destruction of Jerusalem and the deportation this psalm remembers" },
+      { r:"Ezekiel 1:1", note:"Ezekiel's own exile community 'by the Chebar canal' — the same Babylonian waterway setting" },
+      { r:"Jeremiah 29:4-7", note:"Jeremiah's letter to the same exiles — 'seek the welfare of the city' where you live" } ]},
+    { group:"Edom's guilt and Babylon's fall", refs:[
+      { r:"Obadiah 1:10-14", note:"Edom's fuller indictment for standing aloof and preying on Judah's refugees" },
+      { r:"Isaiah 13:1, 19-22", note:"Babylon's own predicted downfall — this psalm's closing hope, later fulfilled" },
+      { r:"Revelation 18:6", note:"'Babylon' repaid double for her deeds — the same talionic language echoed at Scripture's end" } ]}
+  ]
 }
 
 };

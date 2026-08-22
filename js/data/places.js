@@ -493,6 +493,7 @@ BVV.PLACES = [
   // ---- Mesopotamia & the East ----
   { id:"babylon", name:"Babylon", al:["Babylon","Shinar","Babel"], modern:"Hillah, Iraq", lat:32.542, lon:44.421, type:"city",
     blurb:"Empire city on the Euphrates — Babel's tower, Nebuchadnezzar's capital, place of exile, and Revelation's symbol of world power.",
+    meaning:"Akkadian 'Bab-ilu' — 'gate of god(s)'; the Hebrew 'Babel' is linked in Gen 11:9 to a wordplay on 'balal', 'to confuse'",
     ancient:"Blue-glazed Ishtar Gate, processional way of lions, ziggurat Etemenanki, hanging terraces above the river.",
     scene:{ terrain:"river", settlement:"temple", water:"river", veg:"palm" } },
   { id:"ur", name:"Ur", al:["Ur of the Chaldeans","Ur"], modern:"Tell el-Muqayyar, Iraq", lat:30.963, lon:46.103, type:"city",
