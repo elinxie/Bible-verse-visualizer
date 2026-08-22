@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520" role="img" aria-label="GitHub Actions run workflow illustration">
+  <rect width="980" height="520" fill="#f6f8fa"/><rect x="80" y="60" width="820" height="400" rx="18" fill="#fff" stroke="#d0d7de" stroke-width="3"/>
+  <text x="120" y="115" font-family="Arial,sans-serif" font-size="30" fill="#24292f" font-weight="700">Actions → Deploy chat Worker</text>
+  <rect x="120" y="155" width="560" height="64" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="150" y="195" font-family="Arial,sans-serif" font-size="21" fill="#24292f">workflow_dispatch</text>
+  <rect x="700" y="155" width="150" height="48" rx="8" fill="#1f883d"/><text x="775" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#fff" font-weight="700">Run workflow</text>
+  <path d="M775 214 V292" stroke="#bf8700" stroke-width="5" marker-end="url(#arrow)"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#bf8700"/></marker></defs>
+  <rect x="180" y="305" width="620" height="70" rx="12" fill="#ddf4ff" stroke="#54aeef"/><text x="490" y="347" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#0969da" font-weight="700">GitHub runner installs Wrangler and deploys the Worker</text>
+</svg>
