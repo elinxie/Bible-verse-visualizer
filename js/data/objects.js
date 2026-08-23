@@ -216,5 +216,9 @@ BVV.OBJECTS = [
   { id:"job-sores", name:"Job's sores and potsherd", al:["loathsome sores","sores","boils","potsherd","broken pottery"], icon:"🩹",
     desc:"The second wager's blow: Job struck with festering sores 'from the sole of his foot to the crown of his head,' bad enough that he sits down among the ashes and scrapes himself with a broken piece of pottery for relief (Job 2:7-8)." },
   { id:"whirlwind", name:"The whirlwind", al:["whirlwind","the storm","out of the whirlwind"], icon:"🌪️",
-    desc:"The storm out of which the LORD finally speaks to Job after thirty-seven chapters of human argument, answering not with an explanation but with a barrage of questions about creation itself (Job 38:1; 40:6) — the same word later carries Elijah bodily up to heaven (2 Kgs 2:11)." }
+    desc:"The storm out of which the LORD finally speaks to Job after thirty-seven chapters of human argument, answering not with an explanation but with a barrage of questions about creation itself (Job 38:1; 40:6) — the same word later carries Elijah bodily up to heaven (2 Kgs 2:11)." },
+  { id:"casting-lots", name:"Casting lots for garments", al:["cast lots","casting lots","divide my garments"], icon:"🎲",
+    desc:"Dividing a condemned or dead person's clothing by lot among those responsible — described as the fate of the sufferer in Psalm 22:18 centuries before crucifixion existed, and reported as literal fact at the cross when Roman soldiers gambled for Jesus' garments (John 19:23-24)." },
+  { id:"shepherds-rod-staff", name:"Shepherd's rod and staff", al:["rod and staff","rod","staff"], icon:"🦯",
+    desc:"A shepherd's two working tools: a short, weighted club (the rod) swung at predators, and a long, hook-ended staff used to guide the flock and hook back a straying or fallen animal — named together in Psalm 23:4 as sources of comfort, one defensive and one guiding." }
 ];
