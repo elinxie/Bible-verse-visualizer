@@ -220,5 +220,13 @@ BVV.OBJECTS = [
   { id:"casting-lots", name:"Casting lots for garments", al:["cast lots","casting lots","divide my garments"], icon:"🎲",
     desc:"Dividing a condemned or dead person's clothing by lot among those responsible — described as the fate of the sufferer in Psalm 22:18 centuries before crucifixion existed, and reported as literal fact at the cross when Roman soldiers gambled for Jesus' garments (John 19:23-24)." },
   { id:"shepherds-rod-staff", name:"Shepherd's rod and staff", al:["rod and staff","rod","staff"], icon:"🦯",
-    desc:"A shepherd's two working tools: a short, weighted club (the rod) swung at predators, and a long, hook-ended staff used to guide the flock and hook back a straying or fallen animal — named together in Psalm 23:4 as sources of comfort, one defensive and one guiding." }
+    desc:"A shepherd's two working tools: a short, weighted club (the rod) swung at predators, and a long, hook-ended staff used to guide the flock and hook back a straying or fallen animal — named together in Psalm 23:4 as sources of comfort, one defensive and one guiding." },
+  { id:"seraphim", name:"Seraphim", al:["seraphim","seraph","seraphs"], icon:"🔥",
+    desc:"Six-winged fiery beings stationed above the LORD's throne in Isaiah's temple vision, two wings covering the face, two the feet, two used for flying, calling to one another 'Holy, holy, holy is the LORD of hosts' until the temple's foundations shake (Isa 6:2-4) — the only OT text to name them, from a Hebrew root ('saraph') meaning 'to burn' shared with the 'fiery serpents' of Num 21:6." },
+  { id:"altar-coal", name:"Live coal from the altar", al:["live coal","burning coal","tongs"], icon:"🕯️",
+    desc:"A single glowing coal a seraph lifts from the temple altar with tongs and touches to Isaiah's mouth — the organ of his own confessed 'unclean lips' — pronouncing his guilt taken away and his sin atoned for, immediately before his commissioning (Isa 6:6-7)." },
+  { id:"grass-flower", name:"Grass and flower", al:["grass","flower","withers"], icon:"🌾",
+    desc:"'All flesh is grass, and all its beauty is like the flower of the field... the grass withers, the flower fades, but the word of our God will stand forever' (Isa 40:6-8) — the herald's answer when told to 'cry,' setting human frailty against a word that outlasts it; quoted directly in 1 Peter 1:24-25." },
+  { id:"lamb-to-slaughter", name:"Led as a lamb to the slaughter", al:["lamb to the slaughter","sheep before its shearers","like a lamb"], icon:"🐑",
+    desc:"'He was oppressed, and he was afflicted, yet he opened not his mouth; like a lamb that is led to the slaughter, and like a sheep that before its shearers is silent, so he opened not his mouth' (Isa 53:7) — the Servant Song's image of silent, unresisting suffering, read by Philip as fulfilled in Jesus when the Ethiopian official reads this very verse aloud (Acts 8:32-35)." }
 ];
