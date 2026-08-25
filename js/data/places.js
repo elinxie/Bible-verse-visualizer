@@ -506,6 +506,7 @@ BVV.PLACES = [
     scene:{ terrain:"plain", settlement:"city", water:"well", veg:"sparse" } },
   { id:"nineveh", name:"Nineveh", al:["Nineveh"], modern:"Mosul, Iraq", lat:36.359, lon:43.153, type:"city",
     blurb:"Assyria's monstrous capital — 'that great city' that repented at Jonah's preaching, and fell in 612 BC as Nahum foretold.",
+    meaning:"Akkadian 'Ninua', likely tied to a local fish/water goddess cult symbol (the cuneiform sign combines 'house' and 'fish') — exact etymology disputed",
     ancient:"Colossal winged-bull gates, palace reliefs of conquest, walls with a three-day circuit.",
     scene:{ terrain:"river", settlement:"temple", water:"river", veg:"sparse" } },
   { id:"susa", name:"Susa", al:["Susa","Shushan"], modern:"Shush, Iran", lat:32.189, lon:48.258, type:"city",

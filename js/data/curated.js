@@ -7708,6 +7708,186 @@ BVV.CURATED = {
       { r:"Isaiah 13:1, 19-22", note:"Babylon's own predicted downfall — this psalm's closing hope, later fulfilled" },
       { r:"Revelation 18:6", note:"'Babylon' repaid double for her deeds — the same talionic language echoed at Scripture's end" } ]}
   ]
+},
+
+/* ============================================================
+   ISAIAH 6 — Isaiah's temple vision and call
+   ============================================================ */
+"23:6": {
+  era: {
+    title: "ca. 740 BC — 'the year King Uzziah died'",
+    sub: "Iron Age II · the Jerusalem temple · Isaiah's inaugural call vision",
+    badges: ["Prophetic literature", "Call/commissioning vision", "Throne-room theophany, not narrative geography", "≈2,766 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "In the year King Uzziah died, Isaiah sees 'the Lord, high and lifted up,' his robe's train filling the temple. Above him stand seraphim, six-winged fiery beings, calling to one another, 'Holy, holy, holy is the LORD of hosts; the whole earth is full of his glory' — a cry loud enough to shake the temple's foundations and fill the house with smoke. Isaiah's own reaction is terror, not wonder: 'Woe is me! For I am lost; for I am a man of unclean lips... for my eyes have seen the King, the LORD of hosts!' A seraph answers not with rebuke but with cleansing — flying to him with a live coal, taken with tongs from the altar, and touching it to his mouth: 'your guilt is taken away, and your sin atoned for.' Only then does Isaiah overhear the LORD asking, to no one in particular, 'Whom shall I send, and who will go for us?' and volunteer before he is even named: 'Here am I! Send me.' The commission that follows is the chapter's hardest turn — Isaiah is sent to preach in a way that will make the people's heart dull, their ears heavy, their eyes shut, 'lest they turn and be healed.' Isaiah asks 'How long, O Lord?' and is told: until cities lie waste without inhabitant, houses without people, the land utterly desolate and its people removed far away. Yet the vision does not end in blank judgment — a tenth will remain, and even that remnant will be burned again, 'like a terebinth or an oak, whose stump remains when it is felled. The holy seed is its stump.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The temple where Isaiah 'saw the Lord' in the year King Uzziah died — the throne-room vision of vv. 1-4 and the commission that follows it" },
+    { id:"nineveh", role:"Standing in for Assyria, whose growing empire already shadowed Judah in Isaiah's own lifetime (per this book's own era label) — the coming devastation this commission foresees (vv. 11-13) names no place in the text itself, so this marker is thematic, not a mapped event" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"nineveh", dashed:true, label:"The judgment this commission foresees, not a mapped journey", km:890,
+      note:"Isaiah 6 names no place beyond the temple itself; this leg only marks the historical shadow that gives the chapter its weight — the Assyrian empire whose armies would, within Isaiah's own lifetime, empty Judean cities and deport their people much as this commission predicts (vv. 11-12; cf. 2 Kings 18-19)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"prophet", label:"\"I saw the Lord, high and lifted up\"",
+      desc:"In the year King Uzziah died, Isaiah sees the LORD enthroned, his robe's train alone filling the entire temple (v. 1)." },
+    { x:0.22, type:"object", label:"Seraphim: \"Holy, holy, holy\"",
+      desc:"Six-winged beings above the throne — two wings covering the face, two the feet, two flying — call to one another in a cry loud enough to shake the temple's foundations and fill the house with smoke (vv. 2-4)." },
+    { x:0.4, type:"person", av:"prophet", label:"\"Woe is me! I am lost... a man of unclean lips\"",
+      desc:"Isaiah's reaction to the vision is not awe but terror at his own unfitness — he lives 'in the midst of a people of unclean lips,' and now his own eyes 'have seen the King, the LORD of hosts' (v. 5)." },
+    { x:0.56, type:"object", label:"A live coal from the altar",
+      desc:"A seraph flies to Isaiah with a burning coal lifted from the altar by tongs and touches it to his mouth — the very organ of his confessed uncleanness — pronouncing his guilt taken away and his sin atoned for (vv. 6-7)." },
+    { x:0.72, type:"person", av:"prophet", label:"\"Here am I! Send me.\"",
+      desc:"Isaiah overhears the LORD asking, to the heavenly council at large, 'Whom shall I send, and who will go for us?' and volunteers before any name is given (v. 8)." },
+    { x:0.9, type:"object", label:"The hardening commission, and a stump left standing",
+      desc:"Isaiah is sent to preach in a way that will dull the people's hearts and shut their eyes, 'lest they turn and be healed'; asked 'how long,' he is told: until the land lies utterly desolate — yet even the tenth that remains, and is burned again, leaves a stump, 'the holy seed' (vv. 9-13)." }
+  ],
+  environment: {
+    chips: ["Throne-room theophany, not narrative geography", "Seraphim: 'burning ones', six wings each", "The thrice-holy acclamation (later liturgy's 'Trisagion')", "A live coal for atonement, not accusation", "The 'hardening' text most quoted of Christ's own ministry"],
+    text: "Isaiah 6 unfolds entirely within the temple's imagined throne room, likely modeled on the earthly sanctuary's own altar and smoke-filled inner court, so the vision needs no travel at all — its only geography is vertical, up toward a throne 'high and lifted up.' Seraphim ('seraphim,' from a Hebrew root meaning 'to burn') appear here and nowhere else in the OT by this name, though the same root describes the 'fiery serpents' of Numbers 21:6, suggesting beings imagined as blazing rather than simply winged. The coal-and-tongs detail borrows the temple's own working altar equipment for a symbolic act: cleansing applied specifically to the lips, the organ of Isaiah's own confessed sin and the tool of the prophetic speech he is about to be given."
+  },
+  objectsExtra: ["seraphim", "altar-coal", "altar"],
+  peopleExtra: ["isaiah"],
+  culture: [
+    { title:"Seraphim — the 'burning ones'", icon:"🔥",
+      text:"The Hebrew word 'seraphim' comes from a root meaning 'to burn,' shared with the 'fiery serpents' that afflict Israel in Numbers 21:6 — leading some scholars to picture beings closer to blazing, serpentine guardians than the feathered angels of later art. Isaiah 6 is their only clear appearance in the Old Testament by this name; six wings each, two covering the face (unable to look directly at the throne), two the feet, and two used for flight." },
+    { title:"A coal for cleansing, not accusation", icon:"🕯️",
+      text:"The altar coal, lifted with tongs so no human hand touches it directly, is applied specifically to Isaiah's mouth — the part of him he has just confessed as 'unclean' — rather than to his hands or heart. The gesture pairs judgment's usual tool (fire) with an unexpected verdict: 'your guilt is taken away,' making the coal an instrument of pardon immediately before Isaiah is given words to speak on God's behalf." },
+    { title:"The hardening commission — a hard text, honestly read", icon:"📜",
+      text:"Verses 9-10 are among Scripture's most debated: Isaiah is told his own preaching will make hearts dull and eyes shut. Most readings take this less as arbitrary cruelty than as a description of what persistent, prior rejection produces — a pattern echoed in Pharaoh's hardened heart (Exod 9:12) and applied by all three Synoptic Gospels to Jesus' parables (Matt 13:14-15) and by John directly to unbelief at his miracles (John 12:39-41, which states Isaiah 'said these things because he saw his glory')." }
+  ],
+  crossRefs: [
+    { group:"Isaiah's vision quoted of Christ", refs:[
+      { r:"John 12:39-41", note:"'Isaiah said these things because he saw his glory and spoke of him' — reading the throne vision of v. 1 as a sight of Jesus" },
+      { r:"Matthew 13:14-15", note:"Jesus quotes the hardening text of vv. 9-10 to explain why he teaches in parables" },
+      { r:"Acts 28:25-27", note:"Paul's closing words in Rome apply the same quotation to Jewish unbelief in his own preaching" } ]},
+    { group:"Seraphim, coal, and a mouth touched for a call", refs:[
+      { r:"Exodus 3:1-6", note:"another prophet's call at fire — a burning bush that is not consumed" },
+      { r:"Jeremiah 1:9", note:"the LORD touches Jeremiah's mouth at his own commissioning, echoing the coal's gesture here" },
+      { r:"Revelation 4:8", note:"four living creatures around God's throne cry 'holy, holy, holy' without ceasing, echoing the seraphim's acclamation" } ]}
+  ]
+},
+
+/* ============================================================
+   ISAIAH 40 — "Comfort my people" and the herald in the wilderness
+   ============================================================ */
+"23:40": {
+  era: {
+    title: "Addressed to a future exile generation (traditionally, 8th-century Isaiah predicting it; critically dated to ca. 540s BC, near the exile's end)",
+    sub: "Hebrew prophetic poetry · opens the book's second half, chs. 40-66 · sets the exile's coming return in view",
+    badges: ["Prophetic literature", "Opens 'Second Isaiah' (chs. 40-66)", "Authorship and date debated", "Quoted of John the Baptist in all four Gospels"]
+  },
+  timeOfDay: "day",
+  summary: "A double command opens the book's second half: 'Comfort, comfort my people... speak tenderly to Jerusalem, and cry to her that her warfare is ended, that her iniquity is pardoned.' A voice then cries: 'In the wilderness prepare the way of the LORD; make straight in the desert a highway for our God' — every valley lifted, every mountain and hill made low, so 'the glory of the LORD shall be revealed, and all flesh shall see it together.' A further voice says 'Cry!' and asks what to cry: 'All flesh is grass, and all its beauty is like the flower of the field... the grass withers, the flower fades, but the word of our God will stand forever.' Zion herself is then commissioned as a herald, told to climb a high mountain and announce to the cities of Judah: 'Behold your God!' The LORD who comes 'with might' is pictured, in the same breath, as gentle: 'he will tend his flock like a shepherd; he will gather the lambs in his arms... and gently lead those that are with young.' The chapter then pivots to a sustained argument for God's incomparable greatness — he has measured the oceans in the hollow of his hand, weighed the mountains on a scale, and counts whole nations as a drop from a bucket or dust on a scale; idols made by human craftsmen are described in mocking, literal detail, worthless beside the one who 'brings out the starry host and calls them each by name.' It closes on the chapter's most quoted line: 'those who wait for the LORD shall renew their strength; they shall mount up with wings like eagles; they shall run and not be weary; they shall walk and not faint.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"'Comfort, comfort my people... speak tenderly to Jerusalem' (vv. 1-2), and 'O Zion, herald of good news... say to the cities of Judah, Behold your God!' (v. 9) — the oracle's addressee throughout" },
+    { id:"babylon", role:"Never named in this chapter, but the setting the whole 'Second Isaiah' section (chs. 40-66) speaks into — the Babylonian exile whose end this opening oracle announces; included here thematically, as the audience the comfort is actually for" }
+  ],
+  journey: [
+    { from:"babylon", to:"jerusalem", dashed:true, label:"The highway this chapter announces, not yet built", km:870,
+      note:"'A voice cries: In the wilderness prepare the way of the LORD' (v. 3) pictures a literal royal road, leveled through the desert ahead of a king's procession — read since as both the exiles' own road home from Babylon and, per all four Gospels, John the Baptist's wilderness ministry preparing the way for Jesus." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", av:"prophet", label:"\"Comfort, comfort my people\"",
+      desc:"The double imperative that opens the book's second half — Jerusalem's warfare is ended, her iniquity pardoned, 'double for all her sins' (vv. 1-2)." },
+    { x:0.2, type:"object", label:"\"A voice cries: prepare the way of the LORD\"",
+      desc:"A herald announces a highway leveled through the wilderness — every valley lifted, every mountain made low — so that 'the glory of the LORD shall be revealed, and all flesh shall see it together' (vv. 3-5); quoted of John the Baptist by all four Gospels." },
+    { x:0.36, type:"object", label:"\"All flesh is grass... the word of our God will stand forever\"",
+      desc:"Told to 'cry,' the voice answers with human frailty set against an enduring word — grass withers, flowers fade, but what God says does not (vv. 6-8)." },
+    { x:0.52, type:"person", av:"prophet", label:"\"O Zion, herald of good news... Behold your God!\"",
+      desc:"Zion herself is commissioned as the herald, climbing a high mountain to shout the news to the cities of Judah (v. 9)." },
+    { x:0.68, type:"person", av:"shepherd", label:"\"He will tend his flock like a shepherd\"",
+      desc:"The God who 'comes with might' is pictured in the same breath as gentle — gathering lambs in his arms, carrying them close, leading the nursing ewes with care (vv. 10-11)." },
+    { x:0.88, type:"object", label:"\"Those who wait for the LORD shall renew their strength\"",
+      desc:"After measuring the oceans in his palm and naming every star, the LORD who never grows weary or faint offers the weary the same strength — to mount up like eagles, run without tiring, walk without fainting (vv. 12-31, condensed to its closing promise)." }
+  ],
+  environment: {
+    chips: ["Opens the book's 'second half' (chs. 40-66)", "A royal highway leveled through the desert", "Grass and flower set against an enduring word", "Idol-making mocked in literal, physical detail (vv. 19-20)", "'Renew their strength' — the chapter's closing promise"],
+    text: "Leveling a straight, obstacle-free road ahead of a king's procession or a returning army is a practice attested across the ancient Near East, which is why 'prepare the way' lands as a concrete, physical image rather than a vague metaphor — a literal highway is what the exiles are told to picture coming home on. The idol-polemic later in the chapter (vv. 19-20) describes actual metalworking: a craftsman casts and overlays an image with silver, then chooses wood that will not rot for its base — mockery that assumes an audience who knows exactly how an idol is made, and knows a human-made object cannot rival the one who 'brings out the starry host by number, calling them all by name' (v. 26), a line that pointedly answers Babylon's own star-naming astral religion."
+  },
+  objectsExtra: ["grass-flower"],
+  peopleExtra: ["isaiah", "john-baptist"],
+  culture: [
+    { title:"A king's highway through the desert", icon:"🛣️",
+      text:"Ancient Near Eastern kings routinely had roads leveled and cleared ahead of a royal procession or a triumphant march home — filling low ground, cutting through rises — so 'every valley shall be lifted up, and every mountain and hill made low' (v. 4) would have read as a real, physical project to its first hearers, not only a spiritual metaphor. All four Gospels later apply the verse literally to John the Baptist's wilderness ministry (Matt 3:3; Mark 1:3; Luke 3:4-6; John 1:23) — the only Old Testament line quoted by all four." },
+    { title:"Ancient idol-making, mocked in loving detail", icon:"⚒️",
+      text:"Verses 19-20 describe the actual craft: a smith casts an image and a goldsmith overlays it with gold, casting silver chains for it, while a poorer buyer instead chooses wood that will not rot, and finds a skilled craftsman to set up an image 'that will not move.' The satire only lands because the audience recognizes the process — this is not caricature but a precise, almost technical description of contemporary idol manufacture." },
+    { title:"'Second Isaiah' and the question of authorship", icon:"📖",
+      text:"Traditional Jewish and Christian reading holds the whole book, chs. 1-66, to one 8th-century prophet, with chs. 40-66 a supernatural foretelling of a future exile and return — a view some conservative scholars stress precisely because of how specifically later chapters predict events (even naming Cyrus by name in Isa 45:1). Critical scholarship since the 19th century instead reads chs. 40-55 (and often 56-66) as the work of an anonymous prophet writing near the end of the Babylonian exile itself, addressing that generation directly rather than a purely future one. The site presents both views rather than adjudicating between them." }
+  ],
+  crossRefs: [
+    { group:"Quoted of John the Baptist", refs:[
+      { r:"Matthew 3:3", note:"Matthew explicitly identifies John's wilderness ministry with v. 3" },
+      { r:"Luke 3:4-6", note:"Luke quotes further, through 'all flesh shall see the salvation of God'" },
+      { r:"John 1:23", note:"John the Baptist quotes the verse of himself, when asked directly who he is" } ]},
+    { group:"The chapter's other images, echoed elsewhere", refs:[
+      { r:"1 Peter 1:24-25", note:"quotes 'all flesh is grass' almost verbatim, applying it to the gospel's enduring word" },
+      { r:"Psalm 103:15-16", note:"the same grass-and-flower image, applied to a human lifespan" },
+      { r:"Psalm 147:4", note:"'he determines the number of the stars; he gives to all of them their names' — the same claim echoed here at v. 26" } ]}
+  ]
+},
+
+/* ============================================================
+   ISAIAH 53 — the fourth Servant Song: "wounded for our transgressions"
+   ============================================================ */
+"23:53": {
+  era: {
+    title: "Traditionally 8th-century (Isaiah); critically dated within 'Second Isaiah', ca. 540s BC",
+    sub: "Hebrew prophetic poetry · the climax of the four 'Servant Songs' (42:1-4; 49:1-6; 50:4-9; 52:13-53:12) · no narrative geography of its own",
+    badges: ["Prophetic literature", "Fourth and final 'Servant Song'", "The OT chapter most quoted of a single suffering figure in the NT", "Referent debated: corporate Israel vs. an individual Messianic figure"]
+  },
+  timeOfDay: "day",
+  summary: "The poem opens with a report nobody believed and an 'arm of the LORD' otherwise hidden. The servant grows 'like a young plant, and like a root out of dry ground,' with no form or majesty that should draw anyone to him — instead, 'he was despised and rejected by men, a man of sorrows, and acquainted with grief,' someone others hide their faces from and hold in no esteem. The turn comes at v. 4: what looked like the servant being 'stricken, smitten by God' is reinterpreted entirely — 'he was wounded for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his stripes we are healed.' The blame is placed squarely on the reader: 'all we like sheep have gone astray; we have turned everyone to his own way; and the LORD has laid on him the iniquity of us all.' Oppressed and afflicted, he 'opened not his mouth,' compared to a lamb led to slaughter and a sheep silent before its shearers. Cut off from the land of the living for 'the transgression of my people,' he is assigned a grave with the wicked, yet ends up 'with a rich man in his death,' though he had done no violence and spoken no deceit. The hardest line follows: 'it was the will of the LORD to crush him,' making his life 'an offering for guilt' — yet the poem does not end there; he 'shall see his offspring,' his days prolonged, and 'out of the anguish of his soul he shall see and be satisfied.' The closing verses give the reason: 'by his knowledge shall the righteous one, my servant, make many to be accounted righteous, and he shall bear their iniquities' — and for this, he is given 'a portion with the great,' because he 'poured out his soul to death,' was 'numbered with the transgressors,' bore 'the sin of many,' and 'makes intercession for the transgressors.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"No place is named anywhere in the poem itself; the New Testament repeatedly locates its fulfillment here — crucified outside the city's wall and buried in a rich man's nearby tomb (v. 9; cf. Matt 27:57-60; John 19:41-42)" },
+    { id:"bethlehem", role:"Reused thematically for the journey leg below, tracing a life 'from birth to grave' the way Psalm 22 traces David's own arc — the poem itself maps no route" }
+  ],
+  journey: [
+    { from:"bethlehem", to:"jerusalem", dashed:true, label:"A life the poem never maps, only foreshadows", km:10,
+      note:"Isaiah 53 names no birthplace and no city — this leg is only a thematic reminder of how early Christian readers connected 'a root out of dry ground' (v. 2) and a grave assigned 'with the rich' (v. 9) to one specific life, born at Bethlehem and buried near Jerusalem." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", av:"prophet", label:"\"Who has believed what we have heard?\"",
+      desc:"The poem opens with an unbelieved report and a servant growing unnoticed, 'like a root out of dry ground,' with no beauty that should draw anyone to him (vv. 1-2)." },
+    { x:0.2, type:"person", av:"traveler", label:"\"Despised and rejected... a man of sorrows\"",
+      desc:"Acquainted with grief, held in no esteem, someone others deliberately hide their faces from (v. 3)." },
+    { x:0.38, type:"object", label:"\"Wounded for our transgressions... by his stripes we are healed\"",
+      desc:"The poem's central reversal: suffering first read as divine punishment on the servant is reinterpreted as bearing the punishment owed to everyone else, 'the LORD has laid on him the iniquity of us all' (vv. 4-6)." },
+    { x:0.54, type:"object", label:"\"Like a lamb led to the slaughter\"",
+      desc:"Oppressed and afflicted, he stays silent — compared to a lamb led to slaughter and a sheep silent before its shearers — 'cut off out of the land of the living' (vv. 7-8)." },
+    { x:0.7, type:"object", label:"\"A grave with the wicked... with a rich man in his death\"",
+      desc:"Assigned a burial he did not deserve, having done no violence and spoken no deceit, yet it was the LORD's will to crush him, making his life an offering for guilt (vv. 9-10)." },
+    { x:0.88, type:"person", av:"king", label:"\"By his knowledge shall my righteous servant justify many\"",
+      desc:"Out of anguish he 'shall see and be satisfied,' bearing the iniquities of many; given 'a portion with the great' for pouring out his soul to death, being numbered with transgressors, and making 'intercession for the transgressors' (vv. 11-12)." }
+  ],
+  environment: {
+    chips: ["The fourth of four 'Servant Songs'", "No place named anywhere in the poem", "The OT chapter most quoted of one suffering figure in the NT", "'Asham' — a guilt offering, given by a single life", "Referent debated since antiquity"],
+    text: "Isaiah 53 is the climax of a sequence scholars call the four 'Servant Songs' (42:1-4; 49:1-6; 50:4-9; and 52:13-53:12, of which this chapter is the second half), each one describing a mysterious 'servant of the LORD' in more costly terms than the last, ending here in vicarious suffering and death. The poem itself gives no city, road, or battlefield — its whole geography is a single unnamed life traced from obscure growth ('a root out of dry ground') to an undeserved grave, which is precisely why later readers, both Jewish and Christian, have had to supply an identity for the 'servant' from outside the text."
+  },
+  objectsExtra: ["lamb-to-slaughter"],
+  peopleExtra: ["isaiah", "philip-evangelist"],
+  culture: [
+    { title:"The four 'Servant Songs'", icon:"📜",
+      text:"Scholars since the 19th century have identified four passages in Isaiah 40-55 as a connected sequence about a 'servant of the LORD': a quiet bearer of justice (42:1-4), a servant restoring Israel (49:1-6), one who offers his back to those who strike him (50:4-9), and finally this chapter's servant who suffers and dies for others' guilt (52:13-53:12) — an escalation from quiet faithfulness to vicarious death across the four songs." },
+    { title:"Who is 'my servant'? — an ancient debate", icon:"⚖️",
+      text:"Jewish interpretation has read the servant in various ways across history — sometimes corporate Israel suffering among the nations (a reading emphasized especially after the chapter became central to Jewish-Christian debate), sometimes a righteous remnant or an individual future figure; the ancient Aramaic Targum applies parts of the passage messianically while relocating some of the suffering elsewhere. Christian reading, following the New Testament's own repeated use of the chapter, applies it directly to Jesus. Notably, the Dead Sea Scrolls' Great Isaiah Scroll (1QIsaᵃ, 2nd century BC) preserves essentially the same Hebrew text used today, centuries before the debate over its meaning had its later shape — the wording is stable even where interpretation diverges." },
+    { title:"Acts 8 — the earliest recorded reading of this chapter", icon:"🛞",
+      text:"The first datable interpretation of Isaiah 53 on record comes in Acts 8: an Ethiopian court official, riding the desert road from Jerusalem to Gaza, is reading this very chapter aloud from a scroll (vv. 32-33 quoted almost verbatim) and asks Philip 'of whom does the prophet say this, of himself or of someone else?' Philip's answer, 'beginning from this Scripture, told him the good news about Jesus' (Acts 8:26-35) — a reading born on a chariot, not in a classroom." }
+  ],
+  crossRefs: [
+    { group:"Quoted of Jesus in the NT", refs:[
+      { r:"Acts 8:32-35", note:"the Ethiopian official reads this very passage aloud; Philip explains it as good news about Jesus" },
+      { r:"1 Peter 2:22-25", note:"'by his wounds you have been healed' — quoted almost verbatim of Christ's suffering" },
+      { r:"Matthew 8:17", note:"'he took our illnesses and bore our diseases' quoted of Jesus' healing ministry" } ]},
+    { group:"The servant elsewhere in Isaiah", refs:[
+      { r:"Isaiah 42:1-4", note:"the first Servant Song — a quiet, unbreaking bearer of justice" },
+      { r:"Isaiah 50:4-9", note:"the third Servant Song — a face given to those who struck him" },
+      { r:"Isaiah 52:13-15", note:"the servant 'high and lifted up' — this song's own opening half, immediately before ch. 53" } ]}
+  ]
 }
 
 };
