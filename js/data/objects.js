@@ -228,5 +228,9 @@ BVV.OBJECTS = [
   { id:"grass-flower", name:"Grass and flower", al:["grass","flower","withers"], icon:"🌾",
     desc:"'All flesh is grass, and all its beauty is like the flower of the field... the grass withers, the flower fades, but the word of our God will stand forever' (Isa 40:6-8) — the herald's answer when told to 'cry,' setting human frailty against a word that outlasts it; quoted directly in 1 Peter 1:24-25." },
   { id:"lamb-to-slaughter", name:"Led as a lamb to the slaughter", al:["lamb to the slaughter","sheep before its shearers","like a lamb"], icon:"🐑",
-    desc:"'He was oppressed, and he was afflicted, yet he opened not his mouth; like a lamb that is led to the slaughter, and like a sheep that before its shearers is silent, so he opened not his mouth' (Isa 53:7) — the Servant Song's image of silent, unresisting suffering, read by Philip as fulfilled in Jesus when the Ethiopian official reads this very verse aloud (Acts 8:32-35)." }
+    desc:"'He was oppressed, and he was afflicted, yet he opened not his mouth; like a lamb that is led to the slaughter, and like a sheep that before its shearers is silent, so he opened not his mouth' (Isa 53:7) — the Servant Song's image of silent, unresisting suffering, read by Philip as fulfilled in Jesus when the Ethiopian official reads this very verse aloud (Acts 8:32-35)." },
+  { id:"almond-rod", name:"Almond branch", al:["almond branch","almond tree","rod of an almond tree"], icon:"🌸",
+    desc:"The first of Jeremiah's two inaugural visions: a branch of the almond tree (Hebrew 'shaqed'), the first tree to flower each year in the Judean hill country — the LORD explains the image with a wordplay, 'for I am watching (shoqed) over my word to perform it' (Jer 1:11-12)." },
+  { id:"boiling-pot", name:"Boiling pot from the north", al:["boiling pot","seething pot","boiling cauldron"], icon:"🍲",
+    desc:"Jeremiah's second inaugural vision: a cooking pot at a rolling boil, tipped away from the north so its contents spill southward — read as a picture of the invasion that would come 'out of the north,' from Babylon, against Judah and Jerusalem (Jer 1:13-16)." }
 ];

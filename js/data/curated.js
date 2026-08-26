@@ -7888,6 +7888,192 @@ BVV.CURATED = {
       { r:"Isaiah 50:4-9", note:"the third Servant Song — a face given to those who struck him" },
       { r:"Isaiah 52:13-15", note:"the servant 'high and lifted up' — this song's own opening half, immediately before ch. 53" } ]}
   ]
+},
+
+/* ============================================================
+   JEREMIAH 1 — Jeremiah's call at Anathoth
+   ============================================================ */
+"24:1": {
+  era: {
+    title: "ca. 627 BC — 'the thirteenth year of Josiah'",
+    sub: "Late Iron Age II · Anathoth, a priestly village near Jerusalem · Assyria fading, Babylon not yet risen",
+    badges: ["Prophetic call/commissioning", "Reign of Josiah", "Opens 40 years of ministry to Jerusalem's fall", "≈2,653 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "In the thirteenth year of King Josiah, the word of the LORD comes to Jeremiah, a young priest of Anathoth: 'Before I formed you in the womb I knew you, and before you were born I consecrated you; I appointed you a prophet to the nations.' Jeremiah objects — 'I do not know how to speak, for I am only a youth' — but the LORD touches his mouth: 'I have put my words in your mouth.' He is appointed 'to pluck up and break down, to destroy and overthrow, to build and to plant.' Two visions confirm the call: an almond branch, the first tree to bud each year, wordplay-linked to God 'watching' over his word to perform it; and a boiling pot tipped away from the north, its contents spilling south — disaster that will come 'out of the north' against Judah and Jerusalem, from kingdoms the LORD himself will summon. The LORD tells Jeremiah to brace himself, promising to make him 'a fortified city, an iron pillar, and bronze walls' against kings, officials, priests, and people alike — opposed, but never overcome.",
+  focusPlace: "anathoth",
+  places: [
+    { id:"anathoth", role:"Jeremiah's home village and the setting of his call (v. 1)" },
+    { id:"jerusalem", role:"The city Jeremiah is sent to confront — 'a prophet to the nations,' but first to Judah's capital, a few miles south" },
+    { id:"babylon", role:"Not yet named, but the power the 'boiling pot from the north' vision foreshadows (vv. 13-15) — included thematically" }
+  ],
+  journey: [
+    { from:"anathoth", to:"jerusalem", label:"A prophet sent from a priestly village to the capital", km:5,
+      note:"Anathoth sits only about 3 mi / 5 km north of Jerusalem — close enough that Jeremiah's forty-year ministry runs constantly between his hometown and the city whose fall he will spend his whole life predicting." },
+    { from:"jerusalem", to:"babylon", dashed:true, label:"The vision of the boiling pot — a threat not yet arrived", km:890,
+      note:"The second vision (vv. 13-16) names no country, only 'the north' — but the disaster it foreshadows would arrive from Babylon within Jeremiah's own lifetime, per the era note this chapter opens with (Josiah's 13th year, decades before Babylon's rise)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", av:"prophet", label:"\"Before I formed you in the womb I knew you\"",
+      desc:"The LORD's call precedes Jeremiah's birth: consecrated and appointed 'a prophet to the nations' before he was ever formed (v. 5)." },
+    { x:0.22, type:"person", av:"prophet", label:"\"I do not know how to speak, for I am only a child\"",
+      desc:"Jeremiah's objection — like Moses' before him — meets a flat refusal: 'do not say, I am only a child... I am with you to deliver you' (vv. 6-8)." },
+    { x:0.38, type:"object", label:"The LORD touches his mouth",
+      desc:"'Then the LORD put out his hand and touched my mouth. And the LORD said to me, Behold, I have put my words in your mouth' (v. 9) — the commissioning gesture Isaiah's own call (Isa 6:6-7) later echoes with a coal instead of a hand." },
+    { x:0.52, type:"object", label:"Vision one: the almond branch",
+      desc:"Asked what he sees, Jeremiah answers 'a branch of an almond tree' — the Hebrew wordplay (shaqed, 'almond,' and shoqed, 'watching') confirms: 'I am watching over my word to perform it' (vv. 11-12)." },
+    { x:0.68, type:"object", label:"Vision two: the boiling pot from the north",
+      desc:"A second vision — a pot at a rolling boil, tipped away from the north, its contents spilling south — pictures disaster 'out of the north,' as every kingdom the LORD summons sets its throne against Jerusalem's gates (vv. 13-16)." },
+    { x:0.9, type:"person", av:"prophet", label:"\"To pluck up... and to build and to plant\"",
+      desc:"The commission's full scope: uprooting and tearing down as well as building and planting, backed by the LORD's promise to make Jeremiah 'a fortified city, an iron pillar, and bronze walls' — opposed by kings, officials, priests, and people, but never overcome (vv. 10, 17-19)." }
+  ],
+  environment: {
+    chips: ["Anathoth — a priestly village a few miles from Jerusalem", "The reign of Josiah, before Babylon's rise", "Almond: first tree to flower in the Judean hills", "A boiling pot tipped away from the north", "40 years of ministry begin here"],
+    text: "Anathoth was one of the towns set aside for Levites (Josh 21:18), and later, after Solomon exiled the priest Abiathar there for backing the wrong heir (1 Kgs 2:26), a place already marked by prophetic and priestly memory before Jeremiah's own birth. The almond tree's Hebrew name, shaqed, is chosen for wordplay with shoqed, 'watching' — the tree that blooms earliest each year (often while frost still lingers) becomes a visual pun for a God who acts on his word without delay. The boiling-pot vision uses an everyday kitchen image — a pot at a rolling boil naturally tips its contents toward whichever side is lower — to picture armies pouring down from the north, the direction every major invader of Judah (Assyria, then Babylon) in fact approached from, since the Arabian desert blocked a direct eastern route."
+  },
+  objectsExtra: ["almond-rod", "boiling-pot"],
+  peopleExtra: ["jeremiah", "josiah"],
+  culture: [
+    { title:"The almond wordplay (shaqed / shoqed)", icon:"🌸",
+      text:"Hebrew prophetic visions often turn on sound-plays invisible in translation: shaqed ('almond') and shoqed ('watching, being alert') share the same consonants, so the vision's content and its interpretation are bound together by the sound of the word itself. The almond's real botanical habit — flowering in Israel as early as January, well before other trees — reinforces the point: God's word does not lie dormant." },
+    { title:"Prophetic call narratives compared", icon:"📜",
+      text:"Jeremiah's call follows a recognizable Old Testament pattern: divine confrontation, an objection of unworthiness or inability, reassurance, and a commissioning sign — the same shape as Moses at the burning bush ('who am I... I am not eloquent,' Exod 3-4) and Isaiah's temple vision, where a seraph's coal touches his mouth just as the LORD's hand touches Jeremiah's here (Isa 6:6-7)." },
+    { title:"'Out of the north' — Judah's real invasion route", icon:"🗺️",
+      text:"Every major army that ever conquered Judah — Assyria under Sennacherib, then Babylon under Nebuchadnezzar — approached from the north, following the fertile crescent's arc rather than crossing the Arabian desert directly east of Judah. 'Disaster from the north' was therefore not abstract poetry to Jeremiah's first hearers but a precise, geographically informed threat, fulfilled when Nebuchadnezzar's armies came exactly that way a generation later." }
+  ],
+  crossRefs: [
+    { group:"Other prophetic call narratives", refs:[
+      { r:"Exodus 3:11-4:17", note:"Moses' own objections at the burning bush — 'who am I,' 'I am not eloquent'" },
+      { r:"Isaiah 6:6-8", note:"a seraph's coal touches Isaiah's mouth; he answers 'here am I, send me'" },
+      { r:"Ezekiel 2:3-3:11", note:"Ezekiel's commission to 'a rebellious house,' scroll eaten before he speaks" } ]},
+    { group:"The 'boiling pot' vision fulfilled", refs:[
+      { r:"2 Kings 24:1-2", note:"Nebuchadnezzar's armies first arrive against Judah, decades after this call" },
+      { r:"Jeremiah 25:8-11", note:"Jeremiah later names the threat outright: 'Nebuchadnezzar king of Babylon'" },
+      { r:"Habakkuk 1:5-6", note:"another prophet of the same era: 'I am raising up the Chaldeans'" } ]}
+  ]
+},
+
+/* ============================================================
+   JEREMIAH 29 — the letter to the exiles in Babylon
+   ============================================================ */
+"24:29": {
+  era: {
+    title: "ca. 597–594 BC — soon after Jeconiah's deportation",
+    sub: "Late Iron Age II · a letter from Jerusalem to the first wave of Babylonian exiles · Zedekiah reigning in Jerusalem",
+    badges: ["Prophetic letter, not a visited scene", "Written after the 597 BC deportation", "Answers false prophets in both cities", "The '70 years' and 'plans to prosper you' oracle"]
+  },
+  timeOfDay: "day",
+  summary: "After Nebuchadnezzar deports King Jeconiah, the queen mother, officials, and skilled workers to Babylon in 597 BC, Jeremiah sends a letter after them, carried by royal envoys. Its instructions cut against every exile's instinct to treat captivity as brief and temporary: 'Build houses and live in them... seek the welfare of the city where I have sent you into exile, and pray to the LORD on its behalf, for in its welfare you will find your welfare.' False prophets among the exiles are promising a quick return; Jeremiah names two, Ahab and Zedekiah, whom Nebuchadnezzar will execute by fire, and a third, Shemaiah the Nehelamite, who writes back to Jerusalem demanding Jeremiah be jailed as a madman — earning his own oracle of judgment. At the letter's center sits its most quoted promise: only after seventy years in Babylon will the LORD fulfill his word and bring the exiles home, 'for I know the plans I have for you... plans for welfare and not for evil, to give you a future and a hope.' Seeking God with the whole heart, the LORD says, will not go unanswered.",
+  focusPlace: "babylon",
+  places: [
+    { id:"jerusalem", role:"Where Jeremiah writes the letter and where Zedekiah's envoys, Shemaiah's counter-letter, and Zephaniah the priest are based (vv. 1-3, 25-29)" },
+    { id:"babylon", role:"Where the first-wave exiles — and the false prophets Jeremiah denounces — have settled (vv. 1, 4, 15, 21)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"babylon", label:"The letter's route, carried by royal envoys", km:890,
+      note:"Elasah son of Shaphan and Gemariah son of Hilkiah, sent by King Zedekiah on other royal business, carry Jeremiah's letter the roughly 550 mi / 890 km from Jerusalem to Babylon — the same route King Jeconiah's deportation had taken a few years earlier, now traveled the other direction by mail rather than by march." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"prophet", label:"A letter sent after the exiles",
+      desc:"Jeremiah writes to 'the elders, priests, prophets, and all the people' Nebuchadnezzar deported to Babylon, sending it by royal envoys already traveling that way (vv. 1-3)." },
+    { x:0.22, type:"object", label:"\"Build houses... seek the welfare of the city\"",
+      desc:"Settle in for the long term — build, plant, marry, multiply — and pray for Babylon itself, 'for in its welfare you will find your welfare' (vv. 4-7)." },
+    { x:0.4, type:"person", av:"prophet", label:"\"Do not let your prophets deceive you\"",
+      desc:"The exile community has its own false prophets promising a swift return; the LORD says plainly, 'I did not send them' (vv. 8-9)." },
+    { x:0.58, type:"object", label:"\"When seventy years are completed for Babylon\"",
+      desc:"Only after seventy years will the LORD fulfill his promise and bring the exiles home — the timeline Daniel later reads directly from this letter (Dan 9:2)." },
+    { x:0.74, type:"object", label:"\"Plans to give you a future and a hope\"",
+      desc:"The chapter's most quoted line: 'I know the plans I have for you... plans for welfare and not for evil, to give you a future and a hope' — conditioned on seeking the LORD with the whole heart (vv. 10-14)." },
+    { x:0.92, type:"person", av:"prophet", label:"Ahab, Zedekiah, and Shemaiah denounced",
+      desc:"Two named false prophets, Ahab and Zedekiah, are marked for execution by fire at Nebuchadnezzar's hand, becoming a byword; a third, Shemaiah the Nehelamite, writes from Babylon demanding Jeremiah be jailed, and receives his own condemning oracle in return (vv. 15, 21-32)." }
+  ],
+  environment: {
+    chips: ["A letter, not a visited scene — Jeremiah stays in Jerusalem", "Carried by royal envoys already bound for Babylon", "'Seventy years' — echoed by Daniel (Dan 9:2) and Chronicles (2 Chr 36:21)", "False prophecy answered on both ends of the road", "The exile's founding pastoral letter"],
+    text: "This chapter is unusual among Jeremiah's oracles in being an actual piece of ancient correspondence: a letter, not a spoken sermon, dispatched by the hand of officials already traveling from Jerusalem to the Babylonian court on unrelated royal business (v. 3) — evidence that communication between Judah's remaining government and the deported community continued even after 597 BC. Letters of this kind, carried by trusted couriers rather than a postal system, were the normal means of long-distance royal and diplomatic communication across the ancient Near East. The 'seventy years' figure would be read by Daniel a generation later as a literal countdown to the exile's end (Dan 9:2), and by the Chronicler as the land finally enjoying its overdue sabbath rests (2 Chr 36:21, drawing on Lev 25:1-7)."
+  },
+  objectsExtra: ["scroll"],
+  peopleExtra: ["jeremiah", "babylonian-exiles", "hananiah-prophet", "ahab-prophet", "zedekiah-prophet", "shemaiah-nehelamite"],
+  culture: [
+    { title:"Letters as royal diplomacy", icon:"✉️",
+      text:"Jeremiah's letter travels by the same channel as official state business — carried by envoys King Zedekiah is already sending to Nebuchadnezzar's court (v. 3) — a reminder that ancient long-distance messages moved by trusted courier, not by any public post. The practice is well attested across the ancient Near East, from Amarna-period diplomatic tablets to the Lachish ostraca from Judah's own final years." },
+    { title:"The 'seventy years' and the land's sabbath rest", icon:"🗓️",
+      text:"The seventy-year figure (v. 10) recurs across Scripture as a fixed, meaningful span: 2 Chronicles 36:21 explains it as the land finally receiving the sabbath rests it had been denied across centuries of neglected sabbatical years (Lev 25:1-7), while Daniel treats it as a literal prophetic clock he reads straight out of 'the books' — meaning Jeremiah's own writings — to calculate when to pray for the exile's end (Dan 9:2)." },
+    { title:"Death by fire — a Babylonian penalty", icon:"🔥",
+      text:"Execution by burning, the fate Jeremiah predicts for Ahab and Zedekiah (v. 22), is independently attested as a Babylonian capital punishment — the same penalty Nebuchadnezzar later threatens against Daniel's three friends for refusing to bow to his image (Dan 3:6), suggesting the letter's audience would have recognized the threat as entirely realistic, not merely rhetorical." }
+  ],
+  crossRefs: [
+    { group:"Jeremiah's own earlier and later warnings", refs:[
+      { r:"Jeremiah 25:11-12", note:"the seventy-years figure first announced, with Babylon's own eventual judgment" },
+      { r:"Jeremiah 27:12-15", note:"Jeremiah's parallel warning to Zedekiah in Jerusalem: submit to Babylon's yoke" },
+      { r:"2 Kings 24:14-16", note:"the 597 BC deportation this letter is written after" } ]},
+    { group:"The promise remembered", refs:[
+      { r:"Daniel 9:2", note:"Daniel reads Jeremiah's seventy years directly from 'the books' and prays accordingly" },
+      { r:"2 Chronicles 36:21", note:"the exile explained as the land's overdue sabbath rests, finally paid" },
+      { r:"Psalm 137:1-6", note:"the exiles' own grief 'by the rivers of Babylon' — the audience this letter first reached" } ]}
+  ]
+},
+
+/* ============================================================
+   JEREMIAH 31 — the New Covenant
+   ============================================================ */
+"24:31": {
+  era: {
+    title: "Undated within the book — a promise spoken into the exile's coming darkness",
+    sub: "Late Iron Age II · the 'Book of Consolation' (Jer 30-33) · restoration of both Israel and Judah",
+    badges: ["Prophetic poetry, mapped thematically", "The Old Testament's clearest 'new covenant' text", "Rachel's lament at Ramah", "Quoted at length in Hebrews 8"]
+  },
+  timeOfDay: "day",
+  summary: "Chapter 31 belongs to Jeremiah's 'Book of Consolation' (chs. 30-33) — oracles of restoration set deliberately alongside his harsher, more famous warnings. 'I have loved you with an everlasting love,' the LORD says; 'virgin Israel' will be rebuilt, planting vineyards again on the hills of Samaria while watchmen on Ephraim's hills call, 'Arise, and let us go up to Zion.' The chapter's most haunting image follows: 'A voice is heard in Ramah, lamentation and bitter weeping. Rachel is weeping for her children; she refuses to be comforted for her children, because they are no more' — grief for the exiled and the lost, met immediately with a counter-promise: 'there is hope for your future... your children shall come back to their own country.' Ephraim's own voice breaks in, confessing discipline accepted and shame owned, and the LORD answers with unmistakable tenderness: 'Is Ephraim my dear son? ... my heart yearns for him; I will surely have mercy on him.' The chapter closes on its climactic oracle (vv. 31-34): a coming 'new covenant' with Israel and Judah, unlike the Sinai covenant they broke — 'I will put my law within them, and I will write it on their hearts... they shall all know me, from the least of them to the greatest... for I will forgive their iniquity, and I will remember their sin no more.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"Zion, the city watchmen call the returning exiles up to (v. 6), and the covenant's ultimate destination" },
+    { id:"ramah", role:"Where 'a voice is heard' — Rachel weeping for her exiled children (v. 15)" },
+    { id:"samaria", role:"The northern hill country — 'Ephraim,' the former northern kingdom — whose restoration and repentance this chapter also promises (vv. 5-6, 18-20)" }
+  ],
+  journey: [
+    { from:"ramah", to:"jerusalem", label:"From weeping to hope, a few miles apart", km:8,
+      note:"Ramah, just north of Jerusalem in Benjamin's territory, is where deportees were assembled before the march to Babylon (Jer 40:1) — this short leg traces the chapter's own turn from Rachel's inconsolable grief (v. 15) to the promise that her children 'shall come back to their own country' (v. 17)." },
+    { from:"samaria", to:"jerusalem", dashed:true, label:"Ephraim's promised return to Zion, not yet walked", km:55,
+      note:"Samaria stands in for 'Ephraim' and the long-exiled northern kingdom (deported by Assyria over a century earlier), whose watchmen this chapter pictures calling fellow Israelites south to Zion (v. 6) — a reunification of the divided kingdom this chapter promises but does not narrate as an event." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", av:"prophet", label:"\"I have loved you with an everlasting love\"",
+      desc:"The chapter opens mid-restoration: 'virgin Israel' will be rebuilt and take up tambourines again in joyful dancing (vv. 2-4)." },
+    { x:0.2, type:"object", label:"\"Arise, and let us go up to Zion\"",
+      desc:"Watchmen call out from the hills of Ephraim; vineyards will be planted again on the hills of Samaria (vv. 5-6)." },
+    { x:0.4, type:"person", av:"woman", label:"Rachel weeping for her children",
+      desc:"'A voice is heard in Ramah, lamentation and bitter weeping... she refuses to be comforted, because they are no more' — grief for the exiled and the dead, later read by Matthew of Herod's slaughter at Bethlehem (v. 15; Matt 2:17-18)." },
+    { x:0.56, type:"object", label:"\"There is hope for your future\"",
+      desc:"Grief answered directly: 'your children shall come back to their own country' (vv. 16-17)." },
+    { x:0.72, type:"person", av:"youth", label:"Ephraim's repentance",
+      desc:"'You have disciplined me, and I was disciplined... I was ashamed, and I was confounded' — met with the LORD's own tenderness: 'my heart yearns for him; I will surely have mercy on him' (vv. 18-20)." },
+    { x:0.92, type:"object", label:"The New Covenant",
+      desc:"'I will put my law within them, and I will write it on their hearts... they shall all know me, from the least of them to the greatest... I will forgive their iniquity, and I will remember their sin no more' (vv. 31-34)." }
+  ],
+  environment: {
+    chips: ["The 'Book of Consolation' (Jer 30-33)", "Rachel's tomb tradition near Ramah/Bethlehem", "Ephraim = the former northern kingdom, long since exiled", "Old covenant on stone vs. new covenant on the heart", "Hebrews 8 quotes vv. 31-34 in full"],
+    text: "Chapter 31 is poetry addressed to a divided, scattered people: 'Israel' (the northern kingdom, deported by Assyria over a century before Jeremiah's ministry) and 'Judah' (still standing, but soon to share the same fate) are both promised restoration in the same breath, with 'Ephraim' — the leading northern tribe — used as shorthand for the whole lost kingdom. Rachel, Jacob's beloved wife, died and was buried 'on the way to Ephrath (that is, Bethlehem)' near Ramah (Gen 35:16-19) and became, by later tradition, a maternal figure weeping specifically for the northern tribes she never lived to see restored — an image vivid enough that Matthew applies it centuries later to a different, equally real massacre of children at Bethlehem under Herod."
+  },
+  objectsExtra: ["tablets-stone"],
+  peopleExtra: ["jeremiah", "rachel", "ephraim"],
+  culture: [
+    { title:"Rachel's tomb and the weeping tradition", icon:"🕊️",
+      text:"Genesis locates Rachel's grave 'on the way to Ephrath (that is, Bethlehem)... there is a pillar at her grave to this day' (Gen 35:19-20), close by Ramah, giving her figure a fixed geographic anchor for later imagination as a mother mourning her scattered descendants. Matthew's Gospel quotes Jeremiah 31:15 directly of Herod's massacre of Bethlehem's infants (Matt 2:16-18) — reading the same maternal grief forward onto a second national tragedy centuries later." },
+    { title:"Ancient covenant language: 'I will be their God'", icon:"📃",
+      text:"'I will be their God, and they shall be my people' (v. 33) echoes standard ancient Near Eastern treaty and covenant formulas, in which a suzerain and vassal (or, in marriage covenants, two spouses) bound themselves with reciprocal declarations — language Jeremiah deliberately reuses from the Sinai covenant (Exod 6:7) while announcing something the old covenant never delivered: durability, because this one is written internally rather than merely spoken or carved." },
+    { title:"Written on the heart, not on stone", icon:"❤️",
+      text:"The Sinai covenant's terms were inscribed on stone tablets (Exod 31:18) — durable, but external, requiring constant re-teaching (v. 34's 'no longer shall each one teach his neighbor'). Writing 'on the heart' draws on the same culture's clay-tablet contract language for internalized obligation, promising a covenant that does not depend on a scribal class to keep it known — the passage Hebrews 8:8-12 quotes at full length as fulfilled in Christ's own 'better covenant.'" }
+  ],
+  crossRefs: [
+    { group:"The New Covenant fulfilled", refs:[
+      { r:"Hebrews 8:8-12", note:"vv. 31-34 quoted in full as the 'better covenant' inaugurated in Christ" },
+      { r:"Luke 22:20", note:"'this cup that is poured out for you is the new covenant in my blood'" },
+      { r:"Ezekiel 36:26-27", note:"a parallel restoration oracle: 'a new heart... a new spirit... I will put my Spirit within you'" } ]},
+    { group:"Rachel's grief and its later echo", refs:[
+      { r:"Matthew 2:16-18", note:"quotes v. 15 directly of Herod's slaughter of Bethlehem's children" },
+      { r:"Genesis 35:16-20", note:"Rachel's death and burial near Ephrath/Bethlehem, close by Ramah" },
+      { r:"Genesis 30:1", note:"Rachel's earlier desperate longing for children — the grief this chapter answers" } ]}
+  ]
 }
 
 };
