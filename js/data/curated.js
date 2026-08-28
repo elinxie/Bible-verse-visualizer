@@ -8074,6 +8074,137 @@ BVV.CURATED = {
       { r:"Genesis 35:16-20", note:"Rachel's death and burial near Ephrath/Bethlehem, close by Ramah" },
       { r:"Genesis 30:1", note:"Rachel's earlier desperate longing for children — the grief this chapter answers" } ]}
   ]
+},
+
+/* ============================================================
+   EZEKIEL 1 — the inaugural vision by the Chebar canal
+   ============================================================ */
+"26:1": {
+  era: {
+    title: "ca. 593 BC — the fifth year of King Jehoiachin's exile",
+    sub: "Neo-Babylonian exile · by the Chebar canal, Babylonia · Zedekiah still on Jerusalem's throne, the city not yet fallen",
+    badges: ["Ezekiel's inaugural prophetic vision", "Fifth year of Jehoiachin's exile, Ezekiel's own 30th year", "The throne-chariot vision (later Jewish 'Merkabah' tradition)", "≈2,619 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "In his thirtieth year, on the fifth day of the fourth month, Ezekiel — a priest already five years into exile — is among the deportees by the Chebar canal in Babylonia when 'the heavens were opened, and I saw visions of God.' A great storm-wind comes out of the north: a vast cloud with fire flashing back and forth, glowing like amber at its center. Out of it come four living creatures, each with a human form but four faces — human, lion, ox, and eagle — and four wings, their legs straight with calves' feet that gleam like burnished bronze, moving wherever the spirit willed without turning. Beside each creature stands a great wheel, sparkling like beryl, seeming to be 'a wheel within a wheel,' rims full of eyes all around, moving only when the creatures moved, for 'the spirit of the living creature was in the wheels.' Above their heads spreads a shining expanse like awesome crystal, and above the expanse a throne like sapphire, and on the throne a figure with the appearance of a man — bright like glowing metal from the waist up, like fire from the waist down, encircled by brightness 'like the appearance of a rainbow in a cloud on a rainy day.' Ezekiel names it plainly: 'this was the appearance of the likeness of the glory of the LORD.' He falls on his face — and hears a voice speaking.",
+  focusPlace: "chebar",
+  places: [
+    { id:"chebar", role:"The irrigation canal in Babylonia where Ezekiel and the exile community were settled, and where the vision opens (v. 1)" },
+    { id:"babylon", role:"The empire that deported Ezekiel's community; not named in this chapter, but the wider setting of every year of his ministry" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"chebar", label:"The deportation that already brought Ezekiel here, 597 BC", km:945,
+      note:"Ezekiel was carried off with King Jehoiachin's court and craftsmen in Nebuchadnezzar's second deportation (597 BC, 2 Kgs 24:14-16) — roughly 590 mi / 945 km from Jerusalem to the canal settlements near Nippur. By this vision's date, five years later, he has been an exile as long as he was ever a working priest in Jerusalem." }
+  ],
+  hotspots: [
+    { x:0.05, type:"object", label:"A storm-wind out of the north",
+      desc:"'A great cloud, with brightness around it and fire flashing forth continually, and in the midst of the fire, as it were gleaming metal' — the vision's opening image, arriving from the same direction every invader of Judah historically came from (v. 4)." },
+    { x:0.2, type:"object", label:"Four living creatures, four faces each",
+      desc:"Each creature has a human form but four faces — human, lion, ox, and eagle — and four wings, two spread for flying and two covering its body; their legs are straight, their feet like a calf's, gleaming like burnished bronze (vv. 5-10)." },
+    { x:0.38, type:"object", label:"\"A wheel within a wheel\"",
+      desc:"Beside each creature, a great wheel sparkling like beryl, its rim 'full of eyes all around' — moving only when the creatures moved, for 'the spirit of the living creature was in the wheels' (vv. 15-21)." },
+    { x:0.52, type:"object", label:"The expanse over their heads",
+      desc:"Above the creatures' outstretched wings spreads an expanse 'shining like awesome crystal' — the same word ('raqia') used for the sky's expanse in Genesis 1:6-8 (vv. 22-23)." },
+    { x:0.65, type:"object", label:"A throne like sapphire",
+      desc:"Above the expanse, 'the likeness of a throne, in appearance like sapphire' — echoing the sapphire pavement the elders glimpsed under God's feet at Sinai (v. 26; Exod 24:10)." },
+    { x:0.8, type:"person", av:"prophet", label:"\"Like the appearance of a rainbow\"",
+      desc:"On the throne, a figure with a human form, bright like glowing metal above the waist and like fire below, ringed by brightness 'like the appearance of a rainbow in a cloud on a rainy day' — Ezekiel names it outright: 'the appearance of the likeness of the glory of the LORD' (vv. 27-28)." },
+    { x:0.93, type:"person", av:"prophet", label:"Ezekiel falls on his face",
+      desc:"Overwhelmed, Ezekiel falls facedown — and hears the voice of one speaking, the sound that opens his commissioning in chapter 2 (v. 28)." }
+  ],
+  environment: {
+    chips: ["The Chebar canal, near Nippur in Babylonia", "Tel Abib — the deportee settlement (Ezek 3:15)", "Fifth year of Jehoiachin's exile, Ezekiel's 30th year", "Four faces: human, lion, ox, eagle", "Later Jewish tradition: the 'Merkabah' (chariot) vision"],
+    text: "The Chebar was not a river but a major Babylonian irrigation canal, most plausibly the 'naru kabari' known from cuneiform administrative texts near Nippur — one of several such waterways where Judah's deported elite were resettled after 597 and 586 BC, close enough to Babylon itself for news and correspondence (cf. Jeremiah's letter, Jer 29) but a working agricultural community, not the capital. Ezekiel's priestly training (he names his own priestly line in v. 3) shapes the vision's texture throughout: sapphire pavement, glowing metal, and cherubim-like creatures all echo tabernacle and temple imagery, as if the temple's furnishings themselves had become mobile and animate to travel with a scattered, temple-less people. Later rabbinic tradition treated this chapter (the 'Merkabah,' or chariot-throne) as the most dangerous of Scripture's inner mysteries, restricting its study to mature, married scholars — a caution the chapter's own overwhelming, almost incoherent piling-up of similes ('as it were,' 'like the appearance of') seems to invite."
+  },
+  objectsExtra: ["wheel-within-wheel"],
+  peopleExtra: ["ezekiel", "babylonian-exiles"],
+  culture: [
+    { title:"The Chebar canal and Tel Abib", icon:"🌊",
+      text:"Babylonia's economy ran on a dense grid of engineered irrigation canals branching off the Tigris and Euphrates, and deportee communities were commonly settled along them as agricultural labor rather than in the capital itself — administrative texts from the Nippur region even record Judean names among canal-side settlements consistent with Ezekiel's Tel Abib (Ezek 3:15, 'mound of the flood-ruin'). Far from a prison camp, this was a functioning, semi-autonomous community with elders who visit Ezekiel's house (Ezek 8:1, 14:1) — the same setting behind Jeremiah's advice to 'build houses... seek the welfare of the city' (Jer 29:5-7)." },
+    { title:"Four faces and Babylon's own guardian beasts", icon:"🦁",
+      text:"Composite creatures combining human, lion, ox (or bull), and bird features were common in the visual world Ezekiel's exile community actually lived inside — Babylonian and Assyrian palace and temple gates were flanked by colossal winged, human-headed bulls (lamassu/shedu) meant to guard against evil. Ezekiel's four living creatures are later identified outright as cherubim (Ezek 10:20), the same class of being that guarded Eden's gate (Gen 3:24) and overshadowed the ark's mercy seat (Exod 25:18-20) — familiar temple imagery reappearing in exile, in the visual idiom of the empire that carried it there." },
+    { title:"'Wheels within wheels' in worship and hymnody", icon:"🛞",
+      text:"The rim 'full of eyes all around' (v. 18) and the wheels' silent, sourceless motion — turning without turning, going 'wherever the spirit would go' — became a fixed image for God's all-seeing, unconstrained presence, echoed in Ezekiel's own later temple vision (Ezek 10:9-13, where the wheels are named ophannim) and eventually into English hymnody ('Ezekiel saw the wheel, way up in the middle of the air')." }
+  ],
+  crossRefs: [
+    { group:"The throne-chariot vision elsewhere", refs:[
+      { r:"Ezekiel 10:1-22", note:"the same wheels, cherubim, and glory seen again — this time departing the temple" },
+      { r:"Isaiah 6:1-4", note:"another prophet's throne vision, with seraphim rather than cherubim" },
+      { r:"Revelation 4:6-8", note:"four living creatures around God's throne with the same four faces — lion, ox, human, eagle" } ]},
+    { group:"Sapphire, glory, and the God who cannot be looked at directly", refs:[
+      { r:"Exodus 24:9-10", note:"the elders of Israel see 'a pavement of sapphire stone' under God's feet at Sinai" },
+      { r:"Exodus 33:20-23", note:"'you cannot see my face, for man shall not see me and live' — the pattern of veiled glory" },
+      { r:"Daniel 7:9-10", note:"another exile-era throne vision: fire, wheels, and 'the Ancient of Days'" } ]},
+    { group:"Ezekiel's commissioning that follows", refs:[
+      { r:"Ezekiel 2:1-3:3", note:"the voice Ezekiel hears here commissions him and feeds him a scroll" },
+      { r:"Ezekiel 3:15", note:"he sits overwhelmed among the exiles at Tel Abib for seven days afterward" },
+      { r:"Jeremiah 29:1-7", note:"the same exile community, addressed by Jeremiah's letter from Jerusalem" } ]}
+  ]
+},
+
+/* ============================================================
+   EZEKIEL 37 — the valley of dry bones
+   ============================================================ */
+"26:37": {
+  era: {
+    title: "Undated within the book — among the restoration oracles after Jerusalem's fall",
+    sub: "Neo-Babylonian exile · a valley vision, location unspecified · spoken to exiles who say 'our hope is lost'",
+    badges: ["Vision of national resurrection", "Among Ezekiel's restoration oracles (chs. 33-39)", "'Son of man, can these bones live?'", "Also introduces the two-sticks sign (vv. 15-28)"]
+  },
+  timeOfDay: "day",
+  summary: "'The hand of the LORD was upon me, and he brought me out in the Spirit of the LORD and set me down in the middle of the valley; it was full of bones... and behold, they were very dry.' Asked, 'Son of man, can these bones live?', Ezekiel answers only, 'O Lord GOD, you know.' He prophesies to the bones as commanded: a rattling sound, bone joining to bone, then sinews, flesh, and skin cover them — 'but there was no breath in them.' The LORD tells him to prophesy a second time, now to the breath itself: 'Come from the four winds, O breath, and breathe on these slain, that they may live.' Breath enters them, and they stand on their feet, 'an exceedingly great army.' The interpretation is given outright: 'these bones are the whole house of Israel,' who say, 'our bones are dried up, and our hope is lost; we are indeed cut off.' The LORD promises to open their graves, put his Spirit within them, and bring them 'into the land of Israel.' The chapter closes with a second sign: Ezekiel joins two sticks, one marked for Judah and one for Joseph/Ephraim, into a single stick in his hand — pointing to a reunited kingdom under 'one king,' David's line, an everlasting covenant of peace, and God's own sanctuary set in their midst forever.",
+  focusPlace: "chebar",
+  places: [
+    { id:"chebar", role:"Ezekiel's home among the exile community, from which the Spirit carries him into the vision (cf. Ezek 1:1, 3:15)" },
+    { id:"jerusalem", role:"Stands for 'the land of Israel' (v. 12) and Zion, the promised destination of the whole reunited nation (vv. 21-28)" }
+  ],
+  journey: [
+    { from:"chebar", to:"jerusalem", dashed:true, label:"The promised return, not yet walked", km:945,
+      note:"The vision's climax is a promise, not a journey Ezekiel actually makes: the LORD says he will 'open your graves... and bring you into the land of Israel' (v. 12) — the same roughly 590 mi / 945 km separating the canal settlements from Judah that the exile itself had already crossed in the other direction decades earlier." }
+  ],
+  hotspots: [
+    { x:0.04, type:"object", label:"A valley full of very dry bones",
+      desc:"The Spirit sets Ezekiel down in the middle of a valley 'full of bones... and behold, they were very dry' — asked whether they can live, he answers only, 'O Lord GOD, you know' (vv. 1-3)." },
+    { x:0.2, type:"person", av:"prophet", label:"Prophesying to the bones",
+      desc:"At the LORD's command Ezekiel prophesies to the bones themselves: a rattling noise, bone joining bone, then sinews, flesh, and skin cover them — 'but there was no breath in them' (vv. 4-8)." },
+    { x:0.38, type:"object", label:"\"Come from the four winds, O breath\"",
+      desc:"A second prophecy, now to the breath (ruach — the same Hebrew word for breath, wind, and spirit): it enters the bodies from the four winds, and they stand on their feet, 'an exceedingly great army' (vv. 9-10)." },
+    { x:0.55, type:"object", label:"\"These bones are the whole house of Israel\"",
+      desc:"The LORD gives the interpretation directly: the exiles themselves say, 'our bones are dried up, and our hope is lost; we are indeed cut off' — despair the vision answers point for point (v. 11)." },
+    { x:0.7, type:"object", label:"\"I will bring you into the land of Israel\"",
+      desc:"The LORD promises to open the exiles' graves, put his own Spirit within them, and settle them back on their own soil — 'then you shall know that I am the LORD' (vv. 12-14)." },
+    { x:0.88, type:"object", label:"The two sticks made one",
+      desc:"Ezekiel joins two sticks — one for Judah, one for Joseph/Ephraim — into a single stick in his hand, signifying a reunited kingdom under 'one king,' an everlasting covenant of peace, and God's sanctuary set in their midst forever (vv. 15-28)." }
+  ],
+  environment: {
+    chips: ["A valley vision, location unspecified within the text", "Ruach — one Hebrew word for breath, wind, and spirit", "\"Our bones are dried up, our hope is lost\" (v. 11)", "The two sticks: Judah and Joseph/Ephraim reunited", "An everlasting covenant of peace (v. 26)"],
+    text: "Ezekiel is a priest (Ezek 1:3), for whom contact with human bones or a grave brought seven days of ritual uncleanness under the Law (Num 19:11-16) — making the command to walk among 'very dry' scattered bones, let alone prophesy to them, a scene his first hearers would have felt as viscerally unsettling, not merely strange. The chapter turns on a single Hebrew word, ruach, used ten times across vv. 1-14 for 'Spirit' (the Spirit of the LORD who carries Ezekiel), 'breath' (what the bodies lack), and 'wind' (the four directions the breath is summoned from) — a wordplay no English translation can fully preserve, binding physical resurrection and divine Spirit into a single image. The two-sticks sign that follows (vv. 15-28) answers a wound as old as 1 Kings 12: the kingdom split into Israel (the north, exiled by Assyria over a century earlier) and Judah (exiled more recently by Babylon), a division this vision promises will end permanently under a single Davidic king."
+  },
+  objectsExtra: ["dry-bones"],
+  peopleExtra: ["ezekiel", "babylonian-exiles"],
+  culture: [
+    { title:"Ruach: breath, wind, and Spirit in one word", icon:"🌬️",
+      text:"Biblical Hebrew has no separate vocabulary for 'spirit' as distinct from ordinary 'breath' or 'wind' — all three are ruach, the same word used of God's Spirit hovering over creation's waters (Gen 1:2) and of the breath the LORD breathed into the first man (Gen 2:7). Ezekiel's vision deliberately plays every register of the word at once: the bodies lack ruach (breath), the prophecy calls ruach from the four ruachot (winds), and it is the LORD's own ruach (Spirit) that will finally be put within the restored house of Israel (v. 14)." },
+    { title:"Bones and priestly uncleanness", icon:"⚰️",
+      text:"Under the Law, touching a human bone or grave defiled a person for seven days, requiring purification with the ashes of a red heifer (Num 19:11-16) — a rule that bore especially heavily on priests, who were further forbidden any contact with the dead outside their immediate family (Lev 21:1-4). For Ezekiel, a priest by training, to be set down in and made to walk among a valley of exposed, unburied bones is not neutral scenery but a scene of maximal ritual horror, which the vision then reverses into life rather than defilement." },
+    { title:"The dry bones in later art and tradition", icon:"🎨",
+      text:"This vision became one of the most visually reproduced Old Testament scenes in antiquity: the 3rd-century AD synagogue at Dura-Europos (Syria) devotes its single largest wall painting to Ezekiel among the reassembling bones, and both Jewish and early Christian interpreters read the chapter as pointing toward bodily resurrection, not only national return — a double meaning the text's own imagery (graves opened, bodies re-formed, breath restored) invites even though its explicit interpretation (v. 11) is corporate and national." }
+  ],
+  crossRefs: [
+    { group:"Resurrection imagery elsewhere in Scripture", refs:[
+      { r:"Daniel 12:2", note:"'many of those who sleep in the dust of the earth shall awake'" },
+      { r:"Isaiah 26:19", note:"'your dead shall live; their bodies shall rise... the earth will give birth to the dead'" },
+      { r:"John 11:43-44", note:"Jesus calls Lazarus by name out of the tomb, still bound in graveclothes" },
+      { r:"Romans 8:11", note:"the same Spirit that raised Christ will 'give life to your mortal bodies'" } ]},
+    { group:"The two sticks and a reunited kingdom", refs:[
+      { r:"1 Kings 12:16-20", note:"the kingdom's original split — Israel and Judah part ways under Rehoboam" },
+      { r:"Hosea 1:11", note:"'the people of Judah and the people of Israel shall be gathered together... and appoint for themselves one head'" },
+      { r:"Jeremiah 31:31-34", note:"the same era's other great restoration promise — a new covenant with 'the house of Israel and the house of Judah'" } ]},
+    { group:"The exiles' despair, answered", refs:[
+      { r:"Ezekiel 33:10", note:"the same complaint in the exiles' own words: 'how then can we live?'" },
+      { r:"Psalm 137:1-4", note:"the exile community's grief 'by the rivers of Babylon' — the audience this vision first answered" },
+      { r:"Jeremiah 29:11", note:"'plans... to give you a future and a hope' — the very word ('hope') this chapter's exiles say is lost" } ]}
+  ]
 }
 
 };
