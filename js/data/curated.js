@@ -9,6 +9,46 @@ window.BVV = window.BVV || {};
 BVV.CURATED = {
 
 /* ============================================================
+   2 SAMUEL 22 — David's Song of Deliverance
+   ============================================================ */
+"10:22": {
+  structure: {
+    genre: "Royal thanksgiving hymn (todah) — praise sung in retrospect for deliverance already accomplished, not a cry from present danger. Framed by v. 1 as David's own composition \"on the day the LORD delivered him from the hand of all his enemies, and from the hand of Saul.\" Near word-for-word twin of Psalm 18, and pairs with Hannah's Song (1 Sam 2) to bracket the whole book of Samuel with poetic praise.",
+    outline: [
+      { range: "1", label: "Narrative superscription — sets the song's occasion" },
+      { range: "2-4", label: "Opening praise: a stacked run of divine epithets (rock, fortress, deliverer, shield, horn of salvation, stronghold, refuge, savior)" },
+      { range: "5-20", label: "Crisis and rescue: death pictured as drowning and hunting (waves, cords, snares) → David's cry → a violent theophany (earthquake, smoke, fire, storm-ride, thunder, lightning) → God reaches down and draws him from \"many waters\"" },
+      { range: "21-25", label: "Retribution theology: reward tied to righteousness, covenant faithfulness, and \"clean hands\"" },
+      { range: "26-31", label: "Theological center: God's reciprocity toward the merciful, blameless, pure, and crooked; God as lamp and perfect way" },
+      { range: "32-46", label: "The divine warrior arms the human king: physical imagery (deer's feet, bronze bow) leads into battle narration, pursuit, and subjugation of nations" },
+      { range: "47-51", label: "Closing doxology and covenant promise — praise \"among the nations,\" ending on \"David and his offspring forever\" (echoing 2 Sam 7)" }
+    ],
+    chiasm: {
+      note: "Commentators most often read the song as either a two-part composition hinging at v. 29 (\"you are my lamp, O LORD\") — personal deliverance from death (2-20) giving way to royal/national victory (21-51) — or as a loose concentric shape built around the reciprocity teaching at its center:",
+      parts: [
+        { label: "A",  range: "2-4",   title: "Praise / divine epithets" },
+        { label: "B",  range: "5-20",  title: "Distress and theophanic rescue from death" },
+        { label: "C",  range: "21-25", title: "Righteousness rewarded" },
+        { label: "D",  range: "26-31", title: "God's character — the reciprocity principle", center: true },
+        { label: "C'", range: "32-46", title: "Strength granted for battle; enemies subdued" },
+        { label: "A'", range: "47-51", title: "Closing praise and the Davidic covenant promise" }
+      ]
+    },
+    inclusio: "The epithet \"rock\" (tsur) opens the song's praise (v. 2-3: \"the LORD is my rock... my God, my rock\") and returns at its close (v. 47: \"blessed be my rock... the rock of my salvation\"), framing all 51 verses under one image and marking it as a single composed unit rather than loosely joined fragments.",
+    parallelism: [
+      { verse: "2-3", type: "Synonymous parallelism", quote: "The LORD is my rock and my fortress and my deliverer, my God, my rock, in whom I take refuge, my shield...", note: "A tricolon (and beyond) restating one idea — total, personal security in God — through a deliberate pile-up of near-synonymous military and geological metaphors, before the narrative even begins." },
+      { verse: "28", type: "Antithetic parallelism", quote: "You save a humble people, but your eyes are on the haughty to bring them down.", note: "Two clauses set against each other — mercy for the low, judgment for the proud — a hallmark contrast pattern of Hebrew wisdom and hymnic poetry." },
+      { verse: "29-30", type: "Climactic (staircase) parallelism", quote: "You are my lamp, O LORD... by you I can run against a troop, and by my God I can leap over a wall.", note: "Each clause builds on the last — light, then speed, then scaling a wall — escalating claims about what God's presence enables, rather than merely repeating one." }
+    ],
+    parallels: [
+      { ref: "Psalm 18", note: "A near-identical twin text with only minor wording/spelling variants — very likely two transmitted forms of the same royal song, one placed in the narrative of Samuel, the other in the Psalter's collection." },
+      { ref: "1 Samuel 2", note: "Hannah's Song opens the book of Samuel; David's Song closes its main narrative — both are poems of reversal, kingship, and God's \"anointed,\" bracketing the whole book." },
+      { ref: "2 Samuel 23", note: "Immediately follows as \"the last words of David\" — a second, shorter poetic oracle appended right after this song, before the closing honor-roll of David's mighty men." }
+    ]
+  }
+},
+
+/* ============================================================
    1 SAMUEL 28 — Saul and the Medium of En-dor
    ============================================================ */
 "9:28": {

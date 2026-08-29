@@ -20,20 +20,44 @@
   }
 
   function highlight(verseText, terms) {
-    let html = verseText.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+    const html = verseText.replace(/&/g, "&amp;").replace(/</g, "&lt;");
     // longest aliases first so "Mount Gilboa" wins over "Gilboa"
     const items = [];
     terms.places.forEach(t => (t.entry.al || []).forEach(a => items.push({ a, cls: "term-place", id: t.entry.id })));
     terms.people.forEach(t => (t.entry.al || []).forEach(a => items.push({ a, cls: "term-person", id: t.entry.id })));
     terms.objects.forEach(t => (t.entry.al || []).forEach(a => items.push({ a, cls: "term-object", id: t.entry.id })));
     items.sort((x, y) => y.a.length - x.a.length);
+
+    // Find every match against the plain (untagged) text first, then splice
+    // spans into it in one pass. Doing the replace incrementally on growing
+    // HTML (as before) let a short alias re-match text the previous pass had
+    // just inserted — e.g. an entry aliased to both "armor" and "shield"
+    // would match its own id ("armor") inside the data-term="armor" attribute
+    // it had just written for "shield", corrupting the markup.
+    const matches = [];
     for (const it of items) {
       const esc = it.a.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
       const flags = it.a[0] === it.a[0].toLowerCase() ? "gi" : "g";
-      const re = new RegExp("(^|[^A-Za-z>])(" + esc + ")(?=[^A-Za-z<]|$)", flags);
-      html = html.replace(re, (m, pre, word) => `${pre}<span class="${it.cls}" data-term="${it.id}">${word}</span>`);
+      const re = new RegExp("(^|[^A-Za-z])(" + esc + ")(?=[^A-Za-z]|$)", flags);
+      let m;
+      while ((m = re.exec(html))) {
+        const start = m.index + m[1].length;
+        const end = start + m[2].length;
+        if (!matches.some(x => start < x.end && end > x.start)) {
+          matches.push({ start, end, cls: it.cls, id: it.id, word: m[2] });
+        }
+      }
     }
-    return html;
+    matches.sort((a, b) => a.start - b.start);
+
+    let out = "", pos = 0;
+    for (const mm of matches) {
+      out += html.slice(pos, mm.start);
+      out += `<span class="${mm.cls}" data-term="${mm.id}">${mm.word}</span>`;
+      pos = mm.end;
+    }
+    out += html.slice(pos);
+    return out;
   }
 
   /* ---------- pipeline ---------- */

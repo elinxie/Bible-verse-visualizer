@@ -393,6 +393,28 @@ body {
 .xref:hover { background: #e0d0ef; }
 .xref-note { font-size: .78rem; color: var(--ink-soft); display: block; margin-top: .1rem; }
 
+.structure-outline { margin: .3rem 0 .9rem 1.2rem; padding: 0; font-size: .87rem; }
+.structure-outline li { margin-bottom: .35rem; }
+
+.chiasm-diagram { margin-bottom: .9rem; }
+.chiasm-row {
+  display: flex; align-items: baseline; gap: .5rem;
+  padding: .3rem 0; border-bottom: 1px dashed var(--border); font-size: .87rem;
+}
+.chiasm-row.center { background: #fdf3d0; border-radius: 6px; padding: .4rem .5rem; border-bottom: none; }
+.chiasm-label { font-weight: 700; color: var(--accent-dark); width: 1.8rem; flex: none; }
+.chiasm-range { font-size: .76rem; color: var(--ink-soft); flex: none; }
+
+.parallel-pair {
+  border-left: 3px solid var(--accent); padding: .4rem .6rem; margin-bottom: .6rem;
+  background: var(--card); border-radius: 0 6px 6px 0;
+}
+.parallel-pair .ptype {
+  font-size: .72rem; text-transform: uppercase; letter-spacing: .03em;
+  color: var(--accent-dark); font-weight: 700;
+}
+.parallel-pair .pquote { font-style: italic; margin: .3rem 0; }
+
 .analysis-col { margin-bottom: 1rem; }
 .analysis-col ul { margin: .3rem 0 .3rem 1.2rem; padding: 0; font-size: .87rem; }
 .analysis-col li { margin-bottom: .35rem; }
