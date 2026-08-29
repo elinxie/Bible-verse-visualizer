@@ -1,5 +1,5 @@
 /* Render the study tabs: Setting & Environment, People & Objects,
-   Cultural context, Cross-references, Analyses. */
+   Cultural context, Cross-references, Poetic Structure, Analyses. */
 window.BVV = window.BVV || {};
 BVV.panels = (function () {
 
@@ -103,6 +103,110 @@ BVV.panels = (function () {
     el.querySelectorAll(".xref").forEach(x => x.addEventListener("click", () => onOpenRef(x.getAttribute("data-ref"))));
   }
 
+  // Books that are poetry (or heavily poetic) start to finish.
+  const POETIC_BOOKS = new Set([18, 19, 20, 21, 22, 25]); // Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, Lamentations
+  // Narrative books known to embed a set-piece poem/song in specific chapters.
+  const EMBEDDED_POEMS = {
+    "2:15": "The Song of the Sea (Exod 15) — victory hymn after the Reed Sea crossing.",
+    "7:5": "Deborah's Song (Judg 5) — victory ode paired with the prose battle account in ch. 4.",
+    "9:2": "Hannah's Song (1 Sam 2) — a prayer of reversal that anticipates David's song and the Magnificat.",
+    "10:1": "David's lament 'How the mighty have fallen' over Saul and Jonathan (2 Sam 1).",
+    "10:22": "David's Song of Deliverance (2 Sam 22) — the near-twin of Psalm 18.",
+    "10:23": "'The last words of David' (2 Sam 23:1-7) — a short royal oracle opening the honor-roll of mighty men."
+  };
+
+  // Split a verse into rough cola (line-halves) on the punctuation that
+  // typically marks a caesura in translation — a lightweight, unscored
+  // heuristic used only when no curated structural analysis exists yet.
+  function splitCola(text) {
+    return text.split(/(?<=[,;:—])\s+/).map(s => s.trim()).filter(Boolean);
+  }
+
+  function structure(ctx, onOpenRef) {
+    const el = document.getElementById("tab-structure");
+    const s = ctx.curated?.structure;
+    let html = "";
+
+    if (s) {
+      if (s.genre) html += `<h3 class="section-title">Genre &amp; form</h3><p>${esc(s.genre)}</p>`;
+
+      if (s.outline?.length) {
+        html += `<h3 class="section-title">Sectional outline</h3><ol class="structure-outline">`;
+        s.outline.forEach(o => { html += `<li><b>v. ${esc(o.range)}</b> — ${esc(o.label)}</li>`; });
+        html += `</ol>`;
+      }
+
+      if (s.chiasm?.parts?.length) {
+        html += `<h3 class="section-title">Chiastic / concentric shape</h3>`;
+        if (s.chiasm.note) html += `<p>${esc(s.chiasm.note)}</p>`;
+        html += `<div class="chiasm-diagram">`;
+        s.chiasm.parts.forEach(p => {
+          html += `<div class="chiasm-row${p.center ? " center" : ""}" style="padding-left:${Math.min(p.label.replace(/'/g,"").length - 1, 3) * 14}px">
+            <span class="chiasm-label">${esc(p.label)}</span>
+            <span class="chiasm-range">v.${esc(p.range)}</span>
+            <span>${esc(p.title)}</span></div>`;
+        });
+        html += `</div>`;
+      }
+
+      if (s.inclusio) html += `<h3 class="section-title">Inclusio / framing device</h3><p>${esc(s.inclusio)}</p>`;
+
+      if (s.parallelism?.length) {
+        html += `<h3 class="section-title">Parallelism at work</h3>`;
+        s.parallelism.forEach(p => {
+          html += `<div class="parallel-pair"><span class="ptype">${esc(p.type)} · v.${esc(p.verse)}</span>
+            ${p.quote ? `<p class="pquote">"${esc(p.quote)}"</p>` : ""}
+            <p>${esc(p.note)}</p></div>`;
+        });
+      }
+
+      if (s.parallels?.length) {
+        html += `<h3 class="section-title">How this passage relates to other chapters</h3><div class="xref-group">`;
+        s.parallels.forEach(p => {
+          html += `<span class="xref" data-ref="${esc(p.ref)}">${esc(p.ref)}</span><span class="xref-note">${esc(p.note)}</span>`;
+        });
+        html += `</div><p style="font-size:.78rem;opacity:.7">Click any reference to load it in the visualizer.</p>`;
+      }
+    } else {
+      const isPoeticBook = POETIC_BOOKS.has(ctx.book.n);
+      const embedKey = ctx.book.n + ":" + ctx.chapter;
+      const embedded = EMBEDDED_POEMS[embedKey];
+
+      html += `<p>A curated structural analysis hasn't been written for this chapter yet`
+        + (isPoeticBook ? "" : embedded ? " — but it's flagged below as an embedded poem worth a closer look" : "")
+        + `. `;
+      if (isPoeticBook) {
+        html += `This book is poetry throughout, so the main thing to watch for is <b>parallelism</b> — each line answering, restating, sharpening, or contrasting with the one before it — rather than a prose plot.</p>`;
+      } else if (embedded) {
+        html += `${esc(embedded)}</p>`;
+      } else {
+        html += `This looks like narrative prose; sustained poetic structure (parallelism, strophes, chiasm) mainly shows up in Psalms, Job's speeches, Proverbs, Song of Solomon, Lamentations, the prophetic oracles, and a handful of embedded songs inside the historical books (e.g. Exodus 15, Judges 5, 1 Samuel 2, 2 Samuel 22-23).</p>`;
+      }
+
+      if (isPoeticBook || embedded) {
+        const inRange = ctx.verses.filter(v => !ctx.ref.v1 || (v.verse >= ctx.ref.v1 && v.verse <= ctx.ref.v2));
+        const withCola = inRange.map(v => ({ verse: v.verse, cola: splitCola(v.text) })).filter(v => v.cola.length > 1).slice(0, 8);
+        if (withCola.length) {
+          html += `<h3 class="section-title">Candidate line-pairs (auto-detected, unscored)</h3>
+            <p style="font-size:.8rem;opacity:.75">Split on punctuation only — read each verse's parallel members against each other to see whether the relationship is synonymous, antithetic, or building (climactic).</p>`;
+          withCola.forEach(v => {
+            html += `<div class="parallel-pair"><span class="ptype">v. ${v.verse}</span>`;
+            v.cola.forEach(c => { html += `<p class="pquote">${esc(c)}</p>`; });
+            html += `</div>`;
+          });
+        }
+      }
+
+      html += `<div class="xref-group"><h4>Nearby chapters</h4>`;
+      if (ctx.chapter > 1) html += `<span class="xref" data-ref="${esc(ctx.book.name)} ${ctx.chapter - 1}">${esc(ctx.book.name)} ${ctx.chapter - 1}</span><span class="xref-note">the chapter before</span>`;
+      if (ctx.chapter < ctx.book.ch) html += `<span class="xref" data-ref="${esc(ctx.book.name)} ${ctx.chapter + 1}">${esc(ctx.book.name)} ${ctx.chapter + 1}</span><span class="xref-note">the chapter after</span>`;
+      html += `</div>`;
+    }
+
+    el.innerHTML = html;
+    el.querySelectorAll(".xref").forEach(x => x.addEventListener("click", () => onOpenRef(x.getAttribute("data-ref"))));
+  }
+
   function analyses(ctx) {
     const el = document.getElementById("tab-analyses");
     const a = ctx.curated?.analyses;
@@ -128,6 +232,7 @@ BVV.panels = (function () {
     people(ctx);
     culture(ctx);
     crossrefs(ctx, onOpenRef);
+    structure(ctx, onOpenRef);
     analyses(ctx);
   }
 
