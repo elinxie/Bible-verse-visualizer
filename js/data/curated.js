@@ -8245,6 +8245,200 @@ BVV.CURATED = {
       { r:"Psalm 137:1-4", note:"the exile community's grief 'by the rivers of Babylon' — the audience this vision first answered" },
       { r:"Jeremiah 29:11", note:"'plans... to give you a future and a hope' — the very word ('hope') this chapter's exiles say is lost" } ]}
   ]
+},
+
+/* ============================================================
+   DANIEL 1 — taken to Babylon, the ten-day test
+   ============================================================ */
+"27:1": {
+  era: {
+    title: "ca. 605 BC — the first deportation to Babylon",
+    sub: "Neo-Babylonian conquest begins · Jerusalem, then the royal court at Babylon · third year of King Jehoiakim",
+    badges: ["Neo-Babylonian Empire rising", "Nebuchadnezzar's first western campaign", "Judah's first deportation (605 BC)", "≈2,631 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "In the third year of Jehoiakim, Nebuchadnezzar besieges Jerusalem and carries off some of the temple's vessels to Babylon along with a hand-picked group of young Judean nobles — 'without blemish, of good appearance, skillful in all wisdom' — to be trained for three years in Babylonian language and literature before entering royal service. Among them are Daniel, Hananiah, Mishael, and Azariah, promptly renamed Belteshazzar, Shadrach, Meshach, and Abednego after Babylonian gods. Assigned a daily ration of the king's own food and wine, Daniel 'resolved that he would not defile himself' and persuades the steward to run a ten-day trial on vegetables and water instead; at its end the four look healthier than the youths eating from the royal table, and the substitute diet stands for the rest of the three years. God gives all four learning and skill in every branch of literature and wisdom, and Daniel besides an understanding of visions and dreams. Presented to Nebuchadnezzar himself at the end of their training, the king finds none like them, and in every matter calling for wisdom finds them 'ten times better than all the magicians and enchanters' of his entire kingdom. Daniel remains at the Babylonian court 'until the first year of King Cyrus.'",
+  focusPlace: "babylon",
+  places: [
+    { id:"babylon",   role:"The royal court and training compound where the exiled youths are schooled for three years (vv. 3-7, 18-20)" },
+    { id:"jerusalem", role:"The besieged city Nebuchadnezzar plunders for both temple vessels and noble youths (vv. 1-3)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"babylon", label:"The first deportation, 605 BC", km:880,
+      note:"Roughly 550 mi / 880 km from Jerusalem to Babylon — the opening move of Nebuchadnezzar's decades-long domination of Judah, years before the fuller deportations of 597 and 586 BC. Daniel and his three friends make this same journey as teenagers, chosen precisely because they were promising enough to be worth re-educating rather than simply enslaving." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"Nebuchadnezzar's siege of Jerusalem", av:"warrior",
+      desc:"In Jehoiakim's third year the Babylonian army invests Jerusalem; the LORD 'gives' the king into Nebuchadnezzar's hand, who carries off some of the temple's vessels to Shinar and deposits them in his own god's treasury (vv. 1-2)." },
+    { x:0.2, type:"person", label:"Four youths without blemish", av:"youth",
+      desc:"Ashpenaz, chief of the eunuchs, is ordered to select noble and royal Judean youths — 'no defect, good-looking, skilled in wisdom' — for three years of Babylonian language and literature training on the king's own food and wine (vv. 3-5)." },
+    { x:0.35, type:"object", label:"New names for a new god",
+      desc:"Daniel, Hananiah, Mishael, and Azariah are renamed Belteshazzar, Shadrach, Meshach, and Abednego — Babylonian names invoking Babylonian deities in place of names that had honored the LORD (v. 7)." },
+    { x:0.5, type:"person", label:"Daniel's resolve, and the ten-day test", av:"official",
+      desc:"'Daniel resolved that he would not defile himself' with the king's food and wine; he persuades the steward to test him and his three friends on vegetables and water for ten days rather than risk punishment for a poor showing (vv. 8-14)." },
+    { x:0.68, type:"object", label:"Healthier on vegetables",
+      desc:"At the end of ten days the four look better nourished than every youth who ate from the king's table — the steward lets the substitute diet continue for the rest of the three years (vv. 15-16)." },
+    { x:0.86, type:"person", label:"Ten times better than all the magicians", av:"king",
+      desc:"God gives the four learning and skill in all literature and wisdom, and Daniel understanding of visions and dreams besides; examined personally by Nebuchadnezzar, they outclass 'all the magicians and enchanters' of the whole kingdom tenfold (vv. 17-20)." }
+  ],
+  environment: {
+    chips: ["Third year of Jehoiakim, 605 BC", "Nebuchadnezzar's first western campaign", "A three-year training program in a foreign court", "Royal rations vs. a vegetable-and-water diet", "\"Ten times better than all the magicians\""],
+    text: "Renaming captives and enrolling them in a multi-year court curriculum was a deliberate policy of imperial domestication, well attested across the ancient Near East: a conquered elite's children, given new names invoking the conqueror's gods and years of the conqueror's own language and literature, were meant to grow into loyal administrators rather than resentful subjects. Cuneiform ration tablets excavated in Babylon actually list the exiled King Jehoiachin and his sons by name receiving regular oil and grain allotments from the royal storehouses a few years after this chapter — independent confirmation that Judean captives really were provisioned, tracked, and integrated into palace life exactly as Daniel 1 describes. Against that whole machinery of assimilation, Daniel's quiet refusal over food — not a public confrontation, but a private request routed through a sympathetic steward — reads as a narrow, deliberately chosen line: everything else about becoming 'Belteshazzar' he accepts; the king's table he will not."
+  },
+  peopleExtra: ["daniel","nebuchadnezzar","shadrach-meshach-abednego","babylonian-magicians"],
+  culture: [
+    { title:"Renaming as political domestication", icon:"🏷️",
+      text:"Names in the ancient world carried theological freight, so replacing a captive's God-honoring name with one built on a foreign deity's syllable (Bel-, Marduk's title, sits inside 'Belteshazzar') was itself a small act of forced allegiance — the same pattern Pharaoh Neco applies to Eliakim/Jehoiakim and Nebuchadnezzar later applies to Mattaniah/Zedekiah (2 Kgs 23:34, 24:17). The text keeps using the Hebrew names alongside the Babylonian ones throughout Daniel, quietly refusing to let the imposed identity fully erase the given one." },
+    { title:"Royal rations, independently confirmed", icon:"📜",
+      text:"The 'Jehoiachin ration tablets,' cuneiform administrative texts excavated from Nebuchadnezzar's palace archive in Babylon, list oil rations issued to 'Yaukin, king of the land of Yahud' and his sons — hard external evidence that exiled Judean royalty really were kept, tracked, and fed at Babylonian government expense, the same institutional world Daniel 1's 'daily portion of the king's food' assumes." },
+    { title:"Diet as identity in exile", icon:"🥗",
+      text:"Refusing king's meat and wine was very likely as much about ritual purity as literal defilement — food from a pagan royal table would ordinarily include meat not slaughtered or prepared per Jewish law, and may have been first offered to Babylonian gods. Daniel's ten-day vegetable test lets him keep that boundary without an outright, career-ending refusal of imperial hospitality, modeling a form of faithfulness that negotiates rather than simply defies." }
+  ],
+  crossRefs: [
+    { group:"This deportation in the wider record", refs:[
+      { r:"2 Kings 24:1-2", note:"the same campaign year, narrated from Jerusalem's side: Jehoiakim becomes Nebuchadnezzar's vassal" },
+      { r:"2 Chronicles 36:6-7", note:"Nebuchadnezzar binds Jehoiakim and carries off temple vessels, matching Dan 1:2" },
+      { r:"Jeremiah 25:1", note:"dates Jeremiah's own 'seventy years' oracle to this exact same year" } ]},
+    { group:"Daniel and his friends across the book", refs:[
+      { r:"Daniel 2:17-18, 49", note:"the same four friends together again, facing a death sentence over the king's forgotten dream" },
+      { r:"Daniel 3:12-18", note:"Shadrach, Meshach, and Abednego's later refusal to worship the golden image" },
+      { r:"Daniel 6:1-5", note:"decades later, Daniel's enemies can find 'no ground for complaint' against him at all" } ]},
+    { group:"Faithful diet and discipline elsewhere in Scripture", refs:[
+      { r:"1 Kings 17:1-6", note:"Elijah sustained on minimal, God-provided rations rather than royal table" },
+      { r:"Leviticus 11", note:"the dietary law framework a Judean exile in a pagan court would be navigating" } ]}
+  ]
+},
+
+/* ============================================================
+   DANIEL 2 — the forgotten dream and the statue's four kingdoms
+   ============================================================ */
+"27:2": {
+  era: {
+    title: "ca. 603 BC — the second year of Nebuchadnezzar's reign",
+    sub: "Neo-Babylonian Empire · the royal court at Babylon · Daniel and his three friends newly finished their training",
+    badges: ["Nebuchadnezzar's second regnal year", "The four-kingdom prophecy", "Daniel's first court promotion", "≈2,629 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Nebuchadnezzar is troubled by a dream he refuses to describe, and threatens to tear limb from limb every wise man in Babylon who cannot both state the dream and interpret it. When the death sentence reaches Daniel, he asks Arioch, captain of the guard, for time, then urges his three friends to seek mercy from 'the God of heaven'; that night the mystery is revealed to Daniel in a vision, and he blesses God as the one who 'reveals deep and hidden things' before recounting the dream to the king. Nebuchadnezzar had seen a single towering statue — head of gold, chest and arms of silver, belly and thighs of bronze, legs of iron, feet part iron and part clay — struck by a stone 'cut out by no human hand' that shatters the whole image into windblown chaff, while the stone itself grows into a mountain filling the whole earth. Daniel interprets the metals as a succession of kingdoms beginning with Nebuchadnezzar's own 'head of gold,' each weaker yet harder than the last, the final kingdom's divided, brittle unity pictured in the iron-and-clay feet — and declares that 'in the days of those kings the God of heaven will set up a kingdom that shall never be destroyed,' the stone's mountain. Nebuchadnezzar falls on his face before Daniel, confesses 'your God is God of gods and Lord of kings,' and promotes him to rule the whole province of Babylon, with Shadrach, Meshach, and Abednego set over its administration at Daniel's own request.",
+  focusPlace: "babylon",
+  places: [
+    { id:"babylon",   role:"The royal court — the dream's stage, the death sentence, Daniel's night of prayer, and his promotion to rule the province (vv. 1-49)" },
+    { id:"jerusalem", role:"The city Daniel and his friends were taken from three years earlier — the exile that put a Judean administrator in a position to out-wise Babylon's whole professional guild (cf. Dan 1:1-6)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"babylon", label:"The exile that already brought Daniel here", km:880,
+      note:"The same deportation route as Daniel 1, now nearly three years behind him — long enough for the training to finish and the first real test of his God-given wisdom to arrive at court (v. 1 dates the dream to Nebuchadnezzar's second regnal year)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"The dream Nebuchadnezzar won't describe", av:"king",
+      desc:"Troubled and unable to sleep, the king summons every magician, enchanter, sorcerer, and Chaldean — then refuses to tell them the dream itself, demanding they state it and interpret it or be 'torn limb from limb' (vv. 1-9)." },
+    { x:0.18, type:"person", label:"\"No one can tell it except the gods\"", av:"official",
+      desc:"The Chaldeans protest that no king has ever demanded such a thing, provoking a decree to kill every wise man in Babylon — a sentence that reaches Daniel and his three friends along with the rest (vv. 10-13)." },
+    { x:0.32, type:"person", label:"Daniel's night of prayer", av:"official",
+      desc:"Daniel asks Arioch, captain of the guard, for time, then urges Hananiah, Mishael, and Azariah to seek mercy from 'the God of heaven'; that night the mystery is revealed to him in a vision, and he blesses God as the revealer of 'deep and hidden things' (vv. 14-23)." },
+    { x:0.48, type:"object", label:"The statue: gold, silver, bronze, iron, clay",
+      desc:"Daniel recounts the king's own forgotten dream — a single towering image, its head of fine gold, chest and arms of silver, belly and thighs of bronze, legs of iron, feet part iron and part clay (vv. 31-33)." },
+    { x:0.62, type:"object", label:"A stone \"cut without hands\"",
+      desc:"A stone breaks loose 'by no human hand,' strikes the image's feet, and shatters gold, silver, bronze, iron, and clay together into chaff the wind carries away — then grows into a mountain that fills the whole earth (vv. 34-35)." },
+    { x:0.76, type:"person", label:"Four kingdoms, and one that never ends", av:"official",
+      desc:"Daniel interprets the metals as a sequence of kingdoms beginning with Nebuchadnezzar's own 'head of gold,' ending in a divided, brittle unity — and declares that 'the God of heaven will set up a kingdom that shall never be destroyed,' pictured in the growing stone (vv. 36-45)." },
+    { x:0.9, type:"person", label:"Nebuchadnezzar falls on his face", av:"king",
+      desc:"The king prostrates himself before Daniel, confesses 'your God is God of gods,' and makes him ruler over the whole province of Babylon and chief of all its wise men, with Shadrach, Meshach, and Abednego set over its administration at Daniel's own request (vv. 46-49)." }
+  ],
+  environment: {
+    chips: ["Nebuchadnezzar's second regnal year", "A death sentence for every wise man in Babylon", "Four metals, four kingdoms", "\"Cut out by no human hand\"", "A prophecy read as history in advance"],
+    text: "Babylonian court life ran on a whole professional literature of omen-reading — dream manuals, liver-divination models, and astrological reports survive by the thousands in cuneiform archives — so Nebuchadnezzar's demand that his specialists also state the forgotten dream itself, not merely interpret a described one, was by their own admission unprecedented, and it exposes the entire guild's real limits at the exact moment Daniel's God succeeds where none of them can. Commentators differ over precisely which historical empires the statue's middle metals denote, though nearly all agree the 'head of gold' is Babylon itself and that the stone's kingdom is God's own, set up 'in the days of those kings' rather than achieved by ordinary conquest — the chapter's real center of gravity is not a checklist of empires but the claim that every human kingdom, however hard, eventually meets something that breaks it and does not itself break."
+  },
+  objectsExtra: ["dream-statue","stone-cut-without-hands"],
+  peopleExtra: ["daniel","nebuchadnezzar","shadrach-meshach-abednego","babylonian-magicians"],
+  culture: [
+    { title:"Reading dreams for an empire", icon:"🌙",
+      text:"Babylon employed a whole apparatus of trained dream-readers, omen-diviners, and astrologers — the professionals Daniel 2 calls magicians, enchanters, sorcerers, and Chaldeans — whose stock-in-trade was interpreting a described dream, not reconstructing a forgotten one from nothing. Their blunt confession, 'no one can tell it except the gods, whose dwelling is not with flesh' (v. 11), is the chapter's hinge: it concedes in advance that whatever Daniel does next cannot be professional skill, only revelation." },
+    { title:"Four metals, one figure", icon:"🗿",
+      text:"Picturing a decline or succession through a sequence of increasingly base metals was not unique to Daniel — Hesiod's roughly contemporary Greek myth of gold, silver, bronze, and iron 'ages of man' uses the identical downward metallic ladder. Daniel's version departs from that pattern at its ending: rather than closing in human decay, the sequence is interrupted from outside entirely, by a stone 'cut without hands.'" },
+    { title:"A kingdom \"cut without hands\"", icon:"⛰️",
+      text:"The phrase pointedly excludes any human agency in the stone's origin, insisting that the everlasting kingdom Daniel describes is God's own doing rather than a fifth empire won by ordinary conquest — later readers connect the image to a 'stone' and 'cornerstone' language used elsewhere of God's own decisive, unearned intervention (cf. Isa 28:16)." }
+  ],
+  crossRefs: [
+    { group:"Daniel's wisdom, tested and proven", refs:[
+      { r:"Daniel 1:17-20", note:"the tenfold advantage over the magicians already established at court" },
+      { r:"Daniel 4:4-27", note:"Nebuchadnezzar needs Daniel's interpretation again for a second, later dream" },
+      { r:"Daniel 5:10-16", note:"Daniel's reputation for interpretation reaches Belshazzar's court a generation later" } ]},
+    { group:"The stone and the kingdom that never ends", refs:[
+      { r:"Isaiah 28:16", note:"'a stone, a tested stone, a precious cornerstone, of a sure foundation'" },
+      { r:"Daniel 7:13-14", note:"Daniel's later vision of 'one like a son of man' given an everlasting kingdom" },
+      { r:"Luke 20:17-18", note:"Jesus applies 'the stone that the builders rejected' to himself" } ]},
+    { group:"Nebuchadnezzar's arc across the book", refs:[
+      { r:"Daniel 3:1-7", note:"the same king who confesses 'your God is God of gods' soon builds a golden image demanding worship" },
+      { r:"Daniel 4:28-37", note:"his pride and seven years of madness precede a final, fuller confession" },
+      { r:"Jeremiah 27:6-7", note:"Jeremiah's earlier oracle naming Nebuchadnezzar God's own instrument 'until the time of his own land comes'" } ]}
+  ]
+},
+
+/* ============================================================
+   DANIEL 3 — the golden image and the fiery furnace
+   ============================================================ */
+"27:3": {
+  era: {
+    title: "Undated within the book — after Nebuchadnezzar's confession in ch. 2, before his madness in ch. 4",
+    sub: "Neo-Babylonian Empire · the plain of Dura, near Babylon · a mass dedication of officials from every province",
+    badges: ["The golden image on the plain of Dura", "Furnace heated seven times hotter", "\"We will not serve your gods\"", "A fourth figure in the fire"]
+  },
+  timeOfDay: "day",
+  summary: "Nebuchadnezzar sets up a golden image ninety feet tall on the plain of Dura and summons every satrap, prefect, governor, judge, treasurer, counselor, and magistrate of the empire to its dedication. At a signal from the royal orchestra, all are to fall down and worship the image or be thrown at once into a blazing furnace. Every official complies — except Shadrach, Meshach, and Abednego, denounced by Chaldean rivals for defying the king's own decree. Summoned and given one more chance, the three answer without hedging: their God is able to deliver them from the furnace, 'but if not,' they still will not serve Nebuchadnezzar's gods or worship the golden image. Enraged, the king orders the furnace heated seven times hotter than usual — hot enough that the soldiers who throw the bound three in are themselves killed by the blast — yet Nebuchadnezzar, watching, leaps up in astonishment: he sees not three men but four, walking unbound in the fire, and the fourth has 'the appearance of a son of the gods.' Called out by name, Shadrach, Meshach, and Abednego emerge with no injury at all — not even the smell of smoke on their clothes. Nebuchadnezzar blesses their God for sending his angel to deliver them, decrees death for anyone who speaks against him, and promotes all three within the province of Babylon.",
+  focusPlace: "dura",
+  places: [
+    { id:"dura",    role:"The plain near Babylon where the golden image is set up and the furnace burns (vv. 1, 6, 19-23)" },
+    { id:"babylon", role:"The capital the summoned officials travel from — 'every province of the kingdom' converges on Dura from here (vv. 2-3)" }
+  ],
+  journey: [
+    { from:"babylon", to:"dura", label:"The empire's officials converge for the dedication", km:15,
+      note:"A short march from the capital to an open parade-ground large enough to hold satraps, prefects, governors, judges, treasurers, counselors, and magistrates gathered 'from every people, nation, and language' (vv. 2-4, 7) — the mass compliance that makes three men's refusal so conspicuous." }
+  ],
+  hotspots: [
+    { x:0.04, type:"object", label:"A golden image, ninety feet tall",
+      desc:"Nebuchadnezzar sets up an image of gold, sixty cubits high and six wide, on the plain of Dura, and summons every official of the province to its dedication (vv. 1-3)." },
+    { x:0.18, type:"person", label:"\"Fall down and worship\"", av:"official",
+      desc:"At the sound of horn, pipe, lyre, and every kind of music, all the assembled officials fall down and worship the golden image — everyone, it seems, except three (vv. 4-7)." },
+    { x:0.32, type:"person", label:"Denounced by Chaldean rivals", av:"official",
+      desc:"Certain Chaldeans come forward 'to accuse the Jews,' reporting to the king by name that Shadrach, Meshach, and Abednego pay no heed to him, serve no other god, and will not worship the image he has set up (vv. 8-12)." },
+    { x:0.46, type:"person", label:"\"But if not\"", av:"official",
+      desc:"Given a last chance, the three answer that their God is able to deliver them from the fiery furnace — 'but if not,' they say, 'we will not serve your gods or worship the golden image' (vv. 13-18)." },
+    { x:0.6, type:"object", label:"Seven times hotter",
+      desc:"Enraged, Nebuchadnezzar orders the furnace heated seven times its usual heat — so fierce that the soldiers who throw the three in, bound in their own robes, are killed by the flame's heat themselves (vv. 19-23)." },
+    { x:0.75, type:"person", label:"A fourth, \"like a son of the gods\"", av:"king",
+      desc:"Watching, the astonished king counts four men walking unbound and unharmed in the fire, 'and the appearance of the fourth is like a son of the gods' (v. 25)." },
+    { x:0.9, type:"person", label:"Not even the smell of smoke", av:"official",
+      desc:"Called out by name, Shadrach, Meshach, and Abednego emerge with their hair unsinged and robes unharmed, 'and no smell of fire had come upon them' — Nebuchadnezzar blesses their God and promotes all three (vv. 26-30)." }
+  ],
+  environment: {
+    chips: ["The plain of Dura, near Babylon", "A ninety-foot golden image", "A furnace heated seven times hotter", "\"We will not serve your gods\"", "A fourth figure in the flames"],
+    text: "Gathering every tier of imperial administration — satraps down to magistrates — for a single choreographed act of worship at a musical cue turns religious conformity into a loyalty test across the whole bureaucracy at once, a mass-compliance ritual with real parallels in later imperial-cult demands (Roman subjects burning incense to the emperor's genius) that the book of Revelation itself echoes in its own image-worship scenes. Large brick and pottery kilns capable of ferocious, sustained heat are well attested in Mesopotamian archaeology — the glazed bricks of Babylon's own Ishtar Gate required exactly this kind of firing — so 'seven times hotter' locates the threat in a real, familiar industrial technology even though the phrase itself is idiomatic Hebrew intensification (seven as a number of completeness) rather than a literal multiplier."
+  },
+  objectsExtra: ["golden-image","fiery-furnace"],
+  peopleExtra: ["nebuchadnezzar","shadrach-meshach-abednego","babylonian-magicians"],
+  culture: [
+    { title:"Mass loyalty ceremonies in the ancient world", icon:"🎺",
+      text:"Assembling every rank of provincial administration for one synchronized act of worship at a musical signal made compliance instantly visible and refusal instantly conspicuous — there was no way to quietly abstain in a crowd that size. The same structural demand — worship an image or an emperor's likeness on pain of death — recurs across the biblical narrative and into the New Testament's own apocalyptic imagery of an empire that compels worship of its symbols." },
+    { title:"Furnaces in Babylon's material world", icon:"🔥",
+      text:"Large kilns for firing brick, glazing tile, and smelting metal were everyday industrial infrastructure in Babylon — the same city whose Ishtar Gate and processional way were faced in vividly glazed brick fired at high, sustained heat. The furnace of Daniel 3 is not exotic machinery invented for the story; it is the ordinary technology of the city turned into an instrument of execution." },
+    { title:"\"But if not\" — faith without a guaranteed outcome", icon:"🙏",
+      text:"The three friends' answer deliberately separates their confidence in God's power from any promise of rescue: 'he is able to deliver us... but if not, be it known to you, O king, that we will not serve your gods.' Commentators across traditions treat this as the chapter's real center — obedience that holds even when the outcome is left genuinely open, not obedience purchased by a guaranteed happy ending." }
+  ],
+  crossRefs: [
+    { group:"Refusing worship elsewhere in Daniel", refs:[
+      { r:"Daniel 1:8-16", note:"the same three friends' first, quieter refusal — the king's food" },
+      { r:"Daniel 2:46-49", note:"the promotion, a generation earlier, that put all three men in this province to begin with" },
+      { r:"Daniel 6:6-10", note:"Daniel's own later refusal to stop praying, under a near-identical death penalty" } ]},
+    { group:"The fourth figure in the fire", refs:[
+      { r:"Judges 13:20-22", note:"the angel of the LORD ascending in Manoah's altar-flame" },
+      { r:"Isaiah 43:2", note:"'when you walk through fire you shall not be burned, and the flame shall not consume you'" },
+      { r:"Daniel 6:22", note:"Daniel's own deliverance a chapter later credited to 'my God sent his angel'" } ]},
+    { group:"Faithful defiance under pagan empires", refs:[
+      { r:"Exodus 1:15-17", note:"the Hebrew midwives' earlier refusal of a king's order" },
+      { r:"Esther 3:1-4", note:"Mordecai's refusal to bow to Haman" },
+      { r:"Revelation 13:15", note:"a later empire's demand to worship an image, on pain of death" } ]}
+  ]
 }
 
 };
