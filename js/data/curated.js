@@ -8439,6 +8439,146 @@ BVV.CURATED = {
       { r:"Esther 3:1-4", note:"Mordecai's refusal to bow to Haman" },
       { r:"Revelation 13:15", note:"a later empire's demand to worship an image, on pain of death" } ]}
   ]
+},
+
+/* ============================================================
+   MATTHEW 2 — the magi, the flight to Egypt, and the return to Nazareth
+   ============================================================ */
+"40:2": {
+  era: {
+    title: "ca. 6–4 BC — the last year of Herod the Great",
+    sub: "Roman client kingdom of Judea · Bethlehem, Jerusalem, Egypt, then Galilee · the infancy of Jesus",
+    badges: ["Herod the Great's final, paranoid year", "Roman client kingdom of Judea", "The magi from the East", "≈2,030 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Magi from the East arrive in Jerusalem asking for the newborn 'king of the Jews,' having followed his star. Herod, 'troubled, and all Jerusalem with him,' learns from the chief priests and scribes that Bethlehem is the prophesied birthplace (Mic 5:2), then secretly presses the magi for the star's exact timing before sending them on with a request to report back. The star reappears, moves ahead of them, and stops over the house; the magi fall down and worship the child, opening treasures of gold, frankincense, and myrrh. Warned in a dream not to return to Herod, they go home another way. Joseph, warned in his own dream, flees by night to Egypt with Mary and the child — fulfilling 'out of Egypt I called my son' (Hos 11:1) — and they stay until Herod's death. Outwitted, Herod orders every boy two years old and under killed in Bethlehem and its region, fulfilling Jeremiah's picture of Rachel weeping for her children at Ramah (Jer 31:15). After Herod dies, an angel recalls Joseph, who turns back from Judea on hearing Archelaus now rules there, and settles instead in Nazareth of Galilee — fulfilling 'he shall be called a Nazarene.'",
+  focusPlace: "bethlehem",
+  places: [
+    { id:"bethlehem", role:"Where the star stops over the child, the magi worship, and Herod's slaughter falls (vv. 1, 9-11, 16)" },
+    { id:"jerusalem", role:"Herod's court — the magi's first stop, the chief priests' consultation, the murderous decree (vv. 1-8, 16)" },
+    { id:"egypt", role:"Refuge for the holy family until Herod's death (vv. 13-15, 19-21)" },
+    { id:"nazareth", role:"Final home after the return, chosen to avoid Herod's son Archelaus in Judea (vv. 22-23)" },
+    { id:"ramah", role:"Jeremiah's lament over Rachel's children, quoted of Herod's slaughtered infants (v. 18)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"bethlehem", label:"The magi's search, star to Bethlehem", km:9,
+      note:"A short 6 mi / 9 km south from Herod's court, but the last leg only after the chief priests supply the prophecy (Mic 5:2) that the star alone could not: not merely a king, but a king born in this one small town." },
+    { from:"bethlehem", to:"egypt", label:"The flight to Egypt, by night", km:500,
+      note:"Roughly 310 mi / 500 km along the coastal road south into the Nile Delta, where an established Jewish community already offered a plausible refuge — a young family fleeing on foot or donkey in darkness, financed, tradition has long noticed, by the magi's own gold." },
+    { from:"ramah", to:"bethlehem", dashed:true, label:"Rachel's grief, quoted centuries later", km:8,
+      note:"Not a journey Herod's soldiers walk in this chapter, but a line of grief Matthew draws forward from Jeremiah's own exile-era Ramah (Jer 31:15) onto Bethlehem's slaughtered children — one mother's inconsolable weeping standing for two national tragedies six centuries apart." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Magi from the East", av:"traveler",
+      desc:"Foreign astrologer-scholars arrive in Jerusalem asking 'where is he who has been born king of the Jews? For we saw his star when it rose, and have come to worship him' (vv. 1-2)." },
+    { x:0.18, type:"person", label:"Herod, deeply troubled", av:"king",
+      desc:"Herod summons the chief priests and scribes, who cite Micah's prophecy of a ruler from Bethlehem; he then secretly quizzes the magi for the star's exact timing before sending them off (vv. 3-8)." },
+    { x:0.32, type:"object", label:"The star stops over the child",
+      desc:"The star the magi had seen 'went before them until it came to rest over the place where the child was' — they rejoice 'with exceedingly great joy' (vv. 9-10)." },
+    { x:0.44, type:"object", label:"Gold, frankincense, and myrrh",
+      desc:"Falling down, the magi worship the child and 'opened their treasures' — royal, priestly, and burial-spice gifts alike, for a child tradition has long read as king, priest, and one destined to die (v. 11)." },
+    { x:0.56, type:"person", label:"Warned in a dream, twice", av:"traveler",
+      desc:"The magi, warned not to return to Herod, depart another way; Joseph, warned in his own dream, rises by night and flees with Mary and the child to Egypt (vv. 12-14)." },
+    { x:0.72, type:"person", label:"The slaughter of the innocents", av:"king",
+      desc:"Outwitted by the magi, Herod in fury orders every boy two years old and under killed in Bethlehem and its region — 'a voice heard in Ramah, weeping and loud lamentation... Rachel weeping for her children' (vv. 16-18)." },
+    { x:0.9, type:"person", label:"Return, and settling in Nazareth", av:"traveler",
+      desc:"After Herod's death an angel recalls Joseph; hearing Archelaus now rules Judea, he turns aside into Galilee and settles in Nazareth, 'that what was spoken by the prophets might be fulfilled, He shall be called a Nazarene' (vv. 19-23)." }
+  ],
+  environment: {
+    chips: ["Herod the Great's final, sickly year", "A star that 'went before them'", "Gold, frankincense, myrrh", "Rachel weeping at Ramah, quoted from Jeremiah", "Flight to Egypt, then Nazareth"],
+    text: "Herod's court in his last years was a genuinely dangerous place to be a rival claimant: the aging king, riddled with disease and paranoia, had already executed his own wife Mariamne and three of his sons on suspicion of plotting against him, so a Roman historian's later quip that it was 'safer to be Herod's pig than his son' fits the same temperament this chapter portrays turning on Bethlehem's toddlers. A first-century Jewish community already flourishing in Egypt — sizable, established, centuries old since the days of Jeremiah's own exiles there — made the flight south a realistic refuge rather than a leap into the unknown, along the same coastal road generations of travelers between Judea and the Nile had used before them."
+  },
+  objectsExtra: ["star-of-bethlehem","magi-gifts","sword"],
+  peopleExtra: ["jesus","mary","joseph-nt","herod-great","magi","archelaus","rachel"],
+  culture: [
+    { title:"Herod the Great's paranoid final year", icon:"👑",
+      text:"Josephus's independent account of Herod's last years — executions of his wife Mariamne, three of his own sons, and a purge on his deathbed meant to guarantee national mourning at his funeral — supplies exactly the temperament Matthew 2 assumes: a king willing to kill a town's small children on the mere chance one might grow up a rival. No non-biblical source separately records the Bethlehem slaughter itself, but nothing about it is out of character for the ruler Josephus otherwise describes." },
+    { title:"The magi: who were they?", icon:"🔭",
+      text:"'Magi' (Gk. magoi) named a real professional class — Persian or Babylonian priest-astrologers who read the sky for omens of kingship and fate, the same guild-word behind 'magic.' Matthew gives no number; 'three' comes only from the three gifts, and the later names Caspar, Melchior, and Balthasar are medieval Western tradition, centuries removed from the text." },
+    { title:"Flight to Egypt — a well-worn refuge", icon:"🐪",
+      text:"Egypt had sheltered fleeing Israelites long before this — Jeroboam under Solomon, and a whole community of Jewish refugees Jeremiah himself was dragged into after Jerusalem's fall (Jer 43) — and by the first century hosted an old, substantial Jewish population, especially at Alexandria. Matthew reads the family's flight and return through Hosea's line about Israel's own exodus, 'out of Egypt I called my son' (Hos 11:1), casting Jesus as recapitulating the nation's own history in miniature." }
+  ],
+  crossRefs: [
+    { group:"Prophecies this chapter marks as fulfilled", refs:[
+      { r:"Micah 5:2", note:"'you, O Bethlehem... from you shall come a ruler' — cited by the chief priests to Herod" },
+      { r:"Hosea 11:1", note:"'out of Egypt I called my son' — applied to the family's return from Egypt" },
+      { r:"Jeremiah 31:15", note:"Rachel's weeping at Ramah, quoted directly of Herod's slaughtered children" } ]},
+    { group:"Egypt as refuge and symbol elsewhere in Scripture", refs:[
+      { r:"Genesis 46:1-7", note:"Jacob's whole family flees famine into Egypt generations earlier" },
+      { r:"Exodus 4:19-20", note:"'those who sought your life are dead' — the LORD's word to Moses returning from exile, echoed almost verbatim of Joseph returning from Egypt (Matt 2:20)" },
+      { r:"1 Kings 11:40", note:"Jeroboam flees to Egypt from a hostile king, generations before Herod" } ]},
+    { group:"Herod's family and its later violence", refs:[
+      { r:"Luke 1:5", note:"'in the days of Herod, king of Judea' — the same reign as backdrop to the annunciation narratives" },
+      { r:"Matthew 14:1-12", note:"Herod Antipas, this Herod's son, later executes John the Baptist" },
+      { r:"Acts 12:1-2", note:"a grandson, Herod Agrippa I, continues the dynasty's violence against the church" } ]}
+  ]
+},
+
+/* ============================================================
+   MATTHEW 5 — the Sermon on the Mount begins: Beatitudes, salt and light
+   ============================================================ */
+"40:5": {
+  era: {
+    title: "ca. AD 27–29 — early in the Galilean ministry",
+    sub: "Roman Judea, Galilee under the tetrarch Herod Antipas · a hillside above Capernaum, Sea of Galilee",
+    badges: ["Herod Antipas' Galilee", "Jesus' early Galilean ministry", "The Sermon on the Mount begins", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Seeing the crowds his growing reputation has drawn, Jesus goes up a hillside above the lake, sits — the rabbi's posture of authoritative teaching — and his disciples gather to him. He opens with the Beatitudes: a string of blessings, each promising a reversal, on the poor in spirit, those who mourn, the meek, those hungering for righteousness, the merciful, the pure in heart, peacemakers, and the persecuted. He tells his disciples they are salt of the earth and light of the world — a city on a hill that cannot be hidden, a lamp meant for a stand, not a basket. He insists he has come not to abolish the Law and the Prophets but to fulfill them, and that his followers' righteousness must exceed the scribes' and Pharisees'. A run of six contrasts follows, each opening 'you have heard that it was said... but I say to you': murder traced back to anger and contempt, adultery traced back to lust, teaching on divorce and oaths ('let what you say be simply yes or no'), and retaliation traded for turning the other cheek. The chapter closes on its hardest command — love your enemies and pray for those who persecute you, 'that you may be sons of your Father who is in heaven' — ending, 'You therefore must be perfect, as your heavenly Father is perfect.'",
+  focusPlace: "mount-beatitudes",
+  places: [
+    { id:"mount-beatitudes", role:"The unnamed hillside where Jesus sits to teach the crowds and his disciples (v. 1)" },
+    { id:"capernaum", role:"Jesus' ministry base nearby, the likely source of the crowds who follow him up the hill" },
+    { id:"galilee-sea", role:"The lake below the slope, backdrop to the whole Galilean teaching ministry" }
+  ],
+  journey: [
+    { from:"capernaum", to:"mount-beatitudes", label:"Up from the lakeshore to teach", km:4,
+      note:"A short climb of a few kilometers from the lakeside towns onto the open hillside — far enough from any settlement for a large seated crowd, close enough that word could travel back to Capernaum within the day." }
+  ],
+  hotspots: [
+    { x:0.03, type:"person", label:"Jesus goes up and sits down", av:"prophet",
+      desc:"Seeing the crowds, Jesus goes up the mountain; when he sits — the customary posture of authoritative teaching — his disciples come to him (vv. 1-2)." },
+    { x:0.2, type:"person", label:"The Beatitudes: 'Blessed are...'", av:"prophet",
+      desc:"A run of reversal-blessings on the poor in spirit, the mourning, the meek, those hungering for righteousness, the merciful, the pure in heart, peacemakers, and the persecuted — each paired with a promised inheritance (vv. 3-10)." },
+    { x:0.34, type:"object", label:"Salt of the earth, light of the world",
+      desc:"Disciples are called salt that must not lose its taste and light that cannot be hidden — 'a city set on a hill,' a lamp set on a stand, not under a basket (vv. 13-16)." },
+    { x:0.46, type:"person", label:"'Not to abolish, but to fulfill'", av:"prophet",
+      desc:"Jesus insists not the smallest letter of the Law will pass away until all is accomplished, and that his followers' righteousness must exceed that of the scribes and Pharisees (vv. 17-20)." },
+    { x:0.58, type:"person", label:"'You have heard... but I say' — murder and lust", av:"prophet",
+      desc:"The first two of six contrasts: murder traced back to anger and insult, with reconciliation urged before an offering; adultery traced back to a lustful look (vv. 21-30)." },
+    { x:0.72, type:"person", label:"Divorce, oaths, and the other cheek", av:"prophet",
+      desc:"Teaching narrows the grounds for divorce, replaces oath-taking with a plain yes or no, and answers 'eye for eye' retaliation with turning the other cheek and going the extra mile (vv. 31-42)." },
+    { x:0.9, type:"person", label:"'Love your enemies... be perfect'", av:"prophet",
+      desc:"The chapter's climax: love and pray for persecutors, since the Father sends sun and rain on evil and good alike — closing, 'you therefore must be perfect, as your heavenly Father is perfect' (vv. 43-48)." }
+  ],
+  environment: {
+    chips: ["A hillside above Capernaum, Sea of Galilee", "Rabbi-style seated teaching", "Beatitudes: eight reversal-blessings", "'You have heard it said... but I say to you'", "Matthew's first of five major discourses"],
+    text: "A teacher sitting to speak, with the audience standing or seated around, was the normal posture of authoritative instruction in a first-century synagogue — a physical cue that what follows is formal teaching, not casual remark. Matthew structures his whole Gospel around five major blocks of Jesus' teaching (chs. 5-7, 10, 13, 18, 24-25), widely read as a deliberate echo of the five books of Moses; opening the first block on a Galilean mountainside, delivering something with the shape of a new Torah, casts Jesus early in the book as a second, greater Moses figure — while the six 'you have heard... but I say' contrasts claim an interpretive authority over the Law itself that goes well beyond the era's ordinary rabbinic debate."
+  },
+  objectsExtra: ["salt","lamp"],
+  peopleExtra: ["jesus"],
+  culture: [
+    { title:"Sitting to teach", icon:"🪑",
+      text:"Standing was for reading Scripture aloud; sitting was for its authoritative exposition — the posture behind the later idiom 'the seat of Moses' (Matt 23:2). Jesus 'sat down' before he spoke is Matthew's shorthand for: what follows carries teaching authority, not casual comment." },
+    { title:"The Beatitudes' reversal logic", icon:"🔄",
+      text:"Wisdom literature's familiar 'blessed is the one who...' formula (Ps 1:1) usually rewards visible virtue or success; the Beatitudes instead bless conditions the era read as weakness or loss — poverty of spirit, grief, meekness, persecution — and pair each with a future reversal, announcing a kingdom whose values run backward from the honor-and-shame culture around it." },
+    { title:"'You have heard it said... but I say to you'", icon:"📢",
+      text:"Rabbis routinely debated how to apply the Law by citing other rabbis; Jesus instead sets his own word directly against the received reading, without citing a rival teacher's authority to overturn — a claim, startling to his first hearers, to speak with the same authority as the Law itself rather than merely interpret it." }
+  ],
+  crossRefs: [
+    { group:"Moses and Sinai typology", refs:[
+      { r:"Exodus 19:3", note:"Moses goes up the mountain to receive the Law — the scene Matthew's mountain setting evokes" },
+      { r:"Exodus 20:1-17", note:"the Ten Commandments given from the mountain, the Law Jesus says he came to fulfill" },
+      { r:"Deuteronomy 18:15", note:"Moses' own promise of 'a prophet like me' from among Israel" } ]},
+    { group:"The Beatitudes echoed elsewhere", refs:[
+      { r:"Luke 6:20-26", note:"a parallel Sermon on the Plain, with matching blessings and added woes" },
+      { r:"Psalm 37:11", note:"'the meek shall inherit the land' — quoted directly in v. 5" },
+      { r:"Isaiah 61:1-3", note:"comfort for mourners and the brokenhearted, echoed in the Beatitudes' promised reversals" } ]},
+    { group:"Fulfilling, not abolishing, the Law", refs:[
+      { r:"Matthew 22:37-40", note:"Jesus later sums up 'all the Law and the Prophets' in love of God and neighbor" },
+      { r:"Romans 13:8-10", note:"Paul: love 'is the fulfilling of the law'" },
+      { r:"James 2:8-13", note:"the whole law kept or broken as a single unit, echoing ch. 5's 'least of these commandments'" } ]}
+  ]
 }
 
 };
