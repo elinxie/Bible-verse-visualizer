@@ -194,7 +194,8 @@ function check(name, cond, extra) {
     "Isaiah 6|23:6", "Isaiah 40|23:40", "Isaiah 53|23:53",
     "Jeremiah 1|24:1", "Jeremiah 29|24:29", "Jeremiah 31|24:31",
     "Ezekiel 1|26:1", "Ezekiel 37|26:37",
-    "Daniel 1|27:1", "Daniel 2|27:2", "Daniel 3|27:3"];
+    "Daniel 1|27:1", "Daniel 2|27:2", "Daniel 3|27:3",
+    "Matthew 2|40:2", "Matthew 5|40:5"];
   for (const entry of CURATED_SWEEP) {
     const [ref, key] = entry.split("|");
     console.log(`== curated pipeline: ${ref} ==`);
