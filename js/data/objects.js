@@ -250,5 +250,13 @@ BVV.OBJECTS = [
   { id:"magi-gifts", name:"Gold, frankincense, and myrrh", al:["gold, frankincense, and myrrh","gifts of the magi","treasures"], icon:"🎁",
     desc:"Opened before the child at Bethlehem (Matt 2:11) — costly gifts fit for a king's household, later read by tradition as pointing to Jesus' kingship (gold), priesthood/divinity (frankincense, temple incense), and death (myrrh, a burial spice, cf. John 19:39)." },
   { id:"salt", name:"Salt", al:["salt","salt of the earth"], icon:"🧂",
-    desc:"A costly, ordinary preservative and seasoning — Roman soldiers were partly paid in it (the root of 'salary') — that Jesus calls his disciples: valuable while it keeps its savor, worthless and 'thrown out, trampled underfoot' the moment it loses it (Matt 5:13)." }
+    desc:"A costly, ordinary preservative and seasoning — Roman soldiers were partly paid in it (the root of 'salary') — that Jesus calls his disciples: valuable while it keeps its savor, worthless and 'thrown out, trampled underfoot' the moment it loses it (Matt 5:13)." },
+  { id:"treasure-heaven", name:"Treasure in heaven", al:["treasures in heaven","treasures on earth","moth and rust"], icon:"💰",
+    desc:"Jesus' contrast between earthly wealth — vulnerable to moth-eaten cloth, rust on stored metal, and thieves digging through a mud-brick wall — and treasure 'stored up in heaven' where none of that can reach it: 'where your treasure is, there your heart will be also' (Matt 6:19-21)." },
+  { id:"lilies-of-field", name:"The birds and the lilies", al:["lilies of the field","birds of the air","consider the lilies"], icon:"🌸",
+    desc:"Jesus' twin picture against anxiety: birds fed without sowing or storing, and wildflowers 'arrayed' beyond even Solomon's royal glory though they neither toil nor spin — if God clothes grass burned in an oven the next day, how much more will he care for his own (Matt 6:26-30)." },
+  { id:"narrow-gate", name:"The narrow gate", al:["narrow gate","narrow road","wide gate"], icon:"🚪",
+    desc:"The two-ways image closing Jesus' ethical teaching: a wide gate and easy road, crowded with travelers, leading to destruction, set against a narrow gate and hard road, found by few, leading to life (Matt 7:13-14)." },
+  { id:"wise-foolish-builders", name:"The wise and foolish builders", al:["house on the rock","house on the sand","wise and foolish builders"], icon:"🏗️",
+    desc:"The Sermon on the Mount's closing parable: a wise man builds his house on rock and it stands through rain, flood, and wind; a fool builds on sand and it falls 'with a great crash' — Jesus' own verdict on everyone who hears these words, distinguishing the one who also does them from the one who does not (Matt 7:24-27)." }
 ];

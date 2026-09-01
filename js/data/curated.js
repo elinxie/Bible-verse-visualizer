@@ -8579,6 +8579,141 @@ BVV.CURATED = {
       { r:"Romans 13:8-10", note:"Paul: love 'is the fulfilling of the law'" },
       { r:"James 2:8-13", note:"the whole law kept or broken as a single unit, echoing ch. 5's 'least of these commandments'" } ]}
   ]
+},
+
+/* ============================================================
+   MATTHEW 6 — private righteousness: giving, prayer, fasting; the Lord's Prayer; treasure and worry
+   ============================================================ */
+"40:6": {
+  era: {
+    title: "ca. AD 27–29 — early in the Galilean ministry",
+    sub: "Roman Judea, Galilee under the tetrarch Herod Antipas · the same hillside above Capernaum, Sea of Galilee",
+    badges: ["Herod Antipas' Galilee", "The Sermon on the Mount continues", "The Lord's Prayer", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Still seated on the hillside, Jesus turns from the Law's inner meaning to the motive behind visible piety. Giving to the needy, prayer, and fasting — the three classic acts of Jewish devotion — are each treated the same way: done 'to be seen by others,' as the hypocrites do sounding a trumpet or standing on street corners, they have already received their only reward; done in secret, before 'your Father who sees in secret,' they are rewarded by him. Prayer should avoid both public display and pagan-style 'babbling' with many words, and Jesus gives a model prayer instead — address to 'our Father in heaven,' three petitions for God's name, kingdom, and will, three for daily bread, forgiveness, and deliverance from temptation — adding that the Father's forgiveness of us is bound to our forgiving others. He turns next to treasure: store it up in heaven, not on earth where moth and rust destroy and thieves break in, 'for where your treasure is, there your heart will be also'; a healthy eye fills the body with light as a diseased one fills it with darkness; and no one can serve two masters — 'you cannot serve God and money.' The chapter closes on anxiety: do not worry about food, drink, or clothing — look at the birds, fed without sowing or storing, and the lilies, arrayed beyond even Solomon's glory though they neither toil nor spin — for the Father who clothes grass thrown into the oven tomorrow will surely care for those of 'little faith.' 'Seek first the kingdom of God and his righteousness,' and the rest will be added; 'tomorrow will worry about itself. Sufficient for the day is its own trouble.'",
+  focusPlace: "mount-beatitudes",
+  places: [
+    { id:"mount-beatitudes", role:"Jesus continues teaching the disciples and crowds on giving, prayer, fasting, treasure, and worry (v. 1 onward, continuing 5:1-2)" },
+    { id:"capernaum", role:"Ministry base nearby, the likely home of many in the seated crowd" }
+  ],
+  journey: [
+    { from:"capernaum", to:"mount-beatitudes", label:"Up from the lakeshore to teach", km:4,
+      note:"The same short climb from Capernaum's lakeside onto the open hillside as ch. 5 — the sermon is one continuous sitting, not a new occasion." }
+  ],
+  hotspots: [
+    { x:0.03, type:"person", label:"Giving in secret", av:"prophet",
+      desc:"'When you give to the needy, do not announce it with trumpets, as the hypocrites do... but when you give, do not let your left hand know what your right hand is doing' — reward comes from the Father who sees in secret, not from public applause (vv. 1-4)." },
+    { x:0.16, type:"person", label:"Prayer, not for show", av:"prophet",
+      desc:"Praying on street corners to be seen, and pagan-style 'babbling with many words,' are both rejected; pray instead in a shut room, to a Father who already knows what is needed before it is asked (vv. 5-8)." },
+    { x:0.3, type:"object", label:"The Lord's Prayer",
+      desc:"'Pray then like this: Our Father in heaven, hallowed be your name, your kingdom come, your will be done... give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors... and lead us not into temptation, but deliver us from evil' — followed by a warning that God's forgiveness of us depends on our forgiving others (vv. 9-15)." },
+    { x:0.44, type:"person", label:"Fasting in secret", av:"prophet",
+      desc:"'When you fast, do not look somber as the hypocrites do... but put oil on your head and wash your face,' so that only the Father who sees in secret knows (vv. 16-18)." },
+    { x:0.58, type:"object", label:"Treasure in heaven; the eye's lamp; two masters",
+      desc:"'Do not store up for yourselves treasures on earth, where moth and rust destroy... but store up treasures in heaven'; the eye as the body's lamp, healthy or diseased; and 'you cannot serve God and money' (vv. 19-24)." },
+    { x:0.72, type:"object", label:"Consider the birds and the lilies",
+      desc:"'Do not worry about your life, what you will eat or drink... Look at the birds of the air; they do not sow or reap... consider the lilies of the field, how they grow... even Solomon in all his glory was not arrayed like one of these' (vv. 25-30)." },
+    { x:0.9, type:"person", label:"Seek first the kingdom", av:"prophet",
+      desc:"'Do not worry, saying, What shall we eat?... your heavenly Father knows that you need them all. But seek first the kingdom of God and his righteousness, and all these things will be added to you' — closing, 'sufficient for the day is its own trouble' (vv. 31-34)." }
+  ],
+  environment: {
+    chips: ["Alms, prayer, and fasting — the three pillars of Jewish piety", "'Your Father who sees in secret'", "The Lord's Prayer's six petitions", "Moth, rust, and thieves as ancient wealth's real risks", "Galilee's wild anemones — 'the lilies of the field'"],
+    text: "Almsgiving, prayer, and fasting were the three recognized acts of first-century Jewish devotion — not novel practices Jesus introduces but the era's default piety, which he assumes his hearers already keep and redirects toward motive rather than display. 'Hypocrite' (Gk. hypokrites) named a stage actor performing behind a mask, giving Jesus' repeated charge a sharper edge than the softened modern sense: not merely inconsistency, but a performance staged for an audience. Storing wealth in this economy meant fine cloth (vulnerable to moth) and stockpiled metal or grain (vulnerable to rust and thieves who could tunnel through a mud-brick wall in a single night) — treasures far more precarious than a modern bank account, and Jesus' warning trades on exactly that fragility."
+  },
+  objectsExtra: ["treasure-heaven","lilies-of-field","lamp"],
+  peopleExtra: ["jesus"],
+  culture: [
+    { title:"'Hypocrites' — actors behind a mask", icon:"🎭",
+      text:"Greek theater's hypokrites wore a mask and spoke another's lines for an audience's benefit. Applied three times in this chapter to conspicuous almsgivers, praying, and fasting, the word accuses not of unbelief but of performance — devotion staged to be seen rather than offered to God, its reward cashed out in full the moment the applause comes." },
+    { title:"The Lord's Prayer's Jewish shape", icon:"🙏",
+      text:"Its structure — praise of God's name, longing for his kingdom, petitions for bread, forgiveness, and protection — closely tracks patterns already alive in Jewish synagogue prayer such as the Kaddish and the Amidah; Jesus is not inventing a new religion of prayer but distilling a shared devotional vocabulary into six short, memorable lines meant to be prayed, not merely admired." },
+    { title:"Moth, rust, and a mud-brick wall", icon:"🦋",
+      text:"A first-century household's wealth was mostly cloth, grain, and stored metal rather than coin in a vault; fine garments were themselves a form of savings, vulnerable to moth larvae, while a thief could dig straight through an unbaked mud-brick house wall in a night — Jesus' warning names the real, everyday fragility of ancient storage, not an abstract metaphor." }
+  ],
+  crossRefs: [
+    { group:"The Lord's Prayer elsewhere", refs:[
+      { r:"Luke 11:2-4", note:"a shorter parallel version of the same prayer, given in answer to the disciples' direct request 'teach us to pray'" },
+      { r:"1 Chronicles 29:11", note:"'yours, O LORD, is the greatness and the power and the glory' — the doxology's likely OT root, reflected in some manuscripts' closing 'for yours is the kingdom...'" },
+      { r:"Matthew 18:21-35", note:"the parable of the unforgiving servant expands v. 15's warning that receiving forgiveness and extending it are bound together" } ]},
+    { group:"Treasure and undivided devotion", refs:[
+      { r:"Luke 12:33-34", note:"a close parallel: 'sell your possessions... where your treasure is, there will your heart be also'" },
+      { r:"1 Timothy 6:17-19", note:"Paul's instruction to the rich: hope not in wealth but store up 'treasure' for the age to come" },
+      { r:"Proverbs 23:4-5", note:"wealth 'makes itself wings and flies away like an eagle toward heaven' — an OT proverb on riches' fragility" } ]},
+    { group:"Anxiety and God's provision", refs:[
+      { r:"Luke 12:22-31", note:"the same birds-and-lilies teaching in Luke's setting" },
+      { r:"Psalm 37:25", note:"'I have not seen the righteous forsaken, nor his children begging for bread'" },
+      { r:"Philippians 4:6-7", note:"'do not be anxious about anything, but... let your requests be made known to God'" } ]}
+  ]
+},
+
+/* ============================================================
+   MATTHEW 7 — the Sermon on the Mount concludes: judging, the Golden Rule, two ways, two builders
+   ============================================================ */
+"40:7": {
+  era: {
+    title: "ca. AD 27–29 — early in the Galilean ministry",
+    sub: "Roman Judea, Galilee under the tetrarch Herod Antipas · the same hillside above Capernaum, Sea of Galilee",
+    badges: ["Herod Antipas' Galilee", "The Sermon on the Mount concludes", "Two ways, two builders", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Jesus closes the Sermon on the Mount with a run of short, sharp sayings. 'Do not judge, or you too will be judged' — the measure used on others will be used on the judge; better to remove the log from one's own eye before offering to pick a speck from a brother's, and what is holy should not be thrown to dogs or pearls to pigs. 'Ask, and it will be given to you; seek, and you will find; knock, and the door will be opened' — an earthly father who knows how to give good gifts is the argument from lesser to greater for a heavenly Father's generosity. The Golden Rule crystallizes it: 'so in everything, do to others what you would have them do to you, for this sums up the Law and the Prophets.' Jesus then sets two ways side by side — the wide gate and easy road that lead to destruction, crowded with travelers, against the narrow gate and hard road that lead to life, found by few — and warns of false prophets, sheep's clothing over ravenous wolves, known not by their words but by their fruit, since a good tree cannot bear bad fruit nor a bad tree good. Not everyone who calls him 'Lord, Lord' will enter the kingdom, only 'the one who does the will of my Father'; on the last day many will plead prophecy, exorcism, and miracles done in his name, and be told, 'I never knew you; depart from me.' The sermon ends with the parable of the two builders: the one who hears these words and does them is like a wise man building on rock, standing through storm and flood; the one who hears and does not do them is like a fool building on sand, whose house falls 'with a great crash.' The crowds are left astonished — Jesus taught 'as one who had authority, and not as their scribes.'",
+  focusPlace: "mount-beatitudes",
+  places: [
+    { id:"mount-beatitudes", role:"Jesus finishes the sermon begun in ch. 5, closing with the parable of the two builders (v. 24 onward)" },
+    { id:"capernaum", role:"Ministry base nearby, home to much of the crowd left 'astonished at his teaching' (vv. 28-29)" },
+    { id:"galilee-sea", role:"Thematic echo, not a literal stop: the lake's sudden squalls (cf. Matt 8:23-27) supply the storm-and-flood imagery of the wise and foolish builders" }
+  ],
+  journey: [
+    { from:"capernaum", to:"mount-beatitudes", label:"The same sitting continues", km:4,
+      note:"No new travel in this chapter — it closes the single hillside discourse begun in 5:1-2." },
+    { from:"mount-beatitudes", to:"galilee-sea", dashed:true, label:"The builders' storm, drawn from the lake", km:4,
+      note:"A thematic line, not a route anyone walks in this chapter: the 'rain fell, the streams rose, and the winds blew' of the closing parable evokes the same lake whose sudden storms this Gospel narrates soon after (Matt 8:23-27)." }
+  ],
+  hotspots: [
+    { x:0.03, type:"person", label:"'Do not judge' — the speck and the log", av:"prophet",
+      desc:"'Do not judge, or you too will be judged... why do you look at the speck of sawdust in your brother's eye and pay no attention to the plank in your own eye?' — followed by the warning not to give what is holy to dogs or cast pearls before pigs (vv. 1-6)." },
+    { x:0.18, type:"person", label:"Ask, seek, knock", av:"prophet",
+      desc:"'Ask, and it will be given to you; seek, and you will find; knock, and the door will be opened to you' — if an earthly father gives good gifts to his children, how much more will the Father in heaven give good gifts to those who ask him (vv. 7-11)." },
+    { x:0.3, type:"object", label:"The Golden Rule",
+      desc:"'So in everything, do to others what you would have them do to you, for this sums up the Law and the Prophets' (v. 12)." },
+    { x:0.42, type:"object", label:"The narrow gate",
+      desc:"'Enter through the narrow gate. For wide is the gate and broad is the road that leads to destruction, and many enter through it. But small is the gate and narrow the road that leads to life, and only a few find it' (vv. 13-14)." },
+    { x:0.54, type:"person", label:"False prophets known by their fruit", av:"prophet",
+      desc:"'Watch out for false prophets. They come to you in sheep's clothing, but inwardly they are ferocious wolves. By their fruit you will recognize them... every good tree bears good fruit, but a bad tree bears bad fruit' (vv. 15-20)." },
+    { x:0.7, type:"object", label:"'I never knew you'; the wise and foolish builders",
+      desc:"Not everyone who says 'Lord, Lord' will enter the kingdom — only the one who does the Father's will; those who plead prophecy and miracles in his name are told 'I never knew you.' The one who hears these words and does them builds on rock and stands through storm; the one who hears and does not do them builds on sand and falls with a great crash (vv. 21-27)." },
+    { x:0.9, type:"person", label:"The crowds astonished", av:"prophet",
+      desc:"When Jesus finished, 'the crowds were astonished at his teaching, because he taught as one who had authority, and not as their teachers of the law' (vv. 28-29)." }
+  ],
+  environment: {
+    chips: ["A wisdom-saying run: judging, asking, the Golden Rule", "Wide road vs. narrow gate", "Wolves in sheep's clothing", "Rock vs. sand — Galilee's flash floods", "'As one who had authority'"],
+    text: "Jesus was himself a tekton — builder or craftsman in wood and stone — and the closing parable's contrast between bedrock and loose valley sand reflects a real, everyday building choice in the region: a house set on exposed limestone bedrock could weather the sudden, violent flash floods that Galilee's dry wadis produce after seasonal rain, while one set on the sandy floor of a wadi bed — easier to dig and level, and tempting for exactly that reason — sat directly in a flood channel's path. Ending on 'not as their scribes' names a real contrast his first hearers would have felt: a scribe taught by citing chains of earlier rabbis' rulings, while Jesus spoke in his own voice as if the authority were simply his to begin with — the same startling claim ch. 5's six 'but I say to you' contrasts had already made."
+  },
+  objectsExtra: ["narrow-gate","wise-foolish-builders"],
+  peopleExtra: ["jesus"],
+  culture: [
+    { title:"The speck and the log — carpenter's hyperbole", icon:"🪵",
+      text:"A tekton's-eye joke: picturing an entire construction beam lodged in someone's own eye while he fusses over a splinter in his brother's is deliberate, comic overstatement, the kind of vivid exaggeration common in rabbinic teaching to make a point impossible to forget — self-examination must run further than the scrutiny handed out to others." },
+    { title:"The Golden Rule, positive and negative", icon:"⚖️",
+      text:"Nearly every ancient culture had a version of reciprocity ethics, but almost always phrased negatively — the older rabbi Hillel's near-contemporary summary was 'what is hateful to you, do not do to your neighbor.' Jesus' positive phrasing, 'do to others what you would have them do to you,' demands active initiative rather than mere restraint, and he explicitly frames it as the whole Law and Prophets in miniature." },
+    { title:"Wolves in sheep's clothing", icon:"🐺",
+      text:"Shepherding was Galilee's everyday backdrop, and a wolf disguised in a fleece names a real predator-strategy risk flocks faced, not just a figure of speech; applied to false prophets, it warns that danger to the community would come already dressed as one of its own, identifiable only by the fruit its life produced, not by its claimed credentials." }
+  ],
+  crossRefs: [
+    { group:"The Golden Rule and judging others", refs:[
+      { r:"Luke 6:31", note:"the same Golden Rule, in Luke's parallel Sermon on the Plain" },
+      { r:"Luke 6:37-42", note:"Luke's parallel to 'do not judge' and the speck-and-log saying" },
+      { r:"Leviticus 19:18", note:"'love your neighbor as yourself' — the OT command the positive Golden Rule distills" } ]},
+    { group:"The narrow way and testing prophets", refs:[
+      { r:"Luke 13:23-24", note:"'strive to enter through the narrow door' — Luke's parallel to the two gates" },
+      { r:"Deuteronomy 18:20-22", note:"the OT test for a true prophet: does what is spoken come to pass" },
+      { r:"Jeremiah 23:16", note:"'do not listen to the words of the prophets who prophesy to you, filling you with vain hopes'" } ]},
+    { group:"Hearing and doing — the two builders", refs:[
+      { r:"Luke 6:47-49", note:"Luke's parallel parable of the two builders, rock against soil with no foundation" },
+      { r:"James 1:22-25", note:"'be doers of the word, and not hearers only' — the same hearing/doing contrast" },
+      { r:"Matthew 28:19-20", note:"the Gospel's closing commission, 'teaching them to obey everything I have commanded,' echoing this sermon's own closing demand" } ]}
+  ]
 }
 
 };
