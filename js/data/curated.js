@@ -8714,6 +8714,211 @@ BVV.CURATED = {
       { r:"James 1:22-25", note:"'be doers of the word, and not hearers only' — the same hearing/doing contrast" },
       { r:"Matthew 28:19-20", note:"the Gospel's closing commission, 'teaching them to obey everything I have commanded,' echoing this sermon's own closing demand" } ]}
   ]
+},
+
+/* ============================================================
+   MATTHEW 26 — anointing at Bethany, the Last Supper, Gethsemane, betrayal and arrest, trial before Caiaphas, Peter's denial
+   ============================================================ */
+"40:26": {
+  era: {
+    title: "ca. AD 30 — Passover week, the night before the crucifixion",
+    sub: "Roman Judea under Pontius Pilate · Bethany and Jerusalem, Thursday night into Friday",
+    badges: ["Passover week, Jerusalem", "Roman-occupied Judea", "The night of the arrest", "≈2,000 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Two days before Passover, at Simon the leper's house in Bethany, a woman pours costly perfume over Jesus' head; the disciples grumble at the waste, but Jesus says she has prepared him for burial and her act will be told wherever the gospel is preached. Judas Iscariot slips away to the chief priests and strikes a deal for thirty pieces of silver, then watches for his chance. In an upper room Jesus keeps the Passover with the Twelve, names his betrayer without naming him publicly, then takes bread and a cup — 'this is my body,' 'this is my blood of the covenant, poured out for many' — instituting a new memorial before they sing a hymn and go out to the Mount of Olives. In the garden called Gethsemane his soul is 'sorrowful, even to death'; he prays three times that the cup might pass, yet 'not as I will, but as you will,' while Peter, James and John fail to stay awake even one hour. Judas arrives with an armed crowd from the chief priests and elders, kisses Jesus as the prearranged sign, and a disciple's drawn sword is rebuked — 'all who take the sword will perish by the sword' — before Jesus submits and the disciples scatter. Before Caiaphas and the assembled council, false witnesses cannot agree, until the high priest demands under oath whether Jesus is the Christ, the Son of God; Jesus answers 'you have said so' and predicts the Son of Man seated at the right hand of Power — a claim the council condemns as blasphemy, spitting on him and striking him. In the courtyard below, Peter denies knowing Jesus three times as accusers press him, and at the rooster's crow he remembers Jesus' word and goes out weeping bitterly.",
+  focusPlace: "olives",
+  places: [
+    { id:"bethany", role:"The anointing for burial, two days before Passover (vv. 6-13)" },
+    { id:"jerusalem", role:"The Passover meal in the upper room, and the trial and denial at Caiaphas's house (vv. 17-30, 57-75)" },
+    { id:"olives", role:"Gethsemane's agony, betrayal, and arrest, on the Mount of Olives (vv. 30, 36-56)" }
+  ],
+  journey: [
+    { from:"bethany", to:"jerusalem", label:"Back into the city for the Passover meal", km:3,
+      note:"A short walk of under 2 mi / 3 km over the ridge from Bethany's anointing supper to the upper room prepared for the Twelve (vv. 17-19)." },
+    { from:"jerusalem", to:"olives", label:"Out to Gethsemane after the supper", km:1,
+      note:"After singing a hymn, Jesus and the Eleven cross the Kidron valley floor to a garden called Gethsemane — 'oil press' — on Olivet's lower slope (vv. 30, 36)." },
+    { from:"olives", to:"jerusalem", dashed:true, label:"Marched back under guard", km:1,
+      note:"The arresting crowd leads Jesus back into the city to Caiaphas's house while the disciples flee into the dark (vv. 56-57)." }
+  ],
+  hotspots: [
+    { x:0.03, type:"person", label:"The anointing at Bethany", av:"woman",
+      desc:"At Simon the leper's house a woman pours costly perfume on Jesus' head; the disciples call it waste, but Jesus says she has done it 'to prepare me for burial' (vv. 6-13)." },
+    { x:0.16, type:"person", label:"Judas bargains for thirty pieces of silver", av:"traveler",
+      desc:"Judas Iscariot goes to the chief priests and strikes a price for handing Jesus over; from that moment he watches for an opportunity (vv. 14-16)." },
+    { x:0.3, type:"object", label:"The Last Supper: bread and the cup",
+      desc:"At the Passover meal Jesus names his betrayer, then takes bread and a cup — 'this is my body,' 'this is my blood of the covenant, poured out for many' — before they sing a hymn (vv. 17-30)." },
+    { x:0.44, type:"person", label:"Gethsemane: 'not as I will, but as you will'", av:"prophet",
+      desc:"Taking Peter, James and John into the garden, Jesus prays three times in anguish while the three sleep, unable to keep watch even one hour (vv. 36-46)." },
+    { x:0.58, type:"person", label:"The kiss, the sword, and the arrest", av:"traveler",
+      desc:"Judas arrives with an armed crowd and kisses Jesus as the prearranged sign; a disciple draws a sword, and Jesus rebukes him before submitting to arrest (vv. 47-56)." },
+    { x:0.72, type:"person", label:"Trial before Caiaphas and the Sanhedrin", av:"priest",
+      desc:"False witnesses fail to agree; under oath Jesus affirms he is the Christ, the Son of God, and the council condemns him for blasphemy, spitting on him and striking him (vv. 57-68)." },
+    { x:0.9, type:"person", label:"Peter's threefold denial and the rooster", av:"fisherman",
+      desc:"In the high priest's courtyard, Peter denies Jesus three times; at the rooster's crow he remembers the prediction and weeps bitterly (vv. 69-75)." }
+  ],
+  environment: {
+    chips: ["Passover week in Jerusalem", "A borrowed upper room", "Gethsemane — 'oil press' garden on Olivet", "A high priest's courtyard fire", "Rooster crow toward first light"],
+    text: "Passover filled Jerusalem with pilgrims, and pious households routinely lent an upper room for a visiting group's meal — the sort of arrangement behind Jesus' instructions for a 'guest room' already prepared (cf. Mark 14:14-15). Gethsemane sat among the terraced olive groves and stone-cut oil presses on the Mount of Olives' lower slope, a short walk down into the Kidron valley and back up from the city — private enough for prayer, close enough for an armed party to find quickly. A high priest's courtyard, open to the household's servants and guards warming themselves at a charcoal fire, put Peter exactly where a bystander could recognize a Galilean accent and press him three times before the sound every Jerusalem household would have known at that hour — a rooster's crow announcing the last watch of the night."
+  },
+  objectsExtra: ["thirty-silver","bread-and-cup","sword"],
+  peopleExtra: ["jesus","judas","peter","caiaphas"],
+  culture: [
+    { title:"Passover reinterpreted", icon:"🍷",
+      text:"The Passover seder's own bread and cup — already loaded with meaning from the exodus story — become, in Jesus' hands, a new memorial pointing to his own body and blood 'poured out for many for the forgiveness of sins.' The church's earliest liturgical practice (1 Cor 11:23-26) traces directly back to this borrowed-room meal." },
+    { title:"Thirty pieces of silver", icon:"🪙",
+      text:"Exodus 21:32 sets thirty shekels as the standard compensation for a slave gored by an ox — a servant's price, not a king's. Zechariah 11:12-13 already used the same 'princely price' sarcastically of a rejected shepherd, a text Matthew reads as converging on Judas's fee and its later use to buy a field (27:3-10)." },
+    { title:"A council's night trial", icon:"⚖️",
+      text:"Later rabbinic law (the Mishnah, codified centuries afterward) forbids capital trials at night or on a festival and requires a full day's deliberation before a death sentence — rules that may or may not have applied in this form in AD 30, but the account's own haste (gathered witnesses who cannot agree, a verdict reached before dawn) reads, on any accounting, as a rushed proceeding." }
+  ],
+  crossRefs: [
+    { group:"Prophecy converging on this night", refs:[
+      { r:"Zechariah 11:12-13", note:"'thirty pieces of silver' — the shepherd's rejected price" },
+      { r:"Psalm 41:9", note:"'even my close friend... has lifted his heel against me'" },
+      { r:"Isaiah 53:7", note:"'like a lamb led to the slaughter' — silent before his accusers" } ]},
+    { group:"The Lord's Supper, elsewhere in the New Testament", refs:[
+      { r:"Luke 22:14-20", note:"a close parallel account of the same meal" },
+      { r:"1 Corinthians 11:23-26", note:"Paul's received tradition of the Supper, passed to the early church" },
+      { r:"Exodus 12:1-14", note:"the original Passover meal this supper reinterprets" } ]},
+    { group:"Peter's denial, predicted and later reversed", refs:[
+      { r:"John 13:36-38", note:"Jesus predicts the denial directly to Peter at the same supper" },
+      { r:"Luke 22:31-32", note:"'Satan has demanded to sift you like wheat' — Jesus prays for Peter beforehand" },
+      { r:"John 21:15-19", note:"Peter restored by the risen Jesus, three affirmations answering three denials" } ]}
+  ]
+},
+
+/* ============================================================
+   MATTHEW 27 — trial before Pilate, Barabbas, the crucifixion at Golgotha, death and burial
+   ============================================================ */
+"40:27": {
+  era: {
+    title: "ca. AD 30 — Good Friday: the crucifixion",
+    sub: "Roman Judea under Pontius Pilate · Jerusalem and Golgotha, outside the city wall",
+    badges: ["Passover week, Jerusalem", "Roman crucifixion", "Pontius Pilate, Roman prefect", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "At dawn the chief priests hand Jesus over to Pilate; seeing him condemned, Judas is seized with remorse, flings the thirty pieces of silver into the temple confessing 'I have betrayed innocent blood,' and hangs himself — the priests, unwilling to put blood money in the treasury, buy a potter's field with it, fulfilling a prophecy about the price of a life. Before Pilate, Jesus answers no charge, to the governor's amazement; warned by his wife's troubling dream, Pilate still offers the crowd its customary festival pardon, and the crowd — stirred up by the chief priests — chooses the notorious prisoner Barabbas over Jesus. Pilate washes his hands of the blood and hands Jesus over to be crucified. Roman soldiers strip him, dress him in a scarlet robe, twist a crown of thorns onto his head, mock him as 'King of the Jews,' spit on him and beat him with a reed, then lead him out; a passerby, Simon of Cyrene, is compelled to carry the cross the rest of the way to Golgotha, 'the place of a skull.' Jesus is crucified between two robbers under the charge 'THIS IS JESUS, THE KING OF THE JEWS,' while soldiers cast lots for his garments and passersby, priests and even the criminals hurl the same taunt. From noon until three, darkness covers the land; Jesus cries out in Aramaic, 'Eli, Eli, lema sabachthani' — 'My God, my God, why have you forsaken me?' — and after being offered sour wine, cries out again and breathes his last. At that moment the temple curtain tears from top to bottom, the earth shakes, and the watching centurion says, 'Truly this was the Son of God.' That evening Joseph of Arimathea, a rich council member, obtains the body from Pilate and lays it in his own new rock-cut tomb, rolling a great stone across the entrance while Mary Magdalene and 'the other Mary' watch. The next day the chief priests get Pilate's permission to seal the tomb and post a guard, remembering Jesus' promise to rise on the third day.",
+  focusPlace: "golgotha",
+  places: [
+    { id:"jerusalem", role:"Pilate's judgment hall, the scourging and mock coronation, and the temple where Judas returns the silver (vv. 2-31, 3-10)" },
+    { id:"golgotha", role:"The Place of a Skull — the crucifixion, the darkness, and the nearby tomb (vv. 33-61)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"golgotha", label:"The way to execution, out through the gate", km:0.5,
+      note:"Roman practice made the condemned carry the crossbeam through the streets as a public spectacle; when Jesus cannot, the soldiers press Simon of Cyrene into carrying it out to the execution ground just beyond the wall (vv. 31-33)." },
+    { from:"golgotha", to:"jerusalem", dashed:true, label:"The curtain tears, back in the temple", km:0.5,
+      note:"Not a journey anyone walks, but a line the narrative draws across the city: at the instant Jesus dies on Golgotha, the temple's inner veil tears top to bottom, as if the two events answer each other (v. 51)." }
+  ],
+  hotspots: [
+    { x:0.03, type:"person", label:"Judas's remorse and the potter's field", av:"traveler",
+      desc:"Seeing Jesus condemned, Judas returns the thirty pieces of silver confessing 'I have betrayed innocent blood,' then hangs himself; the priests use the money to buy a burial field for foreigners (vv. 3-10)." },
+    { x:0.16, type:"person", label:"Before Pilate: 'Are you the King of the Jews?'", av:"official",
+      desc:"Jesus stands before the Roman governor and answers no charge, to Pilate's amazement; Pilate's wife sends word of a troubling dream about 'that righteous man' (vv. 2, 11-14, 19)." },
+    { x:0.28, type:"person", label:"Barabbas released, Jesus condemned", av:"official",
+      desc:"Offered the customary festival pardon, the crowd — stirred up by the chief priests — chooses the notorious prisoner Barabbas; Pilate washes his hands and hands Jesus over to be crucified (vv. 15-26)." },
+    { x:0.4, type:"person", label:"Scourged and mocked as king", av:"warrior",
+      desc:"Soldiers strip Jesus, dress him in a scarlet robe, twist a crown of thorns onto his head, put a reed in his hand, and kneel mocking 'Hail, King of the Jews' before spitting on him and striking him (vv. 27-31)." },
+    { x:0.5, type:"person", label:"Simon of Cyrene carries the cross", av:"traveler",
+      desc:"On the way out of the city, soldiers press a passerby, Simon of Cyrene, into carrying Jesus' cross the rest of the way to Golgotha (vv. 32-34)." },
+    { x:0.62, type:"object", label:"Crucified at Golgotha",
+      desc:"Jesus is crucified between two robbers under the charge 'THIS IS JESUS, THE KING OF THE JEWS'; soldiers divide his garments by lot, and onlookers repeat the same taunt — 'he saved others; he cannot save himself' (vv. 35-44)." },
+    { x:0.75, type:"person", label:"Darkness and the cry of dereliction", av:"prophet",
+      desc:"From noon until three, darkness covers the land; Jesus cries out, 'My God, my God, why have you forsaken me?' — quoting Psalm 22 — then, after sour wine offered on a reed, cries out again and breathes his last (vv. 45-50)." },
+    { x:0.9, type:"object", label:"The curtain torn; the centurion's confession; the tomb sealed",
+      desc:"At the moment of death the temple curtain tears top to bottom and the earth shakes; the centurion confesses, 'Truly this was the Son of God.' Joseph of Arimathea buries the body in his own new tomb, and the chief priests seal it with a guard set (vv. 51-66)." }
+  ],
+  environment: {
+    chips: ["Roman crucifixion, outside the city wall", "Pilate's judgment seat", "A crown twisted from thorns", "Darkness at midday", "The temple curtain torn top to bottom", "A borrowed, newly cut tomb"],
+    text: "Rome reserved crucifixion for slaves, rebels and non-citizens, staged deliberately in public — along a road out of the city, as at Golgotha — so its slow, suffocating death would deter onlookers as much as punish the condemned; the condemned typically carried only the crossbeam (patibulum) to a fixed upright already standing at the site. Pilate himself is independently attested by Josephus, Philo and a first-century inscription found at Caesarea Maritima naming him prefect of Judea — a Roman-appointed governor answerable to Rome for order during the volatile Passover crowds, which shapes his reluctant, hand-washing verdict here. Jewish law required burial before nightfall, especially before a Sabbath (Deut 21:22-23), explaining the same-day rush to entomb the body in a nearby rock-cut tomb rather than leave it exposed."
+  },
+  objectsExtra: ["thirty-silver","crown-of-thorns","temple-curtain","tomb-stone"],
+  peopleExtra: ["jesus","pilate","barabbas","simon-cyrene","joseph-arimathea","mary-magdalene","mary-mother-james"],
+  culture: [
+    { title:"Roman crucifixion", icon:"⚔️",
+      text:"A punishment Rome reserved chiefly for slaves and provincial rebels, never (with rare exceptions) for citizens — deliberately slow, public, and staged along a well-traveled road so the warning would reach the widest audience. Death usually came from exhaustion and asphyxiation rather than blood loss, sometimes over days; a placard (titulus) naming the charge, like Jesus' 'KING OF THE JEWS,' was standard procedure, not an evangelist's embellishment." },
+    { title:"Barabbas and the festival pardon", icon:"🔓",
+      text:"A custom of releasing one prisoner at Passover is attested only in the Gospels themselves, not independently in Roman or Jewish sources, though occasional provincial amnesties are known elsewhere in the empire. Whatever its origin, Matthew's account trades on its bitter irony: a crowd frees a man 'notorious' for insurrection and murder in place of the one Pilate himself finds no fault in." },
+    { title:"The temple curtain", icon:"🧵",
+      text:"Josephus describes the temple's great inner veil as a massive, richly woven fabric separating the Holy of Holies — the space only the high priest entered, once a year. A curtain of that scale tearing top to bottom, rather than bottom to top as a human hand might manage, is read by the New Testament itself as God's own act, opening what had been closed (Heb 10:19-20)." }
+  ],
+  crossRefs: [
+    { group:"Prophecies converging at the cross", refs:[
+      { r:"Psalm 22:1, 7-8, 16-18", note:"the forsaken cry, the mockery, and the dividing of garments by lot" },
+      { r:"Isaiah 53:5, 7, 9", note:"pierced for transgressions, silent before his accusers, buried with the rich" },
+      { r:"Zechariah 11:12-13", note:"the thirty pieces of silver, thrown to the potter — fulfilled in Judas's field" } ]},
+    { group:"Judas's end, a second account", refs:[
+      { r:"Acts 1:18-19", note:"a differing tradition of Judas's death and the field's name, 'Field of Blood'" },
+      { r:"Jeremiah 19:1-13", note:"a potter's flask smashed as a sign of judgment — one strand behind Matthew's 'Jeremiah' attribution" },
+      { r:"Jeremiah 32:6-9", note:"Jeremiah buying a field with weighed-out silver, the other strand behind the same attribution" } ]},
+    { group:"The curtain and the centurion", refs:[
+      { r:"Hebrews 10:19-20", note:"'a new and living way' opened through the torn curtain, 'that is, through his flesh'" },
+      { r:"Exodus 26:31-33", note:"the original veil, separating the Holy of Holies from the rest of the tabernacle" },
+      { r:"Mark 15:39", note:"the parallel account of the centurion's confession" } ]}
+  ]
+},
+
+/* ============================================================
+   MATTHEW 28 — the resurrection, the empty tomb, and the Great Commission
+   ============================================================ */
+"40:28": {
+  era: {
+    title: "ca. AD 30 — Easter Sunday: the resurrection",
+    sub: "Roman Judea · the garden tomb near Golgotha, then a mountain in Galilee",
+    badges: ["Sunday at dawn, the third day", "A Roman-sealed, guarded tomb", "The Great Commission", "≈2,000 years ago"]
+  },
+  timeOfDay: "dawn",
+  summary: "At dawn on the first day of the week, Mary Magdalene and 'the other Mary' come to see the tomb; a great earthquake accompanies an angel who descends, rolls back the stone, and sits on it — his appearance like lightning, his clothing white as snow — and the guards shake with fear and become like dead men. The angel tells the women not to be afraid: Jesus, who was crucified, has risen just as he said. They are to see the empty place, then go quickly to tell the disciples he is going ahead of them to Galilee. Running with fear and great joy, the women meet Jesus himself on the road; they clasp his feet and worship him, and he repeats the same instruction — go tell my brothers to go to Galilee, where they will see me. Meanwhile some of the guards report everything to the chief priests, who pay them a large sum to say the disciples stole the body while they slept, a story Matthew notes is 'still told among the Jews to this day.' Following Jesus' word, the eleven disciples go to the mountain in Galilee; seeing him they worship him, though some doubt. Jesus declares that all authority in heaven and on earth has been given to him, and commissions the Eleven to make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything he has commanded — closing with a promise: 'I am with you always, to the end of the age.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The empty tomb, the angel's announcement, Jesus' appearance to the women, and the guards' bribed report to the chief priests (vv. 1-15)" },
+    { id:"galilee-sea", role:"Galilee, where Jesus had directed the Eleven to the mountain for the Great Commission (vv. 16-20)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"galilee-sea", label:"North to the mountain in Galilee, as instructed", km:120,
+      note:"Roughly 75 mi / 120 km north from Jerusalem to Galilee — the meeting place Jesus had named before his death (26:32) and the angel and Jesus himself both repeat at the tomb (28:7, 10), so the disciples' whole journey retraces a word given three separate times." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"The empty tomb at dawn", av:"woman",
+      desc:"Mary Magdalene and the other Mary come to see the tomb; a great earthquake accompanies an angel who rolls back the stone and sits on it, his appearance like lightning, his clothing white as snow (vv. 1-4)." },
+    { x:0.2, type:"person", label:"'He is not here; he has risen'", av:"prophet",
+      desc:"The angel tells the trembling women not to be afraid — Jesus, who was crucified, has risen as he said — and sends them to tell the disciples he goes ahead of them to Galilee (vv. 5-7)." },
+    { x:0.36, type:"person", label:"Jesus meets the women on the road", av:"woman",
+      desc:"Running with fear and great joy, the women meet Jesus himself; they clasp his feet and worship him as he repeats the angel's message about Galilee (vv. 8-10)." },
+    { x:0.5, type:"person", label:"The guards bribed to lie", av:"official",
+      desc:"Some of the guards report everything to the chief priests, who pay them to say the disciples stole the body while they slept — a story 'still told... to this day' (vv. 11-15)." },
+    { x:0.7, type:"person", label:"The Eleven on the mountain in Galilee", av:"prophet",
+      desc:"Obeying Jesus' word, the eleven disciples go to the mountain in Galilee; seeing him, they worship him, though some doubt (vv. 16-17)." },
+    { x:0.92, type:"person", label:"The Great Commission", av:"prophet",
+      desc:"'All authority in heaven and on earth has been given to me' — Jesus commissions the Eleven to make disciples of all nations, baptizing and teaching them, and promises, 'I am with you always, to the end of the age' (vv. 18-20)." }
+  ],
+  environment: {
+    chips: ["Sunday at dawn, the third day", "An angel 'like lightning'", "Guards struck like dead men", "A bribed cover story", "The mountain in Galilee", "'To the end of the age'"],
+    text: "A Roman guard unit assigned to a sealed tomb (27:65-66) faced execution for letting a prisoner or body go missing on watch, which is exactly why a bribe substantial enough to buy their silence — and Pilate's cover, if word reached him (28:14) — was necessary to make the chief priests' story survive at all. Galilee, where the Eleven now travel roughly 75 miles north, had been Jesus' base for most of his ministry and the very place he named before his arrest as where he would meet them again (26:32) — so the Great Commission closes the Gospel on the same regional stage where it began, on an unnamed mountain the text leaves deliberately unlocated, unlike the specific, storied sites of chs. 5 and 17."
+  },
+  objectsExtra: ["tomb-stone"],
+  peopleExtra: ["jesus","mary-magdalene","mary-mother-james","peter"],
+  culture: [
+    { title:"An earthquake and an angel 'like lightning'", icon:"⚡",
+      text:"Apocalyptic imagery — trembling ground, a figure whose appearance is lightning, garments white as snow — is Scripture's standard vocabulary for a theophany-adjacent event (cf. Dan 10:6; Ezek 1:4). Matthew marks the resurrection not as a quiet discovery but as an event heaven itself visibly intrudes into." },
+    { title:"The guards' bribed story, 'to this day'", icon:"🪙",
+      text:"Roman sentries who let a guarded prisoner or body disappear typically faced execution, which makes the size of the bribe (and Pilate's promised cover) plausible rather than casual. Matthew's aside that the story 'is still told among the Jews to this day' signals it was a live counter-claim circulating decades later, when he wrote — an objection the Gospel names and answers rather than ignores." },
+    { title:"A Trinitarian baptismal formula", icon:"💧",
+      text:"'In the name of the Father and of the Son and of the Holy Spirit' — a single 'name' shared by three — becomes the early church's baptismal formula almost immediately, already fixed by the time the late-first-century Didache quotes it nearly verbatim as standard practice, showing this closing command in active liturgical use within a generation." }
+  ],
+  crossRefs: [
+    { group:"The resurrection foretold", refs:[
+      { r:"Matthew 12:39-40", note:"the sign of Jonah — three days and three nights, given in advance" },
+      { r:"Matthew 16:21", note:"Jesus' first plain prediction: he must suffer, die, and 'on the third day be raised'" },
+      { r:"Psalm 16:10", note:"'you will not... let your holy one see corruption' — read as pointing to this morning" } ]},
+    { group:"Parallel resurrection accounts", refs:[
+      { r:"Mark 16:1-8", note:"the earliest ending's parallel empty-tomb account" },
+      { r:"Luke 24:1-12", note:"a parallel with two angels and the disciples' initial disbelief" },
+      { r:"John 20:1-18", note:"Mary Magdalene's fuller, personal encounter with the risen Jesus" } ]},
+    { group:"The Great Commission echoed", refs:[
+      { r:"Acts 1:8", note:"'you will be my witnesses... to the end of the earth' — the same sending, at the ascension" },
+      { r:"Mark 16:15-16", note:"a parallel closing commission, 'go into all the world'" },
+      { r:"Romans 6:3-4", note:"baptism into Christ's death and resurrection, the theology behind the closing formula" } ]}
+  ]
 }
 
 };
