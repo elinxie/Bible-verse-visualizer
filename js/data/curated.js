@@ -8919,6 +8919,189 @@ BVV.CURATED = {
       { r:"Mark 16:15-16", note:"a parallel closing commission, 'go into all the world'" },
       { r:"Romans 6:3-4", note:"baptism into Christ's death and resurrection, the theology behind the closing formula" } ]}
   ]
+},
+
+/* ============================================================
+   GALATIANS 2 — Jerusalem in private, Antioch in public: defending the truth of the gospel
+   ============================================================ */
+"48:2": {
+  era: {
+    title: "ca. AD 48 (on some readings, mid-50s) — Paul's own account of two decisive confrontations",
+    sub: "Roman Syria and Judea · a private council in Jerusalem, then a public rebuke at Antioch",
+    badges: ["Epistolary autobiography, not narrative geography", "The 'Jerusalem visit' of vv. 1-10 is debated — Acts 11's famine relief or Acts 15's council", "Paul's gospel defended by eyewitness history", "≈1,978 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "Paul builds his case for 'the truth of the gospel' on his own biography, told as evidence rather than reminiscence. Fourteen years after his conversion, prompted by a revelation rather than a summons, he goes up to Jerusalem with Barnabas, bringing along Titus — a Greek convert, uncircumcised. There, privately, before those 'seen as influential,' he lays out the gospel he preaches among the Gentiles, anxious that his years of labor not run in vain. The test case is Titus himself: 'not even Titus... was forced to be circumcised,' despite pressure from 'false brothers secretly brought in to spy out our freedom... in order to bring us into slavery.' Far from adding requirements, the Jerusalem leaders — James, Cephas, and John, 'those seen as pillars' — recognize the grace given Paul and give him and Barnabas 'the right hand of fellowship,' agreeing only on a division of labor (Paul and Barnabas to the Gentiles, the pillars to the circumcised) and a request to remember the poor, which Paul says he was 'eager to do.' The scene then shifts, and sharpens: 'when Cephas came to Antioch, I opposed him to his face, because he stood condemned.' Before certain men came from James, Peter had been eating freely with Gentile believers; once they arrived, he 'drew back and separated himself, fearing the circumcision party' — and his hypocrisy was contagious enough to carry away even Barnabas. Paul's public rebuke follows: if Peter, a Jew, lives like a Gentile, how can he now force Gentiles to live like Jews? The confrontation becomes the launching point for the chapter's doctrinal center: 'we know that a person is not justified by works of the law but through faith in Jesus Christ... because by works of the law no one will be justified.' Paul describes his own experience of this in the most personal terms the letter offers: 'I have been crucified with Christ. It is no longer I who live, but Christ who lives in me. And the life I now live in the flesh I live by faith in the Son of God, who loved me and gave himself for me.' He closes with the stakes made explicit: 'I do not nullify the grace of God, for if righteousness were through the law, then Christ died for no purpose.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"Where Paul, Barnabas, and Titus go up 'according to a revelation' to lay the Gentile gospel privately before James, Cephas, and John — the pillars who extend 'the right hand of fellowship' without adding circumcision as a requirement (vv. 1-10)" },
+    { id:"antioch-syria", role:"Where the same Cephas who agreed in Jerusalem later withdraws from table fellowship with Gentile believers once men came 'from James' — the public confrontation Paul recounts to make his point stick (vv. 11-14)" },
+    { id:"pisidian-antioch", role:"Standing in for the Galatian churches themselves — the actual audience this whole autobiographical argument is aimed at, since Paul tells this history to prove his gospel came from God, not from Jerusalem's approval; no verse in this chapter narrates travel here" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"antioch-syria", dashed:true, label:"Paul's own account moves between two confrontations, not a single mapped itinerary", km:499,
+      note:"Galatians 2 narrates real places and real events, but out of strict chronological travel order and purely as evidence within an argument — this leg marks the shift from the private Jerusalem council (vv. 1-10) to the public Antioch dispute (vv. 11-14), not a journey Paul describes taking in this passage." },
+    { from:"antioch-syria", to:"pisidian-antioch", dashed:true, label:"Where this whole history is aimed: proving Paul's gospel to the Galatian churches he is writing to", km:498,
+      note:"Neither Jerusalem nor Antioch is this letter's destination — both stories are marshaled as evidence for readers in Roman Galatia (of whom Pisidian Antioch, per the South Galatian view, was one), so this leg marks audience, not itinerary." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", av:"traveler", label:"Fourteen years later, up to Jerusalem",
+      desc:"Paul goes up 'according to a revelation,' with Barnabas and Titus, and privately lays before the Jerusalem leaders the gospel he preaches among the Gentiles — 'lest somehow I should be running, or had run, in vain' (vv. 1-2)." },
+    { x:0.19, type:"person", av:"traveler", label:"Titus, a Greek, not compelled to be circumcised",
+      desc:"'Not even Titus who was with me was forced to be circumcised,' despite pressure from 'false brothers secretly brought in to spy out our freedom... to bring us into slavery' (vv. 3-5)." },
+    { x:0.34, type:"person", av:"elder", label:"\"The right hand of fellowship\"",
+      desc:"James, Cephas, and John — 'those seen as pillars' — recognize the grace given Paul, add nothing to his message, and agree only on a division of labor and a request to remember the poor (vv. 6-10)." },
+    { x:0.5, type:"person", av:"fisherman", label:"\"I opposed him to his face\"",
+      desc:"At Antioch, Cephas eats freely with Gentiles until men come 'from James,' then withdraws for fear of 'the circumcision party' — hypocrisy that sweeps up even Barnabas, and draws Paul's public rebuke (vv. 11-14)." },
+    { x:0.68, type:"object", label:"\"Justified by faith... not by works of the law\"",
+      desc:"The confrontation's theological core: 'we know that a person is not justified by works of the law but through faith in Jesus Christ... because by works of the law no one will be justified' (vv. 15-16)." },
+    { x:0.88, type:"person", av:"traveler", label:"\"I have been crucified with Christ\"",
+      desc:"'It is no longer I who live, but Christ who lives in me... I live by faith in the Son of God, who loved me and gave himself for me' — closing with the stakes: if righteousness came through the law, 'Christ died for no purpose' (vv. 19-21)." }
+  ],
+  environment: {
+    chips: ["Jerusalem's 'pillars': James, Cephas, John", "A test case in one Greek convert: Titus", "Antioch's mixed Jewish-Gentile table, broken and rebuked", "'The circumcision party' — a real faction, not a slur", "'I have been crucified with Christ' — the letter's most personal line"],
+    text: "First-century Jewish and Gentile believers eating together, as at Antioch, crossed a real social line: shared meals implied shared table-purity standards, and a devout Jew avoiding Gentile food and company was simply keeping recognizable, long-standing practice, not inventing prejudice on the spot. That is what makes Peter's withdrawal so damaging in Paul's telling — it was a reversal, made under pressure from a specific faction ('those of the circumcision,' v. 12) rather than settled conviction, and it happened in a city Acts already calls the first place disciples were 'called Christians' (Acts 11:26), a congregation built from the start on Jew-Gentile fellowship. Jerusalem's own leadership structure — James the Lord's brother, Cephas (Peter), and John, called 'pillars' (v. 9, a term used of temple architecture and, in Judaism, of foundational sages) — makes their endorsement of Paul's Gentile mission, without adding circumcision, the strongest possible authority Paul could cite against the Galatian agitators claiming Jerusalem's backing for the opposite view."
+  },
+  objectsExtra: ["circumcision", "right-hand-fellowship", "crucified-with-christ"],
+  peopleExtra: ["paul", "peter", "barnabas", "james-jerusalem", "titus"],
+  culture: [
+    { title:"The 'pillars' of the Jerusalem church", icon:"🏛️",
+      text:"James (the Lord's brother, not one of the Twelve), Cephas (Peter), and John are named 'those seen as pillars' (v. 9) — architectural language elsewhere applied to the temple itself, and a term Jewish tradition also used for its most foundational sages. Their public endorsement of Paul's Gentile-inclusive gospel, without requiring circumcision, is the single strongest piece of evidence Paul can offer the Galatians that his message did not originate with him and was never disowned by Jerusalem." },
+    { title:"Table fellowship and 'the circumcision party'", icon:"🍽️",
+      text:"Eating together carried real theological weight in the mixed church at Antioch: Jewish dietary law and purity concerns made shared meals with Gentiles a genuine point of conscience, not mere social preference. 'The circumcision party' (v. 12) names an actual faction pressing Gentile believers to be circumcised and keep the law fully — the same pressure Galatians as a whole letter is written to resist, making the Antioch episode a live preview of the letter's larger argument." },
+    { title:"Which Jerusalem visit is this?", icon:"📜",
+      text:"Scholars debate whether the trip of vv. 1-10 is the famine-relief visit of Acts 11:27-30 (fitting an earlier, AD 48 date for the letter, before the Acts 15 council) or the Jerusalem council itself (Acts 15), which would place Galatians later. Paul's own silence about a formal council decree here is often read as evidence for the earlier identification — but the letter does not name the connection explicitly, and the site presents the question as open rather than settled." }
+  ],
+  crossRefs: [
+    { group:"The Jerusalem visits, narrated by Luke", refs:[
+      { r:"Acts 11:27-30", note:"Barnabas and Saul carry famine relief to Jerusalem — a candidate for the 'revelation' visit of vv. 1-10" },
+      { r:"Acts 15:1-21", note:"the Jerusalem council's own account of the circumcision question, resolved by letter to Gentile churches" },
+      { r:"Acts 9:26-30", note:"Paul's first, brief Jerusalem visit after his conversion, distinct from the fourteen-years-later trip described here" } ]},
+    { group:"Justification by faith, and life 'in Christ'", refs:[
+      { r:"Romans 3:28", note:"'a person is justified by faith apart from works of the law' — the same argument, developed at length" },
+      { r:"Philippians 3:8-9", note:"Paul counts his own credentials as loss to 'gain Christ... a righteousness... through faith'" },
+      { r:"Romans 6:6", note:"'our old self was crucified with him,' the same image applied to every believer, not Paul alone" } ]}
+  ]
+},
+
+/* ============================================================
+   GALATIANS 3 — Abraham's faith, the law's curse, and a promise to one "seed"
+   ============================================================ */
+"48:3": {
+  era: {
+    title: "ca. AD 48 (on some readings, mid-50s) — an argument addressed directly to Paul's readers",
+    sub: "Roman Asia Minor · the Galatian churches — Pisidian Antioch, Iconium, Lystra, Derbe, on the South Galatian view",
+    badges: ["Epistolary argument, not narrative geography", "Quotes Genesis 15:6, Deuteronomy 21:23, Deuteronomy 27:26", "The 'Jew nor Greek... one in Christ' baptismal formula", "≈1,978 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "Paul turns from narrated history to direct, exasperated address: 'O foolish Galatians! Who has bewitched you?' He appeals first to their own experience — did they receive the Spirit by works of the law or by hearing with faith? — and calls it foolish to have 'begun by the Spirit' only to try to be 'perfected by the flesh.' He then reaches for the oldest evidence available: Abraham, who 'believed God, and it was counted to him as righteousness,' making 'those of faith' Abraham's true children, blessed along with him — while everyone who relies on 'works of the law' stands instead under a curse, since 'cursed be everyone who does not abide by all things written in the Book of the Law, and do them.' Into that curse Paul places the cross itself: 'Christ redeemed us from the curse of the law by becoming a curse for us — for it is written, Cursed is everyone who is hanged on a tree' (quoting Deuteronomy 21:23), so that Abraham's blessing might reach the Gentiles and the promised Spirit be received through faith. Paul then presses a close reading of Genesis' wording: the promise was spoken 'to Abraham and to his offspring' — 'not... referring to many, but... to one, who is Christ' — and a law given four hundred thirty years later cannot annul a covenant already ratified. So why the law at all? 'It was added because of transgressions, until the offspring should come to whom the promise had been made' — held under it 'like a guardian,' the Greek paidagogos, a household slave charged with escorting and disciplining a freeborn child until adulthood, 'until Christ came, in order that we might be justified by faith.' Now that faith has come, 'we are no longer under a guardian.' The chapter closes on the letter's most sweeping line: 'for as many of you as were baptized into Christ have put on Christ... There is neither Jew nor Greek, there is neither slave nor free, there is no male and female, for you are all one in Christ Jesus. And if you are Christ's, then you are Abraham's offspring, heirs according to promise.'",
+  focusPlace: "pisidian-antioch",
+  places: [
+    { id:"pisidian-antioch", role:"Standing in for the Galatian churches directly addressed here — 'O foolish Galatians, who has bewitched you?' — since the letter's actual recipients, on the South Galatian view, were the congregations Paul planted at Pisidian Antioch, Iconium, Lystra, and Derbe (Acts 13-14); no travel is narrated in this chapter" },
+    { id:"jerusalem", role:"Named nowhere in this chapter, but included thematically as the traditional seat of 'the law' Paul contrasts with Abraham's earlier, unconditional promise — the direction the Galatian agitators are urging these churches back toward" }
+  ],
+  journey: [
+    { from:"pisidian-antioch", to:"jerusalem", dashed:true, label:"The pull toward law-keeping this chapter argues against, not a route anyone travels here", km:814,
+      note:"Galatians 3 is pure theological argument, addressed directly to 'you' — the Galatians themselves — with no narrated journey at all; this leg only marks the gravitational pull of Jerusalem-centered law-observance that the agitators were pressing on these Gentile congregations, and that Paul's Abraham argument is built to resist." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", av:"traveler", label:"\"Who has bewitched you?\"",
+      desc:"Paul opens with blunt exasperation, appealing to the Galatians' own experience: did they receive the Spirit by works of the law, or by hearing with faith? Having 'begun by the Spirit,' are they now foolish enough to be 'perfected by the flesh'? (vv. 1-5)." },
+    { x:0.19, type:"object", label:"\"Abraham believed God, and it was counted to him as righteousness\"",
+      desc:"Quoting Genesis 15:6, Paul makes 'those of faith' Abraham's true children and heirs of his blessing, ahead of any law that would come centuries later (vv. 6-9)." },
+    { x:0.34, type:"object", label:"The law's curse, and Christ made a curse for us",
+      desc:"'Cursed be everyone who does not abide by all things written in the Book of the Law' stands over anyone relying on works of the law — a curse Paul says Christ absorbed by 'becoming a curse for us,' quoting Deuteronomy 21:23's 'cursed is everyone who is hanged on a tree' (vv. 10-14)." },
+    { x:0.5, type:"object", label:"The promise to Abraham's one \"seed\"",
+      desc:"Paul presses the singular wording of Genesis' promise — 'not... referring to many, but... to one, who is Christ' — and argues a law given 430 years later cannot annul a covenant already made (vv. 15-18)." },
+    { x:0.68, type:"object", label:"The law: a guardian until Christ came",
+      desc:"'Added because of transgressions,' the law held its subjects 'like a guardian' (Gk. paidagogos, a slave who escorted and disciplined a child, not a teacher) until faith came — now that it has, 'we are no longer under a guardian' (vv. 19-25)." },
+    { x:0.86, type:"person", av:"elder", label:"\"Neither Jew nor Greek... all one in Christ Jesus\"",
+      desc:"'As many of you as were baptized into Christ have put on Christ... you are all one in Christ Jesus. And if you are Christ's, then you are Abraham's offspring, heirs according to promise' — the chapter's climax (vv. 26-29)." }
+  ],
+  environment: {
+    chips: ["Direct address: 'O foolish Galatians'", "Deuteronomy 21:23 read as pointing to the cross", "The paidagogos — a slave-guardian, not a schoolteacher", "'Seed,' singular, read as Christ himself", "'Neither Jew nor Greek' — an early baptismal formula"],
+    text: "Deuteronomy 21:22-23's law, behind Paul's quotation in v. 13, concerned an executed criminal's body left hanging on public display — a mark of shame Deuteronomy required be removed by sunset so 'the land' would not be defiled; applying that specific curse-language to crucifixion (itself a Roman, not Israelite, mode of execution) is a striking theological move, reading Jesus' death on a literal 'tree' as absorbing exactly the curse the Law itself describes. Paul's other key image, the paidagogos (v. 24, often translated 'guardian,' 'tutor,' or older versions' 'schoolmaster'), named a household slave — not a teacher — assigned to escort a freeborn boy to and from his actual lessons, enforce discipline, and supervise his conduct until he came of age; the role carried real authority but was temporary by design, ending automatically at adulthood, which is precisely the analogy Paul wants for the law's relationship to faith."
+  },
+  objectsExtra: ["redeemed-from-curse", "abrahams-seed", "law-as-guardian"],
+  peopleExtra: ["paul"],
+  culture: [
+    { title:"The paidagogos — a slave-guardian, not a schoolteacher", icon:"🔒",
+      text:"Greco-Roman households of means assigned a trusted slave, the paidagogos, to walk a freeborn boy to his actual teacher, watch his manners, and discipline minor misbehavior — real, everyday authority that nonetheless ended automatically once the boy reached legal adulthood. Paul's readers would have recognized the image instantly: the law's authority, like the paidagogos's, was real but always temporary, built to expire at the arrival of the 'offspring' (Christ) it was guarding toward." },
+    { title:"'Cursed is everyone who is hanged on a tree'", icon:"🌳",
+      text:"Deuteronomy 21:22-23 addressed the display of an already-executed criminal's corpse, required to be taken down before nightfall so the land would not be defiled — a specific, limited law about public shame after death. Paul's application of it to Jesus' crucifixion (Gal 3:13) reads the cross itself, a Roman execution method Deuteronomy's authors could not have envisioned, as falling under exactly that curse-category, making Christ's death a literal absorption of the law's own verdict against lawbreakers." },
+    { title:"An argument built on Hebrew grammar", icon:"📖",
+      text:"Paul's point in vv. 16-18 leans on the collective noun 'seed' (Hebrew zera, Greek sperma) being grammatically singular even when it refers to many descendants in ordinary usage — a feature of the language he reads theologically, insisting the promise's ultimate referent is one person, Christ, rather than Israel's descendants generally. Ancient interpreters routinely built arguments on details of a text's exact wording this way; whether this particular reading persuades depends on how much weight one gives collective-singular usage elsewhere in the Hebrew Bible, a question the site leaves open rather than adjudicating." }
+  ],
+  crossRefs: [
+    { group:"Abraham's faith counted as righteousness", refs:[
+      { r:"Genesis 15:6", note:"the verse Paul quotes directly — 'he believed the LORD, and he counted it to him as righteousness'" },
+      { r:"Romans 4:1-5", note:"Paul's fuller development of the same Abraham argument, addressed to a Roman audience" },
+      { r:"James 2:21-24", note:"James reads Abraham's later offering of Isaac as evidence faith and works cannot be separated — read alongside, not against, Paul's point here" } ]},
+    { group:"The law, the Spirit, and a promised inheritance", refs:[
+      { r:"Romans 7:7-12", note:"Paul's parallel reflection on what the law was for, and what it could not do" },
+      { r:"Romans 8:15-17", note:"believers as adopted heirs 'with Christ,' the same inheritance language extended" },
+      { r:"Ephesians 2:14-16", note:"Christ as the one who makes Jew and Gentile 'one new man,' echoing this chapter's unity climax" } ]}
+  ]
+},
+
+/* ============================================================
+   GALATIANS 5 — "For freedom Christ has set us free": the flesh, the Spirit, and love as the law's whole
+   ============================================================ */
+"48:5": {
+  era: {
+    title: "ca. AD 48 (on some readings, mid-50s) — an argument addressed directly to Paul's readers",
+    sub: "Roman Asia Minor · the Galatian churches — Pisidian Antioch, Iconium, Lystra, Derbe, on the South Galatian view",
+    badges: ["Epistolary argument, not narrative geography", "The circumcision controversy returns", "Love as the law's whole fulfillment (cf. Lev 19:18)", "≈1,978 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "Paul opens with a declaration that frames everything to follow: 'For freedom Christ has set us free; stand firm therefore, and do not submit again to a yoke of slavery.' The immediate target is still circumcision — 'if you accept circumcision, Christ will be of no advantage to you,' he warns, since accepting it as a requirement obligates a person to keep the entire law, and severs them from Christ, 'you have fallen away from grace.' Against that, he sets what actually matters: 'through the Spirit, by faith, we ourselves eagerly wait for the hope of righteousness. For in Christ Jesus neither circumcision nor uncircumcision counts for anything, but only faith working through love.' From there Paul redirects the Galatians' freedom away from a return to law-keeping and toward a different danger — self-indulgence: 'you were called to freedom... only do not use your freedom as an opportunity for the flesh, but through love serve one another. For the whole law is fulfilled in one word: You shall love your neighbor as yourself.' The alternative to slipping either toward legalism or toward license is life 'by the Spirit': 'walk by the Spirit, and you will not gratify the desires of the flesh. For the desires of the flesh are against the Spirit, and the desires of the Spirit are against the flesh... to keep you from doing the things you want to do.' Paul then lays out two lists side by side. 'The works of the flesh are evident: sexual immorality, impurity, sensuality, idolatry, sorcery, enmity, strife, jealousy, fits of anger, rivalries, dissensions, divisions, envy, drunkenness, orgies, and things like these,' with the sober warning that 'those who do such things will not inherit the kingdom of God.' Against that catalogue stands a single, unified harvest: 'the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law.' The chapter closes: 'those who belong to Christ Jesus have crucified the flesh with its passions and desires. If we live by the Spirit, let us also keep in step with the Spirit.'",
+  focusPlace: "pisidian-antioch",
+  places: [
+    { id:"pisidian-antioch", role:"Standing in for the Galatian churches directly addressed here — the audience urged to 'stand firm' in freedom rather than submit again 'to a yoke of slavery' by accepting circumcision; no travel is narrated in this chapter" },
+    { id:"jerusalem", role:"Named nowhere in this chapter, but included thematically as the source of the pressure toward law-observance this chapter resists — the 'yoke of slavery' language answers the same circumcision-party influence traced back to Jerusalem in ch. 2" }
+  ],
+  journey: [
+    { from:"pisidian-antioch", to:"jerusalem", dashed:true, label:"The pull toward a 'yoke of slavery' this chapter resists, not a route anyone travels here", km:814,
+      note:"Galatians 5 is pure exhortation, addressed directly to 'you' — the Galatian believers — with no narrated journey at all; this leg only marks the same gravitational pull toward Jerusalem-centered law-observance named explicitly as 'a yoke of slavery' the chapter opens by warning against." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", av:"traveler", label:"\"For freedom Christ has set us free\"",
+      desc:"The chapter's opening declaration and command: 'stand firm therefore, and do not submit again to a yoke of slavery' (v. 1)." },
+    { x:0.19, type:"object", label:"\"If you accept circumcision, Christ will be of no advantage\"",
+      desc:"Accepting circumcision as a requirement obligates keeping the whole law and severs a person from Christ — what counts instead is 'faith working through love' (vv. 2-6)." },
+    { x:0.4, type:"object", label:"\"The whole law fulfilled in one word\"",
+      desc:"Freedom is not license: 'through love serve one another. For the whole law is fulfilled in one word: You shall love your neighbor as yourself' (vv. 13-15)." },
+    { x:0.58, type:"object", label:"\"Walk by the Spirit\"",
+      desc:"'Walk by the Spirit, and you will not gratify the desires of the flesh' — flesh and Spirit are described as locked in opposition, 'to keep you from doing the things you want to do' (vv. 16-18)." },
+    { x:0.76, type:"object", label:"The works of the flesh",
+      desc:"A vice catalogue named as 'evident': sexual immorality, idolatry, enmity, strife, jealousy, drunkenness, and more, with the warning that 'those who do such things will not inherit the kingdom of God' (vv. 19-21)." },
+    { x:0.92, type:"object", label:"The fruit of the Spirit",
+      desc:"A single, unified harvest set against the list above: 'love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law' — closing with the call to 'keep in step with the Spirit' (vv. 22-26)." }
+  ],
+  environment: {
+    chips: ["'A yoke of slavery' — the circumcision controversy returns", "Love as the law's whole fulfillment (cf. Lev 19:18)", "Flesh vs. Spirit, not body vs. soul", "The works-of-the-flesh list: a vice catalogue", "The fruit-of-the-Spirit list: singular 'fruit,' one Spirit"],
+    text: "Yoke imagery drew on the everyday sight of paired oxen bound together to pull a single load, an image ancient writers already used for slavery, marriage, and Roman political subjugation alike — Paul's 'yoke of slavery' (v. 1) would have landed as a vivid, physical picture of bondage rather than an abstract metaphor. Cataloguing vices and virtues side by side, as Paul does in vv. 19-23, was itself a recognized teaching form in both the Greco-Roman moral-philosophy tradition (Stoic writers listed vices this way) and Jewish wisdom literature — what is distinctive here is Paul's grammar: 'works' (plural, erga) of the flesh describes scattered, disconnected deeds, while 'fruit' (singular, karpos) of the Spirit describes one unified, organic outgrowth of a single source, a contrast the English translation's list format can obscure but the underlying Greek makes deliberate."
+  },
+  objectsExtra: ["yoke", "works-of-the-flesh", "fruit-of-the-spirit"],
+  peopleExtra: ["paul"],
+  culture: [
+    { title:"'A yoke of slavery' — freedom as the chapter's frame", icon:"⛓️",
+      text:"A wooden yoke bound paired draft animals to a shared burden, and ancient writers already used the image for slavery, marriage, and political subjugation before Paul borrows it here. Framing renewed circumcision-based law-observance as 'a yoke of slavery' (v. 1) casts the Galatian agitators' pressure not as a stricter, safer piety but as a step backward into bondage — the same freedom/slavery contrast the letter uses throughout (cf. 4:21-31's Hagar/Sarah allegory)." },
+    { title:"Vice-and-virtue lists — a known ancient genre", icon:"📋",
+      text:"Cataloguing behaviors to avoid alongside behaviors to pursue was a recognized teaching device across both Greco-Roman moral philosophy (Stoic writers produced similar vice lists) and Jewish wisdom literature. Paul uses the form elsewhere too (cf. Rom 1:29-31; 1 Cor 6:9-10), but the works-of-the-flesh/fruit-of-the-Spirit pairing here is distinctive for setting a scattered plural list against a single, unified one, reinforcing the point grammatically as well as thematically." },
+    { title:"Singular fruit, plural works — a grammatical clue", icon:"🍇",
+      text:"The Greek carefully distinguishes 'works' (erga, plural) of the flesh from 'fruit' (karpos, singular) of the Spirit — a contrast most English translations preserve in the list format but not in the underlying grammar. The flesh produces many disconnected deeds; the Spirit produces one integrated character, its nine named qualities read less as nine separate achievements to master individually than as facets of a single organic growth." }
+  ],
+  crossRefs: [
+    { group:"Love as the law's summary", refs:[
+      { r:"Leviticus 19:18", note:"'you shall love your neighbor as yourself' — the Old Testament command Paul names directly (v. 14)" },
+      { r:"Matthew 22:37-40", note:"Jesus names love of God and neighbor as the two commands on which 'depend all the Law and the Prophets'" },
+      { r:"Romans 13:8-10", note:"Paul's parallel argument that love 'is the fulfilling of the law'" } ]},
+    { group:"Flesh and Spirit elsewhere", refs:[
+      { r:"Romans 8:5-8", note:"the same flesh/Spirit opposition, developed at greater length" },
+      { r:"1 Corinthians 3:1-3", note:"Paul diagnoses Corinthian jealousy and strife — items from this chapter's vice list — as evidence of walking 'in the flesh'" },
+      { r:"Ephesians 5:9", note:"'the fruit of light' named with a similar triad — goodness, righteousness, and truth" } ]}
+  ]
 }
 
 };
