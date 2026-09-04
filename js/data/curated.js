@@ -7078,6 +7078,74 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   EZRA 1 — Cyrus's decree, and the exile's end
+   ============================================================ */
+"15:1": {
+  era: {
+    title: "538 BC — Cyrus's decree, and the exile's end",
+    sub: "Early Persian period · Babylon, then Jerusalem · the first year of Cyrus king of Persia",
+    badges: ["Persian period (Achaemenid)", "Babylonian exile ends", "First return begins", "≈2,564 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "In the first year of Cyrus king of Persia, the LORD stirs up his spirit \"that the word of the LORD by the mouth of Jeremiah might be fulfilled\" — the prophesied seventy years of captivity are up, and Cyrus puts it in writing, proclaiming throughout his whole kingdom that the LORD, the God of heaven, has charged him to build him a house at Jerusalem. Whoever among God's people is willing may go up, the decree says, and everyone who stays behind is to support the goers with silver, gold, goods, livestock, and freewill offerings for the house of God. The response comes fast: the heads of the fathers' houses of Judah and Benjamin, the priests, and the Levites — \"everyone whose spirit God had stirred\" — rise up to go rebuild the LORD's house in Jerusalem, and their neighbors back them with silver vessels, gold, goods, animals, costly wares, and freewill gifts on top of it all. Then Cyrus does something no decree alone could accomplish: he has his own treasurer, Mithredath, bring out the actual temple vessels that Nebuchadnezzar had carried off decades before and set up in the house of his own gods — the very gold and silver bowls, basins, and censers Solomon's temple once held. Mithredath counts them out one by one to Sheshbazzar, \"the prince of Judah,\" and the tally is exact and staggering: thirty gold basins, a thousand silver basins, twenty-nine censers, thirty gold bowls, four hundred ten silver bowls, and a thousand other vessels — five thousand four hundred pieces of gold and silver in all. Sheshbazzar brings up every one of them, together with the returning exiles, from Babylon to Jerusalem — the first physical step of a captivity finally, formally over.",
+  focusPlace: "babylon",
+  places: [
+    { id:"babylon", role:"Where Cyrus's decree is proclaimed and his treasurer Mithredath counts out the temple's recovered gold and silver vessels to Sheshbazzar (vv. 1-11)" },
+    { id:"jerusalem", role:"The city Cyrus's decree names as the goal of the rebuilding, and the destination Sheshbazzar and the vessels are ultimately bound for (vv. 2-3, 11)" }
+  ],
+  journey: [
+    { from:"babylon", to:"jerusalem", dashed:true, label:"The first return begins", km:870,
+      note:"With Cyrus's decree in hand and the temple's own vessels entrusted to him, Sheshbazzar brings up 'all of them' together with the returning exiles from Babylon to Jerusalem — the opening move of a captivity Jeremiah had said would last seventy years (v. 11; cf. Jer 29:10)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", av:"king", label:"A pagan king's spirit, stirred by the LORD",
+      desc:"In Cyrus's first year as king of Persia, the LORD stirs his spirit so that Jeremiah's word might be fulfilled — captivity's seventy years are up, and the king himself puts the decree in writing (vv. 1-2)." },
+    { x:0.19, type:"object", label:"\"Let him go up... and rebuild\"",
+      desc:"The decree's substance: any of God's people may go up to build the LORD's house at Jerusalem, and whoever stays is to help the goers with silver, gold, goods, livestock, and freewill offerings (vv. 3-4)." },
+    { x:0.32, type:"person", av:"priest", label:"Everyone whose spirit God had stirred",
+      desc:"The heads of the fathers' houses of Judah and Benjamin, the priests, and the Levites rise up to go rebuild the house of the LORD — not summoned by census, but moved one by one (v. 5)." },
+    { x:0.45, type:"object", label:"Neighbors empty their hands to help",
+      desc:"All who stay behind strengthen the goers' hands with silver vessels, gold, goods, animals, and costly wares, 'besides all that was freely offered' (v. 6)." },
+    { x:0.58, type:"object", label:"Solomon's own vessels, brought out of storage",
+      desc:"Cyrus brings out the vessels of the LORD's house that Nebuchadnezzar had carried off and set up in the house of his own gods — the identical gold and silver Solomon's temple once held (v. 7)." },
+    { x:0.71, type:"person", av:"official", label:"Mithredath counts them out to Sheshbazzar",
+      desc:"The king's own treasurer, Mithredath, hands the recovered vessels over one by one, counted out to Sheshbazzar, 'the prince of Judah' (v. 8)." },
+    { x:0.83, type:"object", label:"5,400 pieces, tallied exactly",
+      desc:"The inventory is precise: thirty gold basins, a thousand silver basins, twenty-nine censers, thirty gold bowls, four hundred ten silver bowls, and a thousand other vessels — 5,400 pieces of gold and silver in all (vv. 9-10)." },
+    { x:0.95, type:"person", av:"official", label:"Up from Babylon, vessels and all",
+      desc:"Sheshbazzar brings up every one of the recovered vessels together with the returning exiles, from Babylon to Jerusalem — the exile's formal, physical end (v. 11)." }
+  ],
+  environment: {
+    chips: ["A prophecy's seventy years, timed to the year", "A foreign king writing Israel's return into law", "Neighbors funding the goers who stay behind", "Solomon's own gold and silver, held in storage decades", "5,400 vessels, none miscounted"],
+    text: "Cyrus's decree is independently corroborated by the Cyrus Cylinder, a contemporary clay inscription in which the Persian king boasts of returning displaced peoples to their homelands and their gods' images to their own sanctuaries — standard Achaemenid religious policy, not a favor unique to Judah, though the text frames it as the LORD's own doing. 'Mithredath' ('gift of Mithra,' the Persian sun-god) was a common Persian name, and treasury officials counting out temple valuables against an itemized inventory match documented Achaemenid administrative practice down to the habit of precise tallies. Sheshbazzar's Babylonian-sounding name alongside his Judean title 'prince of Judah' reflects the same dual identity many exiles carried — a court name for Persian records, a title that kept a Davidic claim alive."
+  },
+  objectsExtra: ["temple-treasures-babylon"],
+  peopleExtra: ["cyrus","sheshbazzar"],
+  culture: [
+    { title:"The Cyrus Cylinder, echoed in clay", icon:"🏺",
+      text:"Discovered in Babylon in 1879, this barrel-shaped inscription has Cyrus boasting that he returned exiled peoples to their lands and restored their gods' sanctuaries after conquering Babylon in 539 BC — general imperial policy, not a Judah-specific miracle, though Ezra 1 credits the LORD directly with stirring the king's spirit to do it for his people in particular." },
+    { title:"Seventy years, counted precisely", icon:"📅",
+      text:"Jeremiah had twice named seventy years as the length of Babylon's dominance (Jer 25:11-12; 29:10) — whether counted from the first deportation (605 BC) to Cyrus's decree (538 BC) or from the temple's destruction (586 BC) to its rebuilding's completion (516 BC), the span lands remarkably close to exactly seventy either way." },
+    { title:"\"Prince of Judah,\" a title kept alive", icon:"👑",
+      text:"Sheshbazzar's title, nasi of Judah, is the same word used for tribal chieftains in the wilderness census (Num 1:16) — an honorific that kept a claim to Davidic leadership alive under a foreign empire without provoking it, and one that later chapters transfer, in practice, to the more prominent Zerubbabel (Ezra 3, 5)." }
+  ],
+  crossRefs: [
+    { group:"Jeremiah's seventy years, fulfilled to the letter", refs:[
+      { r:"Jeremiah 25:11-12", note:"the original prophecy: seventy years of service to Babylon, after which its king will be punished" },
+      { r:"Jeremiah 29:10", note:"a second statement of the same span, promising that after seventy years the LORD will fulfill his promise to bring the exiles home" },
+      { r:"2 Chronicles 36:20-23", note:"the Chronicler's own account of the same decree, closing the Hebrew canon's historical books on this exact note" } ]},
+    { group:"Cyrus, named before he was born", refs:[
+      { r:"Isaiah 44:28", note:"Cyrus named outright as the LORD's 'shepherd,' who will say of Jerusalem 'she shall be built' and of the temple 'your foundation shall be laid' — written over a century before his birth" },
+      { r:"Isaiah 45:1-4", note:"Cyrus called God's 'anointed,' his right hand grasped by the LORD to subdue nations before him, 'though you do not know me'" },
+      { r:"Ezra 6:3-5", note:"Darius's later search of the archives confirms Cyrus's original decree word for word, including its order to return these same gold and silver vessels" } ]},
+    { group:"The temple vessels, come full circle", refs:[
+      { r:"2 Kings 25:13-15", note:"Nebuchadnezzar's guard originally strips and carries off this same gold and silver from Solomon's temple" },
+      { r:"Daniel 5:2-4", note:"decades later, Belshazzar profanes these very vessels at a drunken feast in Babylon, the same night the kingdom falls to the Persians" },
+      { r:"Jeremiah 27:21-22", note:"Jeremiah's own earlier prophecy that the vessels left in Jerusalem and those already carried to Babylon would one day be brought back and restored to their place" } ]}
+  ]
+},
+
+/* ============================================================
    EZRA 3 — the altar rebuilt, and the temple's foundation laid
    ============================================================ */
 "15:3": {
@@ -7139,6 +7207,142 @@ BVV.CURATED = {
       { r:"1 Kings 5:6-10", note:"Solomon's own cedar-from-Lebanon arrangement with Hiram of Tyre, the model this chapter's builders are consciously repeating" },
       { r:"1 Chronicles 25:1-7", note:"David's original establishment of the trumpet-and-cymbal order the priests and Asaph's sons are now reviving" },
       { r:"Haggai 2:3-9", note:"a later prophetic word to this very community: the new house looks like nothing beside the old, yet its latter glory will exceed it" } ]}
+  ]
+},
+
+/* ============================================================
+   EZRA 7 — Ezra's arrival, and Artaxerxes's letter of authority
+   ============================================================ */
+"15:7": {
+  era: {
+    title: "458 BC — Ezra's arrival, and Artaxerxes's letter of authority",
+    sub: "Persian period · Babylon, then Jerusalem · Nisan to Ab, the seventh year of King Artaxerxes I",
+    badges: ["Persian period (Achaemenid)", "Second wave of returnees", "Yehud province", "≈2,484 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Decades after Zerubbabel's generation laid the temple's foundation, in the reign of Artaxerxes king of Persia, Ezra comes up from Babylon — his priestly line traced back sixteen generations through Zadok to Aaron the chief priest himself. He is, the text says plainly, \"a scribe skilled in the Law of Moses that the LORD, the God of Israel, had given,\" and \"the king granted him all that he asked, for the hand of the LORD his God was on him.\" A company of Israelites, priests, Levites, singers, gatekeepers, and temple servants goes up with him in the king's seventh year; the journey itself takes four months, from the first day of the first month to the first day of the fifth, \"for the good hand of his God was on him.\" Ezra's own stated purpose is threefold: he has set his heart to study the Law of the LORD, to do it, and to teach its statutes and rules in Israel — study, obedience, and teaching held together, in that order. What makes this more than a personal pilgrimage is the letter Artaxerxes hands him, copied into the text in full: any Israelite, priest, or Levite in the kingdom who is willing may go with Ezra to Jerusalem; Ezra is charged to inquire about Judah and Jerusalem according to the Law of his God; he is entrusted with silver and gold the king and his counselors have freely given, plus whatever more can be raised in the province of Babylon, all of it earmarked for bulls, rams, lambs, and their offerings on the altar of the house of God, with the leftover silver and gold his to use however seems good to him and his brothers, \"according to the will of your God.\" The provincial treasurers Beyond the River are commanded to supply Ezra with up to a hundred talents of silver, a hundred cors of wheat, a hundred baths of wine, a hundred baths of oil, and salt without limit — with an explicit warning that failure invites \"wrath against the realm of the king and his sons.\" Priests, Levites, singers, gatekeepers, and temple servants are declared exempt from every tax, tribute, and toll. And Ezra himself is authorized to appoint magistrates and judges over all who know the laws of his God, to teach those who don't, and to see real penalties enforced against defiance of God's law and the king's alike — death, banishment, confiscation, or imprisonment. Ezra's own response closes the chapter: \"Blessed be the LORD, the God of our fathers, who put such a thing as this into the heart of the king, to beautify the house of the LORD that is in Jerusalem... I took courage, for the hand of the LORD my God was on me, and I gathered leading men from Israel to go up with me.\"",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"babylon", role:"The community Ezra assembles and departs from, on the first day of the first month (vv. 6, 9)" },
+    { id:"susa", role:"The Persian royal court where kings of this era customarily wintered and issued decrees — the likely, though not explicitly named, setting for Artaxerxes's letter (vv. 11-26)" },
+    { id:"jerusalem", role:"Ezra's destination, reached on the first day of the fifth month, where he sets to work studying, obeying, and teaching the Law (vv. 8-10)" }
+  ],
+  journey: [
+    { from:"babylon", to:"jerusalem", dashed:true, label:"A four-month journey, 'the good hand of his God' on it", km:870,
+      note:"Departing the first day of the first month and arriving the first day of the fifth, Ezra and his company make the same long road home the first returnees had traveled decades earlier, this time carrying a Persian king's own letter of authority (vv. 8-9)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", av:"priest", label:"Sixteen generations back to Aaron",
+      desc:"Ezra's genealogy runs son by son through Zadok, Phinehas, and Eleazar to Aaron the chief priest — the credential behind everything that follows (vv. 1-5)." },
+    { x:0.16, type:"person", av:"priest", label:"\"A scribe skilled in the Law of Moses\"",
+      desc:"The king grants Ezra everything he asks, 'for the hand of the LORD his God was on him' — the chapter's refrain, repeated four more times before it ends (v. 6)." },
+    { x:0.28, type:"person", label:"A company goes up together",
+      desc:"Israelites, priests, Levites, singers, gatekeepers, and temple servants travel with Ezra in the king's seventh year — a second wave, generations after the first (v. 7)." },
+    { x:0.4, type:"object", label:"Study, obey, then teach",
+      desc:"Ezra 'set his heart to study the Law of the LORD, and to do it and to teach his statutes and rules in Israel' — the order of the verbs is the whole program (v. 10)." },
+    { x:0.52, type:"object", label:"A letter with the king's own funding attached",
+      desc:"Copied into the text word for word: freewill silver and gold from the king and his counselors, provincial funds besides, for sacrifices at the altar in Jerusalem, with the surplus left to Ezra's own judgment (vv. 12-20)." },
+    { x:0.64, type:"object", label:"Up to a hundred talents, and salt without limit",
+      desc:"Every treasurer Beyond the River is ordered to supply silver, wheat, wine, oil, and salt on request, under threat of the king's own wrath for refusal — and temple personnel are exempted from all taxation (vv. 21-24)." },
+    { x:0.78, type:"person", av:"official", label:"Judges appointed, penalties real",
+      desc:"Ezra is authorized to appoint magistrates and judges over everyone who knows the laws of his God, to teach those who don't, and to see death, banishment, confiscation, or imprisonment enforced against defiance (vv. 25-26)." },
+    { x:0.92, type:"person", av:"priest", label:"\"I took courage... and gathered leading men\"",
+      desc:"Ezra's own voice closes the chapter, blessing the LORD for moving the king's heart and crediting God's hand on him for the courage to gather Israel's leaders and go (vv. 27-28)." }
+  ],
+  environment: {
+    chips: ["A genealogy as a credential", "\"The good hand of his God\" — five times in one chapter", "Study, then obedience, then teaching — in that order", "An empire's treasury opened for a foreign temple", "Judges appointed, penalties spelled out"],
+    text: "Ezra 7:12-26 is written in Aramaic, not Hebrew — the imperial administrative language of the Persian court — while the surrounding narrative is in Hebrew, a genuine shift in the text that scholars read as strong evidence Ezra had access to (or a copy of) the actual chancery document rather than composing the letter's content himself. Persian kings routinely funded conquered peoples' temple cults as an investment in local stability and loyalty, a policy independently attested in Egypt's Udjahorresnet inscription from this same imperial period. 'The province Beyond the River' (Abar-Nahara) was the standard Achaemenid satrapy covering the entire Levant, administered at a level well above Judah's small size — the scale of Artaxerxes's grant to one priest-scribe is genuinely unusual for a provincial religious matter."
+  },
+  objectsExtra: ["scroll"],
+  peopleExtra: ["ezra","artaxerxes"],
+  culture: [
+    { title:"A scribe's credentials, spelled out in genealogy", icon:"📜",
+      text:"Opening Ezra's introduction with an unbroken priestly line to Aaron (vv. 1-5) does real work in a culture where priesthood was strictly hereditary: before a word is said about his skill or character, the text establishes that Ezra had the bloodline to serve, teach, and interpret the Law with full legitimacy." },
+    { title:"An Aramaic letter inside a Hebrew book", icon:"🏛️",
+      text:"The switch to Aramaic at verse 12 — matching the language of Persian imperial administration rather than the Hebrew of Judean religious writing — is one of the strongest internal signs that Ezra is quoting an actual royal document rather than composing royal-sounding prose; the same Aramaic sections recur in Ezra 4-6, all official correspondence." },
+    { title:"Tax-exempt temple staff, a documented Persian pattern", icon:"⚖️",
+      text:"Exempting priests, Levites, and temple servants from tribute and toll (v. 24) matches a broader Achaemenid habit of protecting and funding conquered peoples' religious institutions as a low-cost way of buying local loyalty — the same instinct behind Cyrus's original decree a lifetime earlier." }
+  ],
+  crossRefs: [
+    { group:"The genealogy, and Aaron's priestly line", refs:[
+      { r:"Exodus 6:23-25", note:"Aaron's own sons and the line through Eleazar and Phinehas that Ezra's genealogy is built on" },
+      { r:"1 Chronicles 6:3-15", note:"a fuller version of this same priestly genealogy, running from Aaron all the way to the exile" },
+      { r:"Numbers 25:10-13", note:"the LORD's covenant of a perpetual priesthood granted to Phinehas, the ancestor this line runs through" } ]},
+    { group:"A pattern of royal letters, before and after", refs:[
+      { r:"Ezra 1:2-4", note:"Cyrus's original decree, the same imperial pattern of a Persian king funding and authorizing the temple's restoration" },
+      { r:"Ezra 6:6-12", note:"Darius's earlier decree enforcing Cyrus's, including his own threat of consequences for anyone who obstructs the work" },
+      { r:"Nehemiah 2:7-9", note:"this same King Artaxerxes granting his cupbearer Nehemiah letters of passage and timber thirteen years later" } ]},
+    { group:"Ezra's threefold purpose, carried out", refs:[
+      { r:"Nehemiah 8:1-8", note:"Ezra publicly reading and explaining the Law to a weeping assembly — the direct fulfillment of 'to teach his statutes and rules in Israel'" },
+      { r:"Ezra 9:3-4", note:"his own horrified, public reaction on discovering the community's intermarriage — 'to do it' in visible action, not just study" },
+      { r:"Malachi 2:6-7", note:"the prophetic ideal Ezra embodies: 'the lips of a priest should guard knowledge, and people should seek instruction from his mouth'" } ]}
+  ]
+},
+
+/* ============================================================
+   EZRA 9 — Ezra's prayer over Israel's broken faith
+   ============================================================ */
+"15:9": {
+  era: {
+    title: "458 BC — Ezra's prayer over Israel's broken faith",
+    sub: "Persian period · Jerusalem · months after Ezra's arrival, later in the seventh year of Artaxerxes I",
+    badges: ["Persian period (Achaemenid)", "Intermarriage crisis", "A scribe's public grief", "≈2,484 years ago"]
+  },
+  timeOfDay: "dusk",
+  summary: "Some time after Ezra's arrival, the officials come to him with news he clearly did not expect: the people of Israel, the priests, and the Levites \"have not separated themselves from the peoples of the lands,\" taking wives for themselves and their sons from among the very nations the Law had warned against — Canaanites, Hittites, Perizzites, Jebusites, Ammonites, Moabites, Egyptians, and Amorites — so that \"the holy race has mixed itself with the peoples of the lands.\" Worse, the officials add, \"the hand of the officials and chief men has been foremost in this faithlessness\" — the leaders who should have guarded the community's identity led the way in dissolving it. Ezra's reaction is not measured. He tears his garment and his cloak, pulls hair from his head and beard, and sits down appalled, staying that way until the time of the evening sacrifice while everyone who trembles at God's words gathers silently around him, sharing his horror without yet knowing what to do about it. Only at the evening offering does Ezra finally rise from his self-imposed fasting, his torn clothes still torn, and fall on his knees with his hands spread out to the LORD — not to accuse the guilty, but to confess as one of them. \"O my God, I am ashamed and blush to lift my face to you,\" he begins, \"for our iniquities have risen higher than our heads, and our guilt has mounted up to the heavens.\" He traces the pattern back through the whole national story: from the days of the fathers to this very day Israel has been in great guilt, and it was for exactly this — intermarriage with the peoples of the land — that Israel's kings and priests were once handed over to foreign swords, captivity, and plunder, \"as it is today.\" And now, Ezra says, God had shown a brief moment of favor: a remnant left, a secure hold in his holy place, a little reviving in their slavery — \"for we are slaves, yet our God has not forsaken us in our slavery\" but has extended steadfast love before the very kings of Persia, granting reviving enough to rebuild the temple and repair its ruins. Which makes the return to the old sin unbearable to him: \"shall we break your commandments again and intermarry with the peoples who practice these abominations? Would you not be angry with us until you consumed us, so that there should be no remnant, nor any to escape?\" The prayer ends without a plan, without a solution, only a verdict laid bare: \"O LORD, the God of Israel, you are just, for we are left a remnant that has escaped, as it is today. Behold, we are before you in our guilt, for none can stand before you because of this.\"",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"Where the officials report the community's intermarriage, and where Ezra tears his garment, sits appalled, and prays his prayer of confession (vv. 1-15)" },
+    { id:"babylon", role:"The exile whose exact sin — intermarriage with the surrounding peoples — this generation, born or raised largely after the return, has now repeated (v. 7; cf. Ezra 1)" }
+  ],
+  journey: [
+    { from:"babylon", to:"jerusalem", dashed:true, label:"A pattern repeating itself, a generation later", km:870,
+      note:"This is the same road the exiles traveled home under Sheshbazzar and, later, Ezra himself — but the community that made that journey has now fallen into the identical unfaithfulness that sent their fathers into exile along it in the first place (v. 7)." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", av:"official", label:"The officials bring the news",
+      desc:"Israel, the priests, and the Levites have not separated from the peoples of the land; intermarriage has mixed 'the holy race' with the nations, and the officials and chief men led the way (vv. 1-2)." },
+    { x:0.2, type:"person", av:"priest", label:"Garment torn, hair pulled, sitting appalled",
+      desc:"Ezra tears his garment and cloak, pulls hair from his head and beard, and sits down stunned until the evening sacrifice — a scribe's public, physical horror, not a measured rebuke (v. 3)." },
+    { x:0.34, type:"person", label:"Those who tremble at God's words gather",
+      desc:"Everyone who trembles at the words of the God of Israel gathers around Ezra because of this faithlessness, sharing his appalled silence rather than rushing to act (v. 4)." },
+    { x:0.48, type:"object", label:"Kneeling at the evening offering",
+      desc:"At the time of the evening sacrifice Ezra rises from his fasting, his clothes still torn, falls on his knees, and spreads out his hands to the LORD to pray (v. 5)." },
+    { x:0.6, type:"object", label:"\"Our guilt has mounted up to the heavens\"",
+      desc:"Ezra's confession opens in shame, tracing the nation's guilt from the fathers to this very day — the same sin, he says, that once sent Israel's kings and priests into sword, captivity, and plunder (vv. 6-7)." },
+    { x:0.73, type:"object", label:"\"A little reviving in our slavery\"",
+      desc:"Ezra names the mercy just shown: a remnant spared, a secure hold in Jerusalem, favor extended even before the kings of Persia to rebuild the temple and repair its ruins (vv. 8-9)." },
+    { x:0.86, type:"object", label:"\"Shall we break your commandments again?\"",
+      desc:"Ezra sets the old command against the fresh violation, and asks whether God would not be angry 'until you consumed us, so that there should be no remnant, nor any to escape' (vv. 10-14)." },
+    { x:0.96, type:"person", av:"priest", label:"\"We are before you in our guilt\"",
+      desc:"The prayer closes without resolution, only a verdict: God is just, a remnant survives only by his mercy, and 'none can stand before you because of this' (v. 15)." }
+  ],
+  environment: {
+    chips: ["News that stops a scribe cold", "A torn garment before a single word is prayed", "Silent solidarity, not immediate action", "The exact sin that caused the exile, repeated", "A prayer that ends in guilt, not resolution"],
+    text: "Tearing one's garment and pulling hair from the head and beard were recognized ancient Near Eastern signs of extreme grief or horror, not staged theater — deliberately damaging one's own appearance and dignity in a culture that prized both. The list of peoples Israel has intermarried with (v. 1) deliberately echoes the conquest-era nations of Deuteronomy 7:1-4 and 23:3-6, even though several of those named groups no longer existed as distinct political entities by the Persian period — Ezra is diagnosing the sin theologically, by the Law's own categories, not filing a contemporary ethnic census. The community Ezra is confessing for is not, strictly, the generation that sinned before the exile; many present would have been born in the land after the return, which makes his first-person plural confession ('our guilt,' not 'their guilt') a deliberate act of solidarity rather than distance."
+  },
+  peopleExtra: ["ezra"],
+  culture: [
+    { title:"Torn garments, pulled hair — grief written on the body", icon:"👘",
+      text:"Physically damaging one's clothing and hair was a standard, recognizable ancient mourning gesture (cf. Job 1:20; 2 Sam 1:11) — Ezra's reaction reads as instantly legible horror to anyone watching, communicating the gravity of the news before he speaks a single word of judgment or prayer." },
+    { title:"A confession in the first person plural", icon:"🙏",
+      text:"Ezra prays 'our guilt,' 'our iniquities,' never separating himself from the sin he is confessing, even though nothing in the text suggests he personally intermarried — a pattern of corporate, representative confession shared with Nehemiah (Neh 1:6-7) and Daniel (Dan 9:5-6), all three praying as one voice with a community's failure rather than above it." },
+    { title:"The evening sacrifice as a fixed hour", icon:"🕯️",
+      text:"Ezra's collapse into prayer is timed precisely to 'the time of the evening sacrifice' (v. 5), the daily offering prescribed since Sinai (Exod 29:38-41) — even in the middle of a crisis, the rhythm of regular temple worship still marks and structures the moment he finally speaks." }
+  ],
+  crossRefs: [
+    { group:"The same sin, the same warning, twice ignored", refs:[
+      { r:"Deuteronomy 7:1-4", note:"the original command against intermarriage with the land's nations, warning explicitly that it would turn Israel's hearts to other gods" },
+      { r:"1 Kings 11:1-8", note:"Solomon's own foreign wives 'turning away his heart after other gods' — the paradigm case of exactly this failure, generations before the exile" },
+      { r:"Nehemiah 13:23-27", note:"the identical problem resurfacing a generation later under Nehemiah, who reaches for far more physical measures than Ezra's prayer" } ]},
+    { group:"Corporate confession, prayed in the first person", refs:[
+      { r:"Daniel 9:4-11", note:"Daniel's own confession of 'we have sinned' on behalf of a nation's guilt he did not personally commit, prayed in Babylon a generation earlier" },
+      { r:"Nehemiah 1:6-7", note:"Nehemiah's nearly identical posture: confessing the sins of Israel, 'both I and my father's house have sinned'" },
+      { r:"Psalm 106:6", note:"the same first-person-plural confessional pattern in worship: 'both we and our fathers have sinned; we have committed iniquity'" } ]},
+    { group:"What follows: the assembly's response", refs:[
+      { r:"Ezra 10:1-4", note:"the direct sequel: the assembly weeps with Ezra and proposes a covenant to put away the foreign wives, in response to exactly this prayer" },
+      { r:"Ezra 10:9-14", note:"the formal gathering in Jerusalem, trembling in a cold winter rain, to work out the resolution this chapter only laments" },
+      { r:"Malachi 2:11", note:"a later prophetic word to this same restored community naming this precise sin — Judah has 'profaned the sanctuary of the LORD... by marrying the daughter of a foreign god'" } ]}
   ]
 },
 
