@@ -1,0 +1,70 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main, claude/bible-passage-map-viz-r17fur]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Snapshot ESV text for priority books (currently 1 & 2 Samuel) so the
+      # deployed site has an offline fallback if the live API is unreachable.
+      # Extend BOOKS below as coverage grows (bolls.life ids: Gen=1 … Rev=66).
+      - name: Snapshot scripture text for offline fallback
+        run: |
+          mkdir -p data/embedded
+          snapshot() {  # snapshot <bookId> <chapterCount>
+            for ch in $(seq 1 "$2"); do
+              f="data/embedded/$1-$ch.json"
+              if curl -sSf --max-time 20 "https://bolls.life/get-text/ESV/$1/$ch/" -o "$f"; then
+                # sanity: must be a JSON array with verses
+                head -c 1 "$f" | grep -q '\[' || rm -f "$f"
+              else
+                rm -f "$f"
+              fi
+              sleep 0.3
+            done
+          }
+          snapshot 9 31    # 1 Samuel
+          snapshot 10 24   # 2 Samuel
+          echo "Embedded chapters: $(ls data/embedded | wc -l)"
+
+      # Publish the site (repo root + snapshots) to the gh-pages branch.
+      # GitHub auto-enables Pages for public repos when gh-pages exists.
+      - name: Publish to gh-pages branch
+        run: |
+          rm -f .gitignore            # keep data/embedded in the published tree
+          touch .nojekyll
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan gh-pages
+          git add -A
+          git commit -m "Deploy site from ${GITHUB_SHA::7}"
+          git push -f origin gh-pages
+
+  verify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for the live site to respond
+        run: |
+          url="https://elinxie.github.io/Bible-verse-visualizer/"
+          for i in $(seq 1 30); do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$url")
+            echo "attempt $i: HTTP $code"
+            if [ "$code" = "200" ]; then echo "Site is live: $url"; exit 0; fi
+            sleep 20
+          done
+          echo "::error::Site not reachable yet. If this is the first deploy, enable Pages once: Settings → Pages → Source: 'Deploy from a branch' → gh-pages / root."
+          exit 1
