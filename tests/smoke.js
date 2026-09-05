@@ -188,7 +188,7 @@ function check(name, cond, extra) {
     "1 Kings 3|11:3", "1 Kings 8|11:8",
     "1 Kings 17|11:17", "1 Kings 18|11:18", "1 Kings 19|11:19",
     "2 Kings 5|12:5", "2 Kings 18|12:18", "2 Kings 19|12:19", "2 Kings 25|12:25",
-    "Ezra 3|15:3", "Nehemiah 2|16:2", "Nehemiah 8|16:8", "Esther 4|17:4",
+    "Ezra 1|15:1", "Ezra 3|15:3", "Ezra 7|15:7", "Ezra 9|15:9", "Nehemiah 2|16:2", "Nehemiah 8|16:8", "Esther 4|17:4",
     "Job 1|18:1", "Job 2|18:2", "Job 38|18:38",
     "Psalms 22|19:22", "Psalms 23|19:23", "Psalms 51|19:51", "Psalms 137|19:137",
     "Isaiah 6|23:6", "Isaiah 40|23:40", "Isaiah 53|23:53",
