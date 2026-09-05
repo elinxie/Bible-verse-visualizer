@@ -8646,6 +8646,202 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   DANIEL 4 — the dream of the great tree, and Nebuchadnezzar's madness
+   ============================================================ */
+"27:4": {
+  era: {
+    title: "Undated within the book — a royal proclamation near the end of Nebuchadnezzar's reign (before 562 BC)",
+    sub: "Neo-Babylonian Empire · the royal palace at Babylon · Nebuchadnezzar's own first-person account",
+    badges: ["Nebuchadnezzar's own royal decree", "A dream of a great tree, cut down", "Seven periods of beast-like madness", "\"Those who walk in pride he is able to humble\""]
+  },
+  timeOfDay: "day",
+  summary: "Nebuchadnezzar himself narrates this chapter, a proclamation 'to all peoples, nations, and languages' recounting how 'the Most High God' humbled him. At ease in his palace, he is terrified by a dream: a tree so vast its top reaches heaven and its shade shelters every creature, until a 'watcher, a holy one' descends from heaven and orders it cut down, stripped, and bound with iron and bronze — its stump left to be drenched with the dew of heaven 'among the beasts of the field' for seven periods, until it knows 'that the Most High rules the kingdom of men.' Babylon's whole guild of wise men fails again, and Daniel — 'named Belteshazzar after the name of my god,' Nebuchadnezzar notes — alone can interpret it, and is visibly dismayed by what he must say: the towering tree is the king himself, and the sentence against it is a coming madness that will drive him from human society to eat grass like an ox for seven periods, until he acknowledges that Heaven rules. Daniel urges the king to break off his sins by practicing righteousness and mercy to the poor, and for twelve months the judgment holds off. Then, walking on his palace roof, Nebuchadnezzar boasts, 'Is not this great Babylon, which I have built... by my mighty power and for the glory of my majesty' — before the words leave his mouth a voice from heaven pronounces the sentence fulfilled, and he is driven out at once, eating grass, wet with the dew, his hair grown like eagles' feathers and his nails like birds' claws. At the appointed time's end, Nebuchadnezzar lifts his eyes to heaven, his reason returns, and he blesses, praises, and honors 'him who lives forever' — restored to his throne with even greater majesty than before, he closes the chapter himself: 'those who walk in pride he is able to humble.'",
+  focusPlace: "babylon",
+  places: [
+    { id:"babylon", role:"Nebuchadnezzar's royal palace — the dream, the twelve-month reprieve, the fateful boast on the roof, and the king's restoration all unfold here (vv. 4-5, 29-37)" },
+    { id:"dura",    role:"The open plain outside Babylon's walls — the chapter itself names no location beyond 'the beasts of the field' (v. 25), but the same kind of open country as the plain already established as Dura in Daniel 3 is pictured here as the terrain of the king's exile from human society" }
+  ],
+  journey: [
+    { from:"babylon", to:"dura", dashed:true, label:"Driven \"from among men\" — no location the text names", km:15,
+      note:"Daniel 4 never says where the king wandered during his madness, only that he was 'driven from among men' (v. 33); this leg marks the same open ground beyond the city walls already established as Dura in Daniel 3, not a location the text itself specifies." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"A king's own proclamation", av:"king",
+      desc:"Nebuchadnezzar writes this chapter in the first person, addressed 'to all peoples, nations, and languages' — a royal decree recounting 'the signs and wonders that the Most High God has done for me' (vv. 1-3)." },
+    { x:0.2, type:"object", label:"The dream: a tree reaching to heaven",
+      desc:"At ease in his palace, the king sees a tree grown so great its top touches the sky and its shade shelters every living creature — until a 'watcher, a holy one' descends and orders it cut down, banded with iron and bronze, its stump left among the beasts of the field (vv. 4-18)." },
+    { x:0.36, type:"person", label:"Daniel, dismayed", av:"official",
+      desc:"Babylon's own wise men fail again; Daniel alone can interpret the dream, and is 'dismayed for a while, and his thoughts alarmed him' before he can bring himself to say it — the tree is the king himself, sentenced to seven periods of madness among the beasts (vv. 19-27)." },
+    { x:0.52, type:"person", label:"\"Is not this great Babylon, which I have built\"", av:"king",
+      desc:"Twelve months later, walking on his palace roof, Nebuchadnezzar boasts of the city's glory as his own achievement; before the words are even finished, a voice from heaven pronounces the sentence fulfilled (vv. 28-31)." },
+    { x:0.66, type:"object", label:"Seven periods among the beasts",
+      desc:"Driven from human society at once, the king eats grass like an ox, his body wet with dew, until his hair grows like eagles' feathers and his nails like birds' claws (vv. 32-33)." },
+    { x:0.8, type:"person", label:"Reason restored, and a doxology", av:"king",
+      desc:"At the appointed time's end Nebuchadnezzar lifts his eyes to heaven; his reason returns, and he blesses the Most High, 'whose kingdom endures from generation to generation' (vv. 34-35)." },
+    { x:0.93, type:"person", label:"\"Those who walk in pride he is able to humble\"", av:"king",
+      desc:"Restored to his throne with even greater majesty than before, the king closes his own account with the chapter's thesis line, praising 'the King of heaven, for all his works are right and his ways are just' (vv. 36-37)." }
+  ],
+  environment: {
+    chips: ["A king's own first-person decree", "A second dream, a second test for Daniel", "Twelve months' reprieve, then a boast", "Seven periods among the beasts of the field", "\"Those who walk in pride he is able to humble\""],
+    text: "Nebuchadnezzar's own inscriptions, dozens of which survive from his decades rebuilding Babylon, boast in almost identical language of the city's temples, walls, and processional way as achievements of his own majesty — so the boast on the palace roof reads less like invented irony than a caricature lifted straight from the king's real building-inscription genre. No Babylonian chronicle records a period of royal incapacity for Nebuchadnezzar himself, which has led some scholars to connect this account with a documented gap in his later successor Nabonidus's reign — a decade spent away from Babylon at the Arabian oasis of Tayma, leaving his own son Belshazzar as regent (the same Belshazzar of Dan 5) — though Daniel's text names Nebuchadnezzar specifically and presents this as his own testimony, not a borrowed memory. Whatever its precise historical referent, 'seven periods' (Aramaic *iddanin*, most likely years) frames the king's humiliation as proportionate and temporary rather than permanent ruin, a controlled judgment that ends, exactly as Daniel promised, the moment Nebuchadnezzar himself acknowledges 'that Heaven rules.'"
+  },
+  objectsExtra: ["dream-tree"],
+  peopleExtra: ["daniel","nebuchadnezzar","babylonian-magicians"],
+  culture: [
+    { title:"Royal inscriptions and royal boasts", icon:"🏛️",
+      text:"Nebuchadnezzar's real building inscriptions — the East India House inscription among them — repeatedly credit Babylon's temples, walls, and hanging terraces to his own 'mighty power,' the very words the chapter puts in his mouth on the palace roof. Reading Daniel 4 alongside those inscriptions turns the king's fall from a moralizing invention into a pointed, almost documentary parody of exactly how this king actually talked about his own achievements." },
+    { title:"A madness some call boanthropy", icon:"🐂",
+      text:"Modern psychiatry recognizes a rare delusional condition, sometimes labeled boanthropy, in which a person believes himself an animal and behaves accordingly — cited by some commentators as a plausible clinical description of Nebuchadnezzar's seven periods. The text itself, however, frames the episode not as illness striking at random but as a specific, announced, and time-limited judgment, ending the instant the king acknowledges heaven's rule rather than through any medical recovery." },
+    { title:"\"Until you know that the Most High rules\"", icon:"👑",
+      text:"The line Daniel uses to explain the sentence in advance (v. 25) doubles as the whole book's recurring thesis — the same claim forced on Nebuchadnezzar again in ch. 2's dream-statue and ch. 3's furnace, and waiting, unlearned, for Belshazzar in ch. 5. Daniel 4 is arguably the only chapter in the book where a Gentile king voices that lesson in his own first-person words rather than simply reacting to Daniel's." }
+  ],
+  crossRefs: [
+    { group:"Nebuchadnezzar's arc across the book", refs:[
+      { r:"Daniel 2:46-49", note:"an earlier, more provisional confession — 'your God is God of gods' — after the dream-statue" },
+      { r:"Daniel 3:28-29", note:"a second confession, after the fiery furnace, still short of full humility" },
+      { r:"Daniel 5:18-22", note:"Daniel later reminds Belshazzar of exactly this humbling — a lesson his successor refuses to learn" } ]},
+    { group:"Pride brought low elsewhere in Scripture", refs:[
+      { r:"Proverbs 16:18", note:"'pride goes before destruction, and a haughty spirit before a fall'" },
+      { r:"Isaiah 14:12-15", note:"a Babylonian king's fall pictured as a star cast down from heaven" },
+      { r:"Luke 1:51-52", note:"Mary's Magnificat: God 'has scattered the proud... brought down the mighty from their thrones'" } ]},
+    { group:"Time, dew, and beasts elsewhere in Daniel", refs:[
+      { r:"Daniel 7:25", note:"a later vision's own symbolic time-period, 'a time, times, and half a time'" },
+      { r:"Daniel 2:37-38", note:"Daniel had already told Nebuchadnezzar that even 'the beasts of the field' were given into his hand — the very domain that turns on him here" },
+      { r:"Psalm 90:2", note:"'from everlasting to everlasting you are God' — the permanence Nebuchadnezzar's own kingdom conspicuously lacks" } ]}
+  ]
+},
+
+/* ============================================================
+   DANIEL 5 — the handwriting on the wall, and Belshazzar's last night
+   ============================================================ */
+"27:5": {
+  era: {
+    title: "539 BC — the night Babylon falls to Cyrus's forces",
+    sub: "Neo-Babylonian Empire's final night · the royal palace at Babylon · Belshazzar's co-regency under his father Nabonidus",
+    badges: ["Babylon's last night as an empire (539 BC)", "MENE, MENE, TEKEL, PARSIN", "Temple vessels used to toast idols", "≈2,565 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Belshazzar throws a great feast for a thousand of his lords and, 'under the influence of the wine,' orders the gold and silver vessels Nebuchadnezzar had carried off from Jerusalem's temple brought in so the whole company can drink from them while praising 'the gods of gold and silver, bronze, iron, wood, and stone.' Immediately human fingers appear and write on the palace wall in plain sight of the king; his face drains of color and his knees knock together as none of Babylon's wise men can even read the writing, let alone interpret it. At the queen's suggestion, Daniel is sent for — remembered from Nebuchadnezzar's own day as a man with 'light and understanding and wisdom' in him. Daniel refuses Belshazzar's promised rewards but interprets anyway, first reminding the king that his own predecessor Nebuchadnezzar was humbled by the Most High for the same pride Belshazzar has now surpassed by defiling the temple's own vessels and refusing to honor 'the God in whose hand is your breath.' The words themselves — MENE, MENE, TEKEL, and PARSIN — Daniel reads as both a straightforward accounting and a play on their root meanings: Belshazzar's days are numbered and finished; he has been weighed in the balances and found wanting; and his kingdom is divided and given to the Medes and Persians. Belshazzar nonetheless proclaims Daniel third ruler in the kingdom as promised — a title that means little, since 'that very night Belshazzar the Chaldean king was killed. And Darius the Mede received the kingdom, being about sixty-two years old.'",
+  focusPlace: "babylon",
+  places: [
+    { id:"babylon",   role:"Belshazzar's palace, where a thousand lords feast, the handwriting appears on the wall, and the Chaldean kingdom ends the same night (vv. 1-30)" },
+    { id:"jerusalem", role:"The temple these gold and silver vessels were carried from a generation earlier — never revisited in this chapter, but the very sacrilege Daniel names to Belshazzar's face (v. 3; cf. Dan 1:2)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"babylon", dashed:true, label:"The temple vessels' journey, decades before this feast", km:880,
+      note:"These are the same vessels Nebuchadnezzar first carried off in 605 BC (Dan 1:2) — brought out of storage a full generation later for a drunken toast to Babylon's gods, the specific desecration that draws Daniel's sharpest words in the whole chapter (vv. 22-23)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"A feast for a thousand lords", av:"king",
+      desc:"Belshazzar throws a great banquet and, 'under the influence of the wine,' orders the gold and silver vessels taken from Jerusalem's temple brought in for the whole company to drink from (vv. 1-4)." },
+    { x:0.18, type:"object", label:"Fingers writing on the wall",
+      desc:"Immediately a human hand appears and writes on the plaster of the palace wall in full view of the king; his face drains of color and his knees knock together (vv. 5-6)." },
+    { x:0.32, type:"person", label:"Every wise man fails", av:"official",
+      desc:"Enchanters, Chaldeans, and astrologers are summoned and offered purple robes, a gold chain, and third place in the kingdom to whoever can read the writing — none of them can even read it, let alone interpret it (vv. 7-9)." },
+    { x:0.46, type:"person", label:"Daniel, sent for at the queen's word", av:"official",
+      desc:"The queen recalls a man from Nebuchadnezzar's own day with 'light and understanding and wisdom like the wisdom of the gods' in him; Daniel is brought in, refuses Belshazzar's offered rewards, but agrees to read the writing anyway (vv. 10-17)." },
+    { x:0.6, type:"person", label:"\"You have not humbled your heart\"", av:"official",
+      desc:"Before the interpretation, Daniel reminds Belshazzar that Nebuchadnezzar himself was humbled for the same pride — and that Belshazzar has gone further, defiling the temple's own vessels and refusing to honor 'the God in whose hand is your breath' (vv. 18-23)." },
+    { x:0.76, type:"object", label:"MENE, MENE, TEKEL, PARSIN",
+      desc:"Daniel reads the writing as both plain accounting and wordplay: Belshazzar's days are numbered and finished; he is weighed and found wanting; his kingdom is divided and given to the Medes and Persians (vv. 24-28)." },
+    { x:0.92, type:"person", label:"\"That very night\"", av:"king",
+      desc:"Belshazzar proclaims Daniel third ruler in the kingdom as promised — then is killed before morning, as Darius the Mede receives the kingdom at about sixty-two years old (vv. 29-31)." }
+  ],
+  environment: {
+    chips: ["A drunken feast turns temple vessels into toasting cups", "Fingers writing on plaster, in full candlelight", "\"Weighed in the balances and found wanting\"", "A kingdom divided between Medes and Persians", "\"That very night\""],
+    text: "For centuries Belshazzar was dismissed as fiction, since Greek historians named Nabonidus as Babylon's last king and never mentioned him at all; nineteenth- and twentieth-century cuneiform finds — the Nabonidus Chronicle and the so-called Verse Account of Nabonidus — settled the question by confirming Belshazzar as Nabonidus's own son and co-regent, left in charge of Babylon for years while his father lived at the Arabian oasis of Tayma. That explains a detail easy to miss: Belshazzar can only promise Daniel *third* place in the kingdom (v. 16), because Belshazzar himself held second place, under a father the text never has to name for the offer to make sense — ancient royal idiom regularly used 'father' and 'son' loosely for 'predecessor' and 'successor,' which is likely why Nebuchadnezzar, actually a royal predecessor rather than Belshazzar's literal father, is still called that throughout. Classical accounts (Herodotus, Xenophon) describe Cyrus's forces taking Babylon that same night by diverting the Euphrates and marching in along the drained riverbed while the city, mid-festival, never saw them coming — a detail that lines up strikingly with a feast so absorbing that Belshazzar's own guards apparently never raised an alarm."
+  },
+  objectsExtra: ["temple-vessels-feast","handwriting-on-wall"],
+  peopleExtra: ["daniel","belshazzar","nebuchadnezzar","darius-mede"],
+  culture: [
+    { title:"Belshazzar, once doubted, now confirmed", icon:"📜",
+      text:"The Verse Account of Nabonidus, a Babylonian text hostile to Nabonidus's own unusual religious devotions, portrays him as an eccentric king absent from the capital for years — the same background that leaves his son Belshazzar hosting a very Babylonian feast, praising 'the gods of gold and silver, bronze, iron, wood, and stone' in exactly the polytheistic idiom the chapter puts in his mouth." },
+    { title:"Wordplay in the writing", icon:"🔤",
+      text:"The three Aramaic words are units of weight — mina (MENE), shekel (TEKEL), and half-mina (PERES, plural PARSIN) — so Daniel's interpretation works as a double reading: a literal accounting ledger turned into a verdict, with PARSIN additionally punning on both 'divided' and 'Persia' (Heb./Aram. paras), landing the whole judgment on the exact power about to take the kingdom." },
+    { title:"A queen who remembers", icon:"👑",
+      text:"The unnamed 'queen' who tells Belshazzar about Daniel is most likely the queen mother — a royal wife would already have been present among the concubines at the feast (v. 2) — suggesting institutional palace memory reaching back to Nebuchadnezzar's own era that the current, younger king himself apparently lacked." }
+  ],
+  crossRefs: [
+    { group:"Belshazzar measured against Nebuchadnezzar's example", refs:[
+      { r:"Daniel 4:28-37", note:"the humbling of Nebuchadnezzar that Daniel cites directly to Belshazzar (v. 22)" },
+      { r:"Daniel 2:46-49", note:"an earlier Babylonian king's confession that 'your God is God of gods'" } ]},
+    { group:"Temple vessels, taken and eventually returned", refs:[
+      { r:"Daniel 1:1-2", note:"the same vessels first carried off to Babylon, 605 BC" },
+      { r:"2 Kings 25:13-17", note:"further temple treasures stripped in the final 586 BC destruction" },
+      { r:"Ezra 1:7-11", note:"Cyrus, within the same generation, has these very vessels counted out and returned to Jerusalem" } ]},
+    { group:"Pride weighed and found wanting, elsewhere", refs:[
+      { r:"Job 31:6", note:"'let me be weighed in a just balance, and let God know my integrity'" },
+      { r:"Isaiah 40:15", note:"'the nations are like a drop from a bucket... a very little thing' before God" },
+      { r:"Jeremiah 51:24-26", note:"an earlier oracle already naming Babylon itself for coming judgment" } ]}
+  ]
+},
+
+/* ============================================================
+   DANIEL 6 — Daniel in the lions' den
+   ============================================================ */
+"27:6": {
+  era: {
+    title: "539 BC or shortly after — early in the reign of Darius the Mede",
+    sub: "Transition from Babylonian to Medo-Persian rule · the royal palace at Babylon · Daniel now an old man, decades into his career",
+    badges: ["Darius the Mede's new administration", "An irrevocable law of the Medes and Persians", "Prayer three times a day, toward Jerusalem", "The lions' den"]
+  },
+  timeOfDay: "night",
+  summary: "Darius the Mede sets 120 satraps over his new kingdom, with three high officials over them, Daniel foremost among the three; Daniel so distinguishes himself that Darius plans to set him over the whole kingdom, and the other officials go looking for grounds to bring him down — finding nothing at all except 'in connection with the law of his God.' They talk Darius into signing an irrevocable decree, binding under Median and Persian law, that for thirty days no one may petition any god or man except the king, on pain of the lions' den. Daniel's response is to change nothing: he keeps praying toward Jerusalem three times a day at his open upstairs window, exactly as he 'had done previously' — and is caught doing it by the very men who set the trap. Darius, genuinely distressed and working 'till the sun went down' to find a way out, has no legal way around his own irrevocable law, and Daniel is thrown into the den, sealed with a stone stamped by the king's own signet and his nobles', 'that nothing might be changed concerning Daniel.' Darius spends the night fasting, without entertainment, unable to sleep, and at the first light of dawn hurries to the den and calls out anxiously; Daniel answers that 'my God sent his angel and shut the lions' mouths,' because he was found blameless before God and had done the king no wrong either. Daniel is lifted out with no injury found on him at all, 'because he had trusted in his God'; his accusers and their wives and children are thrown into the same den in his place and are broken to pieces by the lions before they even reach the floor. Darius writes to 'all peoples, nations, and languages' commanding that all tremble before 'the God of Daniel,' and Daniel prospers on through the reign of Darius and of Cyrus the Persian.",
+  focusPlace: "babylon",
+  places: [
+    { id:"babylon", role:"The royal palace where Daniel serves under Darius, prays at his open window, and is thrown into and lifted out of the lions' den (vv. 1-23)" },
+    { id:"susa",    role:"Later capital of the Medo-Persian empire that succeeds Babylon under Darius and Cyrus, the very kings this chapter names — not the setting of any event here, but the empire's own future center (cf. Ezra 1; Esth 1:2)" }
+  ],
+  journey: [
+    { from:"babylon", to:"susa", dashed:true, label:"The empire that succeeds Babylon, not a journey in this chapter", km:400,
+      note:"Daniel 6 itself never leaves the Babylon palace; this leg marks the historical transition already underway — Babylon fallen to Median and Persian rule under Darius and Cyrus (v. 28), with Susa becoming the new empire's leading capital within a generation (cf. Ezra 1; Neh 1:1; Esth 1:2)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"120 satraps, and Daniel foremost", av:"official",
+      desc:"Darius sets 120 satraps over the kingdom under three high officials; Daniel so distinguishes himself by his 'excellent spirit' that the king plans to set him over the whole realm (vv. 1-3)." },
+    { x:0.18, type:"person", label:"\"No ground for complaint\"", av:"official",
+      desc:"The other officials search Daniel's conduct for any fault or corruption and find none at all — concluding they will find grounds against him only 'in connection with the law of his God' (vv. 4-5)." },
+    { x:0.32, type:"object", label:"An irrevocable thirty-day decree",
+      desc:"The officials talk Darius into signing a law, binding under Median and Persian custom and impossible to revoke, that for thirty days no one may petition any god or man but the king, on pain of the lions' den (vv. 6-9)." },
+    { x:0.46, type:"person", label:"Praying at the open window, as before", av:"official",
+      desc:"Daniel learns of the decree and changes nothing — he keeps praying toward Jerusalem three times a day at his open upstairs window, 'as he had done previously,' and is caught doing it by the men watching for exactly that (vv. 10-13)." },
+    { x:0.6, type:"person", label:"Darius, working till sundown to save him", av:"king",
+      desc:"Genuinely distressed, the king labors until sunset trying to find a way around his own law, but the conspirators press him: 'no decree or statute that the king establishes can be changed' (vv. 14-15)." },
+    { x:0.74, type:"object", label:"Sealed with the king's own signet",
+      desc:"Daniel is thrown into the den, sealed with a stone stamped by Darius's signet and his nobles' 'that nothing might be changed concerning Daniel'; the king fasts through a sleepless night (vv. 16-18)." },
+    { x:0.92, type:"person", label:"\"My God sent his angel\"", av:"official",
+      desc:"At dawn Darius hurries to the den; Daniel answers unharmed, and is lifted out 'because he had trusted in his God' — his accusers and their families are thrown to the same lions in his place, and Darius decrees that all his kingdom tremble before 'the God of Daniel' (vv. 19-28)." }
+  ],
+  environment: {
+    chips: ["120 satraps under three high officials", "\"No ground for complaint\" except his God", "An irrevocable law of the Medes and Persians", "Praying toward Jerusalem, three times a day", "\"My God sent his angel and shut the lions' mouths\""],
+    text: "'The law of the Medes and Persians, which cannot be revoked' is not literary invention — Esther's book independently describes the same peculiar constitutional feature a few decades later, where even the king himself cannot cancel a sealed royal edict, only issue a counter-decree (Esth 1:19; 8:8) — a real check on royal power that here becomes the very mechanism trapping Darius into a sentence he never wanted to carry out. Daniel's habit of praying toward Jerusalem three times a day, window open, echoes Solomon's own temple-dedication prayer anticipating exiles who would pray 'toward this house' from a foreign land (1 Kgs 8:46-49) — a fixed, visible practice Daniel refuses to hide or suspend even under a death penalty. 'Darius the Mede' himself remains one of Daniel's genuine historical puzzles: no extra-biblical source names a separate Median king ruling Babylon between Belshazzar and Cyrus, and proposals range from identifying him with Cyrus's general Gubaru (Ugbaru), attested governing Babylon immediately after its fall, to reading 'Darius' as a Median throne-name Cyrus himself briefly held — a question this dataset notes rather than resolves."
+  },
+  objectsExtra: ["prayer-decree","lions-den"],
+  peopleExtra: ["daniel","darius-mede","nebuchadnezzar"],
+  culture: [
+    { title:"Satraps: a layered imperial bureaucracy", icon:"🏛️",
+      text:"Dividing a conquered empire into provinces under satraps, with senior officials auditing them on the king's behalf, is well attested as the actual administrative backbone of the Achaemenid Persian empire in the generations after this chapter — Daniel 6's '120 satraps under three high officials' reads as a plausible early sketch of the same layered system later Persian kings formalized further." },
+    { title:"An irrevocable royal decree", icon:"📜",
+      text:"A king who cannot cancel his own signed law is a strange kind of absolute monarch, yet the same feature reappears independently in Esther, where Ahasuerus can only counteract Haman's decree with a second one, not revoke the first (Esth 8:8). Whether historically precise or a stylized convention, the detail turns Darius from villain into another trapped party — his own law, not his own will, condemns Daniel." },
+    { title:"Prayer toward Jerusalem", icon:"🙏",
+      text:"Praying three times daily facing a fixed, sacred direction — window deliberately left open toward the city — gave Daniel's devotion in exile a physical, visible shape rather than a private feeling, continuing the practice Solomon anticipated at the temple's dedication generations earlier (1 Kgs 8:46-49) and anticipating the fixed-direction prayer later central to both Jewish and Islamic devotional practice." }
+  ],
+  crossRefs: [
+    { group:"Daniel's integrity across the book", refs:[
+      { r:"Daniel 1:8-16", note:"his first, quieter refusal decades earlier — the king's food" },
+      { r:"Daniel 3:16-18", note:"Shadrach, Meshach, and Abednego's parallel refusal under an earlier death decree" },
+      { r:"Daniel 6:4", note:"even his enemies concede 'no error or fault was found in him'" } ]},
+    { group:"The irrevocable decree, elsewhere in Scripture", refs:[
+      { r:"Esther 1:19", note:"a royal decree 'written among the laws of the Persians and the Medes, so that it may not be changed'" },
+      { r:"Esther 8:8", note:"Mordecai's counter-edict, issued because Haman's own decree cannot be revoked" } ]},
+    { group:"Shut mouths, sent angels, and later readings", refs:[
+      { r:"Daniel 3:24-25, 28", note:"the fiery furnace's own rescue, credited the same way — God 'sent his angel'" },
+      { r:"Psalm 91:11-13", note:"'you will tread on the lion and the adder' — deliverance under God's own protection" },
+      { r:"Hebrews 11:33", note:"the New Testament's own roll call of faith names this exact deliverance: 'stopped the mouths of lions'" } ]}
+  ]
+},
+
+/* ============================================================
    MATTHEW 2 — the magi, the flight to Egypt, and the return to Nazareth
    ============================================================ */
 "40:2": {
