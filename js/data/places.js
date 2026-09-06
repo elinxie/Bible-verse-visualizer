@@ -721,7 +721,12 @@ BVV.PLACES = [
     blurb:"Border valley between Judah's hill country and Philistine territory where Samson loved Delilah, and where the Philistine lords bribed her to learn the secret of his strength (Judg 16:4-5).",
     meaning:"Hebrew 'Sorek' — 'choice vine' (the valley was noted vineyard country)",
     ancient:"A gently sloping wine-growing valley straddling the Israelite-Philistine frontier, its mixed population and open access from the coast making it a natural crossing-point for both trade and trouble.",
-    scene:{ terrain:"valley", settlement:"village", water:"river", veg:"mixed" } }
+    scene:{ terrain:"valley", settlement:"village", water:"river", veg:"mixed" } },
+  { id:"tarshish", name:"Tarshish", al:["Tarshish"], modern:"disputed (approx.) — most often identified with Tartessus near the Guadalquivir's mouth, SW Spain; a minority view favors Tarsus in Cilicia, Turkey", lat:36.700, lon:-6.100, type:"city",
+    blurb:"A far-off seaport Jonah books passage to instead of Nineveh (Jonah 1:3) — the ship never arrives; the storm strikes before it clears the coast. Elsewhere in the OT a byword for the most distant, wealthy trading horizon a ship could reach, source of the silver, iron, tin, and lead 'ships of Tarshish' carried home (Ezek 27:12; 1 Kgs 10:22).",
+    meaning:"Hebrew 'Tarshish' — obscure; possibly tied to smelting/refining, fitting a metal-trading emporium",
+    ancient:"The exact site is disputed and may function more as a symbolic 'ends of the earth' than a single recoverable spot; the traditional and most common scholarly guess points west across the whole Mediterranean to Tartessus, a silver-rich trading culture near Spain's Atlantic coast — about as far from Nineveh, geographically and symbolically, as Jonah could sail.",
+    scene:{ terrain:"coast", settlement:"city", water:"sea", veg:"sparse" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };
