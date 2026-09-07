@@ -9502,6 +9502,270 @@ BVV.CURATED = {
       { r:"1 Corinthians 3:1-3", note:"Paul diagnoses Corinthian jealousy and strife — items from this chapter's vice list — as evidence of walking 'in the flesh'" },
       { r:"Ephesians 5:9", note:"'the fruit of light' named with a similar triad — goodness, righteousness, and truth" } ]}
   ]
+},
+
+/* ============================================================
+   JONAH 1 — the flight to Tarshish, the storm, and the great fish
+   ============================================================ */
+"32:1": {
+  era: {
+    title: "ca. 780–750 BC — reign of Jeroboam II of Israel",
+    sub: "Divided kingdom era · the port of Joppa, then the open Mediterranean · Assyria in its 8th-century 'weakness decades'",
+    badges: ["Jeroboam II's Israel", "Assyria under Ashur-dan III", "Joppa's harbor", "The LORD hurls a great storm"]
+  },
+  timeOfDay: "storm",
+  summary: "The word of the LORD comes to Jonah son of Amittai: rise, go to Nineveh, that great city, and cry out against its evil. Jonah instead rises to flee 'from the presence of the LORD,' going down to Joppa, finding a ship bound the opposite direction for Tarshish, paying the fare, and going down into it. The LORD hurls a great wind at the sea; a violent storm threatens to break the ship apart, and the pagan sailors, each crying to his own god, throw the cargo overboard to lighten it. Jonah, meanwhile, has gone below and fallen fast asleep; the captain wakes him, astonished, and orders him to call on his own god too. The crew casts lots to learn who is responsible for the calamity, and the lot falls on Jonah, who confesses: 'I am a Hebrew, and I fear the LORD, the God of heaven, who made the sea and the dry land.' Terrified, the men row hard for shore rather than throw him in at once, but the sea only grows wilder; at Jonah's own instruction, and after praying not to be charged with innocent blood, they finally hurl him into the sea — which stops raging immediately. The sailors fear the LORD 'exceedingly,' offer him a sacrifice on the spot, and make vows. The LORD appoints a great fish to swallow Jonah, who is in its belly three days and three nights.",
+  focusPlace: "joppa",
+  places: [
+    { id:"joppa",    role:"Where Jonah goes down to flee the LORD's call, finds a ship, and pays the fare for Tarshish (vv. 3)" },
+    { id:"tarshish", role:"Jonah's intended destination — the ship never arrives; the storm strikes before it clears the coast (v. 3)" }
+  ],
+  journey: [
+    { from:"joppa", to:"tarshish", dashed:true, label:"Jonah's booked passage, never completed", km:3200,
+      note:"A roughly 2,000 mi / 3,200 km voyage west across the whole Mediterranean toward the traditional far end of the known trading world — about as far from Nineveh, in every direction, as a ship out of Joppa could sail. The storm hits long before the ship clears the coast, so this leg marks the intended route, not one the narrative shows completed." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"\"Rise, go to Nineveh\" — Jonah flees instead", av:"prophet",
+      desc:"The word of the LORD comes to Jonah to cry out against Nineveh's evil; Jonah instead rises to flee 'from the presence of the LORD,' going down to Joppa to book passage the opposite direction (vv. 1-3)." },
+    { x:0.18, type:"object", label:"The LORD hurls a great storm",
+      desc:"A violent wind threatens to break the ship apart; the terrified sailors each cry out to his own god and throw the cargo overboard to lighten the vessel (vv. 4-5)." },
+    { x:0.32, type:"person", label:"Asleep in the hold", av:"prophet",
+      desc:"While the storm rages above, Jonah has gone below and fallen fast asleep; the ship's captain finds him and demands he call on his own god like everyone else (vv. 5-6)." },
+    { x:0.46, type:"object", label:"Casting lots — the lot falls on Jonah",
+      desc:"The crew casts lots to learn who has brought this evil on them; the lot falls on Jonah, who confesses, 'I am a Hebrew, and I fear the LORD... who made the sea and the dry land' (vv. 7-9)." },
+    { x:0.6, type:"person", label:"Rowing for shore, then thrown in", av:"traveler",
+      desc:"Now more afraid than ever, the sailors row hard for land instead of acting at once, but the sea only grows wilder; at Jonah's own instruction, and praying not to be charged with innocent blood, they finally hurl him overboard — and the sea stops raging (vv. 10-15)." },
+    { x:0.75, type:"person", label:"The sailors' sacrifice and vows", av:"traveler",
+      desc:"Seeing the sea instantly calm, the crew fears the LORD 'exceedingly,' offers him a sacrifice on the ship's own deck, and makes vows — Gentile converts of a sort, well before Nineveh's (v. 16)." },
+    { x:0.92, type:"object", label:"The LORD appoints a great fish",
+      desc:"A great fish swallows Jonah the moment he goes under; he is in its belly three days and three nights (v. 17)." }
+  ],
+  environment: {
+    chips: ["Joppa, Israel's one real seaport", "Jeroboam II's expanded, prosperous Israel", "Assyria's declining 'weakness decades'", "Ships of Tarshish — the trading horizon's edge", "Casting lots for a ship's fate"],
+    text: "Joppa (modern Jaffa) was essentially Israel's only functioning Mediterranean harbor, a natural anchorage on a rocky headland that had already shipped Solomon's cedar rafts down from Lebanon centuries earlier (2 Chr 2:16) — a believable place for a prophet with no interest in walking east to instead look for the first ship heading anywhere else. Jonah's own ministry is independently dated by 2 Kings 14:25 to the long, prosperous reign of Jeroboam II, decades in which Assyria itself was passing through an unusually weak stretch — internal revolts, a plague, and a solar eclipse (traditionally reckoned to 763 BC) that ancient Near Eastern peoples widely read as an omen of coming disaster. That backdrop, though the book never mentions it directly, has long been offered as one reason a foreign prophet's brief warning might actually land in Nineveh rather than being laughed out of the city."
+  },
+  objectsExtra: ["cast-lots-jonah","great-fish"],
+  peopleExtra: ["jonah","sailors-jonah"],
+  culture: [
+    { title:"Joppa: Israel's only real seaport", icon:"⚓",
+      text:"Israel's coastline offered few natural harbors, and Joppa — a small rocky headland breaking the surf — was about the best on offer; it later ships Lebanon's cedar for both Solomon's and Zerubbabel's temples (2 Chr 2:16; Ezra 3:7) and, centuries after Jonah, is where Peter lodges with Simon the tanner and sees his own rooftop vision about clean and unclean (Acts 10). A prophet wanting to leave Israelite territory by sea had essentially one door to use." },
+    { title:"'Ships of Tarshish' — the far edge of the map", icon:"⛵",
+      text:"Tarshish functions across the Old Testament less as one pinpoint location than as a byword for the most distant profitable horizon a ship could reach, source of silver, iron, tin, and lead (Ezek 27:12) and named alongside Solomon's own long-range trading fleet (1 Kgs 10:22). Whether Tartessus in Spain or, less commonly argued, Tarsus in Cilicia, the point of naming it in Jonah 1:3 is the same either way: Jonah books passage toward the farthest place he can imagine from Nineveh." },
+    { title:"Casting lots to find fault", icon:"🎲",
+      text:"Sailors of mixed nationality turning to lots in a crisis matches a widely attested ancient practice of treating the outcome as divine disclosure rather than chance (cf. Prov 16:33, 'the lot is cast into the lap, but its every decision is from the LORD'); Achan's exposure by lot generations earlier (Josh 7:14-18) is Israel's own parallel use of the same method to find a hidden offender within a group." }
+  ],
+  crossRefs: [
+    { group:"Fleeing 'the presence of the LORD'", refs:[
+      { r:"Genesis 4:16", note:"Cain likewise goes out 'from the presence of the LORD' after his own act of defiance" },
+      { r:"Psalm 139:7-10", note:"'where shall I flee from your presence?' — the theological answer Jonah's flight tests and fails" },
+      { r:"1 Kings 19:3-4", note:"Elijah's own flight into the wilderness, a very different mood but a similar prophetic retreat" } ]},
+    { group:"Storms at sea in Scripture", refs:[
+      { r:"Psalm 107:23-30", note:"sailors caught in a storm cry to the LORD, who stills it 'to a whisper' — the same rescue-pattern, without a runaway prophet aboard" },
+      { r:"Mark 4:37-41", note:"Jesus stills a storm on the Sea of Galilee; the disciples' terror echoes the sailors' own here" },
+      { r:"Acts 27:14-26", note:"Paul's own storm and shipwreck voyage, another prophetic figure aboard a doomed-seeming ship that is nonetheless spared" } ]},
+    { group:"Three days, and the sign of Jonah", refs:[
+      { r:"Matthew 12:39-40", note:"Jesus names Jonah's three days and nights in the fish as the one sign this generation will be given, applied to his own coming death and resurrection" },
+      { r:"2 Kings 14:25", note:"the only other biblical mention of Jonah son of Amittai, dating his ministry to Jeroboam II's reign" },
+      { r:"Jonah 4:2", note:"Jonah's own later confession of exactly why he fled — he already knew God would show mercy" } ]}
+  ]
+},
+
+/* ============================================================
+   JONAH 2 — Jonah's prayer from the belly of the fish
+   ============================================================ */
+"32:2": {
+  era: {
+    title: "ca. 780–750 BC — three days and nights inside the great fish",
+    sub: "Divided kingdom era · the depths of the sea, then dry land · a psalm of deliverance prayed from inside the belly of the fish",
+    badges: ["Three days, three nights", "A psalm from the deep", "Sheol imagery in the sea", "The fish obeys, and vomits him out"]
+  },
+  timeOfDay: "night",
+  summary: "From inside the fish, Jonah prays to the LORD his God. He describes calling out of his distress from 'the belly of Sheol' and being heard; cast into the deep, the heart of the seas, with the currents and waves and breakers all sweeping over him. Driven from God's sight, he still hopes to look again toward the holy temple. The waters close over him to the point of death — weeds wrapped around his head, sinking to the very roots of the mountains, the land's bars closing on him forever — yet the LORD his God brings his life up from the pit. As his life faints away, he remembers the LORD, and his prayer comes to God, into his holy temple. Those who cling to worthless idols forsake their hope of steadfast love, but Jonah vows to sacrifice to the LORD with a voice of thanksgiving and to pay what he has vowed — 'Salvation belongs to the LORD.' The LORD then speaks to the fish, and it vomits Jonah out onto dry land.",
+  focusPlace: "joppa",
+  places: [
+    { id:"joppa",   role:"The sea near where the storm struck and Jonah went under — the setting, in effect, for the prayer he prays from inside the fish (vv. 1-9)" },
+    { id:"nineveh", role:"The mission Jonah fled in ch. 1, and the direction in which the fish's swallowing quietly turns him back — not reached until ch. 3 (cf. 3:1-3)" }
+  ],
+  journey: [
+    { from:"joppa", to:"nineveh", dashed:true, label:"Turned back toward the mission he fled", km:900,
+      note:"Not a journey this chapter shows Jonah actually making — he is still in the fish, somewhere in the sea near where he was thrown overboard. The dashed line marks the reversal already underway: chapter 1's flight ran from Joppa away from Nineveh; from inside the fish, Jonah is instead being carried, however invisibly, back onto the road he refused." }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"\"Out of the belly of Sheol I cried\"", av:"prophet",
+      desc:"Jonah prays from inside the fish, describing his distress as a cry from 'the belly of Sheol' that the LORD heard — the deep and the underworld collapsed into one image of near-death (vv. 1-2)." },
+    { x:0.2, type:"person", label:"Cast into the heart of the seas", av:"prophet",
+      desc:"'You cast me into the deep, into the heart of the seas, and the flood surrounded me; all your waves and your billows passed over me' — Jonah names the storm itself as the LORD's own act, not chance (v. 3)." },
+    { x:0.34, type:"person", label:"\"Yet I shall again look upon your holy temple\"", av:"prophet",
+      desc:"Driven, he says, from God's sight, Jonah nonetheless clings to hope of looking again toward the temple — worship, not the sea, remains his true bearing (v. 4)." },
+    { x:0.48, type:"person", label:"Weeds wrapped, to the roots of the mountains", av:"prophet",
+      desc:"Water closes over him 'to the point of death,' weeds wrap his head, and he sinks to the very roots of the mountains, the earth's bars closing on him forever — the most extreme drowning imagery in the psalm (vv. 5-6a)." },
+    { x:0.62, type:"object", label:"\"You brought up my life from the pit\"",
+      desc:"At the depth of the imagery, the turn: 'yet you brought up my life from the pit, O LORD my God' — the psalm's hinge from descent to deliverance (v. 6b)." },
+    { x:0.78, type:"person", label:"A vow of thanksgiving", av:"prophet",
+      desc:"As his life was fainting away he remembered the LORD, and his prayer reached God's holy temple; he contrasts idol-worshippers who forsake their own hope of steadfast love with his own vow to sacrifice with thanksgiving — 'Salvation belongs to the LORD' (vv. 7-9)." },
+    { x:0.92, type:"object", label:"The fish vomits him onto dry land",
+      desc:"The LORD speaks to the fish, and it vomits Jonah out onto dry land — obedient to God's command in a way its passenger has not yet managed to be (v. 10)." }
+  ],
+  environment: {
+    chips: ["Three days and three nights, unseen", "A formal Hebrew thanksgiving psalm", "Sheol and the deep sea, one image", "\"Salvation belongs to the LORD\"", "The fish obeys on the first command"],
+    text: "Jonah 2 reads, almost the whole way through, as a self-contained Hebrew thanksgiving psalm of the kind collected by the dozen in the Psalter — descent into deadly danger, a remembered cry, and a vow of sacrifice once delivered, the same three-beat shape found in psalms like 18 and 116. Ancient Hebrew poetic cosmology regularly overlaps the sea's depths with Sheol, the realm of the dead, treating both as the farthest point from God's presence and temple; 'the belly of Sheol' and 'the heart of the seas' function as parallel, near-interchangeable images of the same crisis rather than two separate locations. The chapter's real surprise, on a second read, is who is being obedient: the fish does exactly as it is told, both taking Jonah in and putting him back out, while the man inside it is only now beginning to come around."
+  },
+  objectsExtra: ["great-fish"],
+  peopleExtra: ["jonah"],
+  culture: [
+    { title:"A psalm from the deep", icon:"📜",
+      text:"Structurally, Jonah 2 is a textbook individual thanksgiving psalm rather than ordinary narrative prose: distress named, a cry remembered, deliverance credited to the LORD, and a vow to sacrifice — the same pattern used throughout the Psalter (cf. Ps 18, 30, 116). Many scholars read it as an existing or psalm-style composition placed into the narrator's mouth for Jonah at exactly the moment such a prayer would be prayed, rather than a spontaneous, unpracticed cry." },
+    { title:"Sheol and the roots of the mountains", icon:"🌊",
+      text:"Ancient Hebrew poetic geography pictured the sea's floor and the underworld as bordering, even overlapping, realms — 'the roots of the mountains' and 'the land whose bars closed upon me forever' describe both a literal ocean floor and the gates of the world of the dead in the same breath. Jonah's language of near-total submersion is the Old Testament's most vivid single description of what it poetically means to go down to Sheol while still, technically, alive." },
+    { title:"\"Salvation belongs to the LORD\"", icon:"🙏",
+      text:"The psalm's climactic line functions almost as its own thesis statement for the whole book: deliverance is never something Jonah — or the sailors, or later Nineveh — achieves for themselves, only something the LORD grants where he chooses, to whomever he chooses, on his own initiative. The line reappears, essentially verbatim, as a doxology of the redeemed multitude in Revelation 7:10, on the far side of the whole biblical story." }
+  ],
+  crossRefs: [
+    { group:"Jonah's prayer echoes the Psalter", refs:[
+      { r:"Psalm 18:4-6", note:"'the cords of Sheol entangled me... I called to the LORD... he heard my voice' — near-identical imagery and structure" },
+      { r:"Psalm 42:7", note:"'deep calls to deep at the roar of your waterfalls; all your breakers and your waves have gone over me'" },
+      { r:"Psalm 116:3-4", note:"'the snares of death encompassed me... then I called on the name of the LORD'" } ]},
+    { group:"Three days and three nights", refs:[
+      { r:"Matthew 12:40", note:"Jesus reads Jonah's three days in the fish as a sign pointing to his own three days in the earth" },
+      { r:"Hosea 6:2", note:"'after two days he will revive us; on the third day he will raise us up' — the same time-span used of national restoration" },
+      { r:"1 Corinthians 15:4", note:"Christ 'was raised on the third day in accordance with the Scriptures'" } ]},
+    { group:"Deliverance credited to the LORD alone", refs:[
+      { r:"Psalm 3:8", note:"'Salvation belongs to the LORD; your blessing be on your people!' — the line Jonah's psalm all but quotes" },
+      { r:"Exodus 14:13-14", note:"'the LORD will fight for you, and you have only to be silent' — deliverance as entirely God's own act, at the sea, generations earlier" },
+      { r:"Revelation 7:10", note:"the redeemed multitude's own cry, 'Salvation belongs to our God who sits on the throne, and to the Lamb!'" } ]}
+  ]
+},
+
+/* ============================================================
+   JONAH 3 — Jonah's second call, Nineveh's repentance
+   ============================================================ */
+"32:3": {
+  era: {
+    title: "ca. 780–750 BC — the LORD's word comes to Jonah a second time",
+    sub: "Divided kingdom era · Nineveh, 'an exceedingly great city' on the Tigris · Assyria's 8th-century decades of internal weakness",
+    badges: ["Jonah's second, obeyed call", "\"Yet forty days\"", "Sackcloth for man and beast alike", "God relents of the disaster"]
+  },
+  timeOfDay: "day",
+  summary: "The word of the LORD comes to Jonah a second time: rise, go to Nineveh, and call out the message God gives him. This time Jonah goes, according to the word of the LORD. Nineveh is an exceedingly great city, a three days' journey in breadth; Jonah goes a day's walk into it and cries out just five Hebrew words: 'Yet forty days, and Nineveh shall be overthrown!' The Ninevites believe God — they proclaim a fast and put on sackcloth, from the greatest of them to the least. Word reaches the king of Nineveh, who rises from his throne, removes his robe, covers himself with sackcloth, and sits in ashes. He and his nobles issue a decree: no man or beast, herd or flock, is to taste anything, eat, or drink water; all are to be covered in sackcloth and to call out mightily to God, turning from their evil way and the violence in their hands — 'Who knows? God may turn and relent and turn from his fierce anger, so that we may not perish.' God sees their deeds, that they turned from their evil way, and he relents of the disaster he had said he would do to them, and does not do it.",
+  focusPlace: "nineveh",
+  places: [
+    { id:"joppa",   role:"The text never says exactly where Jonah is set down (2:10); Joppa, his original departure point in ch. 1, is used here only as a narrative anchor for the map, not as a claim about the literal landing spot" },
+    { id:"nineveh", role:"An exceedingly great city, three days' journey in breadth — Jonah's preaching, the fast, and the king's decree of repentance all happen here (vv. 3-9)" }
+  ],
+  journey: [
+    { from:"joppa", to:"nineveh", label:"Jonah's obeyed journey, this time", km:900,
+      note:"Roughly 560 mi / 900 km overland from the Mediterranean coast to Nineveh on the Tigris — weeks of travel by any ancient route, far more than the 'three days' journey' the text uses to describe the city's own breadth, not the length of the trip to reach it (v. 3)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"The word comes a second time", av:"prophet",
+      desc:"'Arise, go to Nineveh, that great city, and call out against it the message that I tell you' — Jonah this time 'arose and went to Nineveh, according to the word of the LORD' (vv. 1-3)." },
+    { x:0.2, type:"object", label:"\"An exceedingly great city\"",
+      desc:"Nineveh is described as a three days' journey in breadth — a description of the city and its metropolitan sprawl, not of Jonah's travel time to reach it (v. 3)." },
+    { x:0.36, type:"person", label:"Five words, one day's walk in", av:"prophet",
+      desc:"Jonah goes only a day's walk into the city and cries out the shortest message of any prophet in Scripture: 'Yet forty days, and Nineveh shall be overthrown!' (v. 4)." },
+    { x:0.5, type:"person", label:"\"The people of Nineveh believed God\"", av:"traveler",
+      desc:"Without a single recorded miracle to back the warning, the Ninevites believe God outright, proclaim a fast, and put on sackcloth 'from the greatest of them to the least' (v. 5)." },
+    { x:0.64, type:"person", label:"The king rises from his throne", av:"king",
+      desc:"Word reaches the king of Nineveh, who rises, removes his royal robe, covers himself with sackcloth instead, and sits down in ashes (v. 6)." },
+    { x:0.78, type:"object", label:"A decree for man and beast alike",
+      desc:"By decree of the king and his nobles, no person or animal is to eat or drink; everyone is covered in sackcloth, called to cry out to God and turn from evil and violence — 'who knows? God may turn and relent' (vv. 7-9)." },
+    { x:0.92, type:"person", label:"God relents of the disaster", av:"king",
+      desc:"God sees their deeds — that they turned from their evil way — and he relents of the disaster he had said he would bring on them, and does not do it (v. 10)." }
+  ],
+  environment: {
+    chips: ["Nineveh — capital-scale Assyrian metropolis", "\"Three days' journey\" describes the city, not the trip", "Fasting and sackcloth extended to livestock", "A five-word sermon", "Assyria's mid-8th-century internal weakness"],
+    text: "Nineveh's walled core (excavated at modern Tell Kuyunjik and Tell Nebi Yunus, across the Tigris from Mosul) measured only a few miles around, far short of a literal three-day walk — which is why most interpreters read 'a three days' journey in breadth' as describing Nineveh's greater metropolitan district, the cluster of satellite towns and farmland the Assyrians themselves sometimes bundled under the city's name, rather than the fortified walls alone. Extending fasting and mourning garb to livestock, unusual to modern readers, has a real ancient parallel: the Greek historian Herodotus later describes Persian mourning customs that likewise dress animals in signs of grief. The book gives no date and names no king, but Jonah's own ministry is independently placed under Jeroboam II (2 Kgs 14:25), a period when Assyria was passing through genuine internal weakness — plague, revolt, and a solar eclipse widely read at the time as an omen — any of which could help explain a city primed, for once, to take a foreign prophet's warning seriously."
+  },
+  objectsExtra: ["sackcloth"],
+  peopleExtra: ["jonah","ninevite-king"],
+  culture: [
+    { title:"Nineveh: \"that great city\"", icon:"🏛️",
+      text:"By the time of its final glory under Sennacherib and Ashurbanipal a century after Jonah, Nineveh had grown into one of the ancient world's largest cities, with an outer wall enclosing roughly 1,800 acres and a population plausibly in the hundreds of thousands once its satellite towns are counted — a scale that makes Jonah 4:11's figure of '120,000 persons who do not know their right hand from their left' (commonly read as young children alone) entirely plausible for the greater urban area the book has in view." },
+    { title:"Sackcloth, ashes, and fasting extended to animals", icon:"🐐",
+      text:"Coarse goat-hair sackcloth and ashes were the standard ancient Near Eastern signs of mourning or repentance (cf. 2 Sam 3:31; Esth 4:1), but decreeing them for herds and flocks as well as people is unusual enough to draw comment — Herodotus later records Persian mourners similarly shearing and dressing their pack animals in grief, suggesting the king of Nineveh's order, however extreme it reads, was not without ancient precedent." },
+    { title:"A five-word sermon", icon:"📣",
+      text:"In Hebrew, Jonah's entire recorded message is just five words: 'od arba'im yom weNineveh nehpakhet — 'yet forty days and Nineveh overthrown.' No call to repent, no name for the offense, no offer of mercy is recorded at all; the Ninevites' turning is entirely their own inference from a bare threat, which is very likely part of why Jonah is so aggrieved in the next chapter that mercy followed anyway." }
+  ],
+  crossRefs: [
+    { group:"Jonah's sign, tested against a later generation", refs:[
+      { r:"Luke 11:29-32", note:"Jesus: 'the men of Nineveh will rise up at the judgment... for they repented at the preaching of Jonah, and behold, something greater than Jonah is here'" },
+      { r:"Matthew 12:41", note:"the same saying in Matthew's version, paired with the sign of Jonah" },
+      { r:"2 Kings 14:25", note:"the only other biblical reference to Jonah son of Amittai, situating his ministry under Jeroboam II" } ]},
+    { group:"National repentance and a God who relents", refs:[
+      { r:"Joel 2:12-14", note:"'who knows whether he will not turn and relent' — the identical Hebrew idiom the king of Nineveh uses, applied to Judah's own repentance" },
+      { r:"Jeremiah 18:7-8", note:"the LORD's stated principle: a nation warned of disaster that turns from its evil will see the disaster relented" },
+      { r:"2 Chronicles 7:14", note:"'if my people... turn from their wicked ways... I will forgive their sin and heal their land'" } ]},
+    { group:"Nineveh's later, final judgment", refs:[
+      { r:"Nahum 1:1; 3:1-7", note:"a later prophet announces Nineveh's total, unrepented destruction — the repentance here did not outlast the generation" },
+      { r:"Zephaniah 2:13-15", note:"Nineveh's eventual desolation foretold in detail, fulfilled in 612 BC" },
+      { r:"2 Kings 19:35-36", note:"Sennacherib withdraws to Nineveh after his army is struck outside Jerusalem — the same city, a later Assyrian king" } ]}
+  ]
+},
+
+/* ============================================================
+   JONAH 4 — Jonah's anger, the plant, and God's closing question
+   ============================================================ */
+"32:4": {
+  era: {
+    title: "ca. 780–750 BC — just outside a spared Nineveh",
+    sub: "Divided kingdom era · a booth east of the city · the book's unresolved, open ending",
+    badges: ["Jonah's anger at mercy shown", "\"I knew you are a gracious God\"", "The appointed plant, worm, and wind", "God's closing question, unanswered"]
+  },
+  timeOfDay: "day",
+  summary: "Jonah is greatly displeased and angry that God has relented of the disaster he threatened against Nineveh. He prays: 'Is not this what I said when I was yet in my country? That is why I made haste to flee to Tarshish; for I knew that you are a gracious God and merciful, slow to anger and abounding in steadfast love, and relenting from disaster.' He asks the LORD to take his life, since death is better to him than living with this outcome. The LORD asks, 'Do you do well to be angry?' — a question Jonah leaves unanswered. He goes out east of the city, makes a booth, and sits in its shade to see what will become of Nineveh. The LORD appoints a plant to grow up over him, giving shade and relief, and Jonah is exceedingly glad about the plant. But at dawn the next day God appoints a worm that attacks the plant so that it withers; when the sun rises, God appoints a scorching east wind, and the sun beats on Jonah's head until he is faint and again asks to die. God asks a second time whether he does well to be angry, this time specifically about the plant; Jonah says yes, angry enough to die. The LORD closes the book with a question of his own: Jonah pitied the plant he did not labor for or grow, which came in a night and perished in a night — should God not pity Nineveh, that great city, in which there are more than 120,000 persons who do not know their right hand from their left, and also much cattle?",
+  focusPlace: "nineveh",
+  places: [
+    { id:"nineveh",  role:"The spared city Jonah sits east of, watching in a self-made booth to see what will become of it (vv. 1, 5)" },
+    { id:"tarshish", role:"Jonah's own explanation for his original flight in ch. 1 — not visited in this chapter, but the destination his anger here circles straight back to (v. 2)" }
+  ],
+  journey: [
+    { from:"tarshish", to:"nineveh", dashed:true, label:"The flight he wanted, and the mission he got", km:3200,
+      note:"Not a journey traveled in this chapter — Jonah has been sitting outside Nineveh the whole time. The dashed line draws the book's own bookend: the distant destination he tried to reach in chapter 1 against the city whose mercy he is now angry enough, in chapter 4, to wish himself dead over." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"\"Is not this what I said?\"", av:"prophet",
+      desc:"Jonah is greatly displeased and angry that God has relented; he prays that this — God's grace and mercy — is exactly why he fled to Tarshish in the first place, and asks to die rather than live with the outcome (vv. 1-3)." },
+    { x:0.18, type:"object", label:"\"Do you do well to be angry?\"",
+      desc:"The LORD's first question to Jonah, left without a recorded answer — the book's pattern of unresolved divine questions begins here (v. 4)." },
+    { x:0.32, type:"person", label:"A booth east of the city", av:"prophet",
+      desc:"Jonah goes out east of Nineveh, builds himself a booth, and sits in its shade 'till he should see what would become of the city' — still half-hoping, it seems, for the disaster after all (v. 5)." },
+    { x:0.46, type:"object", label:"The appointed plant",
+      desc:"The LORD appoints a fast-growing plant to shade Jonah's head and ease his discomfort; Jonah is 'exceedingly glad' about the plant — more glad about it, the text implies, than about 120,000 spared lives (v. 6)." },
+    { x:0.6, type:"object", label:"The appointed worm, and the scorching wind",
+      desc:"At dawn God appoints a worm that attacks the plant so it withers; when the sun rises he appoints a scorching east wind besides, and the sun beats on Jonah's head until he grows faint and asks again to die (vv. 7-8)." },
+    { x:0.76, type:"person", label:"\"Angry enough to die\"", av:"prophet",
+      desc:"Asked a second time whether he does well to be angry — now specifically about the plant — Jonah answers yes, angry enough to die, repeating almost verbatim his death wish over Nineveh's sparing (vv. 8-9)." },
+    { x:0.92, type:"object", label:"\"Should I not pity Nineveh?\"",
+      desc:"The LORD's closing argument and the book's final line: Jonah pitied a plant he did nothing to grow, which lasted a single night — should God not pity a great city of more than 120,000 people who do not know their right hand from their left, and much cattle besides? The book ends here, with no recorded reply (vv. 10-11)." }
+  ],
+  environment: {
+    chips: ["East of a spared city, watching and waiting", "The qiqayon — grown and gone in a day", "A scorching desert east wind (sharav/khamsin)", "Two death wishes, almost word for word", "The only prophetic book that ends on a question"],
+    text: "A scorching east wind out of the desert (the sharav or khamsin still known in the region today) can push temperatures into the 100s°F within hours, carrying dust and sapping strength fast enough that ancient and modern observers alike describe it as physically dangerous — exactly the kind of literal, ordinary weather event this chapter uses as one more thing 'the LORD appointed,' alongside a plant and a worm, to make its argument. Jonah's booth, sitting and waiting outside a city to see whether judgment will still fall, has an obvious parallel in Abraham's own bargaining and watching over Sodom (Gen 18-19) — except Abraham pleaded for mercy while Jonah, having delivered his warning, seems to be hoping mercy will run out. The book's ending is famously abrupt: no narrated response from Jonah, no report of whether he ever answered God's question, leaving the original audience — not just Jonah — to supply the missing reply."
+  },
+  objectsExtra: ["qiqayon-plant"],
+  peopleExtra: ["jonah"],
+  culture: [
+    { title:"The qiqayon: what was Jonah's plant?", icon:"🌿",
+      text:"The Hebrew qiqayon, found nowhere else in the Bible, is most often identified as the castor-bean plant (Ricinus communis), a genuinely fast-growing broad-leafed shrub native to the region that can shoot up several feet in days — plausible enough to have generated a famous fourth-century translation dispute between Jerome (who rendered it a plain 'ivy'/vine) and Augustine, whose congregation reportedly rioted when a North African church's traditional 'gourd' reading was changed in a new Latin translation." },
+    { title:"120,000 who don't know their right hand from their left", icon:"👶",
+      text:"The book's final figure is most often read as referring to young children too undeveloped to make moral distinctions — implying a total Nineveh-area population several times that number once adults are counted, a scale consistent with what is known of Nineveh's later imperial-era size. A minority reading takes the phrase more broadly, as moral or spiritual ignorance of the LORD across the whole population; either way the point is the same — a city God has compassion on regardless of what its people do or don't yet understand." },
+    { title:"A book that ends on a question", icon:"❓",
+      text:"Uniquely among the Minor Prophets, Jonah closes with no restored oracle, no narrated repentance from its own prophet, and no formula of resolution — just God's unanswered question hanging in the air. Ancient and modern readers alike have taken the silence as deliberate: the book was written for an audience (traditionally Israel, tempted toward its own resentment of Gentile mercy) that was meant to supply the answer Jonah never gives on the page." }
+  ],
+  crossRefs: [
+    { group:"Jonah's own explanation, and God's creed", refs:[
+      { r:"Jonah 1:1-3", note:"the flight this chapter now explains — Jonah names his reason for fleeing outright, for the first time" },
+      { r:"Exodus 34:6-7", note:"the LORD's own self-description that Jonah quotes almost word for word — 'gracious and merciful, slow to anger, abounding in steadfast love'" },
+      { r:"Joel 2:13", note:"the identical creedal formula used elsewhere to urge repentance, not resent the mercy that follows it" } ]},
+    { group:"Prophets who wished for death", refs:[
+      { r:"1 Kings 19:4", note:"Elijah, exhausted after Carmel: 'It is enough; now, O LORD, take away my life'" },
+      { r:"Numbers 11:15", note:"Moses asks to be killed outright rather than keep carrying the people's burden alone" },
+      { r:"Job 3:11-13", note:"Job's own wish that he had never been born — despair shared by more than one of God's servants" } ]},
+    { group:"Mercy toward outsiders — a running biblical thread", refs:[
+      { r:"Luke 15:28-32", note:"the older brother's anger at mercy for the prodigal — a close narrative parallel to Jonah's own resentment" },
+      { r:"Acts 11:1-18", note:"Peter's own reckoning with Gentile mercy at Cornelius's house — 'to the Gentiles also God has granted repentance that leads to life'" },
+      { r:"Romans 9:14-16", note:"Paul's argument that mercy is God's own prerogative to extend — 'so it depends not on human will... but on God, who has mercy'" } ]}
+  ]
 }
 
 };
