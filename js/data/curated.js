@@ -9766,6 +9766,144 @@ BVV.CURATED = {
       { r:"Acts 11:1-18", note:"Peter's own reckoning with Gentile mercy at Cornelius's house — 'to the Gentiles also God has granted repentance that leads to life'" },
       { r:"Romans 9:14-16", note:"Paul's argument that mercy is God's own prerogative to extend — 'so it depends not on human will... but on God, who has mercy'" } ]}
   ]
+},
+
+/* ============================================================
+   MICAH 5 — a ruler from Bethlehem Ephrathah, and the remnant purged
+   ============================================================ */
+"33:5": {
+  era: {
+    title: "ca. 735–700 BC — a ruler promised from little Bethlehem",
+    sub: "Iron Age II · Assyrian crisis · reigns of Jotham, Ahaz, and Hezekiah of Judah",
+    badges: ["Iron Age II", "Assyrian crisis", "Bethlehem Ephrathah's ruler", "≈2,750 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "In the middle of a siege, with Israel's judge struck on the cheek, Micah names the reversal: from Bethlehem Ephrathah — 'too little to be among the clans of Judah' — will come one to be ruler in Israel, 'whose origin is from of old, from ancient days.' He will stand and shepherd his flock in the strength of the LORD, and his people will dwell secure, for he will be great to the ends of the earth; he himself will be their peace, even when the Assyrian invades, met by 'seven shepherds and eight princes' who will shepherd Assyria's own land with the sword. The remnant of Jacob will sit among many peoples two ways at once — like dew from the LORD that no one commands, and like a young lion among sheep that no one can resist. Then the LORD turns to purge his own people of everything that competed with this hope: horses and chariots cut off, fortified cities thrown down, sorceries and fortune-tellers cut off, carved images and sacred pillars destroyed, Asherah poles rooted out — and, in anger and wrath, vengeance on the nations that did not obey.",
+  focusPlace: "bethlehem",
+  places: [
+    { id:"bethlehem", role:"'Too little to be among the clans of Judah,' yet the town named as the coming ruler's own origin, 'from of old, from ancient days' (v. 2)" },
+    { id:"jerusalem", role:"Never named in this oracle, but the throne David's own line already held ten kilometers north of Bethlehem — included thematically as the 'clans of Judah' Bethlehem is measured against (v. 2)" },
+    { id:"nineveh", role:"Standing in for Assyria and 'the land of Nimrod,' the empire already pressing on Judah in Micah's own lifetime — not visited in this chapter, but the very invasion this oracle promises will be repelled (vv. 5-6)" }
+  ],
+  journey: [
+    { from:"bethlehem", to:"jerusalem", dashed:true, label:"A too-small clan town, and David's own throne", km:10,
+      note:"Micah 5 narrates no journey — this leg only draws the line every early hearer already knew: a ruler from a town 'too little to be among the clans of Judah' shares Bethlehem's soil with David himself, whose dynasty already sat enthroned a short walk north in Jerusalem (cf. 1 Sam 16:1-13; Ruth 4:11-17)." },
+    { from:"nineveh", to:"bethlehem", dashed:true, label:"The Assyrian threat this ruler answers", km:870,
+      note:"Not a march this chapter narrates: Assyria and its capital Nineveh stand for the empire whose armies were already threatening Judah's hill country in Micah's lifetime (2 Kgs 18) and would reach Jerusalem's gates within a generation. The oracle answers that threat directly — 'when the Assyrian comes into our land... he shall deliver us from the Assyrian' (vv. 5-6)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"A city besieged, a judge struck", av:"warrior",
+      desc:"The chapter opens mid-crisis: 'daughter of troops' is under siege, and Israel's own judge is struck on the cheek with a rod — the low point the ruler-oracle that follows is written to answer (v. 1)." },
+    { x:0.2, type:"person", label:"Bethlehem Ephrathah, too little to matter", av:"shepherd",
+      desc:"'You, O Bethlehem Ephrathah, who are too little to be among the clans of Judah' — yet from this village 'shall come forth for me one who is to be ruler in Israel, whose coming forth is from of old, from ancient days' (v. 2)." },
+    { x:0.34, type:"person", label:"He shall stand and shepherd his flock", av:"shepherd",
+      desc:"The coming ruler feeds his flock 'in the strength of the LORD, in the majesty of the name of the LORD his God'; his people dwell secure, 'for now he shall be great to the ends of the earth' (vv. 3-4)." },
+    { x:0.46, type:"object", label:"\"He shall be their peace\"",
+      desc:"Even when the Assyrian invades and treads Judah's palaces, seven shepherds and eight princes rise to shepherd the land of Assyria itself with the sword — deliverance answered in kind, not just promised in name (vv. 5-6)." },
+    { x:0.58, type:"object", label:"Like dew, and like a lion",
+      desc:"The remnant of Jacob among many peoples is pictured two ways at once: dew from the LORD that refreshes without waiting on anyone, and a young lion among flocks of sheep that none can deliver themselves from (vv. 7-8)." },
+    { x:0.72, type:"object", label:"Horses, chariots, and strongholds cut off",
+      desc:"The LORD turns from the nations to his own people: horses and chariots destroyed, fortified cities thrown down — the very military self-reliance the ruler-oracle just declared unnecessary (vv. 9-11)." },
+    { x:0.9, type:"object", label:"Sorceries, images, and Asherah poles rooted out",
+      desc:"Fortune-tellers cut off, carved images and sacred pillars destroyed, Asherah poles rooted out of the land, and — 'in anger and wrath' — vengeance on the nations that did not obey: the chapter closes on a purge, not just a promise (vv. 12-15)." }
+  ],
+  environment: {
+    chips: ["Iron Age II · Judean hill country under Assyrian shadow", "Bethlehem: a farming village, not a royal seat", "'From of old, from ancient days'", "Dew and lion, in the same breath", "A purge of sorcery, images, and Asherah poles"],
+    text: "Bethlehem in Micah's day was a small farming settlement a few kilometers south of Jerusalem, never a royal capital and never even ranked among Judah's leading towns — which is precisely the prophet's point in naming it: whatever ruler comes will not owe his standing to the town's own size or status. 'From of old, from ancient days' (Heb. miqqedem, mime olam) is language ancient Near Eastern royal ideology often used loosely of a dynasty's antiquity, though its pairing here with a ruler already described as Israel's shepherd-king has made the phrase a focal point for later messianic and, in Christian reading, pre-existence claims. The chapter's closing purge — horses, fortresses, sorceries, carved images, Asherah poles — matches almost item for item the reforms Hezekiah is later credited with in Micah's own generation (2 Kgs 18:4), suggesting the oracle names sins that were still live options in Judah's towns and countryside, not relics of a settled past."
+  },
+  objectsExtra: ["shepherds-rod-staff","divination","asherah-pole"],
+  peopleExtra: ["micah"],
+  culture: [
+    { title:"Bethlehem's deliberate smallness", icon:"🏘️",
+      text:"Micah's phrasing plays directly against expectation: kings come from capitals, not hamlets. By naming Bethlehem 'too little' in the same breath as naming it the ruler's origin, the oracle builds smallness into the sign itself — a pattern the New Testament reads as fulfilled quite literally in a manger, not a palace (Luke 2:1-7)." },
+    { title:"Assyria's shadow over Micah's Judah", icon:"🛡️",
+      text:"Micah prophesied through the reigns of Jotham, Ahaz, and Hezekiah — exactly the decades Assyria's kings Tiglath-pileser III, Shalmaneser V, and Sennacherib were dismantling the northern kingdom and pressing hard on Judah, culminating in Sennacherib's own 701 BC invasion (2 Kgs 18-19). The oracle's promise of deliverance 'when the Assyrian comes into our land' names a threat Micah's first hearers were living through, not a distant hypothetical." },
+    { title:"'From of old, from ancient days'", icon:"⏳",
+      text:"The Hebrew phrase can describe simple antiquity — a dynasty's ancient pedigree, the kind of language other Near Eastern royal inscriptions use of long-established houses — or, read more strongly, a coming-forth that precedes ordinary human history altogether. Jewish and Christian interpreters have long differed on how far to press the phrase; both readings agree the ruler's authority is not merely local or recent." },
+    { title:"Asherah poles and sorceries — cultic reform, not metaphor", icon:"🌳",
+      text:"Carved images, sacred pillars, and Asherah poles were ordinary fixtures at Israelite and Judean high places throughout the monarchy, attested by excavated cult stands and inscriptions pairing 'the LORD' with 'his Asherah.' Micah's purge list matches, almost item for item, the reforms 2 Kings credits to Hezekiah in this same generation (2 Kgs 18:4) — this is a live policy program the oracle is calling for, not decorative imagery." }
+  ],
+  crossRefs: [
+    { group:"Cited directly as fulfilled", refs:[
+      { r:"Matthew 2:1-6", note:"Herod's chief priests and scribes quote this verse almost word for word to answer his question: where is the Christ to be born?" },
+      { r:"John 7:41-42", note:"a crowd disputes whether Jesus can be the Christ, since 'does not the Scripture say that the Christ comes from... Bethlehem, the village where David was'" } ]},
+    { group:"A village's royal line", refs:[
+      { r:"1 Samuel 16:1-13", note:"Samuel anoints the shepherd-boy David at Bethlehem, passing over his older brothers" },
+      { r:"Ruth 4:11-17", note:"Boaz and Ruth's marriage at Bethlehem, the great-grandparents of David, generations before this oracle" } ]},
+    { group:"The remnant, dew, and deliverance", refs:[
+      { r:"Isaiah 10:20-22", note:"a remnant of Jacob that returns, echoing the same 'remnant' language this chapter builds on" },
+      { r:"2 Kings 19:35-36", note:"the historical deliverance from Assyria this oracle's promise anticipates — the angel of the LORD strikes Sennacherib's camp" } ]},
+    { group:"Purging idolatry, then and later", refs:[
+      { r:"2 Kings 18:4", note:"Hezekiah's own reforms — high places, pillars, and an Asherah pole removed — read as this oracle's near-term fulfillment" },
+      { r:"Deuteronomy 18:10-12", note:"the older law behind Micah's cutting off of sorceries and fortune-tellers" } ]}
+  ]
+},
+
+/* ============================================================
+   HAGGAI 1 — "Is it a time for you to dwell in your paneled houses?"
+   ============================================================ */
+"37:1": {
+  era: {
+    title: "520 BC — the second year of Darius, and a stalled excuse runs out",
+    sub: "Persian period (Achaemenid) · Jerusalem · sixth month, first to twenty-fourth day",
+    badges: ["Persian period (Achaemenid)", "Second year of Darius I", "Second temple resumed", "≈2,546 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "In the second year of Darius the king, the word of the LORD comes through Haggai the prophet to Zerubbabel, governor of Judah, and Joshua the high priest: the people are saying the time has not yet come to rebuild the LORD's house. Haggai's answer is blunt — is it a time for you yourselves to dwell in your own paneled houses, while this house lies in ruins? Consider your ways: you have sown much and harvested little, you eat and drink without ever being filled, you earn wages only to put them in a bag with holes. That failure is no accident, the LORD says — I called for a drought, on the grain, the wine, the oil, on man and beast, on all your labors, because my house lies in ruins while each of you busies himself with his own. So go up to the hills, bring wood, and build the house, that I may take pleasure in it and be glorified. Zerubbabel, Joshua, and all the remnant of the people obey the voice of the LORD their God and fear him. Haggai delivers a short, decisive reply: 'I am with you, declares the LORD.' The LORD stirs the spirit of Zerubbabel, Joshua, and the whole remnant, and twenty-three days after the first word came, they arrive and get to work on the house of the LORD of hosts, their God.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"Never named in this chapter itself, but unmistakably the site of 'this house' lying in ruins and the temple work resumed here — included thematically, since the text speaks only of 'this house' and 'the hills' (vv. 2, 4, 8, 14-15)" },
+    { id:"babylon", role:"The exile this same community was released from little more than a decade and a half earlier (Ezra 1-3) — not visited in this chapter, but the deportation whose end is what made a stalled temple project possible at all" }
+  ],
+  journey: [
+    { from:"babylon", to:"jerusalem", dashed:true, label:"Sixteen years resettled, the temple still unfinished", km:870,
+      note:"Not a journey this chapter narrates — this same community had already made the long road home under Cyrus's decree and laid the temple's foundation amid weeping and shouting (Ezra 3). The dashed line marks how much time had passed since: a foundation laid, then set aside for over a decade while private houses got finished instead." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Zerubbabel and Joshua, addressed by name", av:"official",
+      desc:"The word of the LORD comes through Haggai specifically to Zerubbabel son of Shealtiel, governor of Judah, and Joshua son of Jehozadak, the high priest — the same two leaders who had laid the temple's foundation years before (v. 1; cf. Ezra 3)." },
+    { x:0.17, type:"object", label:"\"The time has not yet come\"",
+      desc:"The people's own excuse, quoted back to them by the LORD himself: rebuilding the temple can wait — an assessment the rest of the chapter directly contradicts (v. 2)." },
+    { x:0.3, type:"object", label:"Paneled houses, and a house in ruins",
+      desc:"'Is it a time for you yourselves to dwell in your paneled houses, while this house lies in ruins?' — cedar-paneled interiors were a mark of comfortable, finished construction, set pointedly against the LORD's own unfinished house (v. 4)." },
+    { x:0.44, type:"object", label:"Sown much, harvested little",
+      desc:"'Consider your ways': much sown but little harvested, eating and drinking without ever being filled, wages earned only to be put into a bag with holes — ordinary economic failure the LORD names as his own doing (vv. 5-6, 9)." },
+    { x:0.58, type:"person", label:"\"Go up to the hills and build\"", av:"prophet",
+      desc:"The command follows the diagnosis directly: go up, bring wood, and build the house, that the LORD may take pleasure in it and be glorified — the drought itself is explained as discipline for neglecting exactly this (vv. 7-11)." },
+    { x:0.72, type:"person", label:"The remnant obeys and fears the LORD", av:"official",
+      desc:"Zerubbabel, Joshua, and all the remnant of the people obey the voice of the LORD their God and the words of Haggai the prophet, 'as the LORD their God had sent him' — and the people fear the LORD (v. 12)." },
+    { x:0.9, type:"person", label:"\"I am with you\" — twenty-three days to shovel", av:"prophet",
+      desc:"Haggai answers the people's obedience with the LORD's own short message, 'I am with you'; the LORD stirs the spirit of Zerubbabel, Joshua, and the remnant, and on the twenty-fourth day of the month — twenty-three days after the first word came — they come and start work on the house (vv. 13-15)." }
+  ],
+  environment: {
+    chips: ["Second year of Darius, sixth month", "A temple foundation left unfinished for over a decade", "Paneled houses vs. a house in ruins", "Drought as covenant discipline", "Twenty-three days from rebuke to shovel"],
+    text: "Haggai's four oracles are dated with unusual precision — year, month, and day, all tied to the reign of a named Persian king (Hag 1:1, 15; 2:1, 10, 20) — a level of chronological exactness matched in Scripture mainly by Ezekiel, and independently corroborated by Ezra 4-6's own narrative of the same building project stalling under local opposition before Darius's later search of the royal archives confirms Cyrus's original decree (Ezra 5-6). 'Paneled houses' (Heb. bearim, cedar-lined interior walls) mark comfortable, finished private construction — the same luxury detail Solomon's own builders used (1 Kgs 7:3) and later prophets condemn as excess (Jer 22:14) — set pointedly against a temple whose foundation had sat exposed for years. The withheld dew, drought, and failed harvest Haggai describes follow the exact covenant-curse pattern laid out generations earlier for a people who neglect what God has commanded (Deut 28:38-40; Lev 26:18-20), read here as presently active, not merely a historical threat."
+  },
+  objectsExtra: ["temple","bag-with-holes"],
+  peopleExtra: ["haggai","zerubbabel","jeshua-priest","darius-persian"],
+  culture: [
+    { title:"Paneled houses vs. a ruined temple", icon:"🏠",
+      text:"A cedar-paneled interior was a real luxury in the Persian-period province of Yehud — the same detail Solomon's builders once used for the first temple (1 Kgs 7:3) and later prophets name as a mark of self-indulgent excess (Jer 22:14). Haggai's point is comparative, not ascetic: the community had resources enough to finish their own homes to that standard while leaving the LORD's house a ruin." },
+    { title:"Drought as covenant discipline", icon:"🌾",
+      text:"Withheld dew, a land that won't produce, and labor that comes to nothing are not generic bad luck in Haggai's own reading — they match, almost clause for clause, the covenant curses Moses laid out generations earlier for neglecting the LORD's commands (Deut 28:38-40; Lev 26:18-20). Haggai reads a run of poor harvests as that same curse, presently active and traceable to one specific cause." },
+    { title:"Haggai's precise dating", icon:"📅",
+      text:"Four oracles across two short chapters, each pinned to an exact year, month, and day of Darius's reign, give Haggai the most precisely dated ministry of any Old Testament prophet relative to its length — a chronology that lines up with, and is independently narrated from the outside in, Ezra 5-6's own account of the same building project resuming under the same two leaders." },
+    { title:"Twenty-three days", icon:"⏳",
+      text:"The gap between Haggai's first rebuke (the first day of the sixth month, v. 1) and the resumption of work (the twenty-fourth day of the same month, v. 15) is just over three weeks — a strikingly fast turnaround for a project that had sat stalled for well over a decade, credited in the text itself not to persuasion but to the LORD stirring the leaders' and people's own spirit (v. 14)." }
+  ],
+  crossRefs: [
+    { group:"Same community, same story, told from outside", refs:[
+      { r:"Ezra 5:1-2", note:"the external narrative confirmation: Haggai and Zechariah prophesy to the Jews in Judah, and Zerubbabel and Jeshua rise and resume building" },
+      { r:"Ezra 3:8-13", note:"the temple's foundation, laid by this same Zerubbabel and Jeshua more than a decade before this chapter's rebuke" },
+      { r:"Zechariah 4:6-10", note:"Haggai's contemporary prophet, addressing the same Zerubbabel: 'not by might, nor by power, but by my Spirit'" } ]},
+    { group:"The futility curse, and its root", refs:[
+      { r:"Deuteronomy 28:38-40", note:"sowing much and gathering little, planting vineyards without drinking the wine — the covenant curse Haggai's own language echoes" },
+      { r:"Leviticus 26:18-20", note:"the earlier law's own warning: land that will not yield its increase, for persistent unfaithfulness" },
+      { r:"Malachi 3:8-10", note:"a later, related indictment — withheld tithes met with a withheld blessing, until the people 'bring the full tithe'" } ]},
+    { group:"What happens next", refs:[
+      { r:"Haggai 2:3-9", note:"a month later, to the same discouraged builders: this house looks like nothing beside Solomon's, yet its latter glory will exceed it" },
+      { r:"Haggai 2:20-23", note:"Haggai's final oracle, the same day: the LORD names Zerubbabel his own signet ring" } ]}
+  ]
 }
 
 };
