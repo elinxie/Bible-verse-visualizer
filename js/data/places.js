@@ -726,7 +726,12 @@ BVV.PLACES = [
     blurb:"A far-off seaport Jonah books passage to instead of Nineveh (Jonah 1:3) — the ship never arrives; the storm strikes before it clears the coast. Elsewhere in the OT a byword for the most distant, wealthy trading horizon a ship could reach, source of the silver, iron, tin, and lead 'ships of Tarshish' carried home (Ezek 27:12; 1 Kgs 10:22).",
     meaning:"Hebrew 'Tarshish' — obscure; possibly tied to smelting/refining, fitting a metal-trading emporium",
     ancient:"The exact site is disputed and may function more as a symbolic 'ends of the earth' than a single recoverable spot; the traditional and most common scholarly guess points west across the whole Mediterranean to Tartessus, a silver-rich trading culture near Spain's Atlantic coast — about as far from Nineveh, geographically and symbolically, as Jonah could sail.",
-    scene:{ terrain:"coast", settlement:"city", water:"sea", veg:"sparse" } }
+    scene:{ terrain:"coast", settlement:"city", water:"sea", veg:"sparse" } },
+  { id:"moresheth", name:"Moresheth (Moresheth-gath)", al:["Moresheth","Moresheth-gath"], modern:"Tell ej-Judeideh (Tel Goded), Israel", lat:31.619, lon:34.882, type:"village",
+    blurb:"Micah's home village in Judah's Shephelah, a few miles from Gath — 'Micah of Moresheth' marks him as a rural outsider to Jerusalem's royal court prophets (Jer 26:18).",
+    meaning:"Hebrew 'Moreshet Gat' — 'possession of Gath', reflecting a location on ground once claimed by the Philistine city",
+    ancient:"A small farming village among the rolling Shephelah foothills, within sight of Gath and astride the invasion road Assyrian armies used to march from the coastal plain up toward Jerusalem.",
+    scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };
