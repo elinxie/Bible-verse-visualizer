@@ -304,5 +304,19 @@ BVV.OBJECTS = [
   { id:"paneled-house", name:"Paneled house", al:["paneled houses","paneled house","ceiled houses"], icon:"🏠",
     desc:"A private home finished with cedar paneling lining its interior walls or ceiling (Heb. saphun) — the same term used of Solomon's own temple interior (1 Kgs 6:9) — an expensive comfort Haggai's audience had funded for themselves while the LORD's own house still stood roofless (Hag 1:4)." },
   { id:"bag-with-holes", name:"Bag with holes", al:["bag with holes","wages into a bag with holes"], icon:"👛",
-    desc:"A wage-earner's cloth or leather purse worn through at a seam, letting coin or measured goods leak away unnoticed — Haggai's everyday image for a futility that looks like ordinary bad luck but is, he insists, deliberate covenant discipline (Hag 1:6; cf. Deut 28:38-40)." }
+    desc:"A wage-earner's cloth or leather purse worn through at a seam, letting coin or measured goods leak away unnoticed — Haggai's everyday image for a futility that looks like ordinary bad luck but is, he insists, deliberate covenant discipline (Hag 1:6; cf. Deut 28:38-40)." },
+
+  // ---- Mark 4-5 ----
+  { id:"sower-seed", name:"The sower and the four soils", al:["sower","seed on the path","rocky ground","among thorns","good soil","hundredfold"], icon:"🌱",
+    desc:"A farmer scatters seed by hand across a Galilean hillside: some falls on the trampled footpath and birds eat it, some on shallow rocky ground that springs up fast and then scorches for lack of root, some among thorns that choke it out, and some on good soil that yields thirty, sixty, or a hundredfold — Jesus later explains privately to the Twelve that the seed is the word and the soils are how different hearers receive it (Mark 4:3-20)." },
+  { id:"growing-seed", name:"The seed growing secretly", al:["seed growing secretly","sleeps and rises","earth produces by itself","first the blade, then the ear"], icon:"🌾",
+    desc:"A farmer scatters seed, then sleeps and rises night and day while it sprouts and grows without his understanding how — the earth produces a crop 'by itself,' first the stalk, then the head, then the full grain, until the harvest is ready for the sickle (Mark 4:26-29)." },
+  { id:"mustard-seed", name:"Mustard seed", al:["mustard seed","grain of mustard seed","smallest of all seeds","largest of all garden plants"], icon:"🌿",
+    desc:"Proverbially the smallest seed sown in Galilean soil, yet it grows into the largest of garden plants, with branches big enough for birds to nest in its shade — Jesus' picture for a kingdom that begins almost invisibly small and grows to shelter far more than its start ever suggested (Mark 4:30-32)." },
+  { id:"boat-cushion", name:"Cushion in the stern", al:["cushion","asleep on a cushion","the stern","peace, be still","great calm"], icon:"🛌",
+    desc:"Jesus sleeps on a cushion in the stern of the boat while a sudden windstorm swamps it with waves; woken by the terrified disciples, he rebukes the wind and tells the sea, 'Peace! Be still!' — and there is a great calm, leaving the disciples asking, 'Who then is this, that even wind and sea obey him?' (Mark 4:37-41)." },
+  { id:"tombs-chains", name:"Tombs and broken chains", al:["among the tombs","chains","shackles","no one could bind him"], icon:"⛓️",
+    desc:"The rock-cut burial caves where the Gerasene demoniac lived, crying out and cutting himself with stones; he had often been bound with shackles and chains, but tore the chains apart and broke the shackles, and no one had the strength to subdue him (Mark 5:2-5)." },
+  { id:"herd-of-pigs", name:"The herd of pigs", al:["herd of pigs","herd of swine","two thousand pigs","rushed down the steep bank"], icon:"🐖",
+    desc:"About two thousand pigs feeding on the nearby hillside — unclean animals under Jewish law, marking this as Gentile territory — that the demons calling themselves Legion beg to enter rather than be sent out of the region; the whole herd rushes down the steep bank into the lake and drowns (Mark 5:11-13)." }
 ];
