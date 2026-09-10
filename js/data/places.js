@@ -731,7 +731,14 @@ BVV.PLACES = [
     blurb:"Micah's home village in Judah's Shephelah, a few miles from Gath — 'Micah of Moresheth' marks him as a rural outsider to Jerusalem's royal court prophets (Jer 26:18).",
     meaning:"Hebrew 'Moreshet Gat' — 'possession of Gath', reflecting a location on ground once claimed by the Philistine city",
     ancient:"A small farming village among the rolling Shephelah foothills, within sight of Gath and astride the invasion road Assyrian armies used to march from the coastal plain up toward Jerusalem.",
-    scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } }
+    scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } },
+
+  // ---- Mark 4-5 core ----
+  { id:"gerasenes", name:"The Gerasenes (region of the Gerasenes)", al:["Gerasenes","region of the Gerasenes","country of the Gerasenes","Gadarenes","country of the Gadarenes","Gergesenes"], modern:"Kursi (traditional site), east shore of the Sea of Galilee, Israel", lat:32.833, lon:35.652, type:"region",
+    blurb:"Gentile territory on the lake's eastern shore, opposite Capernaum, where Jesus crossed by boat and healed a violent demon-possessed man living among the tombs, sending the spirits called 'Legion' into a herd of pigs (Mark 5:1-20).",
+    meaning:"Named for Gerasa (modern Jerash, Jordan), a great Decapolis city some 50 km southeast — the Gospels loosely name the whole regional territory after its farthest major city, and some manuscripts of Mark and Luke instead read 'Gadarenes,' after the nearer Decapolis town of Gadara; a strong local tradition fixes the actual shoreline site at Kursi, where a steep bank drops straight to the water — the one spot on the lake matching a herd rushing 'down the steep bank into the sea' (Mark 5:13)",
+    ancient:"A Gentile, Hellenized district on the lake's less-settled eastern shore — pig-keeping, forbidden under Jewish law, marks it immediately as non-Jewish territory; rock-cut tombs honeycomb the basalt hillside above a narrow shelf of shore, and the slope behind Kursi's small harbor drops steeply toward the waterline.",
+    scene:{ terrain:"hills", settlement:"none", water:"lake", veg:"sparse" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };
