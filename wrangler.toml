@@ -1,0 +1,13 @@
+name = "bible-verse-visualizer-chat"
+main = "api/chat-worker.js"
+compatibility_date = "2026-07-08"
+workers_dev = true
+
+# Optional: uncomment after adding your own domain/route in Cloudflare.
+# routes = [
+#   { pattern = "your-domain.com/api/chat", zone_name = "your-domain.com" }
+# ]
+
+[vars]
+# Override if you want a different Gemini model.
+GEMINI_MODEL = "gemini-2.5-flash-lite"

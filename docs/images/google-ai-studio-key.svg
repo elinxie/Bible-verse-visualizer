@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520" role="img" aria-label="Illustration of Google AI Studio API key button">
+  <rect width="980" height="520" fill="#eef3fb"/><rect x="70" y="70" width="840" height="380" rx="22" fill="white" stroke="#c7d2e5" stroke-width="3"/>
+  <rect x="70" y="70" width="840" height="70" rx="22" fill="#1a73e8"/><text x="115" y="115" fill="white" font-family="Arial,sans-serif" font-size="26" font-weight="700">Google AI Studio</text>
+  <text x="120" y="205" fill="#202124" font-family="Arial,sans-serif" font-size="28" font-weight="700">API keys</text><text x="120" y="245" fill="#5f6368" font-family="Arial,sans-serif" font-size="18">Create a key and copy it into Cloudflare as a Worker secret.</text>
+  <rect x="120" y="300" width="220" height="54" rx="10" fill="#1a73e8"/><text x="230" y="335" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="19" font-weight="700">Create API key</text>
+  <path d="M360 325 H510" stroke="#d93025" stroke-width="5" marker-end="url(#arrow)"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#d93025"/></marker></defs><text x="530" y="333" fill="#d93025" font-family="Arial,sans-serif" font-size="20" font-weight="700">click here</text>
+</svg>
