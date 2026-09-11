@@ -731,7 +731,12 @@ BVV.PLACES = [
     blurb:"Micah's home village in Judah's Shephelah, a few miles from Gath — 'Micah of Moresheth' marks him as a rural outsider to Jerusalem's royal court prophets (Jer 26:18).",
     meaning:"Hebrew 'Moreshet Gat' — 'possession of Gath', reflecting a location on ground once claimed by the Philistine city",
     ancient:"A small farming village among the rolling Shephelah foothills, within sight of Gath and astride the invasion road Assyrian armies used to march from the coastal plain up toward Jerusalem.",
-    scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } }
+    scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } },
+  { id:"gerasenes", name:"Country of the Gerasenes (Gergesa)", al:["Gerasenes","country of the Gerasenes","Gadarenes","country of the Gadarenes","Gergesenes"], modern:"traditionally Kursi, Israel — east shore of the Sea of Galilee", lat:32.834, lon:35.649, type:"region",
+    blurb:"Gentile territory on the lake's steep eastern shore where Jesus casts 'Legion' out of a tomb-dwelling man and into a herd of pigs, which rushes down the bank into the water (Mark 5:1-13).",
+    meaning:"Named for the region's chief city — either Gerasa (Jerash) or Gadara, both well inland; the manuscripts of Mark, Matthew and Luke actually split three ways between 'Gerasenes,' 'Gadarenes' and 'Gergesenes,' one of the NT's best-known text-critical puzzles",
+    ancient:"Gerasa (Jerash, in the Decapolis) lies roughly 55 km southeast of the lake and Gadara about 10 km southeast — both too far for a stampeding herd to run 'down the steep bank into the sea' in one motion. Kursi, on the shore itself, has a first-century Jewish/pagan-mixed settlement and a genuinely steep basalt slope dropping straight to the water, which is why most geographers favor it (or the otherwise-unattested 'Gergesa' Origen already proposed in the 3rd century) as the actual site, whatever reading a given manuscript preserves. Rock-cut tombs pocked the surrounding hillside — exactly the kind of ceremonially unclean, isolated dwelling the text describes.",
+    scene:{ terrain:"hills", settlement:"village", water:"lake", veg:"sparse" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };
