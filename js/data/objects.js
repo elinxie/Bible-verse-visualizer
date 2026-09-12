@@ -304,5 +304,7 @@ BVV.OBJECTS = [
   { id:"paneled-house", name:"Paneled house", al:["paneled houses","paneled house","ceiled houses"], icon:"🏠",
     desc:"A private home finished with cedar paneling lining its interior walls or ceiling (Heb. saphun) — the same term used of Solomon's own temple interior (1 Kgs 6:9) — an expensive comfort Haggai's audience had funded for themselves while the LORD's own house still stood roofless (Hag 1:4)." },
   { id:"bag-with-holes", name:"Bag with holes", al:["bag with holes","wages into a bag with holes"], icon:"👛",
-    desc:"A wage-earner's cloth or leather purse worn through at a seam, letting coin or measured goods leak away unnoticed — Haggai's everyday image for a futility that looks like ordinary bad luck but is, he insists, deliberate covenant discipline (Hag 1:6; cf. Deut 28:38-40)." }
+    desc:"A wage-earner's cloth or leather purse worn through at a seam, letting coin or measured goods leak away unnoticed — Haggai's everyday image for a futility that looks like ordinary bad luck but is, he insists, deliberate covenant discipline (Hag 1:6; cf. Deut 28:38-40)." },
+  { id:"swine-herd", name:"The herd of pigs", al:["herd of pigs","herd of swine","swine","pigs"], icon:"🐖",
+    desc:"About 2,000 pigs feeding on the hillside above the Sea of Galilee's eastern shore — ordinary livestock in Gentile Decapolis territory, ritually unclean under Torah (Lev 11:7) — into which the unclean spirits calling themselves 'Legion' ask to be sent, then drive the whole herd off the bank to drown (Mark 5:11-13)." }
 ];
