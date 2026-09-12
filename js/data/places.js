@@ -731,7 +731,12 @@ BVV.PLACES = [
     blurb:"Micah's home village in Judah's Shephelah, a few miles from Gath — 'Micah of Moresheth' marks him as a rural outsider to Jerusalem's royal court prophets (Jer 26:18).",
     meaning:"Hebrew 'Moreshet Gat' — 'possession of Gath', reflecting a location on ground once claimed by the Philistine city",
     ancient:"A small farming village among the rolling Shephelah foothills, within sight of Gath and astride the invasion road Assyrian armies used to march from the coastal plain up toward Jerusalem.",
-    scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } }
+    scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } },
+  { id:"gerasa", name:"The country of the Gerasenes", al:["Gerasenes","country of the Gerasenes","Gadarenes","country of the Gadarenes","Gergesenes","Gergesa"], modern:"Kursi National Park (traditional site), Israel; Gerasa proper = Jerash, Jordan", lat:32.833, lon:35.652, type:"region",
+    blurb:"Gentile territory on the Sea of Galilee's eastern shore, opposite Capernaum, named in the Gospels for the great Decapolis city of Gerasa (Jerash) — some 50 km inland, too far for a shoreline pig-stampede — which is why manuscripts split three ways over the region's name and why the tomb-lined slope running down to the water fits the closer shoreline site of Gergesa (modern Kursi) far better.",
+    meaning:"Disputed — most directly named for Gerasa (Jerash); the early scholar Origen preferred the reading 'Gergesenes,' tied to a shoreline village he knew as Gergesa, arguing it matched the site's 'steep bank' far better than the distant city",
+    ancient:"A rocky, tomb-cut hillside dropping steeply to the lake's edge, its caves used as makeshift dwellings — and, unusually for territory bordering Galilee, open pig pasture nearby: this stretch of shore lay in the mixed pagan/Gentile Decapolis league of ten Hellenistic cities, outside Jewish law.",
+    scene:{ terrain:"hills", settlement:"none", water:"lake", veg:"sparse" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };
