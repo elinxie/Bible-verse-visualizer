@@ -9910,6 +9910,144 @@ BVV.CURATED = {
       { r:"Zechariah 4:6-10", note:"Zerubbabel promised the capstone will be brought out 'not by might, nor by power, but by my Spirit' — the same governor, the same stalled project" },
       { r:"Ezra 3:1-2", note:"Zerubbabel and Jeshua's first joint action together, rebuilding the altar before either the foundation or, now, the temple itself is finished" } ]}
   ]
+},
+
+/* ============================================================
+   MARK 4 — the sower, the lamp, the growing seed, the mustard seed,
+   and the storm stilled on the Sea of Galilee
+   ============================================================ */
+"41:4": {
+  era: {
+    title: "ca. AD 28 — parables by the lake, then a storm on the water",
+    sub: "Roman Galilee under Herod Antipas · the Sea of Galilee's western shore, near Capernaum",
+    badges: ["Roman Galilee", "Herod Antipas' tetrarchy", "Jesus' Galilean ministry", "≈2,000 years ago"]
+  },
+  timeOfDay: "storm",
+  summary: "From a boat pushed a little off the beach — the lake itself turned into a natural amphitheater for a crowd too large to address on land — Jesus teaches an extended run of parables about seed and soil. A farmer scatters seed that falls on a hard path, on shallow rocky ground, among thorns, and on good soil that yields thirty, sixty, or a hundredfold; privately, away from the crowd, he explains to the Twelve that the seed is the word of God meeting four different kinds of hearers. He follows with a lamp no one hides under a basket or a bed but sets on a stand, warning that everything hidden will be brought to light and that 'the measure you use will be measured back to you.' Two shorter parables round out the sequence: seed that grows secretly, sprouting night and day while the sower sleeps, unable to explain how, until harvest comes; and a mustard seed, the smallest of all seeds, that grows into the largest of garden plants, its branches big enough to shelter nesting birds. As evening falls, Jesus tells the disciples to cross to the other side of the lake; a sudden, violent windstorm nearly swamps the boat while he sleeps in the stern, and when they wake him in terror he rebukes the wind and says to the sea, 'Peace! Be still!' The wind drops at once into a great calm, and the disciples, more awestruck than afraid, ask each other, 'Who then is this, that even wind and sea obey him?'",
+  focusPlace: "galilee-sea",
+  places: [
+    { id:"capernaum", role:"Jesus' home base on the lakeshore, where the crowd gathers so thickly he pushes off in a boat to teach (v. 1)" },
+    { id:"galilee-sea", role:"The 'boat pulpit' for the parables, and the site of the evening windstorm the disciples wake him to still (vv. 1, 35-41)" },
+    { id:"gerasenes", role:"Their declared destination as the crossing begins ('let us go across to the other side,' v. 35) — the boat actually lands there only at the start of ch. 5" }
+  ],
+  journey: [
+    { from:"capernaum", to:"galilee-sea", label:"Into a boat just off the beach to teach the crowd", km:0.3,
+      note:"The crowd presses so close along the shore that Jesus gets into a boat and sits down just offshore, using the water itself to carry his voice and give him room (v. 1)." },
+    { from:"galilee-sea", to:"gerasenes", dashed:true, label:"The evening crossing, caught in a sudden windstorm", km:13,
+      note:"'Let us go across to the other side' (v. 35) sets the whole crossing in motion; the storm breaks midway, and the far shore is reached only as ch. 5 opens — this leg tracks the crossing itself, storm included." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Teaching from a boat", av:"prophet",
+      desc:"So large a crowd gathers on the shore that Jesus gets into a boat and sits down on the water, teaching them at length in parables (vv. 1-2)." },
+    { x:0.18, type:"object", label:"The sower and the four soils",
+      desc:"Seed falls on a hard path, on shallow rocky ground, among thorns, and on good soil that yields thirty, sixty, or a hundredfold; privately Jesus explains to the Twelve that the seed is the word and the soils are how different hearts receive it (vv. 3-20)." },
+    { x:0.32, type:"object", label:"A lamp on a stand, not under a basket",
+      desc:"Nothing is hidden except to be made known; 'the measure you use will be measured back to you, and still more will be added' — a warning that how the disciples receive the word shapes how much more they'll be given (vv. 21-25)." },
+    { x:0.46, type:"object", label:"The seed growing secretly",
+      desc:"A man scatters seed and sleeps and rises night and day while it sprouts and grows — he knows not how — until he puts in the sickle because harvest has come, a picture of the kingdom's hidden, unstoppable growth (vv. 26-29)." },
+    { x:0.6, type:"object", label:"The mustard seed",
+      desc:"The smallest of all seeds sown grows into the largest of garden plants, with branches big enough for birds to nest in its shade — the kingdom's tiny, unimpressive start (vv. 30-32)." },
+    { x:0.82, type:"person", label:"\"Peace! Be still!\"", av:"prophet",
+      desc:"A fierce windstorm nearly swamps the boat while Jesus sleeps on a cushion in the stern; woken in terror, he rebukes the wind and sea into a great calm, then asks, 'Why are you afraid? Do you still have no faith?' — leaving the disciples asking, 'Who then is this?' (vv. 35-41)." }
+  ],
+  environment: {
+    chips: ["Sea of Galilee — 21 km long, ~210 m below sea level", "Sudden squalls off the Golan heights", "Basalt hillsides over thin topsoil", "Broadcast sowing before plowing", "Clay oil lamps and lampstands"],
+    text: "The Sea of Galilee sits in a deep rift-valley basin — its surface lies roughly 210 m below sea level, ringed by hills that rise steeply on its eastern side. Cool air funneling down those slopes can collide with the warm, moist air trapped over the lake and turn calm water into a violent chop within minutes, a known local hazard that experienced Galilean fishermen — several of the Twelve among them — would have respected, which is what makes their panic in vv. 37-38 read as professional alarm rather than simple nerves. Galilean farming of the period broadcast seed by hand before plowing it under, which is why all four soils of the parable could turn up in a single field at once: a footpath worn hard by foot traffic, a limestone shelf under a thin skin of basalt-derived topsoil, patches left to thorny fallow, and the deep, dark soil that actually rewarded the sower's effort. A mustard plant (likely black mustard, Brassica nigra) could reach 2-4 m in a single season from a seed barely a millimeter across — a real, checkable exaggeration for Jesus' first hearers, not a fanciful one."
+  },
+  objectsExtra: ["sower-seed","growing-seed","mustard-seed","storm-galilee","lamp","fishing-net"],
+  peopleExtra: ["jesus"],
+  culture: [
+    { title:"Why parables at all?", icon:"📖",
+      text:"Verses 11-12 quote Isaiah's own commissioning vision (Isa 6:9-10): speech that reveals to those already listening and conceals from those who have already turned away. Ancient and modern commentators alike read this less as God arbitrarily withholding truth than as parables functioning like Nathan's story to David (2 Sam 12) — disarming enough to be heard, but requiring a hearer already willing to lean in for the meaning to land." },
+    { title:"Broadcast sowing, four soils at once", icon:"🌾",
+      text:"Unlike modern row-planting, first-century Galilean farmers typically scattered seed by hand across an entire field before plowing it under — which is exactly why a single sowing could land on a footpath, a rocky outcrop, a thorny patch, and good ground all in one pass, rather than requiring four separate fields." },
+    { title:"Household lamps", icon:"🪔",
+      text:"A small pinched-spout clay lamp burning olive oil gave a household its only light after dark; setting it on a stand let its glow reach the whole room, while covering it with the grain-measuring basket used at mealtimes would pointlessly extinguish or hide it — the everyday absurdity behind v. 21's rhetorical question." },
+    { title:"Galilee's sudden windstorms", icon:"🌬️",
+      text:"The lake's deep basin, ringed by the Golan heights to the east and the hills of Galilee to the west, creates a wind-tunnel effect still documented by modern meteorologists: cold air draining down the eastern slopes can hit the warm lake surface and raise a sudden squall within minutes, even on an otherwise calm evening — a hazard local fishermen knew well, which sharpens the disciples' fear in this particular storm." }
+  ],
+  crossRefs: [
+    { group:"The same parables, elsewhere in the Gospels", refs:[
+      { r:"Matthew 13:1-23", note:"the sower and its explanation, in Matthew's fuller parable chapter" },
+      { r:"Matthew 13:31-32", note:"the mustard seed parable, paired there with the leaven" },
+      { r:"Luke 8:4-15", note:"Luke's parallel account of the sower and its interpretation" } ]},
+    { group:"Why parables — the Isaiah citation", refs:[
+      { r:"Isaiah 6:9-10", note:"the hardening/revealing oracle Jesus quotes almost verbatim in v. 12" },
+      { r:"Mark 4:33-34", note:"the chapter's own summary — parables to the crowds, plain explanation for the Twelve alone" } ]},
+    { group:"Other stilled or answered storms", refs:[
+      { r:"Psalm 107:23-30", note:"'he stilled the storm to a whisper' — sailors in distress crying out and being calmed, centuries earlier" },
+      { r:"Job 38:8-11", note:"God's own claim to have 'shut in the sea with doors' and set its proud waves a limit" },
+      { r:"Mark 6:45-51", note:"a second lake crossing later in Mark, where Jesus walks on the water and again calms a contrary wind" } ]}
+  ]
+},
+
+/* ============================================================
+   MARK 5 — the Gerasene demoniac (Legion), Jairus's daughter, and
+   the woman with the flow of blood
+   ============================================================ */
+"41:5": {
+  era: {
+    title: "ca. AD 28 — two healings, on both sides of the lake",
+    sub: "Roman Galilee and the Gentile Decapolis · the eastern shore, then back to a crowded lakeside town",
+    badges: ["Roman Galilee", "The Decapolis, east of the lake", "Jesus' Galilean ministry", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Landing on the lake's Gentile eastern shore, Jesus meets a man possessed by so many unclean spirits that no chain or shackle can hold him; living among the tombs, crying out and cutting himself, he runs to Jesus, and the spirits beg — through him — not to be sent out of the region but into a nearby herd of about two thousand pigs. Jesus permits it; the herd stampedes down the bank into the lake and drowns, and the townspeople, more unsettled by the sight of the former demoniac 'clothed and in his right mind' than they ever were by his madness, beg Jesus to leave. He sends the healed man home instead, to tell his own people, and then the whole Decapolis, what the Lord has done for him. Back on the western shore, a synagogue leader named Jairus falls at Jesus' feet begging him to heal his dying twelve-year-old daughter; on the way, in a crowd pressing from every side, a woman who has suffered a chronic flow of blood for twelve years — and spent everything she had on doctors who only made her worse — touches his garment from behind, certain that touch alone will be enough. Her bleeding stops instantly; Jesus, sensing power go out from him, stops the whole procession to find her, and she falls down trembling and tells him the whole truth before he sends her away healed: 'Daughter, your faith has made you well.' While he is still speaking, word comes that Jairus's daughter has already died — 'why bother the teacher any longer?' — but Jesus tells the grieving father, 'Do not fear, only believe,' and takes only Peter, James and John into the house with him. Over the mourners' laughter at his claim that the child is 'not dead but asleep,' he takes her by the hand and says, 'Talitha koum' — 'little girl, I say to you, arise' — and she gets up at once and walks, to everyone's utter amazement, while he orders them to keep it quiet and to give her something to eat.",
+  focusPlace: "gerasenes",
+  places: [
+    { id:"gerasenes", role:"The tomb-dwelling demoniac, 'Legion,' and the herd of pigs that rushes into the lake (vv. 1-20)" },
+    { id:"galilee-sea", role:"The crossing back, in the same boat, to a crowd already waiting on the shore (v. 21)" },
+    { id:"capernaum", role:"Almost certainly Jesus' own lakeside base — Mark does not name the town here, but this is where Jairus's synagogue, his dying daughter, and the crowd that presses in around the bleeding woman all belong (vv. 21-43)" }
+  ],
+  journey: [
+    { from:"gerasenes", to:"capernaum", via:"galilee-sea", label:"Back across the lake to a waiting crowd", km:13,
+      note:"The same boat that carried the storm of ch. 4 carries Jesus back west; a large crowd is already gathered on the shore the moment he lands (v. 21), and Jairus reaches him almost at once." }
+  ],
+  hotspots: [
+    { x:0.03, type:"person", label:"Landing among the tombs", av:"traveler",
+      desc:"As soon as Jesus steps out of the boat, a man with an unclean spirit comes out from the tombs to meet him — living there permanently, uncontrollable, crying out and cutting himself with stones night and day (vv. 1-5)." },
+    { x:0.15, type:"object", label:"Chains he could not be bound with",
+      desc:"He had often been bound with shackles and chains, but wrenched every one apart; 'no one had the strength to subdue him' — a measure of both his affliction and the total failure of every human remedy before Jesus arrives (vv. 3-4)." },
+    { x:0.28, type:"person", label:"\"My name is Legion\"", av:"traveler",
+      desc:"Jesus commands the spirit out; asked its name, it answers 'My name is Legion, for we are many,' then begs, through the man, not to be sent out of the region but into a nearby herd of pigs (vv. 6-13)." },
+    { x:0.4, type:"object", label:"The herd rushes into the lake",
+      desc:"About two thousand pigs, entered by the unclean spirits, stampede down the steep bank into the water and drown; the herdsmen flee and spread the news through town and countryside (vv. 13-14)." },
+    { x:0.5, type:"person", label:"\"Clothed and in his right mind\"", av:"traveler",
+      desc:"The townspeople find the former demoniac sitting, dressed, and sane — and are more afraid of this than they ever were of his madness, begging Jesus to leave; the healed man is sent home instead, to proclaim what the Lord has done throughout the whole Decapolis (vv. 15-20)." },
+    { x:0.6, type:"person", label:"Jairus falls at Jesus' feet", av:"official",
+      desc:"Back across the lake, a synagogue leader named Jairus falls at Jesus' feet begging him to come heal his dying twelve-year-old daughter; Jesus goes with him through a crowd pressing in from every side (vv. 21-24)." },
+    { x:0.72, type:"person", label:"Touching the fringe of his cloak", av:"woman",
+      desc:"A woman who has suffered a flow of blood for twelve years, and been made only worse by every doctor's care, touches Jesus' garment from behind in the crowd; her bleeding stops at once, and Jesus stops the whole procession to find her and call her 'daughter' (vv. 25-34)." },
+    { x:0.86, type:"person", label:"\"Talitha koum\"", av:"prophet",
+      desc:"News comes that Jairus's daughter has died; taking only Peter, James and John, Jesus tells the weeping household the child is 'not dead but asleep,' takes her hand, and says 'Talitha koum' — she gets up at once and walks, and he orders them to tell no one and to give her something to eat (vv. 35-43)." }
+  ],
+  environment: {
+    chips: ["The Decapolis — ten Greco-Roman cities east of the lake", "Rock-cut tombs on a basalt hillside", "A steep bank dropping to open water", "Corpse-contact as the highest grade of impurity", "A crowded lakeside town, likely Capernaum"],
+    text: "East of the lake lay territory shaped by the Decapolis, a loose league of roughly ten Greco-Roman cities (Gerasa, Gadara, Scythopolis/Beth-shan among them) with a mixed, largely Gentile population — which explains both the presence of a large pig herd, livestock no observant Jewish community would keep (Lev 11:7), and the townspeople's fear-driven request that Jesus simply leave once his power is unmistakable. Rock-cut tombs, common across the region's basalt hillsides, counted among the highest grades of ceremonial defilement under Jewish law (Num 19:11-16); a man living permanently among them, self-harming and unrestrainable, would have been read as doubly unclean, by both affliction and address. Back on the lake's crowded western shore — almost certainly Capernaum, Jesus' own base of operations, though Mark does not name the town in this chapter — a synagogue's day-to-day affairs (its building, its order of service, discipline within the congregation) were overseen by a lay 'ruler' (archisynagōgos) like Jairus, a position of genuine local standing that makes his public collapse at a traveling teacher's feet all the more striking."
+  },
+  objectsExtra: ["chains-fetters","swine-herd","phylactery","synagogue","fishing-net"],
+  peopleExtra: ["jesus","peter","james-zebedee","john-apostle","jairus","woman-with-flow","gerasene-demoniac"],
+  culture: [
+    { title:"Ritual impurity and the flow of blood", icon:"🩸",
+      text:"Leviticus 15:25-30 renders a woman with a chronic discharge — and, by extension, whatever and whoever she touches — ceremonially unclean, which is exactly why she approaches Jesus secretly from behind rather than face him directly and why the crowd's astonishment cuts against expectation: contact should have spread her defilement outward, yet instead his wholeness overtakes her sickness." },
+    { title:"Tombs and the Decapolis", icon:"🪦",
+      text:"Contact with the dead counted among the highest grades of ceremonial defilement in Jewish law (Num 19:11-16), so a man permanently living among tombs was understood as unclean twice over even before the unclean spirit itself entered the picture — while the region's pig-herding economy independently signals the mixed, largely Gentile population of the Decapolis, ten Greco-Roman cities loosely spanning the territory east of the Jordan and the lake." },
+    { title:"Naming a demon \"Legion\"", icon:"⚔️",
+      text:"A Roman legion numbered 5,000-6,000 soldiers — the empire's most visible, most feared symbol of occupying military power across the Jewish world. Whatever the spirit's self-description means about its numbers, the word choice trades on an association every first-century hearer, Jew or Gentile, would instantly recognize." },
+    { title:"A synagogue ruler like Jairus", icon:"🕍",
+      text:"The title Mark gives Jairus (archisynagōgos, 'synagogue ruler') named a lay office responsible for a synagogue's building, seating, and order of service — arranging who read and spoke (cf. Acts 13:15) — not a rabbi or ordained clergyman. A local dignitary of that rank publicly falling at the feet of an itinerant Galilean teacher would have been a genuinely startling breach of social expectation." }
+  ],
+  crossRefs: [
+    { group:"The same two miracles, elsewhere in the Gospels", refs:[
+      { r:"Matthew 9:18-26", note:"Matthew's shorter, interwoven account of the same two healings" },
+      { r:"Luke 8:26-56", note:"Luke's parallel, naming both the region and Jairus as Mark does" } ]},
+    { group:"Touching his garment, elsewhere", refs:[
+      { r:"Mark 6:56", note:"a later summary: all who touched even the fringe of his garment were healed" },
+      { r:"Numbers 15:38-39", note:"the commanded tassels on a garment's corners this woman likely reaches for" } ]},
+    { group:"Jesus and the dead, elsewhere", refs:[
+      { r:"Luke 7:14-15", note:"the widow of Nain's son — 'young man, I say to you, arise' — raised by a word alone, no touch needed" },
+      { r:"John 11:38-44", note:"Lazarus, four days dead, called out of the tomb by name" } ]}
+  ]
 }
 
 };
