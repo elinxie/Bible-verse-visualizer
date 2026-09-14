@@ -10048,6 +10048,242 @@ BVV.CURATED = {
       { r:"Luke 7:14-15", note:"the widow of Nain's son — 'young man, I say to you, arise' — raised by a word alone, no touch needed" },
       { r:"John 11:38-44", note:"Lazarus, four days dead, called out of the tomb by name" } ]}
   ]
+},
+
+/* ============================================================
+   LUKE 10 — the seventy-two sent and returned, the Good Samaritan,
+   and Martha and Mary at Bethany
+   ============================================================ */
+"42:10": {
+  era: {
+    title: "ca. AD 32-33 — on the road to Jerusalem",
+    sub: "Roman Judea, en route toward Jerusalem · the later Galilean-and-Judean ministry",
+    badges: ["Roman Judea", "Herod Antipas' tetrarchy", "Jesus' journey to Jerusalem", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Jesus doubles his workforce, sending seventy-two disciples ahead of him in pairs — 'the harvest is plentiful, but the laborers are few' — into every town he plans to visit, with instructions to travel light, accept hospitality, heal the sick, and let a town's welcome or refusal answer for itself. He pronounces judgment on the lakeside towns that watched his mightiest works and never turned: Chorazin, Bethsaida, and 'exalted' Capernaum will fare worse than Sodom, Tyre, and Sidon. The seventy-two return jubilant — 'even the demons submit to us in your name!' — and Jesus answers with a vision of Satan falling like lightning, then thanks the Father for hiding these things from the wise and revealing them to 'little children.' An expert in the law stands to test him with the right textbook answer — love God, love your neighbor — then presses, 'desiring to justify himself,' for a loophole: 'And who is my neighbor?' Jesus answers with a story: a man beaten and left half dead on the Jerusalem-to-Jericho road, passed by a priest and a Levite in turn, and finally helped — bandaged, carried, lodged, and paid for — by a Samaritan, a man from a people Jews despised. 'Which of these three proved to be a neighbor?' The chapter closes at Bethany, where Martha welcomes Jesus into her home and is 'distracted with much serving' while her sister Mary sits at his feet; Martha's complaint draws the gentle correction that Mary 'has chosen the good portion, which will not be taken away from her.'",
+  focusPlace: "jericho",
+  places: [
+    { id:"jerusalem", role:"Starting point of the Good Samaritan's road, and the city the seventy-two are sent ahead toward (vv. 1, 30)" },
+    { id:"jericho",   role:"The wounded traveler's destination — the parable's real, mappable road (v. 30)" },
+    { id:"samaria",   role:"The despised homeland of the parable's unexpected hero, whose mercy is the story's whole point (v. 33)" },
+    { id:"chorazin",  role:"One of three lakeside towns denounced for refusing to repent despite Jesus' mighty works (v. 13)" },
+    { id:"bethsaida", role:"Denounced alongside Chorazin — 'if the mighty works... had been done in Tyre and Sidon, they would have repented' (v. 13)" },
+    { id:"capernaum", role:"Jesus' own ministry base, warned it will be 'brought down to Hades' for its unbelief (v. 15)" },
+    { id:"bethany",   role:"Martha and Mary's village, the chapter's closing scene (vv. 38-42)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"jericho", label:"The Good Samaritan's road", km:27,
+      note:"A real, steep descent of roughly 27 km (17 mi), dropping over 1,000 m from Jerusalem's hill country down to Jericho's Jordan Valley oasis — winding, thinly settled, and notorious enough in antiquity to earn the nickname 'the Way of Blood' for its bandit ambushes." },
+    { from:"jerusalem", to:"bethany", label:"To Martha and Mary's village", km:3,
+      note:"A short walk over the shoulder of the Mount of Olives — Bethany sits barely 3 km from Jerusalem's gates, close enough to be Jesus' regular Judean stopping point on this journey (v. 38)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Sending the seventy-two", av:"prophet",
+      desc:"Jesus commissions a larger circle of disciples beyond the Twelve, pairing them off — a built-in second witness — and sending them ahead into every town he means to visit, carrying no purse, bag, or sandals, and relying entirely on hospitality along the way (vv. 1-12)." },
+    { x:0.18, type:"object", label:"Woes on the lakeside towns",
+      desc:"Chorazin, Bethsaida, and Capernaum — towns that watched Jesus' greatest miracles up close — are singled out for judgment worse than pagan Tyre, Sidon, and even Sodom, since privilege witnessed and refused is heavier than ignorance (vv. 13-15)." },
+    { x:0.32, type:"person", label:"\"I saw Satan fall like lightning\"", av:"prophet",
+      desc:"The seventy-two return overjoyed at their authority over demons; Jesus redirects their wonder toward something larger — his own vision of the enemy's fall — and toward something safer to rejoice in: 'that your names are written in heaven' (vv. 17-20)." },
+    { x:0.46, type:"person", label:"An expert in the law tests him", av:"official",
+      desc:"A nomikos — a professional scholar of the Torah — stands to test Jesus with the textbook answer already in hand, then pushes for a loophole: 'And who is my neighbor?' — the question the next parable answers by refusing to answer directly (vv. 25-29)." },
+    { x:0.62, type:"object", label:"The parable of the Good Samaritan",
+      desc:"A priest and a Levite each see the wounded man and cross to the far side of the road; a Samaritan — from a people Jews and Samaritans mutually despised — stops, bandages him with oil and wine, carries him to an inn, and pays for his care. Jesus' closing question quietly reverses the lawyer's own: not 'who is my neighbor,' but 'who proved to be one' (vv. 30-37)." },
+    { x:0.80, type:"person", label:"Martha, \"distracted with much serving\"", av:"woman",
+      desc:"Martha opens her home to Jesus and is pulled in every direction by hosting duties; her complaint about her sister draws a double-named, gentle rebuke — 'Martha, Martha' — that reframes the whole scene's priorities (vv. 38-41)." },
+    { x:0.92, type:"person", label:"Mary \"has chosen the good portion\"", av:"woman",
+      desc:"While Martha serves, Mary sits at the Lord's feet 'listening to his teaching' — a posture normally reserved for a rabbi's male students — and is commended rather than corrected: hers is a choice 'which will not be taken away from her' (vv. 39, 42)." }
+  ],
+  environment: {
+    chips: ["Judean wilderness road, Jerusalem to Jericho", "1,000 m descent in 27 km", "Bandit country — caravanserai and Roman fortlets", "Galilee's basalt lakeside towns", "A Judean village household, Bethany"],
+    text: "The road from Jerusalem to Jericho drops from roughly 750 m above sea level to about 250 m below it in under 30 km — a steep, twisting descent through bare limestone wilderness, cut with ravines and blind curves that made it a byword for danger; Josephus and later Roman-period sources describe exactly the kind of ambush the parable assumes, and the Ottoman-era name for a fortress on this same route, Khan al-Ahmar ('the red inn'), still preserves folk memory of a bloodier nickname, 'the Way of Blood.' Jews and Samaritans shared ancestry but centuries of mutual contempt — over the Samaritans' mixed lineage, their rival temple on Mount Gerizim, and reciprocal accusations of corrupted worship (cf. John 4:9, 20) — which is exactly why Jesus casts a Samaritan, not a fellow Israelite, as the story's moral hero. Bethany, by contrast, sits in gentler hill country on Olivet's eastern slope, a short walk from Jerusalem's gates — close enough that it became Jesus' regular Judean base in his later ministry, a household he could return to again and again."
+  },
+  objectsExtra: ["good-samaritan-parable","denarius"],
+  peopleExtra: ["jesus","seventy-two","expert-in-law","martha","mary-bethany"],
+  culture: [
+    { title:"Sent out two by two", icon:"👥",
+      text:"Pairing missionaries wasn't mere convenience: Jewish law required two witnesses to establish a matter (Deut 19:15), so a message delivered by a pair carried a built-in legal weight a lone traveler's word lacked — and offered practical safety and mutual support on a genuinely dangerous road." },
+    { title:"The Jerusalem-Jericho road", icon:"🛣️",
+      text:"A steep, switchbacking descent through empty limestone wilderness, historically infamous for ambush robbery — later centuries built watch-fortlets and caravanserais along it precisely because the danger was real and recurring, not a rhetorical flourish invented for the parable." },
+    { title:"Priests, Levites, and corpse-impurity", icon:"🩸",
+      text:"A priest or Levite who touched a corpse became ceremonially unclean for seven days (Num 19:11) and, if serving at the temple, temporarily disqualified from duty — a plausible (if ultimately inadequate) reason commentators suggest for why the two religious professionals in the parable might have crossed the road rather than risk contact with what looked like a dead body." },
+    { title:"Jews and Samaritans: a centuries-old breach", icon:"⚔️",
+      text:"Samaritans traced descent from Israel's northern tribes mixed with resettled foreign populations after Assyria's conquest (2 Kgs 17:24-41), worshiped at their own temple on Mount Gerizim rather than Jerusalem, and were regarded by many Jews as ritually and theologically compromised — mutual contempt so entrenched that making a Samaritan the story's hero, rather than its villain, was the parable's real shock." },
+    { title:"A woman at a rabbi's feet", icon:"📖",
+      text:"'Sitting at someone's feet' (cf. Acts 22:3, Paul 'at the feet of Gamaliel') was the standard posture of a formal disciple learning from a teacher — a role first-century custom rarely extended to women. Jesus' commendation of Mary's choice is quietly remarkable on exactly this point, alongside its more obvious lesson about priorities." }
+  ],
+  crossRefs: [
+    { group:"The mission, doubled and earlier", refs:[
+      { r:"Luke 9:1-6", note:"the Twelve sent out earlier with a nearly identical charge — travel light, depend on hospitality" },
+      { r:"Matthew 10:5-15", note:"Matthew's fuller version of the mission instructions, addressed there to the Twelve" },
+      { r:"Genesis 10", note:"one proposed background for the number seventy(-two) — the table of nations" } ]},
+    { group:"Love of neighbor, elsewhere in Scripture", refs:[
+      { r:"Leviticus 19:18", note:"'love your neighbor as yourself' — the command the lawyer already knows by heart" },
+      { r:"Deuteronomy 6:5", note:"'love the LORD your God with all your heart' — the other half of his answer" },
+      { r:"James 2:8", note:"the same command named 'the royal law' in the early church's own ethical teaching" } ]},
+    { group:"Martha, Mary, and Lazarus elsewhere", refs:[
+      { r:"John 11:1-44", note:"the same two sisters and their brother Lazarus, and Martha's own high confession of Christ" },
+      { r:"John 12:1-8", note:"Mary anoints Jesus' feet with costly perfume shortly before his death" } ]},
+    { group:"Rejoicing rightly", refs:[
+      { r:"Revelation 12:7-9", note:"a fuller, later picture of Satan's fall — read by many alongside Jesus' vision here" },
+      { r:"Philippians 4:3", note:"Paul's own image of names 'written in the book of life'" } ]}
+  ]
+},
+
+/* ============================================================
+   LUKE 15 — the lost sheep, the lost coin, and the prodigal son
+   ============================================================ */
+"42:15": {
+  era: {
+    title: "ca. AD 32-33 — parables of the lost, somewhere on the road to Jerusalem",
+    sub: "Roman Judea · the extended 'journey to Jerusalem' section of Luke's Gospel (9:51-19:27)",
+    badges: ["Roman Judea", "Jesus' journey to Jerusalem", "Table fellowship controversy", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Tax collectors and 'sinners' keep crowding in to hear Jesus, and the religious establishment keeps grumbling about it — 'this man welcomes sinners and eats with them.' Jesus answers with three stories of losing and finding. A shepherd with a hundred sheep leaves ninety-nine in open country to chase down the one that wandered, then carries it home rejoicing. A woman with ten silver coins loses one, lights a lamp, and sweeps her whole house until she finds it, then calls her friends to celebrate — heaven's own joy, Jesus says twice, over one recovered sinner. The third story runs longer: a younger son demands his inheritance early, leaves for 'a far country,' burns through everything on reckless living, and ends up feeding pigs in a famine, so hungry he envies their food. 'Coming to himself,' he rehearses a confession and heads home expecting, at best, a hired servant's place — but his father sees him a long way off, runs to meet him, and cuts off the prepared speech with an embrace, calling for the best robe, a ring, sandals, and the fattened calf. The older brother, who never left and never disobeyed, refuses to join the celebration, protesting that he was never given so much as a young goat for his own friends; his father's answer closes the chapter without saying whether the older son ever goes in: 'this your brother was dead, and is alive; he was lost, and is found.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The distant goal of the journey Jesus has been making since 9:51 — Luke names no specific location for this teaching (v. 1)" },
+    { id:"jericho",   role:"A real waypoint later on this same road (cf. 18:35-19:10), included here to anchor the unnamed setting geographically rather than to claim this chapter happens there" }
+  ],
+  journey: [
+    { from:"jericho", to:"jerusalem", dashed:true, label:"Somewhere within the 'journey to Jerusalem'", km:27,
+      note:"Luke gives no place-name for these three parables; they fall inside the long travel section that runs from 9:51 to 19:27, which the Gospel later anchors concretely at Jericho (18:35-19:10) and finally at Jerusalem itself. This leg marks that larger frame, not a specific movement narrated in this chapter." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Tax collectors and grumbling Pharisees", av:"prophet",
+      desc:"'Sinners' keep drawing near to listen, and the religious establishment keeps objecting to the company Jesus keeps — the friction that draws out all three parables that follow (vv. 1-3)." },
+    { x:0.18, type:"object", label:"The lost sheep",
+      desc:"A shepherd with a hundred sheep leaves ninety-nine in open country and searches for the one that is lost until he finds it, then carries it home rejoicing and calls his friends to celebrate — 'more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance' (vv. 4-7)." },
+    { x:0.32, type:"object", label:"The lost coin",
+      desc:"A woman with ten silver coins loses one, lights a lamp, sweeps the whole house, and searches carefully until she finds it — the same joy, named again, this time 'before the angels of God' (vv. 8-10)." },
+    { x:0.46, type:"object", label:"The younger son's demand and the far country",
+      desc:"A younger son asks for his inheritance while his father still lives — in that culture, tantamount to wishing him dead — then leaves for a distant country and squanders it all in reckless living until a famine leaves him feeding pigs, envying their food (vv. 11-16)." },
+    { x:0.58, type:"object", label:"\"I will arise and go to my father\"",
+      desc:"'Coming to himself' in the pigsty, the son rehearses a confession and sets out for home, expecting nothing more than a hired servant's place among people who once called him son (vv. 17-19)." },
+    { x:0.70, type:"object", label:"The father's run to meet him",
+      desc:"While the son is still far off, his father sees him, runs — an undignified act for a patriarch in that culture — and embraces him before a word of confession is finished, calling for the best robe, a ring, and sandals: the marks of a restored son, not a returning servant (vv. 20-24)." },
+    { x:0.82, type:"object", label:"The fattened calf and the feast",
+      desc:"'This my son was dead, and is alive again; he was lost, and is found' — the same festival-grade animal killed for a great occasion elsewhere in Scripture is killed here for a son no one expected to see again (v. 23-24)." },
+    { x:0.94, type:"person", label:"The older brother's resentment", av:"youth",
+      desc:"Hearing the music from the field, the older son refuses to go in, protesting years of unrewarded obedience; his father comes out and pleads with him too, and the parable ends without resolving whether he joins the feast — an open question aimed squarely at the grumbling Pharisees listening in verse 2 (vv. 25-32)." }
+  ],
+  environment: {
+    chips: ["No place named — Luke's 'journey to Jerusalem' section", "Open pastureland for a hundred-sheep flock", "A single-room village house, swept for one coin", "Famine-stressed tenant farming, pig-feeding as rock bottom", "Patriarchal inheritance and restored-sonship customs"],
+    text: "Luke gives this whole chapter no geographical anchor — no town, no road, no house named — which is itself typical of the long 'journey to Jerusalem' section running from 9:51 to 19:27, where teaching material is often grouped by theme rather than tied to a specific stop. First-century Galilean and Judean shepherding was frequently a shared, watched enterprise — flocks pooled and guarded in rotation by neighboring families — which softens (without eliminating) the parable's apparent risk in leaving ninety-nine unattended. A single-room village house of the period, its few small windows admitting little daylight, would make even a small silver coin genuinely difficult to find on a packed-earth floor, explaining the woman's lamp and broom. And the younger son's request for his inheritance early was a serious social breach: demanding a father's estate while he still lived was widely read as functionally wishing him dead, which is exactly why the father's response — restoring rather than merely readmitting him — reads as such a deliberate reversal of expectation."
+  },
+  objectsExtra: ["lost-sheep","lost-coin","prodigal-son","fattened-calf","robe"],
+  peopleExtra: ["jesus"],
+  culture: [
+    { title:"Three parables, one grumbling audience", icon:"💬",
+      text:"All three stories answer the same complaint (v. 2): 'this man welcomes sinners and eats with them.' The shepherd's search, the woman's search, and the father's welcome escalate from an animal to an inanimate object to a person, each ending in the same insistence that recovering what was lost is cause for celebration, not suspicion." },
+    { title:"Shared flocks, real risk", icon:"🐑",
+      text:"Ancient Near Eastern shepherding often pooled flocks from several households under rotating watch, which means the shepherd's ninety-nine were plausibly not left wholly unguarded — though the parable still trades on the real cost and real risk of chasing down a single animal rather than simply writing off the loss." },
+    { title:"Ten silver coins — a dowry headdress?", icon:"🪙",
+      text:"Some interpreters connect the woman's ten coins (likely drachmas, roughly a day's wage each) to a married woman's headdress of coins worn as a visible dowry and store of savings — which, if right, would make the single lost coin not just money but a piece of her most treasured, publicly worn possession; the text itself, however, does not say this explicitly." },
+    { title:"Demanding an inheritance early", icon:"⚖️",
+      text:"Under prevailing custom a father typically retained control of the estate until death; a son requesting his share in advance broke sharply with that expectation and was widely understood as a serious insult — treating the father as already as good as dead — which sharpens both the son's departure and the father's later, unqualified welcome." },
+    { title:"A father who runs", icon:"🏃",
+      text:"Respectable adult men, especially patriarchs, did not run in public in the ancient Mediterranean world — it meant hiking up one's robes and exposing the legs, a loss of dignity. The father's run is therefore a deliberately startling detail: he absorbs the shame so his returning son does not have to face the village's stares alone." },
+    { title:"Robe, ring, sandals — the marks of a son", icon:"👑",
+      text:"Each gift reverses a specific expectation: the best robe replaces the rags of a hired hand, the signet ring restores authority to transact business in the family's name, and sandals mark a free son of the house rather than a barefoot servant — together, a complete, immediate restoration to sonship rather than mere readmission on probation." }
+  ],
+  crossRefs: [
+    { group:"Shepherd imagery, elsewhere", refs:[
+      { r:"Ezekiel 34:11-16", note:"God himself as the shepherd who seeks the lost and strayed — the same rescue pattern centuries earlier" },
+      { r:"John 10:11-16", note:"Jesus as the Good Shepherd who lays down his life for the sheep" },
+      { r:"Matthew 18:12-14", note:"a shorter version of the lost sheep, applied there to guarding 'little ones' within the church" } ]},
+    { group:"The mission statement behind the chapter", refs:[
+      { r:"Luke 19:10", note:"'the Son of Man came to seek and to save the lost' — Luke's own thesis statement for exactly this chapter" },
+      { r:"Luke 5:29-32", note:"an earlier version of the same controversy, at Levi's own banquet for tax collectors and sinners" } ]},
+    { group:"Sonship and adoption", refs:[
+      { r:"Romans 8:15-17", note:"Paul's theology of adoption as sons, not slaves — the prodigal's own restored status" },
+      { r:"Galatians 4:4-7", note:"'no longer a slave, but a son' — the same reversal in doctrinal form" } ]},
+    { group:"A fattened calf, elsewhere in this dataset", refs:[
+      { r:"1 Samuel 28:24-25", note:"the same festival-grade animal killed for Saul on his last night — honoring a guest at real cost, in a very different story" } ]}
+  ]
+},
+
+/* ============================================================
+   LUKE 24 — the empty tomb, the road to Emmaus, the risen Jesus
+   among the disciples, and the ascension
+   ============================================================ */
+"42:24": {
+  era: {
+    title: "ca. AD 33 — resurrection Sunday, Jerusalem to Emmaus and back",
+    sub: "Roman Judea · Jerusalem, the Emmaus road, and the Mount of Olives near Bethany",
+    badges: ["Roman Judea", "Passover week, AD 33", "The resurrection", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "At early dawn on the first day of the week, women arrive at Jesus' tomb with burial spices and find the stone already rolled away and the body gone. Two men in dazzling clothes ask them, 'Why do you seek the living among the dead?' and remind them of Jesus' own prediction of a third-day rising. The women report it to the Eleven, whose words strike the apostles as 'an idle tale' — though Peter runs to check and finds only the empty linen cloths. That same day, two disciples — one named Cleopas — walk the seven miles to Emmaus, turning the weekend's events over aloud; a stranger joins them, and though he 'opens the Scriptures' to them at length from Moses and the Prophets, they don't recognize him until he takes bread at their table, blesses it, and breaks it — at which their eyes are opened and he vanishes. 'Were not our hearts burning within us?' They rush back to Jerusalem, find the Eleven already saying 'the Lord has risen indeed, and has appeared to Simon,' and are mid-story when Jesus himself stands among them: 'Peace to you.' Taken for a ghost, he shows his hands and feet, invites them to touch him, and eats a piece of broiled fish in front of them all. He opens their minds to understand the Scriptures, commissions them to preach repentance and forgiveness to all nations beginning at Jerusalem, and tells them to wait in the city for power from on high. Then he leads them out to Bethany, blesses them with hands raised, and is carried up into heaven as they watch — and they return to Jerusalem 'with great joy,' continually in the temple, praising God.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The empty tomb at dawn, and the room where the risen Jesus appears to the gathered disciples that evening (vv. 1-12, 33-49)" },
+    { id:"emmaus",    role:"Seven miles out, where two grieving disciples recognize the risen Jesus in the breaking of bread (vv. 13-35)" },
+    { id:"bethany",   role:"On the Mount of Olives' eastern slope, where Jesus leads the disciples out and ascends (vv. 50-51)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"emmaus", label:"The road to Emmaus", km:11,
+      note:"About 7 miles (11 km) on foot, likely a two-to-three-hour walk — long enough for an unrecognized stranger to 'open the Scriptures' to two grieving disciples at real length before evening falls (vv. 13-29)." },
+    { from:"emmaus", to:"jerusalem", dashed:true, label:"The run back, 'that same hour'", km:11,
+      note:"Having just sat down to eat after a long day's walk, the two disciples get straight back up and retrace the whole road in the dark to tell the Eleven what they've seen (v. 33)." },
+    { from:"jerusalem", to:"bethany", label:"Led out to the ascension", km:3,
+      note:"A short walk over the shoulder of the Mount of Olives to the vicinity of Bethany, where Jesus blesses the disciples and is 'carried up into heaven' before their eyes (vv. 50-51)." }
+  ],
+  hotspots: [
+    { x:0.03, type:"person", label:"The empty tomb at dawn", av:"woman",
+      desc:"Women arrive with prepared spices at early dawn and find the stone already rolled away — and no body inside (vv. 1-3)." },
+    { x:0.14, type:"person", label:"Two men in dazzling clothes", av:"prophet",
+      desc:"'Why do you seek the living among the dead?' — the angelic pair remind the terrified women of Jesus' own prediction, back in Galilee, that the Son of Man must suffer and rise on the third day (vv. 4-8)." },
+    { x:0.24, type:"person", label:"Peter runs to check", av:"fisherman",
+      desc:"The women's report strikes the gathered apostles as 'an idle tale,' but Peter runs to the tomb anyway, finds only the empty linen cloths, and goes home marveling (vv. 9-12)." },
+    { x:0.38, type:"person", label:"The road to Emmaus", av:"traveler",
+      desc:"Two disciples, one named Cleopas, walk the seven miles to Emmaus discussing the weekend's events; a stranger joins them, and though their eyes are 'kept from recognizing him,' he interprets 'in all the Scriptures the things concerning himself' as they walk (vv. 13-27)." },
+    { x:0.52, type:"object", label:"Known in the breaking of bread",
+      desc:"At the table in Emmaus, the stranger takes bread, blesses it, and breaks it — the same sequence as the Last Supper — and 'their eyes were opened, and they recognized him,' at which he immediately vanishes: 'were not our hearts burning within us?' (vv. 28-32)." },
+    { x:0.66, type:"person", label:"\"Peace be with you\"", av:"prophet",
+      desc:"Back in Jerusalem, while the two are still telling their story, Jesus himself stands among the gathered disciples; startled and afraid, they think they are seeing a ghost, until he shows them his hands and feet and invites them to touch him (vv. 33-40)." },
+    { x:0.78, type:"object", label:"A piece of broiled fish",
+      desc:"Still disbelieving 'for joy,' the disciples watch Jesus eat ordinary food in front of them — plain, physical proof against the idea that they are seeing only a spirit (vv. 41-43)." },
+    { x:0.92, type:"person", label:"The ascension near Bethany", av:"prophet",
+      desc:"After opening their minds to understand the Scriptures and commissioning them to preach to all nations, Jesus leads the disciples out toward Bethany, blesses them, and is carried up into heaven as they watch — and they return to Jerusalem 'with great joy' (vv. 44-53)." }
+  ],
+  environment: {
+    chips: ["Rock-cut tombs outside Jerusalem's walls", "Roman miles — a 7-mile road each way", "A village table, bread broken at evening", "Ideas of ghosts vs. bodily resurrection", "The Mount of Olives, Jerusalem's eastern ridge"],
+    text: "First-century Jerusalem's wealthier burials used rock-cut chamber tombs sealed with a heavy disc- or block-shaped stone, exactly the kind of barrier that made a 'rolled away' stone worth specifically noting — and made the intact, undisturbed grave linens Peter finds (rather than a ransacked tomb) a small but pointed detail against any theory of body-snatching. The Emmaus road covered a real, walkable distance — about 7 Roman miles, several hours on foot each way — long enough for sustained conversation and scriptural exposition before the two disciples' hurried nighttime return. Ancient Jewish and Greco-Roman thought both had categories for ghosts or apparitions of the dead, which is exactly the assumption Jesus overturns by inviting touch and eating solid food in front of witnesses; his meal is aimed less at hunger than at evidence. The Mount of Olives, rising just east of the temple across the Kidron Valley, was already loaded with prophetic association (Zech 14:4) before it became, in Bethany's vicinity on its far slope, the site of the ascension itself — and, in Acts 1:11-12, the promised site of Jesus' return."
+  },
+  objectsExtra: ["tomb-stone","burial-linens","emmaus-bread","broiled-fish"],
+  peopleExtra: ["jesus","peter","mary-magdalene","mary-mother-james","joanna","cleopas","john-apostle","james-zebedee"],
+  culture: [
+    { title:"Rock-cut tombs and rolled stones", icon:"🪦",
+      text:"A well-off first-century Jerusalem tomb was typically a chamber cut into bedrock, its entrance sealed with a large disc- or slab-shaped stone rolled or levered into a groove — heavy enough to require more than one person to move, which is part of why the women's first worry, in the other Gospels, is who will roll it away for them." },
+    { title:"Women as first witnesses — an awkward detail by design", icon:"👩",
+      text:"In much of the ancient world a woman's testimony carried less legal weight than a man's, which is exactly why many apologists point to this detail as an unlikely one to invent: a fabricated resurrection story engineered for maximum persuasiveness would probably not have built its first, central witnesses around people whose word the culture was primed to dismiss — precisely the reaction the text itself records ('an idle tale,' v. 11)." },
+    { title:"The Emmaus road — a real, calculable walk", icon:"🥾",
+      text:"Luke gives an exact distance, about 60 stadia (roughly 7 Roman miles, 11 km) — enough specificity that ancient and modern readers alike have tried to fix Emmaus's precise site, though multiple candidate locations remain debated to this day." },
+    { title:"'Known in the breaking of bread'", icon:"🍞",
+      text:"Luke's Greek repeats, almost verbatim, the four verbs of the Last Supper — took, blessed, broke, gave (22:19; 24:30) — inviting the reader to hear an echo of that meal in this ordinary one, and suggesting that recognition of the risen Jesus is tied, in Luke's telling, to the shared table more than to sight alone." },
+    { title:"Proving a body, not a ghost", icon:"🐟",
+      text:"Ancient Mediterranean thought, Jewish and pagan alike, had well-developed ideas of disembodied spirits appearing to the living — which is exactly the category Jesus rules out by inviting touch and then eating solid food in front of witnesses, insisting on a physical, not merely visionary, resurrection." },
+    { title:"The Mount of Olives and the ascension", icon:"⛰️",
+      text:"Zechariah 14:4 had already fixed prophetic attention on this ridge as the site of the LORD's own future return; Luke's ascension account near Bethany, on Olivet's far slope, sets up Acts 1:11-12's matching promise that Jesus 'will come in the same way as you saw him go into heaven' — from the same mountain." }
+  ],
+  crossRefs: [
+    { group:"The same day, in the other Gospels", refs:[
+      { r:"Matthew 28:1-10", note:"Matthew's account of the empty tomb and the women's encounter with the risen Jesus" },
+      { r:"Mark 16:1-8", note:"Mark's shorter version, ending (in the earliest manuscripts) on the women's fear at the empty tomb" },
+      { r:"John 20:1-18", note:"John's fuller, more personal account, including Mary Magdalene's encounter in the garden" } ]},
+    { group:"The road to Emmaus, and appearances catalogued", refs:[
+      { r:"Mark 16:12-13", note:"a brief, independent mention of Jesus appearing 'in another form' to two travelers" },
+      { r:"1 Corinthians 15:3-8", note:"Paul's own list of resurrection appearances, including 'Cephas, then the Twelve'" } ]},
+    { group:"The ascension, retold", refs:[
+      { r:"Acts 1:1-11", note:"Luke's own second telling of the same event, with the added detail of forty days and the promised return" },
+      { r:"Zechariah 14:4", note:"the Mount of Olives named centuries earlier as the site of the LORD's own future appearing" } ]},
+    { group:"Scripture Jesus may have opened on the road", refs:[
+      { r:"Psalm 16:10", note:"'you will not... let your holy one see corruption' — read by the early church as resurrection prophecy" },
+      { r:"Isaiah 53:3-12", note:"the suffering servant, widely read by Christian tradition behind Jesus' own words 'was it not necessary that the Christ should suffer'" },
+      { r:"Psalm 22", note:"another Psalm read messianically alongside the crucifixion just days before this chapter" } ]}
+  ]
 }
 
 };
