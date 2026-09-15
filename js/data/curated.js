@@ -1089,6 +1089,146 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   JOHN 1 — The Word made flesh, John's testimony, first disciples
+   ============================================================ */
+"43:1": {
+  era: {
+    title: "ca. AD 27 — the Baptist's testimony and Jesus' first disciples",
+    sub: "Roman Judea · Bethany beyond the Jordan · the opening of Jesus' public ministry",
+    badges: ["Roman period", "Herod Antipas' tetrarchy", "Second Temple period", "Jesus' first disciples"]
+  },
+  timeOfDay: "day",
+  summary: "John opens with a cosmic overture — 'in the beginning was the Word, and the Word was with God, and the Word was God' — before dropping to ground level at a Jordan ford, where Jerusalem's priests and Levites interrogate John the Baptist about his identity: not the Christ, not Elijah, not 'the Prophet,' but a voice crying in the wilderness, quoting Isaiah, to make the Lord's way straight. The next day John sees Jesus coming and testifies to what he witnessed at the baptism no reader is shown directly — the Spirit descending like a dove and remaining on him — and names him 'the Lamb of God, who takes away the sin of the world.' Two of John's own disciples hear it a second time and leave to follow Jesus instead; one, Andrew, runs to fetch his brother Simon, who is renamed Cephas — Peter, 'the Rock' — on the spot. The next day Jesus finds Philip in Galilee, and Philip finds Nathanael, whose skepticism about Nazareth dissolves the moment Jesus reveals he was watched, unseen, under a fig tree — drawing an instant confession, 'Rabbi, you are the Son of God!' and Jesus' promise of greater sights still to come.",
+  focusPlace: "bethabara",
+  places: [
+    { id:"bethabara", role:"'Bethany beyond the Jordan, where John was baptizing' — where the whole chapter's testimony and first callings happen (v. 28)" },
+    { id:"jordan",     role:"The river itself, the setting of John's baptizing ministry (v. 28)" },
+    { id:"cana",       role:"Nathanael's hometown, named only in passing as the chapter closes — the wedding there waits for chapter 2 (v. 45)" }
+  ],
+  journey: [
+    { from:"bethabara", to:"cana", dashed:true, label:"\"The next day Jesus decided to go to Galilee\"", km:100,
+      note:"Not a route walked within this chapter — only the plan announced as it ends (v. 43), the same day Philip and Nathanael are called. The wedding at Cana itself belongs to chapter 2." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"John questioned: 'Who are you?'", av:"prophet",
+      desc:"Priests and Levites sent from Jerusalem press John on his identity; he denies being the Christ, Elijah, or 'the Prophet' of Deuteronomy 18, and answers only with Isaiah 40:3 — 'I am the voice of one crying in the wilderness, make straight the way of the Lord' (vv. 19-23)." },
+    { x:0.18, type:"person", label:"'Behold, the Lamb of God'", av:"prophet",
+      desc:"Seeing Jesus approach, John names him outright — 'the Lamb of God, who takes away the sin of the world' — and adds that this is the one who ranks before him though he came after (vv. 29-31)." },
+    { x:0.30, type:"object", label:"The Spirit descending like a dove",
+      desc:"John testifies to a sign he alone is shown: 'I saw the Spirit descend from heaven like a dove, and it remained on him' — the exact confirmation God had told him in advance to expect, and his own grounds for calling Jesus 'the Son of God' (vv. 32-34)." },
+    { x:0.42, type:"person", label:"Andrew and John follow Jesus", av:"fisherman",
+      desc:"Two of the Baptist's own disciples hear him call Jesus 'the Lamb of God' a second time and leave to follow; asked what they want, they ask where he is staying, and 'come and see' turns into staying with him the rest of the day (vv. 35-39)." },
+    { x:0.54, type:"person", label:"'You shall be called Cephas'", av:"fisherman",
+      desc:"Andrew's first move is to find his own brother Simon: 'We have found the Messiah.' Jesus looks at him and renames him on the spot — Cephas, Peter, 'the Rock' — before Simon has said or done anything to earn it (vv. 40-42)." },
+    { x:0.68, type:"person", label:"Philip called; fetches Nathanael", av:"traveler",
+      desc:"Jesus finds Philip, a fellow Galilean from Andrew and Peter's own town of Bethsaida, and simply says 'Follow me.' Philip immediately runs to Nathanael with the same claim Andrew made: 'We have found him of whom Moses in the Law and also the Prophets wrote' (vv. 43-45)." },
+    { x:0.80, type:"person", label:"'Can anything good come out of Nazareth?'", av:"traveler",
+      desc:"Nathanael's skepticism meets its answer the moment Jesus greets him first: 'an Israelite indeed, in whom there is no deceit' — and reveals he saw him 'under the fig tree' before Philip ever called. The small, unprovable claim of unseen knowledge draws an outsized confession: 'Rabbi, you are the Son of God! You are the King of Israel!' (vv. 46-49)." },
+    { x:0.93, type:"object", label:"Angels ascending and descending",
+      desc:"Jesus answers Nathanael's leap of faith with a promise of more: 'you will see heaven opened, and the angels of God ascending and descending on the Son of Man' — a deliberate echo of Jacob's ladder-vision at Bethel, now centered on Jesus himself (v. 51; cf. Gen 28:12)." }
+  ],
+  environment: {
+    chips: ["A Jordan River ford", "Priests and Levites riding out from Jerusalem", "A rabbi gathering his first followers", "Prologue: 'the Word became flesh'"],
+    text: "Bethany beyond the Jordan sat in open river-valley wilderness rather than any real town — exposed, waterside country suited to an itinerant baptizing ministry, yet close enough to Jerusalem that a formal delegation of priests and Levites could ride out to question John directly about his credentials (v. 19). First-century rabbis typically gathered disciples who sought them out after proving themselves in study; Jesus instead does the calling himself, finding Philip outright and gathering Andrew, the unnamed second disciple, Simon, and Nathanael within what the text frames as a matter of days. A fig tree's broad leaves made a natural, shaded spot for private prayer or study — an ordinary detail that becomes extraordinary the instant Nathanael realizes he was seen there unobserved."
+  },
+  objectsExtra: ["lamb-of-god","spirit-as-dove","nathanael-fig-tree"],
+  peopleExtra: ["jesus","john-baptist","andrew","peter","john-apostle","philip-apostle","nathanael"],
+  culture: [
+    { title:"The Prologue's cosmic overture", icon:"📜",
+      text:"'In the beginning' deliberately echoes Genesis 1:1, casting Jesus as the eternal, pre-existent 'Word' (Greek Logos) — a term with deep roots in both Jewish wisdom literature (personified Wisdom present at creation, Prov 8:22-31) and Greek philosophy (Logos as the rational principle ordering the universe). John fuses both traditions and then breaks past them entirely: 'the Word became flesh and dwelt among us' (v. 14) — a claim neither Jewish nor Greek thought had ventured before." },
+    { title:"'Not the Christ, not Elijah, not the Prophet'", icon:"🕎",
+      text:"John's three denials map directly onto first-century Jewish messianic hopes: the Christ (Messiah, God's anointed king), Elijah returning bodily before 'the great and awesome day of the LORD' (Mal 4:5), and 'the Prophet' promised in Deuteronomy 18:15-18. John declines all three titles for himself, pointing instead to Isaiah 40:3's 'voice' — content to be an announcement rather than the news itself." },
+    { title:"A name given, not earned", icon:"🪨",
+      text:"Renaming someone in Scripture typically marks a decisive change of identity or destiny (Abram to Abraham, Jacob to Israel). Jesus renames Simon 'Cephas' (Aramaic; Peter in Greek, both meaning 'rock') at their very first meeting, before any track record — a declaration of what Simon will become rather than a reward for what he already is." },
+    { title:"'Come and see'", icon:"👥",
+      text:"Both John (v. 39, to his first two followers) and Philip (v. 46, to Nathanael's skepticism) answer a question with an invitation rather than an argument — a pattern of first-century discipleship in which sitting with a teacher and watching him firsthand mattered more than being talked into a position secondhand." }
+  ],
+  crossRefs: [
+    { group:"The Word, in the beginning", refs:[
+      { r:"Genesis 1:1", note:"'in the beginning' — the phrase John's own opening deliberately echoes" },
+      { r:"Colossians 1:15-17", note:"Paul's own hymn to Christ as the one 'before all things,' through whom all things were created" } ]},
+    { group:"Isaiah's voice in the wilderness", refs:[
+      { r:"Isaiah 40:3", note:"the verse John quotes to describe his own role" },
+      { r:"Malachi 4:5-6", note:"Elijah's promised return, the title John explicitly declines" } ]},
+    { group:"Jacob's ladder, echoed", refs:[
+      { r:"Genesis 28:10-17", note:"Jacob's vision of angels ascending and descending — the image Jesus applies to himself" } ]},
+    { group:"Simon renamed, confirmed later", refs:[
+      { r:"Matthew 16:17-18", note:"Jesus builds on the name given here — 'on this rock I will build my church'" } ]}
+  ]
+},
+
+/* ============================================================
+   JOHN 3 — Nicodemus by night, and John the Baptist's last testimony
+   ============================================================ */
+"43:3": {
+  era: {
+    title: "ca. AD 27-28 — a Pharisee's night visit, and the Baptist's last testimony",
+    sub: "Roman Judea · Jerusalem and the Jordan Valley · early in Jesus' Judean ministry",
+    badges: ["Roman Judea", "Pharisees and the Sanhedrin", "Jesus' early Judean ministry", "≈2,000 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Nicodemus, a Pharisee and ruler of the Jews, comes to Jesus under cover of darkness with a respectful opening — 'we know that you are a teacher come from God' — and gets, instead of an answer, a demand: 'unless one is born again, he cannot see the kingdom of God.' Nicodemus takes it literally and stumbles; Jesus presses further, tying the new birth to 'water and the Spirit' and comparing it to wind — heard and felt, its source and course unseen and uncontrolled. Rebuking Nicodemus gently as Israel's own teacher who still doesn't grasp it, Jesus reaches for a stranger image yet: as Moses lifted up the bronze serpent in the wilderness so that anyone bitten could look and live, so the Son of Man must be lifted up, so that everyone who believes in him has eternal life — 'for God so loved the world that he gave his only Son.' Later, Jesus and his disciples move into the Judean countryside baptizing, while John the Baptist, unbothered, continues his own ministry at Aenon near Salim, 'because water was plentiful there.' When John's disciples come to him unsettled that everyone is now flocking to Jesus instead, he answers without a trace of rivalry: a bridegroom's friend rejoices at the bridegroom's voice rather than resenting it, and closes his public ministry with the words history remembers him by — 'he must increase, but I must decrease.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem",   role:"Where Nicodemus comes to Jesus by night with his questions (vv. 1-21)" },
+    { id:"aenon-salim", role:"Where John the Baptist keeps baptizing, and where his disciples' jealousy draws out his last recorded words (vv. 23-30)" },
+    { id:"jordan",      role:"The wider river valley where both Jesus' and John's baptizing ministries operate, unrivaled, side by side (vv. 22-23)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"aenon-salim", label:"Jesus and his disciples move to the Judean countryside", km:80,
+      note:"'After this Jesus and his disciples went into the Judean countryside, and he remained there with them and was baptizing' (v. 22) — the same broad Jordan Valley region where John, independently and without complaint, 'also was baptizing at Aenon near Salim, because water was plentiful there' (v. 23)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Nicodemus comes by night", av:"elder",
+      desc:"A Pharisee and 'ruler of the Jews' — likely a member of the Sanhedrin — opens with careful respect: 'Rabbi, we know that you are a teacher come from God.' Jesus answers a question Nicodemus never asked: 'unless one is born again, he cannot see the kingdom of God' (vv. 1-3)." },
+    { x:0.17, type:"object", label:"Born of water and the Spirit",
+      desc:"Nicodemus takes 'born again' literally — 'can he enter a second time into his mother's womb?' — so Jesus specifies: born 'of water and the Spirit,' then reaches for the wind, heard in its effect but never seen or controlled at its source, as the closest picture he can offer (vv. 4-8)." },
+    { x:0.29, type:"person", label:"'The teacher of Israel does not understand?'", av:"elder",
+      desc:"'How can these things be?' Jesus presses the gap between Nicodemus's credentials and his comprehension — 'are you the teacher of Israel and yet you do not understand these things?' — before shifting from earthly to heavenly testimony altogether (vv. 9-13)." },
+    { x:0.41, type:"object", label:"The bronze serpent, lifted up",
+      desc:"'As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up' — a direct reach back to Numbers 21's bronze serpent, where looking at the very image of the affliction brought healing, now applied to Jesus' own coming crucifixion (v. 14; cf. Num 21:4-9)." },
+    { x:0.53, type:"object", label:"'For God so loved the world'",
+      desc:"The chapter's best-known line frames the whole preceding argument as rescue rather than condemnation: God gives his only Son so that everyone who believes will not perish but have eternal life — light entering a world that, given the choice, loved darkness instead (vv. 16-21)." },
+    { x:0.65, type:"person", label:"Jesus' disciples baptizing in Judea", av:"prophet",
+      desc:"Rather than staying in Jerusalem, Jesus and his disciples move out into the Judean countryside, remaining there and baptizing — a ministry running, for a time, in parallel with John's own rather than replacing it outright (v. 22)." },
+    { x:0.78, type:"person", label:"John's disciples grow jealous at Aenon", av:"prophet",
+      desc:"A dispute over ceremonial washing sends John's own disciples to him, unsettled: 'Rabbi, he who was with you across the Jordan... looks, he is baptizing, and all are going to him.' John answers that a person 'can receive nothing except what is given him from heaven' — success is not a zero-sum contest (vv. 23-27)." },
+    { x:0.92, type:"person", label:"'He must increase, but I must decrease'", av:"prophet",
+      desc:"John closes with the image of a wedding: he is only the bridegroom's friend, and it is the bridegroom's voice, not his own, that should draw the joy. His last recorded public words hand off the whole story without a trace of resentment (vv. 28-30)." }
+  ],
+  environment: {
+    chips: ["A rooftop or upper-room conversation after dark", "Rabbinic titles: 'Rabbi,' 'teacher of Israel'", "Jordan Valley springs, plentiful water", "Two baptizing ministries, unrivaled, side by side"],
+    text: "A member of the Sanhedrin visiting a controversial new rabbi after dark risked real reputational exposure among his own peers — a caution this same Nicodemus sheds by the end of the Gospel, defending Jesus openly before the council (7:50-51) and finally bringing seventy-five pounds of spices to his burial in broad daylight (19:39-40). Aenon near Salim's defining feature, plentiful water, fits the Jordan Valley's spring-fed stretches south of Beit She'an, where multiple candidate sites still compete for the exact spot; whatever the precise location, the detail matters because full immersion, not merely a stream to wade into, needed real depth and volume. John's own response to his disciples' jealousy — content to fade as another's ministry grows — reads against the grain of nearly every ancient patron-client rivalry the culture normally expected."
+  },
+  objectsExtra: ["born-again","god-so-loved-the-world","nehushtan"],
+  peopleExtra: ["jesus","nicodemus","john-baptist"],
+  culture: [
+    { title:"Coming by night", icon:"🌙",
+      text:"John's Gospel repeatedly notes that Nicodemus came 'by night' (3:2; 19:39), a detail read as marking real caution — a council member could not easily be seen consulting a rabbi already drawing suspicion from his own colleagues. His arc across the Gospel moves steadily out of the shadows: a timid question at night, a lone objection raised in council (7:50-51), and finally a public, costly act of devotion in full daylight after the crucifixion." },
+    { title:"'Ruler of the Jews' — a Sanhedrin member", icon:"📖",
+      text:"Calling Nicodemus 'a ruler of the Jews' (v. 1) marks him as a member of the Sanhedrin, Judea's supreme religious and legal council of roughly seventy elders, priests, and scribes — exactly the body that will later condemn Jesus, which sharpens both the risk of this visit and the weight of Jesus' rebuke that Israel's own credentialed teacher doesn't grasp the new birth (v. 10)." },
+    { title:"The bronze serpent, then and now", icon:"🐍",
+      text:"Numbers 21:4-9 tells of fiery serpents sent among a grumbling Israel; those bitten lived by looking at a bronze serpent Moses raised on a pole — healing found not by looking away from the source of judgment but straight at its image. Centuries later King Hezekiah broke the same relic into pieces once Israel had begun burning incense to it as an idol, naming it 'Nehushtan,' a mere bronze thing (2 Kgs 18:4) — the type surviving in Jesus' own words here long after the object itself was destroyed." },
+    { title:"A bridegroom's friend, not a rival", icon:"💍",
+      text:"The shoshbin, or 'friend of the bridegroom,' held a recognized role in ancient Jewish weddings — arranging details and standing by, his own joy tied entirely to the bridegroom's happiness rather than to any status of his own. John reaches for this exact custom to explain why Jesus drawing bigger crowds is his fulfillment, not his defeat (vv. 29-30)." }
+  ],
+  crossRefs: [
+    { group:"The bronze serpent, then and later", refs:[
+      { r:"Numbers 21:4-9", note:"the wilderness episode Jesus draws on directly" },
+      { r:"2 Kings 18:4", note:"Hezekiah destroys the same relic once Israel starts worshiping it" } ]},
+    { group:"Nicodemus, later in this Gospel", refs:[
+      { r:"John 7:50-51", note:"Nicodemus alone objects when the council moves to condemn Jesus unheard" },
+      { r:"John 19:39-42", note:"Nicodemus returns in daylight with seventy-five pounds of spices for Jesus' burial" } ]},
+    { group:"God's love for the world, echoed", refs:[
+      { r:"Romans 5:8", note:"'while we were still sinners, Christ died for us' — Paul's own version of the same claim" },
+      { r:"1 John 4:9-10", note:"John's later letter restates almost the same sentence about the Father sending the Son" } ]},
+    { group:"The Baptist's own witness, from the start", refs:[
+      { r:"John 1:19-27", note:"John's earlier testimony before the priests and Levites, in this same dataset" },
+      { r:"Luke 3:15-17", note:"another Gospel's account of John pointing beyond himself to 'one mightier' coming" } ]}
+  ]
+},
+
+/* ============================================================
    JOHN 4 — The Samaritan woman at Jacob's well
    ============================================================ */
 "43:4": {

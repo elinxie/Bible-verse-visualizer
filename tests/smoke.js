@@ -201,7 +201,8 @@ function check(name, cond, extra) {
     "Galatians 2|48:2", "Galatians 3|48:3", "Galatians 5|48:5",
     "Micah 5|33:5", "Haggai 1|37:1",
     "Mark 4|41:4", "Mark 5|41:5",
-    "Luke 10|42:10", "Luke 15|42:15", "Luke 24|42:24"];
+    "Luke 10|42:10", "Luke 15|42:15", "Luke 24|42:24",
+    "John 1|43:1", "John 3|43:3"];
   for (const entry of CURATED_SWEEP) {
     const [ref, key] = entry.split("|");
     console.log(`== curated pipeline: ${ref} ==`);
