@@ -748,7 +748,14 @@ BVV.PLACES = [
     blurb:"'John also was baptizing at Aenon near Salim, because water was plentiful there' (John 3:23) — where the Baptist's own ministry continues, and where his disciples come to him jealous of Jesus' growing crowds, drawing out his last recorded words: 'he must increase, but I must decrease.'",
     meaning:"Aenon is likely from Aramaic/Hebrew 'ayin/'enayin — 'springs' — a descriptive name matching the site's defining feature",
     ancient:"Eusebius's fourth-century Onomasticon places Aenon some eight Roman miles south of Scythopolis (Beit She'an) in the Jordan Valley, a well-watered stretch of springs and streams feeding into the Jordan — plausible grounds for John's own note that 'water was plentiful there,' since a moving current wasn't strictly required for immersion. A rival, minority identification ties Salim instead to a village east of Shechem in Samaria, near Wadi Farah's springs; neither site is certain, and both preserve the same basic picture of a spring-fed wilderness crossroads rather than a town of any size.",
-    scene:{ terrain:"valley", settlement:"none", water:"spring", veg:"mixed" } }
+    scene:{ terrain:"valley", settlement:"none", water:"spring", veg:"mixed" } },
+
+  // ---- John 9 ----
+  { id:"siloam", name:"Pool of Siloam", al:["Pool of Siloam","Siloam"], modern:"City of David, Jerusalem", lat:31.771, lon:35.235, type:"landmark",
+    blurb:"A stepped pool at the outlet of Hezekiah's Tunnel, in Jerusalem's lower city, where Jesus sends the man born blind to wash off the mud from his healed eyes (John 9:7).",
+    meaning:"Hebrew 'Shiloach' — 'sent' (John's own gloss, 9:7) — from a root meaning to send or send out",
+    ancient:"A large, stone-stepped public reservoir fed by the Gihon Spring through Hezekiah's eighth-century BC tunnel, drawing crowds of pilgrims and, ordinarily, beggars stationed nearby to ask alms of those going down to wash.",
+    scene:{ terrain:"hills", settlement:"city", water:"pool", veg:"sparse" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };
