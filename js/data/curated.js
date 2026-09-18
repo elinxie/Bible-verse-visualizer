@@ -1276,6 +1276,347 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   JOHN 9 — The man born blind
+   ============================================================ */
+"43:9": {
+  era: {
+    title: "ca. AD 29 — a man born blind, healed at the Pool of Siloam",
+    sub: "Roman Judea · Jerusalem, near the temple, and the Pool of Siloam",
+    badges: ["Roman Judea", "Sabbath controversy", "Threat of synagogue expulsion", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Passing a man blind from birth, Jesus rejects the disciples' assumption that someone's sin caused it — 'that the works of God might be displayed in him' — spits on the ground, works the dirt into mud, spreads it on the man's eyes, and sends him to wash in the Pool of Siloam. He comes back seeing, and the town can't agree it's really him. Because it happened on the Sabbath, the Pharisees open an interrogation: some call the healer no Sabbath-keeper, others ask how a sinner could do such signs; unable to settle it, they turn to his parents, who confirm their son but push the question back to him, 'because they were afraid of the Jews,' for the Jews had already agreed that anyone confessing Jesus as Christ would be thrown out of the synagogue. Called back a second time, the healed man's answers only sharpen under pressure — he won't take back what happened to him and won't pretend to know the theology, only the fact: 'one thing I know, that though I was blind, now I see.' Reviled as a sinner's disciple and thrown out for his trouble, he's found again by Jesus, who reveals himself as the Son of Man; the man worships him on the spot. Jesus closes with a verdict turned back on his accusers: 'if you were blind, you would have no guilt; but now that you say, \"We see,\" your guilt remains.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"Where the man is healed, and where the Pharisees, then his parents, then the man himself are interrogated (vv. 1-6, 8-34)" },
+    { id:"siloam",     role:"The pool where Jesus sends the man to wash off the mud — 'Siloam (which means Sent)' (v. 7)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"siloam", label:"Sent to wash, still blind", km:0.6,
+      note:"A short walk downhill through the city's lower streets — made blind, with mud drying on his eyes, entirely on the strength of a stranger's instruction he has no way yet to verify (v. 7)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"'Not sin, but the works of God'", av:"prophet",
+      desc:"Seeing a man blind from birth, the disciples ask whose sin caused it — his or his parents'. Jesus rejects the premise outright: neither, 'but that the works of God might be displayed in him' (vv. 1-5)." },
+    { x:0.17, type:"object", label:"Mud made from spit",
+      desc:"Jesus spits on the ground, works it into mud, and spreads it on the man's eyes — a deliberately physical, two-step sign rather than a word spoken from a distance (v. 6)." },
+    { x:0.29, type:"person", label:"Washed in Siloam, and seeing", av:"traveler",
+      desc:"Told to go wash in the Pool of Siloam — 'which means Sent' — the man goes, washes, and comes back able to see; his own neighbors can't agree it's really him (vv. 7-12)." },
+    { x:0.41, type:"person", label:"First interrogation: a Sabbath problem", av:"elder",
+      desc:"Because the healing fell on the Sabbath, the Pharisees split: some say the healer 'does not keep the Sabbath,' others ask how a sinner could perform such signs at all (vv. 13-17)." },
+    { x:0.53, type:"person", label:"The parents, afraid of expulsion", av:"elder",
+      desc:"Summoned to confirm their son was really born blind, the parents answer as little as possible and push the question back to him directly, 'for they were afraid of the Jews' and the threat of being 'put out of the synagogue' (vv. 18-23)." },
+    { x:0.65, type:"person", label:"'One thing I know'", av:"traveler",
+      desc:"Interrogated a second time and pressed to denounce Jesus as a sinner, the man's testimony only grows bolder — he won't argue theology, only fact: 'one thing I know, that though I was blind, now I see' (vv. 24-33)." },
+    { x:0.77, type:"person", label:"Thrown out of the synagogue", av:"traveler",
+      desc:"Reviled as a sinner's disciple with nothing left to lose, the man is cast out — the very consequence his own parents had tried to dodge by staying silent (v. 34)." },
+    { x:0.92, type:"person", label:"Found by Jesus; the guilt that remains", av:"prophet",
+      desc:"Jesus seeks the man out, reveals himself as the Son of Man, and receives the first open worship offered him in this Gospel. To the Pharisees listening in, Jesus turns his own healing image into a verdict: claiming sight while refusing to see leaves the guilt in place (vv. 35-41)." }
+  ],
+  environment: {
+    chips: ["A blind beggar at the temple gate", "Spit-and-clay healing, on the Sabbath", "The synagogue-expulsion threat (aposynagogos)", "Public shame turned into public confession"],
+    text: "The disciples' opening question assumes a live first-century debate about suffering and sin — that a birth defect must trace to someone's guilt, whether the child's own (in a pre-birth or reincarnation sense some rabbis debated) or his parents'; Jesus' answer refuses the whole framework rather than picking a side. Later rabbinic law eventually catalogued thirty-nine categories of Sabbath-forbidden work, including kneading, which is exactly the kind of technical objection that lets the Pharisees fixate on how Jesus healed rather than that a lifelong blind man could suddenly see. The threat that 'anyone who confessed Jesus to be Christ was to be put out of the synagogue' (v. 22) meant real exile from a community's worship, legal standing, and social life — a cost this newly sighted man pays in full rather than recant what he has just experienced firsthand."
+  },
+  objectsExtra: ["mud-and-spittle","synagogue"],
+  peopleExtra: ["jesus","man-born-blind"],
+  culture: [
+    { title:"Sin and suffering, a live debate", icon:"❓",
+      text:"The disciples' question — 'who sinned, this man or his parents?' — reflects a widespread ancient assumption, echoed by Job's own friends centuries earlier, that suffering traces directly back to guilt. Jesus' flat rejection of both options here (v. 3) matches his similar refusal elsewhere to read a tower's collapse or a governor's massacre as targeted punishment (Luke 13:1-5)." },
+    { title:"Kneading on the Sabbath", icon:"🖐️",
+      text:"Rabbinic tradition (later codified in the Mishnah) eventually listed thirty-nine categories of Sabbath-forbidden labor, several of which — kneading, and by extension working spit into clay — a healing-by-mud could be read as violating at once. The Pharisees' complaint isn't invented legalism; it reflects a real, careful system Jesus' method runs straight through." },
+    { title:"Thrown out of the synagogue", icon:"🚪",
+      text:"John alone among the Gospels names this specific penalty — aposynagogos, put out of the synagogue (9:22; cf. 12:42; 16:2) — a formal exclusion from communal worship, legal recourse, and social belonging alike. Whatever its precise first-century form, the man's expulsion here costs him everything just as his testimony reaches its firmest point." }
+  ],
+  crossRefs: [
+    { group:"Blindness as spiritual metaphor", refs:[
+      { r:"John 9:39-41", note:"Jesus' own closing verdict — claimed sight without belief leaves guilt in place" },
+      { r:"Isaiah 42:18-19", note:"the LORD's own servant Israel called blind and deaf despite its calling" } ]},
+    { group:"Sin and suffering elsewhere", refs:[
+      { r:"Job 4:7", note:"Eliphaz's assumption that the innocent never perish — the very logic Job's whole book contests" },
+      { r:"Luke 13:1-5", note:"Jesus rejects the same retribution logic for a massacre and a tower's collapse" } ]},
+    { group:"Siloam, elsewhere in Scripture", refs:[
+      { r:"Isaiah 8:6", note:"'the waters of Shiloah that flow gently' — an early reference to the same spring-fed system" },
+      { r:"Nehemiah 3:15", note:"the King's Pool, part of the same Gihon-fed water system Hezekiah's tunnel later expanded" } ]},
+    { group:"Light of the world, restated", refs:[
+      { r:"John 8:12", note:"Jesus' claim just before this chapter — 'I am the light of the world'" },
+      { r:"John 9:5", note:"the same claim repeated here, immediately before the healing itself" } ]}
+  ]
+},
+
+/* ============================================================
+   JOHN 11 — The raising of Lazarus
+   ============================================================ */
+"43:11": {
+  era: {
+    title: "ca. AD 30 — Lazarus raised at Bethany, weeks before the cross",
+    sub: "Roman Judea · Bethany, near Jerusalem, and the region beyond the Jordan",
+    badges: ["Roman Judea", "Bethany, two miles from Jerusalem", "Final approach to the Passion", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Word reaches Jesus, staying across the Jordan, that Lazarus of Bethany — brother of Martha and Mary, a man Jesus loves — is ill; rather than rushing, he deliberately stays two more days before setting out for Judea, over his disciples' alarm that 'the Jews were just now seeking to stone you.' Thomas's grim resolve — 'let us also go, that we may die with him' — carries them back anyway. Arriving to find Lazarus four days dead, Jesus meets Martha first; her grief and faith run together — 'if you had been here, my brother would not have died,' and yet 'even now I know that whatever you ask from God, God will give you' — and Jesus' claim, 'I am the resurrection and the life,' draws from her a confession to match Peter's own: 'I believe that you are the Christ, the Son of God.' Mary falls at his feet with the identical opening line, and this time Jesus himself is undone — 'deeply moved in his spirit and greatly troubled,' he weeps openly at the tomb. Over Martha's practical objection about the smell of a four-day-old body, the stone is rolled away; Jesus prays aloud, then cries out, 'Lazarus, come out,' and the dead man walks out still bound in graveclothes, needing to be unwrapped. Many who see it believe, but others report straight to the Pharisees, who convene the Sanhedrin in fear that Rome will move against a nation stirred up by a miracle-worker. Caiaphas, high priest that year, cuts through the debate with cold political math — 'it is better for you that one man should die for the people, and that the whole nation should not perish' — words John reads as prophecy the high priest never meant to speak, sealing, from that day, the plan to kill Jesus.",
+  focusPlace: "bethany",
+  places: [
+    { id:"jordan",  role:"Where Jesus is staying, 'across the Jordan,' when word of Lazarus's illness arrives and he deliberately delays two more days (vv. 1-7, 40)" },
+    { id:"bethany", role:"Lazarus's home village, the tomb, and the raising itself (vv. 1, 17-44)" },
+    { id:"jerusalem", role:"Where the chief priests and Pharisees convene the Sanhedrin and Caiaphas gives his verdict (vv. 45-53)" }
+  ],
+  journey: [
+    { from:"jordan", to:"bethany", label:"Back into Judea, despite the danger", km:30,
+      note:"A day or more's walk from the Jordan Valley crossing back up into Judea and on to Bethany — territory the disciples had just warned him was too dangerous to re-enter (vv. 7-8, 17)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Ill, and a deliberate delay", av:"prophet",
+      desc:"Word comes that 'he whom you love is ill.' Rather than leaving at once, Jesus stays where he is two more days — 'this illness does not lead to death, it is for the glory of God' (vv. 1-6)." },
+    { x:0.17, type:"person", label:"'Let us also go, that we may die with him'", av:"traveler",
+      desc:"The disciples object — the Jews had just tried to stone him there — but Thomas's grim resolve settles it, and they set out for Judea anyway (vv. 7-16)." },
+    { x:0.29, type:"person", label:"Martha: grief and confession", av:"woman",
+      desc:"'Lord, if you had been here, my brother would not have died' — yet Martha's faith reaches further still, drawing from Jesus 'I am the resurrection and the life' and her own answering confession, 'I believe that you are the Christ' (vv. 17-27)." },
+    { x:0.41, type:"person", label:"Mary's same words, and Jesus weeping", av:"woman",
+      desc:"Mary falls at Jesus' feet with the identical complaint; seeing her and the mourners weeping, Jesus is 'deeply moved' and 'greatly troubled,' and weeps openly himself (vv. 28-35)." },
+    { x:0.53, type:"object", label:"The tomb, and the stone rolled away",
+      desc:"Martha objects that after four days there will be a smell — plain confirmation the death is real, not feigned — before the stone is removed at Jesus' command (vv. 38-41)." },
+    { x:0.65, type:"person", label:"'Lazarus, come out'", av:"prophet",
+      desc:"After praying aloud for the crowd's sake, Jesus cries out with a loud voice, and the dead man walks out of the tomb still bound hand and foot in graveclothes, his face wrapped separately (vv. 41-44)." },
+    { x:0.77, type:"person", label:"Belief, and a report to the Pharisees", av:"traveler",
+      desc:"Many of the Jews who had come to console Mary see it and believe; others go straight to the Pharisees to report what Jesus has done (vv. 45-46)." },
+    { x:0.92, type:"person", label:"Caiaphas's unwitting prophecy", av:"priest",
+      desc:"The chief priests and Pharisees convene the Sanhedrin, fearing Rome will move against a nation stirred up by such signs. Caiaphas cuts through the debate: 'it is better... that one man should die for the people' — a calculation John reads as prophecy the high priest never intended (vv. 47-53)." }
+  ],
+  environment: {
+    chips: ["Bethany, two miles from Jerusalem", "A four-day-old tomb, sealed with a stone", "Hired mourners and formal wailing", "The Sanhedrin convened in fear of Rome"],
+    text: "A popular first-century Jewish belief held that a departed soul lingered near the body for three days hoping to return, departing for good once decay visibly set in on the fourth — the exact reason John stresses 'already four days' (v. 39): not a coma or premature burial, but death past any possible doubt or trick. Formal mourning drew hired flute-players and professional wailing women (cf. Matt 9:23), and 'many of the Jews had come... to console' Martha and Mary (v. 19) — a crowd whose presence corroborates the miracle rather than staging it, since they are eyewitnesses drawn from Jerusalem itself, two miles off. The Sanhedrin's fear — 'the Romans will come and take away both our place and our nation' — reflects the real, standing anxiety of a client leadership whose temple and limited self-rule survived only at Rome's pleasure."
+  },
+  objectsExtra: ["tomb-stone","burial-linens"],
+  peopleExtra: ["jesus","martha","mary-bethany","lazarus","thomas","caiaphas"],
+  culture: [
+    { title:"Four days dead — beyond doubt", icon:"⏳",
+      text:"Later rabbinic sources describe a popular belief that a soul stayed near its body for three days, still hoping to reenter it, before departing once decomposition became visible on the fourth. John's insistence that Lazarus has been dead 'four days already' (v. 39) closes off any reading of the sign as revival from a coma — the text wants a death beyond argument before the tomb is even opened." },
+    { title:"Professional mourners and shared grief", icon:"😭",
+      text:"'Many of the Jews had come... to console' the sisters (v. 19), a crowd matching the ancient Near Eastern custom of hired flute-players and wailing women alongside genuine family and community mourning (cf. Matt 9:23). Their presence, drawn from nearby Jerusalem, means the miracle happens in front of witnesses with no reason to invent it — some of whom, John notes, report it straight to the authorities instead of believing." },
+    { title:"Caiaphas's unwitting prophecy", icon:"⚖️",
+      text:"John's own editorial aside reads the high priest's cynical political calculation — better one man die than the whole nation perish — as, without Caiaphas knowing it, exactly true: Jesus would die 'not for the nation only, but to gather into one the children of God who are scattered abroad' (vv. 51-52). The plan settled here runs in a straight line to the crucifixion weeks later." }
+  ],
+  crossRefs: [
+    { group:"'I am the resurrection and the life'", refs:[
+      { r:"John 11:25-26", note:"Jesus' claim to Martha, answered by her own confession of the Christ" },
+      { r:"John 5:28-29", note:"Jesus' earlier promise of a coming resurrection for 'all who are in the tombs'" } ]},
+    { group:"The plot against Jesus, sealed here", refs:[
+      { r:"John 11:53", note:"'from that day on they made plans to put him to death'" },
+      { r:"John 18:14", note:"John recalls Caiaphas's advice again at the moment of Jesus' arrest" } ]},
+    { group:"Weeping and compassion", refs:[
+      { r:"John 11:35", note:"the Gospels' shortest verse — 'Jesus wept'" },
+      { r:"Luke 19:41", note:"Jesus weeps again, this time over Jerusalem itself, days later" } ]},
+    { group:"Graveclothes, then and at Jesus' own tomb", refs:[
+      { r:"John 11:44", note:"Lazarus emerges still bound, needing to be unwrapped by others" },
+      { r:"John 20:6-7", note:"Jesus' own linen wrappings, left behind and undisturbed, the face-cloth folded separately" } ]}
+  ]
+},
+
+/* ============================================================
+   JOHN 19 — The crucifixion
+   ============================================================ */
+"43:19": {
+  era: {
+    title: "ca. AD 30 — Good Friday: from Pilate's courtyard to Golgotha",
+    sub: "Roman Judea under Pontius Pilate · Jerusalem's Praetorium and Golgotha",
+    badges: ["Roman Judea", "Passover week, AD 30", "Roman crucifixion", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Pilate has Jesus scourged, and the soldiers stage a cruel coronation — a crown twisted from thorns, a purple robe, blows and mockery of 'King of the Jews.' Pilate brings him out like this, hoping the sight alone will satisfy the crowd — 'Behold the man!' — but the chief priests and officers only cry louder, 'Crucify him, crucify him!' Pressed further ('shall I crucify your King?'), the chief priests answer with a line that abandons their own messianic hope outright: 'We have no king but Caesar.' Pilate hands Jesus over, and has an inscription fixed to the cross in Hebrew, Latin, and Greek — 'Jesus of Nazareth, the King of the Jews' — refusing the priests' request to soften it: 'What I have written I have written.' Jesus is crucified at Golgotha between two others, while soldiers divide his garments and cast lots for his seamless tunic. From the cross he entrusts his mother to 'the disciple whom he loved,' who takes her into his own home from that hour. Knowing all is now finished, Jesus says 'I thirst,' receives sour wine on a hyssop branch, says 'It is finished,' and bows his head, giving up his spirit. To hasten death before the Sabbath, soldiers break the legs of the two others, but finding Jesus already dead they instead pierce his side with a spear — 'at once there came out blood and water.' That evening Joseph of Arimathea, with Nicodemus bringing about seventy-five pounds of myrrh and aloes, takes the body, wraps it in linen with the spices, and lays it in a new, unused rock-cut tomb close by, 'because of the Jewish day of Preparation.'",
+  focusPlace: "golgotha",
+  places: [
+    { id:"jerusalem", role:"Pilate's judgment hall — the scourging, 'Behold the man,' and the inscription Pilate refuses to change (vv. 1-16, 19-22)" },
+    { id:"golgotha",  role:"'The Place of a Skull' — the crucifixion, the death, and the tomb nearby (vv. 17-18, 23-42)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"golgotha", label:"Carrying his own cross, out through the gate", km:0.5,
+      note:"John's own account has Jesus 'bearing his own cross' out to the execution ground (v. 17) — where the Synoptic Gospels have Simon of Cyrene pressed into service, John's telling stresses Jesus going to his death under his own power." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Scourged and crowned with thorns", av:"warrior",
+      desc:"Pilate has Jesus flogged; soldiers twist a crown from thorn branches onto his head, dress him in a purple robe, and strike him while jeering, 'Hail, King of the Jews!' (vv. 1-3)." },
+    { x:0.17, type:"person", label:"'Behold the man!'", av:"official",
+      desc:"Pilate brings Jesus out in the mock regalia, hoping the sight will satisfy the crowd's anger; the chief priests and officers instead cry out, 'Crucify him, crucify him!' (vv. 4-6)." },
+    { x:0.29, type:"person", label:"'We have no king but Caesar'", av:"official",
+      desc:"Pressed on whether to crucify their own king, the chief priests answer with total capitulation — abandoning, in a single line, centuries of messianic hope (vv. 7-16)." },
+    { x:0.41, type:"object", label:"The inscription Pilate won't change",
+      desc:"'Jesus of Nazareth, the King of the Jews' is fixed above the cross in three languages; the chief priests object to the wording, and Pilate refuses outright: 'What I have written I have written' (vv. 19-22)." },
+    { x:0.53, type:"object", label:"Crucified at Golgotha; garments cast by lot",
+      desc:"Jesus is crucified between two others; soldiers divide his clothing and cast lots for his one-piece, seamless tunic rather than tear it (vv. 17-18, 23-24)." },
+    { x:0.65, type:"person", label:"'Woman, behold your son'", av:"prophet",
+      desc:"From the cross, seeing his mother and 'the disciple whom he loved' standing nearby, Jesus entrusts them to each other; from that hour the disciple takes her into his own home (vv. 25-27)." },
+    { x:0.77, type:"person", label:"'It is finished'", av:"prophet",
+      desc:"Knowing everything is now complete, Jesus says 'I thirst,' is given sour wine on a hyssop branch, says 'It is finished,' and bows his head, giving up his spirit (vv. 28-30)." },
+    { x:0.92, type:"object", label:"Blood and water; burial by Joseph and Nicodemus",
+      desc:"The other two have their legs broken to hasten death, but a soldier finds Jesus already dead and spears his side instead — blood and water flowing out. Joseph of Arimathea and Nicodemus, with seventy-five pounds of spices, bury him in a new, nearby tomb before the Sabbath (vv. 31-42)." }
+  ],
+  environment: {
+    chips: ["Roman scourging before crucifixion", "A crown of thorns, a purple robe", "Golgotha, 'the Place of a Skull'", "A trilingual inscription — Hebrew, Latin, Greek", "A new, unused rock-cut tomb nearby"],
+    text: "Roman scourging used a flagrum studded with bone or metal, brutal enough on its own to kill or permanently maim — a standard, deliberately weakening prelude to crucifixion, distinct from and far harsher than the Jewish law's capped thirty-nine lashes (2 Cor 11:24). The purple robe mocked Tyrian-dyed imperial purple, the most expensive color of the ancient world, turning royal splendor into a slave's punishment. Breaking a crucified man's legs sped death by removing his ability to push up and exhale, hastening asphyxiation before the Sabbath began at sunset; finding Jesus already dead, the soldier's spear-thrust instead served merely to confirm death, which John treats as itself a fulfilled sign. Nicodemus's seventy-five pounds of myrrh and aloes was a burial gift on a scale used for royalty (cf. 2 Chron 16:14), a sharp turn from his earlier furtive night visit in chapter 3 into open, costly, daylight devotion."
+  },
+  objectsExtra: ["crown-of-thorns","blood-and-water","burial-linens"],
+  peopleExtra: ["jesus","pilate","john-apostle","mary","joseph-arimathea","nicodemus"],
+  culture: [
+    { title:"Roman scourging", icon:"⚔️",
+      text:"The flagrum's leather thongs, often weighted with bone or metal fragments, tore muscle and skin in a way meant to weaken a condemned man before crucifixion itself even began — brutal enough that some victims died from the scourging alone. It also explains, in John's own account, why Jesus needs no help carrying his cross out to Golgotha, unlike the Synoptic Gospels' Simon of Cyrene." },
+    { title:"'We have no king but Caesar'", icon:"👑",
+      text:"For Torah-observant leaders whose entire national hope rested on a coming king who was decidedly not Caesar, this line is a stunning capitulation — the chief priests disowning their own messianic expectation outright, in the very moment they condemn the one claiming to fulfill it, to avoid any appearance of disloyalty to Rome." },
+    { title:"Seventy-five pounds of spices", icon:"🌿",
+      text:"Nicodemus's contribution of roughly a hundred Roman pounds (about 33 kg) of myrrh and aloes matches burial honors elsewhere reserved for kings (cf. 2 Chron 16:14, Asa's own lavish funeral spices) — an extravagant, public gift from the same man who first came to Jesus 'by night' (3:2), now acting in broad daylight and at real personal cost." }
+  ],
+  crossRefs: [
+    { group:"Prophecy converging at the cross", refs:[
+      { r:"Psalm 22:18", note:"'they divide my garments among them, and for my clothing they cast lots'" },
+      { r:"Zechariah 12:10", note:"'they will look on me, on him whom they have pierced' — John cites this directly (19:37)" },
+      { r:"Exodus 12:46 / Psalm 34:20", note:"'not one of his bones will be broken' — John cites this directly (19:36)" } ]},
+    { group:"Nicodemus and Joseph, revisited", refs:[
+      { r:"John 3:1-2", note:"Nicodemus's first, cautious night visit to Jesus" },
+      { r:"John 7:50-51", note:"his lone objection when the council first moves against Jesus" } ]},
+    { group:"The beloved disciple's care for Mary", refs:[
+      { r:"John 19:26-27", note:"Jesus entrusts his mother to 'the disciple whom he loved'" },
+      { r:"John 13:23", note:"the same disciple, reclining nearest Jesus at the Last Supper" } ]},
+    { group:"The same day, in the other Gospels", refs:[
+      { r:"Matthew 27:45-54", note:"the darkness, the cry of dereliction, and the temple curtain torn" },
+      { r:"Luke 23:44-49", note:"Luke's own account of the same afternoon's events" } ]}
+  ]
+},
+
+/* ============================================================
+   JOHN 20 — The empty tomb and the resurrection appearances
+   ============================================================ */
+"43:20": {
+  era: {
+    title: "ca. AD 30 — resurrection Sunday, and a week after",
+    sub: "Roman Judea · Jerusalem: the garden tomb near Golgotha, and a locked room in the city",
+    badges: ["Roman Judea", "Resurrection Sunday, AD 30", "Passion week's aftermath", "≈2,000 years ago"]
+  },
+  timeOfDay: "dawn",
+  summary: "While it is still dark, Mary Magdalene comes to the tomb and finds the stone already rolled away; she runs to tell Peter and 'the other disciple, the one whom Jesus loved,' and both race to see for themselves. The other disciple outruns Peter but waits to let him go in first — they find the linen wrappings lying in place and the face-cloth folded separately, then go back home, 'for as yet they did not understand the Scripture.' Mary stays behind weeping, sees two angels in the tomb, then turns to find Jesus himself standing there, mistaking him for the gardener until he says her name: 'Mary.' 'Rabboni!' she answers, and he sends her, the first witness, to tell the others — 'I am ascending to my Father and your Father, to my God and your God.' That evening, with the doors locked for fear of the Jewish leaders, Jesus stands among the gathered disciples: 'Peace be with you.' He shows them his hands and side, and breathes on them: 'Receive the Holy Spirit.' Thomas, absent that night, refuses to believe without touching the wounds himself. A week later Jesus appears again, Thomas now present, and offers exactly what was demanded — 'put your finger here, and see my hands' — drawing out the Gospel's highest confession: 'My Lord and my God!' Jesus' own reply reaches past the room to every later reader: 'blessed are those who have not seen and yet have believed.' John closes the chapter naming his purpose outright — these things are written 'so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name.'",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"golgotha",  role:"The garden tomb close by, found empty at dawn, and where the risen Jesus meets Mary Magdalene (vv. 1-18)" },
+    { id:"jerusalem", role:"The locked room where Jesus appears twice, a week apart, to the gathered disciples and then to Thomas (vv. 19-29)" }
+  ],
+  journey: [
+    { from:"golgotha", to:"jerusalem", label:"Mary runs back with the news", km:0.5,
+      note:"The same short distance between the tomb and the city that Joseph's burial party had covered days earlier (cf. John 19:41-42), now retraced at a run — first by Mary with the report of the empty tomb, then that evening by the disciples gathering behind locked doors (vv. 2, 19)." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"The stone already rolled away", av:"woman",
+      desc:"While it is still dark, Mary Magdalene comes to the tomb, finds the stone removed, and runs at once to tell Peter and 'the disciple whom Jesus loved' (vv. 1-2)." },
+    { x:0.17, type:"person", label:"Peter and the beloved disciple run", av:"fisherman",
+      desc:"Both run to the tomb; the other disciple arrives first but waits for Peter to go in ahead of him. They find the grave clothes lying in place and the face-cloth folded separately — no sign of a hurried theft (vv. 3-10)." },
+    { x:0.29, type:"person", label:"Weeping, then 'Rabboni!'", av:"woman",
+      desc:"Mary lingers at the tomb weeping, sees two angels, then turns to find Jesus himself standing there — mistaking him for the gardener until he speaks her name (vv. 11-16)." },
+    { x:0.41, type:"person", label:"'Go to my brothers'", av:"woman",
+      desc:"Jesus sends Mary as the first witness and messenger of the resurrection, to tell the others: 'I am ascending to my Father and your Father, to my God and your God' (vv. 17-18)." },
+    { x:0.53, type:"person", label:"'Peace be with you,' behind locked doors", av:"prophet",
+      desc:"That evening, despite the locked doors, Jesus stands among the disciples, shows them his hands and side, and breathes on them: 'Receive the Holy Spirit' (vv. 19-23)." },
+    { x:0.65, type:"person", label:"Thomas, absent and doubtful", av:"traveler",
+      desc:"Thomas, not present that night, refuses to believe without touching the wounds himself: 'unless I see... I will never believe' (vv. 24-25)." },
+    { x:0.77, type:"person", label:"'My Lord and my God!'", av:"traveler",
+      desc:"A week later, Thomas present this time, Jesus offers exactly what he demanded — and draws from him the Gospel's highest confession of who Jesus is (vv. 26-28)." },
+    { x:0.92, type:"object", label:"'That you may believe'",
+      desc:"John states his purpose outright, closing the chapter: these things are written 'so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name' (vv. 29-31)." }
+  ],
+  environment: {
+    chips: ["Rock-cut tomb, close by Golgotha", "Grave clothes left folded, not stolen", "A locked room, evening", "Ancient doubts about ghosts vs. bodily return", "John's own stated purpose for writing"],
+    text: "'Rabboni' (v. 16), an intensified Aramaic form of 'rabbi,' appears elsewhere in the Gospels only on the lips of blind Bartimaeus (Mark 10:51) — an unusually personal, reverent address that marks the instant of recognition rather than a formal title. The face-cloth 'folded up in a place by itself' (v. 7) reads as a small but pointed detail against any theory of grave-robbery, since thieves in a hurry do not pause to fold burial linens. Thomas's demand for physical proof reflects a genuine ancient (and thoroughly modern) skepticism about resurrection claims, which the text preserves rather than smooths over — and then answers directly, on Thomas's own terms, a week later."
+  },
+  objectsExtra: ["burial-linens","tomb-stone"],
+  peopleExtra: ["jesus","mary-magdalene","peter","john-apostle","thomas"],
+  culture: [
+    { title:"Folded grave clothes, not stolen", icon:"🧻",
+      text:"Peter and the beloved disciple find the linen wrappings lying in place and the separate face-cloth (soudarion) 'folded up' rather than strewn about — a detail both Gospels' writers seem to treat as quietly significant, the kind of order a grave robber in a hurry, or a body simply carried off, would not have left behind." },
+    { title:"'Rabboni' — an intimate title", icon:"📖",
+      text:"An emphatic Aramaic form of 'rabbi' ('my great one' or 'my master'), used in the Gospels only here and by the blind beggar Bartimaeus (Mark 10:51) — a personal, almost startled address rather than the more formal 'rabbi' or 'teacher' used elsewhere, fitting the moment Mary's grief turns instantly to recognition." },
+    { title:"Thomas and honest doubt", icon:"🤔",
+      text:"Thomas's insistence on physical proof mirrors real ancient skepticism about bodily resurrection (cf. Acts 17:32, where Athenian philosophers openly mock Paul for preaching it) — the Gospel keeps the objection on record rather than editing it out, then has Jesus meet it directly rather than merely rebuke it." }
+  ],
+  crossRefs: [
+    { group:"The same morning, other Gospels", refs:[
+      { r:"Matthew 28:1-10", note:"Matthew's account of the empty tomb and the women's encounter with Jesus" },
+      { r:"Luke 24:1-12", note:"Luke's version, including Peter's own run to the tomb" } ]},
+    { group:"Mary Magdalene, first witness", refs:[
+      { r:"Luke 8:2", note:"freed of seven demons, and among those who funded Jesus' ministry" },
+      { r:"John 20:11-18", note:"her own encounter with the risen Jesus, told in full here" } ]},
+    { group:"Receiving the Spirit", refs:[
+      { r:"John 20:22", note:"Jesus breathes on the disciples: 'Receive the Holy Spirit'" },
+      { r:"Acts 2:1-4", note:"the fuller outpouring of the same Spirit at Pentecost, weeks later" } ]},
+    { group:"Thomas's confession, and the book's purpose", refs:[
+      { r:"John 1:1", note:"the Gospel's opening confession — 'the Word was God' — answered by Thomas's closing one" },
+      { r:"John 20:30-31", note:"John's own stated reason for writing the whole book" } ]}
+  ]
+},
+
+/* ============================================================
+   JOHN 21 — Breakfast on the shore, and Peter restored
+   ============================================================ */
+"43:21": {
+  era: {
+    title: "ca. AD 30 — breakfast on the shore, the Gospel's epilogue",
+    sub: "Roman Galilee · the Sea of Tiberias, some weeks after the resurrection",
+    badges: ["Roman Galilee", "Post-resurrection appearances", "The Gospel's own epilogue", "≈2,000 years ago"]
+  },
+  timeOfDay: "dawn",
+  summary: "Back in Galilee, Peter announces 'I am going fishing,' and six others go with him; they catch nothing all night. At daybreak a stranger on the shore, unrecognized, calls out asking if they have any fish, then tells them to cast the net on the boat's right side — and it fills so heavily with fish they cannot haul it in. 'It is the Lord!' says the disciple Jesus loved; Peter throws on his outer garment and swims for shore while the others bring in the boat, dragging a net loaded with a hundred and fifty-three large fish — remarkably, unbroken. Jesus already has a charcoal fire going with fish and bread, and adds their own catch, serving them breakfast himself; none of them dares ask who he is, 'knowing it was the Lord.' Afterward, by the same fire, Jesus asks Peter three times, 'do you love me?' — mirroring, almost unbearably, Peter's own three denials by a different fire weeks before — and answers each affirmation with a fresh charge: 'feed my lambs,' 'tend my sheep,' 'feed my sheep.' Grieved at being asked a third time, Peter still can't say more than 'you know that I love you.' Jesus then foretells the kind of death by which Peter will glorify God, and repeats the call that started it all: 'follow me.' When Peter turns and asks about the beloved disciple's own future, Jesus deflects the question back onto Peter's own calling. The Gospel closes on that disciple's testimony and a final, almost helpless admission: the world itself, John writes, could not contain all the books that could be written about everything Jesus did.",
+  focusPlace: "galilee-sea",
+  places: [
+    { id:"galilee-sea", role:"Where seven disciples fish all night and catch nothing, until a stranger's word from the shore fills their net at daybreak (vv. 1-11)" },
+    { id:"tiberias",    role:"The lakeside town lending the sea its other name, and near enough to be the shore where breakfast and Peter's restoration take place (vv. 1, 9-23)" }
+  ],
+  journey: [
+    { from:"galilee-sea", to:"tiberias", label:"In from open water to the shore", km:0.1,
+      note:"'They were not far from the land, but about a hundred yards off' (v. 8) — close enough that Peter simply swims it while the rest bring the boat and the heavy net in behind him." }
+  ],
+  hotspots: [
+    { x:0.04, type:"person", label:"Back to the nets, and nothing all night", av:"fisherman",
+      desc:"Peter says, 'I am going fishing'; six others — including Thomas, Nathanael, and the sons of Zebedee — go with him, and toil all night without a single fish (vv. 1-3)." },
+    { x:0.17, type:"person", label:"A stranger on the shore at daybreak", av:"prophet",
+      desc:"Jesus stands on the beach as morning breaks, unrecognized, and calls out asking whether they've caught anything — then tells them where to try (vv. 4-6)." },
+    { x:0.29, type:"object", label:"153 fish, and an unbroken net",
+      desc:"Cast on the right side at the stranger's word, the net fills with so many fish the disciples cannot haul it aboard; brought ashore, the catch counts out to a hundred and fifty-three, 'and although there were so many, the net was not torn' (vv. 6, 11)." },
+    { x:0.41, type:"person", label:"'It is the Lord!'", av:"fisherman",
+      desc:"The disciple Jesus loved recognizes him first; Peter, characteristically, doesn't wait for the boat — he puts on his outer garment and jumps into the sea to swim to shore (v. 7)." },
+    { x:0.53, type:"object", label:"Breakfast of bread and fish",
+      desc:"Jesus already has a charcoal fire laid with fish and bread cooking; he adds some of their own catch and serves them breakfast himself, though no one dares ask if it is really him (vv. 9-14)." },
+    { x:0.65, type:"person", label:"'Do you love me?' — three times", av:"prophet",
+      desc:"By the same kind of fire where Peter once denied him three times, Jesus asks him three times whether he loves him, and answers each yes with a charge: 'feed my lambs... tend my sheep... feed my sheep' (vv. 15-17)." },
+    { x:0.77, type:"person", label:"The death Peter would die", av:"prophet",
+      desc:"Jesus foretells, in veiled terms, the kind of death by which Peter would one day glorify God, then repeats the very first call: 'follow me' (vv. 18-19)." },
+    { x:0.92, type:"person", label:"The beloved disciple's fate, and the Gospel's close", av:"traveler",
+      desc:"Peter, turning, asks what will become of 'the disciple Jesus loved'; Jesus deflects the question back onto Peter's own calling. The Gospel ends on that same disciple's testimony, and the claim that the world could not contain all the books his story could fill (vv. 20-25)." }
+  ],
+  environment: {
+    chips: ["A charcoal fire on the beach, dawn", "A night's fishing, empty-handed", "153 fish, and an unbroken net", "Peter's threefold restoration, mirroring his denial", "The Gospel's own closing words"],
+    text: "The Greek word for the beach fire here, anthrakia, appears in the whole New Testament only twice — this breakfast, and the high priest's courtyard where Peter warmed himself and denied Jesus three times (18:18) — a deliberate echo few careful readers of the Greek miss even without it being spelled out. The precise number 153 has drawn centuries of guesswork, from Jerome's claim that ancient naturalists counted exactly that many species of fish (making the catch a symbol of every nation gathered in) to various numerological readings of the Greek numeral; the text itself offers no explanation, stating it as though the disciples simply counted their catch and it happened to be exact. Rabbinic and everyday first-century fishing on the lake used weighted dragnets worked from small boats close to shore, exactly the setting this scene assumes throughout."
+  },
+  objectsExtra: ["catch-153","fishing-net","broiled-fish"],
+  peopleExtra: ["jesus","peter","john-apostle","james-zebedee","thomas"],
+  culture: [
+    { title:"A charcoal fire, twice", icon:"🔥",
+      text:"Anthrakia, a charcoal fire, is named in John's Gospel only twice: once in the high priest's courtyard, where Peter stood warming himself and denied Jesus three times (18:18), and once here, where Jesus restores him with three questions by an identical fire — a pairing the Greek text invites readers to notice, whether or not it announces itself." },
+    { title:"153 fish — an old puzzle", icon:"🐟",
+      text:"Ancient and modern interpreters alike have tried to crack the number: Jerome reported a tradition that Greek naturalists had catalogued exactly 153 species of fish, making the catch a picture of every nation drawn into the net; others have proposed numerological or gematria-based readings. None is confirmed by the text, which simply reports the tally as though someone present counted it and wrote it down." },
+    { title:"Three questions for three denials", icon:"🔁",
+      text:"Jesus' triple 'do you love me?' pointedly answers Peter's own triple denial around a different fire (18:15-18, 25-27); each affirmation is paired with a fresh pastoral charge rather than a simple pardon, restructuring Peter's failure into renewed responsibility instead of leaving it as mere forgiven guilt." }
+  ],
+  crossRefs: [
+    { group:"Peter's denial, mirrored and undone", refs:[
+      { r:"John 18:15-18, 25-27", note:"Peter's threefold denial, by a different charcoal fire" },
+      { r:"John 21:15-17", note:"the threefold restoration answering it, verse for verse" } ]},
+    { group:"A similar catch, earlier in the ministry", refs:[
+      { r:"Luke 5:1-11", note:"the first miraculous catch of fish, at the very start of Peter's call to follow Jesus" } ]},
+    { group:"'Feed my sheep,' elsewhere", refs:[
+      { r:"John 10:11-15", note:"Jesus as the good shepherd — the image behind this exact commission to Peter" },
+      { r:"1 Peter 5:2-4", note:"Peter's own later charge to elders, 'shepherd the flock of God'" } ]},
+    { group:"The Gospel's own close", refs:[
+      { r:"John 20:30-31", note:"the Gospel's first stated purpose, at the end of chapter 20" },
+      { r:"John 21:24-25", note:"the epilogue's own closing testimony and its final, sweeping claim" } ]}
+  ]
+},
+
+/* ============================================================
    EXODUS 3 — The burning bush at Horeb
    ============================================================ */
 "2:3": {

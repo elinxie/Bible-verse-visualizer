@@ -332,6 +332,14 @@ BVV.OBJECTS = [
   { id:"broiled-fish", name:"A piece of broiled fish", al:["broiled fish","piece of a broiled fish"], icon:"🐟",
     desc:"Offered nothing more dramatic than ordinary food, Jesus eats a piece of broiled fish in front of the startled, disbelieving disciples in Jerusalem as plain proof he is not a ghost — 'a spirit does not have flesh and bones as you see that I have' (Luke 24:36-43)." },
 
+  // ---- John 9, 19, 21 ----
+  { id:"mud-and-spittle", name:"Mud made from spittle", al:["mud","clay","spit and mud","anoints his eyes"], icon:"🟤",
+    desc:"Jesus spits on the ground, works it into mud, and spreads it on the eyes of a man born blind, sending him to wash it off in the Pool of Siloam (John 9:6-7) — a deliberately hands-on, two-stage sign (mud applied, then washed away) that gives the Pharisees an action, on the Sabbath, to interrogate rather than only a claim to dispute." },
+  { id:"blood-and-water", name:"Blood and water from Jesus' side", al:["blood and water","pierced his side","water and blood"], icon:"💧",
+    desc:"Finding Jesus already dead, a soldier spears his side instead of breaking his legs as with the two others, and 'at once there came out blood and water' — John insists he saw it himself, reading it as the fulfillment of Scriptures that not a bone of him would be broken, and that they would look on the one they pierced (John 19:31-37)." },
+  { id:"catch-153", name:"The catch of 153 fish", al:["153 fish","great catch of fish","net full of fish"], icon:"🎣",
+    desc:"After a fruitless night on the lake, the disciples cast their net on the right side at a stranger's word from the shore and haul in a catch so large they cannot pull it in — precisely 153 large fish, and yet 'the net was not torn,' the count and the detail both preserved as if the disciples went back and tallied it themselves (John 21:1-11)." },
+
   // ---- John 1, John 3 ----
   { id:"lamb-of-god", name:"\"Behold, the Lamb of God\"", al:["Lamb of God","behold the Lamb of God"], icon:"🐑",
     desc:"John the Baptist's title for Jesus, given twice within a day (John 1:29, 36) and enough, the second time, to send two of his own disciples away after Jesus instead. It gathers up the Passover lamb, the Isaiah 53 servant led 'like a lamb to the slaughter,' and every OT sacrifice needing no further death behind it — 'who takes away the sin of the world' (v. 29)." },
