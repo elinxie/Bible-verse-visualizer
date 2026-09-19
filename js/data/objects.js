@@ -350,5 +350,13 @@ BVV.OBJECTS = [
   { id:"born-again", name:"\"Born again\" — water, Spirit, and wind", al:["born again","born of water and the Spirit","born from above","wind blows where it wishes"], icon:"🌬️",
     desc:"Jesus tells Nicodemus that seeing the kingdom of God requires being 'born again' (or 'born from above' — the Greek anōthen carries both senses at once, the ambiguity Nicodemus stumbles over), and specifies it further as being 'born of water and the Spirit.' Pressed on how, Jesus reaches for the wind: unseen, uncontrollable, known only by its effect — 'so it is with everyone who is born of the Spirit' (John 3:3-8)." },
   { id:"god-so-loved-the-world", name:"\"For God so loved the world\"", al:["God so loved the world","John 3:16","only begotten Son","only Son"], icon:"❤️",
-    desc:"The chapter's best-known line sums up its own preceding typology: as Moses lifted up the bronze serpent in the wilderness, so the Son of Man must be 'lifted up,' so that everyone who believes in him will not perish but have eternal life — framed not as condemnation sent into the world but as its rescue (John 3:14-17)." }
+    desc:"The chapter's best-known line sums up its own preceding typology: as Moses lifted up the bronze serpent in the wilderness, so the Son of Man must be 'lifted up,' so that everyone who believes in him will not perish but have eternal life — framed not as condemnation sent into the world but as its rescue (John 3:14-17)." },
+
+  // ---- Acts 1, 2 ----
+  { id:"upper-room", name:"The upper room", al:["upper room","upstairs room"], icon:"🏠",
+    desc:"The room in Jerusalem where the eleven apostles, a group of women, Mary the mother of Jesus, and his brothers 'were staying' and 'devoted themselves to prayer' between the ascension and Pentecost (Acts 1:13-14) — later tradition, though not the text itself, identifies it with the same 'large upper room, furnished' where the Last Supper was eaten (Luke 22:12)." },
+  { id:"cast-lots-matthias", name:"Casting lots for Matthias", al:["cast lots","the lot fell on Matthias"], icon:"🎲",
+    desc:"With two candidates put forward to replace Judas, the gathered believers pray and 'cast lots' between Joseph Barsabbas and Matthias — an accepted, pre-Pentecost means of seeking God's choice (cf. Prov 16:33) — and the lot falls on Matthias, who is numbered with the eleven apostles (Acts 1:23-26)." },
+  { id:"tongues-of-fire", name:"Wind and tongues of fire", al:["tongues of fire","rushing wind","divided tongues as of fire","sound like a mighty rushing wind"], icon:"🔥",
+    desc:"At Pentecost a sound 'like a mighty rushing wind' fills the whole house, and what looks like divided tongues of fire comes to rest on each person gathered; all are filled with the Holy Spirit and begin speaking in other tongues, the twin signs that open the chapter's account of the church's birth (Acts 2:1-4)." }
 ];

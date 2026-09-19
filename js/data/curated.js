@@ -1036,6 +1036,139 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   ACTS 1 — The ascension, the upper room, and Matthias chosen
+   ============================================================ */
+"44:1": {
+  era: {
+    title: "ca. AD 33 — forty days risen, then the ascension",
+    sub: "Roman Judea · the Mount of Olives near Bethany, then Jerusalem's upper room · between Passover and Pentecost",
+    badges: ["Roman Judea", "Forty days of appearances", "The ascension", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Luke opens his 'second book' by recapping what the first one closed with: over forty days the risen Jesus presented himself alive to the apostles 'by many proofs,' speaking about the kingdom of God and ordering them not to leave Jerusalem but to wait for 'the promise of the Father' — baptism with the Holy Spirit 'not many days from now.' Asked whether this is the moment he will restore the kingdom to Israel, Jesus redirects them: the times and seasons are the Father's business; theirs is to receive power when the Spirit comes and be his witnesses in Jerusalem, Judea, Samaria, and to the ends of the earth. As he finishes speaking he is lifted up and a cloud takes him out of their sight; two men in white ask why they stand staring at the sky and promise that 'this Jesus... will come in the same way as you saw him go.' The apostles return the short walk from Olivet to Jerusalem and go up to the room where they are staying — the Eleven named one by one — joining constantly in prayer with a group of women, Mary the mother of Jesus, and his brothers. Peter then stands among about 120 believers to address the vacancy Judas left: quoting the Psalms, he reads Judas's fate — the field bought with his 'reward of wickedness,' his own gruesome end, and the field's new name, Akeldama, Field of Blood — as fulfillment rather than accident, and lays down one qualification for a replacement: a man who has been with them the whole time, from John's baptism to the ascension, and so can testify to the resurrection alongside them. Two men are put forward, Joseph called Barsabbas and Matthias; the group prays and casts lots, and the lot falls on Matthias, who is numbered with the eleven apostles.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"The upper room, the apostles' prayer meeting, and Peter's speech about Judas's replacement (vv. 12-26)" },
+    { id:"olives",    role:"The Mount of Olives — where Jesus is 'carried up' out of the apostles' sight (vv. 9-12)" },
+    { id:"bethany",   role:"On Olivet's slope, the general vicinity of the ascension in Luke's parallel account (Luke 24:50)" },
+    { id:"akeldama",  role:"The field Judas's own reward bought, renamed 'Field of Blood' (vv. 18-19)" }
+  ],
+  hotspots: [
+    { x:0.06, type:"person", label:"Forty days of proofs", av:"prophet",
+      desc:"Luke recaps his own Gospel's ending: over forty days the risen Jesus 'presented himself alive... by many proofs,' appearing to the apostles and speaking about the kingdom of God (vv. 1-3)." },
+    { x:0.24, type:"person", label:"\"Not for you to know the times\"", av:"prophet",
+      desc:"Asked whether this is when the kingdom is restored to Israel, Jesus declines the timeline and redirects the mission: power from the coming Spirit, and witness 'in Jerusalem... Judea and Samaria, and to the end of the earth' (vv. 6-8)." },
+    { x:0.4, type:"object", label:"Taken up in a cloud",
+      desc:"As Jesus is 'lifted up,' a cloud takes him out of their sight; two men in white ask why they stand looking into heaven and promise he 'will come in the same way as you saw him go' (vv. 9-11)." },
+    { x:0.55, type:"person", label:"The upper room — the Eleven, the women, Mary, and his brothers", av:"woman",
+      desc:"Back in Jerusalem, the eleven apostles are named in full and join 'with one accord' in prayer alongside a group of women, Mary the mother of Jesus, and Jesus' own brothers (vv. 12-14)." },
+    { x:0.72, type:"person", label:"Peter on Judas's field", av:"fisherman",
+      desc:"Standing among about 120 believers, Peter reads Psalm 69 and Psalm 109 against Judas, then recounts — in Luke's own version, distinct from Matthew's — how the reward of Judas's wickedness bought a field where he fell headlong and the locals renamed it Akeldama, Field of Blood (vv. 15-20)." },
+    { x:0.9, type:"object", label:"Casting lots for the twelfth apostle",
+      desc:"Two candidates, Joseph called Barsabbas and Matthias, are put forward to fill Judas's place; after prayer the group casts lots, and Matthias is numbered with the eleven apostles (vv. 21-26)." }
+  ],
+  environment: {
+    chips: ["A Sabbath day's journey — Olivet to Jerusalem", "An upper room, ~120 gathered", "Forty days of appearances behind them", "Fifty days to Pentecost ahead"],
+    text: "Luke measures the walk back from the ascension site as 'a Sabbath day's journey' (v. 12) — a rabbinic travel limit of about 2,000 cubits, roughly 900 m/1,000 yd, matching the short distance from Olivet's slope into the city. The 'upper room' where the group lodges and prays was an ordinary feature of Judean houses — an added top-floor room reached by an outside stair, used for guests, study, or prayer — and later Christian tradition (though not the text itself) identified it with the same 'large upper room, furnished,' where the Last Supper had been eaten (Luke 22:12). Casting lots to discern God's choice was a legitimate, pre-Pentecost practice (cf. Prov 16:33; the Urim and Thummim) — after this chapter, Acts never uses it again, as the church instead looks to the Spirit's direct guidance."
+  },
+  objectsExtra: ["upper-room","cast-lots-matthias"],
+  peopleExtra: ["jesus","peter","john-apostle","james-zebedee","andrew","philip-apostle","thomas","matthew","nathanael","judas","mary","james-jerusalem","joseph-barsabbas","matthias"],
+  culture: [
+    { title:"A Sabbath day's journey", icon:"🚶",
+      text:"Rabbinic tradition capped how far one could walk on the Sabbath without violating rest — about 2,000 cubits (roughly 900 m), a limit later codified in the Mishnah. Luke's specific note that Olivet lay 'a Sabbath day's journey' from Jerusalem (v. 12) both fixes the geography precisely and signals that the group's return, even amid the ascension's upheaval, kept ordinary Sabbath practice." },
+    { title:"Two accounts of Judas's field", icon:"🩸",
+      text:"Matthew 27:3-10 has the chief priests buy a potter's field with Judas's returned silver, after he hangs himself; Acts 1:18-19 has Judas himself 'acquire' a field with his 'reward of wickedness' and fall headlong there. Commentators across traditions typically harmonize the two as complementary rather than contradictory: the priests purchased the field in Judas's name and with his forfeited money, and a rope or branch giving way after a hanging could plausibly account for Luke's more graphic description of the body." },
+    { title:"One hundred twenty gathered", icon:"🕎",
+      text:"Later rabbinic tradition (Mishnah Sanhedrin 1:6) held that a Jewish town needed at least 120 male residents to seat its own local council. Whether or not Luke has that figure specifically in mind, naming the group's size so precisely (v. 15) marks this as an already-organized community, not a stray handful of grievers, on the eve of Pentecost." },
+    { title:"Casting lots as guidance", icon:"🎲",
+      text:"Before Pentecost, casting lots (alongside the now-silenced Urim and Thummim of the high priest's breastpiece) was an accepted way to seek a binding, God-directed decision — Proverbs 16:33 states the theology outright: 'the lot is cast into the lap, but its every decision is from the LORD.' Acts 1:26 is the last time Scripture's story uses the practice; after the Spirit is poured out in the next chapter, guidance in Acts comes through prophecy, prayer, and the apostles' own discernment instead." },
+    { title:"Choosing a replacement — eyewitness, not office", icon:"👥",
+      text:"Peter's stated qualification (vv. 21-22) is narrow and specific: continuous presence with Jesus 'beginning from the baptism of John until the day when he was taken up.' The point of the Twelve, on this logic, was not administrative rank but firsthand testimony — which is also why the office of 'apostle' in this strict sense is never filled again after Matthias, even as the church's leadership keeps expanding." }
+  ],
+  crossRefs: [
+    { group:"Luke's other telling of the ascension", refs:[
+      { r:"Luke 24:44-53", note:"Luke's Gospel ends with the same scene this chapter opens by recapping" },
+      { r:"Zechariah 14:4", note:"the Mount of Olives named centuries earlier as the site of the LORD's future appearing" } ]},
+    { group:"Judas, in full", refs:[
+      { r:"Matthew 27:3-10", note:"Matthew's account of Judas's death and the potter's field, read alongside this one" },
+      { r:"Psalm 69:25", note:"'may his camp be a desolation' — quoted by Peter against Judas" },
+      { r:"Psalm 109:8", note:"'let another take his office' — the verse behind the search for a replacement" } ]},
+    { group:"Waiting for the promise", refs:[
+      { r:"Luke 24:49", note:"'stay in the city until you are clothed with power from on high' — the same instruction restated" },
+      { r:"Joel 2:28-32", note:"the outpouring of the Spirit Peter will quote in the very next chapter" },
+      { r:"John 14:16-17", note:"Jesus' earlier promise of 'another Helper' to come" } ]},
+    { group:"The Twelve, first called", refs:[
+      { r:"Luke 6:12-16", note:"Jesus' original naming of the twelve apostles after a night of prayer" },
+      { r:"Mark 3:16-19", note:"Mark's parallel list of the Twelve" } ]}
+  ]
+},
+
+/* ============================================================
+   ACTS 2 — Pentecost: the Spirit poured out, Peter's sermon
+   ============================================================ */
+"44:2": {
+  era: {
+    title: "ca. AD 33 — Pentecost in Jerusalem",
+    sub: "Roman Judea · the Feast of Weeks (Shavuot), fifty days after Passover · Jerusalem crowded with diaspora pilgrims",
+    badges: ["Roman Judea", "Feast of Weeks / Pentecost", "Birth of the church", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "On the day of Pentecost the believers are all together in one place when a sound like a mighty rushing wind fills the whole house, and what looks like divided tongues of fire comes to rest on each of them; filled with the Holy Spirit, they begin speaking in other tongues as the Spirit gives them utterance. Jerusalem is crowded with 'devout men from every nation under heaven' for the pilgrim feast, and the sound draws a bewildered crowd — Parthians, Medes, Elamites, residents of Mesopotamia and Cappadocia, visitors from Rome, Cretans and Arabians among them — each amazed to hear Galileans declaring 'the mighty works of God' in their own native language. Amazement curdles into mockery for some: 'they are filled with new wine.' Peter stands with the Eleven and answers first with arithmetic — it is only nine in the morning — then with Scripture: this is what the prophet Joel foretold, God pouring out his Spirit on all flesh, sons and daughters prophesying, wonders in heaven and signs on earth, before 'the great and awesome day of the Lord,' when 'everyone who calls on the name of the Lord shall be saved.' He builds his case for Jesus from two more psalms — David's words that God would not abandon his Holy One to see corruption, which Peter argues David, long dead and buried, could not have meant of himself but spoke as a prophet of the Christ's resurrection; and David's own line, 'the Lord said to my Lord, sit at my right hand,' read as the exalted Jesus receiving and pouring out the very Spirit now on display. His conclusion lands hard: 'God has made him both Lord and Christ, this Jesus whom you crucified.' Cut to the heart, the crowd asks what to do, and Peter answers: repent, and be baptized every one of you in the name of Jesus Christ for the forgiveness of your sins, and you will receive the gift of the Holy Spirit — a promise for them, their children, and all who are far off. About three thousand souls are added that day, and the chapter closes with a summary of the young church's common life: devoted to the apostles' teaching, fellowship, the breaking of bread, and prayer, holding everything in common, meeting daily in the temple courts and breaking bread in one another's homes with glad and generous hearts, praising God and finding favor with everyone, while the Lord adds to their number daily.",
+  focusPlace: "jerusalem",
+  places: [
+    { id:"jerusalem", role:"Where the Spirit falls, Peter preaches, and about 3,000 are baptized (vv. 1-41)" },
+    { id:"egypt",     role:"Named among the pilgrim nations hearing their own language (v. 10)" },
+    { id:"rome",      role:"'Visitors from Rome' are named among the crowd — both Jews and proselytes (v. 10)" }
+  ],
+  hotspots: [
+    { x:0.05, type:"object", label:"Wind and tongues of fire",
+      desc:"A sound like a mighty rushing wind fills the whole house; what looks like divided tongues of fire rests on each person present, and all are filled with the Holy Spirit (vv. 1-4)." },
+    { x:0.22, type:"person", label:"\"How is it we hear, each of us, in our own language?\"", av:"traveler",
+      desc:"Diaspora Jews from a long list of nations — Parthia to Rome, Egypt to Cappadocia — are 'amazed and astonished' to hear Galileans speaking their own native tongues; some are only 'perplexed,' others mock: 'they are filled with new wine' (vv. 5-13)." },
+    { x:0.4, type:"person", label:"Peter quotes Joel", av:"fisherman",
+      desc:"Standing with the Eleven, Peter first rules out drunkenness — it's nine in the morning — then quotes the prophet Joel at length: God pouring out his Spirit on all flesh, sons and daughters prophesying, before 'the great and awesome day of the Lord' (vv. 14-21)." },
+    { x:0.58, type:"person", label:"The risen and enthroned Christ, from the Psalms", av:"fisherman",
+      desc:"Peter argues from Psalm 16 that David's words about not seeing corruption must be prophecy, since David himself stayed dead and buried, and from Psalm 110 that the exalted Jesus, seated at God's right hand, is the source of the Spirit just poured out — concluding, 'God has made him both Lord and Christ' (vv. 22-36)." },
+    { x:0.75, type:"person", label:"\"Cut to the heart\" — repent and be baptized", av:"traveler",
+      desc:"The crowd asks what to do; Peter answers: repent and be baptized in Jesus' name for the forgiveness of sins, and receive the Holy Spirit. About three thousand are added that day (vv. 37-41)." },
+    { x:0.92, type:"object", label:"The common life of the church",
+      desc:"The new believers devote themselves to the apostles' teaching, fellowship, breaking of bread, and prayer, sharing their possessions, meeting daily in the temple courts and in homes, 'with glad and generous hearts' (vv. 42-47)." }
+  ],
+  environment: {
+    chips: ["Feast of Weeks (Shavuot), 50 days after Passover", "Devout pilgrims 'from every nation under heaven'", "Nine in the morning", "3,000 baptized in one day"],
+    text: "Pentecost (Greek for 'fiftieth') translates the Feast of Weeks, a pilgrim festival fifty days after Passover's firstfruits (Lev 23:15-21) that regularly drew diaspora Jews back to Jerusalem — which is exactly why so many nationalities are on hand to hear the disciples' Galilean accents suddenly speaking fluent, native foreign languages. Luke's catalogue of peoples (vv. 9-11) sweeps from Parthia in the Persian east to Rome in the Italian west, roughly the breadth of the Jewish diaspora as Philo and Josephus independently describe it, and many early readers heard in the scene a deliberate reversal of Babel's scattering confusion (Gen 11) — many tongues now carrying one message rather than dividing a people. Nine in the morning (the 'third hour,' v. 15) was, for observant Jews on a festival day, too early in the day's fasting and prayer rhythm for the accusation of drunkenness to be anything but a real jab worth Peter's answering."
+  },
+  objectsExtra: ["tongues-of-fire"],
+  peopleExtra: ["peter","john-apostle"],
+  culture: [
+    { title:"Pentecost / Shavuot", icon:"🌾",
+      text:"Originally a harvest festival marking the wheat firstfruits fifty days after Passover (Lev 23:15-21; Deut 16:9-12), Shavuot had also, by the first century, gathered associations in some Jewish circles with the giving of the Law at Sinai — making it a fitting day, in Christian reading, for the giving of the Spirit that Jeremiah 31:33 had promised would write God's law on hearts rather than stone." },
+    { title:"Reversing Babel", icon:"🗣️",
+      text:"Genesis 11 scatters one confused humanity into many mutually unintelligible languages as judgment on a unified rebellion. Many readers since the early church (Irenaeus among the first) have heard Pentecost as a deliberate mirror-image: many nations, each still speaking its own tongue, made to understand a single message together." },
+    { title:"The catalogue of nations", icon:"🗺️",
+      text:"Luke's list of fifteen-plus peoples and regions (vv. 9-11) runs roughly east to west — Parthia, Media, and Elam at the empire's Persian frontier, through Asia Minor and North Africa, to Rome itself — matching what Philo and Josephus independently report about the spread of the first-century Jewish diaspora, and underlining that this was a genuinely international crowd, not a local one." },
+    { title:"The third hour of the day", icon:"🕘",
+      text:"Devout Jews commonly observed set hours of prayer, and festival mornings especially were not a time for the day's first wine — some pious practice held off even ordinary food and drink until later in the day. Peter's aside that it is 'only the third hour of the day' (9 a.m., v. 15) was a concrete, checkable fact aimed straight at the 'new wine' accusation." },
+    { title:"Holding all things in common", icon:"🤝",
+      text:"The chapter's closing picture — believers sharing possessions so that need is met (vv. 44-45) — echoes both the Greek philosophical ideal that 'friends hold all things in common' and the older biblical vision that among God's people, rightly ordered, 'there will be no poor' (Deut 15:4). Acts returns to and expands this description in 4:32-35." }
+  ],
+  crossRefs: [
+    { group:"Joel's prophecy, quoted", refs:[
+      { r:"Joel 2:28-32", note:"the passage Peter quotes at length on the outpouring of the Spirit" },
+      { r:"Numbers 11:29", note:"Moses' own earlier wish: 'would that all the LORD's people were prophets'" } ]},
+    { group:"The enthroned, risen Christ", refs:[
+      { r:"Psalm 16:8-11", note:"'you will not abandon my soul to Hades' — quoted as prophecy of the resurrection" },
+      { r:"Psalm 110:1", note:"'the Lord said to my Lord, sit at my right hand' — quoted of Jesus' exaltation" },
+      { r:"2 Samuel 7:12-16", note:"the Davidic covenant behind Peter's 'God had sworn with an oath'" } ]},
+    { group:"Babel, reversed", refs:[
+      { r:"Genesis 11:1-9", note:"the confusion of languages this scene is widely read as answering" } ]},
+    { group:"The common life, continued", refs:[
+      { r:"Acts 4:32-35", note:"Luke's fuller return to the same picture of shared possessions" },
+      { r:"Deuteronomy 15:4", note:"the older ideal — 'there will be no poor among you' — this life echoes" } ]}
+  ]
+},
+
+/* ============================================================
    ACTS 27 — Storm and shipwreck on the way to Rome
    ============================================================ */
 "44:27": {
