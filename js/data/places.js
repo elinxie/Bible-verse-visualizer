@@ -649,6 +649,13 @@ BVV.PLACES = [
     ancient:"An evening road descending west from the city into the hills.",
     scene:{ terrain:"hills", settlement:"village", water:"well", veg:"olive" } },
 
+  // ---- Acts 1 ----
+  { id:"akeldama", name:"Akeldama (Field of Blood)", al:["Akeldama","Field of Blood","Hakeldama"], modern:"traditionally the southern Hinnom Valley slope, Jerusalem", lat:31.771, lon:35.229, type:"landmark",
+    blurb:"The field Judas's blood-money bought, and where — in Luke's own telling — he fell headlong and died; named in the local language for what happened there (Acts 1:18-19).",
+    meaning:"Aramaic 'Haqel Dema' — 'Field of Blood'",
+    ancient:"Traditional sites point to the clay-pit scarp on Hinnom's south slope opposite Mount Zion, ground of the kind long used outside the city for burying strangers and for potters' clay (cf. Matt 27:7-8) — a later charnel house and ruined monastery still mark the spot pilgrims have identified since at least the Byzantine period, though the identification is traditional rather than certain.",
+    scene:{ terrain:"hills", settlement:"none", water:"none", veg:"sparse" } },
+
   // ---- misc regions ----
   { id:"edom", name:"Edom", al:["Edom","Seir"], modern:"S Jordan highlands", lat:30.600, lon:35.500, type:"region",
     blurb:"Esau's red-rock kingdom south of the Dead Sea.",
