@@ -350,5 +350,13 @@ BVV.OBJECTS = [
   { id:"born-again", name:"\"Born again\" — water, Spirit, and wind", al:["born again","born of water and the Spirit","born from above","wind blows where it wishes"], icon:"🌬️",
     desc:"Jesus tells Nicodemus that seeing the kingdom of God requires being 'born again' (or 'born from above' — the Greek anōthen carries both senses at once, the ambiguity Nicodemus stumbles over), and specifies it further as being 'born of water and the Spirit.' Pressed on how, Jesus reaches for the wind: unseen, uncontrollable, known only by its effect — 'so it is with everyone who is born of the Spirit' (John 3:3-8)." },
   { id:"god-so-loved-the-world", name:"\"For God so loved the world\"", al:["God so loved the world","John 3:16","only begotten Son","only Son"], icon:"❤️",
-    desc:"The chapter's best-known line sums up its own preceding typology: as Moses lifted up the bronze serpent in the wilderness, so the Son of Man must be 'lifted up,' so that everyone who believes in him will not perish but have eternal life — framed not as condemnation sent into the world but as its rescue (John 3:14-17)." }
+    desc:"The chapter's best-known line sums up its own preceding typology: as Moses lifted up the bronze serpent in the wilderness, so the Son of Man must be 'lifted up,' so that everyone who believes in him will not perish but have eternal life — framed not as condemnation sent into the world but as its rescue (John 3:14-17)." },
+
+  // ---- Acts 1, 2 ----
+  { id:"apostolic-lot", name:"Casting lots for Judas' place", al:["cast lots","casting lots","the lot fell on Matthias"], icon:"🎲",
+    desc:"After praying for God to show 'which one of these two you have chosen,' the Jerusalem believers cast lots between Matthias and Joseph called Barsabbas to fill Judas' vacant apostolic office — the last time Scripture records God's people using the practice to settle a major decision (Acts 1:24-26)." },
+  { id:"pentecost-wind", name:"A sound like a mighty rushing wind", al:["rushing mighty wind","sound like a mighty rushing wind","sound from heaven"], icon:"💨",
+    desc:"'Suddenly there came from heaven a sound like a mighty rushing wind, and it filled the entire house where they were sitting' — an audible sign, not an actual windstorm, playing on ruach/pneuma, the same Hebrew and Greek words for wind, breath, and spirit (Acts 2:2)." },
+  { id:"tongues-of-fire", name:"Divided tongues of fire", al:["tongues of fire","divided tongues as of fire","tongues as of fire"], icon:"🔥",
+    desc:"'Divided tongues as of fire appeared to them and rested on each one of them' at Pentecost — a visible sign distributed individually across the whole gathered company, not one shared flame, just before they are filled with the Holy Spirit and begin speaking in other languages (Acts 2:3-4)." }
 ];
