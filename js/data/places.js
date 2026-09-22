@@ -268,6 +268,7 @@ BVV.PLACES = [
     scene:{ terrain:"hills", settlement:"camp", water:"none", veg:"sparse" } },
   { id:"joppa", name:"Joppa", al:["Joppa","Jaffa"], modern:"Jaffa, Tel Aviv, Israel", lat:32.054, lon:34.752, type:"city",
     blurb:"Ancient port of Jerusalem; Jonah embarked here; Peter raised Tabitha and saw his rooftop vision here.",
+    meaning:"Hebrew 'Yafo', traditionally read as 'beautiful' (root yafeh, 'to be beautiful')",
     ancient:"A harbor town on a headland — cedar rafts for Solomon's temple once landed here.",
     scene:{ terrain:"coast", settlement:"city", water:"sea", veg:"palm" } },
   { id:"caesarea", name:"Caesarea", al:["Caesarea"], modern:"Caesarea Maritima, Israel", lat:32.500, lon:34.892, type:"city",
@@ -389,6 +390,7 @@ BVV.PLACES = [
     scene:{ terrain:"coast", settlement:"village", water:"sea", veg:"sparse" } },
   { id:"damascus", name:"Damascus", al:["Damascus"], modern:"Damascus, Syria", lat:33.511, lon:36.292, type:"city",
     blurb:"Great oasis city, capital of Aram; on its approach road Saul of Tarsus met the risen Christ.",
+    meaning:"Semitic 'Dammeseq', origin debated — possibly tied to a root for 'well-watered land', fitting its oasis setting",
     ancient:"Caravan wealth in a river-fed oasis; in the NT, a walled city with a 'street called Straight.'",
     scene:{ terrain:"oasis", settlement:"city", water:"river", veg:"palm" } },
   { id:"zobah", name:"Aram-Zobah", al:["Zobah","Aram-zobah"], modern:"Beqaa Valley, Lebanon (candidate)", lat:34.006, lon:36.204, type:"region",
@@ -538,6 +540,7 @@ BVV.PLACES = [
     scene:{ terrain:"river", settlement:"city", water:"river", veg:"mixed" } },
   { id:"tarsus", name:"Tarsus", al:["Tarsus"], modern:"Tarsus, Turkey", lat:36.917, lon:34.895, type:"city",
     blurb:"'No obscure city' — Paul's birthplace, a university town of Cilicia.",
+    meaning:"Pre-Greek, likely Luwian/Anatolian in origin — possibly tied to a local river or storm-god name; later folk etymology linked it to Greek 'tarsos', 'flat of the foot'",
     ancient:"River quays, tent-makers' quarter, Greek lecture halls under the Taurus passes.",
     scene:{ terrain:"plain", settlement:"city", water:"river", veg:"mixed" } },
   { id:"cyprus", name:"Cyprus", al:["Cyprus","Salamis","Paphos"], modern:"Cyprus", lat:34.917, lon:33.000, type:"island",
@@ -755,7 +758,14 @@ BVV.PLACES = [
     blurb:"A stepped pool at the outlet of Hezekiah's Tunnel, in Jerusalem's lower city, where Jesus sends the man born blind to wash off the mud from his healed eyes (John 9:7).",
     meaning:"Hebrew 'Shiloach' — 'sent' (John's own gloss, 9:7) — from a root meaning to send or send out",
     ancient:"A large, stone-stepped public reservoir fed by the Gihon Spring through Hezekiah's eighth-century BC tunnel, drawing crowds of pilgrims and, ordinarily, beggars stationed nearby to ask alms of those going down to wash.",
-    scene:{ terrain:"hills", settlement:"city", water:"pool", veg:"sparse" } }
+    scene:{ terrain:"hills", settlement:"city", water:"pool", veg:"sparse" } },
+
+  // ---- Acts 9 ----
+  { id:"lydda", name:"Lydda", al:["Lydda","Lod"], modern:"Lod, Israel", lat:31.953, lon:34.895, type:"town",
+    blurb:"Coastal-plain town on the Jerusalem-Joppa road, later renamed Diospolis, where Peter healed the paralyzed Aeneas (Acts 9:32-35).",
+    meaning:"Hebrew 'Lod', origin uncertain and possibly pre-Hebrew; later Hellenized as 'Lydda'",
+    ancient:"A modest agricultural town on the Sharon plain astride the road linking Jerusalem to the port of Joppa, home in the NT era to an early community of believers Peter visits on his tour of 'the saints' throughout Judea.",
+    scene:{ terrain:"plain", settlement:"village", water:"well", veg:"mixed" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };

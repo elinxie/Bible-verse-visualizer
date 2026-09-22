@@ -1227,6 +1227,168 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   ACTS 8 — Philip in Samaria, Simon the sorcerer, the Ethiopian eunuch
+   ============================================================ */
+"44:8": {
+  era: {
+    title: "AD 34-35 — persecution scatters the church; Philip crosses into Samaria and the desert road",
+    sub: "Roman Judea and Samaria · the persecution after Stephen's death",
+    badges: ["Roman Judea", "Second Temple period", "The gospel crosses into Samaria", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Stephen's murder unleashes 'a great persecution... against the church in Jerusalem,' with Saul himself going house to house dragging believers off to prison. The scattering backfires: those who flee 'went about preaching the word' wherever they land, and Philip — one of the seven chosen in chapter 6 to serve tables — takes it into hostile territory first, a Samaritan city Jews and Samaritans had avoided crossing into for generations. Unclean spirits cry out as they leave, the paralyzed and lame are healed, and 'there was much joy in that city.' Among the converts is Simon, a sorcerer who had awed Samaria for years and let himself be hailed 'the power of God that is called Great'; even he believes and is baptized, trailing Philip around amazed in turn by the greater signs he's now watching rather than performing. When Jerusalem hears Samaria has received God's word, Peter and John come down, pray, and lay hands on the new believers so the Spirit — who had not yet fallen on them — finally does. Simon's old reflexes surface instantly: he offers money for the power to give the Spirit by touch, and Peter's rebuke is as sharp as anything in Acts — 'your silver perish with you... your heart is not right before God.' Then an angel redirects Philip entirely, off the revival and onto an empty desert road toward Gaza, where he falls in beside the chariot of an Ethiopian court official reading Isaiah 53 aloud and unable to make sense of it alone. Philip explains the passage as pointing to Jesus, the official asks what stops his own baptism, and at the very next water they stop the chariot and Philip baptizes him. 'The Spirit of the Lord carried Philip away' the instant it's done — the eunuch goes on rejoicing, and Philip turns up next at Azotus, preaching through every town on the coast road until he reaches Caesarea.",
+  focusPlace: "samaria",
+  places: [
+    { id:"jerusalem", role:"Where the persecution that scatters the believers begins, with Saul 'ravaging the church' house by house (vv. 1-3)" },
+    { id:"samaria",    role:"Where Philip proclaims Christ, Simon the sorcerer believes and is baptized, and Peter and John come down to pray for the Spirit to fall (vv. 4-25)" },
+    { id:"gaza",       role:"The desert road south of Jerusalem where an angel sends Philip to meet the Ethiopian eunuch's chariot (v. 26)" },
+    { id:"ashdod",     role:"Ancient Azotus, where Philip is found after the Spirit carries him away from the eunuch's side (v. 40)" },
+    { id:"caesarea",   role:"Where Philip's preaching tour through the coastal towns finally comes to rest (v. 40)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"samaria", label:"Scattered by persecution", km:55,
+      note:"'Those who were scattered went about preaching the word' (v. 4) after 'a great persecution' broke out against the Jerusalem church following Stephen's death, with Saul himself 'ravaging the church, entering house after house' (vv. 1, 3)." },
+    { from:"samaria", to:"gaza", label:"An angel sends Philip south", km:100,
+      note:"'Rise and go toward the south, to the road that goes down from Jerusalem to Gaza. This is a desert place' (v. 26) — Philip leaves a thriving revival for an apparently empty road, obedient before he's told why." },
+    { from:"gaza", to:"ashdod", dashed:true, label:"'The Spirit of the Lord carried Philip away'", km:30,
+      note:"The instant the baptism is finished, 'the eunuch saw him no more'; Philip is found next at Azotus, well up the coast road — Luke narrates the trip as a supernatural removal, not an ordinary walk (vv. 39-40)." },
+    { from:"ashdod", to:"caesarea", label:"Preaching through every town to Caesarea", km:90,
+      note:"'Passing through he preached the gospel to all the towns until he came to Caesarea' (v. 40) — the last note on Philip until Acts 21:8 finds him still there years later, 'the evangelist.'" }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"Saul ravaging the church", av:"warrior",
+      desc:"Stephen's death triggers 'a great persecution... against the church in Jerusalem,' scattering believers into Judea and Samaria while 'Saul was ravaging the church, entering house after house, and dragging off men and women' to prison (vv. 1-3)." },
+    { x:0.16, type:"object", label:"Scattered, yet preaching",
+      desc:"Persecution meant to crush the young church instead spreads it: 'those who were scattered went about preaching the word' — exactly the geography Jesus had named at his ascension, Judea and Samaria (v. 4; cf. 1:8)." },
+    { x:0.27, type:"person", label:"Philip proclaims Christ in Samaria", av:"traveler",
+      desc:"Philip — one of the seven chosen to serve tables in chapter 6 — goes down to a Samaritan city and 'proclaimed to them the Christ,' with unclean spirits crying out as they leave and many paralyzed and lame healed, so that 'there was much joy in that city' (vv. 5-8)." },
+    { x:0.38, type:"person", label:"Simon the magician believes", av:"traveler",
+      desc:"A sorcerer who had 'amazed the people of Samaria' and let himself be called 'the power of God that is called Great' now believes Philip's preaching himself, is baptized, and follows Philip around, 'amazed' in turn by the signs he sees (vv. 9-13)." },
+    { x:0.49, type:"person", label:"Peter and John lay hands", av:"fisherman",
+      desc:"News reaches Jerusalem that Samaria has 'received the word of God,' so Peter and John come down, pray, and lay hands on the new believers — 'for he had not yet fallen on any of them' — and they receive the Holy Spirit (vv. 14-17)." },
+    { x:0.60, type:"object", label:"'May your silver perish with you'",
+      desc:"Simon offers money to buy the power to give the Spirit by the laying on of hands; Peter's rebuke is severe — 'you have neither part nor lot in this matter, for your heart is not right before God' — and calls him to repent and pray for forgiveness (vv. 18-23)." },
+    { x:0.71, type:"person", label:"An angel sends Philip to the desert road", av:"traveler",
+      desc:"Pulled away from a thriving revival, Philip obeys an angel's instruction to head south toward Gaza — 'this is a desert place' — where he finds an Ethiopian court official reading Isaiah aloud from his chariot (vv. 26-28)." },
+    { x:0.83, type:"person", label:"'How can I, unless someone guides me?'", av:"official",
+      desc:"The Spirit tells Philip to join the chariot; he hears the eunuch reading Isaiah 53's suffering servant and asks if he understands it. Invited up, Philip 'beginning with this Scripture... told him the good news about Jesus' (vv. 29-35)." },
+    { x:0.94, type:"object", label:"Baptized, then caught away",
+      desc:"At the sight of water the eunuch asks what prevents his baptism; Philip baptizes him on the spot, and 'the Spirit of the Lord carried Philip away' — the eunuch 'went on his way rejoicing' while Philip turns up at Azotus and preaches on to Caesarea (vv. 36-40)." }
+  ],
+  environment: {
+    chips: ["Persecution scatters the Jerusalem church", "Samaria: old rivals hear good news first", "A sorcerer's dramatic conversion", "The Gaza desert road", "An Ethiopian court official's private chariot"],
+    text: "Jews and Samaritans had avoided each other for centuries by this point — a rift running back to Assyria's resettlement of the northern kingdom and the rival Samaritan temple on Mount Gerizim, sharp enough that John 4:9 simply notes 'Jews have no dealings with Samaritans.' Philip crossing that line, and Peter and John following to confirm it, is Acts 1:8's promised sequence ('Judea and Samaria') playing out in real time, not a footnote. South of Jerusalem toward Gaza the road genuinely does run through open, sparsely settled desert country, exactly as the angel's own description warns Philip in advance — an odd place to expect a divine appointment, let alone one already in progress inside a moving chariot. The Ethiopian eunuch served the Kandake, a hereditary title (not a personal name) for the queen mother who ruled Nubian Kush from Meroë, since Kushite kings were considered too sacred to handle secular administration directly; his private copy of an Isaiah scroll and pilgrimage to Jerusalem worship mark him as a wealthy God-fearer or proselyte, reached with the gospel before Cornelius, whom Acts 10 often gets credited as its 'first Gentile.'"
+  },
+  objectsExtra: ["simons-silver","isaiah-53-scroll","chariot"],
+  peopleExtra: ["philip-evangelist","simon-magus","ethiopian-eunuch","peter","john-apostle","paul"],
+  culture: [
+    { title:"Samaria: centuries of hostility", icon:"⚔️",
+      text:"The Samaritan-Jewish rift dated to Assyria's 8th-century BC resettlement of the northern kingdom with foreign populations, whose descendants intermarried with the Israelites left behind and worshiped Yahweh at a rival temple on Mount Gerizim rather than Jerusalem — a schism sharp enough by Jesus' day that Samaritan villages once refused him lodging simply for facing toward Jerusalem (Luke 9:52-53). Philip's mission here is itself the sign that the old boundary no longer holds." },
+    { title:"Simony", icon:"🪙",
+      text:"Simon's offer to buy the power to bestow the Spirit gives later church history its word for the sin: 'simony,' the buying or selling of ecclesiastical office, spiritual power, or sacred things — a practice repeatedly condemned by church councils for over a millennium and still named directly after this one exchange with Peter." },
+    { title:"A eunuch's welcome", icon:"📜",
+      text:"Deuteronomy 23:1 barred a eunuch from 'the assembly of the LORD,' yet Isaiah 56:3-5 promises eunuchs who keep God's covenant 'a monument and a name better than sons and daughters' within his own house — Luke never states the tension outright, but an official excluded from full temple worship reading exactly the prophet who promises his inclusion, and then receiving baptism without a single qualifying question, makes the point without needing to." },
+    { title:"Kandake's treasurer", icon:"👑",
+      text:"'Candace' functioned like 'Pharaoh' or 'Caesar' — a dynastic title for the queen mother who governed Kushite Nubia (roughly modern Sudan) from Meroë, not this official's ruler's personal name. Entrusting 'all her treasure' to a eunuch was standard practice across the ancient Near East, since eunuchs could hold the highest offices of trust precisely because they could found no rival dynasty of their own." }
+  ],
+  crossRefs: [
+    { group:"Judea and Samaria, as promised", refs:[
+      { r:"Acts 1:8", note:"Jesus' own itinerary for the church's witness, now reaching its second stage" } ]},
+    { group:"Isaiah's suffering servant, and eunuchs welcomed", refs:[
+      { r:"Isaiah 53:7-8", note:"the exact passage the eunuch is reading when Philip joins his chariot" },
+      { r:"Isaiah 56:3-5", note:"eunuchs promised inclusion in God's own house, against Deut 23:1's exclusion" } ]},
+    { group:"Grasping for spiritual power, an old story", refs:[
+      { r:"2 Kings 5:20-27", note:"Gehazi's grasping after Naaman's silver — a parallel warning against monetizing what God gives freely" } ]},
+    { group:"Philip remembered later", refs:[
+      { r:"Acts 21:8-9", note:"years later, 'Philip the evangelist' is still at Caesarea, now with four prophesying daughters" } ]},
+    { group:"Ends of the earth", refs:[
+      { r:"Isaiah 49:6", note:"the light-to-the-nations promise Luke echoes in casting the Ethiopian official as an early fulfillment" } ]}
+  ]
+},
+
+/* ============================================================
+   ACTS 9 — Saul's conversion on the Damascus road; Peter at Lydda and Joppa
+   ============================================================ */
+"44:9": {
+  era: {
+    title: "AD 34-35 — Saul's conversion on the Damascus road; Peter heals at Lydda and raises Tabitha at Joppa",
+    sub: "Roman Syria and Judea · the persecutor becomes a witness, while Peter tours the churches",
+    badges: ["Roman Syria and Judea", "Second Temple period", "Saul's conversion", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Saul is 'still breathing threats and murder against the disciples of the Lord' when he asks the high priest for letters authorizing him to drag any followers of 'the Way' he finds in Damascus back to Jerusalem in chains. Nearing the city, a light from heaven suddenly surrounds him; he falls to the ground and hears a voice ask why he is being persecuted, and when he asks who is speaking, the answer names itself outright: 'I am Jesus.' Blinded, Saul is led by the hand into Damascus, where he neither eats nor drinks for three days. Ananias, a disciple there, is told in a vision to go find him — he protests, having heard exactly what Saul came to do, but is told Saul is now 'a chosen instrument of mine to carry my name before the Gentiles and kings and the children of Israel.' He obeys, calls Saul 'Brother,' and something like scales fall from Saul's eyes; he is baptized, eats, and regains his strength. Almost immediately he is preaching in the synagogues that Jesus is the Son of God, astonishing everyone who knew why he'd come — until the growing threat to his life forces his own disciples to lower him over the city wall by night in a basket. Jerusalem's believers, understandably terrified of him, only accept Saul once Barnabas vouches for him before the apostles; a fresh plot sends him on to Caesarea and home to Tarsus while, Luke notes, the church finally has peace and keeps growing. The chapter closes with Peter touring those same churches: at Lydda he heals Aeneas, paralyzed eight years, with a word — 'Jesus Christ heals you; rise and make your bed' — and at Joppa he is urgently summoned to Tabitha, a disciple who had died, whose grieving widows show him the garments she made for them; Peter clears the room, kneels to pray, and says simply, 'Tabitha, arise.'",
+  focusPlace: "damascus",
+  places: [
+    { id:"damascus",  role:"Where Saul is blinded by a vision of the risen Jesus, healed and baptized by Ananias, and begins preaching before fleeing over the wall in a basket (vv. 1-25)" },
+    { id:"jerusalem", role:"Where the suspicious church is finally persuaded to accept Saul, vouched for by Barnabas, before he is sent off to Tarsus (vv. 26-30)" },
+    { id:"tarsus",    role:"Saul's home city, where the believers send him for his own safety (v. 30)" },
+    { id:"lydda",     role:"Where Peter heals Aeneas, paralyzed and bedridden for eight years (vv. 32-35)" },
+    { id:"joppa",     role:"Where Peter raises Tabitha (Dorcas) from death before the widows she had clothed (vv. 36-43)" }
+  ],
+  journey: [
+    { from:"jerusalem", to:"damascus", label:"Letters in hand, to arrest 'the Way'", km:215,
+      note:"Saul, 'still breathing threats and murder against the disciples,' obtains letters from the high priest authorizing him to bring any followers of the Way he finds in Damascus back to Jerusalem in chains (vv. 1-2) — roughly a week's journey on foot." },
+    { from:"damascus", to:"jerusalem", dashed:true, label:"Over the wall in a basket, then home to Jerusalem", km:215,
+      note:"When the Damascus Jews plot to kill him at the watched city gates, 'his disciples took him by night and let him down through an opening in the wall, lowering him in a basket' (v. 25) — the same road reversed, now as a fugitive rather than an inquisitor." },
+    { from:"jerusalem", to:"tarsus", dashed:true, label:"Sent home for his own safety", km:550,
+      note:"Once Barnabas vouches for him and the Jerusalem believers finally accept him, a fresh plot on his life sends him away again: 'the brothers... brought him down to Caesarea and sent him off to Tarsus' (v. 30) — his own hometown." },
+    { from:"jerusalem", to:"lydda", dashed:true, label:"Peter's tour of the churches of Judea", km:55,
+      note:"No route is narrated in detail; Luke simply notes Peter 'went here and there among them all' before coming 'down also to the saints who lived at Lydda' (v. 32), a coastal-plain town roughly a day's walk from Jerusalem." },
+    { from:"lydda", to:"joppa", label:"Summoned urgently to Joppa", km:18,
+      note:"When Tabitha dies, the disciples at Joppa — close enough to Lydda to send fast word — dispatch two men 'urging him, Please come to us without delay' (v. 38)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"'Still breathing threats and murder'", av:"warrior",
+      desc:"Saul asks the high priest for letters to the Damascus synagogues authorizing him to arrest any he finds 'belonging to the Way, men or women,' and bring them bound to Jerusalem (vv. 1-2)." },
+    { x:0.15, type:"object", label:"A light from heaven",
+      desc:"'As he went, he approached Damascus, and suddenly a light from heaven shone around him,' and Saul falls to the ground (v. 3)." },
+    { x:0.25, type:"object", label:"'Saul, Saul, why do you persecute me?'",
+      desc:"A voice asks why Saul is persecuting him; when Saul asks who is speaking, the answer names itself outright — 'I am Jesus, whom you are persecuting' (vv. 4-5)." },
+    { x:0.35, type:"object", label:"Three sightless, foodless days",
+      desc:"Blinded by the light, Saul is led by the hand into Damascus, where for three days he neither eats nor drinks (vv. 8-9)." },
+    { x:0.45, type:"person", label:"Ananias's vision and protest", av:"elder",
+      desc:"In a vision Ananias is told to find Saul on Straight Street; he protests — 'I have heard from many about this man, how much evil he has done' — but is told Saul is 'a chosen instrument of mine to carry my name before the Gentiles and kings and the children of Israel' (vv. 10-16)." },
+    { x:0.55, type:"object", label:"Scales fall from his eyes",
+      desc:"Ananias lays hands on Saul, calling him 'Brother Saul'; 'immediately something like scales fell from his eyes,' his sight returns, and he is baptized and takes food, his strength restored (vv. 17-19)." },
+    { x:0.65, type:"person", label:"Preaching, then fleeing by basket", av:"traveler",
+      desc:"Almost at once Saul proclaims in the synagogues that Jesus 'is the Son of God,' astonishing those who knew why he'd come; when the growing threat turns lethal, 'his disciples took him by night and let him down through an opening in the wall, lowering him in a basket' (vv. 20-25)." },
+    { x:0.75, type:"person", label:"Barnabas vouches for Saul", av:"elder",
+      desc:"Jerusalem's believers, afraid, don't believe Saul is really a disciple, until Barnabas brings him to the apostles and describes both the Damascus road and his bold preaching; a fresh murder plot sends Saul on to Caesarea and Tarsus, and 'the church throughout all Judea and Galilee and Samaria had peace' (vv. 26-31)." },
+    { x:0.85, type:"person", label:"'Rise and make your bed'", av:"fisherman",
+      desc:"Touring the believers, Peter finds Aeneas at Lydda, paralyzed and bedridden for eight years, and heals him with a word — 'Jesus Christ heals you' — a sign that turns 'all the residents of Lydda and Sharon' to the Lord (vv. 32-35)." },
+    { x:0.95, type:"person", label:"'Tabitha, arise'", av:"fisherman",
+      desc:"Summoned to Joppa after Tabitha's death, Peter clears the weeping widows from the room, kneels to pray, and says simply, 'Tabitha, arise' — she opens her eyes, and 'many believed in the Lord' because of it (vv. 36-43)." }
+  ],
+  environment: {
+    chips: ["'The Way' — the movement's earliest name", "Letters of arrest from the high priest", "A blinding light at midday", "Lowered over the wall by night", "Peter's tour of the Judean churches"],
+    text: "'The Way' (hē hodos) is how Luke has the earliest believers refer to their own movement throughout Acts, well before 'Christian' is first used, at Antioch (11:26) — the phrase likely draws on Isaiah's 'way of the LORD' and Jesus' own 'I am the way' (John 14:6). Damascus by this period held one of the largest Jewish diaspora communities outside Judea, with enough synagogues to explain why Saul needed multiple letters of introduction to reach believers scattered across them. Lowering a wanted man over a city wall by night in a basket was a known, if desperate, escape route — Rahab's spies use the same trick at Jericho (Josh 2:15) — and Paul's own later letters (2 Cor 11:32-33) add a detail Luke leaves out here: the plot's actual engineer was 'the governor under King Aretas,' the Nabatean king who then controlled Damascus, a detail historians use to help date the episode. Joppa's association with tanning — Peter is later found lodging with 'Simon, a tanner' there in the very next chapter — reflects its role as a coastal port town where such unclean-adjacent trades were pushed to the edge of the city."
+  },
+  objectsExtra: ["damascus-road-light","scales-fall","saul-basket"],
+  peopleExtra: ["paul","ananias-damascus","barnabas","peter","aeneas","tabitha"],
+  culture: [
+    { title:"'The Way,' before 'Christian'", icon:"🛤️",
+      text:"Luke's preferred term for the movement throughout Acts (9:2; 19:9, 23; 24:14, 22) is simply 'the Way' — an identity built around following Jesus' own path rather than a doctrinal label. 'Christians' is first used only later, and by outsiders, at Antioch (11:26); by the time Luke writes, both names describe the same community, but 'the Way' preserves how the earliest believers most likely described themselves." },
+    { title:"Paul's own retelling", icon:"📜",
+      text:"Paul returns to this day twice more in Acts (22:6-11; 26:12-18) and in his own letters (Gal 1:13-17), each version emphasizing slightly different details for its audience — a pattern typical of how ancient authors retold a foundational event rather than evidence of contradiction. 2 Corinthians 11:32-33 alone supplies the detail that it was an ethnarch under King Aretas IV of Nabatea, not only 'the Jews' of Acts 9:23, who guarded Damascus's gates against him." },
+    { title:"A chosen instrument", icon:"⚡",
+      text:"Ananias's reluctant obedience and God's own description of Saul — 'a chosen instrument of mine to carry my name before the Gentiles and kings and the children of Israel' — previews the rest of Acts before Saul has preached a single recorded word, naming in advance both his Gentile mission and the kings (Agrippa, Caesar) he will eventually stand before." },
+    { title:"Widows' garments", icon:"🧵",
+      text:"Tabitha (Aramaic) and Dorcas (Greek) both mean 'gazelle'; Luke calls her mathētria, 'female disciple' — the only time the feminine form of the word appears anywhere in the New Testament. What the weeping widows hold up as evidence of her life's work isn't a sermon or a miracle but 'the tunics and other garments' she had made for them, the ordinary, practical shape her discipleship took." }
+  ],
+  crossRefs: [
+    { group:"Paul remembers this day", refs:[
+      { r:"Galatians 1:13-17", note:"Paul's own account of the Damascus road call, years later, in his most personal letter" },
+      { r:"2 Corinthians 11:32-33", note:"Paul names the escape's engineer as the ethnarch under King Aretas, guarding Damascus's gates to seize him" },
+      { r:"Acts 22:6-11", note:"Paul retells the same vision before a Jerusalem crowd" } ]},
+    { group:"'The Way,' before 'Christian'", refs:[
+      { r:"Acts 11:26", note:"the name 'Christians' is first used only later, at Antioch" },
+      { r:"Isaiah 40:3", note:"'prepare the way of the LORD' — background for the movement's earliest self-designation" } ]},
+    { group:"'Talitha, arise' — an echo", refs:[
+      { r:"Mark 5:41", note:"Jesus' 'Talitha cumi' to Jairus's dead daughter, the same two-word command pattern behind Peter's 'Tabitha, arise'" } ]}
+  ]
+},
+
+/* ============================================================
    JOHN 1 — The Word made flesh, John's testimony, first disciples
    ============================================================ */
 "43:1": {

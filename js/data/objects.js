@@ -358,5 +358,19 @@ BVV.OBJECTS = [
   { id:"pentecost-wind", name:"A sound like a mighty rushing wind", al:["rushing mighty wind","sound like a mighty rushing wind","sound from heaven"], icon:"💨",
     desc:"'Suddenly there came from heaven a sound like a mighty rushing wind, and it filled the entire house where they were sitting' — an audible sign, not an actual windstorm, playing on ruach/pneuma, the same Hebrew and Greek words for wind, breath, and spirit (Acts 2:2)." },
   { id:"tongues-of-fire", name:"Divided tongues of fire", al:["tongues of fire","divided tongues as of fire","tongues as of fire"], icon:"🔥",
-    desc:"'Divided tongues as of fire appeared to them and rested on each one of them' at Pentecost — a visible sign distributed individually across the whole gathered company, not one shared flame, just before they are filled with the Holy Spirit and begin speaking in other languages (Acts 2:3-4)." }
+    desc:"'Divided tongues as of fire appeared to them and rested on each one of them' at Pentecost — a visible sign distributed individually across the whole gathered company, not one shared flame, just before they are filled with the Holy Spirit and begin speaking in other languages (Acts 2:3-4)." },
+
+  // ---- Acts 8 ----
+  { id:"simons-silver", name:"Simon's offer of silver", al:["silver perish with you","buy the gift of God","simony"], icon:"🪙",
+    desc:"Watching Peter and John lay hands on the Samaritan believers so they receive the Holy Spirit, Simon the magician offers money for the same power — 'Give me this power also, so that anyone on whom I lay my hands may receive the Holy Spirit.' Peter's rebuke is severe: 'your silver perish with you... your heart is not right before God' — the episode that gives later church history the word 'simony,' for buying spiritual office or power (Acts 8:18-23)." },
+  { id:"isaiah-53-scroll", name:"The Ethiopian's scroll of Isaiah", al:["scroll of Isaiah","Isaiah 53","led like a sheep to the slaughter"], icon:"📜",
+    desc:"The Ethiopian eunuch is reading aloud from Isaiah 53 — 'like a sheep he was led to the slaughter... in his humiliation justice was denied him' — when Philip joins his chariot and asks if he understands it; unable to say whether the prophet means himself or someone else, the eunuch invites Philip up, and 'beginning with this Scripture he told him the good news about Jesus' (Acts 8:30-35; cf. Isa 53:7-8)." },
+
+  // ---- Acts 9 ----
+  { id:"damascus-road-light", name:"A light from heaven", al:["light from heaven","light flashed","Saul, Saul"], icon:"⚡",
+    desc:"'As he went on his way, he approached Damascus, and suddenly a light from heaven shone around him' — Saul falls to the ground and hears a voice ask, 'Saul, Saul, why are you persecuting me?' and, pressed for its identity, answer plainly: 'I am Jesus, whom you are persecuting' (Acts 9:3-5)." },
+  { id:"scales-fall", name:"Scales falling from Saul's eyes", al:["scales fell from his eyes","received his sight"], icon:"👁️",
+    desc:"After three blind, foodless days, Ananias lays hands on Saul — 'immediately something like scales fell from his eyes, and he regained his sight'; he is baptized at once and takes food, his strength returning with it (Acts 9:17-19)." },
+  { id:"saul-basket", name:"Lowered over the wall in a basket", al:["basket","let down through the wall","lowered in a basket"], icon:"🧺",
+    desc:"When the Damascus Jews plot to kill him and watch the city gates day and night, 'his disciples took him by night and let him down through an opening in the wall, lowering him in a basket' — Saul's own later letters name the plot's engineer as the ethnarch under King Aretas (Acts 9:23-25; cf. 2 Cor 11:32-33)." }
 ];
