@@ -204,7 +204,7 @@ function check(name, cond, extra) {
     "Luke 10|42:10", "Luke 15|42:15", "Luke 24|42:24",
     "John 1|43:1", "John 3|43:3",
     "John 9|43:9", "John 11|43:11", "John 19|43:19", "John 20|43:20", "John 21|43:21",
-    "Acts 1|44:1", "Acts 2|44:2", "Acts 8|44:8", "Acts 9|44:9"];
+    "Acts 1|44:1", "Acts 2|44:2", "Acts 8|44:8", "Acts 9|44:9", "Acts 16|44:16", "Acts 17|44:17"];
   for (const entry of CURATED_SWEEP) {
     const [ref, key] = entry.split("|");
     console.log(`== curated pipeline: ${ref} ==`);
