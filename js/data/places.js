@@ -573,18 +573,22 @@ BVV.PLACES = [
     scene:{ terrain:"mountain", settlement:"temple", water:"none", veg:"sparse" } },
   { id:"philippi", name:"Philippi", al:["Philippi"], modern:"Filippoi, Greece", lat:41.013, lon:24.286, type:"city",
     blurb:"Roman colony where Lydia believed, a jailer was converted at midnight, and Europe's first church began.",
+    meaning:"Named for Philip II of Macedon (Alexander the Great's father), who refounded the older settlement of Krenides — 'little fountains' — under his own name, ca. 356 BC",
     ancient:"A miniature Rome on the Via Egnatia: forum, Latin inscriptions, veterans' farms, a river-side place of prayer.",
     scene:{ terrain:"plain", settlement:"city", water:"river", veg:"mixed" } },
   { id:"thessalonica", name:"Thessalonica", al:["Thessalonica"], modern:"Thessaloniki, Greece", lat:40.640, lon:22.944, type:"city",
     blurb:"Free city and port on the Via Egnatia; the young church here received Paul's earliest letters.",
+    meaning:"Named for Thessalonike, half-sister of Alexander the Great, when her husband Cassander founded the city around 315 BC",
     ancient:"A harbor amphitheater of streets rising from the gulf, loud with trade.",
     scene:{ terrain:"coast", settlement:"city", water:"sea", veg:"mixed" } },
   { id:"berea", name:"Berea", al:["Berea","Beroea"], modern:"Veria, Greece", lat:40.524, lon:22.202, type:"city",
     blurb:"Whose 'more noble' Jews examined the Scriptures daily (Acts 17:11).",
+    meaning:"Greek 'Beroia' — an old Macedonian name of uncertain, pre-Greek origin, possibly tied to the town's springs and well-watered site",
     ancient:"A quiet foothill town off the great road — space to search the scrolls.",
     scene:{ terrain:"hills", settlement:"city", water:"river", veg:"mixed" } },
   { id:"athens", name:"Athens", al:["Athens"], modern:"Athens, Greece", lat:37.972, lon:23.726, type:"city",
     blurb:"Philosophy's capital, 'full of idols'; Paul preached the unknown God before the Areopagus.",
+    meaning:"Named for Athena, the city's patron goddess, following her mythic contest with Poseidon for its favor",
     ancient:"The Parthenon crowning the Acropolis; stoas of disputing philosophers; altars on every corner.",
     scene:{ terrain:"hills", settlement:"temple", water:"none", veg:"sparse" } },
   { id:"corinth", name:"Corinth", al:["Corinth"], modern:"Ancient Corinth, Greece", lat:37.906, lon:22.879, type:"city",
@@ -765,7 +769,14 @@ BVV.PLACES = [
     blurb:"Coastal-plain town on the Jerusalem-Joppa road, later renamed Diospolis, where Peter healed the paralyzed Aeneas (Acts 9:32-35).",
     meaning:"Hebrew 'Lod', origin uncertain and possibly pre-Hebrew; later Hellenized as 'Lydda'",
     ancient:"A modest agricultural town on the Sharon plain astride the road linking Jerusalem to the port of Joppa, home in the NT era to an early community of believers Peter visits on his tour of 'the saints' throughout Judea.",
-    scene:{ terrain:"plain", settlement:"village", water:"well", veg:"mixed" } }
+    scene:{ terrain:"plain", settlement:"village", water:"well", veg:"mixed" } },
+
+  // ---- Acts 16 ----
+  { id:"troas", name:"Troas", al:["Troas","Alexandria Troas"], modern:"near Dalyan/Ezine, Turkey", lat:39.757, lon:26.161, type:"city",
+    blurb:"Aegean port near vanished Troy where Paul's night vision of a man of Macedonia redirected the mission from Asia into Europe (Acts 16:8-10).",
+    meaning:"Named for the Troad, the region around legendary Troy (Ilion); refounded and renamed 'Alexandria Troas' by Alexander's successors in his honor",
+    ancient:"A young, planned Roman free port on the coast facing the Aegean's northern crossing, its harbor works and walls built up to rival Ephesus as Asia Minor's gateway to Macedonia — later a candidate, under Julius Caesar and Constantine, for a new imperial capital.",
+    scene:{ terrain:"coast", settlement:"city", water:"sea", veg:"mixed" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };

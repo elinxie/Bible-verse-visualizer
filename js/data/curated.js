@@ -1389,6 +1389,157 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   ACTS 16 — Timothy circumcised, the Macedonian call, Lydia,
+   the slave girl freed, Paul and Silas jailed and freed by an
+   earthquake, the jailer's conversion, Roman citizenship claimed
+   ============================================================ */
+"44:16": {
+  era: {
+    title: "AD 49-50 — the second missionary journey crosses from Asia into Europe",
+    sub: "Asia Minor and Roman Macedonia · Lystra to Philippi, by way of a night vision at Troas",
+    badges: ["Second missionary journey", "Roman Macedonia", "Second Temple period", "≈2,000 years ago"]
+  },
+  timeOfDay: "night",
+  summary: "Paul, now traveling with Silas, reaches Lystra and picks up a new companion: Timothy, son of a believing Jewish mother and a Greek father, well spoken of by the believers there. Because every Jew in the region knows his father was Greek, Paul has him circumcised before bringing him along — a concession to Jewish sensibilities that costs Timothy nothing doctrinally but removes a needless obstacle to the mission. As they carry the Jerusalem council's decisions from town to town, the churches grow daily, yet twice the Holy Spirit shuts a door — forbidding them to preach in Asia, then blocking Bithynia too — until they arrive, seemingly by process of elimination, at the port of Troas. There Paul sees a man of Macedonia in the night, pleading, 'Come over to Macedonia and help us,' and Luke's own narration shifts to 'we,' marking his join to the traveling party as the mission crosses, for the first time, from Asia into Europe. At Philippi, a Roman colony on the Via Egnatia, they find no synagogue, only a riverside place of prayer, where a God-fearing merchant named Lydia has her heart 'opened' by the Lord and is baptized with her household, insisting the missionaries lodge at her house. Trouble starts with an enslaved girl whose spirit of divination earns her owners a fortune; her days of shouted, unwanted endorsements — 'these men are servants of the Most High God' — end when an exasperated Paul casts the spirit out in Jesus' name, and her furious owners, their income gone, drag Paul and Silas before the magistrates as Jews disturbing the city. Stripped, beaten with rods, and thrown into the inner prison with their feet in stocks, Paul and Silas respond by praying and singing hymns at midnight — until a sudden earthquake flings every door open and every chain loose. The jailer, waking to what looks like a mass escape and the death sentence a Roman guard owed for it, draws his sword to kill himself, until Paul stops him: 'Do not harm yourself, for we are all here.' His terrified question — 'Sirs, what must I do to be saved?' — gets the shortest answer in Acts, 'Believe in the Lord Jesus, and you will be saved, you and your household,' and before dawn he has washed their wounds and been baptized with his whole family. Only at daylight, once the magistrates try to release them quietly, does Paul reveal what he'd withheld all night: he and Silas are Roman citizens, illegally beaten and imprisoned without trial — and the same magistrates who ordered it now come, alarmed, to escort them out themselves.",
+  focusPlace: "philippi",
+  places: [
+    { id:"lystra",  role:"Where Paul picks up Timothy — son of a Jewish believer and a Greek father — and has him circumcised for the sake of the region's Jews (vv. 1-3)" },
+    { id:"troas",   role:"Where a night vision of a man of Macedonia, 'Come over... and help us,' turns the mission from Asia into Europe, and Luke's 'we' begins (vv. 8-10)" },
+    { id:"philippi", role:"Roman colony where Lydia is converted, a slave girl's spirit is cast out, Paul and Silas are beaten and jailed, and the midnight earthquake converts the jailer and his household (vv. 12-40)" }
+  ],
+  journey: [
+    { from:"lystra", to:"troas", label:"Forbidden from Asia, then from Bithynia", km:600,
+      note:"Traveling through Phrygia and Galatia, they are 'forbidden by the Holy Spirit to speak the word in Asia' (v. 6); trying next for Bithynia, 'the Spirit of Jesus did not allow them' either (v. 7) — two closed doors that funnel the mission to the coast at Troas." },
+    { from:"troas", to:"philippi", label:"Sailing to Macedonia via Samothrace and Neapolis", km:250,
+      note:"'Setting sail from Troas, we made a direct voyage to Samothrace, and the following day to Neapolis, and from there to Philippi' (vv. 11-12) — the sea crossing that answers the Macedonian man's vision." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"Timothy circumcised for the Jews' sake", av:"youth",
+      desc:"At Lystra, Paul takes on a new companion 'well spoken of by the brothers,' but has him circumcised first, 'because of the Jews who were in those places, for they all knew that his father was a Greek' (vv. 1-3)." },
+    { x:0.16, type:"object", label:"Forbidden by the Spirit, twice over",
+      desc:"'Forbidden by the Holy Spirit to speak the word in Asia' and then blocked again from Bithynia, the missionaries find every door shut except the one leading to the coast (vv. 6-7)." },
+    { x:0.28, type:"person", label:"The Macedonian call", av:"traveler",
+      desc:"In the night Paul sees 'a man of Macedonia... standing there, urging him and saying, Come over to Macedonia and help us' — and Luke's account switches to 'we,' marking his own join to the party (vv. 9-10)." },
+    { x:0.40, type:"person", label:"Lydia's opened heart", av:"woman",
+      desc:"At a riverside place of prayer outside Philippi's gate, a dealer in purple cloth from Thyatira listens as 'the Lord opened her heart to pay attention' — she and her household are baptized, and she insists the missionaries stay at her house (vv. 13-15)." },
+    { x:0.50, type:"person", label:"The slave girl silenced", av:"woman",
+      desc:"A girl with 'a spirit of divination,' profitable to her owners, trails the group for days shouting true but unwanted testimony, until 'Paul, having become greatly annoyed,' casts the spirit out in Jesus' name (vv. 16-18)." },
+    { x:0.60, type:"person", label:"Stripped, beaten, and jailed", av:"traveler",
+      desc:"Her owners, their income gone, drag Paul and Silas before the magistrates as Jews 'disturbing our city'; the crowd joins in, and the two are beaten with rods and locked in the innermost cell, feet fastened in stocks (vv. 19-24)." },
+    { x:0.72, type:"object", label:"Hymns at midnight, then an earthquake",
+      desc:"'About midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening' — then 'a great earthquake' shakes the foundations, throwing open every door and loosening every chain (vv. 25-26)." },
+    { x:0.84, type:"person", label:"'What must I do to be saved?'", av:"warrior",
+      desc:"Certain the prisoners have fled, the jailer draws his sword to kill himself, until Paul calls out, 'Do not harm yourself, for we are all here.' His question gets Acts' shortest answer: 'Believe in the Lord Jesus, and you will be saved' (vv. 27-31)." },
+    { x:0.95, type:"person", label:"'We are Roman citizens'", av:"traveler",
+      desc:"Only once the magistrates try to release them quietly does Paul reveal what he withheld all night — they are Roman citizens, beaten publicly without trial — and the alarmed magistrates come themselves to escort them out (vv. 35-39)." }
+  ],
+  environment: {
+    chips: ["A riverside place of prayer, no synagogue", "A Roman colony's Latin-flavored civic life", "A slave girl's 'python spirit'", "Feet fastened in the stocks", "Civis Romanus sum — 'I am a Roman citizen'"],
+    text: "Philippi, refounded by Philip II of Macedon and later resettled with Roman veterans after Actium, held the privileged status of a colonia — a 'little Rome' governed by Roman law under the ius Italicum, which explains both why Luke finds no synagogue (too few Jews for the required quorum of ten men, hence the makeshift riverside prayer spot) and why the magistrates panic so badly on learning they've illegally flogged Roman citizens: the lex Porcia and lex Valeria made scourging an uncondemned citizen a serious offense that could end a magistrate's career. The slave girl's 'spirit of divination' translates a Greek word, pythōn, that deliberately evokes the Pythia, Delphi's famous oracle believed possessed by Apollo — commercial fortune-telling by enslaved or hired mediums was a recognized trade across the Greek world, which is exactly why her owners react to their lost 'much gain' with a lawsuit dressed up as a civic-order complaint rather than a religious one."
+  },
+  objectsExtra: ["divination","philippi-earthquake","roman-citizenship"],
+  peopleExtra: ["paul","silas","timothy","lydia","slave-girl-divination","philippian-jailer"],
+  culture: [
+    { title:"A Roman colony, Roman law", icon:"🏛️",
+      text:"Philippi's status as a colonia — resettled with Roman army veterans and governed under the ius Italicum, exempting it from certain provincial taxes and giving its citizens rights as if they lived in Italy itself — explains the magistrates' sudden panic in vv. 35-39: publicly beating an uncondemned Roman citizen without trial violated laws (the lex Porcia and lex Valeria) serious enough to end a career, which is exactly why Paul waits until morning to mention it (vv. 37-39)." },
+    { title:"A python spirit and Delphi's oracle", icon:"🔮",
+      text:"The Greek behind 'spirit of divination' (v. 16) is literally pythōn, the same word for the mythical serpent Apollo was said to have slain at Delphi, whose priestess (the Pythia) delivered oracles believed to come from the god possessing her. Calling the slave girl's spirit 'python' casts her fortune-telling as the same trade, commercialized and enslaved, rather than treating it as harmless entertainment." },
+    { title:"Households baptized together", icon:"👪",
+      text:"Both conversions in this chapter — Lydia's (v. 15) and the jailer's (v. 33) — are followed immediately by the baptism of an entire household, not just the individual who first believed. Ancient households were tightly bound social and economic units under the head of house, so a household's shared response, while not automatic, reflects a real cultural pattern this narrative repeats rather than an isolated exception." }
+  ],
+  crossRefs: [
+    { group:"Paul's Roman citizenship, invoked again", refs:[
+      { r:"Acts 22:25-29", note:"Paul again invokes his citizenship, this time before a Roman tribune about to have him flogged" },
+      { r:"Acts 25:10-12", note:"citizenship's ultimate use — Paul's appeal all the way to Caesar" } ]},
+    { group:"Singing in the dark", refs:[
+      { r:"Psalm 34:1", note:"'I will bless the LORD at all times' — the kind of praise Paul and Silas offer at midnight, in chains" },
+      { r:"James 5:13", note:"'Is anyone among you suffering? Let him pray... let him sing praise' — the same instinct as a rule of life" } ]},
+    { group:"Household baptisms, like Lydia's and the jailer's", refs:[
+      { r:"Acts 18:8", note:"Crispus, the synagogue ruler at Corinth, believes 'together with his entire household'" },
+      { r:"1 Corinthians 1:16", note:"Paul recalls also baptizing 'the household of Stephanas'" } ]},
+    { group:"Timothy, remembered later", refs:[
+      { r:"2 Timothy 1:5", note:"Paul recalls the sincere faith that lived first in Timothy's grandmother Lois and mother Eunice" },
+      { r:"Philippians 2:19-22", note:"Paul's later tribute to Timothy's 'proven worth,' written from prison to this very city" } ]}
+  ]
+},
+
+/* ============================================================
+   ACTS 17 — Thessalonica's riot and Jason's house, the noble
+   Bereans, and Paul's Areopagus speech at Athens
+   ============================================================ */
+"44:17": {
+  era: {
+    title: "AD 49-50 — Thessalonica's riot, Berea's noble search, and the Areopagus speech at Athens",
+    sub: "Roman Macedonia and Achaia · the second missionary journey moves south",
+    badges: ["Second missionary journey", "Roman Macedonia and Achaia", "Second Temple period", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "From Philippi, Paul and Silas pass through Amphipolis and Apollonia to Thessalonica, where Paul reasons from the Scriptures in the synagogue on three straight Sabbaths, arguing that the Messiah had to suffer and rise — 'this Jesus, whom I proclaim to you, is the Christ.' Some Jews are persuaded, along with a great many God-fearing Greeks and 'not a few' leading women, but the unpersuaded majority, jealous of the numbers, recruit a mob from the marketplace and storm the house of a believer named Jason, hunting for the missionaries. Unable to find them, they drag Jason and others before the city officials with a charge that names exactly what's at stake: 'these men who have turned the world upside down have come here also... they are all acting against the decrees of Caesar, saying that there is another king, Jesus.' Jason posts bond, and the believers send Paul and Silas off by night to Berea, where the Jews prove 'more noble than those in Thessalonica' — they receive the message eagerly, then test it daily against the Scriptures rather than simply accepting it, and many believe, Greek women of standing among them. When Thessalonian agitators follow and stir up the same trouble there, the Berean believers hustle Paul alone to the coast, leaving Silas and Timothy behind for now. Paul arrives in Athens to wait for them, and the city's sheer density of idols provokes him; he debates daily in both synagogue and marketplace, drawing Epicurean and Stoic philosophers who dismiss him as a 'babbler' pushing 'foreign divinities.' They bring him before the Areopagus council to explain himself, and Paul builds his speech from common ground outward: he has noticed, among their many altars, one inscribed 'To the unknown god' — the very God he has come to proclaim, who made the world, doesn't live in temples, needs nothing from human hands, and made every nation to seek him, though 'he is actually not far from each one of us... for in him we live and move and have our being' — quoting their own poets back to them (Epimenides, Aratus) rather than Israel's Scriptures. He calls for repentance and points to a coming day of judgment, guaranteed, he says, by God 'raising him from the dead' — and it's the resurrection, not the idols or the ethics, that splits the room: some mock outright, others politely defer to another day, and a few — including a council member, Dionysius, and a woman named Damaris — believe.",
+  focusPlace: "athens",
+  places: [
+    { id:"thessalonica", role:"Where Paul reasons from the Scriptures for three Sabbaths, a mob attacks Jason's house, and the missionaries are accused of having 'turned the world upside down' (vv. 1-9)" },
+    { id:"berea", role:"Where the 'more noble' Jews receive the word eagerly and examine the Scriptures daily to test it — until agitators from Thessalonica follow and stir up trouble here too (vv. 10-14)" },
+    { id:"athens", role:"Where Paul, provoked by a city 'full of idols,' debates in the marketplace and delivers his Areopagus speech on the 'unknown god,' met with mockery, curiosity, and a few converts (vv. 15-34)" }
+  ],
+  journey: [
+    { from:"thessalonica", to:"berea", label:"Sent away by night when the mob turns violent", km:75,
+      note:"Once Jason and the other believers post bond, 'the brothers immediately sent Paul and Silas away by night to Berea' (vv. 9-10), out of reach of the Thessalonian mob." },
+    { from:"berea", to:"athens", label:"Paul sent ahead alone, by sea, to wait for Silas and Timothy", km:330,
+      note:"When Thessalonian agitators follow and stir up Berea too, 'the brothers immediately sent Paul off on his way to the sea, but Silas and Timothy remained there' (v. 14) — Paul reaches Athens first and waits for them (v. 16)." }
+  ],
+  hotspots: [
+    { x:0.05, type:"person", label:"Three Sabbaths of reasoning", av:"traveler",
+      desc:"'As was his custom,' Paul argues from the Scriptures in the Thessalonian synagogue on three Sabbaths running, 'explaining and proving that it was necessary for the Christ to suffer and to rise' (vv. 2-3)." },
+    { x:0.15, type:"person", label:"Jason's house attacked", av:"traveler",
+      desc:"Jealous of the converts Paul is winning, opponents gather 'wicked men of the rabble' into a mob and storm the house of Jason, a believer hosting the missionaries, hunting for them in vain (vv. 5-6)." },
+    { x:0.24, type:"object", label:"'Turned the world upside down'",
+      desc:"Unable to find Paul and Silas, the mob drags Jason before the city officials instead, shouting a charge with real political teeth: proclaiming 'another king, Jesus' looked like defiance of 'the decrees of Caesar' (vv. 6-7)." },
+    { x:0.35, type:"person", label:"The noble Bereans", av:"elder",
+      desc:"Sent on to Berea by night, Paul finds Jews who are 'more noble than those in Thessalonica' — they receive the message eagerly, then 'examine the Scriptures daily to see if these things were so' before believing (vv. 10-12)." },
+    { x:0.45, type:"person", label:"Agitators follow to Berea", av:"traveler",
+      desc:"When Thessalonian troublemakers learn Paul is preaching at Berea too, they come and stir up the crowds there as well, forcing the believers to send Paul on alone toward the coast (vv. 13-14)." },
+    { x:0.56, type:"person", label:"Distressed by a city full of idols", av:"traveler",
+      desc:"Waiting in Athens for Silas and Timothy, Paul's 'spirit was provoked within him as he saw that the city was full of idols,' driving him to argue daily in the synagogue and the marketplace alike (vv. 16-17)." },
+    { x:0.67, type:"person", label:"'What does this babbler wish to say?'", av:"official",
+      desc:"Epicurean and Stoic philosophers who debate him in the agora dismiss Paul as a 'babbler' pushing 'foreign divinities,' then haul him before the Areopagus council to explain his 'new teaching' properly (vv. 18-20)." },
+    { x:0.78, type:"object", label:"'To the unknown god'",
+      desc:"Paul opens his defense by pointing to an altar he noticed among Athens' countless shrines, inscribed 'To the unknown god' — 'what therefore you worship as unknown, this I proclaim to you' (vv. 22-23)." },
+    { x:0.89, type:"object", label:"Quoting the Greeks' own poets",
+      desc:"Rather than citing Israel's Scriptures, Paul reaches for Athenian common ground — 'in him we live and move and have our being... for we are indeed his offspring,' lines drawn from Epimenides and the poet Aratus — before turning to the resurrection (vv. 27-31)." },
+    { x:0.97, type:"person", label:"Mocked, curious, and a few who believed", av:"official",
+      desc:"The mention of the resurrection splits the crowd: 'some mocked, while others said, We will hear you again about this.' A handful believe anyway, including the council member Dionysius and a woman named Damaris (vv. 32-34)." }
+  ],
+  environment: {
+    chips: ["A synagogue's three Sabbaths", "A mob in the marketplace", "'More noble' — daily Scripture-checking", "Stoa and agora philosophers", "An altar 'To the unknown god'"],
+    text: "Thessalonica's status as a free city (civitas libera) meant it kept its own popular assembly and 'politarchs' — a title Luke uses accurately in v. 6 (politarchai) that inscriptions have since confirmed for this city specifically, once dismissed by critics as one of his historical errors. Berea sat off the main Via Egnatia route, a quieter foothill town whose synagogue Jews are commended for a habit rare enough to be noteworthy: testing a traveling teacher's claims against the text itself rather than simply trusting his credentials or his crowd. Athens by Paul's day had faded as a political power but remained philosophy's living museum — Epicureans (pursuing tranquil pleasure, skeptical of an afterlife or divine intervention) and Stoics (pursuing virtue through reason, seeing a rational divine order threading through the cosmos) still debated openly in its stoas and agora, and the city was famous even in antiquity for outnumbering its own population with altars and images, exactly the density that provokes Paul's 'spirit' in v. 16."
+  },
+  objectsExtra: ["world-upside-down","unknown-god-altar","berea-scriptures"],
+  peopleExtra: ["paul","silas","timothy","jason","dionysius-damaris"],
+  culture: [
+    { title:"'Turned the world upside down'", icon:"🌍",
+      text:"The Thessalonian mob's accusation (v. 6) is meant as an outrage and lands, unintentionally, as a compliment history has vindicated — but its real force in the moment was political: announcing 'another king, Jesus' sounded like treason against Caesar's decrees, the identical charge leveled at Jesus himself before Pilate (Luke 23:2), which is exactly why Jason's bond, not a theological ruling, is what ends the scene (v. 9)." },
+    { title:"The noble Bereans", icon:"📖",
+      text:"Luke's compliment to the Bereans — 'more noble' for testing Paul's own preaching daily against Scripture rather than simply receiving it — has given later Christian usage the adjective 'Berean' for careful, independent study of a teacher's claims, treated as commendable even when the teacher in question is an apostle." },
+    { title:"An altar for the god they might have missed", icon:"⛩️",
+      text:"Ancient writers (Pausanias, Philostratus) confirm Athens really did have altars 'to unknown gods,' a religious hedge against offending some deity left out of the standard pantheon. Paul's speech then reaches past his own Scriptures entirely, quoting the Cretan poet Epimenides ('in him we live and move and have our being') and the Cilician poet Aratus ('we are indeed his offspring') — building his case for the God 'who made the world' from language his Athenian audience already accepted as true." }
+  ],
+  crossRefs: [
+    { group:"'Turned the world upside down' — a Caesar-sized charge", refs:[
+      { r:"Luke 23:2", note:"Jesus faces the identical accusation before Pilate: opposing Caesar, claiming to be a king" },
+      { r:"John 19:12", note:"'no friend of Caesar' — the same political pressure point, pressed against Jesus himself" } ]},
+    { group:"The noble Bereans, examining Scripture", refs:[
+      { r:"John 5:39", note:"Jesus tells his own hearers, 'you search the Scriptures' — the same posture commended here" },
+      { r:"2 Timothy 3:16-17", note:"Paul's own later teaching on why Scripture is the standard worth testing every claim against" } ]},
+    { group:"The unknown god, and the Greeks' own poets", refs:[
+      { r:"Romans 1:19-20", note:"Paul's fuller argument that God's nature is 'plainly perceived' even without special revelation" },
+      { r:"Titus 1:12", note:"Paul quotes the same poet, Epimenides, again — by name, this time — writing to Titus in Crete" } ]},
+    { group:"The resurrection, mocked and later defended", refs:[
+      { r:"1 Corinthians 1:23", note:"Paul's own summary: Christ crucified and risen, 'folly to Gentiles' just like the Areopagus reaction" },
+      { r:"Acts 26:23-24", note:"Festus later reacts the same way — 'Paul, you are out of your mind' — to the same resurrection claim" } ]}
+  ]
+},
+
+/* ============================================================
    JOHN 1 — The Word made flesh, John's testimony, first disciples
    ============================================================ */
 "43:1": {

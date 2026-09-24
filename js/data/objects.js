@@ -372,5 +372,19 @@ BVV.OBJECTS = [
   { id:"scales-fall", name:"Scales falling from Saul's eyes", al:["scales fell from his eyes","received his sight"], icon:"👁️",
     desc:"After three blind, foodless days, Ananias lays hands on Saul — 'immediately something like scales fell from his eyes, and he regained his sight'; he is baptized at once and takes food, his strength returning with it (Acts 9:17-19)." },
   { id:"saul-basket", name:"Lowered over the wall in a basket", al:["basket","let down through the wall","lowered in a basket"], icon:"🧺",
-    desc:"When the Damascus Jews plot to kill him and watch the city gates day and night, 'his disciples took him by night and let him down through an opening in the wall, lowering him in a basket' — Saul's own later letters name the plot's engineer as the ethnarch under King Aretas (Acts 9:23-25; cf. 2 Cor 11:32-33)." }
+    desc:"When the Damascus Jews plot to kill him and watch the city gates day and night, 'his disciples took him by night and let him down through an opening in the wall, lowering him in a basket' — Saul's own later letters name the plot's engineer as the ethnarch under King Aretas (Acts 9:23-25; cf. 2 Cor 11:32-33)." },
+
+  // ---- Acts 16 ----
+  { id:"philippi-earthquake", name:"The midnight earthquake", al:["earthquake","foundations were shaken","prison doors flew open"], icon:"🌋",
+    desc:"At midnight, while Paul and Silas pray and sing with their feet in the stocks, 'suddenly there was a great earthquake, so that the foundations of the prison were shaken' — every door flies open and every prisoner's chains come loose at once, though remarkably no one takes the chance to escape (Acts 16:25-26)." },
+  { id:"roman-citizenship", name:"Roman citizenship, claimed after the fact", al:["Roman citizens","uncondemned","civis Romanus sum"], icon:"📯",
+    desc:"Only once the magistrates try to release them quietly does Paul reveal what he withheld through a night of beating and imprisonment: he and Silas are Roman citizens, beaten 'publicly, uncondemned' — a status that legally shielded a man from summary flogging, and one Paul invokes again before a Jerusalem tribune (Acts 22:25-29) and finally to appeal all the way to Caesar (Acts 25:10-12)." },
+
+  // ---- Acts 17 ----
+  { id:"world-upside-down", name:"'Turned the world upside down'", al:["turned the world upside down","another king, Jesus"], icon:"🌍",
+    desc:"The Thessalonian mob's charge against Paul and Silas is both an insult and, unintentionally, a compliment — and a politically loaded one: proclaiming 'another king, Jesus' sounded like open defiance of Caesar's decrees, the same kind of political accusation leveled at Jesus himself before Pilate (Acts 17:6-7; cf. Luke 23:2)." },
+  { id:"unknown-god-altar", name:"'To the unknown god'", al:["unknown god","altar to an unknown god","agnostos theos"], icon:"⛩️",
+    desc:"Among Athens' countless altars, Paul singles out one inscribed 'To the unknown god' — ancient cities sometimes hedged against offending an unnamed deity this way — and uses it as his opening line before the Areopagus: 'what therefore you worship as unknown, this I proclaim to you' (Acts 17:23)." },
+  { id:"berea-scriptures", name:"Examining the Scriptures daily", al:["examining the Scriptures","more noble","daily search"], icon:"📖",
+    desc:"Luke singles the Bereans out as 'more noble' than the Thessalonians for a specific habit: they don't simply accept Paul's preaching but 'examine the Scriptures daily to see if these things were so' — testing a teacher's claims against the text itself, the practice that gives later Christian usage the word 'Berean' for careful, independent study (Acts 17:11)." }
 ];
