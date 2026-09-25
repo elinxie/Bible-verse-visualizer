@@ -386,5 +386,11 @@ BVV.OBJECTS = [
   { id:"unknown-god-altar", name:"'To the unknown god'", al:["unknown god","altar to an unknown god","agnostos theos"], icon:"⛩️",
     desc:"Among Athens' countless altars, Paul singles out one inscribed 'To the unknown god' — ancient cities sometimes hedged against offending an unnamed deity this way — and uses it as his opening line before the Areopagus: 'what therefore you worship as unknown, this I proclaim to you' (Acts 17:23)." },
   { id:"berea-scriptures", name:"Examining the Scriptures daily", al:["examining the Scriptures","more noble","daily search"], icon:"📖",
-    desc:"Luke singles the Bereans out as 'more noble' than the Thessalonians for a specific habit: they don't simply accept Paul's preaching but 'examine the Scriptures daily to see if these things were so' — testing a teacher's claims against the text itself, the practice that gives later Christian usage the word 'Berean' for careful, independent study (Acts 17:11)." }
+    desc:"Luke singles the Bereans out as 'more noble' than the Thessalonians for a specific habit: they don't simply accept Paul's preaching but 'examine the Scriptures daily to see if these things were so' — testing a teacher's claims against the text itself, the practice that gives later Christian usage the word 'Berean' for careful, independent study (Acts 17:11)." },
+
+  // ---- Acts 28 ----
+  { id:"viper-bite", name:"The viper on Paul's hand", al:["viper","snake","viper fastened on his hand"], icon:"🐍",
+    desc:"Driven out of a bundle of firewood by the heat, a viper 'fastened itself on his hand' as Paul feeds a bonfire on Malta; the islanders' verdict flips within minutes — first sure he 'must be a murderer' whom Justice would not let live, then, when he suffers no harm, calling him 'a god' instead (Acts 28:3-6)." },
+  { id:"appian-way-welcome", name:"Met on the Appian Way", al:["Forum of Appius","Three Taverns","brothers came to meet us"], icon:"🛣️",
+    desc:"Word of Paul's approach reaches Rome's believers before he arrives, and they walk out along the Appian Way to two successive waystations — the Forum of Appius, some 43 Roman miles out, then Three Taverns, closer in — to meet him; 'on seeing them, Paul thanked God and took courage' (Acts 28:15)." }
 ];
