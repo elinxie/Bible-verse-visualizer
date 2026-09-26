@@ -386,5 +386,11 @@ BVV.OBJECTS = [
   { id:"unknown-god-altar", name:"'To the unknown god'", al:["unknown god","altar to an unknown god","agnostos theos"], icon:"⛩️",
     desc:"Among Athens' countless altars, Paul singles out one inscribed 'To the unknown god' — ancient cities sometimes hedged against offending an unnamed deity this way — and uses it as his opening line before the Areopagus: 'what therefore you worship as unknown, this I proclaim to you' (Acts 17:23)." },
   { id:"berea-scriptures", name:"Examining the Scriptures daily", al:["examining the Scriptures","more noble","daily search"], icon:"📖",
-    desc:"Luke singles the Bereans out as 'more noble' than the Thessalonians for a specific habit: they don't simply accept Paul's preaching but 'examine the Scriptures daily to see if these things were so' — testing a teacher's claims against the text itself, the practice that gives later Christian usage the word 'Berean' for careful, independent study (Acts 17:11)." }
+    desc:"Luke singles the Bereans out as 'more noble' than the Thessalonians for a specific habit: they don't simply accept Paul's preaching but 'examine the Scriptures daily to see if these things were so' — testing a teacher's claims against the text itself, the practice that gives later Christian usage the word 'Berean' for careful, independent study (Acts 17:11)." },
+
+  // ---- Acts 28 ----
+  { id:"malta-viper", name:"The viper on Paul's hand", al:["a viper","viper fastened","the snake"], icon:"🐍",
+    desc:"Gathering firewood on Malta, Paul is bitten by a viper that 'fastened on his hand' — the islanders first assume he is a murderer whom justice has finally caught up with, then, when he shakes it off unharmed, flip to calling him a god instead (Acts 28:3-6)." },
+  { id:"isaiah-hardened-hearts", name:"'You will indeed hear but never understand'", al:["hearing you will hear","ever hearing but never understanding","calloused"], icon:"📜",
+    desc:"Facing a divided response from Rome's Jewish leaders, Paul's closing words quote Isaiah's commission almost verbatim — a passage the New Testament reaches for again and again (Matt 13:14-15; John 12:39-40; Rom 11:8) to explain why the same message lands so differently on different hearers (Acts 28:26-27)." }
 ];
