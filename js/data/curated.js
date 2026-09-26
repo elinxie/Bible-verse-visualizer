@@ -1089,81 +1089,6 @@ BVV.CURATED = {
 },
 
 /* ============================================================
-   ACTS 28 — Shipwrecked on Malta, then Rome: the viper, the
-   healings, and the book's open-ended close
-   ============================================================ */
-"44:28": {
-  era: {
-    title: "AD 60 — from a Maltese beach to a hired house in Rome",
-    sub: "Roman Malta and the capital · the sea voyage's last leg and Paul's first two years in custody",
-    badges: ["Roman period", "Grain-fleet sailing season resumes", "Custodia libera — 'free custody'", "≈1,966 years ago"]
-  },
-  timeOfDay: "day",
-  summary: "Washed ashore from the wreck, the castaways learn from the islanders themselves that they've landed on Malta, whose people show them 'unusual kindness,' building a fire against the cold rain. Gathering brushwood for it, Paul is bitten by a viper that fastens on his hand; the islanders first whisper that a murderer has finally met the justice the sea denied him, then, watching him shake it off unharmed, flip completely and call him a god instead. Publius, the island's leading Roman official, hosts the party courteously for three days; Paul heals his feverish, dysentery-stricken father by prayer and the laying on of hands, and word spreads fast enough that the rest of the island's sick come and are healed too, loading the travelers with supplies before they finally sail on. Three months after the wreck they leave aboard another Alexandrian ship — this one under the figurehead of the 'Twin Gods,' Castor and Pollux — putting in at Syracuse, then Rhegium, then riding a south wind into Puteoli on the Italian mainland. Word has already reached Rome: believers walk out to meet Paul at the Forum of Appius and again at Three Taverns, and the welcome visibly steadies him for what's coming. In Rome itself he's kept under guard but allowed his own lodging, and within three days he calls the city's Jewish leaders together to explain himself before any rumor can: he has done nothing against his own people or the law, was found guiltless by the Romans themselves, and appealed to Caesar only because Jewish opposition left him no other way out — not, he insists, to accuse the nation that produced him. They arrange a full day to hear him out, 'from morning till evening,' as he testifies to the kingdom of God and tries to persuade them about Jesus from the Law and the Prophets; some are won over, others simply won't be, and as they leave still arguing among themselves Paul closes with Isaiah's old diagnosis of exactly this kind of hearing that never quite understands — adding that God's salvation will go to the Gentiles regardless, and 'they will listen.' Luke's very last line refuses to resolve anything further: two more years pass with Paul in his own rented house, welcoming everyone who comes, 'proclaiming the kingdom of God and teaching about the Lord Jesus Christ with all boldness and without hindrance' — the book of Acts simply stops there, mid-momentum, the word still spreading and no one able to stop it.",
-  focusPlace: "rome",
-  places: [
-    { id:"malta", role:"Shipwreck survivors' 'unusual kindness'; the viper bite that flips the islanders from 'murderer' to 'a god'; Publius's father and the island's sick all healed (vv. 1-10)" },
-    { id:"syracuse", role:"Three-day stop on the resumed voyage north (v. 12)" },
-    { id:"puteoli", role:"Landfall in Italy after a south wind out of Rhegium; brothers found, seven days spent here before the final leg (v. 13-14)" },
-    { id:"rome", role:"Journey's end: met by believers on the Appian Way, then two years in his own hired house, guarded but 'without hindrance' (vv. 15-31)" }
-  ],
-  journey: [
-    { from:"malta", to:"syracuse", label:"Three months on Malta, then the season reopens", km:150,
-      note:"'After three months we set sail in a ship of Alexandria... which had the twin gods Castor and Pollux as a figurehead' (v. 11), putting in first at Syracuse for three days (v. 12)." },
-    { from:"syracuse", to:"puteoli", label:"By way of Rhegium, on a south wind", km:330,
-      note:"'After one day a south wind sprang up, and on the second day we came to Puteoli' — the last open-water leg of the whole voyage (vv. 13-14)." },
-    { from:"puteoli", to:"rome", label:"The Appian Way, met by brothers along the road", km:230,
-      note:"Believers walk out from Rome to meet Paul at the Forum of Appius, then again at Three Taverns; 'when Paul saw them, he thanked God and took courage' (v. 15)." }
-  ],
-  hotspots: [
-    { x:0.06, type:"person", label:"'Unusual kindness'", av:"traveler",
-      desc:"Cold, soaked, and shipwrecked, the survivors are met not with suspicion but with a bonfire and hospitality from islanders Luke calls 'native people' — Punic-speaking farmers with no reason yet to trust a boatload of strangers and a Roman guard (vv. 1-2)." },
-    { x:0.2, type:"object", label:"The viper on his hand", av:"traveler",
-      desc:"Feeding the fire with brushwood, Paul is struck by a viper that 'fastened on his hand.' The islanders' verdict is instant and confident: a man the sea failed to drown must be a murderer justice has finally caught (vv. 3-4)." },
-    { x:0.34, type:"person", label:"'They said that he was a god'", av:"traveler",
-      desc:"When Paul calmly shakes the snake into the fire and shows no sign of harm, the same onlookers reverse themselves completely — from condemned criminal to divine visitor, in the span of a single scene (vv. 5-6)." },
-    { x:0.48, type:"person", label:"Publius's father healed", av:"official",
-      desc:"The island's leading Roman official, Publius, hosts the party three days; Paul prays over and heals his father, sick with fever and dysentery, and the island's other sick soon follow, filling the travelers' stores for the road ahead (vv. 7-10)." },
-    { x:0.6, type:"person", label:"Met on the Appian Way", av:"traveler",
-      desc:"Word of Paul's coming outruns him: Roman believers walk out to the Forum of Appius, and again to Three Taverns, simply to meet him on the road — a welcome Luke says visibly gives him courage before Rome itself (v. 15)." },
-    { x:0.74, type:"person", label:"His own hired house", av:"official",
-      desc:"Kept under a soldier's guard but granted his own lodging — the 'free custody' sometimes extended to a Roman citizen on appeal — Paul calls the city's Jewish leaders to him within three days to explain his case before rumor can (vv. 16-20)." },
-    { x:0.86, type:"object", label:"Isaiah's old diagnosis, quoted again", av:"official",
-      desc:"As the leaders leave still divided over him, Paul's parting word is Isaiah's commission almost verbatim — 'hearing you will hear and never understand' — the same hardened-heart passage the Gospels reach for to explain unbelief in Jesus (vv. 25-28)." },
-    { x:0.97, type:"person", label:"Two years, no hindrance", av:"traveler",
-      desc:"Acts simply stops here: two years in a rented house, receiving anyone who comes, 'proclaiming the kingdom of God... with all boldness and without hindrance' — an ending that closes the book without closing the story (vv. 30-31)." }
-  ],
-  environment: {
-    chips: ["'Barbarians' — non-Greek speakers, not savages", "A viper as instant verdict", "'First man' of the island, Publius", "Custodia libera — guarded, but self-housed", "'Without hindrance' — Acts' last word"],
-    text: "Luke's word for the islanders (barbaroi) meant simply 'non-Greek-speaking' to an ancient ear, not the modern sense of savage — Malta's population by this period was largely Punic in descent and speech, a detail Luke's phrasing preserves accurately. Ancient popular belief widely read a sudden violent death, or a bite that should have killed but didn't, as a verdict from the gods on a person's guilt or innocence — exactly the two readings the same islanders apply to Paul within a few verses of each other. In Rome, a prisoner awaiting trial who was a citizen of some standing could sometimes be kept in 'free custody' (custodia libera) — guarded but lodged at his own expense rather than in a common prison — which fits Luke's description of Paul 'allowed to stay by himself, with the soldier who guarded him' (v. 16) and explains how he could receive visitors and write letters (Ephesians, Philippians, Colossians, Philemon are traditionally dated to this imprisonment)."
-  },
-  objectsExtra: ["malta-viper","isaiah-hardened-hearts"],
-  peopleExtra: ["paul","publius"],
-  culture: [
-    { title:"Barbaroi — a label about language, not character", icon:"🗣️",
-      text:"To Greek ears, barbaros described anyone whose speech sounded like meaningless noise ('bar-bar') rather than Greek — a linguistic label, not necessarily a hostile or contemptuous one. Luke uses it of Malta's islanders even while crediting them with the chapter's warmest hospitality, a reminder that the word's later, harsher English sense ('barbarian' as savage) is a translation drift rather than Luke's own judgment." },
-    { title:"An ending that refuses to end", icon:"📖",
-      text:"Acts closes not with Paul's trial outcome, his death, or even a tidy summary, but with a present-tense snapshot — 'proclaiming... teaching... with all boldness and without hindrance' — leaving the reader mid-scene. Many readers take the open ending as the point: the book began with Jesus promising witnesses 'to the end of the earth' (Acts 1:8), and by its last line the gospel has reached the empire's own capital and shows no sign of stopping, chains or no chains." },
-    { title:"'Free custody' in the capital", icon:"⛓️",
-      text:"Rome had no single uniform practice for pre-trial detention; a defendant of some standing awaiting an emperor's own hearing could be granted custodia libera — held responsible for appearing, guarded by a soldier, but lodged and fed at his own expense rather than thrown into a common prison. It explains, in one historical detail, how a chained man could still receive a full day's worth of visitors and dictate several of the New Testament's letters from the same house arrest." }
-  ],
-  crossRefs: [
-    { group:"A viper, and the promise behind it", refs:[
-      { r:"Mark 16:18", note:"the disciples' commissioning includes handling serpents without harm" },
-      { r:"Luke 10:19", note:"Jesus' earlier promise of authority over 'serpents and scorpions'" } ]},
-    { group:"Isaiah's hardened-heart commission, quoted again", refs:[
-      { r:"Matthew 13:14-15", note:"Jesus applies the identical Isaiah passage to his own parable-hearers" },
-      { r:"Romans 11:7-8", note:"Paul's own fuller theology of Israel's partial, temporary hardening" } ]},
-    { group:"Chains that don't stop the message", refs:[
-      { r:"Philippians 1:12-14", note:"Paul, writing from this same imprisonment, says his chains have only advanced the gospel" },
-      { r:"2 Timothy 2:9", note:"'I am suffering... but the word of God is not bound' — the same principle, later and starker" } ]},
-    { group:"To the end of the earth", refs:[
-      { r:"Acts 1:8", note:"the mandate Acts opens with — Jerusalem to Judea, Samaria, and 'the end of the earth' — reached, by this last chapter, at Rome itself" },
-      { r:"Romans 1:8-15", note:"Paul's own letter to this church, written years earlier, already longing to visit in person" } ]}
-  ]
-},
-
-/* ============================================================
    ACTS 1 — The ascension, and choosing Judas' replacement
    ============================================================ */
 "44:1": {
@@ -1611,6 +1536,108 @@ BVV.CURATED = {
     { group:"The resurrection, mocked and later defended", refs:[
       { r:"1 Corinthians 1:23", note:"Paul's own summary: Christ crucified and risen, 'folly to Gentiles' just like the Areopagus reaction" },
       { r:"Acts 26:23-24", note:"Festus later reacts the same way — 'Paul, you are out of your mind' — to the same resurrection claim" } ]}
+  ]
+},
+
+/* ============================================================
+   ACTS 28 — Shipwrecked on Malta, the viper, healing Publius's
+   father, on to Rome, and two open years of unhindered preaching
+   ============================================================ */
+"44:28": {
+  era: {
+    title: "AD 60-62 — Malta's welcome, and two open years under guard in Rome",
+    sub: "Roman Empire under Nero · winter on Malta, spring voyage to Italy · Paul's first Roman imprisonment",
+    badges: ["Roman period", "Mediterranean sailing", "First Roman imprisonment", "≈2,000 years ago"]
+  },
+  timeOfDay: "day",
+  summary: "Everyone from the wrecked grain ship — 276 souls — reaches Malta alive, and the islanders meet them with a kindness Luke calls out by name: a bonfire against the rain and cold, no questions asked. Paul, gathering brushwood for the fire, gets a viper fastened on his hand for his trouble, and the watching crowd flips its verdict twice in a few minutes — first sure he 'must be a murderer' whom Justice would not let live even after the sea failed to kill him, then, once he shakes it off unharmed and nothing happens, deciding he is a god instead. Near their landing spot lie the estates of Publius, the island's 'first man,' who hosts the shipwrecked party three days; when Paul learns Publius's own father lies sick with fever and dysentery, he goes in, prays, lays hands on him, and heals him — after which the rest of the island's sick come and are healed too, and the grateful Maltese load the ship with supplies for the onward voyage. Three months later they sail on an Alexandrian ship that had wintered at the island, the Twin Gods (Castor and Pollux) at its bow, putting in at Syracuse for three days, then rounding to Rhegium, then riding a south wind straight to Puteoli on the Bay of Naples — where they find believers who beg a week's stay. Word of Paul's approach outruns him: Rome's Christians walk out along the Appian Way to meet him, some as far as the Forum of Appius, others waiting nearer at the Three Taverns, and seeing them, Paul thanks God and takes courage. In Rome he is allowed his own rented lodging with a single soldier guarding him, and three days in he calls the city's Jewish leaders together, explaining he is a prisoner 'for the hope of Israel' with no charge against his own nation, forced to appeal to Caesar only because the Jerusalem authorities objected to his release. They've had no letters against him, they say, but want to hear what he actually believes, since 'this sect' is spoken against everywhere — so on an appointed day, in even larger numbers, they come to his lodging, and from morning to evening he makes his case for the kingdom of God, arguing from the Law of Moses and the Prophets that Jesus is the Christ. Some are persuaded; others refuse — and as they leave, still arguing among themselves, Paul closes with one line from Isaiah that has already described the room: 'you will indeed hear but never understand... this people's heart has grown dull' — and since Israel as a nation will not receive it, 'this salvation of God has been sent to the Gentiles; they will listen.' Acts ends without a verdict, without a trial, without even Paul's fate settled: two full years in his own rented house, welcoming everyone who comes, 'proclaiming the kingdom of God and teaching about the Lord Jesus Christ with all boldness and without hindrance.'",
+  focusPlace: "malta",
+  places: [
+    { id:"malta",          role:"Shipwreck landfall — the viper, and the healings of Publius's father and the island's sick (vv. 1-10)" },
+    { id:"syracuse",       role:"Three-day stop on the onward voyage (v. 12)" },
+    { id:"rhegium",        role:"A day's wait for a fair wind at Italy's toe (v. 13)" },
+    { id:"puteoli",        role:"Italian landfall — a week with local believers (vv. 13-14)" },
+    { id:"forum-of-appius",role:"Farther waystation where some Roman believers walk out to meet Paul (v. 15)" },
+    { id:"three-taverns",  role:"Nearer waystation, the second welcoming party (v. 15)" },
+    { id:"rome",           role:"Destination and closing scene — house arrest, the Jewish leaders' mixed reception, two open years (vv. 16-31)" }
+  ],
+  journey: [
+    { from:"malta", to:"syracuse", label:"Sailing on after three months", km:170,
+      note:"'After three months we set sail in a ship that had wintered in the island' (v. 11) — an Alexandrian grain ship bound for Italy, its figurehead the Twin Gods, Castor and Pollux, patrons of safe sailing." },
+    { from:"syracuse", to:"rhegium", label:"Rounding toward the strait", km:150,
+      note:"'And putting in at Syracuse, we stayed there for three days. And from there we made a circuit and arrived at Rhegium' (vv. 12-13) — the narrow, currents-torn strait between Italy and Sicily." },
+    { from:"rhegium", to:"puteoli", label:"A south wind, and a fast run north", km:290,
+      note:"'After one day a south wind sprang up, and on the second day we came to Puteoli' (v. 13) — a rapid final leg up the Tyrrhenian coast to Italy's great grain port." },
+    { from:"puteoli", to:"rome", via:"forum-of-appius", label:"Overland on the Appian Way", km:230,
+      note:"After a week with Puteoli's believers, the party goes overland the last stretch to Rome (v. 14) — the famous Via Appia, paved stone running straight through the Pontine Marshes and the Alban hills." },
+    { from:"rome", to:"forum-of-appius", via:"three-taverns", dashed:true, label:"Rome's believers walk out to meet him", km:64,
+      note:"'The brothers, when they heard about us, came as far as the Forum of Appius and Three Taverns to meet us' (v. 15) — two search parties reaching different distances down the same road, the nearer waiting at Three Taverns, the farther pushing on to the Forum of Appius." }
+  ],
+  hotspots: [
+    { x:0.04, type:"object", label:"276 souls, all ashore",
+      desc:"Every person from the wrecked grain ship — 276 by Luke's careful count in 27:37 — makes it to Malta alive, exactly as Paul had promised the terrified crew during the storm (27:22-25)." },
+    { x:0.13, type:"person", label:"Unusual kindness, a bonfire in the rain", av:"traveler",
+      desc:"The islanders 'show us unusual kindness, for they kindled a fire and welcomed us all, because it had begun to rain and was cold' (v. 2) — hospitality to strangers who'd arrived with nothing." },
+    { x:0.22, type:"object", label:"The viper on Paul's hand",
+      desc:"Gathering brushwood for the fire, Paul draws out a viper with the heat; it 'fastened on his hand' (v. 3) — and the crowd's verdict flips within minutes, from 'this man must be a murderer' to 'he is a god,' once he shakes it off unharmed (vv. 4-6)." },
+    { x:0.34, type:"person", label:"Publius, the island's chief man", av:"official",
+      desc:"Owner of estates near the landing site, Publius 'received us and entertained us hospitably for three days' (v. 7) — the local Roman-appointed official, his title (Greek prōtos, 'first man of the island') independently confirmed by inscriptions found on Malta." },
+    { x:0.46, type:"person", label:"Publius's father healed", av:"elder",
+      desc:"Sick in bed 'with fever and dysentery,' Publius's father is healed when 'Paul visited him and prayed, and putting his hands on him healed him' (v. 8) — a private healing that opens the door to a wider one." },
+    { x:0.55, type:"object", label:"The rest of the island's sick",
+      desc:"Word travels: 'the rest of the people on the island who had diseases also came and were cured' (v. 9), and the grateful Maltese 'honored us greatly, and when we were about to sail they put on board whatever we needed' (v. 10)." },
+    { x:0.65, type:"person", label:"Believers found at Puteoli", av:"traveler",
+      desc:"Landing at Italy's grain port after Syracuse and Rhegium, the party finds an existing Christian community — 'we found brothers and were invited to stay with them for seven days' (v. 14), evidence the gospel had already reached Rome's own port city." },
+    { x:0.75, type:"person", label:"Thanking God, taking courage", av:"traveler",
+      desc:"Word of Paul's coming has outrun him: believers from Rome walk out along the Appian Way to two successive points to meet him — 'on seeing them, Paul thanked God and took courage' (v. 15), the prisoner encouraged by the church he had only written to before." },
+    { x:0.85, type:"person", label:"'The hope of Israel'", av:"traveler",
+      desc:"Under house arrest with a single guard, Paul calls Rome's Jewish leaders together within three days and frames his whole case in one phrase: 'it is because of the hope of Israel that I am wound with this chain' (vv. 16-20) — not a break from his people, but its fulfillment." },
+    { x:0.93, type:"object", label:"All day, from the Law and the Prophets",
+      desc:"On an appointed day 'from morning till evening he expounded to them, testifying to the kingdom of God and trying to convince them about Jesus both from the Law of Moses and from the Prophets' (v. 23) — Luke's last, longest picture of Paul the preacher." },
+    { x:0.99, type:"object", label:"Isaiah's verdict, and an open door",
+      desc:"As his hearers leave still arguing, Paul closes by quoting Isaiah 6:9-10 on a heart grown dull — and draws the conclusion that closes the whole book: 'this salvation of God has been sent to the Gentiles; they will listen' (vv. 25-28), followed only by two years of unhindered, open preaching (vv. 30-31)." }
+  ],
+  environment: {
+    chips: ["A Mediterranean island winter", "A viper shaken into the fire", "A Roman official's estate", "The Appian Way's paving stones", "House arrest — one soldier, one prisoner", "The book's open, unresolved close"],
+    text: "Malta (Greek Melitē) sits squarely on the sailing lane between Crete and Sicily, which is exactly why a ship driven for two weeks by a northeaster ends up there; its Punic-speaking farming population, ruled locally under a Roman-appointed 'first man' (a title, prōtos Melitaiōn, now confirmed by inscriptions found on the island independently of Acts), explains both the islanders' initial superstition about the viper and their quick pivot once Paul shows no harm — snake-omens were common currency in the ancient Mediterranean. The run to Rome retraces the empire's most traveled sea-and-road corridor: Syracuse's harbor, the Strait of Messina at Rhegium, and Puteoli, the Bay of Naples port where most of Rome's Egyptian grain came ashore before the overland final stretch on the Via Appia — a paved Roman highway old enough (built from 312 BC) that the waystations meeting Paul, the Forum of Appius and Three Taverns, already appear as tired, mosquito-ridden stops in Horace's own travel poem a century earlier. Rome's 'custodia militaris' let a prisoner awaiting trial live in his own rented quarters chained by the wrist to a single soldier — restrictive, but open enough for 'all who came to him' (v. 30) to visit freely for two full years."
+  },
+  objectsExtra: ["viper-bite", "appian-way-welcome"],
+  peopleExtra: ["paul", "julius", "publius"],
+  culture: [
+    { title:"Melitē's viper and a flipped verdict", icon:"🐍",
+      text:"Malta has no venomous native vipers today, a puzzle long used to challenge Luke's accuracy; most historical-geography scholars now attribute this to centuries of deforestation and human settlement removing the snake's habitat rather than to any error in the account, and some identify the Acts species with the now-absent Montpellier snake or a related viper once documented on the island. Either way, the crowd's instant, unanimous read of the bite as proof of hidden guilt, then its equally quick flip to calling Paul divine, reflects a real and widely attested ancient reflex: sudden misfortune or survival was read as a verdict from the gods, not chance." },
+    { title:"Publius, 'first man of the island'", icon:"🏛️",
+      text:"Luke's Greek title for Publius, prōtos tēs nēsou ('first man of the island'), looked for a long time like imprecise local color — until Maltese inscriptions surfaced using the identical Greek and Latin formula (prōtos Melitaiōn / primus Melitensium) for the island's chief Roman-era official, one of the small but frequently cited confirmations of Luke's habit of getting local titles exactly right." },
+    { title:"The Appian Way's waystations", icon:"🛣️",
+      text:"Forum Appii and Three Taverns were unglamorous roadside stops roughly 43 and 33 Roman miles from Rome — the poet Horace, traveling the same route on official business a century before Paul, complained of Forum Appii's price-gouging boatmen and swarming gnats (Satires 1.5). That two search parties from Rome's church walk out that far, to different distances, to meet a prisoner they'd likely never met in person, is Luke's quiet way of showing how real Paul's welcome was." },
+    { title:"Custodia militaris — Paul's open-door imprisonment", icon:"⛓️",
+      text:"Rome's 'military custody' bound an awaiting-trial prisoner to a soldier by a wrist-chain but otherwise let him rent his own lodging at his own expense — the arrangement behind Paul's later letters describing himself as an 'ambassador in chains' (Eph 6:20) who can still receive visitors, dictate correspondence, and be productively unproductive for two years while Rome's slow legal machinery, or Nero's own inattention, left his case simply pending." },
+    { title:"Isaiah 6:9-10 — Luke's closing hinge", icon:"📜",
+      text:"Paul is the fourth New Testament voice to reach for this same Isaiah text to explain Israel's mixed response to the gospel (after Matt 13:14-15, Mark 4:12, John 12:39-40) — in each case not as a final word of rejection but as a description matching Paul's own later, careful argument in Romans 11 that Israel's 'hardening' is 'partial' and temporary, with the door to the Gentiles opened rather than a door to Israel shut for good." },
+    { title:"Why Acts just... stops", icon:"📖",
+      text:"Luke's abrupt, verdict-free ending — no outcome of the appeal to Caesar, no report of Paul's fate — has drawn centuries of guesswork, but the leading explanation is structural, not accidental: Luke's stated goal (1:8) was tracing the gospel's advance 'to the end of the earth,' and once Paul preaches unhindered at the empire's own center, that arc is complete. Church tradition (1 Clement, the Muratorian fragment) holds Paul was released after this imprisonment, traveled further (perhaps as far as Spain, per Rom 15:24, 28), and was executed in a second, harsher Roman imprisonment years later — the setting most scholars assign to 2 Timothy's very different, farewell tone." }
+  ],
+  crossRefs: [
+    { group:"The shipwreck itself, told just before", refs:[
+      { r:"Acts 27:14-26", note:"the fourteen-night storm and Paul's promise that all 276 would survive" },
+      { r:"Acts 27:39-44", note:"the ship breaks apart on the reef, and everyone reaches shore" } ]},
+    { group:"Serpents that cannot harm", refs:[
+      { r:"Mark 16:17-18", note:"'they will pick up serpents... it will not hurt them' — the promise this scene enacts" },
+      { r:"Luke 10:19", note:"Jesus gives the seventy-two authority 'over all the power of the enemy,' serpents and scorpions included" } ]},
+    { group:"Isaiah 6:9-10, quoted at the very end", refs:[
+      { r:"Isaiah 6:9-10", note:"the source text — a heart grown dull, ears heavy, eyes closed" },
+      { r:"Matthew 13:14-15", note:"Jesus applies the identical Isaiah text to his own parable-hearers" },
+      { r:"Romans 11:7-10, 25", note:"Paul's own fuller theology of Israel's partial, temporary hardening — the same idea, argued at length" } ]},
+    { group:"'The hope of Israel'", refs:[
+      { r:"Acts 23:6", note:"Paul frames the same hope — the resurrection — before the Sanhedrin" },
+      { r:"Acts 26:6-8", note:"and again before Agrippa: 'the promise made by God to our fathers'" } ]},
+    { group:"Written from this very imprisonment", refs:[
+      { r:"Ephesians 3:1; 6:20", note:"'a prisoner of Christ Jesus... an ambassador in chains'" },
+      { r:"Philippians 1:12-14", note:"'what has happened to me has really served to advance the gospel' — written from this Roman custody" },
+      { r:"Colossians 4:3, 18", note:"'that God may open to us a door for the word... remember my chains'" },
+      { r:"Philemon 1:1, 9", note:"'a prisoner for Christ Jesus' writing on behalf of the runaway slave Onesimus" } ]},
+    { group:"A later, harsher second imprisonment", refs:[
+      { r:"2 Timothy 4:16-17", note:"'at my first defense no one came to stand by me' — most scholars place this letter in a second, final Roman imprisonment, distinct from the open custody closing Acts" } ]}
   ]
 },
 

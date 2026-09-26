@@ -389,8 +389,8 @@ BVV.OBJECTS = [
     desc:"Luke singles the Bereans out as 'more noble' than the Thessalonians for a specific habit: they don't simply accept Paul's preaching but 'examine the Scriptures daily to see if these things were so' — testing a teacher's claims against the text itself, the practice that gives later Christian usage the word 'Berean' for careful, independent study (Acts 17:11)." },
 
   // ---- Acts 28 ----
-  { id:"malta-viper", name:"The viper on Paul's hand", al:["a viper","viper fastened","the snake"], icon:"🐍",
-    desc:"Gathering firewood on Malta, Paul is bitten by a viper that 'fastened on his hand' — the islanders first assume he is a murderer whom justice has finally caught up with, then, when he shakes it off unharmed, flip to calling him a god instead (Acts 28:3-6)." },
-  { id:"isaiah-hardened-hearts", name:"'You will indeed hear but never understand'", al:["hearing you will hear","ever hearing but never understanding","calloused"], icon:"📜",
-    desc:"Facing a divided response from Rome's Jewish leaders, Paul's closing words quote Isaiah's commission almost verbatim — a passage the New Testament reaches for again and again (Matt 13:14-15; John 12:39-40; Rom 11:8) to explain why the same message lands so differently on different hearers (Acts 28:26-27)." }
+  { id:"viper-bite", name:"The viper on Paul's hand", al:["viper","snake","viper fastened on his hand"], icon:"🐍",
+    desc:"Driven out of a bundle of firewood by the heat, a viper 'fastened itself on his hand' as Paul feeds a bonfire on Malta; the islanders' verdict flips within minutes — first sure he 'must be a murderer' whom Justice would not let live, then, when he suffers no harm, calling him 'a god' instead (Acts 28:3-6)." },
+  { id:"appian-way-welcome", name:"Met on the Appian Way", al:["Forum of Appius","Three Taverns","brothers came to meet us"], icon:"🛣️",
+    desc:"Word of Paul's approach reaches Rome's believers before he arrives, and they walk out along the Appian Way to two successive waystations — the Forum of Appius, some 43 Roman miles out, then Three Taverns, closer in — to meet him; 'on seeing them, Paul thanked God and took courage' (Acts 28:15)." }
 ];

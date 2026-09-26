@@ -776,7 +776,24 @@ BVV.PLACES = [
     blurb:"Aegean port near vanished Troy where Paul's night vision of a man of Macedonia redirected the mission from Asia into Europe (Acts 16:8-10).",
     meaning:"Named for the Troad, the region around legendary Troy (Ilion); refounded and renamed 'Alexandria Troas' by Alexander's successors in his honor",
     ancient:"A young, planned Roman free port on the coast facing the Aegean's northern crossing, its harbor works and walls built up to rival Ephesus as Asia Minor's gateway to Macedonia — later a candidate, under Julius Caesar and Constantine, for a new imperial capital.",
-    scene:{ terrain:"coast", settlement:"city", water:"sea", veg:"mixed" } }
+    scene:{ terrain:"coast", settlement:"city", water:"sea", veg:"mixed" } },
+
+  // ---- Acts 28 ----
+  { id:"rhegium", name:"Rhegium", al:["Rhegium"], modern:"Reggio Calabria, Italy", lat:38.110, lon:15.660, type:"city",
+    blurb:"Greek-founded port at Italy's toe, on the Strait of Messina, where Paul's ship waited a day for a fair south wind toward Puteoli (Acts 28:13).",
+    meaning:"Greek 'Rhegion', traditionally linked to rhēgnymi — 'to break' — for the strait supposedly torn open between Italy and Sicily",
+    ancient:"An old Greek colony guarding the narrow, treacherous strait between Italy and Sicily, its harbor a routine waiting-point for ships timing the currents and winds before the run up the Tyrrhenian coast.",
+    scene:{ terrain:"coast", settlement:"city", water:"sea", veg:"sparse" } },
+  { id:"forum-of-appius", name:"Forum of Appius", al:["Forum of Appius","Forum Appii"], modern:"near Borgo Faiti, Italy (approx.)", lat:41.402, lon:12.976, type:"village",
+    blurb:"A market town on the Appian Way at the edge of the Pontine Marshes, about 43 Roman miles from Rome, where believers from the city walked out to meet Paul (Acts 28:15).",
+    meaning:"Latin 'Forum Appii' — 'the market(place) of Appius,' named for Appius Claudius Caecus, who laid out the Appian Way it sits on",
+    ancient:"A waystation-market on the great road south, at the point where travelers often transferred to barges towed along a canal through the marshes — noisy with muleteers, boatmen and innkeepers, per Horace's own complaint about the place.",
+    scene:{ terrain:"plain", settlement:"village", water:"river", veg:"sparse" } },
+  { id:"three-taverns", name:"Three Taverns", al:["Three Taverns","Tres Tabernae"], modern:"near Cisterna di Latina, Italy (approx.)", lat:41.593, lon:12.822, type:"village",
+    blurb:"A staging post on the Appian Way about 33 Roman miles from Rome, the second point where Paul's Roman well-wishers met his party (Acts 28:15).",
+    meaning:"Latin 'Tres Tabernae' — 'three shops/inns,' a literal roadside cluster of taverns that gave the waystation its name",
+    ancient:"A small posting-station of inns and shops serving travelers on the final stretch of the Appian Way into Rome, close enough to the city for its believers to walk out and back in a day.",
+    scene:{ terrain:"plain", settlement:"village", water:"none", veg:"sparse" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };
