@@ -10356,6 +10356,99 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   ROMANS 8 — No condemnation, life in the Spirit, and nothing able to
+   separate us from the love of God
+   ============================================================ */
+"45:8": {
+  era: {
+    title: "ca. AD 57 — Paul's letter to the Romans, written from Corinth",
+    sub: "Roman Empire under Nero's early reign · the church at Rome, a congregation Paul had never yet visited · close of Paul's third missionary journey",
+    badges: ["Epistolary argument, not narrative geography", "The Spirit's work applied, chs. 1-8's climax", "The 'golden chain' of redemption", "≈1,969 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "Paul opens with a verdict, not an argument: 'there is therefore now no condemnation for those who are in Christ Jesus.' The law of the Spirit of life has set believers free from 'the law of sin and death,' because what the law, weakened by the flesh, could not do, God did by sending his own Son. From there Paul draws the chapter's central contrast — 'those who live according to the flesh set their minds on the things of the flesh, but those who live according to the Spirit, the things of the Spirit,' since 'the mind that is set on the flesh is death, but the mind that is set on the Spirit is life and peace,' and the flesh-set mind, hostile to God, 'does not submit to God's law; indeed, it cannot.' 'You are not in the flesh but in the Spirit,' Paul insists, 'if in fact the Spirit of God dwells in you' — the same Spirit that raised Jesus from the dead, who will also give life to the mortal bodies of those in whom the Spirit dwells, even though 'the body is dead because of sin' while 'the Spirit is life because of righteousness.' That indwelling Spirit is 'the Spirit of adoption,' not slavery back into fear, by whom believers cry 'Abba, Father' and bear witness that they are God's children and 'fellow heirs with Christ, provided we suffer with him in order that we may also be glorified with him.' Paul then widens the lens to the whole created order: 'the creation was subjected to futility' and now 'waits with eager longing' and 'groans' under bondage to decay, longing for its own liberation into 'the freedom of the glory of the children of God' — and believers themselves, holding only 'the firstfruits of the Spirit,' groan inwardly too, 'waiting eagerly for adoption as sons, the redemption of our bodies,' saved in hope though the hope itself is not yet seen. When 'we do not know what to pray for as we ought,' the Spirit himself intercedes 'with groanings too deep for words,' and the Father who searches hearts knows the Spirit's mind, because he intercedes 'according to the will of God.' From that comes the chapter's best-known assurance: 'for those who love God all things work together for good, for those who are called according to his purpose' — grounded in an unbroken sequence Paul lays out link by link, the golden chain of 'those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified.' The chapter closes in a rhetorical crescendo that will not be topped: 'if God is for us, who can be against us?' He who 'did not spare his own Son but gave him up for us all' will not withhold anything good; who shall condemn, when Christ himself 'is at the right hand of God' and 'indeed is interceding for us'? Neither tribulation, nor distress, nor persecution, nor famine, nor nakedness, nor danger, nor sword can separate believers from Christ's love — 'in all these things we are more than conquerors through him who loved us' — and Paul is finally 'sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.'",
+  focusPlace: "rome",
+  places: [
+    { id:"corinth", role:"Where Paul most likely writes this letter, near the close of his third missionary journey — no travel is narrated in this chapter itself (cf. Rom 15:25-26; 16:1-2, 23, whose named Corinthian figures point to Corinth as the letter's place of composition)" },
+    { id:"rome", role:"The church directly addressed throughout the letter — 'to all those in Rome who are loved by God, called to be saints' (Rom 1:7) — a congregation Paul had never yet visited when he wrote; the whole of ch. 8 is doctrinal argument addressed to them, not narrated travel" }
+  ],
+  journey: [
+    { from:"corinth", to:"rome", dashed:true, label:"The letter's own path — Paul writes from Corinth to a church he has never met", km:1050,
+      note:"Romans 8 is pure theological argument, with no journey narrated inside the chapter itself; this leg instead marks the real path of the letter, most likely drafted at Corinth near the end of Paul's third missionary journey and carried roughly 650 mi / 1,050 km to the church at Rome, a congregation Paul hoped to visit in person only after first going to Jerusalem (Rom 1:10-13; 15:22-29)." }
+  ],
+  hotspots: [
+    { x:0.02, type:"person", av:"traveler", label:"\"No condemnation for those in Christ\"",
+      desc:"'There is therefore now no condemnation for those who are in Christ Jesus' — the chapter's opening verdict, resting on 'the law of the Spirit of life' that has set believers free from 'the law of sin and death' (vv. 1-4)." },
+    { x:0.13, type:"object", label:"Mind set on the flesh vs. the Spirit",
+      desc:"'The mind that is set on the flesh is death, but the mind that is set on the Spirit is life and peace' — the flesh-set mind, hostile to God, 'does not submit to God's law; indeed, it cannot' (vv. 5-8)." },
+    { x:0.24, type:"object", label:"The Spirit who dwells in you",
+      desc:"'You are not in the flesh but in the Spirit, if in fact the Spirit of God dwells in you' — the same Spirit that raised Jesus will give life to mortal bodies too, even while 'the body is dead because of sin' but 'the Spirit is life because of righteousness' (vv. 9-11)." },
+    { x:0.35, type:"person", av:"traveler", label:"\"Abba, Father\" — the Spirit of adoption",
+      desc:"Believers receive 'the Spirit of adoption,' not a spirit of slavery back into fear, crying 'Abba, Father' and bearing witness they are God's children and 'fellow heirs with Christ, provided we suffer with him in order that we may also be glorified with him' (vv. 12-17)." },
+    { x:0.47, type:"object", label:"Creation groaning, waiting to be set free",
+      desc:"'The creation was subjected to futility' and now 'waits with eager longing' and 'groans' under bondage to decay, longing for 'the freedom of the glory of the children of God' — and believers, holding only 'the firstfruits of the Spirit,' groan inwardly too, awaiting 'the redemption of our bodies' (vv. 18-25)." },
+    { x:0.59, type:"object", label:"Groanings too deep for words",
+      desc:"'We do not know what to pray for as we ought, but the Spirit himself intercedes for us with groanings too deep for words' — the Father who searches hearts knows the Spirit's mind, because the Spirit intercedes 'according to the will of God' (vv. 26-27)." },
+    { x:0.68, type:"object", label:"\"All things work together for good\"",
+      desc:"'For those who love God all things work together for good, for those who are called according to his purpose' — the chapter's best-known assurance, set directly beside the sequence that grounds it (v. 28)." },
+    { x:0.76, type:"object", label:"The golden chain: predestined, called, justified, glorified",
+      desc:"Paul lays the sequence out link by link — 'those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified' — an unbroken chain from God's purpose to its completion (vv. 29-30)." },
+    { x:0.85, type:"object", label:"\"If God is for us, who can be against us?\"",
+      desc:"He 'did not spare his own Son but gave him up for us all' — the argument's turn from assurance to unanswerable rhetorical question, and the pledge that follows: God 'will he not also with him graciously give us all things?' (vv. 31-32)." },
+    { x:0.91, type:"object", label:"Who shall condemn? Christ intercedes",
+      desc:"'Who shall bring any charge against God's elect?... Who is to condemn?' Christ Jesus, who died, was raised, 'is at the right hand of God,' and 'indeed is interceding for us' (vv. 33-34)." },
+    { x:0.98, type:"object", label:"Nothing will separate us from the love of God",
+      desc:"Neither tribulation, distress, persecution, famine, nakedness, danger, nor sword can separate believers from Christ's love — 'in all these things we are more than conquerors' — closing in the certainty that 'neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord' (vv. 35-39)." }
+  ],
+  environment: {
+    chips: ["No narrated geography — pure doctrinal argument", "Roman forensic/legal language: 'no condemnation,' 'who shall condemn'", "Roman-law adoption imagery behind 'Abba, Father'", "Jewish apocalyptic hope for a renewed creation", "The 'golden chain' — a later theological label for vv. 29-30", "A closing list of hardships Paul himself had already survived"],
+    text: "Romans 8 narrates no journey and names no scene; it is the doctrinal climax of the letter's argument running from ch. 1 (universal sin) through ch. 5-7 (justification and the law's inability to conquer sin) to this chapter's resolution in life 'according to the Spirit.' Its legal vocabulary — 'condemnation,' 'law,' 'who shall bring a charge,' 'who is to condemn' — draws on the vocabulary of the Roman courtroom, mirroring the letter's own audience in the empire's capital and legal center. 'Abba, Father' (v. 15) preserves Jesus' own Aramaic address to God (cf. Mark 14:36), paired here with the very Roman-law language of adoption (huiothesia) that gave an adopted son, unlike many ancient legal systems, the same full inheritance rights as one born into the family — the background image behind Paul's insistence that believers are not merely rescued but formally, legally made heirs. The chapter's closing catalogue of hardships (tribulation, distress, persecution, famine, nakedness, danger, sword, v. 35) reads less like abstract rhetoric than Paul's own résumé, most of which he had already lived through by the time he wrote (cf. 2 Cor 11:23-27)."
+  },
+  objectsExtra: ["spirit-of-adoption", "groanings-too-deep-for-words", "golden-chain-of-redemption"],
+  peopleExtra: ["paul"],
+  culture: [
+    { title:"'No condemnation' — a courtroom verdict", icon:"⚖️",
+      text:"Paul's opening declaration and the chapter's later rhetorical questions ('who shall bring any charge,' 'who is to condemn') both borrow the vocabulary of a Roman law court, where a formal accusation (katēgoria) required a verdict. Writing to believers living at the empire's own legal center, Paul frames the gospel's assurance in exactly the terms his readers would recognize from daily civic life: the case against them has already been decided, in their favor, and cannot be reopened." },
+    { title:"\"Abba, Father\" and Roman adoption law", icon:"👨‍👦",
+      text:"'Abba' is Jesus' own intimate Aramaic address to God (Mark 14:36), and Paul's Greek word for what believers receive, huiothesia ('adoption as sons'), points specifically to the Greco-Roman legal institution of adoption — under Roman law, an adopted son gained the same full inheritance rights, name, and legal standing as a biological heir, sometimes even superior protections, since a father could disown a natural son more easily than an adopted one. The image argues that believers' status as God's heirs is not sentimental but legally, permanently secured." },
+    { title:"Creation's groaning — a shared Jewish hope", icon:"🌍",
+      text:"Paul's picture of a creation 'subjected to futility' yet 'waiting with eager longing' for its own liberation (vv. 19-22) echoes a hope widespread in Second Temple Jewish apocalyptic literature: that the whole cosmos, not only humanity, bears the consequences of the fall (cf. Gen 3:17-18) and will share in a coming, tangible renewal (cf. Isa 11:6-9; 65:17). Paul roots that renewal specifically in believers' own future resurrection — the 'redemption of our bodies' — rather than in a purely spiritual escape from the physical world." },
+    { title:"The Spirit's groanings too deep for words", icon:"🕊️",
+      text:"Paul's claim that 'we do not know what to pray for as we ought' (v. 26) is a rare, candid admission from an apostle otherwise confident in prayer, and his solution is not a technique but a person: the Spirit himself takes up the praying, in groanings Paul deliberately leaves wordless rather than assigning them to ecstatic speech or any specific practice — an intercession the text says is legible to God even when it isn't legible to the one praying it." },
+    { title:"The 'golden chain' of redemption", icon:"⛓️",
+      text:"'Golden chain' (catena aurea) is not Paul's own phrase but a label later theologians — most famously the English Puritan William Perkins in the 1590s — gave to the unbroken sequence of vv. 29-30: predestined, called, justified, glorified. The name stuck because each link in Paul's sentence follows necessarily from the one before it, with not a single person lost between God's original purpose and its final, completed outcome." }
+  ],
+  crossRefs: [
+    { group:"No condemnation, life instead of judgment", refs:[
+      { r:"John 3:17-18", note:"'whoever believes in him is not condemned' — the same verdict, stated by Jesus himself" },
+      { r:"John 5:24", note:"'whoever hears my word and believes... does not come into judgment, but has passed from death to life'" } ]},
+    { group:"The Spirit of adoption — \"Abba, Father\"", refs:[
+      { r:"Galatians 4:5-6", note:"Paul's parallel statement: God sent his Son 'so that we might receive adoption as sons,' and 'the Spirit of his Son' cries 'Abba, Father' in believers' hearts" },
+      { r:"Mark 14:36", note:"Jesus' own use of 'Abba, Father' in Gethsemane — the address believers are given to share" } ]},
+    { group:"The Spirit's intercession, and groaning in prayer", refs:[
+      { r:"Jude 1:20", note:"'praying in the Holy Spirit' — a parallel picture of Spirit-enabled prayer" },
+      { r:"Galatians 4:6", note:"the Spirit of the Son crying out from within believers, the same dynamic Paul describes here from a different angle" } ]},
+    { group:"All things working together for good", refs:[
+      { r:"Genesis 50:20", note:"Joseph's own retrospective: what his brothers meant for evil, 'God meant... for good'" },
+      { r:"James 1:2-4", note:"trials producing steadfastness and completeness — a parallel claim that hardship is not wasted" } ]},
+    { group:"Predestined, called, justified, glorified", refs:[
+      { r:"Ephesians 1:4-5", note:"believers 'predestined... for adoption as sons through Jesus Christ,' chosen 'before the foundation of the world'" },
+      { r:"Ephesians 1:11", note:"'predestined according to the purpose of him who works all things according to the counsel of his will'" } ]},
+    { group:"God did not withhold his own Son", refs:[
+      { r:"John 3:16", note:"'God so loved the world that he gave his only Son' — the same self-giving Paul argues from in v. 32" },
+      { r:"Genesis 22:16", note:"God's own oath to Abraham after he did not withhold Isaac — the pattern Paul's language of God not sparing his Son deliberately echoes" } ]},
+    { group:"Christ's ongoing intercession", refs:[
+      { r:"Hebrews 7:25", note:"Christ 'always lives to make intercession' for those who draw near through him — the same claim as v. 34, argued at length" } ]},
+    { group:"Suffering now, glory to come", refs:[
+      { r:"2 Timothy 2:12", note:"'if we endure, we will also reign with him' — the same suffering-then-glory sequence named in v. 17" },
+      { r:"2 Corinthians 4:17", note:"'this light momentary affliction is preparing... an eternal weight of glory'" } ]},
+    { group:"Nothing able to separate us", refs:[
+      { r:"John 10:28-29", note:"'no one will snatch them out of my hand... no one is able to snatch them out of the Father's hand' — the same unbreakable security, in Jesus' own words" },
+      { r:"Psalm 44:22", note:"Paul quotes this directly two verses later — 'for your sake we are being killed all the day long' — Israel's own ancient lament of suffering 'for your sake,' applied to believers' present hardship (Rom 8:36)" } ]}
+  ]
+},
+
+/* ============================================================
    GALATIANS 2 — Jerusalem in private, Antioch in public: defending the truth of the gospel
    ============================================================ */
 "48:2": {
