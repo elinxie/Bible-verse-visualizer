@@ -392,5 +392,13 @@ BVV.OBJECTS = [
   { id:"viper-bite", name:"The viper on Paul's hand", al:["viper","snake","viper fastened on his hand"], icon:"🐍",
     desc:"Driven out of a bundle of firewood by the heat, a viper 'fastened itself on his hand' as Paul feeds a bonfire on Malta; the islanders' verdict flips within minutes — first sure he 'must be a murderer' whom Justice would not let live, then, when he suffers no harm, calling him 'a god' instead (Acts 28:3-6)." },
   { id:"appian-way-welcome", name:"Met on the Appian Way", al:["Forum of Appius","Three Taverns","brothers came to meet us"], icon:"🛣️",
-    desc:"Word of Paul's approach reaches Rome's believers before he arrives, and they walk out along the Appian Way to two successive waystations — the Forum of Appius, some 43 Roman miles out, then Three Taverns, closer in — to meet him; 'on seeing them, Paul thanked God and took courage' (Acts 28:15)." }
+    desc:"Word of Paul's approach reaches Rome's believers before he arrives, and they walk out along the Appian Way to two successive waystations — the Forum of Appius, some 43 Roman miles out, then Three Taverns, closer in — to meet him; 'on seeing them, Paul thanked God and took courage' (Acts 28:15)." },
+
+  // ---- Romans 8 ----
+  { id:"spirit-of-adoption", name:"The Spirit of adoption — \"Abba, Father\"", al:["Spirit of adoption","Abba, Father","adoption as sons"], icon:"👨‍👦",
+    desc:"Believers receive 'the Spirit of adoption,' not a spirit of slavery back into fear, by whom they cry 'Abba, Father' and bear witness they are God's children and 'fellow heirs with Christ' — drawing on Greco-Roman adoption law, under which an adopted son held the same full inheritance rights as one born into the family (Rom 8:15-17)." },
+  { id:"groanings-too-deep-for-words", name:"Groanings too deep for words", al:["groanings too deep for words","the Spirit himself intercedes","we do not know what to pray for"], icon:"🕊️",
+    desc:"'We do not know what to pray for as we ought, but the Spirit himself intercedes for us with groanings too deep for words' — a rare admission that prayer sometimes runs past a believer's own words, met by the Spirit's own intercession 'according to the will of God' (Rom 8:26-27)." },
+  { id:"golden-chain-of-redemption", name:"The golden chain of redemption", al:["predestined, called, justified, glorified","golden chain"], icon:"⛓️",
+    desc:"Paul lays out an unbroken sequence — 'those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified' — later theologians (notably the Puritan William Perkins) nicknamed the 'golden chain' for how each link follows necessarily from the one before it, with nothing lost between God's purpose and its completion (Rom 8:29-30)." }
 ];
