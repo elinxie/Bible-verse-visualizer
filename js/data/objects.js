@@ -400,5 +400,13 @@ BVV.OBJECTS = [
   { id:"groanings-too-deep-for-words", name:"Groanings too deep for words", al:["groanings too deep for words","the Spirit himself intercedes","we do not know what to pray for"], icon:"🕊️",
     desc:"'We do not know what to pray for as we ought, but the Spirit himself intercedes for us with groanings too deep for words' — a rare admission that prayer sometimes runs past a believer's own words, met by the Spirit's own intercession 'according to the will of God' (Rom 8:26-27)." },
   { id:"golden-chain-of-redemption", name:"The golden chain of redemption", al:["predestined, called, justified, glorified","golden chain"], icon:"⛓️",
-    desc:"Paul lays out an unbroken sequence — 'those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified' — later theologians (notably the Puritan William Perkins) nicknamed the 'golden chain' for how each link follows necessarily from the one before it, with nothing lost between God's purpose and its completion (Rom 8:29-30)." }
+    desc:"Paul lays out an unbroken sequence — 'those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified' — later theologians (notably the Puritan William Perkins) nicknamed the 'golden chain' for how each link follows necessarily from the one before it, with nothing lost between God's purpose and its completion (Rom 8:29-30)." },
+
+  // ---- 1 Corinthians 15 ----
+  { id:"pauline-resurrection-creed", name:"The creed Paul received", al:["died for our sins","raised on the third day","delivered to you as of first importance"], icon:"📜",
+    desc:"A compact formula Paul says he 'received' and handed on 'as of first importance': Christ died for our sins in accordance with the Scriptures, was buried, was raised on the third day in accordance with the Scriptures, and appeared — widely dated to within a few years of the crucifixion (1 Cor 15:3-5)." },
+  { id:"resurrection-witness-list", name:"The list of resurrection witnesses", al:["appeared to Cephas","more than five hundred brothers","appeared to James"], icon:"👥",
+    desc:"Cephas, the Twelve, more than five hundred believers at once (most still alive when Paul wrote), James, all the apostles, and last of all Paul himself — named witnesses to the risen Christ, offered as evidence the Corinthians could check (1 Cor 15:5-8)." },
+  { id:"seed-and-the-spiritual-body", name:"The seed and the spiritual body", al:["sown perishable, raised imperishable","spiritual body","what you sow does not come to life unless it dies"], icon:"🌱",
+    desc:"Paul answers 'with what kind of body do they come?' with a seed that must die before it rises as something new — 'sown perishable, raised imperishable... sown a natural body, raised a spiritual body' — the same person, transformed, bearing 'the image of the man of heaven' (1 Cor 15:35-49)." }
 ];
