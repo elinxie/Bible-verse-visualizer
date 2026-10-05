@@ -10449,6 +10449,105 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   1 CORINTHIANS 15 — The creed Paul received, the witnesses to the risen Christ,
+   and the body raised imperishable
+   ============================================================ */
+"46:15": {
+  era: {
+    title: "ca. AD 55 — Paul writes to the church at Corinth from Ephesus",
+    sub: "Roman province of Achaea · a divided, gifted port-city church · Paul's third-year stay at Ephesus, shortly before Pentecost (1 Cor 16:8)",
+    badges: ["The gospel 'received' and handed on", "Resurrection witnesses still living", "First fruits, Adam and Christ", "≈1,970 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "Paul reminds the Corinthians of 'the gospel I preached to you, which you received, in which you stand, and by which you are being saved' — and then recites what he himself 'received' and passed on 'as of first importance': 'that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures, and that he appeared to Cephas, then to the Twelve.' He then lists the witnesses: more than five hundred brothers at one time, 'most of whom are still alive, though some have fallen asleep'; then James, then all the apostles; and 'last of all, as to one untimely born, he appeared also to me,' the least of the apostles because he persecuted the church, yet by grace 'I worked harder than any of them.' Some in Corinth, however, were saying 'there is no resurrection of the dead,' and Paul follows the denial to its end: if the dead are not raised, then Christ has not been raised; 'if Christ has not been raised, your faith is futile and you are still in your sins,' the apostles are false witnesses, those who 'have fallen asleep in Christ have perished,' and 'we are of all people most to be pitied.' 'But in fact Christ has been raised from the dead, the firstfruits of those who have fallen asleep.' Paul sets two representative men side by side: 'as in Adam all die, so also in Christ shall all be made alive' — each in his own order, Christ the firstfruits, then those who belong to him at his coming, then the end, when he hands the kingdom to the Father after destroying every rule and authority, for 'the last enemy to be destroyed is death.' A short, rough aside on baptism for the dead, daily danger, and 'fighting with beasts at Ephesus' leads to 'Let us eat and drink, for tomorrow we die' as the empty alternative. To the question 'How are the dead raised? With what kind of body do they come?' Paul answers sharply with a seed: 'what you sow does not come to life unless it dies,' and God gives it a body as he chooses. Bodies differ — flesh of people, beasts, birds, fish; the glory of sun, moon and stars — and so 'what is sown is perishable; what is raised is imperishable. It is sown in dishonor; it is raised in glory. It is sown in weakness; it is raised in power. It is sown a natural body; it is raised a spiritual body.' The first man Adam became a living being; the last Adam, a life-giving spirit; 'just as we have borne the image of the man of dust, we shall also bear the image of the man of heaven.' Flesh and blood cannot inherit the kingdom, so Paul reveals a mystery: 'we shall not all sleep, but we shall all be changed, in a moment, in the twinkling of an eye, at the last trumpet,' when 'this perishable body must put on the imperishable.' Then 'death is swallowed up in victory. O death, where is your victory? O death, where is your sting?' — the sting is sin, and the power of sin is the law, 'but thanks be to God, who gives us the victory through our Lord Jesus Christ.' The chapter's last word is practical: 'be steadfast, immovable, always abounding in the work of the Lord, knowing that in the Lord your labor is not in vain.'",
+  focusPlace: "corinth",
+  places: [
+    { id:"corinth", role:"The church addressed — a prosperous, quarrelsome, spiritually gifted congregation, some of whose members denied the resurrection of the dead (v. 12); no travel is narrated in the chapter itself" },
+    { id:"ephesus", role:"Where Paul writes (1 Cor 16:8) and where, he says, he 'fought with beasts' (v. 32) — whether literally or as a figure for the hostility he met there, a measure of the daily danger he would not have faced if the dead were not raised" },
+    { id:"jerusalem", role:"The center where the earliest witnesses — Cephas, the Twelve, James — were found and where, Paul says, the creed he 'received' circulated; the appearance to James and to the apostles is naturally located in its orbit" },
+    { id:"damascus", role:"The road where Paul himself, 'last of all,' saw the risen Christ (v. 8; cf. Acts 9:3-6) — the appearance that turned the persecutor of the church into its apostle" }
+  ],
+  journey: [
+    { from:"ephesus", to:"corinth", dashed:true, label:"The letter's own path — Paul writes from Ephesus to a church he founded", km:410,
+      note:"1 Corinthians 15 narrates no journey; this leg marks the real path of the letter, written at Ephesus (1 Cor 16:8) and sent across the Aegean to Corinth, roughly 250 mi / 410 km in a straight line and longer by sea and road." },
+    { from:"jerusalem", to:"damascus", dashed:true, label:"The persecutor's road — where 'last of all' Christ appeared to Paul", km:290,
+      note:"Paul names the appearance (v. 8) and his persecution of the church (v. 9) without giving the route; Acts 9 places both on the road from Jerusalem to Damascus, roughly 180 mi / 290 km." }
+  ],
+  hotspots: [
+    { x:0.02, type:"object", label:"The gospel Paul 'received'",
+      desc:"'I would remind you, brothers, of the gospel I preached to you, which you received, in which you stand, and by which you are being saved, if you hold fast' — the good news as something handed on, not invented (vv. 1-2)." },
+    { x:0.11, type:"object", label:"Died, buried, raised, appeared — the creed",
+      desc:"'As of first importance what I also received: that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures, and that he appeared...' — a compact, memorized, four-part summary (vv. 3-5)." },
+    { x:0.20, type:"person", av:"fisherman", label:"Cephas and the Twelve",
+      desc:"The first named witnesses: 'he appeared to Cephas, then to the Twelve' (v. 5)." },
+    { x:0.29, type:"object", label:"More than five hundred at one time",
+      desc:"'He appeared to more than five hundred brothers at one time, most of whom are still alive, though some have fallen asleep' — a claim Paul's readers could check against living witnesses (v. 6)." },
+    { x:0.37, type:"person", av:"elder", label:"James, then all the apostles",
+      desc:"'Then he appeared to James, then to all the apostles' — the Lord's brother and a wider circle than the Twelve (v. 7)." },
+    { x:0.45, type:"person", av:"traveler", label:"Last of all, to Paul",
+      desc:"'Last of all, as to one untimely born, he appeared also to me' — Paul, 'the least of the apostles,' because he persecuted the church, yet by God's grace 'I worked harder than any of them' (vv. 8-11)." },
+    { x:0.53, type:"object", label:"\"If Christ has not been raised, your faith is futile\"",
+      desc:"Paul follows the denial of resurrection to its end: preaching is in vain, the apostles are false witnesses, 'you are still in your sins,' and the dead in Christ have perished — 'if in Christ we have hope in this life only, we are of all people most to be pitied' (vv. 12-19)." },
+    { x:0.61, type:"object", label:"Firstfruits — in Adam, in Christ",
+      desc:"'But in fact Christ has been raised from the dead, the firstfruits of those who have fallen asleep. For as by a man came death, by a man has come also the resurrection of the dead. For as in Adam all die, so also in Christ shall all be made alive' — Christ first, then those who are his at his coming, then the end, the last enemy death destroyed (vv. 20-28)." },
+    { x:0.69, type:"object", label:"Eat and drink, for tomorrow we die",
+      desc:"Baptism on behalf of the dead, Paul's daily danger, and 'fighting with beasts at Ephesus' all lose their point if the dead are not raised; without it the only wisdom left is 'let us eat and drink' (vv. 29-34)." },
+    { x:0.77, type:"object", label:"The seed that dies, and the body raised",
+      desc:"'How are the dead raised? With what kind of body do they come?' 'What you sow does not come to life unless it dies' — and God gives each seed a body of his choosing, as with the differing glories of sun, moon and stars (vv. 35-41)." },
+    { x:0.85, type:"object", label:"Perishable and imperishable",
+      desc:"'What is sown is perishable; what is raised is imperishable... sown in dishonor, raised in glory... sown in weakness, raised in power... sown a natural body, raised a spiritual body,' the last Adam a life-giving spirit, and a bearing of 'the image of the man of heaven' (vv. 42-49)." },
+    { x:0.98, type:"object", label:"\"O death, where is your victory?\"",
+      desc:"'We shall not all sleep, but we shall all be changed, in a moment, in the twinkling of an eye, at the last trumpet.' Then 'death is swallowed up in victory. O death, where is your victory? O death, where is your sting?' — thanks be to God for the victory through Jesus Christ, so 'be steadfast, immovable, abounding in the work of the Lord' (vv. 50-58)." }
+  ],
+  environment: {
+    chips: ["Letter written from Ephesus to Corinth", "A memorized creed older than the letter", "Eyewitnesses still living in AD 55", "Greek disdain for the body vs. Jewish hope of resurrection", "Farming imagery: seed, sowing, firstfruits", "The 'last trumpet' of Jewish apocalyptic hope"],
+    text: "First Corinthians is a letter to a particular church in a commercial port city on the isthmus between two seas, answering questions the Corinthians themselves had raised; ch. 15 turns to the one that, for Paul, underlies all the others. Many in Corinth's Greek culture hoped for the soul's release from the body, not the body's rising, and some members apparently took that line (v. 12). Paul's reply rests first on what he 'received' — language of formal tradition — a four-line summary that scholars date within a few years of Jesus' death, and then on witnesses he says can still be asked. Paul ties resurrection to the harvest calendar: 'firstfruits' (v. 20) recalls the first sheaf presented to God at Passover week, the pledge that the whole crop will follow. The chapter's thanksgiving at the end is plainly aimed at the church's daily life in a wealthy and competitive city."
+  },
+  objectsExtra: ["corinthians-creed", "resurrection-witnesses", "firstfruits-adam-christ", "seed-and-the-body", "death-swallowed-up-in-victory", "sheaf", "trumpet"],
+  peopleExtra: ["paul", "peter", "james-jerusalem", "adam", "jesus"],
+  culture: [
+    { title:"A creed 'received' and 'handed on'", icon:"📜",
+      text:"'Received' and 'delivered' are the technical Greek words (paralambanō, paradidōmi) for passing along a tradition word for word, as a rabbi's student would a teaching. Paul uses them in vv. 1-5 for a four-line summary — died, buried, raised, appeared — that many scholars think he learned within a few years of his conversion, perhaps on his visit to Jerusalem in Gal 1:18, making it one of the earliest written statements of Christian belief." },
+    { title:"Witnesses who could still be asked", icon:"👥",
+      text:"Paul does not only assert the resurrection; he lists witnesses — Cephas, the Twelve, more than five hundred at one time, James, all the apostles, and himself — and observes that 'most are still alive' (v. 6). In a letter circulated in AD 55, some twenty-five years after the events, that is an invitation to check. The list also includes James, who during Jesus' ministry did not believe (John 7:5), and Paul, who persecuted the church." },
+    { title:"Greek and Jewish views of the body", icon:"🏛️",
+      text:"Many Greeks in Corinth saw the body as a prison or a tomb and looked to the soul's release; to them 'resurrection of the dead' sounded absurd (compare the Areopagus crowd in Acts 17:32). Most Jews of the period who hoped for resurrection (Dan 12:2; Isa 26:19) expected it at the end of the age for everyone together. Paul's claim — that one man has already been raised as the first installment — is the striking new element, and his 'spiritual body' (soma pneumatikon) joins the two: a real body, but one animated by the Spirit and no longer subject to decay." },
+    { title:"Firstfruits: a harvest pledge", icon:"🌾",
+      text:"At Passover week Israelites brought the first sheaf of the barley harvest to the priest as a pledge that the rest belonged to God and would follow (Lev 23:9-14). Paul's 'firstfruits' for Christ's resurrection draws on that image: not an isolated miracle but the first sheaf of a harvest still in the field — and it is on that same Passover-week calendar that the Gospels place the resurrection." },
+    { title:"Seeds, stars, and the 'last trumpet'", icon:"🌱",
+      text:"Paul's answers come from the farm and sky: the dry seed that 'dies' in the ground and rises as a plant, the different glories of sun, moon and stars. The 'last trumpet' of v. 52 borrows from Jewish end-time hope for a shofar blast that gathers God's people (Isa 27:13; Joel 2:1; cf. 1 Thess 4:16), and 'death is swallowed up in victory' and 'O death, where is your sting?' are drawn from Isa 25:8 and Hos 13:14 — Paul turns Hosea's threat into a taunt." }
+  ],
+  crossRefs: [
+    { group:"The gospel handed on: died, buried, raised", refs:[
+      { r:"Romans 4:25", note:"Jesus 'was delivered up for our trespasses and raised for our justification' — the same pairing of death and resurrection" },
+      { r:"Galatians 1:18-19", note:"Paul's visit to Cephas in Jerusalem, where he also met James — the likeliest setting for his 'receiving' this tradition" } ]},
+    { group:"The risen Christ appears to the witnesses", refs:[
+      { r:"Luke 24:34", note:"'The Lord has risen indeed, and has appeared to Simon' — the appearance to Cephas that 1 Cor 15:5 names first" },
+      { r:"John 20:19-29", note:"Appearances to the disciples and to Thomas — the Gospels' counterpart to Paul's witness list" },
+      { r:"Matthew 28:16-17", note:"A mountain-top appearance in Galilee, often linked to the larger group Paul calls 'five hundred'" } ]},
+    { group:"Paul, 'last of all' — the persecutor who saw the Lord", refs:[
+      { r:"Acts 9:1-9", note:"The Damascus-road encounter Paul alludes to in vv. 8-9" },
+      { r:"1 Timothy 1:15-16", note:"Paul as 'foremost' of sinners shown mercy as an example for others — the same humility as 'least of the apostles'" } ]},
+    { group:"Firstfruits and the harvest of the dead", refs:[
+      { r:"Leviticus 23:9-14", note:"The sheaf of firstfruits waved before the Lord, the image behind v. 20" },
+      { r:"Colossians 1:18", note:"Christ 'the firstborn from the dead' — the same priority claim in different words" } ]},
+    { group:"Adam and Christ", refs:[
+      { r:"Romans 5:12-21", note:"Paul's longer treatment of the two representative men: 'as one trespass led to condemnation for all men, so one act of righteousness leads to justification and life'" },
+      { r:"Genesis 2:7", note:"The man formed from dust and made 'a living being' — the text Paul quotes in v. 45" } ]},
+    { group:"If there is no resurrection — the stakes", refs:[
+      { r:"Acts 17:32", note:"Athenian listeners mock the idea of 'the resurrection of the dead' — the same objection the Corinthians were repeating" },
+      { r:"Isaiah 22:13", note:"'Let us eat and drink, for tomorrow we die' — the saying Paul quotes in v. 32 as the empty alternative" } ]},
+    { group:"The body changed at the last trumpet", refs:[
+      { r:"1 Thessalonians 4:16-17", note:"'The trumpet of God... the dead in Christ will rise first' — Paul's other description of the same event" },
+      { r:"Philippians 3:20-21", note:"Christ 'will transform our lowly body to be like his glorious body'" } ]},
+    { group:"Death swallowed up", refs:[
+      { r:"Isaiah 25:8", note:"'He will swallow up death forever' — the promise Paul quotes in v. 54" },
+      { r:"Hosea 13:14", note:"'O Death, where are your plagues? O Sheol, where is your sting?' — the line Paul reworks into a taunt in v. 55" },
+      { r:"Revelation 21:4", note:"'Death shall be no more' — the end of the 'last enemy' (v. 26)" } ]}
+  ]
+},
+
+/* ============================================================
    GALATIANS 2 — Jerusalem in private, Antioch in public: defending the truth of the gospel
    ============================================================ */
 "48:2": {
