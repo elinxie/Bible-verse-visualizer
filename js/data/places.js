@@ -793,7 +793,29 @@ BVV.PLACES = [
     blurb:"A staging post on the Appian Way about 33 Roman miles from Rome, the second point where Paul's Roman well-wishers met his party (Acts 28:15).",
     meaning:"Latin 'Tres Tabernae' — 'three shops/inns,' a literal roadside cluster of taverns that gave the waystation its name",
     ancient:"A small posting-station of inns and shops serving travelers on the final stretch of the Appian Way into Rome, close enough to the city for its believers to walk out and back in a day.",
-    scene:{ terrain:"plain", settlement:"village", water:"none", veg:"sparse" } }
+    scene:{ terrain:"plain", settlement:"village", water:"none", veg:"sparse" } },
+  // ---- Revelation 1-3 ----
+  { id:"sardis", name:"Sardis", al:["Sardis"], modern:"Sart, near Salihli, Turkey", lat:38.488, lon:28.040, type:"city",
+    blurb:"Ancient Lydian capital, once Croesus's wealthy seat, with an almost sheer acropolis; the church told 'you have the name of being alive, but you are dead' (Rev 3:1-6).",
+    meaning:"Greek 'Sardeis', of Lydian origin; the name's meaning is uncertain",
+    ancient:"A rich Roman-era city on the Pactolus valley floor beneath a steep, nearly unscalable acropolis that had famously fallen to surprise attacks twice (546 BC and 214 BC) when its guards relaxed; a vast gymnasium and one of the largest synagogues known stood in the city.",
+    scene:{ terrain:"plain", settlement:"city", water:"river", veg:"sparse" } },
+  { id:"thyatira", name:"Thyatira", al:["Thyatira"], modern:"Akhisar, Turkey", lat:38.919, lon:27.841, type:"city",
+    blurb:"Modest trade-guild city, home of Lydia's purple-dye trade (Acts 16:14), and the church addressed in the longest of the seven letters (Rev 2:18-29).",
+    meaning:"Greek 'Thuateira', of uncertain, probably Lydian or Macedonian, origin",
+    ancient:"A lowland garrison-turned-manufacturing town on a Roman road, organized around trade guilds of wool-workers, dyers, leatherworkers, potters and bronze-smiths, each with its own patron deity and feasts, which made refusing the guild banquet a real economic risk.",
+    scene:{ terrain:"plain", settlement:"city", water:"none", veg:"mixed" } },
+  { id:"philadelphia", name:"Philadelphia", al:["Philadelphia"], modern:"Alaşehir, Turkey", lat:38.350, lon:28.517, type:"city",
+    blurb:"Small, earthquake-prone city on a major trade route, the church with 'little power' set before an open door (Rev 3:7-13).",
+    meaning:"Greek 'Philadelpheia' — 'brotherly love,' after Attalus II Philadelphus, who founded it and was named for loyalty to his brother",
+    ancient:"A frontier-minded city founded to spread Greek culture inland along the road from the coast to the Anatolian plateau, rebuilt after the great AD 17 earthquake and for a time renamed in gratitude to Rome; the shaken population was known to flee the walls when tremors came.",
+    scene:{ terrain:"hills", settlement:"city", water:"none", veg:"mixed" } },
+  { id:"laodicea", name:"Laodicea", al:["Laodicea","Laodiceans"], modern:"near Denizli, Turkey", lat:37.836, lon:29.108, type:"city",
+    blurb:"Wealthy banking, textile and medical city in the Lycus Valley; the last of the seven churches and the lukewarm one (Rev 3:14-22; cf. Col 2:1; 4:13-16).",
+    meaning:"Greek 'Laodikeia' — 'justice of the people' or 'the people's rule,' after Laodice, the wife of Antiochus II who founded it",
+    ancient:"A prosperous Roman city of banks, a black-wool textile industry and a medical school, so wealthy it declined imperial earthquake aid in AD 60 and paid for its own rebuilding; its water arrived by aqueduct from hot springs at Hierapolis and cold ones near Colossae, reaching the city lukewarm.",
+    scene:{ terrain:"plain", settlement:"city", water:"none", veg:"sparse" } }
+
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };

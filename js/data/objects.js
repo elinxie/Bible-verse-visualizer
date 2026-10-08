@@ -408,5 +408,29 @@ BVV.OBJECTS = [
   { id:"imperishable-body", name:"The imperishable body", al:["imperishable","spiritual body","perishable"], icon:"🌱",
     desc:"Paul's answer to 'with what kind of body?': like a seed sown and given a new body, what is sown perishable, in dishonor and weakness is raised imperishable, in glory and power, a 'spiritual' (Spirit-animated) body that bears the image of the man of heaven (1 Cor 15:35-49)." },
   { id:"last-trumpet", name:"The last trumpet", al:["the last trumpet","last trumpet"], icon:"📯",
-    desc:"The signal of the final change: 'in a moment, in the twinkling of an eye' the dead are raised imperishable and the living changed, so that death is 'swallowed up in victory.' It draws on the trumpet as Israel's signal of assembly and of the day of the LORD (1 Cor 15:51-54)." }
+    desc:"The signal of the final change: 'in a moment, in the twinkling of an eye' the dead are raised imperishable and the living changed, so that death is 'swallowed up in victory.' It draws on the trumpet as Israel's signal of assembly and of the day of the LORD (1 Cor 15:51-54)." },
+  // ---- Revelation 1-3 ----
+  { id:"seven-golden-lampstands", name:"The seven golden lampstands", al:["seven golden lampstands","golden lampstands","lampstand"], icon:"🕎",
+    desc:"John turns to see Christ 'in the midst of the seven lampstands,' which he is told are the seven churches (Rev 1:12-13, 20). Oil-lamp stands of the kind used in the tabernacle and temple (Exod 25:31-40; Zech 4), they picture churches as light-bearers, and Christ can remove one from its place (Rev 2:5)." },
+  { id:"seven-stars", name:"The seven stars", al:["seven stars","stars in his right hand"], icon:"⭐",
+    desc:"Held in the right hand of the risen Christ and explained as 'the angels of the seven churches' (Rev 1:16, 20). The Greek word 'angelos' means messenger, and interpreters divide over whether it means heavenly beings, human pastors or the churches' representative spirit." },
+  { id:"keys-of-death-and-hades", name:"The keys of Death and Hades", al:["keys of Death and Hades","keys of death"], icon:"🗝️",
+    desc:"The risen Christ, 'the living one,' says 'I have the keys of Death and of Hades' (Rev 1:18). Keys marked authority over a house or a city's gates, and here they mark his authority over the grave itself: he has passed through death and now holds the door." },
+  { id:"crown-of-life", name:"The crown of life", al:["crown of life"], icon:"🏆",
+    desc:"The promise to Smyrna's suffering church: 'Be faithful unto death, and I will give you the crown of life' (Rev 2:10). The Greek 'stephanos' is the victor's wreath awarded at athletic games, a pointed image in a city known for its games and its civic crowns." },
+  { id:"hidden-manna", name:"The hidden manna", al:["hidden manna"], icon:"🍞",
+    desc:"Christ's promise to the Pergamum overcomer, set against the idol-feast: 'to the one who conquers I will give some of the hidden manna' (Rev 2:17). It recalls the jar of manna kept before the Ark (Exod 16:32-34; Heb 9:4) and echoes Jesus's claim to be the true bread from heaven (John 6)." },
+  { id:"white-stone", name:"The white stone", al:["white stone","new name"], icon:"⚪",
+    desc:"Given with 'a new name written on the stone that no one knows except the one who receives it' (Rev 2:17). Ancient white stones served as jurors' acquittal tokens, tickets of admission to a feast and personal tokens of friendship, and any of these readings fits a promise made to someone tempted by idol-feasts." },
+  { id:"morning-star", name:"The morning star", al:["morning star"], icon:"🌟",
+    desc:"Promised to the overcomer in Thyatira, along with authority over the nations (Rev 2:26-28), and claimed by Jesus himself at the book's close (Rev 22:16). The planet Venus, brightest herald of dawn, serves as a figure of the coming day, linked to the 'star out of Jacob' of Numbers 24:17." },
+  { id:"white-garments", name:"White garments", al:["white garments","white robes","white clothes"], icon:"🤍",
+    desc:"Promised to Sardis's few faithful, who have 'not soiled their garments,' and to the overcomer, who will 'be clothed in white' with a name that stays in the book of life (Rev 3:4-5, 18). Sardis was a wool and dye-making city, and white robes mark purity, victory and the festive dress of the redeemed." },
+  { id:"open-door", name:"The open door", al:["open door","an open door"], icon:"🚪",
+    desc:"To the small, weak church at Philadelphia Christ says: 'I have set before you an open door, which no one is able to shut' (Rev 3:8). Read as a door of opportunity for witness, as in Paul's 'wide door' (1 Cor 16:9), and as entry into the kingdom whose key belongs to the one who 'opens and no one will shut' (Rev 3:7; Isa 22:22)." },
+  { id:"door-knocking-at-the-heart", name:"Christ at the door", al:["I stand at the door and knock","stand at the door and knock"], icon:"🔔",
+    desc:"The risen Christ outside Laodicea's self-satisfied church: 'Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me' (Rev 3:20). The picture is an invitation to table fellowship, addressed to a church, though often applied to individual hearts." },
+  { id:"eye-salve", name:"Eye salve", al:["salve to anoint your eyes","eye salve"], icon:"👁️",
+    desc:"Christ counsels Laodicea to buy 'salve to anoint your eyes, so that you may see' (Rev 3:18). The city was known for a medical school and a famous eye ointment; the irony is that a church proud of its resources was blind to its own poverty and nakedness." }
+
 ];
