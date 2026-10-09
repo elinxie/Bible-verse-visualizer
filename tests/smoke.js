@@ -200,6 +200,7 @@ function check(name, cond, extra) {
     "Matthew 26|40:26", "Matthew 27|40:27", "Matthew 28|40:28",
     "Romans 8|45:8",
     "1 Corinthians 15|46:15",
+    "Revelation 1|66:1", "Revelation 2|66:2", "Revelation 3|66:3",
     "Galatians 2|48:2", "Galatians 3|48:3", "Galatians 5|48:5",
     "Micah 5|33:5", "Haggai 1|37:1",
     "Mark 4|41:4", "Mark 5|41:5",
