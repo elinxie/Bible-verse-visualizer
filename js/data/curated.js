@@ -11509,6 +11509,114 @@ BVV.CURATED = {
       { r:"Isaiah 53:3-12", note:"the suffering servant, widely read by Christian tradition behind Jesus' own words 'was it not necessary that the Christ should suffer'" },
       { r:"Psalm 22", note:"another Psalm read messianically alongside the crucifixion just days before this chapter" } ]}
   ]
-}
+},
+
+/* ============================================================
+   REVELATION 1 — John on Patmos, the risen Christ among the seven lampstands
+   ============================================================ */
+"66:1": {
+  era: {
+    title: "ca. AD 95 — John in exile on Patmos, writing to the churches of Roman Asia",
+    sub: "Roman province of Asia · an Aegean penal island and seven cities on a connected road loop · reign of Domitian (traditional)",
+    badges: ["Apocalyptic letter and vision", "Seven churches of Asia", "The risen Christ in glory", "≈1,930 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "John opens by naming his book 'the revelation of Jesus Christ,' blesses those who read and hear it, and greets seven churches in Asia in the name of Jesus, the faithful witness, firstborn of the dead and ruler of kings, who 'is coming with the clouds' for every eye to see. Exiled to Patmos 'on account of the word of God,' John is 'in the Spirit on the Lord's day' when a trumpet-like voice commands him to write what he sees and send it to the seven churches, from Ephesus to Laodicea. He turns and sees seven golden lampstands and, among them, one like a son of man: white hair, eyes like flame, feet like burnished bronze, a voice like many waters, seven stars in his right hand, a two-edged sword from his mouth, and a face like the sun. John falls as though dead; the figure lays a hand on him: 'Fear not, I am the first and the last, and the living one. I died, and behold I am alive forevermore, and I have the keys of Death and Hades.' John is to write what he has seen, what is, and what will be; the seven stars are the angels of the churches and the lampstands are the churches themselves.",
+  focusPlace: "patmos",
+  places: [
+    { id:"patmos", role:"The rocky Aegean island of John's exile, where he receives the vision on the Lord's day (vv. 9-20)" },
+    { id:"ephesus", role:"First on the list and the natural first landing for a messenger arriving from the coast (v. 11; cf. 2:1-7)" },
+    { id:"smyrna", role:"Second church, about 55 km north along the road (v. 11; cf. 2:8-11)" },
+    { id:"pergamum", role:"Third church, an acropolis city and provincial cult center (v. 11; cf. 2:12-17)" },
+    { id:"thyatira", role:"Fourth church, a guild town on the road southeast (v. 11; cf. 2:18-29)" },
+    { id:"sardis", role:"Fifth church, the old Lydian capital (v. 11; cf. 3:1-6)" },
+    { id:"philadelphia", role:"Sixth church, in the upper Hermus valley (v. 11; cf. 3:7-13)" },
+    { id:"laodicea", role:"Seventh and last church, in the Lycus valley, the end of the circuit (v. 11; cf. 3:14-22)" }
+  ],
+  journey: [
+    { from:"patmos", to:"ephesus", dashed:true, label:"The scroll's path, by sea to the first church", km:80,
+      note:"John is told to 'write what you see in a book and send it to the seven churches' (v. 11). By sea from Patmos to Ephesus is roughly 80 km, the natural first landing for anything sent to Asia." },
+    { from:"ephesus", to:"smyrna", dashed:true, label:"North along the coast road", km:55,
+      note:"The seven names are listed in an order that follows a real loop of Roman roads through Asia; the letters of chapters 2-3 keep the same order." },
+    { from:"smyrna", to:"pergamum", dashed:true, label:"On to the provincial cult center", km:70,
+      note:"The circuit bends inland toward Pergamum, the old Attalid capital and site of an early temple to Rome and Augustus." },
+    { from:"pergamum", to:"thyatira", dashed:true, label:"Southeast inland", km:65,
+      note:"The loop turns southeast toward the smaller guild town of Thyatira." },
+    { from:"thyatira", to:"sardis", dashed:true, label:"Down to the old Lydian capital", km:60,
+      note:"The route continues south to Sardis on its steep acropolis." },
+    { from:"sardis", to:"philadelphia", dashed:true, label:"Up the Hermus valley", km:45,
+      note:"Southeast through the Hermus valley to Philadelphia." },
+    { from:"philadelphia", to:"laodicea", dashed:true, label:"To the end of the circuit", km:150,
+      note:"The last leg runs on to Laodicea in the Lycus valley, completing the loop." }
+  ],
+  hotspots: [
+    { x:0.03, type:"object", label:"The revelation of Jesus Christ",
+      desc:"The book names itself an 'apocalypse' (unveiling) given by God to Jesus to show his servants 'what must soon take place,' and blesses the one who reads it aloud and those who hear and keep it (vv. 1-3)." },
+    { x:0.13, type:"person", av:"fisherman", label:"John, to the seven churches",
+      desc:"John addresses seven churches in Asia with 'grace to you and peace' from the God who 'is and was and is to come,' from the seven spirits before his throne, and from Jesus Christ (vv. 4-5)." },
+    { x:0.25, type:"person", av:"prophet", label:"The faithful witness, firstborn of the dead",
+      desc:"Jesus is the faithful witness, the firstborn of the dead and the ruler of kings on earth, who loves us, freed us from our sins by his blood, and made us 'a kingdom, priests to his God and Father' (vv. 5-6)." },
+    { x:0.36, type:"object", label:"He is coming with the clouds",
+      desc:"'Behold, he is coming with the clouds, and every eye will see him, even those who pierced him,' echoing Daniel's son of man and Zechariah's pierced one (v. 7)." },
+    { x:0.46, type:"object", label:"The Alpha and the Omega",
+      desc:"'I am the Alpha and the Omega,' the first and last letters of the Greek alphabet, spoken by the Lord God 'who is and who was and who is to come, the Almighty' (v. 8)." },
+    { x:0.56, type:"person", av:"fisherman", label:"On Patmos, in the Spirit on the Lord's day",
+      desc:"John calls himself a 'brother and partner in the tribulation and the kingdom and the patient endurance,' on Patmos 'on account of the word of God and the testimony of Jesus,' when he is 'in the Spirit on the Lord's day' and hears a voice like a trumpet (vv. 9-11)." },
+    { x:0.66, type:"object", label:"Seven golden lampstands",
+      desc:"Turning to see the voice, John first sees seven golden lampstands (v. 12); Jesus later says they are the seven churches (v. 20)." },
+    { x:0.76, type:"person", av:"prophet", label:"One like a son of man",
+      desc:"Among the lampstands stands one in a long robe with a golden sash, hair white as wool, eyes like a flame of fire, feet like burnished bronze, voice like many waters, seven stars in his right hand, a sharp two-edged sword from his mouth, and a face like the sun at full strength (vv. 13-16)." },
+    { x:0.86, type:"person", av:"fisherman", label:"\"Fear not\"",
+      desc:"John falls at his feet 'as though dead,' but the figure lays his right hand on him: 'Fear not, I am the first and the last, and the living one. I died, and behold I am alive forevermore' (vv. 17-18)." },
+    { x:0.93, type:"object", label:"The keys of Death and Hades",
+      desc:"'And I have the keys of Death and Hades': the one who passed through death holds authority over its gates (v. 18)." },
+    { x:0.98, type:"object", label:"Stars and lampstands explained",
+      desc:"John is told to write what he has seen, what is now, and what will take place after this; the seven stars are the angels of the seven churches and the seven lampstands are the seven churches (vv. 19-20)." }
+  ],
+  environment: {
+    chips: ["A rocky Aegean island used for exile", "Seven cities on one Roman road loop", "Emperor worship in Asian cities", "Gold lampstands: Temple and tabernacle imagery", "Daniel 7 and Ezekiel 1 in the background"],
+    text: "Patmos is a small, dry, volcanic island about 60 km off the Asian coast, where Rome could confine troublemakers. The seven cities named in verse 11 lay on a connected road loop through western Asia Minor, in an order a messenger could walk, and each was a busy Greco-Roman city with its own temples, guilds and emperor cult. John's vision draws heavily on older images: the Temple lampstand, Daniel's ancient of days and son of man, and Ezekiel's glory."
+  },
+  objectsExtra: ["seven-lampstands", "seven-stars", "keys-of-death-and-hades"],
+  peopleExtra: ["john-apostle", "jesus", "daniel"],
+  culture: [
+    { title:"Exile on Patmos", icon:"🏝️",
+      text:"Roman law allowed banishment to islands for people the authorities wanted out of the way. John says he is on Patmos 'on account of the word of God and the testimony of Jesus' (v. 9), which most readers take as exile for his preaching; the wording does not say who ordered it." },
+    { title:"The Lord's day", icon:"📅",
+      text:"'The Lord's day' (v. 10) appears only here in the New Testament. It is usually read as Sunday, the weekly day of Christian worship on the resurrection day, though some scholars think of the 'day of the Lord' of the prophets." },
+    { title:"Apocalypse: an unveiling", icon:"📜",
+      text:"The Greek 'apokalypsis' means uncovering. The genre of vision-literature (Daniel, Ezekiel, Zechariah) used symbolic images and numbers; seven, the number of completeness, runs through the book, and verse 20 itself shows John explaining his own symbols." },
+    { title:"The seven-city circuit", icon:"🛣️",
+      text:"The seven cities are listed in the order a traveler would meet them on a loop of Roman roads, starting at the port of Ephesus. They were not the only churches of Asia (Colossae and Hierapolis are nearby), so seven seems chosen for its sense of wholeness." },
+    { title:"Priests and a kingdom", icon:"👑",
+      text:"'A kingdom, priests to his God' (v. 6) takes Exodus 19:6, where Israel at Sinai is called a priestly kingdom, and applies it to the whole church, in cities where the emperor was hailed as lord and savior." }
+  ],
+  crossRefs: [
+    { group:"The son of man coming with the clouds", refs:[
+      { r:"Daniel 7:13-14", note:"'one like a son of man coming with the clouds of heaven,' given dominion forever" },
+      { r:"Zechariah 12:10", note:"'they will look on me, on him whom they have pierced,' echoed in v. 7" },
+      { r:"Matthew 24:30", note:"Jesus' own words that all tribes will mourn when they see the Son of Man coming on the clouds" } ]},
+    { group:"The vision of the glorious figure", refs:[
+      { r:"Daniel 10:5-6", note:"a man in linen with a belt of gold, eyes like flaming torches, arms and legs like burnished bronze, a voice like a multitude" },
+      { r:"Daniel 7:9", note:"the Ancient of Days, whose hair is like pure wool" },
+      { r:"Ezekiel 1:26-28", note:"a likeness of a human form of fire and radiance on the throne" } ]},
+    { group:"The first and the last", refs:[
+      { r:"Isaiah 44:6", note:"'I am the first and I am the last; besides me there is no god'" },
+      { r:"Revelation 22:13", note:"'I am the Alpha and the Omega, the first and the last,' closing the book as it opens" } ]},
+    { group:"The lampstands and the churches", refs:[
+      { r:"Zechariah 4:2", note:"a lampstand of gold with seven lamps, the prophet's vision of God's light for the Temple" },
+      { r:"Exodus 25:31-37", note:"the seven-branched lampstand of the tabernacle" },
+      { r:"Revelation 2:1", note:"Jesus 'who walks among the seven golden lampstands,' opening the first letter" } ]},
+    { group:"Keys, death, and the resurrection", refs:[
+      { r:"1 Corinthians 15:54-57", note:"death swallowed up in victory through Jesus Christ" },
+      { r:"Romans 6:9", note:"'Christ, being raised from the dead, will never die again; death no longer has dominion over him'" } ]},
+    { group:"Kingdom of priests", refs:[
+      { r:"Exodus 19:5-6", note:"Israel called to be 'a kingdom of priests and a holy nation'" },
+      { r:"1 Peter 2:9", note:"'a royal priesthood, a holy nation' applied to the church" } ]},
+    { group:"The seven churches, next", refs:[
+      { r:"Revelation 2:1-7", note:"the letter to Ephesus, the first of seven" },
+      { r:"Revelation 3:14-22", note:"the letter to Laodicea, the last" } ]}
+  ]
+},
 
 };

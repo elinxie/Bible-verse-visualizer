@@ -408,5 +408,11 @@ BVV.OBJECTS = [
   { id:"imperishable-body", name:"The imperishable body", al:["imperishable","spiritual body","perishable"], icon:"🌱",
     desc:"Paul's answer to 'with what kind of body?': like a seed sown and given a new body, what is sown perishable, in dishonor and weakness is raised imperishable, in glory and power, a 'spiritual' (Spirit-animated) body that bears the image of the man of heaven (1 Cor 15:35-49)." },
   { id:"last-trumpet", name:"The last trumpet", al:["the last trumpet","last trumpet"], icon:"📯",
-    desc:"The signal of the final change: 'in a moment, in the twinkling of an eye' the dead are raised imperishable and the living changed, so that death is 'swallowed up in victory.' It draws on the trumpet as Israel's signal of assembly and of the day of the LORD (1 Cor 15:51-54)." }
+    desc:"The signal of the final change: 'in a moment, in the twinkling of an eye' the dead are raised imperishable and the living changed, so that death is 'swallowed up in victory.' It draws on the trumpet as Israel's signal of assembly and of the day of the LORD (1 Cor 15:51-54)." },
+  { id:"seven-lampstands", name:"The seven golden lampstands", al:["seven golden lampstands","seven lampstands"], icon:"🕎",
+    desc:"John's first sight on Patmos: seven gold lampstands with 'one like a son of man' standing among them. Jesus explains they are the seven churches, light-bearers he walks among (Rev 1:12-13, 20)." },
+  { id:"seven-stars", name:"The seven stars", al:["seven stars","the seven stars"], icon:"⭐",
+    desc:"Held in the right hand of the risen Christ; he explains they are the 'angels' (messengers) of the seven churches, a sign of his care and authority over each (Rev 1:16, 20)." },
+  { id:"keys-of-death-and-hades", name:"Keys of Death and Hades", al:["keys of Death and Hades","keys of death"], icon:"🗝️",
+    desc:"'I have the keys of Death and Hades,' says the living one who was dead: keys signify authority over the gates of the underworld, answering fear of death with his own resurrection (Rev 1:17-18)." }
 ];
