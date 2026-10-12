@@ -408,5 +408,19 @@ BVV.OBJECTS = [
   { id:"imperishable-body", name:"The imperishable body", al:["imperishable","spiritual body","perishable"], icon:"🌱",
     desc:"Paul's answer to 'with what kind of body?': like a seed sown and given a new body, what is sown perishable, in dishonor and weakness is raised imperishable, in glory and power, a 'spiritual' (Spirit-animated) body that bears the image of the man of heaven (1 Cor 15:35-49)." },
   { id:"last-trumpet", name:"The last trumpet", al:["the last trumpet","last trumpet"], icon:"📯",
-    desc:"The signal of the final change: 'in a moment, in the twinkling of an eye' the dead are raised imperishable and the living changed, so that death is 'swallowed up in victory.' It draws on the trumpet as Israel's signal of assembly and of the day of the LORD (1 Cor 15:51-54)." }
+    desc:"The signal of the final change: 'in a moment, in the twinkling of an eye' the dead are raised imperishable and the living changed, so that death is 'swallowed up in victory.' It draws on the trumpet as Israel's signal of assembly and of the day of the LORD (1 Cor 15:51-54)." },
+  { id:"seven-golden-lampstands", name:"The seven golden lampstands", al:["seven golden lampstands", "lampstands"], icon:"🕯️",
+    desc:"John sees seven golden lampstands with the risen Christ walking among them; the text itself explains them as the seven churches, lights that burn in his presence and can be removed if they leave their first love (Rev 1:12-13, 20; 2:5)." },
+  { id:"alpha-and-omega", name:"The Alpha and the Omega", al:["Alpha and the Omega", "the first and the last"], icon:"🔤",
+    desc:"A title from the first and last letters of the Greek alphabet, spoken by the Lord God and by the risen Christ, meaning the source and the goal of all things, the one who was, is, and is to come (Rev 1:8, 17)." },
+  { id:"hidden-manna-white-stone", name:"Hidden manna and the white stone", al:["hidden manna", "white stone"], icon:"⚪",
+    desc:"Promises to the Pergamum conqueror: secret sustenance (answering the food offered to idols) and a white stone bearing a new name known only to its receiver, an image of acquittal or admission to a feast (Rev 2:17)." },
+  { id:"morning-star", name:"The morning star", al:["the morning star", "morning star"], icon:"🌟",
+    desc:"The conqueror at Thyatira is given 'the morning star,' later identified as Christ himself, 'the bright morning star' (Rev 2:28; 22:16), the herald of the dawn after the night of the nations' rule." },
+  { id:"key-of-david", name:"The key of David", al:["key of David"], icon:"🗝️",
+    desc:"Christ's title to the Philadelphian church: the holder of the key who opens what no one can shut, taken from the steward Eliakim's authority over the royal house (Rev 3:7; Isa 22:22)." },
+  { id:"laodicean-lukewarm", name:"The lukewarm church", al:["neither cold nor hot", "lukewarm"], icon:"🥤",
+    desc:"Laodicea's piped water reached the city tepid, neither the hot healing water of Hierapolis nor the cold drinking water of Colossae; Christ uses it to describe a self-satisfied church that is neither refreshing nor healing (Rev 3:15-16)." },
+  { id:"christ-at-the-door", name:"Christ at the door", al:["I stand at the door and knock", "stand at the door and knock"], icon:"🚪",
+    desc:"The Lord, addressing a church rather than a lone seeker, stands outside and knocks, promising to come in and share a meal with whoever opens, an image of renewed fellowship (Rev 3:20)." }
 ];

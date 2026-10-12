@@ -10547,6 +10547,277 @@ BVV.CURATED = {
 },
 
 /* ============================================================
+   REVELATION 1 — the risen Christ among the lampstands, and the scroll sent to seven churches
+   ============================================================ */
+"66:1": {
+  era: {
+    title: "ca. AD 95 — John on Patmos, in the Spirit on the Lord's day",
+    sub: "Roman province of Asia · seven cities on a postal loop west of the Aegean · the church under imperial-cult pressure",
+    badges: ["Apocalyptic letter, not narrative", "John exiled 'on account of the word of God'", "Vision of the risen Christ among the lampstands", "≈1,930 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "John, a servant writing to seven churches in Asia, announces 'the revelation of Jesus Christ' that God gave to show his servants what must soon take place, and pronounces a blessing on whoever reads and keeps it. Greeting them with grace from the One who is and was and is to come, from the seven spirits, and from Jesus Christ the faithful witness, firstborn of the dead and ruler of earthly kings, he praises the one who loves us and freed us from our sins by his blood and made us a kingdom of priests. Exiled on the island of Patmos, John is 'in the Spirit on the Lord's day' and hears a loud voice like a trumpet telling him to write what he sees and send it to the churches. He turns and sees seven golden lampstands and, among them, one like a son of man: white hair, eyes like flame, feet like burnished bronze, a voice like many waters, a double-edged sword from his mouth, a face like the sun at full strength. John falls as though dead; the figure lays a hand on him: 'Fear not, I am the first and the last, and the living one. I died, and behold I am alive forevermore, and I have the keys of Death and Hades.' He is told to write what he has seen, what is, and what is to come; the seven stars are the angels of the seven churches and the lampstands are the churches.",
+  focusPlace: "patmos",
+  places: [
+    { id:"patmos", role:"Where John is when the vision comes: a rocky Aegean island used for exile, 'on account of the word of God and the testimony of Jesus' (v. 9)" },
+    { id:"ephesus", role:"The first of the seven cities and the natural landing place for a scroll sent from Patmos; the chapter's seven-church address begins the circuit that chapters 2-3 follow" },
+    { id:"smyrna", role:"Second on the road: named in v. 11 with the other five as an addressee of the one scroll" },
+    { id:"pergamum", role:"Third city named in the address (v. 11), the seat of a famous altar and imperial cult" },
+    { id:"rome", role:"The distant ruler behind the scene: the 'kings of the earth' (v. 5) and Caesar's claim to be lord are the unspoken rival to the 'ruler of kings'" }
+  ],
+  journey: [
+    { from:"patmos", to:"ephesus", dashed:true, label:"The scroll's path from exile to the first church, then round the circuit", km:75,
+      note:"Rev 1 narrates no sea voyage; this leg marks the route the scroll would take, from Patmos to Ephesus, the nearest mainland port, from which the road runs north through Smyrna and Pergamum and then south-east through Thyatira, Sardis, Philadelphia and Laodicea (the order in v. 11)." }
+  ],
+  hotspots: [
+    { x:0.03, type:"person", av:"prophet", label:"A servant, writing to seven churches",
+      desc:"John introduces 'the revelation of Jesus Christ, which God gave him to show to his servants'; he bears witness to the word and the testimony and blesses the reader and hearers who keep it (vv. 1-3)." },
+    { x:0.12, type:"object", label:"Grace from the One who is and was and is to come",
+      desc:"The greeting comes from the eternal God, from 'the seven spirits who are before his throne,' and from Jesus Christ, 'the faithful witness, the firstborn of the dead, and the ruler of kings on earth' (vv. 4-5)." },
+    { x:0.2, type:"object", label:"A kingdom and priests to his God",
+      desc:"Jesus 'loves us and has freed us from our sins by his blood and made us a kingdom, priests to his God and Father' (vv. 5-6), the Exodus promise (Exod 19:6) applied to the church." },
+    { x:0.29, type:"object", label:"Behold, he is coming with the clouds",
+      desc:"'Every eye will see him, even those who pierced him'; the Lord God adds, 'I am the Alpha and the Omega... who is and who was and who is to come, the Almighty' (vv. 7-8)." },
+    { x:0.38, type:"person", av:"traveler", label:"On Patmos, in the Spirit on the Lord's day",
+      desc:"John identifies himself as a brother and partner in 'the tribulation and the kingdom and the patient endurance that are in Jesus,' exiled on Patmos; he hears a loud voice behind him like a trumpet (vv. 9-10)." },
+    { x:0.46, type:"object", label:"Write what you see in a book and send it",
+      desc:"The voice commands: 'Write what you see in a book and send it to the seven churches' — Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia and Laodicea (v. 11)." },
+    { x:0.55, type:"object", label:"Seven golden lampstands",
+      desc:"John turns and sees seven golden lampstands; the lampstands are the seven churches, burning in the presence of the one who walks among them (vv. 12, 20)." },
+    { x:0.63, type:"person", av:"prophet", label:"One like a son of man",
+      desc:"Robed to the feet, with a golden sash, hair white as wool, eyes like a flame of fire, feet like burnished bronze and a voice like many waters (vv. 13-15), the Danielic figure of Daniel 7 and 10." },
+    { x:0.72, type:"object", label:"Seven stars and a sharp two-edged sword",
+      desc:"In his right hand he holds seven stars, and from his mouth comes 'a sharp two-edged sword,' while his face shines 'like the sun shining in full strength' (v. 16)." },
+    { x:0.81, type:"person", av:"traveler", label:"I fell at his feet as though dead",
+      desc:"John collapses, and the risen Lord lays his right hand on him: 'Fear not, I am the first and the last, and the living one. I died, and behold I am alive forevermore, and I have the keys of Death and Hades' (vv. 17-18)." },
+    { x:0.89, type:"object", label:"What you have seen, what is, what is to come",
+      desc:"The commission outlines the book: write 'what you have seen, those things that are, and those that are to take place after this' (v. 19)." },
+    { x:0.98, type:"object", label:"The mystery of the stars and lampstands",
+      desc:"The Lord explains the symbols: 'the seven stars are the angels of the seven churches, and the seven lampstands are the seven churches' (v. 20)." }
+  ],
+  environment: {
+    chips: ["Apocalyptic symbols explained inside the text", "An island used for exile", "A circular postal route of seven cities", "Daniel's 'son of man' made visible", "'The Lord's day' (v. 10), the first day of the week", "Imperial cult pressure on Asian churches"],
+    text: "Revelation 1 is set on Patmos, a small rocky island in the Aegean that Roman authorities used as a place of banishment, though John only says he was there 'on account of the word of God.' The vision is addressed to seven real cities of the province of Asia, linked by a main Roman road, and its images (lampstands, stars, the sword, the keys) are glossed by the text itself, so the chapter reads as a commissioning scene: the risen Christ appears to John and sends a scroll to the churches."
+  },
+  objectsExtra: ["seven-golden-lampstands", "alpha-and-omega"],
+  peopleExtra: ["john-apostle", "jesus"],
+  culture: [
+    { title:"Patmos and exile", icon:"🏝️",
+      text:"Rome used islands as places of banishment for those it wished to remove from public life, and the early church tradition (Irenaeus, Eusebius) places John there under Domitian. John writes as a witness whose 'tribulation' is real: he introduces himself as a fellow sufferer (v. 9) before he is a seer." },
+    { title:"The Lord's day", icon:"📅",
+      text:"The 'Lord's day' (v. 10) is the earliest clear use of this phrase for the first day of the week, the day Christians met to remember the resurrection (cf. Acts 20:7; 1 Cor 16:2). It also quietly answers the emperor's days, since cities in Asia had 'Sebastos' (Augustus) days of their own in the imperial calendar." },
+    { title:"Seven and the number of fullness", icon:"7️⃣",
+      text:"Seven recurs throughout the book (churches, spirits, stars, lampstands, seals, trumpets, bowls). In biblical numerology it signals completeness; seven churches represent real communities and also, as the ancient commentators saw, the whole church." },
+    { title:"A letter in an apocalypse", icon:"✉️",
+      text:"Revelation opens like an ancient letter (author, recipients, greeting, v. 4) and ends with a benediction, so it was meant to be read aloud in assemblies (v. 3), unlike many apocalyptic texts, which were pseudonymous and private. It was a public, pastoral, and politically risky document." }
+  ],
+  crossRefs: [
+    { group:"The son of man", refs:[
+      { r:"Daniel 7:9-14", note:"the Ancient of Days with white hair, and one like a son of man given everlasting dominion" },
+      { r:"Daniel 10:5-6", note:"a man in linen with a belt of gold, a face like lightning, eyes like torches and arms like burnished bronze" } ]},
+    { group:"The first and the last", refs:[
+      { r:"Isaiah 44:6", note:"'I am the first and I am the last; besides me there is no god'" },
+      { r:"Isaiah 48:12", note:"the LORD, 'I am he; I am the first, and I am the last'" } ]},
+    { group:"Behold, he comes with the clouds", refs:[
+      { r:"Zechariah 12:10", note:"'they shall look on him whom they have pierced,' quoted in v. 7" },
+      { r:"Matthew 24:30", note:"'they will see the Son of Man coming on the clouds of heaven with power and great glory'" } ]},
+    { group:"A kingdom of priests", refs:[
+      { r:"Exodus 19:5-6", note:"'you shall be to me a kingdom of priests and a holy nation'" },
+      { r:"1 Peter 2:9", note:"'you are a chosen race, a royal priesthood, a holy nation'" } ]},
+    { group:"The living one who holds the keys", refs:[
+      { r:"Romans 6:9", note:"'Christ, being raised from the dead, will never die again; death no longer has dominion over him'" },
+      { r:"Hebrews 2:14-15", note:"he shared our nature to destroy 'the one who has the power of death,' freeing those enslaved by its fear" } ]},
+    { group:"Falling before the vision", refs:[
+      { r:"Isaiah 6:5", note:"'Woe is me! For I am lost' — the prophet's response to seeing the Lord" },
+      { r:"Ezekiel 1:28", note:"'when I saw it, I fell on my face,' then a voice spoke" } ]}
+  ]
+},
+
+/* ============================================================
+   REVELATION 2 — letters to Ephesus, Smyrna, Pergamum and Thyatira
+   ============================================================ */
+"66:2": {
+  era: {
+    title: "ca. AD 95 — letters to Ephesus, Smyrna, Pergamum and Thyatira",
+    sub: "Roman province of Asia · seven cities on a postal loop west of the Aegean · the church under imperial-cult pressure",
+    badges: ["Four of seven letters", "Praise, rebuke, call to repent, promise to the victor", "A port, a 'crown' city, an altar city and a guild town", "≈1,930 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "The risen Christ dictates four letters. To Ephesus, where he 'walks among the seven golden lampstands': he knows their works, toil and endurance, and that they cannot tolerate evildoers and have tested false apostles, but they have abandoned their first love; remember, repent, or he will remove the lampstand; to the one who conquers, the tree of life in the paradise of God. To Smyrna, 'the first and the last, who died and came to life': he knows their tribulation and poverty (though they are rich), and the slander of a 'synagogue of Satan'; do not fear what you are about to suffer, the devil will throw some into prison for ten days; be faithful unto death and receive the crown of life, and the conqueror will not be hurt by the second death. To Pergamum, with the sharp two-edged sword: he knows they dwell where Satan's throne is and held fast his name even when Antipas his faithful witness was killed, but some hold the teaching of Balaam and the Nicolaitans; repent, or he will come and war with the sword of his mouth; to the conqueror, hidden manna and a white stone with a new name. To Thyatira, the Son of God with eyes like flame: he knows their love, faith, service and growing works, but they tolerate the woman Jezebel who teaches his servants to practice sexual immorality and eat food sacrificed to idols; those who hold fast will receive authority over the nations and the morning star.",
+  focusPlace: "ephesus",
+  places: [
+    { id:"ephesus", role:"First letter (vv. 1-7): a great port and temple city; faithful in doctrine and endurance, but warned about leaving its first love" },
+    { id:"smyrna", role:"Second letter (vv. 8-11): the suffering, poor-but-rich church facing slander and prison; the only one of the seven with no rebuke" },
+    { id:"pergamum", role:"Third letter (vv. 12-17): 'where Satan's throne is,' the seat of altars to Zeus and emperor worship, where Antipas was killed" },
+    { id:"thyatira", role:"Fourth letter (vv. 18-29): a modest guild city whose church grew in works but tolerated 'Jezebel's' teaching" },
+    { id:"patmos", role:"The unseen sender's vantage point: John writes down all four letters from exile" }
+  ],
+  journey: [
+    { from:"ephesus", to:"smyrna", dashed:false, label:"First leg of the postal circuit, Ephesus to Smyrna", km:60,
+      note:"Chapter 2 narrates no travel; these legs mark the order of the letters on the real Roman road the scroll would follow, starting at the nearest port to Patmos." },
+    { from:"smyrna", to:"pergamum", dashed:false, label:"Second leg, north to the altar city", km:80,
+      note:"The road runs north from Smyrna along the coastal plain and then inland to Pergamum, the old Attalid capital on its acropolis." },
+    { from:"pergamum", to:"thyatira", dashed:false, label:"Third leg, south-east to the guild town", km:70,
+      note:"From Pergamum the road bends south-east across the Caicus valley to Thyatira, a trading city in a valley on the way inland." }
+  ],
+  hotspots: [
+    { x:0.03, type:"person", av:"prophet", label:"To the angel of the church in Ephesus",
+      desc:"The one who 'holds the seven stars in his right hand and walks among the seven golden lampstands' says he knows their works, toil and patient endurance (vv. 1-2)." },
+    { x:0.12, type:"object", label:"You have abandoned the love you had at first",
+      desc:"Doctrinal tests passed (false apostles exposed, the Nicolaitans hated), yet 'you have abandoned the love you had at first'; the cure is to remember, repent, and do the works they did at first, or the lampstand will be removed (vv. 3-5)." },
+    { x:0.2, type:"object", label:"The tree of life in the paradise of God",
+      desc:"The promise to the conqueror at Ephesus: 'I will grant to eat of the tree of life, which is in the paradise of God' (v. 7), recalling Eden." },
+    { x:0.29, type:"person", av:"traveler", label:"To Smyrna: poor, yet rich",
+      desc:"The first and the last, 'who died and came to life,' knows their tribulation and poverty, 'but you are rich,' and the slander of those who say they are Jews and are not but a synagogue of Satan (vv. 8-9)." },
+    { x:0.38, type:"object", label:"Ten days of tribulation, faithful unto death",
+      desc:"'Do not fear what you are about to suffer... the devil is about to throw some of you into prison, that you may be tested, and for ten days you will have tribulation'; 'be faithful unto death, and I will give you the crown of life' (v. 10)." },
+    { x:0.46, type:"object", label:"The second death shall not hurt",
+      desc:"The conqueror 'will not be hurt by the second death' (v. 11), a first glimpse of the book's contrast between physical death and final judgment." },
+    { x:0.55, type:"person", av:"traveler", label:"To Pergamum: where Satan's throne is",
+      desc:"The Lord with the sharp two-edged sword knows 'where you dwell, where Satan's throne is'; they held fast his name and did not deny the faith 'even in the days of Antipas my faithful witness, who was killed among you' (vv. 12-13)." },
+    { x:0.63, type:"object", label:"The teaching of Balaam and the Nicolaitans",
+      desc:"Some hold the teaching of Balaam, who taught Balak to put a stumbling block before Israel, 'so that they might eat food sacrificed to idols and practice sexual immorality,' and some hold the teaching of the Nicolaitans; repent or he will war against them with the sword of his mouth (vv. 14-16)." },
+    { x:0.72, type:"object", label:"Hidden manna and a white stone with a new name",
+      desc:"The conqueror receives 'some of the hidden manna' and 'a white stone, with a new name written on the stone that no one knows except the one who receives it' (v. 17)." },
+    { x:0.81, type:"person", av:"prophet", label:"To Thyatira: the Son of God with eyes like flame",
+      desc:"The Son of God, 'whose eyes are like a flame of fire, and whose feet are like burnished bronze,' knows their love, faith, service and patient endurance, and that their latter works exceed the first (vv. 18-19)." },
+    { x:0.89, type:"person", av:"woman", label:"That woman Jezebel",
+      desc:"The church tolerates 'that woman Jezebel, who calls herself a prophetess and is teaching and seducing my servants to practice sexual immorality and to eat food sacrificed to idols'; he gave her time to repent and she refuses (vv. 20-23)." },
+    { x:0.98, type:"object", label:"The morning star and authority over the nations",
+      desc:"The conqueror who keeps his works until the end receives 'authority over the nations' and 'the morning star' (vv. 26-28), and the other Thyatiran believers are asked only to 'hold fast what you have until I come' (v. 25)." }
+  ],
+  environment: {
+    chips: ["Four letters, one pattern: sender, 'I know,' verdict, call, promise", "A suffering church with no rebuke", "Altars, imperial cult and trade guilds", "Old Testament names reused (Balaam, Jezebel)", "'He who has an ear' repeated seven times", "Promises tied to Eden and the exodus"],
+    text: "The four cities lie along the main road of Roman Asia and were prosperous, self-governing, and religiously busy: Ephesus with its Artemis temple and harbor, Smyrna with its loyalty to Rome, Pergamum with its altars to Zeus and the emperor, Thyatira with its trade guilds (dyers, bronzeworkers, potters) that met at pagan banquets. A believer in any of them faced a daily question about when to eat, trade, or join the civic cult, and each letter reads the local setting with unusual precision."
+  },
+  objectsExtra: ["tree-of-life", "hidden-manna-white-stone", "morning-star"],
+  peopleExtra: ["jezebel", "john-apostle", "jesus"],
+  culture: [
+    { title:"Smyrna, the city of loyalty", icon:"🏛️",
+      text:"Smyrna boasted of its early alliance with Rome and built a temple to the goddess Roma (195 BC) and later to the emperor Tiberius. Its local pride in a 'crown' of buildings on Mount Pagos gives edge to 'the crown of life'; it also had a sizeable Jewish community whose hostility to the church is the setting of v. 9." },
+    { title:"Pergamum and the throne of Satan", icon:"⚡",
+      text:"Pergamum was the first Asian city to build a temple to Augustus and Roma, held a massive Zeus altar on its acropolis, and was a center for the healing cult of Asclepius. Interpreters have linked 'Satan's throne' to any of these; the common thread is a city that demanded religious loyalty on civic terms." },
+    { title:"Trade guilds in Thyatira", icon:"🧵",
+      text:"Thyatira's inscriptions name guilds of dyers, wool-workers, tanners and bronze-smiths, each with its patron deity and shared feasts. To refuse the guild banquet meant economic isolation — the real pressure behind 'Jezebel's' argument that Christians could take part in the meals." },
+    { title:"A white stone", icon:"⚪",
+      text:"In Roman courts a white stone could mean acquittal, and tokens of admission to a feast or event were inscribed with a name. The promise of a white stone with a new name (v. 17) draws on all of these, with the 'hidden manna' answering the food offered to idols." }
+  ],
+  crossRefs: [
+    { group:"Eden and the tree of life", refs:[
+      { r:"Genesis 2:9", note:"the tree of life in the midst of the garden" },
+      { r:"Revelation 22:2", note:"the tree of life on either side of the river in the new Jerusalem" } ]},
+    { group:"Faithful unto death", refs:[
+      { r:"Daniel 1:12-14", note:"Daniel's ten-day test in the Babylonian court" },
+      { r:"2 Timothy 4:7-8", note:"Paul has 'finished the race,' with 'the crown of righteousness' laid up for him" } ]},
+    { group:"Balaam's teaching", refs:[
+      { r:"Numbers 25:1-3", note:"Israel joins in the sacrifices of Baal of Peor and sexual immorality" },
+      { r:"Numbers 31:16", note:"Balaam's counsel led Israel into unfaithfulness at Peor" } ]},
+    { group:"The hidden manna", refs:[
+      { r:"Exodus 16:32-34", note:"a jar of manna kept before the LORD as a memorial" },
+      { r:"John 6:48-51", note:"Jesus: 'I am the bread of life... the bread that comes down from heaven'" } ]},
+    { group:"Jezebel", refs:[
+      { r:"1 Kings 16:31-33", note:"Ahab marries Jezebel and serves Baal" },
+      { r:"2 Kings 9:22", note:"Jehu's charge against 'the whorings and the sorceries of your mother Jezebel'" } ]},
+    { group:"Authority over the nations", refs:[
+      { r:"Psalm 2:8-9", note:"'I will make the nations your heritage... you shall break them with a rod of iron'" },
+      { r:"Matthew 19:28", note:"the apostles will sit on twelve thrones, judging the twelve tribes" } ]}
+  ]
+},
+
+/* ============================================================
+   REVELATION 3 — letters to Sardis, Philadelphia and Laodicea
+   ============================================================ */
+"66:3": {
+  era: {
+    title: "ca. AD 95 — letters to Sardis, Philadelphia and Laodicea",
+    sub: "Roman province of Asia · seven cities on a postal loop west of the Aegean · the church under imperial-cult pressure",
+    badges: ["Three of seven letters", "A dead-reputation church, a faithful small one, a lukewarm rich one", "A fortress, a frontier and a banking centre", "≈1,930 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "Three more letters. To Sardis, from 'him who has the seven spirits of God and the seven stars': you have the reputation of being alive, but you are dead; wake up, strengthen what remains, remember what you received, repent, or he will come like a thief; a few have not soiled their garments and will walk with him in white, their names never blotted from the book of life. To Philadelphia, from the holy and true one who has the key of David: he has set before them an open door that no one can shut; they have little power but kept his word and did not deny his name; he will make the 'synagogue of Satan' come and bow down before them, keep them from the hour of trial, and make the conqueror a pillar in the temple of God, with the name of God and of the new Jerusalem written on him. To Laodicea, from the Amen, the faithful and true witness: you are neither hot nor cold, but lukewarm, and he will spit you out; you say you are rich and need nothing, not knowing you are wretched, pitiable, poor, blind and naked; buy from him gold refined by fire, white garments, and salve for your eyes. 'Those whom I love, I reprove and discipline; so be zealous and repent.' Behold, he stands at the door and knocks; if anyone opens, he will come in and eat with them, and the conqueror will sit with him on his throne.",
+  focusPlace: "sardis",
+  places: [
+    { id:"sardis", role:"Fifth letter (vv. 1-6): once the Lydian capital, with a hill fortress twice taken by surprise; the church had a name for life but was nearly dead" },
+    { id:"philadelphia", role:"Sixth letter (vv. 7-13): a small border city rebuilt after earthquakes; the one church praised without rebuke (with Smyrna), promised an open door" },
+    { id:"laodicea", role:"Seventh letter (vv. 14-22): a wealthy banking, textile and medical centre in the Lycus valley whose water arrived lukewarm" },
+    { id:"thyatira", role:"Preceding stop on the circuit from chapter 2; the road to Sardis begins here" },
+    { id:"patmos", role:"The unseen sender's vantage: John writes these three letters from exile as well" }
+  ],
+  journey: [
+    { from:"thyatira", to:"sardis", dashed:false, label:"The road south-east to Sardis", km:85,
+      note:"Chapter 3 narrates no journey; these legs mark the order of the letters on the postal road, continuing the circuit begun in chapter 2." },
+    { from:"sardis", to:"philadelphia", dashed:false, label:"Sardis to Philadelphia, along the Hermus valley", km:45,
+      note:"The road follows the Hermus valley east from Sardis, then bends south-east to Philadelphia at the head of a great plateau." },
+    { from:"philadelphia", to:"laodicea", dashed:false, label:"The final stretch, up the Lycus valley to Laodicea", km:100,
+      note:"The road continues south-east through the Cogamis valley and over to the Lycus valley, ending at Laodicea, whose sister cities Colossae and Hierapolis lay nearby (Col 4:13-16)." }
+  ],
+  hotspots: [
+    { x:0.03, type:"person", av:"prophet", label:"To Sardis: a name for being alive",
+      desc:"He 'who has the seven spirits of God and the seven stars' says: 'I know your works. You have the reputation of being alive, but you are dead' (v. 1)." },
+    { x:0.11, type:"object", label:"Wake up, strengthen what remains",
+      desc:"'Wake up, and strengthen what remains and is about to die'; their works are not complete in the sight of his God, so they must remember, keep, and repent (vv. 2-3)." },
+    { x:0.19, type:"object", label:"I will come like a thief",
+      desc:"'If you will not wake up, I will come like a thief, and you will not know at what hour I will come against you' (v. 3), an image the city's own history of surprised capture made sharp." },
+    { x:0.27, type:"object", label:"A few who have not soiled their garments",
+      desc:"'You have still a few names in Sardis, people who have not soiled their garments, and they will walk with me in white, for they are worthy' (v. 4)." },
+    { x:0.35, type:"object", label:"Never blot out his name from the book of life",
+      desc:"The conqueror 'will be clothed thus in white garments, and I will never blot his name out of the book of life,' but confess it before the Father and his angels (v. 5)." },
+    { x:0.43, type:"person", av:"traveler", label:"To Philadelphia: the key of David",
+      desc:"'The holy one, the true one, who has the key of David, who opens and no one will shut, who shuts and no one opens' (v. 7), quoting Isaiah 22:22." },
+    { x:0.5, type:"object", label:"An open door that no one can shut",
+      desc:"'I have set before you an open door, which no one is able to shut. I know that you have but little power, and yet you have kept my word and have not denied my name' (v. 8)." },
+    { x:0.58, type:"object", label:"Kept from the hour of trial",
+      desc:"Because they kept his word of patient endurance, 'I will keep you from the hour of trial that is coming on the whole world'; 'I am coming soon. Hold fast what you have' (vv. 10-11)." },
+    { x:0.66, type:"object", label:"A pillar in the temple of my God",
+      desc:"The conqueror will be made 'a pillar in the temple of my God,' with the name of God, the name of the city of God, the new Jerusalem, and his own new name written on him (v. 12)." },
+    { x:0.74, type:"person", av:"prophet", label:"To Laodicea: the Amen, the faithful and true witness",
+      desc:"The speaker is 'the Amen, the faithful and true witness, the beginning of God's creation' (v. 14)." },
+    { x:0.82, type:"object", label:"Neither cold nor hot",
+      desc:"'I know your works: you are neither cold nor hot... So, because you are lukewarm, and neither hot nor cold, I will spit you out of my mouth' (vv. 15-16)." },
+    { x:0.9, type:"object", label:"Buy from me gold, white garments, eye salve",
+      desc:"Laodicea says 'I am rich, I have prospered, and I need nothing,' not knowing it is 'wretched, pitiable, poor, blind, and naked'; he counsels gold refined by fire, white garments, and salve for the eyes (vv. 17-18)." },
+    { x:0.98, type:"person", av:"traveler", label:"Behold, I stand at the door and knock",
+      desc:"'Those whom I love, I reprove and discipline'; 'if anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me,' and the conqueror will sit with him on his throne (vv. 19-21)." }
+  ],
+  environment: {
+    chips: ["A church with a living name and a dead reality", "A little strength and an open door", "Water, wealth and wool: Laodicea's local trades", "A scene of Christ at the door, addressed to a church", "Names and garments: white, written, never blotted", "'He who has an ear' repeated seven times"],
+    text: "Sardis was a once-great Lydian capital built under a nearly sheer acropolis that had fallen to surprise attack more than once, in 546 BC and again in 214 BC; the church there is told to wake up. Philadelphia was a younger border city on a volcanic plain, shaken by the earthquake of AD 17 and later renamed Neocaesarea. Laodicea, in the Lycus valley, was a wealthy banking, black-wool and medical-school city with no water supply of its own; it piped water from hot springs and cold streams, and what reached the city was tepid."
+  },
+  objectsExtra: ["key-of-david", "laodicean-lukewarm", "christ-at-the-door"],
+  peopleExtra: ["jesus", "john-apostle"],
+  culture: [
+    { title:"Sardis, twice taken by surprise", icon:"🏰",
+      text:"The acropolis at Sardis was thought unassailable, yet Cyrus's soldiers climbed it in 546 BC and Antiochus's in 214 BC, each time through a poorly guarded section. 'I will come like a thief' (v. 3) lands against that memory, and 'wake up' is a warning to a church at ease behind its own reputation." },
+    { title:"Philadelphia, a city of earthquakes", icon:"🌋",
+      text:"An earthquake in AD 17 destroyed Philadelphia and Sardis; Rome helped rebuild both, and after Philadelphia's second recovery it took the name Neocaesarea. A 'pillar in the temple' (v. 12) was a vivid promise to a city where people sometimes lived outside the walls for fear of tremors." },
+    { title:"Laodicea's water", icon:"💧",
+      text:"Laodicea sat between hot springs at Hierapolis and cold streams at Colossae, and its water reached the city by aqueduct, arriving lukewarm. 'Neither hot nor cold' (v. 15) is a pointed contrast with a hot healing spring and a cold drinking stream, both of which were useful; lukewarm water was only to be spat out." },
+    { title:"Wealth, wool and eye salve", icon:"💰",
+      text:"Laodicea was rich enough to refuse imperial aid after the earthquake of AD 60, was known for a glossy black wool, and had a medical school associated with a popular eye ointment. The Lord's three counsels (gold, white garments, eye salve, vv. 17-18) answer its three pride points: banking, clothing, and eyes." }
+  ],
+  crossRefs: [
+    { group:"Wake up, be watchful", refs:[
+      { r:"Matthew 24:42-44", note:"'if the master of the house had known in what part of the night the thief was coming, he would have stayed awake'" },
+      { r:"1 Thessalonians 5:2-6", note:"'the day of the Lord will come like a thief in the night... so then let us not sleep'" } ]},
+    { group:"The book of life", refs:[
+      { r:"Exodus 32:32-33", note:"Moses asks to be blotted from the book God has written; God answers that he blots out whoever has sinned" },
+      { r:"Philippians 4:3", note:"Paul's fellow workers 'whose names are in the book of life'" } ]},
+    { group:"The key of David", refs:[
+      { r:"Isaiah 22:22", note:"'I will place on his shoulder the key of the house of David. He shall open, and none shall shut'" },
+      { r:"Matthew 16:19", note:"'I will give you the keys of the kingdom of heaven'" } ]},
+    { group:"The new Jerusalem", refs:[
+      { r:"Revelation 21:2", note:"the holy city, new Jerusalem, coming down out of heaven from God" },
+      { r:"Ezekiel 48:35", note:"'The LORD is there' — the city's name" } ]},
+    { group:"Reproved because loved", refs:[
+      { r:"Proverbs 3:11-12", note:"'the LORD reproves him whom he loves, as a father the son in whom he delights'" },
+      { r:"Hebrews 12:5-6", note:"the same text, applied to the discipline of sons" } ]},
+    { group:"The door and the shared meal", refs:[
+      { r:"Song of Solomon 5:2", note:"'Listen! My beloved is knocking'" },
+      { r:"Luke 12:35-37", note:"servants who open at once to the master, who then serves them at table" } ]}
+  ]
+},
+
+/* ============================================================
    GALATIANS 2 — Jerusalem in private, Antioch in public: defending the truth of the gospel
    ============================================================ */
 "48:2": {

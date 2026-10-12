@@ -793,7 +793,23 @@ BVV.PLACES = [
     blurb:"A staging post on the Appian Way about 33 Roman miles from Rome, the second point where Paul's Roman well-wishers met his party (Acts 28:15).",
     meaning:"Latin 'Tres Tabernae' — 'three shops/inns,' a literal roadside cluster of taverns that gave the waystation its name",
     ancient:"A small posting-station of inns and shops serving travelers on the final stretch of the Appian Way into Rome, close enough to the city for its believers to walk out and back in a day.",
-    scene:{ terrain:"plain", settlement:"village", water:"none", veg:"sparse" } }
+    scene:{ terrain:"plain", settlement:"village", water:"none", veg:"sparse" } },
+  { id:"thyatira", name:"Thyatira", al:["Thyatira"], modern:"Akhisar, Turkey", lat:38.918, lon:27.839, type:"city",
+    blurb:"Guild town of Lydia the purple-seller; fourth of Revelation's seven churches, warned about 'Jezebel' (Rev 2:18-29).",
+    ancient:"A trading city in a river valley, its dyers, bronzeworkers and potters gathering at guild banquets for their patron gods.",
+    scene:{ terrain:"plain", settlement:"city", water:"river", veg:"mixed" } },
+  { id:"sardis", name:"Sardis", al:["Sardis"], modern:"Sart, Turkey", lat:38.488, lon:28.040, type:"city",
+    blurb:"Old Lydian capital under a near-sheer acropolis, twice taken by surprise; fifth church, 'you are dead' (Rev 3:1-6).",
+    ancient:"Gold-washing river, huge Artemis temple and a crumbling cliff-top citadel above a wide valley.",
+    scene:{ terrain:"hills", settlement:"temple", water:"river", veg:"sparse" } },
+  { id:"philadelphia", name:"Philadelphia", al:["Philadelphia"], modern:"Alaşehir, Turkey", lat:38.350, lon:28.517, type:"city",
+    blurb:"Earthquake-scarred frontier city promised 'an open door' (Rev 3:7-13).",
+    ancient:"A volcanic plain of vineyards with a gateway to the interior plateau; the city's people sometimes slept outside its walls for fear of tremors.",
+    scene:{ terrain:"plain", settlement:"city", water:"none", veg:"mixed" } },
+  { id:"laodicea", name:"Laodicea", al:["Laodicea","Laodiceans"], modern:"near Denizli, Turkey", lat:37.836, lon:29.108, type:"city",
+    blurb:"Rich banking and black-wool city with a medical school; the lukewarm church (Rev 3:14-22; Col 4:13-16).",
+    ancient:"A flat-topped terrace in the Lycus valley, white travertine cliffs of Hierapolis shining across the plain.",
+    scene:{ terrain:"plain", settlement:"city", water:"none", veg:"sparse" } }
 ];
 
 BVV.placeById = function (id) { return BVV.PLACES.find(p => p.id === id) || null; };
