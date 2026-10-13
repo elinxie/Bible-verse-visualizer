@@ -422,5 +422,14 @@ BVV.OBJECTS = [
   { id:"laodicean-lukewarm", name:"The lukewarm church", al:["neither cold nor hot", "lukewarm"], icon:"🥤",
     desc:"Laodicea's piped water reached the city tepid, neither the hot healing water of Hierapolis nor the cold drinking water of Colossae; Christ uses it to describe a self-satisfied church that is neither refreshing nor healing (Rev 3:15-16)." },
   { id:"christ-at-the-door", name:"Christ at the door", al:["I stand at the door and knock", "stand at the door and knock"], icon:"🚪",
-    desc:"The Lord, addressing a church rather than a lone seeker, stands outside and knocks, promising to come in and share a meal with whoever opens, an image of renewed fellowship (Rev 3:20)." }
+    desc:"The Lord, addressing a church rather than a lone seeker, stands outside and knocks, promising to come in and share a meal with whoever opens, an image of renewed fellowship (Rev 3:20)." },
+  { id:"new-heaven-new-earth", name:"A new heaven and a new earth", al:["new heaven and a new earth","a new heaven and a new earth"], icon:"🌌",
+    desc:"John sees the first heaven and earth pass away and the sea with them; God makes all things new and dwells with humanity, wiping away every tear (Rev 21:1-5), fulfilling Isaiah's promise of new heavens and a new earth (Isa 65:17)." },
+  { id:"new-jerusalem-city", name:"The New Jerusalem", al:["new Jerusalem","holy city"], icon:"🏙️",
+    desc:"The bride, the wife of the Lamb: a foursquare city of pure gold like clear glass, with twelve pearl gates bearing the tribes' names and twelve jewelled foundations bearing the apostles' names, lit by God's glory and with no temple (Rev 21:9-27)." },
+  { id:"river-of-life", name:"The river of the water of life", al:["river of the water of life","water of life"], icon:"💧",
+    desc:"A river bright as crystal flowing from the throne of God and of the Lamb down the middle of the city's street, with the tree of life on either bank (Rev 22:1-2), echoing Eden's river (Gen 2:10) and Ezekiel's temple stream (Ezek 47)." },
+  { id:"book-of-life-lamb", name:"The Lamb's book of life", al:["Lamb's book of life","book of life"], icon:"📖",
+    desc:"Only those written in the Lamb's book of life enter the city; nothing unclean or false ever will (Rev 21:27)." }
 ];
+
