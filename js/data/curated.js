@@ -11780,6 +11780,177 @@ BVV.CURATED = {
       { r:"Isaiah 53:3-12", note:"the suffering servant, widely read by Christian tradition behind Jesus' own words 'was it not necessary that the Christ should suffer'" },
       { r:"Psalm 22", note:"another Psalm read messianically alongside the crucifixion just days before this chapter" } ]}
   ]
+},
+
+/* ============================================================
+   REVELATION 21 — a new heaven and earth, the bride city, God dwelling with humanity
+   ============================================================ */
+"66:21": {
+  era: {
+    title: "ca. AD 95 — the final vision: all things made new",
+    sub: "Seen from exile on Patmos · a city descending, not an island ascending",
+    badges: ["Apocalyptic vision, not narrative geography", "Echoes Isaiah 65 and Ezekiel 40–48", "Eden's loss reversed", "≈1,930 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "John sees a new heaven and a new earth, for the first have passed away and the sea is no more. The holy city, new Jerusalem, descends out of heaven 'prepared as a bride adorned for her husband.' A loud voice declares that God's dwelling is with humanity: he will wipe away every tear, and death, mourning, crying and pain will be no more. The one on the throne says, 'Behold, I am making all things new,' and 'It is done. I am the Alpha and the Omega'; the thirsty receive the water of life freely, while the conqueror inherits all things. One of the seven bowl angels then shows John the bride: a city shining with God's glory, with twelve gates inscribed with the tribes of Israel and twelve foundations inscribed with the apostles, measured by the angel as a perfect cube of 12,000 stadia, its wall of jasper, its street pure gold, each gate a single pearl. There is no temple, for God and the Lamb are its temple, and no sun or moon, for God's glory is its light. The nations walk by it, the gates never close, and only those written in the Lamb's book of life enter.",
+  focusPlace: "patmos",
+  places: [
+    { id:"patmos", role:"The seer's vantage: John writes from exile, seeing the city come down from God" },
+    { id:"jerusalem", role:"The earthly city whose name and Zion-theology the new Jerusalem fulfils, yet this city descends from heaven rather than being rebuilt" },
+    { id:"eden", role:"The garden whose loss (Gen 3) is reversed: God again dwells with humanity and the tree of life is again accessible" }
+  ],
+  journey: [
+    { from:"patmos", to:"jerusalem", dashed:true, label:"A vision, not a voyage", km:1300,
+      note:"No travel occurs: John is carried 'in the Spirit' to a high mountain (v. 10). The dashed leg marks the distance between the seer's exile and the city whose name he sees." }
+  ],
+  hotspots: [
+    { x:0.03, type:"object", label:"A new heaven and a new earth",
+      desc:"'The first heaven and the first earth had passed away, and the sea was no more' (v. 1)." },
+    { x:0.12, type:"object", label:"The holy city, a bride",
+      desc:"The new Jerusalem comes down out of heaven 'prepared as a bride adorned for her husband' (v. 2)." },
+    { x:0.21, type:"person", av:"prophet", label:"God with them",
+      desc:"A loud voice: 'the dwelling place of God is with man. He will dwell with them, and they will be his people, and God himself will be with them as their God' (v. 3)." },
+    { x:0.3, type:"object", label:"Every tear wiped away",
+      desc:"'He will wipe away every tear from their eyes, and death shall be no more... for the former things have passed away' (v. 4)." },
+    { x:0.39, type:"object", label:"Behold, I am making all things new",
+      desc:"The one seated on the throne speaks, and tells John to write because these words are 'trustworthy and true' (v. 5)." },
+    { x:0.48, type:"object", label:"Water of life without price",
+      desc:"'To the thirsty I will give from the spring of the water of life without payment'; the conqueror will have God as God and be his son (vv. 6-7)." },
+    { x:0.57, type:"person", av:"traveler", label:"Come, I will show you the Bride",
+      desc:"One of the seven angels with the seven bowls carries John in the Spirit to a great, high mountain (vv. 9-10)." },
+    { x:0.66, type:"object", label:"Twelve gates, twelve foundations",
+      desc:"The gates bear the names of the twelve tribes of Israel; the foundations bear the names of the twelve apostles of the Lamb (vv. 12-14)." },
+    { x:0.75, type:"object", label:"Measured as a perfect cube",
+      desc:"The angel's golden rod measures the city: twelve thousand stadia in length, width and height; its wall is 144 cubits (vv. 15-17)." },
+    { x:0.83, type:"object", label:"Gold like glass, gates of pearl",
+      desc:"The wall is jasper, the city pure gold like clear glass, the foundations every kind of jewel, each gate a single pearl (vv. 18-21)." },
+    { x:0.91, type:"object", label:"No temple, no sun",
+      desc:"'Its temple is the Lord God the Almighty and the Lamb'; the glory of God gives it light, and its lamp is the Lamb (vv. 22-23)." },
+    { x:0.98, type:"object", label:"Gates never shut",
+      desc:"The nations walk by its light, the gates are never shut, and only those written in the Lamb's book of life enter (vv. 24-27)." }
+  ],
+  environment: {
+    chips: ["A city descending from heaven", "A cube of gold, pearl and jasper", "No sea, no temple, no night", "Eden's reversal", "Gates of twelve tribes, foundations of twelve apostles", "Open gates, closed to the unclean"],
+    text: "The new Jerusalem is drawn from the imagery of Ezekiel's temple vision and Isaiah's promises, but magnified: a cube (like the Holy of Holies, 1 Kgs 6:20) the size of the Mediterranean world, in precious materials known to John's readers as marks of wealth. The 'sea' that vanishes was, in the Old Testament, the home of chaos, and the sea around Patmos was John's own barrier from the churches."
+  },
+  objectsExtra: ["new-heaven-new-earth", "new-jerusalem-city", "book-of-life-lamb", "alpha-and-omega"],
+  peopleExtra: ["jesus", "john-apostle"],
+  culture: [
+    { title:"A cube like the Holy of Holies", icon:"🧊",
+      text:"The most holy place in Solomon's temple was a perfect cube of twenty cubits (1 Kgs 6:20). The new Jerusalem is a cube on a vast scale (v. 16), and has no separate temple (v. 22): the whole city is the place of God's presence." },
+    { title:"Why no sea?", icon:"🌊",
+      text:"In Hebrew thought the sea was the place of chaos and monsters (Ps 74:13-14; Dan 7:3), and in Revelation the beast rises from it (13:1). 'The sea was no more' (v. 1) announces the end of what threatens creation, not the loss of water." },
+    { title:"Jewels and the high priest's breastpiece", icon:"💎",
+      text:"The twelve foundation stones (vv. 19-20) recall the twelve stones on the high priest's breastpiece (Exod 28:17-20), one per tribe. Here they carry the names of the apostles, joining Israel and the church in one city." },
+    { title:"Gates that never close", icon:"🚪",
+      text:"Ancient cities shut their gates at night against enemies. Gates that 'will never be shut by day' with 'no night there' (v. 25) describe a city with nothing left to fear, into which the nations bring their glory (vv. 24, 26)." }
+  ],
+  crossRefs: [
+    { group:"A new creation", refs:[
+      { r:"Isaiah 65:17-19", note:"'I create new heavens and a new earth... no more shall be heard in it the sound of weeping'" },
+      { r:"2 Peter 3:13", note:"'new heavens and a new earth in which righteousness dwells'" } ]},
+    { group:"God dwelling with his people", refs:[
+      { r:"Leviticus 26:11-12", note:"'I will make my dwelling among you... I will walk among you and will be your God'" },
+      { r:"Ezekiel 37:27", note:"'My dwelling place shall be with them, and I will be their God'" } ]},
+    { group:"Every tear wiped away", refs:[
+      { r:"Isaiah 25:8", note:"'He will swallow up death forever; and the Lord GOD will wipe away tears from all faces'" },
+      { r:"Revelation 7:17", note:"the Lamb will guide them to springs of water and God will wipe away every tear" } ]},
+    { group:"The bride and the Lamb", refs:[
+      { r:"Isaiah 61:10", note:"'as a bride adorns herself with her jewels'" },
+      { r:"Ephesians 5:25-27", note:"Christ presents the church to himself 'in splendor, without spot or wrinkle'" } ]},
+    { group:"The city's foundations", refs:[
+      { r:"Hebrews 11:10", note:"Abraham 'looked forward to the city that has foundations, whose designer and builder is God'" },
+      { r:"Ephesians 2:19-20", note:"the household of God 'built on the foundation of the apostles and prophets'" } ]},
+    { group:"Nations walk by its light", refs:[
+      { r:"Isaiah 60:3-11", note:"'nations shall come to your light... your gates shall be open continually'" },
+      { r:"Zechariah 14:7", note:"'at evening time there shall be light'" } ]}
+  ]
+},
+
+/* ============================================================
+   REVELATION 22 — the river and tree of life, 'Come, Lord Jesus'
+   ============================================================ */
+"66:22": {
+  era: {
+    title: "ca. AD 95 — the closing vision and the book's last words",
+    sub: "Seen from exile on Patmos · Eden's river and tree return in the city",
+    badges: ["Apocalyptic vision and epilogue", "Genesis 2–3 reversed", "Last chapter of the Christian Bible", "≈1,930 years ago (traditional)"]
+  },
+  timeOfDay: "day",
+  summary: "The angel shows John the river of the water of life, bright as crystal, flowing from the throne of God and of the Lamb down the middle of the city's street. On either side stands the tree of life, bearing twelve kinds of fruit, one for each month, its leaves for the healing of the nations. There will be no more curse; God's servants will worship, see his face, bear his name on their foreheads, and reign with no night, needing no lamp or sun. The angel confirms the words as trustworthy and true. Jesus says three times, 'Behold, I am coming soon,' blessing those who keep the prophecy and wash their robes. John falls to worship the angel, who refuses: 'Worship God.' The prophecy is not to be sealed, for the time is near. Jesus identifies himself as the Alpha and Omega, 'the root and the descendant of David, the bright morning star'; the Spirit and the Bride say 'Come,' and the thirsty are invited to take the water of life without price. A solemn warning forbids adding to or taking from the book, and the Bible ends with 'Surely I am coming soon. Amen. Come, Lord Jesus.'",
+  focusPlace: "patmos",
+  places: [
+    { id:"patmos", role:"The seer's vantage: John closes the book here, in exile, on the Lord's promise to come soon" },
+    { id:"eden", role:"The first garden: its river and tree of life, closed to humanity in Genesis 3, are open again in the city" },
+    { id:"jerusalem", role:"The earthly Jerusalem of the prophets, whose promised river (Ezek 47) and God's presence the new city fulfils" }
+  ],
+  journey: [
+    { from:"eden", to:"patmos", dashed:true, label:"From the first garden to the last vision", km:3000,
+      note:"No journey is narrated. The dashed leg links Eden, the garden whose river and tree of life reappear in verses 1-2, to the island from which John sees them." }
+  ],
+  hotspots: [
+    { x:0.03, type:"object", label:"The river of the water of life",
+      desc:"'Bright as crystal, flowing from the throne of God and of the Lamb through the middle of the street of the city' (vv. 1-2)." },
+    { x:0.13, type:"object", label:"The tree of life",
+      desc:"On either side of the river, 'with its twelve kinds of fruit, yielding its fruit each month. The leaves of the tree were for the healing of the nations' (v. 2)." },
+    { x:0.23, type:"object", label:"No more curse",
+      desc:"'No longer will there be anything accursed, but the throne of God and of the Lamb will be in it, and his servants will worship him' (v. 3)." },
+    { x:0.33, type:"person", av:"prophet", label:"They will see his face",
+      desc:"'His name will be on their foreheads. And night will be no more... the Lord God will be their light, and they will reign forever and ever' (vv. 4-5)." },
+    { x:0.43, type:"person", av:"traveler", label:"Trustworthy and true",
+      desc:"The angel confirms the words; the Lord has sent his angel to show his servants 'what must soon take place' (v. 6)." },
+    { x:0.52, type:"object", label:"Behold, I am coming soon",
+      desc:"'Blessed is the one who keeps the words of the prophecy of this book' (v. 7)." },
+    { x:0.61, type:"person", av:"prophet", label:"Worship God",
+      desc:"John falls down to worship at the angel's feet; the angel says 'You must not do that! I am a fellow servant with you... Worship God' (vv. 8-9)." },
+    { x:0.7, type:"object", label:"Do not seal the words",
+      desc:"Unlike Daniel's sealed book (Dan 12:4), this prophecy is to stay open, 'for the time is near' (v. 10)." },
+    { x:0.78, type:"object", label:"The Alpha and the Omega",
+      desc:"'I am the Alpha and the Omega, the first and the last, the beginning and the end' (v. 13)." },
+    { x:0.86, type:"object", label:"Washed robes, the tree of life",
+      desc:"'Blessed are those who wash their robes, so that they may have the right to the tree of life and that they may enter the city by the gates' (v. 14)." },
+    { x:0.93, type:"object", label:"The bright morning star",
+      desc:"'I, Jesus, have sent my angel... I am the root and the descendant of David, the bright morning star' (v. 16)." },
+    { x:0.99, type:"person", av:"traveler", label:"Come, Lord Jesus",
+      desc:"'The Spirit and the Bride say, Come'; 'Surely I am coming soon.' Amen. Come, Lord Jesus. The grace of the Lord Jesus be with all (vv. 17, 20-21)." }
+  ],
+  environment: {
+    chips: ["A river from the throne", "The tree of life restored", "No night, no lamp", "Eden's curse lifted", "An open book, a closed canon", "'Come' said three times"],
+    text: "The river and tree echo Eden (Gen 2:9-10) and Ezekiel's temple stream, whose banks bore fruit trees with healing leaves (Ezek 47:12). In the Roman province of Asia, John's readers lived under emperor worship; the closing claim that only God and the Lamb are to be worshipped, even against an angel, is as pointed as the opening letters."
+  },
+  objectsExtra: ["river-of-life", "tree-of-life", "alpha-and-omega", "morning-star", "new-jerusalem-city"],
+  peopleExtra: ["jesus", "john-apostle"],
+  culture: [
+    { title:"Eden restored", icon:"🌳",
+      text:"Genesis ends the garden story with the tree of life guarded by cherubim (Gen 3:24); Revelation ends the Bible with the tree open to those who wash their robes (v. 14). The curse (Gen 3:17) is lifted (v. 3)." },
+    { title:"Healing for the nations", icon:"🍃",
+      text:"Leaves 'for the healing of the nations' (v. 2) draws on Ezekiel's river, whose trees' 'leaves for healing' never wither (Ezek 47:12), extending Israel's hope to every people." },
+    { title:"Worship God alone", icon:"🙏",
+      text:"John twice falls before an angel (here and 19:10) and is twice corrected. In a world of emperor cults and angel veneration, the book closes with the same command it began with: worship belongs to God and the Lamb (vv. 3, 9)." },
+    { title:"A closing curse formula", icon:"📜",
+      text:"Warnings against adding to or taking away from a text (vv. 18-19) echo Deuteronomy 4:2 and 12:32 and were a standard way of guarding a covenant document, here applied to the book's prophecy." }
+  ],
+  crossRefs: [
+    { group:"The river and tree", refs:[
+      { r:"Genesis 2:9-10", note:"a river flowed out of Eden, and the tree of life stood in the midst of the garden" },
+      { r:"Ezekiel 47:1-12", note:"water from the temple becoming a river; on its banks trees whose leaves are for healing" } ]},
+    { group:"The curse removed", refs:[
+      { r:"Genesis 3:17-24", note:"the ground cursed and the way to the tree of life barred" },
+      { r:"Zechariah 14:11", note:"'never again shall there be a curse... Jerusalem shall dwell in security'" } ]},
+    { group:"Seeing God's face", refs:[
+      { r:"Matthew 5:8", note:"'Blessed are the pure in heart, for they shall see God'" },
+      { r:"1 John 3:2", note:"'we shall see him as he is'" } ]},
+    { group:"Do not add or take away", refs:[
+      { r:"Deuteronomy 4:2", note:"'You shall not add to the word that I command you, nor take from it'" },
+      { r:"Proverbs 30:5-6", note:"'Do not add to his words'" } ]},
+    { group:"Root of David, morning star", refs:[
+      { r:"Isaiah 11:1,10", note:"a shoot from the stump of Jesse; the root of Jesse as a signal for the peoples" },
+      { r:"Numbers 24:17", note:"'a star shall come out of Jacob'" } ]},
+    { group:"The thirsty invited", refs:[
+      { r:"Isaiah 55:1", note:"'Come, everyone who thirsts, come to the waters... without money'" },
+      { r:"John 7:37-38", note:"'If anyone thirsts, let him come to me and drink'" } ]}
+  ]
 }
+
 
 };
